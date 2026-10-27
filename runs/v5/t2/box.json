@@ -1,0 +1,8091 @@
+{
+ "blocks": {
+  "sheet:4f61069c/55b24967": [
+   "C51",
+   "C52",
+   "C53",
+   "C54",
+   "C55",
+   "C56",
+   "C57",
+   "C58",
+   "C59",
+   "C60",
+   "C61",
+   "C62",
+   "R58",
+   "R59",
+   "R60",
+   "R61",
+   "R62",
+   "R63",
+   "R64",
+   "R65",
+   "R66",
+   "R67",
+   "R68",
+   "R69",
+   "U12",
+   "U13",
+   "U14",
+   "U15"
+  ],
+  "sheet:4f61069c/55b25766": [
+   "C26",
+   "C27",
+   "C28",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C50",
+   "R24",
+   "R25",
+   "R26",
+   "R27",
+   "R28",
+   "R29",
+   "R30",
+   "R31",
+   "R32",
+   "R33",
+   "R34",
+   "R35",
+   "R36",
+   "R37",
+   "R38",
+   "R39",
+   "R40",
+   "R41",
+   "R42",
+   "R43",
+   "R44",
+   "R45",
+   "R46",
+   "R47",
+   "R48",
+   "R49",
+   "R50",
+   "R51",
+   "R52",
+   "R53",
+   "R54",
+   "R55",
+   "R56",
+   "R57",
+   "U10",
+   "U11",
+   "U4",
+   "U5",
+   "U6",
+   "U7",
+   "U8",
+   "U9"
+  ],
+  "sheet:4f61069c/55b76454": [
+   "BOX1",
+   "C139",
+   "C140",
+   "C141",
+   "C142",
+   "C143",
+   "C144",
+   "C145",
+   "C146",
+   "C147",
+   "C148",
+   "C149",
+   "C150",
+   "C151",
+   "C152",
+   "C153",
+   "C154",
+   "C155",
+   "C156",
+   "C157",
+   "C158",
+   "C159",
+   "C160",
+   "C161",
+   "C162",
+   "C163",
+   "C164",
+   "C165",
+   "C166",
+   "C167",
+   "C168",
+   "C169",
+   "C170",
+   "C171",
+   "C172",
+   "C173",
+   "C174",
+   "C175",
+   "C176",
+   "C177",
+   "C178",
+   "C179",
+   "C180",
+   "C181",
+   "C182",
+   "C183",
+   "C184",
+   "C185",
+   "C186",
+   "C187",
+   "C188",
+   "C189",
+   "C190",
+   "C191",
+   "C192",
+   "C193",
+   "C194",
+   "C195",
+   "C196",
+   "C197",
+   "C198",
+   "C199",
+   "C200",
+   "C201",
+   "D2",
+   "D3",
+   "D4",
+   "D5",
+   "D6",
+   "D7",
+   "D8",
+   "FIX1",
+   "FIX2",
+   "FIX3",
+   "FIX4",
+   "FIX5",
+   "FIX6",
+   "FIX7",
+   "FIX8",
+   "J10",
+   "J11",
+   "J12",
+   "J6",
+   "J7",
+   "J8",
+   "J9",
+   "L12",
+   "L13",
+   "L14",
+   "R154",
+   "R155",
+   "R156",
+   "R157",
+   "R158",
+   "R159",
+   "R160",
+   "R161",
+   "R162",
+   "R163",
+   "R164",
+   "TP1",
+   "TP2",
+   "TP3",
+   "TP4",
+   "TP5",
+   "TP6",
+   "TP7",
+   "TP8",
+   "TP9",
+   "U39",
+   "U40",
+   "U41",
+   "U42",
+   "U43",
+   "U44",
+   "U45"
+  ],
+  "sheet:4f61069c/55bfa0eb": [
+   "C1",
+   "C10",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C2",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C8",
+   "C9",
+   "D1",
+   "J1",
+   "J2",
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "Q1",
+   "R1",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14",
+   "R15",
+   "R16",
+   "R165",
+   "R17",
+   "R18",
+   "R19",
+   "R2",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "sheet:4f61069c/55c36387": [
+   "C63",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C70",
+   "C71",
+   "R70",
+   "R71",
+   "R72",
+   "R73",
+   "U16",
+   "U17"
+  ],
+  "sheet:4f61069c/55d7108b": [
+   "C100",
+   "C101",
+   "C102",
+   "C103",
+   "C104",
+   "C105",
+   "C106",
+   "C107",
+   "C108",
+   "C109",
+   "C98",
+   "C99",
+   "L10",
+   "L11",
+   "L8",
+   "L9",
+   "R100",
+   "R101",
+   "R102",
+   "R103",
+   "R104",
+   "R105",
+   "R106",
+   "R107",
+   "R108",
+   "U21",
+   "U22",
+   "U23",
+   "U24",
+   "U25",
+   "U26",
+   "U27"
+  ],
+  "sheet:4f61069c/55dd4d5a": [
+   "C110",
+   "C111",
+   "C112",
+   "C113",
+   "C114",
+   "C115",
+   "C116",
+   "C117",
+   "C118",
+   "C119",
+   "C120",
+   "C121",
+   "C122",
+   "R109",
+   "R110",
+   "R111",
+   "R112",
+   "R113",
+   "R114",
+   "R115",
+   "R116",
+   "R117",
+   "R118",
+   "R119",
+   "R120",
+   "R121",
+   "R122",
+   "R123",
+   "R124",
+   "R125",
+   "R126",
+   "R127",
+   "U28",
+   "U29",
+   "U30"
+  ],
+  "sheet:4f61069c/55dd5793": [
+   "C123",
+   "C124",
+   "C125",
+   "C126",
+   "C127",
+   "C128",
+   "C129",
+   "C130",
+   "C131",
+   "C132",
+   "C133",
+   "C134",
+   "C135",
+   "C136",
+   "C137",
+   "C138",
+   "J5",
+   "R128",
+   "R129",
+   "R130",
+   "R131",
+   "R132",
+   "R133",
+   "R134",
+   "R135",
+   "R136",
+   "R137",
+   "R138",
+   "R139",
+   "R140",
+   "R141",
+   "R142",
+   "R143",
+   "R144",
+   "R145",
+   "R146",
+   "R147",
+   "R148",
+   "R149",
+   "R150",
+   "R151",
+   "R152",
+   "R153",
+   "U31",
+   "U32",
+   "U33",
+   "U34",
+   "U35",
+   "U36",
+   "U37",
+   "U38"
+  ],
+  "sheet:4f61069c/56c4bef4": [
+   "C72",
+   "C73",
+   "C74",
+   "C75",
+   "C76",
+   "C77",
+   "C78",
+   "C79",
+   "C80",
+   "C81",
+   "C82",
+   "C83",
+   "C84",
+   "C85",
+   "C86",
+   "C87",
+   "C88",
+   "C89",
+   "C90",
+   "C91",
+   "C92",
+   "C93",
+   "C94",
+   "C95",
+   "C96",
+   "C97",
+   "J3",
+   "J4",
+   "R74",
+   "R75",
+   "R76",
+   "R77",
+   "R78",
+   "R79",
+   "R80",
+   "R81",
+   "R82",
+   "R83",
+   "R84",
+   "R85",
+   "R86",
+   "R87",
+   "R88",
+   "R89",
+   "R90",
+   "R91",
+   "R92",
+   "R93",
+   "R94",
+   "R95",
+   "R96",
+   "R97",
+   "R98",
+   "R99",
+   "U18",
+   "U19",
+   "U20"
+  ]
+ },
+ "board": "/tmp/pcb-trials/timiq/_truth/human_stripped.kicad_pcb",
+ "brief_coverage": {
+  "abstained": 0,
+  "brief": null,
+  "carried": 0,
+  "clauses": [],
+  "complete": true,
+  "drifted": 0,
+  "graded": 0,
+  "not_claimed": 0,
+  "schema": 1,
+  "uncovered": 0
+ },
+ "budget_abstained": {
+  "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range",
+  "overlap_area": "1 blocking body pair(s) on the emitting board (run-6)"
+ },
+ "budget_dispositioned": {},
+ "complete": false,
+ "decap_pin_evidence": {
+  "by_channel": {
+   "pinfunction": 0,
+   "pintype": 0,
+   "rail_net": 36,
+   "role": 0
+  },
+  "chips": 45,
+  "chips_graded": 36,
+  "order_decided": [],
+  "pins": 107,
+  "pins_by_channel": {
+   "pinfunction": 0,
+   "pintype": 0,
+   "rail_net": 107,
+   "role": 0
+  }
+ },
+ "declaration_ledger": [
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "envelope.rect",
+   "disposition": null,
+   "grader": "envelope",
+   "id": "rule:envelope",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `envelope.rect`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "blocks[].zone",
+   "disposition": null,
+   "grader": "zone_containment",
+   "id": "rule:zone_containment",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `blocks[].zone`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_side",
+   "id": "rule:zone_side",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "no block declares a side"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "assembly.sides",
+   "disposition": null,
+   "grader": "assembly_side",
+   "id": "rule:assembly_side",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `assembly.sides`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_exclusive",
+   "id": "rule:zone_exclusive",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "no block is marked exclusive"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "keepouts[]",
+   "disposition": null,
+   "grader": "keepout",
+   "id": "rule:keepout",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_fail",
+   "why": "armed by the plan's `keepouts[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "edge_connectors[]",
+   "disposition": null,
+   "grader": "edge_connector",
+   "id": "rule:edge_connector",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `edge_connectors[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_distance",
+   "id": "rule:decap_distance",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_ungraded",
+   "id": "rule:decap_ungraded",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "decaps.max_pin_distance_mm",
+   "disposition": null,
+   "grader": "decap_pin_distance",
+   "id": "rule:decap_pin_distance",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `decaps.max_pin_distance_mm`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "proximity",
+   "id": "rule:proximity",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no proximity claims"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "keep_away",
+   "id": "rule:keep_away",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no keep_away rules"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "must_lock",
+   "id": "rule:must_lock",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no must_lock patterns"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "legality_budget",
+   "disposition": null,
+   "grader": "legality",
+   "id": "rule:legality",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "`overlap_area` withheld: 1 blocking body pair(s) on the emitting board (run-6)"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "edge_connectors[]",
+   "disposition": null,
+   "grader": "pins_to_edge",
+   "id": "rule:pins_to_edge",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `edge_connectors[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "array_formation",
+   "id": "rule:array_formation",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no arrays"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "replicate",
+   "id": "rule:replicate",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no replicate copies"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "template",
+   "id": "rule:template",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no templates"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "cover",
+   "id": "rule:cover",
+   "kind": "rule",
+   "source": "t2/int_box.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no covers"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J1:edge",
+   "kind": "reconciliation",
+   "source": "t2/int_box.json",
+   "status": "graded_pass",
+   "values": {
+    "board": "south",
+    "intent": "south"
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J2:edge",
+   "kind": "reconciliation",
+   "source": "t2/int_box.json",
+   "status": "graded_pass",
+   "values": {
+    "board": "south",
+    "intent": "south"
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J3:edge",
+   "kind": "reconciliation",
+   "source": "t2/int_box.json",
+   "status": "graded_pass",
+   "values": {
+    "board": "south",
+    "intent": "south"
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J4:edge",
+   "kind": "reconciliation",
+   "source": "t2/int_box.json",
+   "status": "graded_pass",
+   "values": {
+    "board": "south",
+    "intent": "south"
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  }
+ ],
+ "edge_connector_evidence": [
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "right",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       256.216,
+       220.44
+      ],
+      "pad_ref": "FIX1.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX1",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       184.216,
+       220.44
+      ],
+      "pad_ref": "FIX2.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX2",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       112.216,
+       220.44
+      ],
+      "pad_ref": "FIX3.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX3",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "left",
+      "gap_mm": 0.20000000000000284,
+      "pad_index": 0,
+      "pad_loc": [
+       112.216,
+       148.44
+      ],
+      "pad_ref": "FIX4.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.29999999999999716
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX4",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "bottom",
+      "gap_mm": 0.20000000000000284,
+      "pad_index": 0,
+      "pad_loc": [
+       112.216,
+       66.44
+      ],
+      "pad_ref": "FIX5.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.29999999999999716
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX5",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "bottom",
+      "gap_mm": 0.20000000000000284,
+      "pad_index": 0,
+      "pad_loc": [
+       184.216,
+       66.44
+      ],
+      "pad_ref": "FIX6.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.29999999999999716
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX6",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "right",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       256.216,
+       66.44
+      ],
+      "pad_ref": "FIX7.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX7",
+   "units": "mm"
+  },
+  {
+   "body_layer": null,
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "no body drawing on the footprint face",
+   "edge": null,
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "",
+    "disposition": "exempt",
+    "edge": null,
+    "facing": null,
+    "local_face": null,
+    "offset_mm": 0.0,
+    "policy": "exempt: part_class class none",
+    "reason": "no drawn body",
+    "strong": false
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "right",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       256.216,
+       148.44
+      ],
+      "pad_ref": "FIX8.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "FIX8",
+   "units": "mm"
+  },
+  {
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.19303999999999633,
+      "pad_index": 0,
+      "pad_loc": [
+       146.28568,
+       222.07196
+      ],
+      "pad_ref": "J1.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.3069600000000037
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 1,
+      "pad_loc": [
+       150.53568,
+       220.49696
+      ],
+      "pad_ref": "J1.2",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 2,
+      "pad_loc": [
+       142.03568,
+       220.49696
+      ],
+      "pad_ref": "J1.3",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 3,
+      "pad_loc": [
+       150.53568,
+       220.49696
+      ],
+      "pad_ref": "J1.4",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 4,
+      "pad_loc": [
+       142.03568,
+       220.49696
+      ],
+      "pad_ref": "J1.5",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.193,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.307,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J1",
+   "units": "mm"
+  },
+  {
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.1904999999999859,
+      "pad_index": 0,
+      "pad_loc": [
+       157.81474,
+       222.0745
+      ],
+      "pad_ref": "J2.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.3095000000000141
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 1,
+      "pad_loc": [
+       162.06474,
+       220.4995
+      ],
+      "pad_ref": "J2.2",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 2,
+      "pad_loc": [
+       153.56474,
+       220.4995
+      ],
+      "pad_ref": "J2.3",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 3,
+      "pad_loc": [
+       162.06474,
+       220.4995
+      ],
+      "pad_ref": "J2.4",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 4,
+      "pad_loc": [
+       153.56474,
+       220.4995
+      ],
+      "pad_ref": "J2.5",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.1905,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3095,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J2",
+   "units": "mm"
+  },
+  {
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.1799999999999784,
+      "pad_index": 0,
+      "pad_loc": [
+       210.045,
+       222.085
+      ],
+      "pad_ref": "J3.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.3200000000000216
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 1,
+      "pad_loc": [
+       214.295,
+       220.51
+      ],
+      "pad_ref": "J3.2",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 2,
+      "pad_loc": [
+       205.795,
+       220.51
+      ],
+      "pad_ref": "J3.3",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 3,
+      "pad_loc": [
+       214.295,
+       220.51
+      ],
+      "pad_ref": "J3.4",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 4,
+      "pad_loc": [
+       205.795,
+       220.51
+      ],
+      "pad_ref": "J3.5",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.18,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.32,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J3",
+   "units": "mm"
+  },
+  {
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       222.065,
+       222.065
+      ],
+      "pad_ref": "J4.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J4",
+   "units": "mm"
+  }
+ ],
+ "edge_seating": [
+  {
+   "along_edge_fraction": 0.2471,
+   "along_edge_offset_mm": -37.9303,
+   "along_edge_offset_pct": -25.29,
+   "basis": "ring",
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "declared": false,
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.19303999999999633,
+      "pad_index": 0,
+      "pad_loc": [
+       146.28568,
+       222.07196
+      ],
+      "pad_ref": "J1.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.3069600000000037
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 1,
+      "pad_loc": [
+       150.53568,
+       220.49696
+      ],
+      "pad_ref": "J1.2",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 2,
+      "pad_loc": [
+       142.03568,
+       220.49696
+      ],
+      "pad_ref": "J1.3",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 3,
+      "pad_loc": [
+       150.53568,
+       220.49696
+      ],
+      "pad_ref": "J1.4",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4930400000000077,
+      "pad_index": 4,
+      "pad_loc": [
+       142.03568,
+       220.49696
+      ],
+      "pad_ref": "J1.5",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.006959999999992306
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.193,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.307,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J1",
+   "span_mm": 150.0,
+   "units": "mm"
+  },
+  {
+   "along_edge_fraction": 0.324,
+   "along_edge_offset_mm": -26.4013,
+   "along_edge_offset_pct": -17.6,
+   "basis": "ring",
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "declared": false,
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.1904999999999859,
+      "pad_index": 0,
+      "pad_loc": [
+       157.81474,
+       222.0745
+      ],
+      "pad_ref": "J2.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.3095000000000141
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 1,
+      "pad_loc": [
+       162.06474,
+       220.4995
+      ],
+      "pad_ref": "J2.2",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 2,
+      "pad_loc": [
+       153.56474,
+       220.4995
+      ],
+      "pad_ref": "J2.3",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 3,
+      "pad_loc": [
+       162.06474,
+       220.4995
+      ],
+      "pad_ref": "J2.4",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.49049999999999727,
+      "pad_index": 4,
+      "pad_loc": [
+       153.56474,
+       220.4995
+      ],
+      "pad_ref": "J2.5",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.009500000000002728
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.1905,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3095,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J2",
+   "span_mm": 150.0,
+   "units": "mm"
+  },
+  {
+   "along_edge_fraction": 0.6722,
+   "along_edge_offset_mm": 25.829,
+   "along_edge_offset_pct": 17.22,
+   "basis": "ring",
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "declared": false,
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.1799999999999784,
+      "pad_index": 0,
+      "pad_loc": [
+       210.045,
+       222.085
+      ],
+      "pad_ref": "J3.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.3200000000000216
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 1,
+      "pad_loc": [
+       214.295,
+       220.51
+      ],
+      "pad_ref": "J3.2",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 2,
+      "pad_loc": [
+       205.795,
+       220.51
+      ],
+      "pad_ref": "J3.3",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 3,
+      "pad_loc": [
+       214.295,
+       220.51
+      ],
+      "pad_ref": "J3.4",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     },
+     {
+      "edge": "top",
+      "gap_mm": 0.4800000000000182,
+      "pad_index": 4,
+      "pad_loc": [
+       205.795,
+       220.51
+      ],
+      "pad_ref": "J3.5",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.01999999999998181
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.18,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.32,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J3",
+   "span_mm": 150.0,
+   "units": "mm"
+  },
+  {
+   "along_edge_fraction": 0.7523,
+   "along_edge_offset_mm": 37.849,
+   "along_edge_offset_pct": 25.23,
+   "basis": "ring",
+   "body_layer": "F.SilkS",
+   "body_measured": false,
+   "body_overhang_mm": null,
+   "body_setback_mm": null,
+   "body_signed_position_mm": null,
+   "body_unmeasured_reason": "open or concave body envelope (a convex hull side is not drawn)",
+   "declared": false,
+   "edge": "south",
+   "effective_margin_mm": 0.5,
+   "facing": {
+    "basis": "silk",
+    "disposition": "exempt",
+    "edge": "south",
+    "facing": "south",
+    "local_face": "-x",
+    "offset_mm": 4.743,
+    "policy": "exempt: part_class class connector_affinity",
+    "reason": "",
+    "strong": true
+   },
+   "other_body_edge_overhang_mm": null,
+   "other_edge_overhang_mm": {},
+   "overhang_basis": "legacy_occupancy@margin=0",
+   "overhang_disposition": "pass",
+   "overhang_limit_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "overhang_mm": 0.0,
+   "pad_copper_edge": {
+    "basis": "analytic pad copper extrema (custom pads: parsed polygons) vs rectangular Edge.Cuts centreline (within 0.1 mm of one: its bbox shrunk by the outline_inset_mm it strays); edge-straddling castellated pads exempt; other outlines sampled, not certified; no body/track/via/fill check",
+    "certified": true,
+    "disposition": "fail",
+    "findings": [
+     {
+      "edge": "top",
+      "gap_mm": 0.19999999999998863,
+      "pad_index": 0,
+      "pad_loc": [
+       222.065,
+       222.065
+      ],
+      "pad_ref": "J4.1",
+      "required_mm": 0.5,
+      "shortfall_mm": 0.30000000000001137
+     }
+    ],
+    "measured_pads": 28,
+    "minimum_gap_mm": 0.2,
+    "outside_mm": 0.0,
+    "required_mm": 0.5,
+    "requirement_source": "cli",
+    "rules_unmeasured": [],
+    "shortfall_mm": 0.3,
+    "units": "mm",
+    "unmeasured": []
+   },
+   "ref": "J4",
+   "span_mm": 150.0,
+   "units": "mm"
+  }
+ ],
+ "health": {},
+ "intent": "t2/int_box.json",
+ "legality": {
+  "hole_shortfall": 0.0,
+  "hpwl": 6237.3248,
+  "keepout_pad_amount": 0.0,
+  "keepout_pad_parts": 0,
+  "locked_contact_pairs": 0,
+  "oob_amount": 4.8365,
+  "oob_area": 32.2882,
+  "oob_count": 12,
+  "oob_count_exempt": 12,
+  "overlap_area": 1245.7175,
+  "pad_conflict_pairs": 4,
+  "pad_intersection_pairs": 4,
+  "pad_overlap_pairs": 3,
+  "pad_shortfall": 1.5951
+ },
+ "n_footprints": 464,
+ "not_graded": {
+  "budget_abstained": 2,
+  "rules_skipped_armed": 2
+ },
+ "outline": {
+  "bounds": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "cutouts": 0,
+  "edge_contours": 0,
+  "edge_segments": 5,
+  "outlines": 1,
+  "problems": [],
+  "simple_rectangle": false,
+  "trustworthy": true
+ },
+ "pad_stacks": {
+  "pad_stack_area": 2.0014,
+  "pad_stack_basis": "check_assembly's pad_intersection channel (legality.pad_intersection_pairs): two parts' pad copper intersecting on a shared side, any net, confirmed on the pads' outlines by check_drc's pad-pad check; never waivable",
+  "pad_stack_count": 1,
+  "pad_stack_pairs": [
+   [
+    "C20",
+    "R16",
+    2.0014,
+    "F"
+   ]
+  ]
+ },
+ "pass": false,
+ "reconciliation": [
+  {
+   "field": "edge",
+   "id": "J1:edge",
+   "kind": "agree",
+   "ref": "J1",
+   "values": {
+    "board": {
+     "authority": "inferred",
+     "source": "/tmp/pcb-trials/timiq/_truth/human_stripped.kicad_pcb",
+     "value": "south"
+    },
+    "intent": {
+     "authority": "hypothesis",
+     "source": "t2/int_box.json",
+     "value": "south"
+    }
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  },
+  {
+   "field": "edge",
+   "id": "J2:edge",
+   "kind": "agree",
+   "ref": "J2",
+   "values": {
+    "board": {
+     "authority": "inferred",
+     "source": "/tmp/pcb-trials/timiq/_truth/human_stripped.kicad_pcb",
+     "value": "south"
+    },
+    "intent": {
+     "authority": "hypothesis",
+     "source": "t2/int_box.json",
+     "value": "south"
+    }
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  },
+  {
+   "field": "edge",
+   "id": "J3:edge",
+   "kind": "agree",
+   "ref": "J3",
+   "values": {
+    "board": {
+     "authority": "inferred",
+     "source": "/tmp/pcb-trials/timiq/_truth/human_stripped.kicad_pcb",
+     "value": "south"
+    },
+    "intent": {
+     "authority": "hypothesis",
+     "source": "t2/int_box.json",
+     "value": "south"
+    }
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  },
+  {
+   "field": "edge",
+   "id": "J4:edge",
+   "kind": "agree",
+   "ref": "J4",
+   "values": {
+    "board": {
+     "authority": "inferred",
+     "source": "/tmp/pcb-trials/timiq/_truth/human_stripped.kicad_pcb",
+     "value": "south"
+    },
+    "intent": {
+     "authority": "hypothesis",
+     "source": "t2/int_box.json",
+     "value": "south"
+    }
+   },
+   "why": "the edge each channel puts this part on, read off the rect the edge-connector rule reads (`edge_seat_rect`)",
+   "winner": "intent"
+  }
+ ],
+ "rule_roster": [
+  {
+   "applicability_reason": "armed by the plan's `envelope.rect`",
+   "applicable": true,
+   "arming_key": "envelope.rect",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "envelope",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `blocks[].zone`",
+   "applicable": true,
+   "arming_key": "blocks[].zone",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "zone_containment",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "the board carries parts on both faces",
+   "applicable": true,
+   "arming_key": "blocks[].side",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "zone_side",
+   "skip_reason": "no block declares a side",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `assembly.sides`",
+   "applicable": true,
+   "arming_key": "assembly.sides",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "assembly_side",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a policy about who may enter a zone; nothing on the board says that a zone is reserved",
+   "applicable": true,
+   "arming_key": "blocks[].exclusive (on a zoned block)",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "zone_exclusive",
+   "skip_reason": "no block is marked exclusive",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `keepouts[]`",
+   "applicable": true,
+   "arming_key": "keepouts[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "keepout",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `edge_connectors[]`",
+   "applicable": true,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "edge_connector",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "decap_distance",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {
+    "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_ungraded",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {
+    "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `decaps.max_pin_distance_mm`",
+   "applicable": true,
+   "arming_key": "decaps.max_pin_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_pin_distance",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two named parts; nothing on the board, and nothing in a design brief, says which parts must be near which",
+   "applicable": true,
+   "arming_key": "proximity[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "proximity",
+   "skip_reason": "the intent declares no proximity claims",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive",
+   "applicable": true,
+   "arming_key": "keep_away[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "keep_away",
+   "skip_reason": "the intent declares no keep_away rules",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing",
+   "applicable": false,
+   "arming_key": "must_lock[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "must_lock",
+   "skip_reason": "the intent declares no must_lock patterns",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `legality_budget`",
+   "applicable": true,
+   "arming_key": "legality_budget",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "legality",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {
+    "overlap_area": "1 blocking body pair(s) on the emitting board (run-6)"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `edge_connectors[]`",
+   "applicable": true,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "pins_to_edge",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which parts form one row; nothing on the board says which identical parts belong together",
+   "applicable": true,
+   "arming_key": "arrays[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "array_formation",
+   "skip_reason": "the intent declares no arrays",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike",
+   "applicable": true,
+   "arming_key": "replicate[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "replicate",
+   "skip_reason": "the intent declares no replicate copies",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "an arrangement read from a part's datasheet; the board says which parts are wired to the chip, not where its datasheet puts them",
+   "applicable": true,
+   "arming_key": "templates[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "template",
+   "skip_reason": "the intent declares no templates",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches",
+   "applicable": true,
+   "arming_key": "covers[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "cover",
+   "skip_reason": "the intent declares no covers",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  }
+ ],
+ "rules_run": [
+  "envelope",
+  "zone_containment",
+  "assembly_side",
+  "keepout",
+  "edge_connector",
+  "decap_pin_distance",
+  "legality",
+  "pins_to_edge"
+ ],
+ "rules_skipped": {
+  "array_formation": "the intent declares no arrays",
+  "cover": "the intent declares no covers",
+  "decap_distance": "the intent declares no decaps.max_distance_mm; the emitter WITHHELD decaps.max_distance_mm (the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range)",
+  "decap_ungraded": "the intent declares no decaps.max_distance_mm; the emitter WITHHELD decaps.max_distance_mm (the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range)",
+  "keep_away": "the intent declares no keep_away rules",
+  "must_lock": "the intent declares no must_lock patterns",
+  "proximity": "the intent declares no proximity claims",
+  "replicate": "the intent declares no replicate copies",
+  "template": "the intent declares no templates",
+  "zone_exclusive": "no block is marked exclusive",
+  "zone_side": "no block declares a side"
+ },
+ "schema": 1,
+ "stale_dispositions": [],
+ "state": {
+  "distinct_positions": 458,
+  "duplicate_fraction": 0.0259,
+  "has_copper": false,
+  "n_footprints": 464,
+  "outside_fraction": 0.0,
+  "partially_unplaced": false,
+  "segments": 0,
+  "spread_ratio": 0.9708,
+  "stacked_refs": [
+   "C149",
+   "C150",
+   "C53",
+   "C54",
+   "C55",
+   "R109",
+   "R110",
+   "R111",
+   "R112",
+   "R58",
+   "R59",
+   "R60"
+  ],
+  "stacked_suspect_refs": [],
+  "unplaced": false,
+  "vias": 0
+ },
+ "violations": [
+  {
+   "expected": {
+    "fit": 4
+   },
+   "measured": {
+    "edge": "south",
+    "fit": 2,
+    "free": [
+     [
+      109.47,
+      126.46
+     ],
+     [
+      241.96,
+      258.96
+     ]
+    ],
+    "parts": [
+     "J1",
+     "J2",
+     "J3",
+     "J4"
+    ],
+    "parts_mm": 42.4,
+    "seated": [
+     "J1",
+     "J2"
+    ],
+    "side": "F",
+    "unseated": [
+     "J3",
+     "J4"
+    ]
+   },
+   "message": "the south edge (F side) cannot seat J1, J2, J3 and J4 together: J1 10.60 mm long, its courtyard within x 109.47-126.46, 241.96-258.96 (origin at x 114.77-121.16, 247.26-253.66); J2 10.60 mm long, its courtyard within x 109.47-126.46, 241.96-258.96 (origin at x 114.77-121.16, 247.26-253.66); J3 10.60 mm long, its courtyard within x 109.47-126.46, 241.96-258.96 (origin at x 114.77-121.16, 247.26-253.66); J4 10.60 mm long, its courtyard within x 109.47-126.46, 241.96-258.96 (origin at x 114.77-121.16, 247.26-253.66); 42.40 mm of parts, and the free span x 109.47-126.46, 241.96-258.96 (33.99 mm) holds at most 2 of the 4. Seated: J1, J2 (the most that fit, the earlier declared first); placed without its edge claim: J3, J4. This is the intent's to fix, the same in every seed: move a connector to another edge, drop a declaration, or widen a band, then place again",
+   "rule": "edge_oversubscribed",
+   "severity": "warn"
+  },
+  {
+   "block": "sheet:4f61069c/55b24967",
+   "expected": {
+    "overlap": "partial or none"
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "zone": [
+     176.143,
+     146.594,
+     198.677,
+     169.28
+    ]
+   },
+   "message": "block 'sheet:4f61069c/55b24967' declares a zone that keep-out 'box_interior' covers entirely: its members are required to be somewhere they are forbidden to be. No pose satisfies both, so such a member can never LEAVE its zone under the optimizer's monotone intent gate, and cannot clear the keep-out without leaving it",
+   "rule": "intent_zone_in_keepout",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55c36387",
+   "expected": {
+    "overlap": "partial or none"
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "zone": [
+     174.792,
+     172.477,
+     195.626,
+     187.386
+    ]
+   },
+   "message": "block 'sheet:4f61069c/55c36387' declares a zone that keep-out 'box_interior' covers entirely: its members are required to be somewhere they are forbidden to be. No pose satisfies both, so such a member can never LEAVE its zone under the optimizer's monotone intent gate, and cannot clear the keep-out without leaving it",
+   "rule": "intent_zone_in_keepout",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd4d5a",
+   "expected": {
+    "overlap": "partial or none"
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "zone": [
+     132.374,
+     122.835,
+     160.435,
+     150.149
+    ]
+   },
+   "message": "block 'sheet:4f61069c/55dd4d5a' declares a zone that keep-out 'box_interior' covers entirely: its members are required to be somewhere they are forbidden to be. No pose satisfies both, so such a member can never LEAVE its zone under the optimizer's monotone intent gate, and cannot clear the keep-out without leaving it",
+   "rule": "intent_zone_in_keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C1 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C10 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C10",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C100 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C100",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C101 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C101",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C102 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C102",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C103 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C103",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C104 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C104",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C105 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C105",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C106 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C106",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C107 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C107",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C108 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C108",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C109 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C109",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C11 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C11",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C110 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C110",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C111 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C111",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C112 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C112",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C113 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C113",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C114 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C114",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C115 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C115",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C116 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C116",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C117 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C117",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C118 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C118",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C119 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C119",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C12 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C12",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C120 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C120",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C121 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C121",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C122 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C122",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C123 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C123",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C124 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C124",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C125 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C125",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C126 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C126",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C127 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C127",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C128 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C128",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C129 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C129",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C13 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C13",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C130 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C130",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C131 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C131",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C132 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C132",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C134 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C134",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C135 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C135",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C136 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C136",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C137 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C137",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C138 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C138",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C14 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C14",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C15 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C15",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C16 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C16",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C17 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C17",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C18 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C18",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C19 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C19",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C2 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C20 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C20",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C21 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C21",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C22 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C22",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C23 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C23",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C24 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C24",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C25 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C25",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C26 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C26",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C27 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C27",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C28 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C28",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C29 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C29",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C3 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C3",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C30 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C30",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C31 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C31",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C32 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C32",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C33 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C33",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C34 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C34",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C35 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C35",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C36 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C36",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C37 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C37",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C38 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C39 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C39",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C4 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C4",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C40 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C40",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C41 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C41",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C42 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C42",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C43 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C43",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C44 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C44",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C45 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C45",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C46 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C46",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C47 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C47",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C48 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C48",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C49 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C49",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C5 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C5",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C50 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C50",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C51 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C51",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C52 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C52",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C53 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C53",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C54 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C54",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C55 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C55",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C56 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C56",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C57 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C57",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C58 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C58",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C59 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C59",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C6 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C6",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C60 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C60",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C61 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C61",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C62 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C62",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C63 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C63",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C64 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C64",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C65 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C65",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C66 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C66",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C67 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C67",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C68 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C68",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C69 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C69",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C7 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C7",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C70 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C70",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C71 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C71",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C72 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C72",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C73 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C73",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C74 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C74",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C75 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C75",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C76 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C76",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C77 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C77",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C78 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C78",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C79 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C79",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C8 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C8",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C80 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C80",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C81 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C81",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C82 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C82",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C83 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C83",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C84 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C84",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C85 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C85",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C86 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C86",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C87 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C87",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C88 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C88",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C89 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C89",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C9 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C9",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C90 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C90",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C91 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C91",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C92 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C92",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C93 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C93",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C94 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C94",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C95 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C95",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C96 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C96",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C97 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C97",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C98 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C98",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C99 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "C99",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "J10 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J10",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "J11 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J11",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "J12 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J12",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "J5 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J5",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "J7 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J7",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "J8 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J8",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "J9 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "J9",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L1 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "L10 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L10",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "L11 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L11",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L2 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L3 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L3",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L4 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L4",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L5 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L5",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L6 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L6",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "L7 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L7",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "L8 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L8",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "L9 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "L9",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R10 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R10",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R100 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R100",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R101 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R101",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R102 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R102",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R103 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R103",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R104 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R104",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R105 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R105",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R106 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R106",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R107 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R107",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R108 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R108",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R109 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R109",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R11 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R11",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R110 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R110",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R111 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R111",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R112 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R112",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R113 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R113",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R114 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R114",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R115 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R115",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R116 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R116",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R117 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R117",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R118 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R118",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R119 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R119",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R12 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R12",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R120 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R120",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R121 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R121",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R122 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R122",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R123 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R123",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R124 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R124",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R125 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R125",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R126 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R126",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R127 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R127",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R128 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R128",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R129 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R129",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R13 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R13",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R130 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R130",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R131 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R131",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R132 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R132",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R133 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R133",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R134 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R134",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R135 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R135",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R136 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R136",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R137 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R137",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R14 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R14",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R15 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R15",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R150 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R150",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R16 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R16",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R165 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R165",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R17 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R17",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R18 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R18",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R19 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R19",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R2 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R20 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R20",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R21 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R21",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R22 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R22",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R23 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R23",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R24 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R24",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R25 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R25",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R26 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R26",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R27 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R27",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R28 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R28",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R29 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R29",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R3 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R3",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R30 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R30",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R31 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R31",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R32 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R32",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R33 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R33",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R34 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R34",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R35 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R35",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R36 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R36",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R37 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R37",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R38 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R39 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R39",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R4 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R4",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R40 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R40",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R41 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R41",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R42 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R42",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R43 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R43",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R44 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R44",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R45 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R45",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R46 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R46",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R47 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R47",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R48 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R48",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R49 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R49",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R5 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R5",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R50 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R50",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R51 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R51",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R52 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R52",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R53 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R53",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R54 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R54",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R55 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R55",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R56 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R56",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R57 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R57",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R58 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R58",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R59 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R59",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R6 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R6",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R60 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R60",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R61 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R61",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R62 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R62",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R63 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R63",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R64 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R64",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R65 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R65",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R66 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R66",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R67 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R67",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R68 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R68",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R69 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R69",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R7 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R7",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R70 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R70",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R71 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R71",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R72 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R72",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R73 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R73",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R74 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R74",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R75 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R75",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R76 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R76",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R77 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R77",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R78 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R78",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R79 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R79",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R8 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R8",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R80 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R80",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R81 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R81",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R82 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R82",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R83 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R83",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R84 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R84",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R85 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R85",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R86 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R86",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R87 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R87",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R88 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R88",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R89 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R89",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R9 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R9",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R90 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R90",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R91 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R91",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R92 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R92",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R93 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R93",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R94 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R94",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R95 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R95",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R96 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R96",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R97 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R97",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R98 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R98",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R99 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "R99",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "TP4 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "TP4",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "TP5 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "TP5",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "TP6 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "TP6",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "TP7 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "TP7",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "TP9 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "TP9",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U1 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U10 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U10",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U11 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U11",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U12 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U12",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U13 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U13",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U14 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U14",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U15 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U15",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U16 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U16",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U17 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U17",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U18 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U18",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U19 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U19",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U2 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U20 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U20",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U21 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U21",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U22 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U22",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U23 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U23",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U24 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U24",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U25 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U25",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U26 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U26",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U27 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U27",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U28 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U28",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U29 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U29",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U3 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U3",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U30 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U30",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U31 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U31",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U32 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U32",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "U33 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U33",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "U34 (B) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U34",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U4 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U4",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U5 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U5",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U6 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U6",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U7 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U7",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U8 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U8",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": []
+   },
+   "measured": {
+    "keepout": "box_interior",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U9 (F) is inside keep-out 'box_interior' [126.71, 97.45, 241.71, 212.45]",
+   "ref": "U9",
+   "rule": "keepout",
+   "severity": "error"
+  }
+ ]
+}

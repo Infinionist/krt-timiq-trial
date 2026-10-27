@@ -1,0 +1,121 @@
+Modified 1 footprint positions
+Successfully wrote /tmp/place_simple_v64eiarr/tiny.kicad_pcb
+  NOTE: at their declared pose or face: J7 at (131.665, 190.96) 0
+  NOTE [placement]: 58 footprint(s) draw no courtyard and are seated on an ESTIMATED one, what they occupy (body and pads, #1300) -- silk: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, ...
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+place_simple: 57 movable part(s), fixed: J7
+  group pll: C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2, C1, C11, C13, C15, C2, C21, C4, C5, C7, C9, L1, L2, L3, L4, L5, L6, L7, R2, R3, R4, R5, R6, R7, R9, J7
+  move   2850: T   9.666 lam     2.5 reach 21.47 cost   913.9 overlap 354.61 mm2 best     inf accepted 0.37
+  move   5700: T   4.864 lam     6.3 reach 16.96 cost  1039.1 overlap 212.98 mm2 best     inf accepted 0.22
+  move   8550: T   2.448 lam    15.8 reach 12.99 cost  1003.5 overlap 182.49 mm2 best     inf accepted 0.12
+  move  11400: T   1.232 lam    39.8 reach  9.54 cost  1028.9 overlap 161.17 mm2 best     inf accepted 0.07
+  move  14250: T   0.620 lam   100.0 reach  6.63 cost  1121.4 overlap 146.28 mm2 best     inf accepted 0.06
+  move  17100: T   0.312 lam   251.1 reach  4.24 cost  1133.5 overlap 137.93 mm2 best     inf accepted 0.03
+  move  19950: T   0.157 lam   630.8 reach  2.39 cost  1148.6 overlap 130.40 mm2 best     inf accepted 0.03
+  move  22800: T   0.079 lam  1584.4 reach  1.06 cost  1191.8 overlap 127.42 mm2 best     inf accepted 0.03
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost  1185.7 overlap 121.00 mm2 best     inf accepted 0.06
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1159.6 overlap 119.83 mm2 best     inf accepted 0.09
+  NOTE: run 1 left no legal pose for C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2; annealing again from a fresh start
+  move   2850: T   8.476 lam     2.5 reach 21.47 cost   829.2 overlap 358.45 mm2 best     inf accepted 0.35
+  move   5700: T   4.328 lam     6.3 reach 16.96 cost   964.3 overlap 226.89 mm2 best     inf accepted 0.21
+  move   8550: T   2.210 lam    15.8 reach 12.99 cost  1008.0 overlap 173.18 mm2 best     inf accepted 0.10
+  move  11400: T   1.129 lam    39.8 reach  9.54 cost  1049.2 overlap 157.67 mm2 best     inf accepted 0.05
+  move  14250: T   0.576 lam   100.0 reach  6.63 cost  1146.9 overlap 146.20 mm2 best     inf accepted 0.04
+  move  17100: T   0.294 lam   251.1 reach  4.24 cost  1220.3 overlap 134.82 mm2 best     inf accepted 0.03
+  move  19950: T   0.150 lam   630.8 reach  2.39 cost  1190.7 overlap 130.58 mm2 best     inf accepted 0.02
+  move  22800: T   0.077 lam  1584.4 reach  1.06 cost  1212.8 overlap 125.13 mm2 best     inf accepted 0.03
+  move  25650: T   0.039 lam  3979.8 reach  0.27 cost  1119.4 overlap 119.40 mm2 best     inf accepted 0.05
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1083.6 overlap 118.75 mm2 best     inf accepted 0.07
+  NOTE: run 2 left no legal pose for C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2; annealing again from a fresh start
+  move   2850: T   9.453 lam     2.5 reach 21.47 cost   872.1 overlap 404.58 mm2 best     inf accepted 0.36
+  move   5700: T   4.769 lam     6.3 reach 16.96 cost   964.3 overlap 227.37 mm2 best     inf accepted 0.21
+  move   8550: T   2.406 lam    15.8 reach 12.99 cost  1050.4 overlap 178.68 mm2 best     inf accepted 0.10
+  move  11400: T   1.214 lam    39.8 reach  9.54 cost  1192.6 overlap 153.51 mm2 best     inf accepted 0.05
+  move  14250: T   0.612 lam   100.0 reach  6.63 cost  1164.7 overlap 142.96 mm2 best     inf accepted 0.04
+  move  17100: T   0.309 lam   251.1 reach  4.24 cost  1233.4 overlap 135.92 mm2 best     inf accepted 0.03
+  move  22800: T   0.079 lam  1584.4 reach  1.06 cost  1248.3 overlap 124.19 mm2 best     inf accepted 0.03
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost  1279.2 overlap 120.61 mm2 best     inf accepted 0.04
+  NOTE: run 3 left no legal pose for C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2
+  NOTE: C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2 left without a legal pose on estimated courtyards; seating C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2 on what the board draws (#1300)
+  WARNING [placement]: 33 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, ...
+  NOTE [placement]: 25 footprint(s) draw no courtyard and are seated on an ESTIMATED one, what they occupy (body and pads, #1300) -- silk: C1, C11, C13, C15, C2, C21, C4, C5, C7, C9, ...
+  move   2850: T   9.743 lam     2.5 reach 21.47 cost   887.8 overlap 303.45 mm2 best     inf accepted 0.37
+  move   5700: T   4.898 lam     6.3 reach 16.96 cost   892.6 overlap 178.55 mm2 best     inf accepted 0.21
+  move   8550: T   2.463 lam    15.8 reach 12.99 cost   943.5 overlap 131.47 mm2 best     inf accepted 0.12
+  move  11400: T   1.238 lam    39.8 reach  9.54 cost   940.5 overlap 116.91 mm2 best     inf accepted 0.08
+  move  14250: T   0.623 lam   100.0 reach  6.63 cost   899.5 overlap 113.90 mm2 best     inf accepted 0.05
+  move  17100: T   0.313 lam   251.1 reach  4.24 cost   979.9 overlap 108.34 mm2 best     inf accepted 0.05
+  move  19950: T   0.157 lam   630.8 reach  2.39 cost  1065.3 overlap 104.13 mm2 best     inf accepted 0.05
+  move  22800: T   0.079 lam  1584.4 reach  1.06 cost  1035.9 overlap 102.52 mm2 best     inf accepted 0.05
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost  1173.8 overlap 100.07 mm2 best     inf accepted 0.08
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1094.4 overlap  99.48 mm2 best     inf accepted 0.11
+  NOTE: run 1 left no legal pose for C10, C12, C14, C16, C18, C19, C20, C23, C8, R10, R11, R12, R14, R15, R16, R165, R17, R18, R20, R21, R22, R23, R8, U1, U2; annealing again from a fresh start
+  move   2850: T   8.463 lam     2.5 reach 21.47 cost   634.2 overlap 298.97 mm2 best     inf accepted 0.33
+  move   5700: T   4.322 lam     6.3 reach 16.96 cost   750.7 overlap 170.25 mm2 best     inf accepted 0.20
+  move   8550: T   2.208 lam    15.8 reach 12.99 cost   833.7 overlap 128.29 mm2 best     inf accepted 0.10
+  move  11400: T   1.127 lam    39.8 reach  9.54 cost   832.7 overlap 118.98 mm2 best     inf accepted 0.06
+  move  14250: T   0.576 lam   100.0 reach  6.63 cost   879.3 overlap 112.72 mm2 best     inf accepted 0.04
+  move  17100: T   0.294 lam   251.1 reach  4.24 cost   874.3 overlap 110.89 mm2 best     inf accepted 0.04
+  move  19950: T   0.150 lam   630.8 reach  2.39 cost  1132.0 overlap 107.03 mm2 best     inf accepted 0.04
+  move  22800: T   0.077 lam  1584.4 reach  1.06 cost  1055.3 overlap 103.23 mm2 best     inf accepted 0.04
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1049.5 overlap  98.67 mm2 best     inf accepted 0.07
+  NOTE: run 2 left no legal pose for C10, C12, C16, C17, C19, C20, C23, C24, C3, C6, C8, R10, R11, R13, R14, R16, R165, R17, R19, R20, R21, R22, R23, R8, U1, U2; annealing again from a fresh start
+  move   2850: T   9.330 lam     2.5 reach 21.47 cost   882.3 overlap 310.06 mm2 best     inf accepted 0.37
+  move   5700: T   4.714 lam     6.3 reach 16.96 cost   782.3 overlap 188.81 mm2 best     inf accepted 0.23
+  move   8550: T   2.381 lam    15.8 reach 12.99 cost   865.2 overlap 132.95 mm2 best     inf accepted 0.12
+  move  11400: T   1.203 lam    39.8 reach  9.54 cost   846.0 overlap 123.96 mm2 best     inf accepted 0.07
+  move  14250: T   0.608 lam   100.0 reach  6.63 cost   979.8 overlap 116.91 mm2 best     inf accepted 0.06
+  move  17100: T   0.307 lam   251.1 reach  4.24 cost  1081.1 overlap 112.31 mm2 best     inf accepted 0.05
+  move  19950: T   0.155 lam   630.8 reach  2.39 cost  1166.1 overlap 108.28 mm2 best     inf accepted 0.04
+  move  22800: T   0.078 lam  1584.4 reach  1.06 cost  1164.8 overlap 103.11 mm2 best     inf accepted 0.05
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost  1103.6 overlap 100.00 mm2 best     inf accepted 0.06
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1174.6 overlap  98.89 mm2 best     inf accepted 0.10
+  NOTE: run 3 left no legal pose for C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C3, C6, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R8, U1, U2
+  NOTE: C10, C12, C14, C16, C18, C19, C20, C23, C8, R10, R11, R12, R14, R15, R16, R165, R17, R18, R20, R21, R22, R23, R8, U1, U2 left without a legal pose on estimated courtyards; seating every part on what the board draws (#1300)
+  WARNING [placement]: 58 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, ...
+  move   2850: T   9.858 lam     2.5 reach 21.47 cost   780.4 overlap 247.87 mm2 best     inf accepted 0.38
+  move   5700: T   4.950 lam     6.3 reach 16.96 cost   804.0 overlap 179.43 mm2 best     inf accepted 0.22
+  move   8550: T   2.486 lam    15.8 reach 12.99 cost   879.5 overlap 117.38 mm2 best     inf accepted 0.15
+  move  11400: T   1.248 lam    39.8 reach  9.54 cost   940.0 overlap  99.94 mm2 best     inf accepted 0.09
+  move  14250: T   0.627 lam   100.0 reach  6.63 cost   950.5 overlap  88.91 mm2 best     inf accepted 0.05
+  move  17100: T   0.315 lam   251.1 reach  4.24 cost   935.7 overlap  84.06 mm2 best     inf accepted 0.03
+  move  19950: T   0.158 lam   630.8 reach  2.39 cost   969.1 overlap  80.13 mm2 best     inf accepted 0.03
+  move  22800: T   0.079 lam  1584.4 reach  1.06 cost   893.2 overlap  77.48 mm2 best     inf accepted 0.04
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost   899.1 overlap  74.17 mm2 best     inf accepted 0.04
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost   926.2 overlap  72.49 mm2 best     inf accepted 0.07
+  NOTE: run 1 left no legal pose for C12, C14, C16, C18, C20, C23, C25, C3, C6, C8, R12, R13, R15, R165, R17, R18, R19, R20, R21, R22, R23, U1, U2; annealing again from a fresh start
+  move   2850: T   9.019 lam     2.5 reach 21.47 cost   817.0 overlap 259.45 mm2 best     inf accepted 0.36
+  move   5700: T   4.574 lam     6.3 reach 16.96 cost   905.1 overlap 152.08 mm2 best     inf accepted 0.25
+  move   8550: T   2.319 lam    15.8 reach 12.99 cost   778.3 overlap 115.52 mm2 best     inf accepted 0.14
+  move  11400: T   1.176 lam    39.8 reach  9.54 cost   796.9 overlap 103.61 mm2 best     inf accepted 0.05
+  move  14250: T   0.596 lam   100.0 reach  6.63 cost   932.6 overlap  96.20 mm2 best     inf accepted 0.05
+  move  17100: T   0.302 lam   251.1 reach  4.24 cost  1058.5 overlap  85.79 mm2 best     inf accepted 0.04
+  move  19950: T   0.153 lam   630.8 reach  2.39 cost  1065.7 overlap  77.80 mm2 best     inf accepted 0.04
+  move  22800: T   0.078 lam  1584.4 reach  1.06 cost  1037.0 overlap  74.77 mm2 best     inf accepted 0.04
+  move  25650: T   0.039 lam  3979.8 reach  0.27 cost  1072.6 overlap  73.22 mm2 best     inf accepted 0.05
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1042.3 overlap  71.42 mm2 best     inf accepted 0.08
+  NOTE: run 2 left no legal pose for C10, C17, C18, C19, C20, C23, C24, C3, C8, R10, R11, R12, R13, R14, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2; annealing again from a fresh start
+  move   2850: T   9.277 lam     2.5 reach 21.47 cost   924.7 overlap 326.10 mm2 best     inf accepted 0.33
+  move   5700: T   4.690 lam     6.3 reach 16.96 cost   861.0 overlap 166.05 mm2 best     inf accepted 0.22
+  move   8550: T   2.371 lam    15.8 reach 12.99 cost   941.9 overlap 112.39 mm2 best     inf accepted 0.12
+  move  11400: T   1.199 lam    39.8 reach  9.54 cost   880.6 overlap 107.28 mm2 best     inf accepted 0.06
+  move  14250: T   0.606 lam   100.0 reach  6.63 cost  1013.1 overlap  99.52 mm2 best     inf accepted 0.04
+  move  17100: T   0.306 lam   251.1 reach  4.24 cost  1145.7 overlap  90.74 mm2 best     inf accepted 0.04
+  move  19950: T   0.155 lam   630.8 reach  2.39 cost  1287.6 overlap  84.62 mm2 best     inf accepted 0.04
+  move  22800: T   0.078 lam  1584.4 reach  1.06 cost  1210.7 overlap  78.32 mm2 best     inf accepted 0.05
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost  1234.7 overlap  74.25 mm2 best     inf accepted 0.05
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost  1140.4 overlap  72.67 mm2 best     inf accepted 0.09
+  NOTE: run 3 left no legal pose for C10, C12, C14, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R8, U1, U2
+place_simple: annealed 28500 moves in 78.3 s; cost 974.1 (wire 603.5 mm, 36 crossings, claims 0.0, decaps 42.0, halo 1.12, pad hits 88, congestion 0.00, groups 7.5: pll 7.5, hints 0.0)
+  NOTE: moved to the nearest legal pose after the anneal: C10, C17, C19, C22, C24, C3, R10, R11, R14, R16, R17, R8
+  WARNING: no legal pose found for: C12, C14, C16, C18, C20, C23, C25, C3, C6, C8, R12, R13, R15, R165, R17, R18, R19, R20, R21, R22, R23, U1, U2
+Modified 57 footprint positions
+Successfully wrote /tmp/pcb-trials/timiq/v5/probe/tiny_F/out.kicad_pcb
+  floorplan: 23 floorplan error(s) (zone_containment) (check_floorplan --intent)
+  assembly: NOT BUILDABLE (check_assembly) (check_assembly --baseline)
+JSON_SUMMARY: {"final": {"wire": 603.48183802, "crossings": 36, "claims": 0, "decaps": 42.03732839712116, "groups": 7.486883229234479, "hints": 0, "halo": 1.118208864997377, "congestion": 0.0, "pad_hits": 88.0, "decap_limits": 0.0, "decap_broken": 0, "claim_limits": 0, "claim_broken": 0, "template": 0, "cost": 974.1091198254122}, "moves": 28500, "seed": 1, "start": "scattered", "reseated": ["C10", "C17", "C19", "C22", "C24", "C3", "R10", "R11", "R14", "R16", "R17", "R8"], "illegal": ["C12", "C14", "C16", "C18", "C20", "C23", "C25", "C3", "C6", "C8", "R12", "R13", "R15", "R165", "R17", "R18", "R19", "R20", "R21", "R22", "R23", "U1", "U2"], "tight": {}, "refused": {}, "oversubscribed": [], "claim_arity": [], "floorplan": {"errors": 23, "rules": ["zone_containment"]}, "assembly": {"blocking": 1, "buildable": false, "fired": []}, "bga_field": [], "template_off": [], "decap_residual": [], "hints_saturated": [], "estimate_fallback": ["C1", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C2", "C20", "C21", "C22", "C23", "C24", "C25", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "J7", "L1", "L2", "L3", "L4", "L5", "L6", "L7", "R10", "R11", "R12", "R13", "R14", "R15", "R16", "R165", "R17", "R18", "R19", "R2", "R20", "R21", "R22", "R23", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "U1", "U2"], "faces": {"flippable": [], "needed": {}, "needed_kept": null}, "seconds": {"setup": 0.4, "anneal": 78.3}}

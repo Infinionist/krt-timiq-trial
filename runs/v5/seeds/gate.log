@@ -1,0 +1,12 @@
+GATE PASS
+  fill table (single face, member courtyards with KRT clearance / usable area; limit 0.65, TIGHT above 0.55):
+    zone                               face   n flip usable F usable B  load F  load B    F0     F     B limit  verdict
+    canJ7                              F/B   52   12      949      949     614     109  0.76  0.65  0.12  0.65  TIGHT
+    canJ8                              F/B   53   13      949      949     610     118  0.77  0.64  0.12  0.65  TIGHT
+    canJ9                              F     44    0      949      949     604       0  0.64  0.64  0.00  0.65  TIGHT
+    canJ10                             F     47    0      949      949     548       0  0.58  0.58  0.00  0.65  TIGHT
+    canJ11                             F     35    0      949      949     437       0  0.46  0.46  0.00  0.65  ok
+    canJ12                             F/B   51   15      949      949     614     136  0.79  0.65  0.14  0.65  TIGHT
+    power_strip                        F     75    0     3929     4208    2007       0  0.51  0.51  0.00  0.65  ok
+    free (everything outside the cans) F    154    0    13954    15152    3461       0  0.25  0.25  0.00  0.65  ok
+  ok: U1=proximity, U2=proximity, U3=proximity, U4=proximity, U5=proximity, U6=proximity, U7=proximity, U8=proximity, U9=proximity, U10=proximity, U11=proximity, U12=proximity, U13=proximity, U14=proximity, U15=proximity, U16=proximity, U17=proximity, U18=proximity, U19=proximity, U20=proximity, U21=template, U22=template, U23=proximity, U24=proximity, U25=proximity, U26=proximity, U27=proximity, U28=proximity, U29=proximity, U30=proximity, U31=proximity, U32=proximity, U33=proximity, U34=proximity, U35=proximity, U36=proximity, U37=proximity, U38=proximity, U39=proximity, U40=proximity, U41=proximity, U42=proximity, U43=proximity, U44=proximity, U45=proximity

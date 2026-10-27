@@ -1,0 +1,39 @@
+{
+ "board": "out/s7.kicad_pcb",
+ "members_declared": 172,
+ "members_inside": 172,
+ "outside": 0,
+ "on_wall": 0,
+ "strangers_inside": 0,
+ "too_tall": 0,
+ "height_unknown": 172,
+ "resolve_problems": [],
+ "illegal_parts": 13,
+ "illegal_ignoring_cans": 13,
+ "illegal_only_due_to_cans": 0,
+ "cans_illegal": [],
+ "hpwl_all_mm": 9980,
+ "hpwl_signal_mm": 9980,
+ "mst_signal_mm": 12924,
+ "nets_crossing_by_can": {
+  "J7": 20,
+  "J8": 15,
+  "J9": 17,
+  "J10": 23,
+  "J11": 15,
+  "J12": 20
+ },
+ "nets_crossing_total": 110,
+ "utilisation_by_can": {
+  "J7": 0.401,
+  "J8": 0.397,
+  "J9": 0.342,
+  "J10": 0.202,
+  "J11": 0.239,
+  "J12": 0.392
+ },
+ "utilisation_total": 0.329,
+ "detail_outside": [],
+ "detail_wall": [],
+ "detail_stranger": []
+}

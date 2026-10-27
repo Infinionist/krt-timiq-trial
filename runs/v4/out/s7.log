@@ -1,0 +1,133 @@
+Modified 22 footprint positions
+Successfully wrote /tmp/place_simple_zs7o4d8s/fixed.kicad_pcb
+  NOTE: at their declared pose or face: BOX1 at (124.212, 214.948) 0, D2 at (112.216, 73.4378) 270, D3 at (118.221, 73.4327) 270, D4 at (124.22, 73.4327) 270, D5 at (130.22, 73.4327) 270, D6 at (112.216, 82.4395) 270, D7 at (118.216, 82.4395) 270, D8 at (124.22, 82.4395) 270, FIX1 at (256.216, 220.44) 0, FIX2 at (184.216, 220.44) 0, FIX3 at (112.216, 220.44) 0, FIX4 at (112.216, 148.44) 0, FIX5 at (112.216, 66.44) 0, FIX6 at (184.216, 66.44) 0, FIX7 at (256.216, 66.44) 0, FIX8 at (256.216, 148.44) 0, J1 at (146.286, 223.247) 90, J2 at (157.815, 223.25) 90, J3 at (210.045, 223.26) 90, J4 at (222.065, 223.24) 90, J5 at (221.932, 136.332) 90, J6 at (206.435, 73.4428) 180
+  WARNING [placement]: 1 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1
+  NOTE [placement]: 463 footprint(s) draw no courtyard and are seated on an ESTIMATED one, what they occupy (body and pads, #1300) -- pad_bbox: FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8; silk: C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, ...
+  heights: 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; declared: 6 shield(s); room under J10, J11, J12, J7, J8, J9
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  WARNING: shield J7: 33 of 33 member(s) have no known height, so the 2 mm under its lid is not judged for them: C10, C12, C14, C16, C17, C18, C19, C20 ...
+  WARNING: shield J8: 36 of 36 member(s) have no known height, so the 2 mm under its lid is not judged for them: C100, C104, C108, C109, C63, C64, C70, C98 ...
+  WARNING: shield J9: 32 of 32 member(s) have no known height, so the 2 mm under its lid is not judged for them: C45, C46, C47, C48, C57, C58, R50, R51 ...
+  WARNING: shield J10: 19 of 19 member(s) have no known height, so the 2 mm under its lid is not judged for them: C72, C73, C74, C80, C81, C82, C84, C86 ...
+  WARNING: shield J11: 26 of 26 member(s) have no known height, so the 2 mm under its lid is not judged for them: C110, C111, C112, C113, C114, C116, C117, C119 ...
+  WARNING: shield J12: 26 of 26 member(s) have no known height, so the 2 mm under its lid is not judged for them: C27, C28, C33, C34, C37, C38, C42, C43 ...
+  NOTE: shield J10 holds 19 part(s), 2 mm under the lid; J11 holds 26 part(s), 2 mm under the lid; J12 holds 26 part(s), 2 mm under the lid; J7 holds 33 part(s), 2 mm under the lid; J8 holds 36 part(s), 2 mm under the lid; J9 holds 32 part(s), 2 mm under the lid
+  NOTE: template U21: L8, C98, L10, C108, R103 seated as drawn and carried with it
+  NOTE: template U22: L9, C99, L11, C109, R105 seated as drawn and carried with it
+  NOTE: in their IC's group: R100 (mixers -> pll), R101 (mixers -> iqmod), R70 (iqmod -> pll)
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C114 on 5V_2 serves U28, U29, U30
+  NOTE: decap C115 on -5V serves U28
+  NOTE: decap C116 on 3V3_2 serves U29
+  NOTE: decap C117 on 5V_2 serves U28, U29, U30
+  NOTE: decap C118 on 5V_2 serves U28, U29, U30
+  NOTE: decap C119 on 5V_2 serves U28, U29, U30
+  NOTE: decap C123 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C124 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C125 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C126 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C127 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C128 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C129 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C130 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C131 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C132 on 5V_2 serves U33
+  NOTE: decap C133 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C134 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C135 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C136 on 5V_1 serves U36, U37
+  NOTE: decap C137 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C138 on 5V_1 serves U36, U37
+  NOTE: decap C139 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C140 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C146 on 5V_1 serves U39
+  NOTE: decap C147 on 5V_2 serves U40
+  NOTE: decap C151 on 5V_1 serves U39
+  NOTE: decap C152 on 5V_2 serves U40
+  NOTE: decap C153 on 5V_1 serves U39
+  NOTE: decap C154 on 5V_2 serves U40
+  NOTE: decap C158 on 5V_1 serves U39
+  NOTE: decap C159 on 5V_2 serves U40
+  NOTE: decap C160 on 5V_1 serves U39
+  NOTE: decap C161 on 5V_2 serves U40
+  NOTE: decap C165 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C166 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C167 on 24V serves U43
+  NOTE: decap C168 on -24V serves U44, U45
+  NOTE: decap C169 on -24V serves U44, U45
+  NOTE: decap C175 on 3V3_1 serves U41
+  NOTE: decap C176 on 3V3_2 serves U42
+  NOTE: decap C177 on 15V serves U43
+  NOTE: decap C180 on 3V3_1 serves U41
+  NOTE: decap C181 on 3V3_2 serves U42
+  NOTE: decap C182 on 15V serves U43
+  NOTE: decap C183 on 3V3_1 serves U41
+  NOTE: decap C184 on 3V3_2 serves U42
+  NOTE: decap C185 on 15V serves U43
+  NOTE: decap C186 on -5V serves U44
+  NOTE: decap C187 on -15V serves U45
+  NOTE: decap C188 on 3V3_1 serves U41
+  NOTE: decap C189 on 3V3_2 serves U42
+  NOTE: decap C190 on 15V serves U43
+  NOTE: decap C191 on -5V serves U44
+  NOTE: decap C192 on -15V serves U45
+  NOTE: decap C193 on 3V3_1 serves U41
+  NOTE: decap C194 on 3V3_2 serves U42
+  NOTE: decap C195 on 15V serves U43
+  NOTE: decap C196 on -5V serves U44
+  NOTE: decap C197 on -15V serves U45
+  NOTE: decap C198 on -5V serves U44
+  NOTE: decap C199 on -15V serves U45
+  NOTE: decap C200 on -5V serves U44
+  NOTE: decap C201 on -15V serves U45
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C26 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C29 on 15V serves U10, U11, U5, U6
+  NOTE: decap C30 on 15V serves U10, U11, U5, U6
+  NOTE: decap C31 on -15V serves U10, U11, U5, U6
+  NOTE: decap C32 on -15V serves U10, U11, U5, U6
+  NOTE: decap C35 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C36 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C39 on -5V serves U7, U8, U9
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C40 on -5V serves U7, U8, U9
+  NOTE: decap C41 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C44 on -5V serves U7, U8, U9
+  NOTE: decap C45 on 15V serves U10, U11, U5, U6
+  NOTE: decap C46 on 15V serves U10, U11, U5, U6
+  NOTE: decap C49 on -15V serves U10, U11, U5, U6
+  NOTE: decap C50 on -15V serves U10, U11, U5, U6
+  NOTE: decap C51 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C52 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C59 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C60 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C61 on -5V serves U14, U15
+  NOTE: decap C62 on -5V serves U14, U15
+  NOTE: decap C65 on 5V_2 serves U16
+  NOTE: decap C66 on 5V_2 serves U16
+  NOTE: decap C67 on 5V_2 serves U16
+  NOTE: decap C68 on 5V_2 serves U16
+  NOTE: decap C69 on 5V_2 serves U16
+  NOTE: decap C71 on 5V_2 serves U16
+  NOTE: decap C74 on 5V_1 serves U18, U19, U20
+  NOTE: decap C75 on 5V_1 serves U18, U19, U20
+  NOTE: decap C76 on 5V_1 serves U18, U19, U20
+  NOTE: decap C77 on 5V_1 serves U18, U19, U20
+  NOTE: decap C78 on 5V_1 serves U18, U19, U20
+  NOTE: decap C79 on 5V_1 serves U18, U19, U20
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+  NOTE: decap C82 on 5V_1 serves U18, U19, U20
+  NOTE: decap C83 on 5V_1 serves U18, U19, U20
+  NOTE: decap C84 on 5V_1 serves U18, U19, U20
+  NOTE: decap C85 on 5V_1 serves U18, U19, U20
+  NOTE: decap C86 on 5V_1 serves U18, U19, U20
+  NOTE: decap C87 on 5V_1 serves U18, U19, U20
+  NOTE: decap C90 on 5V_1 serves U18, U19, U20
+  NOTE: decap C91 on 5V_1 serves U18, U19, U20
+  NOTE: decap C92 on 5V_1 serves U18, U19, U20
+  NOTE: decap C93 on 5V_1 serves U18, U19, U20
+  NOTE: decap C94 on 5V_1 serves U18, U19, U20
+  NOTE: decap C95 on 5V_1 serves U18, U19, U20
+  NOTE: decap limits priced: 0 term(s) (decap_pin_distance 8.1577 mm)

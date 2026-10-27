@@ -1,0 +1,1 @@
+Ignoring 1 permissions.allow entry from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects["/tmp/pcb-trials/timiq/krt"].hasTrustDialogAccepted: true in ~/.claude.json.

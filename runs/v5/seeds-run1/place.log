@@ -1,0 +1,26 @@
+place_simple: seeds 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 (12 at a time)
+  seed 3: cost 19593.5, 218000 moves in 520.1 s, 120 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s3.kicad_pcb
+  seed 0: cost 26473.9, 218000 moves in 711.3 s, 135 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s0.kicad_pcb
+  seed 7 (clustered): cost 22724.3, 218000 moves in 851.4 s, 118 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s7.kicad_pcb
+  seed 9 (clustered): cost 17044.8, 218000 moves in 1713.9 s, 124 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s9.kicad_pcb
+  seed 10 (clustered): cost 20707.1, 218000 moves in 1936.4 s, 118 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s10.kicad_pcb
+  seed 8 (clustered): cost 21970.9, 218000 moves in 2336.0 s, 125 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s8.kicad_pcb
+  seed 11 (clustered): cost 18845.2, 218000 moves in 2826.5 s, 118 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s11.kicad_pcb
+  seed 6 (clustered): cost 24242.1, 218000 moves in 2840.9 s, 130 floorplan error(s) (keepout, proximity) -> /tmp/pcb-trials/timiq/v5/seeds/s6.kicad_pcb
+  seed 2: cost 19554.9, 218000 moves in 4007.4 s, 82 floorplan error(s) (keepout, proximity), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s2.kicad_pcb
+  seed 5: cost 27047.1, 218000 moves in 4327.6 s, no legal pose for U4, 120 floorplan error(s) (keepout, proximity, zone_containment) -> /tmp/pcb-trials/timiq/v5/seeds/s5.kicad_pcb
+  seed 4: cost 18158.8, 218000 moves in 4354.0 s, 87 floorplan error(s) (keepout, proximity), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s4.kicad_pcb
+  seed 1: cost 17443.9, 218000 moves in 4415.1 s, 89 floorplan error(s) (keepout, proximity), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s1.kicad_pcb
+place_simple: judge seeds 2, 4, 1, 11, 10, 7 (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v5/seeds/judge.json
+  WARNING: seed 2 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 2 is judged with 82 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 4 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 4 is judged with 87 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 1 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 1 is judged with 89 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 11 is judged with 118 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 10 is judged with 118 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 7 is judged with 118 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: proximity L8 near U21 (max 2 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C101-Pad1), Net-(C98-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity L9 near U22 (max 2 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C103-Pad1), Net-(C99-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: BOX1's declared pose is not legal, in every seed: keep-out 'can-J7'; keep-out 'can-J8'; keep-out 'can-J9'; keep-out 'can-J10'; keep-out 'can-J11'; keep-out 'can-J12'

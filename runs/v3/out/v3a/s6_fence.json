@@ -1,0 +1,931 @@
+{
+ "params": {
+  "wall": 1.0,
+  "inner_clear": 0.5,
+  "outer_clear": 0.5,
+  "min_seg": 3.0,
+  "carve": true
+ },
+ "fences": {
+  "J7": {
+   "n_members": 33,
+   "missing": [],
+   "back_members": [],
+   "cuts": [
+    [
+     159.187,
+     77.197,
+     176.686,
+     102.784
+    ],
+    [
+     137.78,
+     62.94,
+     144.012,
+     81.532
+    ],
+    [
+     137.78,
+     90.965,
+     141.228,
+     102.784
+    ]
+   ],
+   "centre": [
+    [
+     159.187,
+     102.784
+    ],
+    [
+     159.187,
+     77.197
+    ],
+    [
+     176.686,
+     77.197
+    ],
+    [
+     176.686,
+     62.94
+    ],
+    [
+     144.012,
+     62.94
+    ],
+    [
+     144.012,
+     81.532
+    ],
+    [
+     137.78,
+     81.532
+    ],
+    [
+     137.78,
+     90.965
+    ],
+    [
+     141.228,
+     90.965
+    ],
+    [
+     141.228,
+     102.784
+    ]
+   ],
+   "area_inner": 868.05,
+   "area_outer": 1025.54,
+   "area_clear": 1107.29,
+   "bbox_area_outer": 1629.88,
+   "fabricable": {
+    "ok": true,
+    "why": []
+   },
+   "members_inside": {
+    "ok": true,
+    "inside": 33,
+    "of": 33,
+    "outside": []
+   },
+   "no_foreign_inside": {
+    "ok": false,
+    "foreign": [
+     "Q1"
+    ]
+   },
+   "ring_clear": {
+    "ok": true,
+    "in_ring": []
+   },
+   "b_under": [
+    "C11",
+    "C13",
+    "C15",
+    "C2",
+    "C21",
+    "C5",
+    "C7",
+    "C9",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R4",
+    "R5",
+    "R6",
+    "R9"
+   ],
+   "fence_clearance": {
+    "ok": true,
+    "clashes": []
+   },
+   "on_board": {
+    "ok": false,
+    "why": [
+     "outside the board bounds"
+    ]
+   },
+   "nets_crossing": {
+    "total": 20,
+    "signal": 18,
+    "power": 1,
+    "ground": 1,
+    "signal_nets": [
+     "/TOP/PLL/PLL_CE",
+     "/TOP/PLL/PLL_CLK",
+     "/TOP/PLL/PLL_DATA",
+     "/TOP/PLL/PLL_ENout",
+     "/TOP/PLL/PLL_LE",
+     "/TOP/PLL/PLL_LOCKED",
+     "Net-(C11-Pad1)",
+     "Net-(C13-Pad1)",
+     "Net-(C15-Pad1)",
+     "Net-(C2-Pad1)",
+     "Net-(C20-Pad1)",
+     "Net-(C20-Pad2)",
+     "Net-(C3-Pad2)",
+     "Net-(C7-Pad2)",
+     "Net-(C9-Pad1)",
+     "Net-(L2-Pad2)",
+     "Net-(L3-Pad2)",
+     "Net-(R9-Pad2)"
+    ],
+    "power_nets": [
+     "3V3_1"
+    ],
+    "ground_nets": [
+     "GND"
+    ]
+   },
+   "pass": false
+  },
+  "J8": {
+   "n_members": 36,
+   "missing": [],
+   "back_members": [],
+   "cuts": [
+    [
+     196.331,
+     179.919,
+     211.585,
+     188.959
+    ],
+    [
+     175.134,
+     179.633,
+     186.406,
+     188.959
+    ],
+    [
+     175.134,
+     159.315,
+     188.831,
+     163.095
+    ]
+   ],
+   "centre": [
+    [
+     186.406,
+     179.633
+    ],
+    [
+     186.406,
+     188.959
+    ],
+    [
+     196.331,
+     188.959
+    ],
+    [
+     196.331,
+     179.919
+    ],
+    [
+     211.585,
+     179.919
+    ],
+    [
+     211.585,
+     159.315
+    ],
+    [
+     188.831,
+     159.315
+    ],
+    [
+     188.831,
+     163.095
+    ],
+    [
+     175.134,
+     163.095
+    ],
+    [
+     175.134,
+     179.633
+    ]
+   ],
+   "area_inner": 720.67,
+   "area_outer": 852.86,
+   "area_clear": 921.95,
+   "bbox_area_outer": 1147.64,
+   "fabricable": {
+    "ok": true,
+    "why": []
+   },
+   "members_inside": {
+    "ok": true,
+    "inside": 36,
+    "of": 36,
+    "outside": []
+   },
+   "no_foreign_inside": {
+    "ok": true,
+    "foreign": []
+   },
+   "ring_clear": {
+    "ok": true,
+    "in_ring": []
+   },
+   "b_under": [
+    "C101",
+    "C102",
+    "C103",
+    "C105",
+    "C107"
+   ],
+   "fence_clearance": {
+    "ok": false,
+    "clashes": [
+     "J12",
+     "J9"
+    ]
+   },
+   "on_board": {
+    "ok": true,
+    "why": []
+   },
+   "nets_crossing": {
+    "total": 15,
+    "signal": 13,
+    "power": 1,
+    "ground": 1,
+    "signal_nets": [
+     "/TOP/ADC/MIXERout0",
+     "/TOP/ADC/MIXERout1",
+     "/TOP/DAC Interface/I_N",
+     "/TOP/DAC Interface/I_P",
+     "/TOP/DAC Interface/Q_N",
+     "/TOP/DAC Interface/Q_P",
+     "/TOP/Frequency dividers/IQout1",
+     "Net-(C101-Pad1)",
+     "Net-(C102-Pad1)",
+     "Net-(C103-Pad1)",
+     "Net-(C105-Pad1)",
+     "Net-(C107-Pad1)",
+     "Net-(C20-Pad2)"
+    ],
+    "power_nets": [
+     "5V_2"
+    ],
+    "ground_nets": [
+     "GND"
+    ]
+   },
+   "pass": false
+  },
+  "J9": {
+   "n_members": 32,
+   "missing": [],
+   "back_members": [],
+   "cuts": [
+    [
+     179.089,
+     148.436,
+     184.859,
+     182.914
+    ],
+    [
+     154.438,
+     148.436,
+     163.627,
+     164.89
+    ],
+    [
+     154.438,
+     180.329,
+     158.016,
+     193.015
+    ],
+    [
+     181.536,
+     187.295,
+     184.859,
+     193.015
+    ]
+   ],
+   "centre": [
+    [
+     179.089,
+     182.914
+    ],
+    [
+     179.089,
+     148.436
+    ],
+    [
+     163.627,
+     148.436
+    ],
+    [
+     163.627,
+     164.89
+    ],
+    [
+     154.438,
+     164.89
+    ],
+    [
+     154.438,
+     180.329
+    ],
+    [
+     158.016,
+     180.329
+    ],
+    [
+     158.016,
+     193.015
+    ],
+    [
+     181.536,
+     193.015
+    ],
+    [
+     181.536,
+     187.295
+    ],
+    [
+     184.859,
+     187.295
+    ],
+    [
+     184.859,
+     182.914
+    ]
+   ],
+   "area_inner": 867.61,
+   "area_outer": 1017.61,
+   "area_clear": 1095.61,
+   "bbox_area_outer": 1432.14,
+   "fabricable": {
+    "ok": true,
+    "why": []
+   },
+   "members_inside": {
+    "ok": true,
+    "inside": 32,
+    "of": 32,
+    "outside": []
+   },
+   "no_foreign_inside": {
+    "ok": false,
+    "foreign": [
+     "R70",
+     "U3"
+    ]
+   },
+   "ring_clear": {
+    "ok": false,
+    "in_ring": [
+     "C63",
+     "R48"
+    ]
+   },
+   "b_under": [
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C59",
+    "C60",
+    "C61",
+    "C62"
+   ],
+   "fence_clearance": {
+    "ok": false,
+    "clashes": [
+     "J12",
+     "J8"
+    ]
+   },
+   "on_board": {
+    "ok": true,
+    "why": []
+   },
+   "nets_crossing": {
+    "total": 17,
+    "signal": 12,
+    "power": 4,
+    "ground": 1,
+    "signal_nets": [
+     "/TOP/DAC Interface/DAC_I",
+     "/TOP/DAC Interface/DAC_Q",
+     "/TOP/DAC Interface/I_N",
+     "/TOP/DAC Interface/I_P",
+     "/TOP/DAC Interface/Q_N",
+     "/TOP/DAC Interface/Q_P",
+     "Net-(C42-Pad2)",
+     "Net-(C43-Pad2)",
+     "Net-(C53-Pad1)",
+     "Net-(C54-Pad1)",
+     "Net-(C55-Pad1)",
+     "Net-(C56-Pad1)"
+    ],
+    "power_nets": [
+     "-15V",
+     "-5V",
+     "15V",
+     "5V_2"
+    ],
+    "ground_nets": [
+     "GND"
+    ]
+   },
+   "pass": false
+  },
+  "J10": {
+   "n_members": 19,
+   "missing": [],
+   "back_members": [],
+   "cuts": [
+    [
+     244.318,
+     165.492,
+     257.843,
+     174.933
+    ],
+    [
+     227.321,
+     151.711,
+     243.952,
+     157.518
+    ]
+   ],
+   "centre": [
+    [
+     227.321,
+     174.933
+    ],
+    [
+     244.318,
+     174.933
+    ],
+    [
+     244.318,
+     165.492
+    ],
+    [
+     257.843,
+     165.492
+    ],
+    [
+     257.843,
+     151.711
+    ],
+    [
+     243.952,
+     151.711
+    ],
+    [
+     243.952,
+     157.518
+    ],
+    [
+     227.321,
+     157.518
+    ]
+   ],
+   "area_inner": 431.75,
+   "area_outer": 539.24,
+   "area_clear": 595.99,
+   "bbox_area_outer": 763.52,
+   "fabricable": {
+    "ok": true,
+    "why": []
+   },
+   "members_inside": {
+    "ok": true,
+    "inside": 19,
+    "of": 19,
+    "outside": []
+   },
+   "no_foreign_inside": {
+    "ok": true,
+    "foreign": []
+   },
+   "ring_clear": {
+    "ok": false,
+    "in_ring": [
+     "FIX8"
+    ]
+   },
+   "b_under": [
+    "C85",
+    "C87",
+    "R76",
+    "R78",
+    "R80",
+    "R81",
+    "R84",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R93",
+    "R94",
+    "R96",
+    "R97",
+    "R98"
+   ],
+   "fence_clearance": {
+    "ok": true,
+    "clashes": []
+   },
+   "on_board": {
+    "ok": true,
+    "why": []
+   },
+   "nets_crossing": {
+    "total": 23,
+    "signal": 21,
+    "power": 1,
+    "ground": 1,
+    "signal_nets": [
+     "/TOP/Frequency dividers/FD0_BYP",
+     "/TOP/Frequency dividers/FD0_DIV1",
+     "/TOP/Frequency dividers/FD0_N0",
+     "/TOP/Frequency dividers/FD0_N1",
+     "/TOP/Frequency dividers/FD0_N2",
+     "/TOP/Frequency dividers/FD0_S0",
+     "/TOP/Frequency dividers/FD1_BYP",
+     "/TOP/Frequency dividers/FD1_DIV1",
+     "/TOP/Frequency dividers/FD1_N0",
+     "/TOP/Frequency dividers/FD1_N1",
+     "/TOP/Frequency dividers/FD1_N2",
+     "/TOP/Frequency dividers/FD1_S0",
+     "/TOP/Frequency dividers/FD2_BYP",
+     "/TOP/Frequency dividers/FD2_DIV1",
+     "/TOP/Frequency dividers/FD2_N0",
+     "/TOP/Frequency dividers/FD2_N1",
+     "/TOP/Frequency dividers/FD2_N2",
+     "/TOP/Frequency dividers/FD2_S0",
+     "/TOP/Frequency dividers/IQout1",
+     "Net-(C96-Pad1)",
+     "Net-(C97-Pad1)"
+    ],
+    "power_nets": [
+     "5V_1"
+    ],
+    "ground_nets": [
+     "GND"
+    ]
+   },
+   "pass": false
+  },
+  "J11": {
+   "n_members": 26,
+   "missing": [],
+   "back_members": [],
+   "cuts": [
+    [
+     189.542,
+     105.757,
+     198.163,
+     143.784
+    ],
+    [
+     205.206,
+     97.555,
+     215.109,
+     102.195
+    ],
+    [
+     209.762,
+     138.656,
+     215.109,
+     143.784
+    ]
+   ],
+   "centre": [
+    [
+     189.542,
+     105.757
+    ],
+    [
+     198.163,
+     105.757
+    ],
+    [
+     198.163,
+     143.784
+    ],
+    [
+     209.762,
+     143.784
+    ],
+    [
+     209.762,
+     138.656
+    ],
+    [
+     215.109,
+     138.656
+    ],
+    [
+     215.109,
+     102.195
+    ],
+    [
+     205.206,
+     102.195
+    ],
+    [
+     205.206,
+     97.555
+    ],
+    [
+     189.542,
+     97.555
+    ]
+   ],
+   "area_inner": 709.96,
+   "area_outer": 853.55,
+   "area_clear": 928.35,
+   "bbox_area_outer": 1254.76,
+   "fabricable": {
+    "ok": true,
+    "why": []
+   },
+   "members_inside": {
+    "ok": true,
+    "inside": 26,
+    "of": 26,
+    "outside": []
+   },
+   "no_foreign_inside": {
+    "ok": true,
+    "foreign": []
+   },
+   "ring_clear": {
+    "ok": false,
+    "in_ring": [
+     "C123",
+     "U31"
+    ]
+   },
+   "b_under": [
+    "C115",
+    "C118",
+    "C120",
+    "C121",
+    "C122",
+    "R111",
+    "R112",
+    "R126",
+    "R127"
+   ],
+   "fence_clearance": {
+    "ok": false,
+    "clashes": [
+     "J12"
+    ]
+   },
+   "on_board": {
+    "ok": true,
+    "why": []
+   },
+   "nets_crossing": {
+    "total": 15,
+    "signal": 11,
+    "power": 3,
+    "ground": 1,
+    "signal_nets": [
+     "/TOP/ADC//ADC_CS",
+     "/TOP/ADC//ADC_RST",
+     "/TOP/ADC/ADC_ALARM",
+     "/TOP/ADC/ADC_MISO",
+     "/TOP/ADC/ADC_MOSI",
+     "/TOP/ADC/ADC_SCK",
+     "/TOP/ADC/MIXERout0",
+     "/TOP/ADC/MIXERout1",
+     "Net-(C120-Pad1)",
+     "Net-(C122-Pad1)",
+     "Net-(R126-Pad2)"
+    ],
+    "power_nets": [
+     "-5V",
+     "3V3_2",
+     "5V_2"
+    ],
+    "ground_nets": [
+     "GND"
+    ]
+   },
+   "pass": false
+  },
+  "J12": {
+   "n_members": 26,
+   "missing": [],
+   "back_members": [],
+   "cuts": [
+    [
+     171.296,
+     149.741,
+     179.27,
+     162.105
+    ],
+    [
+     171.296,
+     125.976,
+     180.947,
+     132.57
+    ],
+    [
+     189.756,
+     155.682,
+     198.018,
+     162.105
+    ],
+    [
+     193.875,
+     125.976,
+     198.018,
+     132.516
+    ]
+   ],
+   "centre": [
+    [
+     171.297,
+     132.57
+    ],
+    [
+     171.297,
+     149.741
+    ],
+    [
+     179.27,
+     149.741
+    ],
+    [
+     179.27,
+     162.105
+    ],
+    [
+     189.756,
+     162.105
+    ],
+    [
+     189.756,
+     155.682
+    ],
+    [
+     198.018,
+     155.682
+    ],
+    [
+     198.018,
+     132.516
+    ],
+    [
+     193.875,
+     132.516
+    ],
+    [
+     193.875,
+     125.976
+    ],
+    [
+     180.947,
+     125.976
+    ],
+    [
+     180.947,
+     132.57
+    ]
+   ],
+   "area_inner": 661.18,
+   "area_outer": 786.88,
+   "area_clear": 852.73,
+   "bbox_area_outer": 1029.26,
+   "fabricable": {
+    "ok": true,
+    "why": []
+   },
+   "members_inside": {
+    "ok": true,
+    "inside": 26,
+    "of": 26,
+    "outside": []
+   },
+   "no_foreign_inside": {
+    "ok": true,
+    "foreign": []
+   },
+   "ring_clear": {
+    "ok": false,
+    "in_ring": [
+     "C47",
+     "R52",
+     "U23"
+    ]
+   },
+   "b_under": [
+    "C106",
+    "C26",
+    "C29",
+    "C30",
+    "C35",
+    "C36",
+    "C41",
+    "C44",
+    "R25",
+    "R26",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35"
+   ],
+   "fence_clearance": {
+    "ok": false,
+    "clashes": [
+     "J11",
+     "J8",
+     "J9"
+    ]
+   },
+   "on_board": {
+    "ok": true,
+    "why": []
+   },
+   "nets_crossing": {
+    "total": 20,
+    "signal": 15,
+    "power": 4,
+    "ground": 1,
+    "signal_nets": [
+     "/TOP/DAC Interface/DAC_I",
+     "/TOP/DAC Interface/DAC_Q",
+     "/TOP/DAC//DAC_CS",
+     "/TOP/DAC/DAC_MISO",
+     "/TOP/DAC/DAC_MOSI",
+     "/TOP/DAC/DAC_SCK",
+     "Net-(C42-Pad2)",
+     "Net-(C43-Pad2)",
+     "Net-(R24-Pad2)",
+     "Net-(R26-Pad2)",
+     "Net-(R28-Pad2)",
+     "Net-(R30-Pad2)",
+     "Net-(R32-Pad2)",
+     "Net-(R34-Pad2)",
+     "Net-(R36-Pad2)"
+    ],
+    "power_nets": [
+     "-15V",
+     "-5V",
+     "15V",
+     "5V_2"
+    ],
+    "ground_nets": [
+     "GND"
+    ]
+   },
+   "pass": false
+  }
+ },
+ "problems": [],
+ "pass": false,
+ "totals": {
+  "fences": 6,
+  "pass": 0,
+  "members_inside": 172,
+  "members": 172,
+  "foreign_inside": 3,
+  "ring_violations": 8,
+  "area_outer": 5075.68,
+  "area_inner": 4259.22,
+  "area_clear": 5501.92,
+  "nets_crossing_signal": 90,
+  "nets_crossing_power": 14
+ },
+ "board": "out/v3a/s6.kicad_pcb"
+}

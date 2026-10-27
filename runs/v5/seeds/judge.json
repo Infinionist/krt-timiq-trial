@@ -1,0 +1,490 @@
+{
+ "judge": [],
+ "scattered": [],
+ "clustered": [
+  0
+ ],
+ "anchored": [
+  1,
+  2
+ ],
+ "illegal": [
+  0,
+  1,
+  2
+ ],
+ "refused": {},
+ "oversubscribed": [],
+ "claim_arity": [
+  {
+   "ref": "L8",
+   "near": "U21",
+   "max_mm": 3.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C101-Pad1)",
+    "Net-(C98-Pad2)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "L9",
+   "near": "U22",
+   "max_mm": 3.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C103-Pad1)",
+    "Net-(C99-Pad2)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "U24",
+   "near": "U23",
+   "max_mm": 5.0,
+   "legs": 3,
+   "nets": [
+    "GND",
+    "Net-(U23-Pad3)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U26",
+   "near": "U24",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U24-Pad4)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U27",
+   "near": "U24",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U24-Pad6)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U26",
+   "near": "U25",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U25-Pad7)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U27",
+   "near": "U25",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U25-Pad9)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U28",
+   "near": "R123",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C110-Pad1)",
+    "Net-(R119-Pad1)"
+   ],
+   "rails": []
+  }
+ ],
+ "floorplan": {
+  "0": 176,
+  "1": 187,
+  "2": 193
+ },
+ "assembly": {
+  "0": 1,
+  "1": 1,
+  "2": 1
+ },
+ "template_off": {
+  "0": [
+   {
+    "anchor": "U21",
+    "ref": "C98",
+    "worst_mm": 2.387,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "L8",
+    "worst_mm": 0.903,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R103",
+    "worst_mm": 2.352,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C101",
+    "worst_mm": 7.984,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C100",
+    "worst_mm": 0.748,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R102",
+    "worst_mm": 2.377,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "L10",
+    "worst_mm": 6.626,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C108",
+    "worst_mm": 1.222,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R106",
+    "worst_mm": 0.6,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C105",
+    "worst_mm": 4.552,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C99",
+    "worst_mm": 0.852,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "L9",
+    "worst_mm": 0.623,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R105",
+    "worst_mm": 3.257,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C103",
+    "worst_mm": 6.316,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C102",
+    "worst_mm": 0.846,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R104",
+    "worst_mm": 1.554,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "L11",
+    "worst_mm": 2.253,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C109",
+    "worst_mm": 4.434,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R107",
+    "worst_mm": 4.868,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C107",
+    "worst_mm": 5.761,
+    "tolerance_mm": 0.3
+   }
+  ],
+  "1": [
+   {
+    "anchor": "U21",
+    "ref": "C98",
+    "worst_mm": 0.689,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "L8",
+    "worst_mm": 5.17,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R103",
+    "worst_mm": 4.511,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C101",
+    "worst_mm": 4.296,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R102",
+    "worst_mm": 1.87,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "L10",
+    "worst_mm": 2.516,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C108",
+    "worst_mm": 1.638,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R106",
+    "worst_mm": 0.575,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C105",
+    "worst_mm": 6.549,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C99",
+    "worst_mm": 25.809,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "L9",
+    "worst_mm": 0.91,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R105",
+    "worst_mm": 2.22,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C103",
+    "worst_mm": 4.921,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C102",
+    "worst_mm": 4.538,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R104",
+    "worst_mm": 2.241,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "L11",
+    "worst_mm": 2.386,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C109",
+    "worst_mm": 1.304,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R107",
+    "worst_mm": 0.595,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C107",
+    "worst_mm": 5.249,
+    "tolerance_mm": 0.3
+   }
+  ],
+  "2": [
+   {
+    "anchor": "U21",
+    "ref": "C98",
+    "worst_mm": 3.076,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "L8",
+    "worst_mm": 0.599,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R103",
+    "worst_mm": 4.102,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C101",
+    "worst_mm": 1.607,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R102",
+    "worst_mm": 2.205,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "L10",
+    "worst_mm": 0.62,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C108",
+    "worst_mm": 2.374,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R106",
+    "worst_mm": 0.771,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "C105",
+    "worst_mm": 9.759,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C99",
+    "worst_mm": 13.25,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "L9",
+    "worst_mm": 1.869,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R105",
+    "worst_mm": 1.665,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C103",
+    "worst_mm": 4.667,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C102",
+    "worst_mm": 7.262,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R104",
+    "worst_mm": 2.706,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "L11",
+    "worst_mm": 4.517,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C109",
+    "worst_mm": 3.387,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R107",
+    "worst_mm": 2.615,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C107",
+    "worst_mm": 6.962,
+    "tolerance_mm": 0.3
+   }
+  ]
+ },
+ "bga_field": {
+  "0": [],
+  "1": [],
+  "2": []
+ },
+ "baseline": "/tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb"
+}

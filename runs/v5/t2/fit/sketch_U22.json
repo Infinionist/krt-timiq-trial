@@ -1,0 +1,12 @@
+{"anchor": "U22", "kind": "rf front end", "source": "Mini-Circuits PMA2-43LN+ datasheet Fig 1 (bias tee/DC blocks/output choke), matched to the board by net; v5 builder",
+ "members": [
+  {"ref": "C99",  "pads": {"C99": ["2"], "U22": ["2"]}, "side": "+y"},
+  {"ref": "L9",   "pads": {"L9": ["1", "2"], "U22": ["1", "2"]}, "side": "+y"},
+  {"ref": "R105", "pads": {"R105": ["2"], "U22": ["1"]}, "side": "+y"},
+  {"ref": "C103", "pads": {"C103": ["1"], "U22": ["1"]}, "side": "+y"},
+  {"ref": "C102", "pads": {"C102": ["1"], "R105": ["1"]}},
+  {"ref": "R104", "pads": {"R104": ["2"], "R105": ["1"]}},
+  {"ref": "L11",  "pads": {"L11": ["2"], "U22": ["7"]}, "side": "-y"},
+  {"ref": "C109", "pads": {"C109": ["1"], "U22": ["7"]}, "side": "-y"},
+  {"ref": "R107", "pads": {"R107": ["2"], "L11": ["1"]}},
+  {"ref": "C107", "pads": {"C107": ["1"], "L11": ["1"]}}]}

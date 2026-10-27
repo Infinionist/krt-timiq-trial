@@ -1,0 +1,79 @@
+measured: ~/.claude/projects/-home-USER-projects-tools-pcb-pipeline/8c83c415-ff56-483a-a713-36e2572e87cc/subagents/agent-a07cb10b7ee828c2b.jsonl (sidechain, agent a07cb10b7ee828c2b; selected by self+evidence, 1 candidate of 2850 scanned)
+{
+  "session": "~/.claude/projects/-home-USER-projects-tools-pcb-pipeline/8c83c415-ff56-483a-a713-36e2572e87cc/subagents/agent-a07cb10b7ee828c2b.jsonl",
+  "sidechain": true,
+  "agent_id": "a07cb10b7ee828c2b",
+  "main": {
+    "wall_clock": "1:37:41.027000",
+    "wall_seconds": 5861.027,
+    "waiting_on_jobs_seconds": 5047.0,
+    "other_tool_seconds": 155.8,
+    "model_seconds": 658.2,
+    "assistant_turns": 89,
+    "tool_calls": 107,
+    "tools": {
+      "Bash": 85,
+      "Read": 20,
+      "ToolSearch": 1,
+      "Monitor": 1
+    },
+    "repo_scripts": {
+      "check_floorplan.py": 11,
+      "copy_board.py": 7,
+      "build_intent.py": 7,
+      "place_simple.py": 6,
+      "make_movie.py": 6,
+      "render_placement.py": 5,
+      "place_pose.py": 4,
+      "check_assembly.py": 4,
+      "converge.py": 4,
+      "board_score.py": 4,
+      "fit_template.py": 3,
+      "build_inputs.py": 2,
+      "check_groups.py": 2,
+      "build_start.py": 1,
+      "move_leds.py": 1,
+      "board_brief.py": 1,
+      "board_context.py": 1,
+      "dump_parts.py": 1,
+      "waive_locked_overlaps.py": 1,
+      "mk_sketch.py": 1,
+      "floorplan.py": 1,
+      "route.py": 1,
+      "route_planes.py": 1,
+      "judge_seeds.py": 1,
+      "route_review.py": 1,
+      "beautify_labels.py": 1,
+      "grade.py": 1,
+      "kicad_cli_path.py": 1,
+      "measure.py": 1
+    },
+    "agent_spawns": 0,
+    "converge_record_calls": 5,
+    "converge_verbs": {
+      "record": 5
+    },
+    "tokens": {
+      "input_tokens": 178,
+      "cache_creation_input_tokens": 317647,
+      "cache_read_input_tokens": 20529300,
+      "output_tokens": 6170
+    },
+    "unparsed_lines": 0
+  },
+  "subagents": {},
+  "selection": {
+    "by": [
+      "self",
+      "evidence"
+    ],
+    "evidence": [
+      "/tmp/pcb-trials/timiq/v6"
+    ],
+    "candidates": 1,
+    "scanned": 2850,
+    "projects_dir": "~/.claude/projects",
+    "cwd": "~/projects/tools/pcb-pipeline",
+    "session_id": "8c83c415-ff56-483a-a713-36e2572e87cc"
+  }
+}

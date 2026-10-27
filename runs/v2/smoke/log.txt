@@ -1,0 +1,7 @@
+place_simple: seeds 7 (1 at a time)
+  seed 7 (clustered): cost 68443.9, 4000 moves in 133.8 s, no legal pose for J11, NOT BUILDABLE (check_assembly) -> smoke/s7.kicad_pcb
+place_simple: judge seeds none (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> smoke/judge.json
+
+real	2m20.022s
+user	2m32.526s
+sys	0m0.489s

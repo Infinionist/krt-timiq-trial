@@ -1,0 +1,6 @@
+judge_seeds: seeds 0, 2 step(s) each, 3 at a time
+  seed 0: blocking 265 joins_needed 104 floorplan 176 assembly 1 vias 306 copper_mm 4844.21 segments 4890 (279 s)
+judge_seeds: ranked by quick_score.judge_key (floorplan errors + assembly, blocking, joins_needed, vias, copper_mm, segments):
+  seed 0: blocking 265 joins_needed 104 floorplan 176 assembly 1 vias 306 copper_mm 4844.21 segments 4890
+judge_seeds: best seed 0: keep its placement s0.kicad_pcb (never the --quick board)
+JSON_SUMMARY: {"seeds": {"0": {"blocking": 265, "joins_needed": 104, "floorplan": 176, "vias": 306, "copper_mm": 4844.21, "segments": 4890, "seconds": 279.3}}, "ranking": [0], "close": [0], "confirmed": [], "best": 0}

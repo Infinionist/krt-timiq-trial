@@ -1,0 +1,63 @@
+CMD: python -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v4/in/human.kicad_pcb --intent /tmp/pcb-trials/timiq/v4/in/intent_v4.json --json /tmp/pcb-trials/timiq/v4/work/human_check.json --allow-routed
+ENV KNOBS: none
+design brief human.design-brief.json: 0 interface(s), 19 keep-out(s), 3 tier-0 field(s) not declared
+grading at clearance 0.2 (board netclass), edge 0.5 (board constraint)
+  WARNING [placement]: 464 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1, C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, C108, ...
+  heights: 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; declared: 6 shield(s); room under J10, J11, J12, J7, J8, J9
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+Floorplan: human.kicad_pcb vs intent_v4.json
+  464 footprints, 13 block(s), 804 part(s) covered
+  outline: 1 ring(s), 0 cutout(s), 0 milled contour(s)
+  ALSO NOT FULLY GRADED: 2 budget_abstained, 1 rules_skipped_armed -- the violations below are what WAS measured, not all of it
+  0 error(s), 8 warning(s) from 7 rule(s)
+    [warn ] intent_zone_overlap: zones 'box_cans' and 'box_outerband' overlap by 15376.00mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_inside' and 'box_cans' overlap by 10920.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_inside' and 'box_outerband' overlap by 10920.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_inside' and 'box_wallband' overlap by 10920.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_wallband' and 'box_cans' overlap by 13110.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_wallband' and 'box_outerband' overlap by 13110.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] template: templates[0] (U21): 5 of 5 member(s) off the template -- worst C98, a pad 5.82mm from its template position
+    [warn ] template: templates[1] (U22): 5 of 5 member(s) off the template -- worst C99, a pad 5.81mm from its template position
+  pad stacks: 1 (two parts' pad copper overlapping, any net -- check_assembly's pad_intersection, exact; printed, not a floorplan rule) -- check_assembly grades these NOT BUILDABLE
+    C20 <-> R16  2.0014mm2  side F
+  templates[0] U21: 5 of 5 member(s) off, worst C98 5.82mm
+  templates[1] U22: 5 of 5 member(s) off, worst C99 5.81mm
+  decap pins: 107 on 36 of 45 candidate IC(s) -- rail_net 107
+  2 declared value(s) NOT DERIVABLE -- not graded, not passed:
+    - oob_count: the board is a pile: its off-board count is staging, not a baseline (#1103)
+    - overlap_area: the board is a pile: its overlap is staging, not a baseline (#1103)
+  12 rule(s) did not run:
+    - array_formation: the intent declares no arrays
+    - cover: the intent declares no covers
+    - decap_distance: the intent declares no decaps.max_distance_mm
+    - decap_ungraded: the intent declares no decaps.max_distance_mm
+    - edge_connector: the intent declares no edge_connectors
+    - keep_away: the intent declares no keep_away rules
+    - legality: the intent declares no legality_budget; the emitter WITHHELD oob_count (the board is a pile: its off-board count is staging, not a baseline (#1103)), overlap_area (the board is a pile: its overlap is staging, not a baseline (#1103))
+    - must_lock: the intent declares no must_lock patterns
+    - pins_to_edge: the intent declares no edge_connectors
+    - replicate: the intent declares no replicate copies
+    - zone_exclusive: no block is marked exclusive
+    - zone_side: no block declares a side
+  rule roster: 7 armed, 12 not; 3 rule(s) owe a written answer
+    [OWED] zone_side: no block declares a side
+    [policy] zone_exclusive: a policy about who may enter a zone; nothing on the board says that a zone is reserved
+    [not applicable] edge_connector: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [OWED] decap_distance: the intent declares no decaps.max_distance_mm
+    [advisory] decap_ungraded: the intent declares no decaps.max_distance_mm
+    [policy] keep_away: a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive
+    [not applicable] must_lock: must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing
+    [OWED] legality: the intent declares no legality_budget
+    [not applicable] pins_to_edge: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [policy] array_formation: a design decision about which parts form one row; nothing on the board says which identical parts belong together
+    [policy] replicate: a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike
+    [policy] cover: a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches
+    OWED: zone_side: dark -- no block declares a side. It applies here (the board carries parts on both faces). Arm it with `blocks[].side` if the design has that requirement, or write why it does not: dispositions.rules.zone_side
+    OWED: decap_distance: dark -- the intent declares no decaps.max_distance_mm. It applies here (122 decoupling cap(s) share a rail with an IC). Arm it with `decaps.max_distance_mm` if the design has that requirement, or write why it does not: dispositions.rules.decap_distance
+    OWED: legality: dark -- the intent declares no legality_budget. It applies here (every placement has a legality to measure). Arm it with `legality_budget` if the design has that requirement, or write why it does not: dispositions.rules.legality
+  brief clause coverage: 19 graded, 0 uncovered, 0 abstained, 0 declared unknown, 0 carried
+  wrote /tmp/pcb-trials/timiq/v4/work/human_check.json
+JSON_SUMMARY: {"blocks": 13, "blocks_resolved": 13, "board": "human.kicad_pcb", "brief": "/tmp/pcb-trials/timiq/v4/in/human.design-brief.json", "brief_absent": 3, "brief_clauses": 19, "brief_clauses_abstained": 0, "brief_clauses_carried": 0, "brief_clauses_drifted": 0, "brief_clauses_graded": 19, "brief_clauses_not_claimed": 0, "brief_clauses_uncovered": 0, "brief_coverage_complete": true, "brief_declared": 19, "brief_drift": 0, "brief_unknown": 0, "brief_unknown_keys": [], "budget_abstained": 2, "budget_abstained_keys": ["oob_count", "overlap_area"], "budget_dispositioned": 0, "carried_facts": [], "clearance_used": {"source": "board netclass", "value": 0.2}, "complete": false, "contradiction_ids": [], "contradictions": 0, "contradictions_undispositioned": [], "cutouts": 0, "decap_pins_by_channel": {"pinfunction": 0, "pintype": 0, "rail_net": 107, "role": 0}, "decap_pins_graded": 107, "derived_default_clauses": [], "edge_clearance_used": {"source": "board constraint", "value": 0.5}, "edge_contours": 0, "edge_seating_abstained": 0, "edge_seating_declared": 0, "edge_seating_rows": 0, "edge_seating_worst_offset_pct": null, "errors": 0, "hole_shortfall": 0.0, "hpwl": 6237.3248, "intent": "intent_v4.json", "keep_away_unpriced": 0, "keepout_pad_amount": 0.0, "keepout_pad_parts": 0, "ledger_status": {"advisory": 1, "dark": 3, "graded_pass": 26, "inapplicable": 3, "policy": 5}, "locked_contact_pairs": 0, "mechanical": null, "not_graded": {"budget_abstained": 2, "rules_skipped_armed": 1}, "oob_amount": 4.8365, "oob_area": 32.2882, "oob_count": 12, "overlap_area": 1245.7175, "pad_conflict_pairs": 4, "pad_intersection_pairs": 4, "pad_overlap_pairs": 3, "pad_shortfall": 1.5951, "pad_stack_count": 1, "parts_covered": 464, "parts_total": 464, "pass": false, "rules_dark_undispositioned": ["zone_side", "decap_distance", "legality"], "rules_run": 7, "rules_skipped": 12, "stale_dispositions": [], "state_duplicate_fraction": 0.0259, "state_has_copper": false, "state_outside_fraction": 0.0, "state_partially_unplaced": false, "state_spread_ratio": 0.9708, "state_unplaced": false, "unmeasured_facts": [], "violations": 8, "violations_by_rule": {"intent_zone_overlap": 6, "template": 2}, "warnings": 8}
+  NOT FULLY GRADED: 2 budget_abstained, 1 rules_skipped_armed. A channel the intent asked for was never measured, so this is an absent verdict, not a clean one.
+EXIT=4

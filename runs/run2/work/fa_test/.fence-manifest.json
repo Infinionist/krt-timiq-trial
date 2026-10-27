@@ -1,0 +1,11 @@
+{
+ "allow": [],
+ "control": "../../_truth/human_stripped.kicad_pcb",
+ "control_sha256": "36b43fd8472c601a45bb056c520637edc7a180abcc1806e6cdc036ece56189c6",
+ "files": [
+  "TimIQ_RF.kicad_pcb"
+ ],
+ "shas": {
+  "TimIQ_RF.kicad_pcb": "8ed979624d7db43dc4b5c9dd0cdc1ef9b591acfb3ce33796777854db6f1d056b"
+ }
+}

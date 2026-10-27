@@ -1,0 +1,25 @@
+place_simple: seeds 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 (12 at a time)
+  seed 10 (clustered): cost 17966.2, 221500 moves in 1227.8 s, NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s10.kicad_pcb
+  seed 4: cost 16604.8, 221500 moves in 1322.9 s, NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s4.kicad_pcb
+  seed 7 (clustered): cost 17659.0, 221500 moves in 1432.5 s, NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s7.kicad_pcb
+  seed 9 (clustered): cost 17956.1, 221500 moves in 1553.3 s, NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s9.kicad_pcb
+  seed 3: cost 18116.1, 221500 moves in 1902.2 s, NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s3.kicad_pcb
+  seed 11 (clustered): cost 21741.1, 221500 moves in 1921.5 s, no legal pose for U23, 1 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s11.kicad_pcb
+  seed 2: cost 19449.5, 221500 moves in 2083.4 s, no legal pose for U11, U15, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s2.kicad_pcb
+  seed 6 (clustered): cost 16622.2, 221500 moves in 2137.6 s, no legal pose for C98, U25, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s6.kicad_pcb
+  seed 1: cost 18054.0, 221500 moves in 2147.5 s, NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s1.kicad_pcb
+  seed 5: cost 18662.2, 221500 moves in 2293.8 s, no legal pose for C52, U11, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s5.kicad_pcb
+  seed 8 (clustered): cost 17726.3, 221500 moves in 2324.2 s, no legal pose for U16, U3, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s8.kicad_pcb
+  seed 0: cost 17732.9, 221500 moves in 2398.6 s, no legal pose for R101, U25, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r3/s0.kicad_pcb
+place_simple: judge seeds 4, 7, 9, 10, 1, 3 (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v6/r3/judge.json
+  WARNING: seed 4 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 7 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 9 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 10 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 1 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 3 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+
+real	40m5.708s
+user	380m14.194s
+sys	1m31.368s
+EXIT=4

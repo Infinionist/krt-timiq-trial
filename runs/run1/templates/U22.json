@@ -1,0 +1,7 @@
+{"anchor": "U22", "kind": "rf front end", "source": "Mini-Circuits PMA2-43LN+ datasheet (REV, 5 pp.), p.4 Fig 1 Application and Characterization Circuit: L1 10nH between BIAS pin 1 and RF-IN pin 2, C1 DC block at RF-IN, R1 49.9R at the bias node, L2 8.2nH choke and C2 DC block at RF-OUT&DC-IN pin 7; no parts-layout figure (PL-400 is the land pattern), so no sides",
+ "members": [
+  {"ref": "L9", "pads": {"L9": ["1", "2"], "U22": ["1", "2"]}, "note": "L1 10nH bias/match inductor across pins 1-2"},
+  {"ref": "C99", "pads": {"C99": ["2"], "U22": ["2"]}, "note": "C1 input DC block at RF-IN pin 2"},
+  {"ref": "L11", "pads": {"L11": ["2"], "U22": ["7"]}, "note": "L2 8.2nH output bias choke at pin 7"},
+  {"ref": "C109", "pads": {"C109": ["1"], "U22": ["7"]}, "note": "C2 output DC block at RF-OUT pin 7"},
+  {"ref": "R105", "pads": {"R105": ["2"], "U22": ["1"]}, "note": "R1 49.9R at the BIAS node pin 1"}]}

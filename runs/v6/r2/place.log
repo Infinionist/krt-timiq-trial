@@ -1,0 +1,10 @@
+place_simple: seeds 0, 1, 2 (3 at a time)
+  seed 2 (clustered): cost 19299.8, 221500 moves in 1201.5 s, no legal pose for C101, R17, U2, 3 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r2/s2.kicad_pcb
+  seed 1 (clustered): cost 20807.3, 221500 moves in 1240.0 s, no legal pose for U17, U26, U27, U3, 4 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r2/s1.kicad_pcb
+  seed 0: cost 23670.5, 221500 moves in 1284.9 s, no legal pose for R23, U17, U2, 3 floorplan error(s) (zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v6/r2/s0.kicad_pcb
+place_simple: judge seeds none (the 3 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v6/r2/judge.json
+
+real	21m30.647s
+user	62m42.405s
+sys	0m10.591s
+EXIT=4

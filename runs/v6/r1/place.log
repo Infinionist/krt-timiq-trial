@@ -1,0 +1,19 @@
+place_simple: seeds 0, 1, 2 (3 at a time)
+  seed 2 (clustered): cost 23474.2, 221500 moves in 1058.5 s, no legal pose for U24, U25, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (courtyard_blocking_gating) -> /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb
+  seed 1 (clustered): cost 18641.8, 221500 moves in 1069.3 s, no legal pose for R20, U1, U2, 2 floorplan error(s) (zone_containment), NOT BUILDABLE (courtyard_blocking_gating) -> /tmp/pcb-trials/timiq/v6/r1/s1.kicad_pcb
+  seed 0: cost 24825.8, 221500 moves in 1105.6 s, no legal pose for C108, R107, R165, R8, U2, U23, U24, 7 floorplan error(s) (zone_containment), NOT BUILDABLE (courtyard_blocking_gating) -> /tmp/pcb-trials/timiq/v6/r1/s0.kicad_pcb
+place_simple: judge seeds none (the 3 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v6/r1/judge.json
+  WARNING: proximity U24 near U23 (max 5 mm) names no pads: it is priced over 3 shared-net pad legs on GND, Net-(U23-Pad3) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U26 near U24 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U24-Pad4) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U27 near U24 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U24-Pad6) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U26 near U25 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U25-Pad7) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U27 near U25 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U25-Pad9) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U29 near U28 (max 5 mm) names no pads: it is priced over 4 shared-net pad legs on 5V_2, Net-(C110-Pad1), Net-(C111-Pad1), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U30 near U29 (max 5 mm) names no pads: it is priced over 8 shared-net pad legs on 5V_2, GND, Net-(C122-Pad1) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U5 near U4 (max 5 mm) names no pads: it is priced over 3 shared-net pad legs on GND, Net-(C27-Pad1), Net-(C27-Pad2) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U6 near U4 (max 5 mm) names no pads: it is priced over 3 shared-net pad legs on GND, Net-(C28-Pad1), Net-(C28-Pad2) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+
+real	18m31.327s
+user	54m28.316s
+sys	0m8.830s
+EXIT=4

@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "kind": "design-brief",
+  "units": "mm",
+  "board": "TimIQ_RF.kicad_pcb",
+  "interfaces": [],
+  "context": {
+    "rule": "fa10-decl-v1"
+  },
+  "keepouts": [
+    {
+      "name": "hole-J5-1",
+      "circle": [
+        224.8018,
+        149.7424,
+        5.675
+      ],
+      "sides": [
+        "F",
+        "B"
+      ],
+      "allow": [
+        "BOX1",
+        "J5"
+      ],
+      "kind": "mounting_hole",
+      "why": "J5 mounting hole, drill 4.35 mm: no part within 3.5 mm of the hole edge"
+    },
+    {
+      "name": "hole-J5-2",
+      "circle": [
+        224.8018,
+        88.4224,
+        2.766
+      ],
+      "sides": [
+        "F",
+        "B"
+      ],
+      "allow": [
+        "BOX1",
+        "J5"
+      ],
+      "kind": "mounting_hole",
+      "why": "J5 mounting hole, drill 4.35 mm: no part within 0.591 mm of the hole edge"
+    },
+    {
+      "name": "hole-BOX1-1",
+      "circle": [
+        128.9624,
+        210.1978,
+        5.5
+      ],
+      "sides": [
+        "F",
+        "B"
+      ],
+      "allow": [
+        "BOX1"
+      ],
+      "kind": "mounting_hole",
+      "why": "BOX1 mounting hole, drill 4.0 mm: no part within 3.5 mm of the hole edge"
+    },
+    {
+      "name": "hole-BOX1-2",
+      "circle": [
+        239.4624,
+        210.1978,
+        5.5
+      ],
+      "sides": [
+        "F",
+        "B"
+      ],
+      "allow": [
+        "BOX1"
+      ],
+      "kind": "mounting_hole",
+      "why": "BOX1 mounting hole, drill 4.0 mm: no part within 3.5 mm of the hole edge"
+    },
+    {
+      "name": "hole-BOX1-3",
+      "circle": [
+        239.4624,
+        99.6978,
+        5.053
+      ],
+      "sides": [
+        "F",
+        "B"
+      ],
+      "allow": [
+        "BOX1"
+      ],
+      "kind": "mounting_hole",
+      "why": "BOX1 mounting hole, drill 4.0 mm: no part within 3.053 mm of the hole edge"
+    },
+    {
+      "name": "hole-BOX1-4",
+      "circle": [
+        128.9624,
+        99.6978,
+        5.5
+      ],
+      "sides": [
+        "F",
+        "B"
+      ],
+      "allow": [
+        "BOX1"
+      ],
+      "kind": "mounting_hole",
+      "why": "BOX1 mounting hole, drill 4.0 mm: no part within 3.5 mm of the hole edge"
+    }
+  ]
+}

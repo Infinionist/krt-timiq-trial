@@ -1,0 +1,2284 @@
+{
+ "final": {
+  "wire": 7777.89648196,
+  "crossings": 783,
+  "claims": 3158.0273074825736,
+  "decaps": 387.45625282436714,
+  "groups": 187.34556968410772,
+  "hints": 214.27392640189942,
+  "halo": 288.07012385163085,
+  "congestion": 1.9420206615716888,
+  "pad_hits": 512.0,
+  "decap_limits": 0,
+  "decap_broken": 0,
+  "claim_limits": 1282.939621501451,
+  "claim_broken": 153,
+  "template": 42.9738193341049,
+  "cost": 32876.396445498234
+ },
+ "moves": 218000,
+ "seed": 3,
+ "start": "scattered",
+ "runs": 3,
+ "declared": [],
+ "reseated": [
+  "C146"
+ ],
+ "repaired": false,
+ "illegal": [
+  "U11",
+  "U17",
+  "U27",
+  "U4"
+ ],
+ "tight": {},
+ "refused": {
+  "D2": [
+   "keep-out 'hole-FIX5-1'"
+  ]
+ },
+ "estimate_fallback": [],
+ "oversubscribed": [],
+ "claim_arity": [
+  {
+   "ref": "L8",
+   "near": "U21",
+   "max_mm": 3.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C101-Pad1)",
+    "Net-(C98-Pad2)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "L9",
+   "near": "U22",
+   "max_mm": 3.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C103-Pad1)",
+    "Net-(C99-Pad2)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "U24",
+   "near": "U23",
+   "max_mm": 5.0,
+   "legs": 3,
+   "nets": [
+    "GND",
+    "Net-(U23-Pad3)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U26",
+   "near": "U24",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U24-Pad4)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U27",
+   "near": "U24",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U24-Pad6)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U26",
+   "near": "U25",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U25-Pad7)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U27",
+   "near": "U25",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U25-Pad9)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U28",
+   "near": "R123",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C110-Pad1)",
+    "Net-(R119-Pad1)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "U40",
+   "near": "L12",
+   "max_mm": 5.0,
+   "legs": 7,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U39",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 7,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U42",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 8,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U41",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 8,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U43",
+   "near": "L13",
+   "max_mm": 5.0,
+   "legs": 8,
+   "nets": [
+    "24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U45",
+   "near": "L14",
+   "max_mm": 5.0,
+   "legs": 5,
+   "nets": [
+    "-24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U44",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 5,
+   "nets": [
+    "-24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C139",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C140",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C146",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C147",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C151",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C152",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C153",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C154",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C155",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C156",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C157",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C158",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C159",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C160",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C161",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "5V_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C162",
+   "near": "U40",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C163",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C164",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C165",
+   "near": "U41",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C166",
+   "near": "U39",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "7V5",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C167",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C168",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C169",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-24V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C175",
+   "near": "U41",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C176",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C177",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C180",
+   "near": "U41",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C181",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C182",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C183",
+   "near": "U41",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C184",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C185",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C186",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-5V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C187",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C188",
+   "near": "U41",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C189",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C190",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C191",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-5V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C192",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C193",
+   "near": "U41",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_1",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C194",
+   "near": "U42",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "3V3_2",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C195",
+   "near": "U43",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C196",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-5V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C197",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C198",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-5V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C199",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C200",
+   "near": "U44",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-5V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "C201",
+   "near": "U45",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "-15V",
+    "GND"
+   ],
+   "rails": [
+    "GND"
+   ]
+  }
+ ],
+ "floorplan": {
+  "errors": 144,
+  "rules": [
+   "keepout",
+   "proximity",
+   "zone_containment"
+  ]
+ },
+ "assembly": {
+  "blocking": 0,
+  "buildable": true,
+  "fired": []
+ },
+ "bga_field": [],
+ "decap_residual": [],
+ "decap_repair": null,
+ "unseated": {},
+ "notes": [
+  "template U21: C98, L8, R103, C101, C100, R102, L10, C108, R106, C105 seated as drawn and carried with it",
+  "template U22: C99, L9, R105, C103, C102, R104, L11, C109, R107, C107 seated as drawn and carried with it",
+  "in their IC's group: C139 (ldo_pos -> power_in), C140 (ldo_pos -> power_in), C141 (ldo_pos -> power_in), C142 (ldo_pos -> power_in), C146 (ldo_pos -> power_in), C147 (ldo_pos -> power_in), C151 (ldo_pos -> power_in), C152 (ldo_pos -> power_in), C153 (ldo_pos -> power_in), C154 (ldo_pos -> power_in), C158 (ldo_pos -> power_in), C159 (ldo_pos -> power_in), C160 (ldo_pos -> power_in), C161 (ldo_pos -> power_in), C165 (ldo_pos -> power_in), C166 (ldo_pos -> power_in), C167 (ldo_pos -> power_in), C168 (ldo_neg -> power_in), C169 (ldo_neg -> power_in), C170 (ldo_pos -> power_in), C171 (ldo_pos -> power_in), C172 (ldo_pos -> power_in), C173 (ldo_neg -> power_in), C174 (ldo_neg -> power_in), C175 (ldo_pos -> power_in), C176 (ldo_pos -> power_in), C177 (ldo_pos -> power_in), C178 (ldo_neg -> power_in), C179 (ldo_neg -> power_in), C180 (ldo_pos -> power_in), C181 (ldo_pos -> power_in), C182 (ldo_pos -> power_in), C183 (ldo_pos -> power_in), C184 (ldo_pos -> power_in), C185 (ldo_pos -> power_in), C186 (ldo_neg -> power_in), C187 (ldo_neg -> power_in), C188 (ldo_pos -> power_in), C189 (ldo_pos -> power_in), C190 (ldo_pos -> power_in), C191 (ldo_neg -> power_in), C192 (ldo_neg -> power_in), C193 (ldo_pos -> power_in), C194 (ldo_pos -> power_in), C195 (ldo_pos -> power_in), C196 (ldo_neg -> power_in), C197 (ldo_neg -> power_in), C198 (ldo_neg -> power_in), C199 (ldo_neg -> power_in), C20 (pll -> iqmod), C200 (ldo_neg -> power_in), C201 (ldo_neg -> power_in), R100 (mixers -> iqmod), R101 (mixers -> iqmod), R115 (adc -> mixers), R116 (adc -> mixers), R14 (pll -> iqmod), R154 (ldo_pos -> power_in), R155 (ldo_pos -> power_in), R156 (ldo_neg -> power_in), R157 (ldo_neg -> power_in), R158 (ldo_neg -> power_in), R159 (ldo_neg -> power_in), R16 (pll -> iqmod), R160 (ldo_pos -> power_in), R161 (ldo_pos -> power_in), R162 (ldo_pos -> power_in), R163 (ldo_neg -> power_in), R164 (ldo_neg -> power_in), R165 (pll -> iqmod), R17 (pll -> iqmod), R62 (dac_if -> dac), R63 (dac_if -> dac), R64 (dac_if -> dac), R65 (dac_if -> dac), R74 (dividers -> iqmod), U3 (pll -> iqmod), U39 (ldo_pos -> power_in), U40 (ldo_pos -> power_in), U41 (ldo_pos -> power_in), U42 (ldo_pos -> power_in), U43 (ldo_pos -> power_in), U44 (ldo_neg -> power_in), U45 (ldo_neg -> power_in)",
+  "decap C1 on 3V3_1 serves U1, U2",
+  "decap C114 on 5V_2 serves U28, U29, U30",
+  "decap C115 on -5V serves U28",
+  "decap C116 on 3V3_2 serves U29",
+  "decap C117 on 5V_2 serves U28, U29, U30",
+  "decap C118 on 5V_2 serves U28, U29, U30",
+  "decap C119 on 5V_2 serves U28, U29, U30",
+  "decap C123 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C124 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C125 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C126 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C127 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C128 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C129 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C130 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C131 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C132 on 5V_2 serves U33",
+  "decap C133 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C134 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C135 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C136 on 5V_1 serves U36, U37",
+  "decap C137 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C138 on 5V_1 serves U36, U37",
+  "decap C21 on 3V3_1 serves U1, U2",
+  "decap C26 on 5V_2 serves U4, U7, U8, U9",
+  "decap C29 on 15V serves U10, U11, U5, U6",
+  "decap C30 on 15V serves U10, U11, U5, U6",
+  "decap C31 on -15V serves U10, U11, U5, U6",
+  "decap C32 on -15V serves U10, U11, U5, U6",
+  "decap C35 on 5V_2 serves U4, U7, U8, U9",
+  "decap C36 on 5V_2 serves U4, U7, U8, U9",
+  "decap C39 on -5V serves U7, U8, U9",
+  "decap C4 on 3V3_1 serves U1, U2",
+  "decap C40 on -5V serves U7, U8, U9",
+  "decap C41 on 5V_2 serves U4, U7, U8, U9",
+  "decap C44 on -5V serves U7, U8, U9",
+  "decap C45 on 15V serves U10, U11, U5, U6",
+  "decap C46 on 15V serves U10, U11, U5, U6",
+  "decap C49 on -15V serves U10, U11, U5, U6",
+  "decap C50 on -15V serves U10, U11, U5, U6",
+  "decap C51 on 5V_2 serves U12, U13, U14, U15",
+  "decap C52 on 5V_2 serves U12, U13, U14, U15",
+  "decap C59 on 5V_2 serves U12, U13, U14, U15",
+  "decap C6 on 3V3_1 serves U1, U2",
+  "decap C60 on 5V_2 serves U12, U13, U14, U15",
+  "decap C61 on -5V serves U14, U15",
+  "decap C62 on -5V serves U14, U15",
+  "decap C65 on 5V_2 serves U16",
+  "decap C66 on 5V_2 serves U16",
+  "decap C67 on 5V_2 serves U16",
+  "decap C68 on 5V_2 serves U16",
+  "decap C69 on 5V_2 serves U16",
+  "decap C71 on 5V_2 serves U16",
+  "decap C74 on 5V_1 serves U18, U19, U20",
+  "decap C75 on 5V_1 serves U18, U19, U20",
+  "decap C76 on 5V_1 serves U18, U19, U20",
+  "decap C77 on 5V_1 serves U18, U19, U20",
+  "decap C78 on 5V_1 serves U18, U19, U20",
+  "decap C79 on 5V_1 serves U18, U19, U20",
+  "decap C8 on 3V3_1 serves U1, U2",
+  "decap C82 on 5V_1 serves U18, U19, U20",
+  "decap C83 on 5V_1 serves U18, U19, U20",
+  "decap C84 on 5V_1 serves U18, U19, U20",
+  "decap C85 on 5V_1 serves U18, U19, U20",
+  "decap C86 on 5V_1 serves U18, U19, U20",
+  "decap C87 on 5V_1 serves U18, U19, U20",
+  "decap C90 on 5V_1 serves U18, U19, U20",
+  "decap C91 on 5V_1 serves U18, U19, U20",
+  "decap C92 on 5V_1 serves U18, U19, U20",
+  "decap C93 on 5V_1 serves U18, U19, U20",
+  "decap C94 on 5V_1 serves U18, U19, U20",
+  "decap C95 on 5V_1 serves U18, U19, U20",
+  "decap limits priced: 0 term(s) (decap_pin_distance 8.1577 mm)"
+ ],
+ "groups": [
+  [
+   "pll",
+   [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "D1",
+    "J1",
+    "J2",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "Q1",
+    "R1",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "U1",
+    "U2"
+   ]
+  ],
+  [
+   "mixers",
+   [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "R115",
+    "R116"
+   ]
+  ],
+  [
+   "adc",
+   [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30"
+   ]
+  ],
+  [
+   "digital",
+   [
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "J5",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38"
+   ]
+  ],
+  [
+   "power_in",
+   [
+    "C143",
+    "C144",
+    "C145",
+    "C148",
+    "C149",
+    "C150",
+    "C155",
+    "C156",
+    "C157",
+    "C162",
+    "C163",
+    "C164",
+    "J6",
+    "L12",
+    "L13",
+    "L14",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "C139",
+    "C140",
+    "C141",
+    "C142",
+    "C146",
+    "C147",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C178",
+    "C179",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C200",
+    "C201",
+    "R154",
+    "R155",
+    "R156",
+    "R157",
+    "R158",
+    "R159",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "U39",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45"
+   ]
+  ],
+  [
+   "dac",
+   [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "U10",
+    "U11",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "R62",
+    "R63",
+    "R64",
+    "R65"
+   ]
+  ],
+  [
+   "dac_if",
+   [
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ]
+  ],
+  [
+   "iqmod",
+   [
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17",
+    "C20",
+    "R100",
+    "R101",
+    "R14",
+    "R16",
+    "R165",
+    "R17",
+    "R74",
+    "U3"
+   ]
+  ],
+  [
+   "dividers",
+   [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "J3",
+    "J4",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20"
+   ]
+  ]
+ ],
+ "stats": {
+  "shift": [
+   83030,
+   6287
+  ],
+  "turn": [
+   31298,
+   7850
+  ],
+  "swap": [
+   20841,
+   589
+  ],
+  "jump": [
+   20804,
+   3198
+  ],
+  "dock": [
+   20808,
+   3266
+  ],
+  "gshift": [
+   24802,
+   613
+  ],
+  "gturn": [
+   3748,
+   73
+  ],
+  "gswap": [
+   2389,
+   3
+  ],
+  "escape": [
+   10280,
+   286
+  ]
+ },
+ "templates": [
+  {
+   "anchor": "U21",
+   "ref": "C98",
+   "worst_mm": 2.387,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L8",
+   "worst_mm": 0.599,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R103",
+   "worst_mm": 0.867,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C101",
+   "worst_mm": 0.0,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C100",
+   "worst_mm": 1.24,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R102",
+   "worst_mm": 0.0,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L10",
+   "worst_mm": 2.258,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C108",
+   "worst_mm": 2.371,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R106",
+   "worst_mm": 2.443,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C105",
+   "worst_mm": 2.241,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C99",
+   "worst_mm": 2.679,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L9",
+   "worst_mm": 15.466,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R105",
+   "worst_mm": 3.396,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C103",
+   "worst_mm": 2.141,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C102",
+   "worst_mm": 0.0,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R104",
+   "worst_mm": 0.0,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L11",
+   "worst_mm": 2.27,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C109",
+   "worst_mm": 1.906,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R107",
+   "worst_mm": 8.448,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C107",
+   "worst_mm": 0.712,
+   "tolerance_mm": 0.3
+  }
+ ],
+ "hints_saturated": [],
+ "template_keepout": [],
+ "pad_overhang": {},
+ "template_off": [
+  {
+   "anchor": "U21",
+   "ref": "C98",
+   "worst_mm": 2.387,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L8",
+   "worst_mm": 0.599,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R103",
+   "worst_mm": 0.867,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C100",
+   "worst_mm": 1.24,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L10",
+   "worst_mm": 2.258,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C108",
+   "worst_mm": 2.371,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R106",
+   "worst_mm": 2.443,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C105",
+   "worst_mm": 2.241,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C99",
+   "worst_mm": 2.679,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L9",
+   "worst_mm": 15.466,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R105",
+   "worst_mm": 3.396,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C103",
+   "worst_mm": 2.141,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L11",
+   "worst_mm": 2.27,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C109",
+   "worst_mm": 1.906,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R107",
+   "worst_mm": 8.448,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C107",
+   "worst_mm": 0.712,
+   "tolerance_mm": 0.3
+  }
+ ],
+ "faces": {
+  "flippable": [
+   "C1",
+   "C10",
+   "C104",
+   "C106",
+   "C11",
+   "C110",
+   "C111",
+   "C112",
+   "C113",
+   "C114",
+   "C115",
+   "C116",
+   "C117",
+   "C118",
+   "C119",
+   "C12",
+   "C120",
+   "C121",
+   "C122",
+   "C123",
+   "C124",
+   "C125",
+   "C126",
+   "C127",
+   "C128",
+   "C129",
+   "C13",
+   "C130",
+   "C131",
+   "C132",
+   "C133",
+   "C134",
+   "C135",
+   "C136",
+   "C137",
+   "C138",
+   "C139",
+   "C14",
+   "C140",
+   "C141",
+   "C142",
+   "C143",
+   "C144",
+   "C145",
+   "C146",
+   "C147",
+   "C148",
+   "C149",
+   "C15",
+   "C150",
+   "C151",
+   "C152",
+   "C153",
+   "C154",
+   "C155",
+   "C156",
+   "C157",
+   "C158",
+   "C159",
+   "C16",
+   "C160",
+   "C161",
+   "C162",
+   "C163",
+   "C164",
+   "C165",
+   "C166",
+   "C167",
+   "C168",
+   "C169",
+   "C17",
+   "C170",
+   "C171",
+   "C172",
+   "C173",
+   "C174",
+   "C175",
+   "C176",
+   "C177",
+   "C178",
+   "C179",
+   "C18",
+   "C180",
+   "C181",
+   "C182",
+   "C183",
+   "C184",
+   "C185",
+   "C186",
+   "C187",
+   "C188",
+   "C189",
+   "C19",
+   "C190",
+   "C191",
+   "C192",
+   "C193",
+   "C194",
+   "C195",
+   "C196",
+   "C197",
+   "C198",
+   "C199",
+   "C2",
+   "C20",
+   "C200",
+   "C201",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C26",
+   "C27",
+   "C28",
+   "C29",
+   "C3",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C4",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C5",
+   "C50",
+   "C51",
+   "C52",
+   "C53",
+   "C54",
+   "C55",
+   "C56",
+   "C57",
+   "C58",
+   "C59",
+   "C6",
+   "C60",
+   "C61",
+   "C62",
+   "C63",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C7",
+   "C70",
+   "C71",
+   "C72",
+   "C73",
+   "C74",
+   "C75",
+   "C76",
+   "C77",
+   "C78",
+   "C79",
+   "C8",
+   "C80",
+   "C81",
+   "C82",
+   "C83",
+   "C84",
+   "C85",
+   "C86",
+   "C87",
+   "C88",
+   "C89",
+   "C9",
+   "C90",
+   "C91",
+   "C92",
+   "C93",
+   "C94",
+   "C95",
+   "C96",
+   "C97",
+   "D1",
+   "L1",
+   "L12",
+   "L13",
+   "L14",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "Q1",
+   "R1",
+   "R10",
+   "R100",
+   "R101",
+   "R108",
+   "R109",
+   "R11",
+   "R110",
+   "R111",
+   "R112",
+   "R113",
+   "R114",
+   "R115",
+   "R116",
+   "R117",
+   "R118",
+   "R119",
+   "R12",
+   "R120",
+   "R121",
+   "R122",
+   "R123",
+   "R124",
+   "R125",
+   "R126",
+   "R127",
+   "R128",
+   "R129",
+   "R13",
+   "R130",
+   "R131",
+   "R132",
+   "R133",
+   "R134",
+   "R135",
+   "R136",
+   "R137",
+   "R138",
+   "R139",
+   "R14",
+   "R140",
+   "R141",
+   "R142",
+   "R143",
+   "R144",
+   "R145",
+   "R146",
+   "R147",
+   "R148",
+   "R149",
+   "R15",
+   "R150",
+   "R151",
+   "R152",
+   "R153",
+   "R154",
+   "R155",
+   "R156",
+   "R157",
+   "R158",
+   "R159",
+   "R16",
+   "R160",
+   "R161",
+   "R162",
+   "R163",
+   "R164",
+   "R165",
+   "R17",
+   "R18",
+   "R19",
+   "R2",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R24",
+   "R25",
+   "R26",
+   "R27",
+   "R28",
+   "R29",
+   "R3",
+   "R30",
+   "R31",
+   "R32",
+   "R33",
+   "R34",
+   "R35",
+   "R36",
+   "R37",
+   "R38",
+   "R39",
+   "R4",
+   "R40",
+   "R41",
+   "R42",
+   "R43",
+   "R44",
+   "R45",
+   "R46",
+   "R47",
+   "R48",
+   "R49",
+   "R5",
+   "R50",
+   "R51",
+   "R52",
+   "R53",
+   "R54",
+   "R55",
+   "R56",
+   "R57",
+   "R58",
+   "R59",
+   "R6",
+   "R60",
+   "R61",
+   "R62",
+   "R63",
+   "R64",
+   "R65",
+   "R66",
+   "R67",
+   "R68",
+   "R69",
+   "R7",
+   "R70",
+   "R71",
+   "R72",
+   "R73",
+   "R74",
+   "R75",
+   "R76",
+   "R77",
+   "R78",
+   "R79",
+   "R8",
+   "R80",
+   "R81",
+   "R82",
+   "R83",
+   "R84",
+   "R85",
+   "R86",
+   "R87",
+   "R88",
+   "R89",
+   "R9",
+   "R90",
+   "R91",
+   "R92",
+   "R93",
+   "R94",
+   "R95",
+   "R96",
+   "R97",
+   "R98",
+   "R99",
+   "TP1",
+   "TP2",
+   "TP3",
+   "TP4",
+   "TP5",
+   "TP6",
+   "TP7",
+   "TP8",
+   "TP9",
+   "U1",
+   "U10",
+   "U11",
+   "U12",
+   "U13",
+   "U14",
+   "U15",
+   "U16",
+   "U17",
+   "U18",
+   "U19",
+   "U2",
+   "U20",
+   "U23",
+   "U24",
+   "U25",
+   "U26",
+   "U27",
+   "U28",
+   "U29",
+   "U3",
+   "U30",
+   "U31",
+   "U32",
+   "U33",
+   "U34",
+   "U35",
+   "U36",
+   "U37",
+   "U38",
+   "U39",
+   "U4",
+   "U40",
+   "U41",
+   "U42",
+   "U43",
+   "U44",
+   "U45",
+   "U5",
+   "U6",
+   "U7",
+   "U8",
+   "U9"
+  ],
+  "needed": {
+   "C110": "past its claim limit",
+   "C111": "past its claim limit",
+   "C112": "past its claim limit",
+   "C113": "past its claim limit",
+   "C139": "past its claim limit",
+   "C140": "past its claim limit",
+   "C143": "past its claim limit",
+   "C144": "past its claim limit",
+   "C145": "past its claim limit",
+   "C148": "past its claim limit",
+   "C150": "past its claim limit",
+   "C151": "past its claim limit",
+   "C155": "past its claim limit",
+   "C157": "past its claim limit",
+   "C16": "past its claim limit",
+   "C162": "past its claim limit",
+   "C164": "past its claim limit",
+   "C166": "past its claim limit",
+   "C167": "past its claim limit",
+   "C168": "past its claim limit",
+   "C169": "past its claim limit",
+   "C171": "past its claim limit",
+   "C173": "past its claim limit",
+   "C174": "past its claim limit",
+   "C175": "past its claim limit",
+   "C178": "past its claim limit",
+   "C179": "past its claim limit",
+   "C18": "past its claim limit",
+   "C180": "past its claim limit",
+   "C181": "past its claim limit",
+   "C183": "past its claim limit",
+   "C187": "past its claim limit",
+   "C189": "past its claim limit",
+   "C19": "past its claim limit",
+   "C193": "past its claim limit",
+   "C194": "past its claim limit",
+   "C195": "past its claim limit",
+   "C196": "past its claim limit",
+   "C197": "past its claim limit",
+   "C199": "past its claim limit",
+   "C200": "past its claim limit",
+   "C22": "past its claim limit",
+   "C23": "past its claim limit",
+   "C25": "past its claim limit",
+   "C28": "past its claim limit",
+   "C37": "past its claim limit",
+   "C38": "past its claim limit",
+   "C42": "past its claim limit",
+   "C47": "past its claim limit",
+   "C48": "past its claim limit",
+   "C70": "past its claim limit",
+   "C72": "past its claim limit",
+   "C73": "past its claim limit",
+   "C80": "past its claim limit",
+   "C81": "past its claim limit",
+   "C88": "past its claim limit",
+   "C96": "past its claim limit",
+   "L12": "past its claim limit",
+   "L13": "past its claim limit",
+   "L14": "past its claim limit",
+   "L3": "past its claim limit",
+   "L4": "past its claim limit",
+   "L5": "past its claim limit",
+   "L6": "past its claim limit",
+   "L7": "past its claim limit",
+   "C104": "room for L9 (past its claim limit) in group mixers",
+   "C106": "room for L9 (past its claim limit) in group mixers",
+   "R100": "room for L9 (past its claim limit) in group mixers",
+   "R101": "room for L9 (past its claim limit) in group mixers",
+   "R108": "room for L9 (past its claim limit) in group mixers",
+   "U23": "room for L9 (past its claim limit) in group mixers",
+   "U24": "room for L9 (past its claim limit) in group mixers",
+   "U25": "room for L9 (past its claim limit) in group mixers",
+   "U26": "room for L9 (past its claim limit) in group mixers",
+   "U27": "room for L9 (past its claim limit) in group mixers",
+   "R10": "past its claim limit",
+   "R113": "past its claim limit",
+   "R115": "past its claim limit",
+   "R116": "past its claim limit",
+   "R118": "past its claim limit",
+   "R12": "past its claim limit",
+   "R122": "past its claim limit",
+   "R128": "past its claim limit",
+   "R129": "past its claim limit",
+   "R13": "past its claim limit",
+   "R133": "past its claim limit",
+   "R135": "past its claim limit",
+   "R136": "past its claim limit",
+   "R138": "past its claim limit",
+   "R139": "past its claim limit",
+   "R141": "past its claim limit",
+   "R142": "past its claim limit",
+   "R143": "past its claim limit",
+   "R145": "past its claim limit",
+   "R15": "past its claim limit",
+   "R150": "past its claim limit",
+   "R153": "past its claim limit",
+   "R154": "past its claim limit",
+   "R155": "past its claim limit",
+   "R156": "past its claim limit",
+   "R157": "past its claim limit",
+   "R158": "past its claim limit",
+   "R159": "past its claim limit",
+   "R16": "past its claim limit",
+   "R160": "past its claim limit",
+   "R161": "past its claim limit",
+   "R162": "past its claim limit",
+   "R2": "past its claim limit",
+   "R22": "past its claim limit",
+   "R24": "past its claim limit",
+   "R26": "past its claim limit",
+   "R27": "past its claim limit",
+   "R29": "past its claim limit",
+   "R30": "past its claim limit",
+   "R31": "past its claim limit",
+   "R33": "past its claim limit",
+   "R36": "past its claim limit",
+   "R39": "past its claim limit",
+   "R41": "past its claim limit",
+   "R42": "past its claim limit",
+   "R43": "past its claim limit",
+   "R45": "past its claim limit",
+   "R47": "past its claim limit",
+   "R48": "past its claim limit",
+   "R50": "past its claim limit",
+   "R51": "past its claim limit",
+   "R53": "past its claim limit",
+   "R54": "past its claim limit",
+   "R55": "past its claim limit",
+   "R56": "past its claim limit",
+   "R57": "past its claim limit",
+   "R62": "past its claim limit",
+   "R64": "past its claim limit",
+   "R73": "past its claim limit",
+   "R74": "past its claim limit",
+   "R76": "past its claim limit",
+   "R79": "past its claim limit",
+   "R80": "past its claim limit",
+   "R82": "past its claim limit",
+   "R85": "past its claim limit",
+   "R86": "past its claim limit",
+   "R92": "past its claim limit",
+   "R96": "past its claim limit",
+   "R98": "past its claim limit",
+   "R99": "past its claim limit",
+   "U11": "no legal pose",
+   "U17": "no legal pose",
+   "U19": "past its claim limit",
+   "U2": "past its claim limit",
+   "U39": "past its claim limit",
+   "U4": "no legal pose",
+   "U40": "past its claim limit",
+   "U41": "past its claim limit",
+   "U42": "past its claim limit",
+   "U43": "past its claim limit",
+   "U44": "past its claim limit",
+   "U45": "past its claim limit"
+  },
+  "needed_kept": false
+ },
+ "seconds": {
+  "setup": 4.9,
+  "anneal": 8239.2
+ }
+}

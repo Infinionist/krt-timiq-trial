@@ -1,0 +1,23 @@
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+BOARD fixed.kicad_pcb: 458 parts, 414 nets, 8 copper layers
+  outline 150.0 x 160.0 mm (24000.0 mm2), cutouts 0, milled contours 0
+  state: PILE; copper no (0 segs, 0 vias; 4 pours)
+    - 100% of footprints lie outside the board outline
+  pours: -5V on In2.Cu (unfilled, 34% of the board); 3V3_1 on In5.Cu (unfilled, 39% of the board); 5V_2 on In3.Cu (unfilled, 44% of the board); GND on B.Cu/F.Cu/In1.Cu/In2.Cu/In4.Cu/In6.Cu (unfilled, 100% of the board)
+  !! 20 measurement(s) below are NULL: they are measured from part positions and this board has none yet
+     every part's input coordinate is meaningless, so a step that does not state a target has nothing to work from. Declare
+     mechanical poses in the intent's `fixed_poses[]` (or the design brief's `fixed[].pose`), or set them with `place_pose set` + `lock`;
+     place_simple places the rest. `--fit WxH` still answers where a part can go at all.
+  groups[sheet]: 9 block(s) ['sheet:00000000-0000-0000-0000-00004f61069c/00000000-0000-0000-0000-000055b24967', 'sheet:00000000-0000-0000-0000-00004f61069c/00000000-0000-0000-0000-000055b25766', 'sheet:00000000-0000-0000-0000-00004f61069c/00000000-0000-0000-0000-000055b76454', 'sheet:00000000-0000-0000-0000-00004f61069c/00000000-0000-0000-0000-000055bfa0eb']...
+  groups[decap]: null (needs a placement)
+  power: gnd [['GND', 528]], vcc [['-5V', 22], ['7V5', 20], ['-15V', 18], ['15V', 17], ['-24V', 12], ['24V', 8]]
+  diff pairs: 2
+  escape: 24 fine-pitch part(s), deficit NOT MEASURED (needs a placement)
+  locks: confidence NOT MEASURED (needs a placement) -- see the `mechanical` section, which does not; 0 already locked in the file
+  design brief fixed.design-brief.json: 0 interface(s), 0 keep-out(s)
+  !! design brief NOT DECLARED: product.form_factor
+  !! design brief NOT DECLARED: product.primary_axis
+  !! design brief NOT DECLARED: interfaces
+mechanical declaration /tmp/pcb-trials/timiq/v6/mechanical.json: 15 pose(s), 0 edge(s) -- recorded facts
+Wrote /tmp/pcb-trials/timiq/v6/brief.json
+JSON_SUMMARY: {"board": "/tmp/pcb-trials/timiq/v6/fixed.kicad_pcb", "has_copper": false, "nets": 414, "parts": 458, "pile": true, "poured_nets": ["-5V", "3V3_1", "5V_2", "GND"], "sections": ["board", "design_brief", "measurements", "mechanical", "mechanical_declared", "parts", "position_dependent", "pours", "state", "structure"], "skipped": [], "unplaced": false}

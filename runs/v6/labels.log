@@ -1,0 +1,9 @@
+CMD: python -X utf8 py_placer/beautify_labels.py /tmp/pcb-trials/timiq/v6/final.kicad_pcb /tmp/pcb-trials/timiq/v6/labelled.kicad_pcb
+ENV KNOBS: none
+Loading /tmp/pcb-trials/timiq/v6/final.kicad_pcb...
+Output file: /tmp/pcb-trials/timiq/v6/labelled.kicad_pcb
+Modified 458 reference label(s)
+Successfully wrote /tmp/pcb-trials/timiq/v6/labelled.kicad_pcb
+silk graphics not checked: a label may overlap a neighbour's drawn silk -- grade with KiCad's silk_overlap
+JSON_SUMMARY: {"canceled": false, "labels_total": 458, "orientation": "horizontal", "placed": 429, "rotated": 15, "shrunk": 6, "shrunk_rotated": 8, "silk_graphics_checked": false, "size": 1.0, "skipped_hidden": 0, "skipped_locked": 0, "skipped_multiline": 0, "thickness": 0.15, "unchanged": 0, "unchanged_refs": []}
+EXIT=0

@@ -1,0 +1,21 @@
+before (every part on F):
+  zone                               face   n flip usable F usable B  load F  load B    F0     F     B limit  verdict
+  canJ7                              F     52    0      949      949     723       0  0.76  0.76  0.00  0.65  FAIL
+  canJ8                              F     53    0      949      949     728       0  0.77  0.77  0.00  0.65  FAIL
+  canJ9                              F     44    0      949      949     604       0  0.64  0.64  0.00  0.65  TIGHT
+  canJ10                             F     47    0      949      949     548       0  0.58  0.58  0.00  0.65  TIGHT
+  canJ11                             F     35    0      949      949     437       0  0.46  0.46  0.00  0.65  ok
+  canJ12                             F     51    0      949      949     750       0  0.79  0.79  0.00  0.65  FAIL
+  power_strip                        F     75    0     3929     4208    2007       0  0.51  0.51  0.00  0.65  ok
+  free (everything outside the cans) F    154    0    13954    15152    3461       0  0.25  0.25  0.00  0.65  ok
+  canJ7: F0 0.76 -> F 0.65 / B 0.12; 12 flippable (40 eligible)
+    C1 C21 C4 C6 C8 C10 C11 C12 C13 C14 C15 C2
+  canJ8: F0 0.77 -> F 0.64 / B 0.12; 13 flippable (13 eligible)
+    C104 C106 C65 C66 C67 C68 C69 C71 C64 R108 R14 R71 R72
+  canJ9: F0 0.64 -> F 0.64 / B 0.00; 0 flippable
+  canJ10: F0 0.58 -> F 0.58 / B 0.00; 0 flippable
+  canJ11: F0 0.46 -> F 0.46 / B 0.00; 0 flippable
+  canJ12: F0 0.79 -> F 0.65 / B 0.14; 15 flippable (37 eligible)
+    C26 C29 C30 C31 C32 C35 C36 C39 C40 C41 C44 C27 C28 C33 C34
+decide_faces: 0 non-can part(s) listed flippable
+decide_faces: PASS

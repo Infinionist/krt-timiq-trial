@@ -1,0 +1,317 @@
+{
+ "shields": {
+  "cans": 6,
+  "front_members": 172,
+  "back_members": 97
+ },
+ "holes": [
+  {
+   "name": "hole-J5-1",
+   "host": "J5",
+   "drill": 4.35,
+   "clear_mm": 3.5,
+   "human_gap_mm": 6.796,
+   "nearest": "R88",
+   "allow": [
+    "J5",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-J5-2",
+   "host": "J5",
+   "drill": 4.35,
+   "clear_mm": 0.591,
+   "human_gap_mm": 0.596,
+   "nearest": "C193",
+   "allow": [
+    "J5",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-BOX1-1",
+   "host": "BOX1",
+   "drill": 4.0,
+   "clear_mm": 3.5,
+   "human_gap_mm": 6.774,
+   "nearest": "Q1",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-BOX1-3",
+   "host": "BOX1",
+   "drill": 4.0,
+   "clear_mm": 3.5,
+   "human_gap_mm": 6.395,
+   "nearest": "TP7",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-BOX1-5",
+   "host": "BOX1",
+   "drill": 4.0,
+   "clear_mm": 3.052,
+   "human_gap_mm": 3.058,
+   "nearest": "U38",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-BOX1-7",
+   "host": "BOX1",
+   "drill": 4.0,
+   "clear_mm": 3.5,
+   "human_gap_mm": 10.892,
+   "nearest": "C199",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX1-1",
+   "host": "FIX1",
+   "drill": 3.1,
+   "clear_mm": 3.5,
+   "human_gap_mm": 26.408,
+   "nearest": "TP7",
+   "allow": [
+    "FIX1",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX2-1",
+   "host": "FIX2",
+   "drill": 3.1,
+   "clear_mm": 3.5,
+   "human_gap_mm": 9.98,
+   "nearest": "J8",
+   "allow": [
+    "FIX2",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX3-1",
+   "host": "FIX3",
+   "drill": 3.1,
+   "clear_mm": 3.5,
+   "human_gap_mm": 8.116,
+   "nearest": "R1",
+   "allow": [
+    "FIX3",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX4-1",
+   "host": "FIX4",
+   "drill": 3.1,
+   "clear_mm": 3.5,
+   "human_gap_mm": 15.471,
+   "nearest": "J11",
+   "allow": [
+    "FIX4",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX5-1",
+   "host": "FIX5",
+   "drill": 3.1,
+   "clear_mm": 3.5,
+   "human_gap_mm": 4.598,
+   "nearest": "R154",
+   "allow": [
+    "FIX5",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX6-1",
+   "host": "FIX6",
+   "drill": 3.1,
+   "clear_mm": 3.413,
+   "human_gap_mm": 3.418,
+   "nearest": "C145",
+   "allow": [
+    "FIX6",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX7-1",
+   "host": "FIX7",
+   "drill": 3.1,
+   "clear_mm": 2.053,
+   "human_gap_mm": 2.058,
+   "nearest": "C139",
+   "allow": [
+    "FIX7",
+    "BOX1"
+   ]
+  },
+  {
+   "name": "hole-FIX8-1",
+   "host": "FIX8",
+   "drill": 3.1,
+   "clear_mm": 3.5,
+   "human_gap_mm": 6.925,
+   "nearest": "R138",
+   "allow": [
+    "FIX8",
+    "BOX1"
+   ]
+  }
+ ],
+ "box": {
+  "inner": 296,
+  "mid": 22,
+  "outer": 16,
+  "can": 6,
+  "straddle": 4,
+  "outside": 98,
+  "fixed_overlapping_box": [
+   "BOX1",
+   "J5"
+  ],
+  "mid_refs": [
+   "C129",
+   "C130",
+   "C131",
+   "C134",
+   "C135",
+   "C136",
+   "C137",
+   "C138",
+   "C96",
+   "C97",
+   "R132",
+   "R134",
+   "R136",
+   "R150",
+   "R152",
+   "R153",
+   "R34",
+   "R35",
+   "U2",
+   "U34",
+   "U38",
+   "U4"
+  ],
+  "outer_refs": [
+   "R139",
+   "R141",
+   "R143",
+   "R146",
+   "R149",
+   "R151",
+   "R24",
+   "R25",
+   "R28",
+   "R29",
+   "R30",
+   "R31",
+   "R32",
+   "R33",
+   "R36",
+   "R37"
+  ],
+  "straddle_refs": [
+   "R148",
+   "U35",
+   "U36",
+   "U37"
+  ]
+ },
+ "decaps": {
+  "max_pin_distance_mm": 8.1577
+ },
+ "proximity": {
+  "rows": 159,
+  "direct": 148,
+  "chain": 19,
+  "shunt_3mm": 31,
+  "series_5mm": 136,
+  "bridge_skipped": [
+   "C63",
+   "C70",
+   "C72",
+   "C80",
+   "C81",
+   "C88",
+   "C89",
+   "R13",
+   "R38",
+   "R39",
+   "R44",
+   "R45"
+  ],
+  "template_members_skipped": [
+   "C108",
+   "C109",
+   "C98",
+   "C99",
+   "L10",
+   "L11",
+   "L8",
+   "L9",
+   "R103",
+   "R105"
+  ],
+  "loosened": {
+   "C112": 5.1,
+   "C113": 5.1,
+   "C13": 5.3,
+   "C15": 4.0,
+   "C18": 6.7,
+   "C19": 8.2,
+   "C2": 5.0,
+   "C22": 6.3,
+   "R117": 5.4,
+   "R118": 5.4,
+   "R15": 8.1,
+   "R152": 5.9,
+   "R153": 5.6,
+   "R17": 9.4,
+   "R24": 9.6,
+   "R25": 7.8,
+   "R28": 6.5,
+   "R29": 5.1,
+   "R32": 5.2,
+   "R33": 6.7,
+   "R42": 5.1,
+   "R75": 6.5,
+   "R76": 7.1,
+   "R78": 6.5,
+   "R79": 6.5,
+   "R80": 8.5,
+   "R81": 8.6,
+   "R82": 6.8,
+   "R85": 6.8,
+   "R88": 6.6,
+   "R89": 6.7,
+   "R90": 5.7,
+   "R91": 6.9,
+   "R97": 5.5,
+   "R98": 6.3,
+   "R99": 7.8
+  },
+  "dropped_human_gt_10mm": {
+   "C17": 11.91,
+   "C20": 10.75,
+   "C96": 30.33,
+   "C97": 25.66,
+   "R115": 68.33,
+   "R116": 62.51,
+   "R16": 10.75,
+   "R74": 20.47
+  }
+ }
+}

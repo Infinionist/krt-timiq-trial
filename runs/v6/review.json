@@ -1,0 +1,3294 @@
+{
+ "board": "/tmp/pcb-trials/timiq/v6/r3/s7_fast.kicad_pcb",
+ "layers_with_signal": [
+  "B.Cu",
+  "F.Cu"
+ ],
+ "pitch_mm": 0.338,
+ "cell_mm": 2.0,
+ "hot": 0.5,
+ "open_nets": [
+  {
+   "net": "/TOP/PLL/PLL_IN",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C3",
+    "U1"
+   ],
+   "parts": [
+    "C3",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(C24-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C24",
+    "U1"
+   ],
+   "parts": [
+    "C24",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(C63-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C63",
+    "U16"
+   ],
+   "parts": [
+    "C63",
+    "U16"
+   ]
+  },
+  {
+   "net": "Net-(C64-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C64",
+    "U16"
+   ],
+   "parts": [
+    "C64",
+    "U16"
+   ]
+  },
+  {
+   "net": "Net-(C70-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C70",
+    "U16"
+   ],
+   "parts": [
+    "C70",
+    "U16"
+   ]
+  },
+  {
+   "net": "Net-(C73-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C73",
+    "U18"
+   ],
+   "parts": [
+    "C73",
+    "U18"
+   ]
+  },
+  {
+   "net": "Net-(C81-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C81",
+    "R85",
+    "U18"
+   ],
+   "parts": [
+    "C81",
+    "R85",
+    "U18"
+   ]
+  },
+  {
+   "net": "Net-(C81-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C81",
+    "U19"
+   ],
+   "parts": [
+    "C81",
+    "U19"
+   ]
+  },
+  {
+   "net": "Net-(C89-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C89",
+    "U20"
+   ],
+   "parts": [
+    "C89",
+    "U20"
+   ]
+  },
+  {
+   "net": "Net-(C96-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C96",
+    "U20"
+   ],
+   "parts": [
+    "C96",
+    "U20"
+   ]
+  },
+  {
+   "net": "Net-(C97-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C97",
+    "U20"
+   ],
+   "parts": [
+    "C97",
+    "U20"
+   ]
+  },
+  {
+   "net": "/TOP/PLL/PLL_LOCKED",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "Q1",
+    "R3",
+    "U1",
+    "U38"
+   ],
+   "parts": [
+    "Q1",
+    "R3",
+    "U1",
+    "U38"
+   ]
+  },
+  {
+   "net": "Net-(R10-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R10",
+    "U1"
+   ],
+   "parts": [
+    "R10",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(R11-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R11",
+    "U1"
+   ],
+   "parts": [
+    "R11",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(R12-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R12",
+    "U1"
+   ],
+   "parts": [
+    "R12",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(R22-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R22",
+    "U1"
+   ],
+   "parts": [
+    "R22",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(R38-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R38",
+    "U4"
+   ],
+   "parts": [
+    "R38",
+    "U4"
+   ]
+  },
+  {
+   "net": "Net-(R39-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R39",
+    "U4"
+   ],
+   "parts": [
+    "R39",
+    "U4"
+   ]
+  },
+  {
+   "net": "/TOP/ADC/ADC_SCK",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R110",
+    "U29",
+    "U32"
+   ],
+   "parts": [
+    "R110",
+    "U29",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/ADC/ADC_MISO",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R113",
+    "U29",
+    "U38"
+   ],
+   "parts": [
+    "R113",
+    "U29",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/ADC/ADC_ALARM",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R114",
+    "U29",
+    "U38"
+   ],
+   "parts": [
+    "R114",
+    "U29",
+    "U38"
+   ]
+  },
+  {
+   "net": "Net-(R125-Pad1)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R125",
+    "U29"
+   ],
+   "parts": [
+    "R125",
+    "U29"
+   ]
+  },
+  {
+   "net": "Net-(R152-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R152",
+    "U38"
+   ],
+   "parts": [
+    "R152",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/PLL/PLL_CE",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R4",
+    "U1",
+    "U31"
+   ],
+   "parts": [
+    "R4",
+    "U1",
+    "U31"
+   ]
+  },
+  {
+   "net": "Net-(L2-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "L2",
+    "U1"
+   ],
+   "parts": [
+    "L2",
+    "U1"
+   ]
+  },
+  {
+   "net": "/TOP/PLL/PLL_ENout",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R6",
+    "U1",
+    "U31"
+   ],
+   "parts": [
+    "R6",
+    "U1",
+    "U31"
+   ]
+  },
+  {
+   "net": "Net-(L3-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "L3",
+    "U1"
+   ],
+   "parts": [
+    "L3",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(R9-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R9",
+    "U1"
+   ],
+   "parts": [
+    "R9",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(C7-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "C7",
+    "U1"
+   ],
+   "parts": [
+    "C7",
+    "U1"
+   ]
+  },
+  {
+   "net": "/TOP/PLL/PLL_DATA",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R7",
+    "U1",
+    "U31"
+   ],
+   "parts": [
+    "R7",
+    "U1",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/PLL/PLL_CLK",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R5",
+    "U1",
+    "U31"
+   ],
+   "parts": [
+    "R5",
+    "U1",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/PLL/PLL_LE",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R2",
+    "U1",
+    "U31"
+   ],
+   "parts": [
+    "R2",
+    "U1",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/DAC//DAC_CS",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U33",
+    "U4"
+   ],
+   "parts": [
+    "U33",
+    "U4"
+   ]
+  },
+  {
+   "net": "/TOP/DAC Interface/I_P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U14",
+    "U16"
+   ],
+   "parts": [
+    "U14",
+    "U16"
+   ]
+  },
+  {
+   "net": "/TOP/DAC Interface/I_N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U14",
+    "U16"
+   ],
+   "parts": [
+    "U14",
+    "U16"
+   ]
+  },
+  {
+   "net": "/TOP/DAC Interface/Q_P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U15",
+    "U16"
+   ],
+   "parts": [
+    "U15",
+    "U16"
+   ]
+  },
+  {
+   "net": "/TOP/DAC Interface/Q_N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U15",
+    "U16"
+   ],
+   "parts": [
+    "U15",
+    "U16"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD0_N0",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U18",
+    "U36"
+   ],
+   "parts": [
+    "U18",
+    "U36"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD0_N1",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U18",
+    "U36"
+   ],
+   "parts": [
+    "U18",
+    "U36"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD1_N0",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U19",
+    "U37"
+   ],
+   "parts": [
+    "U19",
+    "U37"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD1_N1",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U19",
+    "U37"
+   ],
+   "parts": [
+    "U19",
+    "U37"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD1_N2",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R83",
+    "R84",
+    "U19"
+   ],
+   "parts": [
+    "R83",
+    "R84",
+    "U19"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD2_N1",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R93",
+    "R94",
+    "U20"
+   ],
+   "parts": [
+    "R93",
+    "R94",
+    "U20"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD2_N2",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R90",
+    "R91",
+    "U20"
+   ],
+   "parts": [
+    "R90",
+    "R91",
+    "U20"
+   ]
+  },
+  {
+   "net": "/TOP/ADC//ADC_RST",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R111",
+    "U29",
+    "U32"
+   ],
+   "parts": [
+    "R111",
+    "U29",
+    "U32"
+   ]
+  },
+  {
+   "net": "Net-(R126-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R126",
+    "R127",
+    "U29"
+   ],
+   "parts": [
+    "R126",
+    "R127",
+    "U29"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_CE-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_ENout-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_ENout-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_DATA-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_DATA-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_CLK-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_CLK-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_LE-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_LE-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE0-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE0-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE1-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE1-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE2-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_END",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_ENC",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_ENB",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_ENA",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U31"
+   ],
+   "parts": [
+    "J5",
+    "U31"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface//DAC_CS-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_SCK-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_SCK-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_MOSI-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_MOSI-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE3-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE3-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface//ADC_RST-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface//ADC_RST-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface//ADC_CS-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface//ADC_CS-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_SCK-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_SCK-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_MOSI-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_END",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_ENC",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_ENB",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_ENA",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U32"
+   ],
+   "parts": [
+    "J5",
+    "U32"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/D_ENA",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "Net-(U35-Pad3)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U35",
+    "U38"
+   ],
+   "parts": [
+    "U35",
+    "U38"
+   ]
+  },
+  {
+   "net": "Net-(U35-Pad6)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U35",
+    "U38"
+   ],
+   "parts": [
+    "U35",
+    "U38"
+   ]
+  },
+  {
+   "net": "Net-(U35-Pad8)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "U35",
+    "U38"
+   ],
+   "parts": [
+    "U35",
+    "U38"
+   ]
+  },
+  {
+   "net": "Net-(R153-Pad2)",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "R153",
+    "U38"
+   ],
+   "parts": [
+    "R153",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/D_ENB",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE7-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE6-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE6-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE5-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE5-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE4-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/SPARE4-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_ALARM-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_ALARM-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_MISO-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/ADC_MISO-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_MISO-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/DAC_MISO-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/PLL_LOCKED-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U38"
+   ],
+   "parts": [
+    "J5",
+    "U38"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD0_BYP-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD0_N1-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD0_N1-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD0_N0-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD0_N0-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD1_BYP-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD1_BYP-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD1_N1-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD1_N1-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD1_N0-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD1_N0-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD2_BYP-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD2_BYP-N",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD2_DIV1-P",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD_ENA",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD_ENB",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD_ENC",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "/TOP/digital interface/FD_END",
+   "poured": false,
+   "copper": false,
+   "disconnected_pad_parts": [
+    "J5",
+    "U34"
+   ],
+   "parts": [
+    "J5",
+    "U34"
+   ]
+  },
+  {
+   "net": "3V3_1",
+   "poured": true,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U1"
+   ],
+   "parts": [
+    "C1",
+    "C175",
+    "C180",
+    "C183",
+    "C188",
+    "C193",
+    "C21",
+    "C4",
+    "C6",
+    "C7",
+    "C8",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R160",
+    "R4",
+    "R6",
+    "U1",
+    "U2",
+    "U41"
+   ]
+  },
+  {
+   "net": "GND",
+   "poured": true,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "C103",
+    "C104",
+    "C123",
+    "C125",
+    "C127",
+    "C129",
+    "C130",
+    "C131",
+    "C134",
+    "C135",
+    "C138",
+    "C140",
+    "C142",
+    "C144",
+    "C146",
+    "C148",
+    "C150",
+    "C157",
+    "C162",
+    "C163",
+    "C164",
+    "C169",
+    "C172",
+    "C174",
+    "C180",
+    "C183",
+    "C189",
+    "C19",
+    "C190",
+    "C193",
+    "C194",
+    "C197",
+    "C21",
+    "C33",
+    "C39",
+    "C41",
+    "C49",
+    "C65",
+    "C67",
+    "C8",
+    "D6",
+    "D8",
+    "L12",
+    "L14",
+    "R129",
+    "R131",
+    "R133",
+    "R135",
+    "R137",
+    "R139",
+    "R141",
+    "R143",
+    "R146",
+    "R148",
+    "R150",
+    "R152",
+    "R153",
+    "R18",
+    "R19",
+    "R23",
+    "R25",
+    "R29",
+    "R46",
+    "R52",
+    "R53",
+    "R60",
+    "R63",
+    "R85",
+    "U1",
+    "U16",
+    "U18",
+    "U19",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U29",
+    "U3",
+    "U31",
+    "U32",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U4",
+    "U44",
+    "U45",
+    "U5",
+    "U6",
+    "U7"
+   ],
+   "parts": [
+    "BOX1",
+    "C1",
+    "C10",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C11",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C12",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C13",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C14",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C15",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C17",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C18",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C19",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C2",
+    "C200",
+    "C201",
+    "C21",
+    "C26",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C39",
+    "C4",
+    "C40",
+    "C41",
+    "C44",
+    "C45",
+    "C46",
+    "C49",
+    "C5",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C6",
+    "C60",
+    "C61",
+    "C62",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C71",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C8",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C9",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "L12",
+    "L13",
+    "L14",
+    "Q1",
+    "R10",
+    "R100",
+    "R101",
+    "R108",
+    "R110",
+    "R112",
+    "R114",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R125",
+    "R127",
+    "R129",
+    "R130",
+    "R131",
+    "R133",
+    "R135",
+    "R137",
+    "R139",
+    "R14",
+    "R141",
+    "R143",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R150",
+    "R152",
+    "R153",
+    "R157",
+    "R159",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R23",
+    "R25",
+    "R27",
+    "R29",
+    "R3",
+    "R31",
+    "R33",
+    "R35",
+    "R37",
+    "R46",
+    "R47",
+    "R5",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R60",
+    "R61",
+    "R63",
+    "R65",
+    "R68",
+    "R69",
+    "R7",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R76",
+    "R77",
+    "R79",
+    "R8",
+    "R81",
+    "R82",
+    "R84",
+    "R85",
+    "R87",
+    "R89",
+    "R91",
+    "R92",
+    "R94",
+    "R95",
+    "R97",
+    "R99",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "U1",
+    "U12",
+    "U13",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U2",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U29",
+    "U3",
+    "U30",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U39",
+    "U4",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45",
+    "U5",
+    "U6",
+    "U7",
+    "U8"
+   ]
+  },
+  {
+   "net": "Net-(C18-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U1"
+   ],
+   "parts": [
+    "C18",
+    "R13",
+    "R15",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(C19-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U1"
+   ],
+   "parts": [
+    "C19",
+    "C22",
+    "C25",
+    "R15",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(C27-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "C27",
+    "U4",
+    "U5"
+   ]
+  },
+  {
+   "net": "Net-(C28-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "C28",
+    "U4",
+    "U6"
+   ]
+  },
+  {
+   "net": "5V_1",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U18",
+    "U19",
+    "U20"
+   ],
+   "parts": [
+    "C136",
+    "C138",
+    "C146",
+    "C151",
+    "C153",
+    "C158",
+    "C160",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "R154",
+    "R75",
+    "R78",
+    "R80",
+    "R83",
+    "R86",
+    "R88",
+    "R90",
+    "R93",
+    "R96",
+    "R98",
+    "U18",
+    "U19",
+    "U20",
+    "U36",
+    "U37",
+    "U39"
+   ]
+  },
+  {
+   "net": "Net-(C80-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U18"
+   ],
+   "parts": [
+    "C80",
+    "R82",
+    "U18"
+   ]
+  },
+  {
+   "net": "Net-(C88-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U19"
+   ],
+   "parts": [
+    "C88",
+    "R92",
+    "U19"
+   ]
+  },
+  {
+   "net": "Net-(C89-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U19"
+   ],
+   "parts": [
+    "C89",
+    "R95",
+    "U19"
+   ]
+  },
+  {
+   "net": "5V_2",
+   "poured": true,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U29",
+    "U4"
+   ],
+   "parts": [
+    "C104",
+    "C106",
+    "C114",
+    "C117",
+    "C118",
+    "C119",
+    "C132",
+    "C147",
+    "C152",
+    "C154",
+    "C159",
+    "C161",
+    "C26",
+    "C35",
+    "C36",
+    "C41",
+    "C51",
+    "C52",
+    "C59",
+    "C60",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C71",
+    "R1",
+    "R102",
+    "R104",
+    "R106",
+    "R107",
+    "R151",
+    "R155",
+    "R24",
+    "R26",
+    "R28",
+    "R30",
+    "R32",
+    "R34",
+    "R36",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U28",
+    "U29",
+    "U30",
+    "U33",
+    "U4",
+    "U40",
+    "U7",
+    "U8",
+    "U9"
+   ]
+  },
+  {
+   "net": "Net-(C110-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U29"
+   ],
+   "parts": [
+    "C110",
+    "R123",
+    "U28",
+    "U29"
+   ]
+  },
+  {
+   "net": "Net-(C111-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U29"
+   ],
+   "parts": [
+    "C111",
+    "R124",
+    "U28",
+    "U29"
+   ]
+  },
+  {
+   "net": "3V3_2",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U29",
+    "U31",
+    "U32",
+    "U34",
+    "U38"
+   ],
+   "parts": [
+    "C116",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C133",
+    "C134",
+    "C135",
+    "C137",
+    "C176",
+    "C181",
+    "C184",
+    "C189",
+    "C194",
+    "R109",
+    "R111",
+    "R113",
+    "R126",
+    "R128",
+    "R132",
+    "R134",
+    "R136",
+    "R138",
+    "R140",
+    "R142",
+    "R144",
+    "R149",
+    "R161",
+    "U29",
+    "U31",
+    "U32",
+    "U34",
+    "U35",
+    "U38",
+    "U42"
+   ]
+  },
+  {
+   "net": "/TOP/ADC//ADC_CS",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U32"
+   ],
+   "parts": [
+    "R109",
+    "U29",
+    "U32"
+   ]
+  },
+  {
+   "net": "Net-(R128-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U32"
+   ],
+   "parts": [
+    "R128",
+    "U32",
+    "U33"
+   ]
+  },
+  {
+   "net": "Net-(R129-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U32"
+   ],
+   "parts": [
+    "R129",
+    "U32",
+    "U33"
+   ]
+  },
+  {
+   "net": "Net-(R130-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U32"
+   ],
+   "parts": [
+    "R130",
+    "U32",
+    "U33"
+   ]
+  },
+  {
+   "net": "Net-(R131-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U32"
+   ],
+   "parts": [
+    "R131",
+    "U32",
+    "U33"
+   ]
+  },
+  {
+   "net": "Net-(R132-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R132",
+    "R133",
+    "U34",
+    "U36"
+   ]
+  },
+  {
+   "net": "Net-(R134-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R134",
+    "R135",
+    "U34",
+    "U36"
+   ]
+  },
+  {
+   "net": "Net-(R136-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R136",
+    "R137",
+    "U34",
+    "U36"
+   ]
+  },
+  {
+   "net": "Net-(C13-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U1"
+   ],
+   "parts": [
+    "C13",
+    "L6",
+    "U1"
+   ]
+  },
+  {
+   "net": "Net-(C9-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U1"
+   ],
+   "parts": [
+    "C9",
+    "L4",
+    "U1"
+   ]
+  },
+  {
+   "net": "/TOP/DAC/DAC_MISO",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "R151",
+    "U35",
+    "U4"
+   ]
+  },
+  {
+   "net": "Net-(R24-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "R24",
+    "R25",
+    "U4"
+   ]
+  },
+  {
+   "net": "Net-(R28-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "R28",
+    "R29",
+    "U4"
+   ]
+  },
+  {
+   "net": "Net-(R36-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "R36",
+    "R37",
+    "U4"
+   ]
+  },
+  {
+   "net": "Net-(R30-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "R30",
+    "R31",
+    "U4"
+   ]
+  },
+  {
+   "net": "Net-(R26-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U4"
+   ],
+   "parts": [
+    "R26",
+    "R27",
+    "U4"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD0_S0",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U18"
+   ],
+   "parts": [
+    "R78",
+    "R79",
+    "U18"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD0_N2",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U18"
+   ],
+   "parts": [
+    "R75",
+    "R76",
+    "U18"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD1_S0",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U19"
+   ],
+   "parts": [
+    "R86",
+    "R87",
+    "U19"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD2_S0",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U20"
+   ],
+   "parts": [
+    "R98",
+    "R99",
+    "U20"
+   ]
+  },
+  {
+   "net": "/TOP/Frequency dividers/FD2_N0",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U20"
+   ],
+   "parts": [
+    "R96",
+    "R97",
+    "U20"
+   ]
+  },
+  {
+   "net": "/TOP/ADC/ADC_MOSI",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U32"
+   ],
+   "parts": [
+    "R112",
+    "U29",
+    "U32"
+   ]
+  },
+  {
+   "net": "Net-(C122-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U29"
+   ],
+   "parts": [
+    "C122",
+    "U29",
+    "U30"
+   ]
+  },
+  {
+   "net": "Net-(C120-Pad1)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U29"
+   ],
+   "parts": [
+    "C120",
+    "C121",
+    "U29"
+   ]
+  },
+  {
+   "net": "Net-(R138-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R138",
+    "R139",
+    "U34",
+    "U36"
+   ]
+  },
+  {
+   "net": "Net-(R140-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R140",
+    "R141",
+    "U34",
+    "U37"
+   ]
+  },
+  {
+   "net": "Net-(R142-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R142",
+    "R143",
+    "U34",
+    "U37"
+   ]
+  },
+  {
+   "net": "Net-(R144-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R144",
+    "R145",
+    "U34",
+    "U37"
+   ]
+  },
+  {
+   "net": "Net-(R149-Pad2)",
+   "poured": false,
+   "copper": true,
+   "disconnected_pad_parts": [
+    "U34"
+   ],
+   "parts": [
+    "R149",
+    "R150",
+    "U34",
+    "U37"
+   ]
+  }
+ ],
+ "most_vias": [
+  {
+   "net": "7V5",
+   "pads": 20,
+   "vias": 10,
+   "routed_mm": 169.2,
+   "tree_mm": 131.1,
+   "detour": 1.29,
+   "parts": [
+    "C139",
+    "C140",
+    "C155",
+    "C162",
+    "C165",
+    "C166",
+    "L12",
+    "TP1",
+    "U39",
+    "U40",
+    "U41",
+    "U42"
+   ]
+  },
+  {
+   "net": "3V3_2",
+   "pads": 50,
+   "vias": 9,
+   "routed_mm": 277.5,
+   "tree_mm": 244.1,
+   "detour": 1.14,
+   "parts": [
+    "C116",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C133",
+    "C134",
+    "C135",
+    "C137",
+    "C176",
+    "C181",
+    "C184",
+    "C189",
+    "C194",
+    "R109",
+    "R111",
+    "R113",
+    "R126",
+    "R128",
+    "R132",
+    "R134",
+    "R136",
+    "R138",
+    "R140",
+    "R142",
+    "R144",
+    "R149",
+    "R161",
+    "U29",
+    "U31",
+    "U32",
+    "U34",
+    "U35",
+    "U38",
+    "U42"
+   ]
+  },
+  {
+   "net": "-15V",
+   "pads": 18,
+   "vias": 8,
+   "routed_mm": 130.0,
+   "tree_mm": 113.9,
+   "detour": 1.14,
+   "parts": [
+    "C179",
+    "C187",
+    "C192",
+    "C197",
+    "C199",
+    "C201",
+    "C31",
+    "C32",
+    "C49",
+    "C50",
+    "R158",
+    "R164",
+    "U10",
+    "U11",
+    "U45",
+    "U5",
+    "U6"
+   ]
+  },
+  {
+   "net": "15V",
+   "pads": 17,
+   "vias": 8,
+   "routed_mm": 171.2,
+   "tree_mm": 137.4,
+   "detour": 1.25,
+   "parts": [
+    "C177",
+    "C182",
+    "C185",
+    "C190",
+    "C195",
+    "C29",
+    "C30",
+    "C45",
+    "C46",
+    "R162",
+    "U10",
+    "U11",
+    "U43",
+    "U5",
+    "U6"
+   ]
+  },
+  {
+   "net": "5V_1",
+   "pads": 47,
+   "vias": 7,
+   "routed_mm": 180.9,
+   "tree_mm": 161.1,
+   "detour": 1.12,
+   "parts": [
+    "C136",
+    "C138",
+    "C146",
+    "C151",
+    "C153",
+    "C158",
+    "C160",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "R154",
+    "R75",
+    "R78",
+    "R80",
+    "R83",
+    "R86",
+    "R88",
+    "R90",
+    "R93",
+    "R96",
+    "R98",
+    "U18",
+    "U19",
+    "U20",
+    "U36",
+    "U37",
+    "U39"
+   ]
+  },
+  {
+   "net": "Net-(C144-Pad1)",
+   "pads": 4,
+   "vias": 4,
+   "routed_mm": 118.4,
+   "tree_mm": 78.4,
+   "detour": 1.51,
+   "parts": [
+    "C144",
+    "C149",
+    "J6",
+    "L13"
+   ]
+  },
+  {
+   "net": "Net-(C42-Pad2)",
+   "pads": 6,
+   "vias": 4,
+   "routed_mm": 33.1,
+   "tree_mm": 28.7,
+   "detour": 1.15,
+   "parts": [
+    "C42",
+    "R48",
+    "R50",
+    "R54",
+    "U10",
+    "U9"
+   ]
+  },
+  {
+   "net": "Net-(C43-Pad2)",
+   "pads": 6,
+   "vias": 4,
+   "routed_mm": 55.9,
+   "tree_mm": 39.6,
+   "detour": 1.41,
+   "parts": [
+    "C43",
+    "R49",
+    "R51",
+    "R55",
+    "U11",
+    "U9"
+   ]
+  }
+ ],
+ "longest_detours": [
+  {
+   "net": "Net-(C55-Pad1)",
+   "pads": 4,
+   "vias": 1,
+   "routed_mm": 18.7,
+   "tree_mm": 5.4,
+   "detour": 3.47,
+   "parts": [
+    "C55",
+    "R58",
+    "R60",
+    "U14"
+   ]
+  },
+  {
+   "net": "Net-(C105-Pad1)",
+   "pads": 3,
+   "vias": 1,
+   "routed_mm": 15.9,
+   "tree_mm": 4.8,
+   "detour": 3.32,
+   "parts": [
+    "C105",
+    "L10",
+    "R106"
+   ]
+  },
+  {
+   "net": "Net-(C113-Pad1)",
+   "pads": 4,
+   "vias": 1,
+   "routed_mm": 21.3,
+   "tree_mm": 6.6,
+   "detour": 3.25,
+   "parts": [
+    "C113",
+    "R118",
+    "R122",
+    "U28"
+   ]
+  },
+  {
+   "net": "Net-(R20-Pad2)",
+   "pads": 3,
+   "vias": 0,
+   "routed_mm": 22.9,
+   "tree_mm": 7.9,
+   "detour": 2.89,
+   "parts": [
+    "R20",
+    "R21",
+    "R23"
+   ]
+  },
+  {
+   "net": "Net-(C33-Pad1)",
+   "pads": 3,
+   "vias": 0,
+   "routed_mm": 17.2,
+   "tree_mm": 6.7,
+   "detour": 2.55,
+   "parts": [
+    "C33",
+    "R40",
+    "R42"
+   ]
+  },
+  {
+   "net": "Net-(C53-Pad1)",
+   "pads": 4,
+   "vias": 1,
+   "routed_mm": 9.3,
+   "tree_mm": 4.2,
+   "detour": 2.2,
+   "parts": [
+    "C53",
+    "R58",
+    "U12"
+   ]
+  },
+  {
+   "net": "Net-(C111-Pad1)",
+   "pads": 4,
+   "vias": 1,
+   "routed_mm": 14.5,
+   "tree_mm": 6.9,
+   "detour": 2.11,
+   "parts": [
+    "C111",
+    "R124",
+    "U28",
+    "U29"
+   ]
+  },
+  {
+   "net": "Net-(C43-Pad1)",
+   "pads": 5,
+   "vias": 2,
+   "routed_mm": 25.3,
+   "tree_mm": 12.6,
+   "detour": 2.01,
+   "parts": [
+    "C43",
+    "R39",
+    "R41",
+    "R49",
+    "U9"
+   ]
+  }
+ ],
+ "congested_areas": [
+  {
+   "box": [
+    178.0,
+    118.0,
+    180.0,
+    122.0
+   ],
+   "cells": 2,
+   "peak": 0.53,
+   "mean": 0.52,
+   "vias": 3,
+   "parts": [
+    "U9"
+   ],
+   "nets": [
+    "Net-(C43-Pad1)",
+    "Net-(C43-Pad2)",
+    "/TOP/DAC Interface/DAC_I",
+    "Net-(R45-Pad2)"
+   ]
+  },
+  {
+   "box": [
+    186.0,
+    122.0,
+    188.0,
+    124.0
+   ],
+   "cells": 1,
+   "peak": 0.76,
+   "mean": 0.76,
+   "vias": 3,
+   "parts": [
+    "R44"
+   ],
+   "nets": [
+    "Net-(C42-Pad1)",
+    "/TOP/DAC Interface/DAC_Q",
+    "Net-(R44-Pad2)"
+   ]
+  },
+  {
+   "box": [
+    238.0,
+    140.0,
+    240.0,
+    142.0
+   ],
+   "cells": 1,
+   "peak": 0.62,
+   "mean": 0.62,
+   "vias": 4,
+   "parts": [
+    "U41"
+   ],
+   "nets": [
+    "7V5",
+    "Net-(C170-Pad1)"
+   ]
+  },
+  {
+   "box": [
+    150.0,
+    140.0,
+    152.0,
+    142.0
+   ],
+   "cells": 1,
+   "peak": 0.57,
+   "mean": 0.57,
+   "vias": 2,
+   "parts": [
+    "C111",
+    "U28"
+   ],
+   "nets": [
+    "Net-(C111-Pad1)",
+    "5V_2",
+    "Net-(C113-Pad1)",
+    "Net-(C111-Pad2)"
+   ]
+  },
+  {
+   "box": [
+    222.0,
+    178.0,
+    224.0,
+    180.0
+   ],
+   "cells": 1,
+   "peak": 0.52,
+   "mean": 0.52,
+   "vias": 2,
+   "parts": [
+    "C80"
+   ],
+   "nets": [
+    "/TOP/Frequency dividers/FD1_BYP",
+    "Net-(C80-Pad2)",
+    "5V_1"
+   ]
+  },
+  {
+   "box": [
+    178.0,
+    112.0,
+    180.0,
+    114.0
+   ],
+   "cells": 1,
+   "peak": 0.5,
+   "mean": 0.5,
+   "vias": 1,
+   "parts": [
+    "C27"
+   ],
+   "nets": [
+    "Net-(C27-Pad2)",
+    "Net-(C143-Pad1)",
+    "-15V",
+    "Net-(C144-Pad1)"
+   ]
+  },
+  {
+   "box": [
+    190.0,
+    196.0,
+    192.0,
+    198.0
+   ],
+   "cells": 1,
+   "peak": 0.5,
+   "mean": 0.5,
+   "vias": 1,
+   "parts": [
+    "C107"
+   ],
+   "nets": [
+    "Net-(C107-Pad1)",
+    "Net-(U23-Pad3)",
+    "5V_2"
+   ]
+  },
+  {
+   "box": [
+    238.0,
+    86.0,
+    240.0,
+    88.0
+   ],
+   "cells": 1,
+   "peak": 0.5,
+   "mean": 0.5,
+   "vias": 3,
+   "parts": [
+    "U42"
+   ],
+   "nets": [
+    "3V3_2"
+   ]
+  }
+ ],
+ "turned_parts": [
+  {
+   "ref": "R62",
+   "x": 184.87,
+   "y": 146.57,
+   "rot": 180.0,
+   "saves_mm": 2.0,
+   "swap_pose": [
+    183.2828,
+    146.5671,
+    0.0
+   ]
+  },
+  {
+   "ref": "R6",
+   "x": 151.84,
+   "y": 179.78,
+   "rot": 0,
+   "saves_mm": 1.8,
+   "swap_pose": [
+    153.4258,
+    179.7822,
+    180
+   ]
+  },
+  {
+   "ref": "R22",
+   "x": 139.54,
+   "y": 179.01,
+   "rot": 90.0,
+   "saves_mm": 1.5,
+   "swap_pose": [
+    139.5423,
+    177.4265,
+    270.0
+   ]
+  },
+  {
+   "ref": "C64",
+   "x": 174.13,
+   "y": 189.56,
+   "rot": 0,
+   "saves_mm": 1.2,
+   "swap_pose": [
+    175.7122,
+    189.557,
+    180
+   ]
+  }
+ ],
+ "counts": {
+  "open": 163,
+  "open_signal": 160,
+  "congested_areas": 8,
+  "turned_parts": 4
+ }
+}

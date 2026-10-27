@@ -1,0 +1,151 @@
+{
+ "far": {
+  "far_mm": 10.0,
+  "far_count": 28,
+  "measured": 372,
+  "led_resistors_left_out": [
+   "R1",
+   "R154",
+   "R155",
+   "R160",
+   "R161",
+   "R162",
+   "R163",
+   "R164"
+  ],
+  "count_without_led_exclusion": 36,
+  "worst": [
+   [
+    "C149",
+    37.0
+   ],
+   [
+    "C150",
+    34.8
+   ],
+   [
+    "C144",
+    33.9
+   ],
+   [
+    "C145",
+    32.2
+   ],
+   [
+    "C96",
+    30.3
+   ],
+   [
+    "C97",
+    25.7
+   ],
+   [
+    "R3",
+    20.8
+   ],
+   [
+    "L14",
+    20.6
+   ]
+  ]
+ },
+ "proximity_pin_rows": {
+  "<= 2 mm": 68,
+  "<= 3 mm": 104,
+  "<= 5 mm": 154,
+  "rows": 244,
+  "median": 3.54,
+  "max": 68.3
+ },
+ "proximity_part_rows": {
+  "<= 5 mm": 49,
+  "<= 10 mm": 72,
+  "rows": 83,
+  "median": 3.13,
+  "max": 29.6
+ },
+ "filter_regulator": {
+  "per": {
+   "L12": [
+    0.0,
+    "U40"
+   ],
+   "L13": [
+    20.0,
+    "U43"
+   ],
+   "L14": [
+    20.4,
+    "U45"
+   ],
+   "C143": [
+    0.0,
+    "U41"
+   ],
+   "C144": [
+    33.9,
+    "U43"
+   ],
+   "C145": [
+    32.2,
+    "U44"
+   ],
+   "C146": [
+    1.8,
+    "U39"
+   ],
+   "C147": [
+    1.8,
+    "U40"
+   ],
+   "C148": [
+    4.5,
+    "U41"
+   ],
+   "C149": [
+    36.8,
+    "U43"
+   ],
+   "C150": [
+    34.8,
+    "U44"
+   ]
+  },
+  "max_mm": 36.8,
+  "worst": "C149"
+ },
+ "keep_away": [
+  {
+   "index": 0,
+   "gap_mm": 3.0,
+   "agg_nets": 132,
+   "vic_nets": 13,
+   "label": "digital side",
+   "min_mm": 2.07,
+   "inside": true,
+   "closest": "U1 pad 20 (/TOP/PLL/PLL_LOCKED) to C3 pad 1 (/TOP/PLL/PLL_IN)",
+   "by_group": {
+    "ADC inputs": 2.52,
+    "DAC I/Q outputs": 14.0,
+    "LO / PLL out": 2.07,
+    "RF to the SMA notches J1-J4": 3.65
+   }
+  },
+  {
+   "index": 1,
+   "gap_mm": 3.0,
+   "agg_nets": 6,
+   "vic_nets": 13,
+   "label": "regulator input rails and power-entry filter nodes",
+   "min_mm": 28.61,
+   "inside": false,
+   "closest": "C169 pad 1 (-24V) to U4 pad 39 (/TOP/DAC Interface/DAC_I)",
+   "by_group": {
+    "ADC inputs": 48.53,
+    "DAC I/Q outputs": 28.61,
+    "LO / PLL out": 89.91,
+    "RF to the SMA notches J1-J4": 92.79
+   }
+  }
+ ]
+}

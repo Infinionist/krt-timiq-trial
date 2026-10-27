@@ -1,0 +1,2014 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.15,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 0
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 2.08,
+          "width": 0.59944
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
+        }
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "meta": {
+        "filename": "board_design_settings.json",
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "error",
+        "padstack": "warning",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.3,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.0,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.55,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.21,
+        0.25,
+        0.35,
+        0.5,
+        1.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "tiny.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.15,
+        "name": "Class 7",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.55,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/TOP/Frequency dividers/IQout1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/TOP/Frequency mixers/IQout0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "-15V"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "-24V"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "-5V"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC//ADC_CS"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC//ADC_RST"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC/ADC_ALARM"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC/ADC_MISO"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC/ADC_MOSI"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC/ADC_SCK"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC/MIXERout0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/ADC/MIXERout1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC Interface/DAC_I"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC Interface/DAC_Q"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC Interface/I_N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC Interface/I_P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC Interface/Q_N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC Interface/Q_P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC//DAC_CS"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC/DAC_MISO"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC/DAC_MOSI"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/DAC/DAC_SCK"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD0_BYP"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD0_DIV1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD0_N0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD0_N1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD0_N2"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD0_S0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD1_BYP"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD1_DIV1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD1_N0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD1_N1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD1_N2"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD1_S0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD2_BYP"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD2_DIV1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD2_N0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD2_N1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD2_N2"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency dividers/FD2_S0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/Frequency mixers/PLLout0"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/IQ modulator/PLLout1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_CE"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_CLK"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_DATA"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_ENout"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_IN"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_LE"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_LOCKED"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/PLL/PLL_OUT"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface//ADC_CS-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface//ADC_CS-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface//ADC_RST-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface//ADC_RST-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface//DAC_CS-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface//DAC_CS-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_ALARM-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_ALARM-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_MISO-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_MISO-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_MOSI-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_MOSI-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_SCK-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/ADC_SCK-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_ENA"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_ENB"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_ENC"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_END"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_MISO-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_MISO-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_MOSI-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_MOSI-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_SCK-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/DAC_SCK-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/D_ENA"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/D_ENB"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD0_BYP-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD0_BYP-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD0_N0-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD0_N0-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD0_N1-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD0_N1-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD1_BYP-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD1_BYP-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD1_N0-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD1_N0-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD1_N1-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD1_N1-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD2_BYP-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD2_BYP-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD2_DIV1-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD2_DIV1-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD_ENA"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD_ENB"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD_ENC"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/FD_END"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_CE-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_CE-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_CLK-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_CLK-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_DATA-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_DATA-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_ENA"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_ENB"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_ENC"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_END"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_ENout-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_ENout-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_LE-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_LE-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_LOCKED-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/PLL_LOCKED-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE0-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE0-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE1-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE1-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE2-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE2-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE3-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE3-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE4-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE4-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE5-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE5-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE6-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE6-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE7-N"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "/TOP/digital interface/SPARE7-P"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "15V"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "24V"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "3V3_1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "3V3_2"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "5V_1"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "5V_2"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "7V5"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C10-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C100-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C101-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C102-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C103-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C105-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C107-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C108-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C108-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C109-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C109-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C11-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C110-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C110-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C111-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C111-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C112-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C113-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C12-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C120-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C122-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C13-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C14-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C141-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C142-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C143-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C144-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C145-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C15-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C16-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C17-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C170-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C171-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C172-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C173-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C174-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C178-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C179-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C18-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C19-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C2-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C20-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C20-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C22-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C23-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C23-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C24-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C24-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C27-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C27-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C28-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C28-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C3-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C33-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C34-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C37-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C37-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C38-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C38-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C42-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C42-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C43-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C43-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C47-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C48-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C53-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C54-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C55-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C56-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C57-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C58-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C63-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C64-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C64-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C7-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C70-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C70-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C72-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C73-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C73-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C80-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C80-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C81-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C81-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C88-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C88-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C89-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C89-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C9-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C96-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C96-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C97-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C97-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C98-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(C99-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D1-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D1-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D2-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D3-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D4-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D5-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D6-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D7-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(D8-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(J5-Pad78)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(J5-Pad80)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(L2-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(L3-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R10-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R108-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R11-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R119-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R12-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R120-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R125-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R126-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R128-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R129-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R130-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R131-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R132-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R134-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R136-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R138-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R140-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R142-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R144-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R146-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R147-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R148-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R149-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R152-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R153-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R20-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R22-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R24-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R26-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R28-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R30-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R32-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R34-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R36-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R38-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R39-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R44-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R45-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R62-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R64-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R66-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R67-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R68-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R69-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R72-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(R9-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U1-Pad35)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U1-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U1-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U1-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U10-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U10-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U10-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U11-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U11-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U11-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U16-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U16-Pad13)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U16-Pad15)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U16-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U23-Pad3)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U24-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U24-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U25-Pad7)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U25-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad10)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad12)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad13)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad14)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad15)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad20)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad21)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad22)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad23)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad24)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad25)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad26)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U29-Pad27)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U31-Pad23)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U31-Pad24)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U31-Pad26)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U33-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U35-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U35-Pad3)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U35-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U35-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U38-Pad28)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U38-Pad29)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U38-Pad30)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad12)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U39-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U4-Pad21)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad12)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U40-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad10)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U41-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad10)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U42-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad10)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad12)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U43-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad10)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad12)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U44-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad10)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad11)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad12)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad17)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad18)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad19)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad2)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad4)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad6)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U45-Pad9)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U5-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U5-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U5-Pad8)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U6-Pad1)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U6-Pad5)"
+      },
+      {
+        "netclass": "Class 7",
+        "pattern": "Net-(U6-Pad8)"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "bus_aliases": {},
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "top_level_sheets": [
+      {
+        "filename": "p0.kicad_sch",
+        "name": "p0",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
+  },
+  "sheets": [],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}

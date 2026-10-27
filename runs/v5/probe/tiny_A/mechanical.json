@@ -1,0 +1,12 @@
+{
+ "schema": 1,
+ "fixed": [
+  {
+   "ref": "J7",
+   "x": 131.6648,
+   "y": 190.96,
+   "rot": 0.0,
+   "reason": "probe: Infinionist 10-26, J7-J10 fixed at the human pose under the lid window"
+  }
+ ]
+}

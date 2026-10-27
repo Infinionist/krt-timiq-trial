@@ -1,0 +1,25 @@
+  NOTE [placement]: 57 footprint(s) draw no courtyard and are seated on an ESTIMATED one, what they occupy (body and pads, #1300) -- silk: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, ...
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+place_simple: 57 movable part(s), fixed: none
+  group pll: C10, C12, C14, C16, C17, C18, C19, C20, C22, C23, C24, C25, C3, C6, C8, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R20, R21, R22, R23, R8, U1, U2, C1, C11, C13, C15, C2, C21, C4, C5, C7, C9, L1, L2, L3, L4, L5, L6, L7, R2, R3, R4, R5, R6, R7, R9
+  move   2850: T   9.961 lam     2.5 reach 21.47 cost   780.6 overlap  75.51 mm2 best     inf accepted 0.38
+  move   5700: T   4.996 lam     6.3 reach 16.96 cost   537.8 overlap  18.51 mm2 best     inf accepted 0.24
+  move   8550: T   2.506 lam    15.8 reach 12.99 cost   496.5 overlap   5.36 mm2 best     inf accepted 0.11
+  move  11400: T   1.257 lam    39.8 reach  9.54 cost   481.4 overlap   2.99 mm2 best     inf accepted 0.07
+  move  14250: T   0.630 lam   100.0 reach  6.63 cost   440.8 overlap   1.90 mm2 best     inf accepted 0.04
+  move  17100: T   0.316 lam   251.1 reach  4.24 cost   389.0 overlap   1.38 mm2 best     inf accepted 0.03
+  move  19950: T   0.159 lam   630.8 reach  2.39 cost   378.7 overlap   0.65 mm2 best     inf accepted 0.04
+  move  22800: T   0.080 lam  1584.4 reach  1.06 cost   387.7 overlap   0.16 mm2 best     inf accepted 0.03
+  move  25650: T   0.040 lam  3979.8 reach  0.27 cost   356.0 overlap   0.00 mm2 best   356.0 accepted 0.04
+  move  28500: T   0.020 lam  9996.8 reach  0.10 cost   343.5 overlap   0.00 mm2 best   343.5 accepted 0.09
+place_simple: annealed 28500 moves in 10.0 s; cost 343.5 (wire 246.1 mm, 7 crossings, claims 0.0, decaps 24.8, halo 0.00, pad hits 11, congestion 0.00, groups 2.3: pll 2.3, hints 0.0)
+Modified 57 footprint positions
+Successfully wrote /tmp/pcb-trials/timiq/v5/probe/tiny_D/out.kicad_pcb
+  floorplan: no error (check_floorplan --intent)
+  assembly: buildable (check_assembly --baseline)
+JSON_SUMMARY: {"final": {"wire": 246.14536221999987, "crossings": 7, "claims": 0, "decaps": 24.847153515508833, "groups": 2.331264564619886, "hints": 0, "halo": 0.0, "congestion": 0.0, "pad_hits": 11.0, "decap_limits": 0.0, "decap_broken": 0, "claim_limits": 0, "claim_broken": 0, "template": 0, "cost": 343.495992074117}, "moves": 28500, "seed": 1, "start": "scattered", "reseated": [], "illegal": [], "tight": {}, "refused": {}, "oversubscribed": [], "claim_arity": [], "floorplan": {"errors": 0, "rules": []}, "assembly": {"blocking": 0, "buildable": true, "fired": []}, "bga_field": [], "template_off": [], "decap_residual": [], "hints_saturated": [], "estimate_fallback": [], "faces": {"flippable": [], "needed": {}, "needed_kept": null}, "seconds": {"setup": 0.5, "anneal": 10.0}}

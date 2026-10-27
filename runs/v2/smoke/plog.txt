@@ -1,0 +1,22 @@
+usage: place_simple.py [-h] --groups GROUPS --intent INTENT
+                       [--crossing-weight CROSSING_WEIGHT]
+                       [--claim-weight CLAIM_WEIGHT]
+                       [--claim-limit-weight CLAIM_LIMIT_WEIGHT]
+                       [--template-weight TEMPLATE_WEIGHT]
+                       [--decap-weight DECAP_WEIGHT]
+                       [--decap-limit-weight DECAP_LIMIT_WEIGHT]
+                       [--repair-decaps] [--group-weight GROUP_WEIGHT]
+                       [--near-weight NEAR_WEIGHT]
+                       [--apart-weight APART_WEIGHT]
+                       [--edge-weight EDGE_WEIGHT] [--halo-coef HALO_COEF]
+                       [--halo-weight HALO_WEIGHT] [--rail-weight RAIL_WEIGHT]
+                       [--ground-weight GROUND_WEIGHT]
+                       [--pad-weight PAD_WEIGHT]
+                       [--congestion-weight CONGESTION_WEIGHT]
+                       [--track-pitch TRACK_PITCH] [--moves MOVES]
+                       [--seed SEED] [--seeds LIST] [--clustered-seeds LIST]
+                       [--anchored-seeds LIST] [--scattered SCATTERED]
+                       [--clustered CLUSTERED] [--anchored ANCHORED]
+                       [--judge JUDGE] [--jobs JOBS] [--json JSON]
+                       board out
+place_simple.py: error: argument --clustered: expected one argument

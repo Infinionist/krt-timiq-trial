@@ -1,0 +1,389 @@
+CMD: python -X utf8 py_tools/check_assembly.py /tmp/pcb-trials/timiq/v6/r3/s4.kicad_pcb --baseline /tmp/pcb-trials/timiq/v6/fixed.kicad_pcb --intent /tmp/pcb-trials/timiq/v6/r3/intent_w.json
+ENV KNOBS: none
+  grading at clearance 0.2mm  [board netclass]
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  note: 271 declared waiver(s) matched no waivable overlap (BOX1<->C1, BOX1<->C10, BOX1<->C100, BOX1<->C102, BOX1<->C104, BOX1<->C105) -- harmless, and the first thing to check if a waiver stopped working. A pad-on-pad contact is never waivable, so such a pair lands here too.
+Assembly audit of /tmp/pcb-trials/timiq/v6/r3/s4.kicad_pcb (clearance 0.2):
+  blocking 0  advisory 0  waived 178  contained 171  courtyard_blocking 0  new-vs-baseline 0
+  heights (#1443): 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; 0 pair(s) clear, one part under the other's body
+  baseline /tmp/pcb-trials/timiq/v6/fixed.kicad_pcb is a pile: its overlaps are staging, not a baseline (#1103), so every advisory pair counts as new
+    BOX1 <-> U2  body(silk/silk)  169.8419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U4  body(silk/silk)  121.3008mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U29  body(silk/silk)  80.9209mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U31  body(silk/silk)  80.9209mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U32  body(silk/silk)  80.9209mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U34  body(silk/silk)  80.9209mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U38  body(silk/silk)  80.9209mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U1  body(silk/silk)  64.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U45  body(silk/silk)  46.9431mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U43  body(silk/silk)  46.943mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U33  body(silk/silk)  43.3602mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U35  body(silk/silk)  43.3602mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U36  body(silk/silk)  43.3602mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U37  body(silk/silk)  43.3602mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U10  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U11  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U14  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U15  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U5  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U6  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U9  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U16  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U18  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U19  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U20  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U23  body(silk/silk)  37.1612mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U41  body(silk/silk)  36.1625mm2 side F  waived:intent_declared  CONTAINED 77%
+    BOX1 <-> U26  body(silk/silk)  30.7096mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U27  body(silk/silk)  30.7096mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C156  body(silk/silk)  25.9058mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C157  body(silk/silk)  25.9058mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U44  body(silk/silk)  24.9806mm2 side F  waived:intent_declared  CONTAINED 53%
+    BOX1 <-> U17  body(silk/silk)  24.2812mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U25  body(silk/silk)  24.2812mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U3  body(silk/silk)  24.2812mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U24  body(silk/silk)  23.8507mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C165  body(silk/silk)  22.1625mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C167  body(silk/silk)  22.1625mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U12  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U13  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U28  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U30  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> TP2  body(silk/silk)  17.0967mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> TP3  body(silk/silk)  17.0967mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U7  body(silk/silk)  16.1129mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U8  body(silk/silk)  16.1129mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> Q1  body(silk/silk)  14.7096mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C168  body(silk/silk)  12.7448mm2 side F  waived:intent_declared  CONTAINED 58%
+    BOX1 <-> C147  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C153  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C154  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C160  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C163  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C177  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C185  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C186  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C187  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C188  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C191  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C192  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C194  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C195  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C196  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C197  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C201  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R154  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R155  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R160  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R162  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R163  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R164  body(silk/silk)  11.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U22  body(silk/silk)  9.6588mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> U21  body(silk/silk)  9.5813mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D1  body(silk/silk)  9.5484mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D2  body(silk/silk)  9.5484mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D3  body(silk/silk)  9.5484mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D6  body(silk/silk)  9.5484mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D7  body(silk/silk)  9.5484mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D8  body(silk/silk)  9.5484mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> D4  body(silk/silk)  9.4953mm2 side F  waived:intent_declared  CONTAINED 99%
+    BOX1 <-> C161  body(silk/silk)  9.0419mm2 side F  waived:intent_declared  CONTAINED 82%
+    BOX1 <-> C158  body(silk/silk)  8.8798mm2 side F  waived:intent_declared  CONTAINED 81%
+    BOX1 <-> U40  body(silk/silk)  8.7954mm2 side F  waived:intent_declared
+    BOX1 <-> C155  body(silk/silk)  8.0038mm2 side F  waived:intent_declared
+    BOX1 <-> C175  body(silk/silk)  7.8953mm2 side F  waived:intent_declared  CONTAINED 72%
+    BOX1 <-> C199  body(silk/silk)  7.1801mm2 side F  waived:intent_declared  CONTAINED 65%
+    BOX1 <-> C149  body(silk/silk)  6.9522mm2 side F  waived:intent_declared  CONTAINED 63%
+    BOX1 <-> C146  body(silk/silk)  6.5913mm2 side F  waived:intent_declared  CONTAINED 60%
+    BOX1 <-> C164  body(silk/silk)  6.395mm2 side F  waived:intent_declared  CONTAINED 58%
+    BOX1 <-> C193  body(silk/silk)  6.0807mm2 side F  waived:intent_declared  CONTAINED 55%
+    BOX1 <-> C101  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C103  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C108  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C109  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C123  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C124  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C125  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C126  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C127  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C128  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C130  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C131  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C132  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C133  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C134  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C135  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C136  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C137  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C138  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C16  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C170  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C174  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C178  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C179  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C20  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C3  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C63  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C64  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C70  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C72  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C96  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C97  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C98  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C99  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> L10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> L11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> L8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> L9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R1  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R100  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R101  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R103  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R105  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R108  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R128  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R129  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R130  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R131  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R132  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R133  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R134  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R135  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R136  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R137  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R138  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R139  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R140  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R141  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R142  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R143  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R144  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R145  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R146  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R147  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R148  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R149  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R150  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R151  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R152  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R153  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R156  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R157  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R158  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R159  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R16  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R165  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R17  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R70  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R72  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R73  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R74  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> R8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> C152  body(silk/silk)  4.5728mm2 side F  waived:intent_declared
+    BOX1 <-> C190  body(silk/silk)  3.9119mm2 side F  waived:intent_declared
+    BOX1 <-> C129  body(silk/silk)  3.4651mm2 side F  waived:intent_declared  CONTAINED 73%
+    BOX1 <-> C189  body(silk/silk)  1.2499mm2 side F  waived:intent_declared
+    BOX1 <-> C183  body(silk/silk)  0.9926mm2 side F  waived:intent_declared
+    BOX1 <-> C159  body(silk/silk)  0.5982mm2 side F  waived:intent_declared
+  pad/hole/oob echo: 0 pad pair(s), 0 hole conflict(s), 3 part(s) with pad copper off-board: J3 (0.02mm), J2 (0.0095mm), J1 (0.007mm)
+    (part pad AABB -- pads PLUS NPTH drill circles, summed over the union rect's four sides -- against an outline inflated by the GRADING CLEARANCE. It moves when --clearance moves, so a hit here is not necessarily copper off the outline. The per-pad, margin-0 outline measure is render_placement's checklist.a_off_outline.pad_copper.)
+    ...but NO PAD crosses the real outline (per-pad, margin 0, is empty). The count above is the part's bounding box against an outline inflated by the grading clearance -- an edge-mounted part reports a breach its copper does not make.
+  CONTAINMENT (171): a part's drawn body (its .Fab outline, else its silk united with its pads) lies wholly or mostly inside another part's.
+    BOX1 <-> U2  169.8419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U4  121.3008mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U29  80.9209mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U31  80.9209mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U32  80.9209mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U34  80.9209mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U38  80.9209mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U1  64.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U45  46.9431mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U43  46.943mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U33  43.3602mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U35  43.3602mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U36  43.3602mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U37  43.3602mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U10  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U11  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U14  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U15  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U5  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U6  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U9  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U16  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U18  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U19  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U20  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U23  37.1612mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U41  36.1625mm2  77% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U26  30.7096mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U27  30.7096mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C156  25.9058mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C157  25.9058mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U44  24.9806mm2  53% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U17  24.2812mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U25  24.2812mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U3  24.2812mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U24  23.8507mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C165  22.1625mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C167  22.1625mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U12  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U13  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U28  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U30  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> TP2  17.0967mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> TP3  17.0967mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U7  16.1129mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U8  16.1129mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> Q1  14.7096mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C168  12.7448mm2  58% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C147  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C153  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C154  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C160  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C163  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C177  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C185  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C186  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C187  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C188  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C191  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C192  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C194  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C195  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C196  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C197  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C201  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R154  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R155  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R160  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R162  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R163  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R164  11.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U22  9.6588mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> U21  9.5813mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D1  9.5484mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D2  9.5484mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D3  9.5484mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D6  9.5484mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D7  9.5484mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D8  9.5484mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> D4  9.4953mm2  99% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C161  9.0419mm2  82% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C158  8.8798mm2  81% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C175  7.8953mm2  72% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C199  7.1801mm2  65% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C149  6.9522mm2  63% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C146  6.5913mm2  60% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C164  6.395mm2  58% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C193  6.0807mm2  55% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C101  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C103  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C108  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C109  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C123  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C124  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C125  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C126  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C127  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C128  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C130  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C131  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C132  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C133  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C134  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C135  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C136  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C137  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C138  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C16  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C170  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C174  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C178  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C179  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C20  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C3  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C63  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C64  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C70  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C72  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C96  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C97  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C98  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C99  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> L10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> L11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> L8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> L9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R1  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R100  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R101  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R103  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R105  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R108  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R128  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R129  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R130  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R131  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R132  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R133  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R134  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R135  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R136  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R137  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R138  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R139  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R140  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R141  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R142  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R143  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R144  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R145  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R146  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R147  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R148  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R149  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R150  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R151  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R152  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R153  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R156  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R157  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R158  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R159  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R16  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R165  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R17  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R70  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R72  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R73  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R74  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> R8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> C129  3.4651mm2  73% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    None of these BLOCK: 171 named in the intent's overlap_waivers.
+  BODY COVERAGE: 450 of 458 part(s) draw a body the containment channel can judge (450 silk)
+    A silk body is the LAST resort and never gates: a library may draw an assembly outline there rather than the part (esp_prog's SOT89 draws corner brackets 5.2mm apart around a 4.5mm part). Such pairs are reported, with their source, and excluded from the blocking channels.
+    8 part(s) draw no usable body (no .Fab body, no usable silk), so the channel cannot judge them: FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8
+  ASSEMBLY SIDES: F 229 / B 229 pad-bearing part(s) of 458 block(s); 2 reflow pass(es), 19 through-hole part(s)
+    Through-hole F 19 / B 0 (plated barrels only), counted and never folded in: a drilled part on the front needs wave, selective or hand soldering, not a second reflow pass.
+    observed policy: sides=both -- counted per footprint BLOCK, verdict from the pad-bearing subset (parts_by_side_basis in --json has the rule in full)
+  TEST POINT COVERED (2): a test point's pad copper lies under another part's drawn body, where no probe can reach it -- 0 of 2 GATE (a member moved vs the baseline)
+    TP2 under BOX1  100% of its pad copper  body silk  side F  waived:intent_declared
+    TP3 under BOX1  100% of its pad copper  body silk  side F  waived:intent_declared
+    A deliberate pose is accepted by naming the pair in the intent's `overlap_waivers`.
+  BODY-TO-EDGE BAND: 15 of 449 part(s) have a body within 2.5mm of the board edge [derived_default: JLCPCB's assembly rule, one assembler's -- REPORT-ONLY; declare assembly.body_edge_mm in the intent to gate]  new_in_band 2
+    FIX1 0.0mm (courtyard, side F)
+    FIX2 0.0mm (courtyard, side F)
+    FIX3 0.0mm (courtyard, side F)
+    FIX4 0.0mm (courtyard, side F)
+    FIX5 0.0mm (courtyard, side F)
+    FIX6 0.0mm (courtyard, side F)
+    FIX7 0.0mm (courtyard, side F)
+    FIX8 0.0mm (courtyard, side F)
+    J1 0.0mm (silk, side F)
+    J2 0.0mm (silk, side F)
+    J3 0.0mm (silk, side F)
+    J4 0.0mm (silk, side F)
+    ... +3 more (--json)
+  VERDICT: buildable (blocking 0)
+EXIT=0

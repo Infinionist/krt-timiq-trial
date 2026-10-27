@@ -1,0 +1,220 @@
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  NOTE: flippable but on a declared face: C1, C10, C11, C12, C13, C14, C15, C2, C21, C4, C6, C8, R14
+  NOTE: template U21: C98, L8, R103, C101, C100, R102, L10, C108, R106, C105 seated as drawn and carried with it
+  NOTE: template U22: C99, L9, R105, C103, C102, R104, L11, C109, R107, C107 seated as drawn and carried with it
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C104 on 5V_2 serves U16
+  NOTE: decap C106 on 5V_2 serves U16
+  NOTE: decap C114 on 5V_2 serves U28, U29, U30
+  NOTE: decap C115 on -5V serves U28
+  NOTE: decap C116 on 3V3_2 serves U29
+  NOTE: decap C117 on 5V_2 serves U28, U29, U30
+  NOTE: decap C118 on 5V_2 serves U28, U29, U30
+  NOTE: decap C119 on 5V_2 serves U28, U29, U30
+  NOTE: decap C123 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C124 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C125 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C126 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C127 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C128 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C129 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C130 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C131 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C132 on 5V_2 serves U33
+  NOTE: decap C133 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C134 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C135 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C136 on 5V_1 serves U36, U37
+  NOTE: decap C137 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C138 on 5V_1 serves U36, U37
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C26 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C29 on 15V serves U5, U6
+  NOTE: decap C30 on 15V serves U5, U6
+  NOTE: decap C31 on -15V serves U5, U6
+  NOTE: decap C32 on -15V serves U5, U6
+  NOTE: decap C35 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C36 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C39 on -5V serves U7, U8, U9
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C40 on -5V serves U7, U8, U9
+  NOTE: decap C41 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C44 on -5V serves U7, U8, U9
+  NOTE: decap C45 on 15V serves U10, U11
+  NOTE: decap C46 on 15V serves U10, U11
+  NOTE: decap C49 on -15V serves U10, U11
+  NOTE: decap C50 on -15V serves U10, U11
+  NOTE: decap C51 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C52 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C59 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C60 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C61 on -5V serves U14, U15
+  NOTE: decap C62 on -5V serves U14, U15
+  NOTE: decap C65 on 5V_2 serves U16
+  NOTE: decap C66 on 5V_2 serves U16
+  NOTE: decap C67 on 5V_2 serves U16
+  NOTE: decap C68 on 5V_2 serves U16
+  NOTE: decap C69 on 5V_2 serves U16
+  NOTE: decap C71 on 5V_2 serves U16
+  NOTE: decap C74 on 5V_1 serves U18, U19, U20
+  NOTE: decap C75 on 5V_1 serves U18, U19, U20
+  NOTE: decap C76 on 5V_1 serves U18, U19, U20
+  NOTE: decap C77 on 5V_1 serves U18, U19, U20
+  NOTE: decap C78 on 5V_1 serves U18, U19, U20
+  NOTE: decap C79 on 5V_1 serves U18, U19, U20
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+  NOTE: decap C82 on 5V_1 serves U18, U19, U20
+  NOTE: decap C83 on 5V_1 serves U18, U19, U20
+  NOTE: decap C84 on 5V_1 serves U18, U19, U20
+  NOTE: decap C85 on 5V_1 serves U18, U19, U20
+  NOTE: decap C86 on 5V_1 serves U18, U19, U20
+  NOTE: decap C87 on 5V_1 serves U18, U19, U20
+  NOTE: decap C90 on 5V_1 serves U18, U19, U20
+  NOTE: decap C91 on 5V_1 serves U18, U19, U20
+  NOTE: decap C92 on 5V_1 serves U18, U19, U20
+  NOTE: decap C93 on 5V_1 serves U18, U19, U20
+  NOTE: decap C94 on 5V_1 serves U18, U19, U20
+  NOTE: decap C95 on 5V_1 serves U18, U19, U20
+  NOTE: decap limits priced: 0 term(s) (decap_pin_distance 8.1577 mm)
+  WARNING: proximity L8 near U21 (max 3 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C101-Pad1), Net-(C98-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity L9 near U22 (max 3 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C103-Pad1), Net-(C99-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U24 near U23 (max 5 mm) names no pads: it is priced over 3 shared-net pad legs on GND, Net-(U23-Pad3) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U26 near U24 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U24-Pad4) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U27 near U24 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U24-Pad6) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U26 near U25 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U25-Pad7) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U27 near U25 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U25-Pad9) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+  WARNING: proximity U28 near R123 (max 5 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C110-Pad1), Net-(R119-Pad1), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the same ones
+place_simple: 436 movable part(s), fixed: BOX1, D2, D3, D4, D5, D6, D7, D8, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6, MK10, MK11, MK12, MK7, MK8, MK9
+  group canJ7: C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C21, C22, C23, C24, C25, L1, L2, L3, L4, L5, L6, L7, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R15, R18, R19, R20, R21, R22, R23, U1, U2, MK7, J1, J2
+  group canJ8: C20, C63, C64, C65, C66, C67, C68, C69, C70, C71, C98, C99, C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, L8, L9, L10, L11, R14, R16, R17, R70, R71, R72, R73, R100, R101, R102, R103, R104, R105, R106, R107, R108, R165, U3, U16, U17, U21, U22, U23, U24, U25, U26, U27, MK8
+  group canJ9: C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U10, U11, U12, U13, U14, U15, MK9
+  group canJ10: C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, R74, R77, R80, R81, R82, R83, R84, R85, R86, R87, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20, C96, C97, R75, R76, R78, R79, R88, R89, MK10, J3, J4
+  group canJ11: C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30, MK11
+  group canJ12: C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, U4, U5, U6, U7, U8, U9, MK12
+  group digital: C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, J5, R128, R129, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R150, R151, R152, R153, U31, U32, U33, U34, U35, U36, U37, U38
+  group status_led: D1, Q1, R1
+  group pw_in: C143, C144, C145, C148, C149, C150, J6
+  group pw_24v: L13, L14, C157, C164, C156, C163
+  group pw_7v5: L12, C155, C162
+  group pw_U39: U39, C141, C146, C151, C153, C158, C160, C166
+  group pw_U40: U40, C142, C147, C152, C154, C159, C161, C140
+  group pw_U41: U41, C170, C175, C180, C183, C188, C193, C165
+  group pw_U42: U42, C171, C176, C181, C184, C189, C194, C139
+  group pw_U43: U43, C172, C177, C182, C185, C190, C195, C167
+  group pw_U44: U44, C173, C178, C186, C191, C196, C198, C200, R156, C168
+  group pw_U45: U45, C174, C179, C187, C192, C197, C199, C201, R158, C169
+  group pw_misc: R154, R155, R160, R161, R162, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, R157, R159, R163, R164
+  WARNING: pad copper reaches past the drawn courtyard: BOX1 166.74 mm (locked); the anneal prices the courtyard, check_assembly gates courtyard plus pad copper, so a neighbour can end over such a pad and the seed grade NOT BUILDABLE (ranked below the buildable seeds)
+  move  21800: T  32.791 lam     2.5 reach 21.47 cost 20536.1 overlap 2616.23 mm2 best     inf accepted 0.36
+  move  43600: T  14.407 lam     6.3 reach 16.96 cost 17698.5 overlap 1198.95 mm2 best     inf accepted 0.22
+  move  65400: T   6.330 lam    15.8 reach 12.99 cost 18445.2 overlap 372.43 mm2 best     inf accepted 0.10
+  move  87200: T   2.781 lam    39.8 reach  9.54 cost 18943.7 overlap 199.99 mm2 best     inf accepted 0.05
+  move 109000: T   1.222 lam   100.0 reach  6.63 cost 21669.2 overlap 115.50 mm2 best     inf accepted 0.03
+  move 130800: T   0.537 lam   251.2 reach  4.24 cost 23430.7 overlap  57.35 mm2 best     inf accepted 0.03
+  move 152600: T   0.236 lam   630.9 reach  2.39 cost 23264.7 overlap  44.30 mm2 best     inf accepted 0.03
+  move 174400: T   0.104 lam  1584.8 reach  1.06 cost 23380.9 overlap  31.74 mm2 best     inf accepted 0.03
+  move 196200: T   0.046 lam  3980.9 reach  0.27 cost 24276.6 overlap  23.21 mm2 best     inf accepted 0.04
+  move 218000: T   0.020 lam  9999.6 reach  0.10 cost 24107.1 overlap  19.17 mm2 best     inf accepted 0.07
+  NOTE: run 1 left no legal pose for C100, C104, C105, C108, C11, C180, C26, C37, C42, C43, C44, C47, C49, C57, C98, R30, R32, R33, R35, R49, U1, U10, U13, U16, U17, U2, U23, U24, U27, U4, U41, U6; annealing again from a fresh start
+  move  21800: T  30.162 lam     2.5 reach 21.47 cost 19683.5 overlap 2925.28 mm2 best     inf accepted 0.34
+  move  43600: T  13.375 lam     6.3 reach 16.96 cost 18592.6 overlap 1378.98 mm2 best     inf accepted 0.21
+  move  65400: T   5.931 lam    15.8 reach 12.99 cost 19405.9 overlap 511.26 mm2 best     inf accepted 0.10
+  move  87200: T   2.630 lam    39.8 reach  9.54 cost 20122.0 overlap 281.00 mm2 best     inf accepted 0.05
+  move 109000: T   1.166 lam   100.0 reach  6.63 cost 23457.5 overlap 154.04 mm2 best     inf accepted 0.03
+  move 130800: T   0.517 lam   251.2 reach  4.24 cost 26313.4 overlap  85.60 mm2 best     inf accepted 0.03
+  move 152600: T   0.229 lam   630.9 reach  2.39 cost 28145.1 overlap  55.46 mm2 best     inf accepted 0.02
+  move 174400: T   0.102 lam  1584.8 reach  1.06 cost 28624.7 overlap  41.78 mm2 best     inf accepted 0.03
+  move 196200: T   0.045 lam  3980.9 reach  0.27 cost 33449.0 overlap  25.37 mm2 best     inf accepted 0.04
+  move 218000: T   0.020 lam  9999.6 reach  0.10 cost 36826.6 overlap  20.44 mm2 best     inf accepted 0.06
+  NOTE: run 2 left no legal pose for C103, C109, C11, C19, C20, C21, C22, C23, C24, C38, C58, C88, C99, L11, L2, L3, L9, R102, R106, R107, R117, R165, R17, R48, R5, U10, U2, U20, U22, U23, U24, U25, U26, U29, U3, U4, U45, U9; annealing again from a fresh start
+  move  21800: T  40.908 lam     2.5 reach 21.47 cost 23939.7 overlap 3095.16 mm2 best     inf accepted 0.39
+  move  43600: T  17.537 lam     6.3 reach 16.96 cost 18888.2 overlap 1476.03 mm2 best     inf accepted 0.25
+  move  65400: T   7.518 lam    15.8 reach 12.99 cost 19135.5 overlap 551.62 mm2 best     inf accepted 0.12
+  move  87200: T   3.223 lam    39.8 reach  9.54 cost 21263.0 overlap 256.81 mm2 best     inf accepted 0.05
+  move 109000: T   1.382 lam   100.0 reach  6.63 cost 22576.8 overlap 173.98 mm2 best     inf accepted 0.03
+  move 130800: T   0.592 lam   251.2 reach  4.24 cost 25872.1 overlap  90.25 mm2 best     inf accepted 0.03
+  move 152600: T   0.254 lam   630.9 reach  2.39 cost 26746.5 overlap  65.77 mm2 best     inf accepted 0.03
+  move 174400: T   0.109 lam  1584.8 reach  1.06 cost 29260.9 overlap  35.03 mm2 best     inf accepted 0.03
+  move 218000: T   0.020 lam  9999.6 reach  0.10 cost 29373.3 overlap  17.62 mm2 best     inf accepted 0.05
+  NOTE: run 3 left no legal pose for C103, C104, C16, C23, C6, L9, R107, R19, R35, U1, U14, U27, U4, U5, U8, U9
+  NOTE: no room on their face, annealing again with them on the other: C104 (room for C101 (past its claim limit) in group canJ8), C106 (room for C101 (past its claim limit) in group canJ8), C26 (room for C37 (past its claim limit) in group canJ12), C27 (past its claim limit), C28 (room for C37 (past its claim limit) in group canJ12), C29 (room for C37 (past its claim limit) in group canJ12), C30 (room for C37 (past its claim limit) in group canJ12), C31 (room for C37 (past its claim limit) in group canJ12), C32 (room for C37 (past its claim limit) in group canJ12), C33 (room for C37 (past its claim limit) in group canJ12), C34 (room for C37 (past its claim limit) in group canJ12), C35 (room for C37 (past its claim limit) in group canJ12), C36 (room for C37 (past its claim limit) in group canJ12), C39 (room for C37 (past its claim limit) in group canJ12), C40 (room for C37 (past its claim limit) in group canJ12), C41 (room for C37 (past its claim limit) in group canJ12), C44 (room for C37 (past its claim limit) in group canJ12), C64 (room for C101 (past its claim limit) in group canJ8), C65 (room for C101 (past its claim limit) in group canJ8), C66 (room for C101 (past its claim limit) in group canJ8), C67 (room for C101 (past its claim limit) in group canJ8), C68 (room for C101 (past its claim limit) in group canJ8), C69 (room for C101 (past its claim limit) in group canJ8), C71 (room for C101 (past its claim limit) in group canJ8), R108 (room for C101 (past its claim limit) in group canJ8), R71 (room for C101 (past its claim limit) in group canJ8), R72 (room for C101 (past its claim limit) in group canJ8)
+Modified 27 footprint positions
+Successfully wrote /tmp/place_simple_qyyb1gws/needed_fixed.kicad_pcb
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  move  21800: T  35.375 lam     2.5 reach 21.47 cost 21177.0 overlap 3070.28 mm2 best     inf accepted 0.36
+  move  43600: T  15.411 lam     6.3 reach 16.96 cost 18441.5 overlap 1262.96 mm2 best     inf accepted 0.24
+  move  65400: T   6.714 lam    15.8 reach 12.99 cost 19044.0 overlap 444.98 mm2 best     inf accepted 0.11
+  move  87200: T   2.925 lam    39.8 reach  9.54 cost 19993.8 overlap 249.71 mm2 best     inf accepted 0.05
+  move 109000: T   1.274 lam   100.0 reach  6.63 cost 21727.2 overlap 142.20 mm2 best     inf accepted 0.04
+  move 130800: T   0.555 lam   251.2 reach  4.24 cost 24173.5 overlap  76.47 mm2 best     inf accepted 0.03
+  move 152600: T   0.242 lam   630.9 reach  2.39 cost 25326.4 overlap  45.42 mm2 best     inf accepted 0.03
+  move 174400: T   0.105 lam  1584.8 reach  1.06 cost 27513.9 overlap  15.16 mm2 best     inf accepted 0.03
+  move 196200: T   0.046 lam  3980.9 reach  0.27 cost 26457.8 overlap   8.24 mm2 best     inf accepted 0.04
+  move 218000: T   0.020 lam  9999.6 reach  0.10 cost 28925.2 overlap   5.88 mm2 best     inf accepted 0.07
+  NOTE: run 1 left no legal pose for C1, C18, R30, R31, R34, R84, U11, U18, U24, U9; annealing again from a fresh start
+  move  21800: T  28.239 lam     2.5 reach 21.47 cost 19486.7 overlap 2596.92 mm2 best     inf accepted 0.34
+  move  43600: T  12.615 lam     6.3 reach 16.96 cost 16567.8 overlap 1286.36 mm2 best     inf accepted 0.21
+  move  65400: T   5.635 lam    15.8 reach 12.99 cost 18243.1 overlap 457.35 mm2 best     inf accepted 0.10
+  move  87200: T   2.517 lam    39.8 reach  9.54 cost 20440.0 overlap 203.16 mm2 best     inf accepted 0.05
+  move 109000: T   1.124 lam   100.0 reach  6.63 cost 21727.6 overlap 131.78 mm2 best     inf accepted 0.03
+  move 130800: T   0.502 lam   251.2 reach  4.24 cost 24645.8 overlap  64.38 mm2 best     inf accepted 0.03
+  move 152600: T   0.224 lam   630.9 reach  2.39 cost 25593.3 overlap  43.49 mm2 best     inf accepted 0.03
+  move 174400: T   0.100 lam  1584.8 reach  1.06 cost 27503.6 overlap  20.28 mm2 best     inf accepted 0.04
+  move 196200: T   0.045 lam  3980.9 reach  0.27 cost 30183.4 overlap  11.41 mm2 best     inf accepted 0.05
+  move 218000: T   0.020 lam  9999.6 reach  0.10 cost 28242.1 overlap  10.28 mm2 best     inf accepted 0.07
+  NOTE: run 2 left no legal pose for C24, R101, U1, U11, U13, U2, U3, U4, U5, U6, U9; annealing again from a fresh start
+  move  21800: T  41.662 lam     2.5 reach 21.47 cost 23432.5 overlap 2975.04 mm2 best     inf accepted 0.39
+  move  43600: T  17.824 lam     6.3 reach 16.96 cost 18187.6 overlap 1375.16 mm2 best     inf accepted 0.25
+  move  65400: T   7.625 lam    15.8 reach 12.99 cost 18949.2 overlap 489.77 mm2 best     inf accepted 0.13
+  move  87200: T   3.262 lam    39.8 reach  9.54 cost 19858.2 overlap 259.11 mm2 best     inf accepted 0.06
+  move 109000: T   1.396 lam   100.0 reach  6.63 cost 23027.2 overlap 129.63 mm2 best     inf accepted 0.04
+  move 130800: T   0.597 lam   251.2 reach  4.24 cost 25302.8 overlap  67.54 mm2 best     inf accepted 0.03
+  move 152600: T   0.255 lam   630.9 reach  2.39 cost 27260.1 overlap  31.58 mm2 best     inf accepted 0.03
+  move 174400: T   0.109 lam  1584.8 reach  1.06 cost 27138.3 overlap  16.79 mm2 best     inf accepted 0.03
+  move 196200: T   0.047 lam  3980.9 reach  0.27 cost 26335.3 overlap  10.40 mm2 best     inf accepted 0.04
+  move 218000: T   0.020 lam  9999.6 reach  0.10 cost 28562.0 overlap   7.49 mm2 best     inf accepted 0.07
+  NOTE: run 3 left no legal pose for R2, U10, U15, U2, U23, U4, U5
+  NOTE: with them flipped: 7 part(s) without a legal pose, 0 decap limit(s), 168 claim limit(s) broken, cost 29329.1, against 16, 0, 176, 31133.6; kept
+place_simple: annealed 218000 moves in 1608.9 s; cost 29329.1 (wire 8004.2 mm, 868 crossings, claims 1986.2, 168 claim limit(s) broken, decaps 451.3, template 71.4 mm, halo 105.62, pad hits 348, congestion 4.17, groups 321.1: canJ7 39.6, canJ8 8.4, canJ9 10.8, canJ10 35.9, canJ11 8.3, canJ12 5.9, digital 28.8, status_led 0.4, pw_in 20.7, pw_24v 46.9, pw_7v5 1.0, pw_U39 7.3, pw_U40 1.5, pw_U41 8.8, pw_U42 1.5, pw_U43 1.6, pw_U44 1.9, pw_U45 29.1, pw_misc 62.7, hints 439.5: near:canJ7:canJ8 18.7, near:canJ10:canJ7 82.1, near:canJ11:canJ8 79.5, near:canJ8:canJ9 14.6, near:canJ12:canJ9 13.8, near:canJ10:digital 9.5, near:canJ11:digital 85.8, near:canJ12:digital 4.6, near:digital:status_led 0.5, near:pw_24v:pw_in 0.5, near:pw_7v5:pw_in 60.6, near:pw_24v:pw_U43 0.5, near:pw_24v:pw_U44 7.0, near:pw_24v:pw_U45 1.4, near:pw_7v5:pw_U39 40.1, near:pw_7v5:pw_U40 10.2, near:pw_7v5:pw_U41 0.5, near:pw_7v5:pw_U42 0.4, near:pw_in:pw_misc 9.1)
+  WARNING: no legal pose found for: R2, U10, U15, U2, U23, U4, U5
+  template drift (worst pad, mm): C98 0.69, L8 5.17, R103 4.51, C101 4.30, C100 0.00, R102 1.87, L10 2.52, C108 1.64, R106 0.57, C105 6.55, C99 25.81, L9 0.91, R105 2.22, C103 4.92, C102 4.54, R104 2.24, L11 2.39, C109 1.30, R107 0.59, C107 5.25
+  WARNING: off its datasheet template past the tolerance: C98 (U21) 0.69 mm > 0.3, L8 (U21) 5.17 mm > 0.3, R103 (U21) 4.51 mm > 0.3, C101 (U21) 4.30 mm > 0.3, R102 (U21) 1.87 mm > 0.3, L10 (U21) 2.52 mm > 0.3, C108 (U21) 1.64 mm > 0.3, R106 (U21) 0.57 mm > 0.3, C105 (U21) 6.55 mm > 0.3, C99 (U22) 25.81 mm > 0.3, L9 (U22) 0.91 mm > 0.3, R105 (U22) 2.22 mm > 0.3, C103 (U22) 4.92 mm > 0.3, C102 (U22) 4.54 mm > 0.3, R104 (U22) 2.24 mm > 0.3, L11 (U22) 2.39 mm > 0.3, C109 (U22) 1.30 mm > 0.3, R107 (U22) 0.59 mm > 0.3, C107 (U22) 5.25 mm > 0.3; check_floorplan grades this a WARN (unless the intent's `severity` promotes `template`), so the judge ranks the seed no lower for it
+Modified 436 footprint positions
+Successfully wrote /tmp/pcb-trials/timiq/v5/movie/placed.kicad_pcb
+  floorplan: 187 floorplan error(s) (proximity, zone_containment) (check_floorplan --intent)
+  assembly: NOT BUILDABLE (check_assembly) (check_assembly --baseline)
+JSON_SUMMARY: {"final": {"wire": 8004.168427180001, "crossings": 868, "claims": 1986.2492764203898, "decaps": 451.25895734509635, "groups": 321.0649011200677, "hints": 439.51255078986605, "halo": 105.62363630832907, "congestion": 4.168021768087269, "pad_hits": 348.0, "decap_limits": 0, "decap_broken": 0, "claim_limits": 669.1016637878122, "claim_broken": 168, "template": 71.41828161237592, "cost": 29329.08121894527}, "moves": 218000, "seed": 1, "start": "anchored", "reseated": [], "illegal": ["R2", "U10", "U15", "U2", "U23", "U4", "U5"], "tight": {}, "refused": {}, "oversubscribed": [], "claim_arity": [{"ref": "L8", "near": "U21", "max_mm": 3.0, "legs": 2, "nets": ["Net-(C101-Pad1)", "Net-(C98-Pad2)"], "rails": []}, {"ref": "L9", "near": "U22", "max_mm": 3.0, "legs": 2, "nets": ["Net-(C103-Pad1)", "Net-(C99-Pad2)"], "rails": []}, {"ref": "U24", "near": "U23", "max_mm": 5.0, "legs": 3, "nets": ["GND", "Net-(U23-Pad3)"], "rails": ["GND"]}, {"ref": "U26", "near": "U24", "max_mm": 5.0, "legs": 6, "nets": ["GND", "Net-(U24-Pad4)"], "rails": ["GND"]}, {"ref": "U27", "near": "U24", "max_mm": 5.0, "legs": 6, "nets": ["GND", "Net-(U24-Pad6)"], "rails": ["GND"]}, {"ref": "U26", "near": "U25", "max_mm": 5.0, "legs": 6, "nets": ["GND", "Net-(U25-Pad7)"], "rails": ["GND"]}, {"ref": "U27", "near": "U25", "max_mm": 5.0, "legs": 6, "nets": ["GND", "Net-(U25-Pad9)"], "rails": ["GND"]}, {"ref": "U28", "near": "R123", "max_mm": 5.0, "legs": 2, "nets": ["Net-(C110-Pad1)", "Net-(R119-Pad1)"], "rails": []}], "floorplan": {"errors": 187, "rules": ["proximity", "zone_containment"]}, "assembly": {"blocking": 1, "buildable": false, "fired": []}, "bga_field": [], "template_off": [{"anchor": "U21", "ref": "C98", "worst_mm": 0.689, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "L8", "worst_mm": 5.17, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "R103", "worst_mm": 4.511, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "C101", "worst_mm": 4.296, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "R102", "worst_mm": 1.87, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "L10", "worst_mm": 2.516, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "C108", "worst_mm": 1.638, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "R106", "worst_mm": 0.575, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "C105", "worst_mm": 6.549, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "C99", "worst_mm": 25.809, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "L9", "worst_mm": 0.91, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "R105", "worst_mm": 2.22, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "C103", "worst_mm": 4.921, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "C102", "worst_mm": 4.538, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "R104", "worst_mm": 2.241, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "L11", "worst_mm": 2.386, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "C109", "worst_mm": 1.304, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "R107", "worst_mm": 0.595, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "C107", "worst_mm": 5.249, "tolerance_mm": 0.3}], "decap_residual": [], "hints_saturated": [], "estimate_fallback": [], "faces": {"flippable": ["C104", "C106", "C26", "C27", "C28", "C29", "C30", "C31", "C32", "C33", "C34", "C35", "C36", "C39", "C40", "C41", "C44", "C64", "C65", "C66", "C67", "C68", "C69", "C71", "R108", "R71", "R72"], "needed": {"C104": "room for C101 (past its claim limit) in group canJ8", "C106": "room for C101 (past its claim limit) in group canJ8", "C64": "room for C101 (past its claim limit) in group canJ8", "C65": "room for C101 (past its claim limit) in group canJ8", "C66": "room for C101 (past its claim limit) in group canJ8", "C67": "room for C101 (past its claim limit) in group canJ8", "C68": "room for C101 (past its claim limit) in group canJ8", "C69": "room for C101 (past its claim limit) in group canJ8", "C71": "room for C101 (past its claim limit) in group canJ8", "R108": "room for C101 (past its claim limit) in group canJ8", "R71": "room for C101 (past its claim limit) in group canJ8", "R72": "room for C101 (past its claim limit) in group canJ8", "C27": "past its claim limit", "C26": "room for C37 (past its claim limit) in group canJ12", "C28": "room for C37 (past its claim limit) in group canJ12", "C29": "room for C37 (past its claim limit) in group canJ12", "C30": "room for C37 (past its claim limit) in group canJ12", "C31": "room for C37 (past its claim limit) in group canJ12", "C32": "room for C37 (past its claim limit) in group canJ12", "C33": "room for C37 (past its claim limit) in group canJ12", "C34": "room for C37 (past its claim limit) in group canJ12", "C35": "room for C37 (past its claim limit) in group canJ12", "C36": "room for C37 (past its claim limit) in group canJ12", "C39": "room for C37 (past its claim limit) in group canJ12", "C40": "room for C37 (past its claim limit) in group canJ12", "C41": "room for C37 (past its claim limit) in group canJ12", "C44": "room for C37 (past its claim limit) in group canJ12"}, "needed_kept": true}, "seconds": {"setup": 1.0, "anneal": 1608.9}}
+record: 0 of 464 populated parts drawn from their KiCad model (exported in 0.3 s); 457 fell back to a box (C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C11, C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C12, C120, C121, C122, C123, C124, C125, C126, C127, C128, C129, C13, C130, C131, C132, C133, C134, C135, C136, C137, C138, C139, C14, C140, C141, C142, C143, C144, C145, C146, C147, C148, C149, C15, C150, C151, C152, C153, C154, C155, C156, C157, C158, C159, C16, C160, C161, C162, C163, C164, C165, C166, C167, C168, C169, C17, C170, C171, C172, C173, C174, C175, C176, C177, C178, C179, C18, C180, C181, C182, C183, C184, C185, C186, C187, C188, C189, C19, C190, C191, C192, C193, C194, C195, C196, C197, C198, C199, C2, C20, C200, C201, C21, C22, C23, C24, C25, C26, C27, C28, C29, C3, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C4, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C5, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C6, C60, C61, C62, C63, C64, C65, C66, C67, C68, C69, C7, C70, C71, C72, C73, C74, C75, C76, C77, C78, C79, C8, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C9, C90, C91, C92, C93, C94, C95, C96, C97, C98, C99, D1, D2, D3, D4, D5, D6, D7, D8, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6, L1, L10, L11, L12, L13, L14, L2, L3, L4, L5, L6, L7, L8, L9, Q1, R1, R10, R100, R101, R102, R103, R104, R105, R106, R107, R108, R109, R11, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R12, R120, R121, R122, R123, R124, R125, R126, R127, R128, R129, R13, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R14, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R15, R150, R151, R152, R153, R154, R155, R156, R157, R158, R159, R16, R160, R161, R162, R163, R164, R165, R17, R18, R19, R2, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R3, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R4, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R5, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R6, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, R7, R70, R71, R72, R73, R74, R75, R76, R77, R78, R79, R8, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R9, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, U1, U10, U11, U12, U13, U14, U15, U16, U17, U18, U19, U2, U20, U21, U22, U23, U24, U25, U26, U27, U28, U29, U3, U30, U31, U32, U33, U34, U35, U36, U37, U38, U39, U4, U40, U41, U42, U43, U44, U45, U5, U6, U7, U8, U9); 7 have no model and nothing assembled (BOX1, MK10, MK11, MK12, MK7, MK8, MK9)
+record: 23 model(s) the installed library lacks; the make-3d-movie skill looks for them on the web (python3 movie3d/find_models.py missing /tmp/pcb-trials/timiq/v5/movie/fixed.kicad_pcb)
+make_movie: recorded 1111 frames in 1665.6 s
+make_movie: rendering on ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver) (Chromium 136.0.7103.25, three r186); 0 part models loaded
+  40/1111 frames
+  80/1111 frames
+  120/1111 frames
+  160/1111 frames
+  200/1111 frames
+  240/1111 frames
+  280/1111 frames
+  320/1111 frames
+  360/1111 frames
+  400/1111 frames
+  440/1111 frames
+  480/1111 frames
+  520/1111 frames
+  560/1111 frames
+  600/1111 frames
+  640/1111 frames
+  680/1111 frames
+  720/1111 frames
+  760/1111 frames
+  800/1111 frames
+  840/1111 frames
+  880/1111 frames
+  920/1111 frames
+  960/1111 frames
+  1000/1111 frames
+  1040/1111 frames
+  1080/1111 frames
+make_movie: rendered 1111 frames in 102.6 s (92 ms each)
+make_movie: /tmp/pcb-trials/timiq/v5/movie/placed_3d.mp4 (1111 frames, 92.6 s, 22.1 MB) in 2.9 s; stills /tmp/pcb-trials/timiq/v5/movie/placed_3d_start.png, /tmp/pcb-trials/timiq/v5/movie/placed_3d_anneal.png, /tmp/pcb-trials/timiq/v5/movie/placed_3d_bottom.png, /tmp/pcb-trials/timiq/v5/movie/placed_3d_final.png

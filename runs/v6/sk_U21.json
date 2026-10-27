@@ -1,0 +1,118 @@
+{
+ "anchor": "U21",
+ "kind": "rf front end",
+ "source": "Mini-Circuits PMA2-43LN+ datasheet, p4 Fig 1 Application and Characterization Circuit (no layout figure)",
+ "members": [
+  {
+   "ref": "C98",
+   "pads": {
+    "C98": [
+     "2"
+    ],
+    "U21": [
+     "2"
+    ]
+   },
+   "side": "+y",
+   "note": "C1 DC block in series at RF-IN pin 2"
+  },
+  {
+   "ref": "L8",
+   "pads": {
+    "L8": [
+     "1",
+     "2"
+    ],
+    "U21": [
+     "1",
+     "2"
+    ]
+   },
+   "side": "+y",
+   "note": "L1 bias choke from RF-IN pin 2 to BIAS pin 1"
+  },
+  {
+   "ref": "C101",
+   "pads": {
+    "C101": [
+     "1"
+    ],
+    "U21": [
+     "1"
+    ],
+    "L8": [
+     "1"
+    ]
+   },
+   "side": "+y",
+   "note": "C3 shunt at the bias node (pin 1)"
+  },
+  {
+   "ref": "R103",
+   "pads": {
+    "R103": [
+     "2"
+    ],
+    "C101": [
+     "1"
+    ]
+   },
+   "side": "+y",
+   "note": "R1 49.9R from the bias node toward Rb",
+   "reach": 5
+  },
+  {
+   "ref": "C108",
+   "pads": {
+    "C108": [
+     "1"
+    ],
+    "U21": [
+     "7"
+    ]
+   },
+   "side": "-y",
+   "note": "C2 DC block in series at RF-OUT pin 7"
+  },
+  {
+   "ref": "L10",
+   "pads": {
+    "L10": [
+     "2"
+    ],
+    "U21": [
+     "7"
+    ]
+   },
+   "side": "-y",
+   "note": "L2 choke from RF-OUT pin 7 to the supply node"
+  },
+  {
+   "ref": "C105",
+   "pads": {
+    "C105": [
+     "1"
+    ],
+    "L10": [
+     "1"
+    ]
+   },
+   "side": "-y",
+   "note": "C4 shunt at the choke supply node"
+  },
+  {
+   "ref": "R106",
+   "pads": {
+    "R106": [
+     "2"
+    ],
+    "L10": [
+     "1"
+    ]
+   },
+   "side": "-y",
+   "note": "R2 0R from the choke node to VDD",
+   "reach": 5
+  }
+ ]
+}

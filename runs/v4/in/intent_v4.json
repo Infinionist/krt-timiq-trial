@@ -1,0 +1,6301 @@
+{
+ "assembly": {
+  "sides": "both",
+  "why": "observed: 285 pad-bearing part(s) on F and 179 on B, 2 reflow pass(es). every footprint BLOCK (#726): blocks sharing one reference are keyed with an ordinal suffix and counted separately. `pad_bearing` restricts that to blocks carrying at least one pad that is not a paste/mask aperture (#1143), and it is the count the populated-side verdict is taken from -- a zero-pad graphic on the back does not make a board double-sided."
+ },
+ "blocks": [
+  {
+   "group": "sheet:4f61069c/55b24967",
+   "name": "sheet:4f61069c/55b24967",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55b25766",
+   "name": "sheet:4f61069c/55b25766",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "U10",
+    "U11",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55b76454",
+   "name": "sheet:4f61069c/55b76454",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "BOX1",
+    "C139",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C178",
+    "C179",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C200",
+    "C201",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J10",
+    "J11",
+    "J12",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "L12",
+    "L13",
+    "L14",
+    "R154",
+    "R155",
+    "R156",
+    "R157",
+    "R158",
+    "R159",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "U39",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55bfa0eb",
+   "name": "sheet:4f61069c/55bfa0eb",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "D1",
+    "J1",
+    "J2",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "Q1",
+    "R1",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "U1",
+    "U2",
+    "U3"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55c36387",
+   "name": "sheet:4f61069c/55c36387",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55d7108b",
+   "name": "sheet:4f61069c/55d7108b",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55dd4d5a",
+   "name": "sheet:4f61069c/55dd4d5a",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55dd5793",
+   "name": "sheet:4f61069c/55dd5793",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "J5",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/56c4bef4",
+   "name": "sheet:4f61069c/56c4bef4",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "J3",
+    "J4",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20"
+   ]
+  },
+  {
+   "name": "box_inside",
+   "refs": [
+    "C1",
+    "C10",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C11",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C12",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C13",
+    "C132",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C3",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C4",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C5",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C6",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C7",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C8",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C9",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C98",
+    "C99",
+    "L1",
+    "L10",
+    "L11",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "R10",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R11",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R12",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R13",
+    "R130",
+    "R131",
+    "R133",
+    "R135",
+    "R137",
+    "R14",
+    "R15",
+    "R16",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R26",
+    "R27",
+    "R3",
+    "R38",
+    "R39",
+    "R4",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R5",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R6",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R7",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R8",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R9",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP9",
+    "U1",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U3",
+    "U30",
+    "U31",
+    "U32",
+    "U33",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ],
+   "zone": [
+    131.96,
+    102.7,
+    236.46,
+    207.2
+   ],
+   "tolerance_mm": 0.0,
+   "note": "BOX1 (Hammond 1590Q): parts the human board has inside the inner square stay inside it"
+  },
+  {
+   "name": "box_wallband",
+   "refs": [
+    "C129",
+    "C130",
+    "C131",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C96",
+    "C97",
+    "R132",
+    "R134",
+    "R136",
+    "R150",
+    "R152",
+    "R153",
+    "R34",
+    "R35",
+    "U2",
+    "U34",
+    "U38",
+    "U4"
+   ],
+   "zone": [
+    126.96,
+    97.7,
+    241.46,
+    212.2
+   ],
+   "tolerance_mm": 0.0,
+   "note": "loosened to the human board: these parts stand in the wall band (between the 126.96 and 131.96 squares) on the human board, so they may stay inside the middle square"
+  },
+  {
+   "name": "box_cans",
+   "refs": [
+    "J10",
+    "J11",
+    "J12",
+    "J7",
+    "J8",
+    "J9"
+   ],
+   "zone": [
+    122.21,
+    92.95,
+    246.21,
+    216.95
+   ],
+   "tolerance_mm": 0.0,
+   "note": "the six shield cans: three 34.3 mm cans plus gaps (109 mm) do not fit the 104.5 mm inner square, and the human board has them in the wall band (J11 and J7 to 129.24 mm), so they are zoned to the outer square"
+  },
+  {
+   "name": "box_outerband",
+   "refs": [
+    "R139",
+    "R141",
+    "R143",
+    "R146",
+    "R149",
+    "R151",
+    "R24",
+    "R25",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R36",
+    "R37"
+   ],
+   "zone": [
+    122.21,
+    92.95,
+    246.21,
+    216.95
+   ],
+   "tolerance_mm": 0.0,
+   "note": "loosened to the human board: these parts stand between the outer and middle squares on the human board"
+  }
+ ],
+ "board": "TimIQ_RF.kicad_pcb",
+ "context": {
+  "basis": {
+   "assembly.sides": "observed_baseline",
+   "defaults.zone_tolerance_mm": "derived_default",
+   "envelope.tolerance_mm": "derived_default"
+  },
+  "budget_withheld": {
+   "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+   "overlap_area": "the board is a pile: its overlap is staging, not a baseline (#1103)"
+  },
+  "cutouts": [],
+  "decap_census": {
+   "beyond_radius": 71,
+   "beyond_radius_refs": [
+    "C1",
+    "C104",
+    "C106",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C140",
+    "C146",
+    "C147",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C176",
+    "C177",
+    "C180",
+    "C181",
+    "C184",
+    "C187",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C29",
+    "C35",
+    "C74",
+    "C75",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95"
+   ],
+   "ics": 10,
+   "max_mm": 4.975545996812829,
+   "max_mm_display": 4.9755,
+   "median_mm": 3.8183,
+   "metric": "cap footprint centroid to IC bounding box, clamped to 0 inside (placement.groups.decap_tethers)",
+   "no_rail_chip": 0,
+   "no_rail_chip_refs": [],
+   "population": 122,
+   "search_radius_mm": 5.0,
+   "source": "auto-tethers",
+   "tethers": 51,
+   "unaccounted": 0,
+   "worst_beyond_mm": 13.0095
+  },
+  "declared_pose_overlaps": {
+   "accepted": [],
+   "hard": []
+  },
+  "edge_contours": 0,
+  "file_locked": [],
+  "keepouts_note": "v4: hole and BOX1 keep-outs declared by hand (design brief), see keepouts[]",
+  "mechanical": {
+   "anchored": [
+    "BOX1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+   ],
+   "fixed_poses": [
+    "BOX1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+   ],
+   "fixed_skipped": {},
+   "path": "/tmp/pcb-trials/timiq/run/mechanical.json",
+   "sha256": "061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d",
+   "skipped": {}
+  },
+  "note": "read-only, describing the board as it is. The outline is not editable by this toolchain: size, cutouts and slots are mechanical decisions the user owns",
+  "pose_claims_withheld": {
+   "kept": "KiCad-locked parts; a brief / mechanical.json merged after this",
+   "reason": "the board is a pile (footprints span 10.0% of the board diagonal; 100% of footprints lie outside the board outline): staging poses are not claims",
+   "refs_off_board": [
+    "BOX1",
+    "C1",
+    "C10",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C11",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C12",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C13",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C14",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C15",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C16",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C17",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C178",
+    "C179",
+    "C18",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C19",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C2",
+    "C20",
+    "C200",
+    "C201",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C3",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C4",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C5",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C6",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C7",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C8",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C9",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "C98",
+    "C99",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J10",
+    "J11",
+    "J12",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "L1",
+    "L10",
+    "L11",
+    "L12",
+    "L13",
+    "L14",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "Q1",
+    "R1",
+    "R10",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R11",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R12",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R13",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R14",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R15",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R154",
+    "R155",
+    "R156",
+    "R157",
+    "R158",
+    "R159",
+    "R16",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R3",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R4",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R5",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R6",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R7",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R8",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R9",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "U1",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U2",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U3",
+    "U30",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U39",
+    "U4",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ],
+   "withheld": [
+    "edge_connectors[].edge read off a pose",
+    "blocks[].zone",
+    "legality_budget.oob_count"
+   ]
+  },
+  "reconciliation": [
+   {
+    "field": "pose",
+    "id": "BOX1:pose",
+    "kind": "drift",
+    "ref": "BOX1",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       176.462,
+       343.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       124.2124,
+       214.9478,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D2:pose",
+    "kind": "drift",
+    "ref": "D2",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       180.1544,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       73.4378,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D3:pose",
+    "kind": "drift",
+    "ref": "D3",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       180.8928,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       118.2206,
+       73.4327,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D4:pose",
+    "kind": "drift",
+    "ref": "D4",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       181.6313,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       124.2201,
+       73.4327,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D5:pose",
+    "kind": "drift",
+    "ref": "D5",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       182.3698,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       130.2196,
+       73.4327,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D6:pose",
+    "kind": "drift",
+    "ref": "D6",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       183.1083,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       82.4395,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D7:pose",
+    "kind": "drift",
+    "ref": "D7",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       183.8468,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       118.2155,
+       82.4395,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D8:pose",
+    "kind": "drift",
+    "ref": "D8",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       184.5852,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       124.2201,
+       82.4395,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX1:pose",
+    "kind": "drift",
+    "ref": "FIX1",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       185.3237,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       256.216,
+       220.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX2:pose",
+    "kind": "drift",
+    "ref": "FIX2",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       186.0622,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       184.216,
+       220.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX3:pose",
+    "kind": "drift",
+    "ref": "FIX3",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       186.8007,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       220.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX4:pose",
+    "kind": "drift",
+    "ref": "FIX4",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       187.5392,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       148.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX5:pose",
+    "kind": "drift",
+    "ref": "FIX5",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       188.2776,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       66.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX6:pose",
+    "kind": "drift",
+    "ref": "FIX6",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       189.0161,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       184.216,
+       66.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX7:pose",
+    "kind": "drift",
+    "ref": "FIX7",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       189.7546,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       256.216,
+       66.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX8:pose",
+    "kind": "drift",
+    "ref": "FIX8",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       190.4931,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       256.216,
+       148.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J1:pose",
+    "kind": "drift",
+    "ref": "J1",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       191.2316,
+       350.0863,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       146.2857,
+       223.247,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J2:pose",
+    "kind": "drift",
+    "ref": "J2",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       177.9389,
+       350.8248,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       157.8147,
+       223.2495,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J3:pose",
+    "kind": "drift",
+    "ref": "J3",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       178.6774,
+       350.8248,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       210.045,
+       223.26,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J4:pose",
+    "kind": "drift",
+    "ref": "J4",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       179.4159,
+       350.8248,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       222.065,
+       223.24,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J5:pose",
+    "kind": "drift",
+    "ref": "J5",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       180.1544,
+       350.8248,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       221.9318,
+       136.3324,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J6:pose",
+    "kind": "drift",
+    "ref": "J6",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "run/TimIQ_RF.kicad_pcb",
+      "value": [
+       180.8928,
+       350.8248,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       206.4348,
+       73.4428,
+       180.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   }
+  ],
+  "variant4": "every known constraint: holes, BOX1, shields with back_members, decaps, pin-adjacent proximity (netlist script), fixed poses"
+ },
+ "decaps": {
+  "max_pin_distance_mm": 8.1577
+ },
+ "defaults": {
+  "zone_tolerance_mm": 0.5
+ },
+ "edge_connectors": [],
+ "envelope": {
+  "rect": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "tolerance_mm": 0.5
+ },
+ "fixed_poses": [
+  {
+   "basis": "mechanical",
+   "ref": "BOX1",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 124.2124,
+   "y": 214.9478
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D2",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 112.216,
+   "y": 73.4378
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D3",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 118.2206,
+   "y": 73.4327
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D4",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 124.2201,
+   "y": 73.4327
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D5",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 130.2196,
+   "y": 73.4327
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D6",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 112.216,
+   "y": 82.4395
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D7",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 118.2155,
+   "y": 82.4395
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D8",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 124.2201,
+   "y": 82.4395
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX1",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 256.216,
+   "y": 220.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX2",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 184.216,
+   "y": 220.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX3",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 112.216,
+   "y": 220.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX4",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 112.216,
+   "y": 148.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX5",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 112.216,
+   "y": 66.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX6",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 184.216,
+   "y": 66.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX7",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 256.216,
+   "y": 66.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX8",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 256.216,
+   "y": 148.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J1",
+   "rot": 90.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 146.2857,
+   "y": 223.247
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J2",
+   "rot": 90.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 157.8147,
+   "y": 223.2495
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J3",
+   "rot": 90.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 210.045,
+   "y": 223.26
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J4",
+   "rot": 90.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 222.065,
+   "y": 223.24
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J5",
+   "rot": 90.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 221.9318,
+   "y": 136.3324
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J6",
+   "rot": 180.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 206.4348,
+   "y": 73.4428
+  }
+ ],
+ "keepouts": [
+  {
+   "name": "hole-J5-1",
+   "circle": [
+    224.8018,
+    149.7424,
+    5.675
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "J5",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "J5 mounting hole, drill 4.35 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-J5-2",
+   "circle": [
+    224.8018,
+    88.4224,
+    2.766
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "J5",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "J5 mounting hole, drill 4.35 mm: no part within 0.591 mm of the hole edge (the human board has a part at 0.596 mm: C193)"
+   }
+  },
+  {
+   "name": "hole-BOX1-1",
+   "circle": [
+    128.9624,
+    210.1978,
+    5.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "BOX1 mounting hole, drill 4 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-BOX1-3",
+   "circle": [
+    239.4624,
+    210.1978,
+    5.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "BOX1 mounting hole, drill 4 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-BOX1-5",
+   "circle": [
+    239.4624,
+    99.6978,
+    5.052
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "BOX1 mounting hole, drill 4 mm: no part within 3.052 mm of the hole edge (the human board has a part at 3.058 mm: U38)"
+   }
+  },
+  {
+   "name": "hole-BOX1-7",
+   "circle": [
+    128.9624,
+    99.6978,
+    5.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "BOX1 mounting hole, drill 4 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-FIX1-1",
+   "circle": [
+    256.216,
+    220.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX1",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX1 mounting hole, drill 3.1 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-FIX2-1",
+   "circle": [
+    184.216,
+    220.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX2",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX2 mounting hole, drill 3.1 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-FIX3-1",
+   "circle": [
+    112.216,
+    220.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX3",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX3 mounting hole, drill 3.1 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-FIX4-1",
+   "circle": [
+    112.216,
+    148.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX4",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX4 mounting hole, drill 3.1 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-FIX5-1",
+   "circle": [
+    112.216,
+    66.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX5",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX5 mounting hole, drill 3.1 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "hole-FIX6-1",
+   "circle": [
+    184.216,
+    66.44,
+    4.963
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX6",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX6 mounting hole, drill 3.1 mm: no part within 3.413 mm of the hole edge (the human board has a part at 3.418 mm: C145)"
+   }
+  },
+  {
+   "name": "hole-FIX7-1",
+   "circle": [
+    256.216,
+    66.44,
+    3.603
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX7",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX7 mounting hole, drill 3.1 mm: no part within 2.053 mm of the hole edge (the human board has a part at 2.058 mm: C139)"
+   }
+  },
+  {
+   "name": "hole-FIX8-1",
+   "circle": [
+    256.216,
+    148.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "FIX8",
+    "BOX1"
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "FIX8 mounting hole, drill 3.1 mm: no part within 3.5 mm of the hole edge"
+   }
+  },
+  {
+   "name": "box-wall-top",
+   "rect": [
+    122.21,
+    92.95,
+    246.21,
+    102.7
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C129",
+    "C130",
+    "C131",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C96",
+    "C97",
+    "J10",
+    "J11",
+    "J12",
+    "J7",
+    "J8",
+    "J9",
+    "R132",
+    "R134",
+    "R136",
+    "R139",
+    "R141",
+    "R143",
+    "R146",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R24",
+    "R25",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "U2",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U4",
+    "BOX1",
+    "J5"
+   ],
+   "context": {
+    "kind": "enclosure",
+    "source": "brief",
+    "why": "BOX1 wall band and outer ring (assumed from the F.SilkS squares: 122.21/126.96/131.96 .. 236.46/241.46/246.21 x, 92.95/97.7/102.7 .. 207.2/212.2/216.95 y): no part, except those the human board has there"
+   }
+  },
+  {
+   "name": "box-wall-bottom",
+   "rect": [
+    122.21,
+    207.2,
+    246.21,
+    216.95
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C129",
+    "C130",
+    "C131",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C96",
+    "C97",
+    "J10",
+    "J11",
+    "J12",
+    "J7",
+    "J8",
+    "J9",
+    "R132",
+    "R134",
+    "R136",
+    "R139",
+    "R141",
+    "R143",
+    "R146",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R24",
+    "R25",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "U2",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U4",
+    "BOX1",
+    "J5"
+   ],
+   "context": {
+    "kind": "enclosure",
+    "source": "brief",
+    "why": "BOX1 wall band and outer ring (assumed from the F.SilkS squares: 122.21/126.96/131.96 .. 236.46/241.46/246.21 x, 92.95/97.7/102.7 .. 207.2/212.2/216.95 y): no part, except those the human board has there"
+   }
+  },
+  {
+   "name": "box-wall-left",
+   "rect": [
+    122.21,
+    102.7,
+    131.96,
+    207.2
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C129",
+    "C130",
+    "C131",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C96",
+    "C97",
+    "J10",
+    "J11",
+    "J12",
+    "J7",
+    "J8",
+    "J9",
+    "R132",
+    "R134",
+    "R136",
+    "R139",
+    "R141",
+    "R143",
+    "R146",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R24",
+    "R25",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "U2",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U4",
+    "BOX1",
+    "J5"
+   ],
+   "context": {
+    "kind": "enclosure",
+    "source": "brief",
+    "why": "BOX1 wall band and outer ring (assumed from the F.SilkS squares: 122.21/126.96/131.96 .. 236.46/241.46/246.21 x, 92.95/97.7/102.7 .. 207.2/212.2/216.95 y): no part, except those the human board has there"
+   }
+  },
+  {
+   "name": "box-wall-right",
+   "rect": [
+    236.46,
+    102.7,
+    246.21,
+    207.2
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C129",
+    "C130",
+    "C131",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C96",
+    "C97",
+    "J10",
+    "J11",
+    "J12",
+    "J7",
+    "J8",
+    "J9",
+    "R132",
+    "R134",
+    "R136",
+    "R139",
+    "R141",
+    "R143",
+    "R146",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R24",
+    "R25",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "U2",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U4",
+    "BOX1",
+    "J5"
+   ],
+   "context": {
+    "kind": "enclosure",
+    "source": "brief",
+    "why": "BOX1 wall band and outer ring (assumed from the F.SilkS squares: 122.21/126.96/131.96 .. 236.46/241.46/246.21 x, 92.95/97.7/102.7 .. 207.2/212.2/216.95 y): no part, except those the human board has there"
+   }
+  },
+  {
+   "name": "box-interior",
+   "rect": [
+    131.96,
+    102.7,
+    236.46,
+    207.2
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C1",
+    "C10",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C11",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C12",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C13",
+    "C130",
+    "C131",
+    "C132",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C3",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C4",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C5",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C6",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C7",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C8",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C9",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "C98",
+    "C99",
+    "J10",
+    "J11",
+    "J12",
+    "J7",
+    "J8",
+    "J9",
+    "L1",
+    "L10",
+    "L11",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "R10",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R11",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R12",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R13",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R139",
+    "R14",
+    "R141",
+    "R143",
+    "R146",
+    "R149",
+    "R15",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R16",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R3",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R4",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R5",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R6",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R7",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R8",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R9",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP9",
+    "U1",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U2",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U3",
+    "U30",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U38",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "BOX1",
+    "J5"
+   ],
+   "context": {
+    "kind": "enclosure",
+    "source": "brief",
+    "why": "BOX1 interior (the inner square): only the RF-section parts the human board has inside the box, so the power supply, LEDs and connectors stay outside"
+   }
+  }
+ ],
+ "kind": "floorplan-intent",
+ "legality_budget": {},
+ "min_reader": 16,
+ "must_lock": [],
+ "schema": 1,
+ "units": "mm",
+ "templates": [
+  {
+   "anchor": "U21",
+   "members": [
+    {
+     "ref": "L8",
+     "at": [
+      -0.4595,
+      1.5642
+     ],
+     "rot": 0.0,
+     "pads": {
+      "L8": [
+       "1",
+       "2"
+      ],
+      "U21": [
+       "1",
+       "2"
+      ]
+     },
+     "note": "L1 10nH bias/match inductor across pins 1-2"
+    },
+    {
+     "ref": "C98",
+     "at": [
+      2.8642,
+      -1.7395
+     ],
+     "rot": 270.0,
+     "pads": {
+      "C98": [
+       "2"
+      ],
+      "U21": [
+       "2"
+      ]
+     },
+     "note": "C1 input DC block at RF-IN pin 2"
+    },
+    {
+     "ref": "L10",
+     "at": [
+      -0.4595,
+      -3.4658
+     ],
+     "rot": 0.0,
+     "pads": {
+      "L10": [
+       "2"
+      ],
+      "U21": [
+       "7"
+      ]
+     },
+     "note": "L2 8.2nH output bias choke at pin 7"
+    },
+    {
+     "ref": "C108",
+     "at": [
+      2.8542,
+      -3.472
+     ],
+     "rot": 90.0,
+     "pads": {
+      "C108": [
+       "1"
+      ],
+      "U21": [
+       "7"
+      ]
+     },
+     "note": "C2 output DC block at RF-OUT pin 7"
+    },
+    {
+     "ref": "R103",
+     "at": [
+      -2.1558,
+      -1.7395
+     ],
+     "rot": 270.0,
+     "pads": {
+      "R103": [
+       "2"
+      ],
+      "U21": [
+       "1"
+      ]
+     },
+     "note": "R1 49.9R at the BIAS node pin 1"
+    }
+   ],
+   "tolerance_mm": 0.3,
+   "fitted": {
+    "legs_gap_mm": {
+     "L8": 1.328,
+     "C98": 1.739,
+     "L10": 0.665,
+     "C108": 1.855,
+     "R103": 1.53
+    },
+    "legs_mm": {
+     "L8": [
+      0.664,
+      0.664
+     ],
+     "C98": [
+      1.739
+     ],
+     "L10": [
+      0.665
+     ],
+     "C108": [
+      1.855
+     ],
+     "R103": [
+      1.53
+     ]
+    },
+    "off_chip_mm": {
+     "L8": 0.202,
+     "C98": 0.202,
+     "L10": 0.204,
+     "C108": 0.285,
+     "R103": 0.203
+    },
+    "gap_mm": 0.2,
+    "decap_limits": []
+   },
+   "kind": "rf front end",
+   "source": "Mini-Circuits PMA2-43LN+ datasheet (REV, 5 pp.), p.4 Fig 1 Application and Characterization Circuit: L1 10nH between BIAS pin 1 and RF-IN pin 2, C1 DC block at RF-IN, R1 49.9R at the bias node, L2 8.2nH choke and C2 DC block at RF-OUT&DC-IN pin 7; no parts-layout figure (PL-400 is the land pattern), so no sides"
+  },
+  {
+   "anchor": "U22",
+   "members": [
+    {
+     "ref": "L9",
+     "at": [
+      -0.4595,
+      1.5642
+     ],
+     "rot": 0.0,
+     "pads": {
+      "L9": [
+       "1",
+       "2"
+      ],
+      "U22": [
+       "1",
+       "2"
+      ]
+     },
+     "note": "L1 10nH bias/match inductor across pins 1-2"
+    },
+    {
+     "ref": "C99",
+     "at": [
+      2.8642,
+      -1.7395
+     ],
+     "rot": 270.0,
+     "pads": {
+      "C99": [
+       "2"
+      ],
+      "U22": [
+       "2"
+      ]
+     },
+     "note": "C1 input DC block at RF-IN pin 2"
+    },
+    {
+     "ref": "L11",
+     "at": [
+      -0.4595,
+      -3.4658
+     ],
+     "rot": 0.0,
+     "pads": {
+      "L11": [
+       "2"
+      ],
+      "U22": [
+       "7"
+      ]
+     },
+     "note": "L2 8.2nH output bias choke at pin 7"
+    },
+    {
+     "ref": "C109",
+     "at": [
+      2.8542,
+      -3.472
+     ],
+     "rot": 90.0,
+     "pads": {
+      "C109": [
+       "1"
+      ],
+      "U22": [
+       "7"
+      ]
+     },
+     "note": "C2 output DC block at RF-OUT pin 7"
+    },
+    {
+     "ref": "R105",
+     "at": [
+      -3.7695,
+      -0.8958
+     ],
+     "rot": 0.0,
+     "pads": {
+      "R105": [
+       "2"
+      ],
+      "U22": [
+       "1"
+      ]
+     },
+     "note": "R1 49.9R at the BIAS node pin 1"
+    }
+   ],
+   "tolerance_mm": 0.3,
+   "fitted": {
+    "legs_gap_mm": {
+     "L9": 1.328,
+     "C99": 1.739,
+     "L11": 0.665,
+     "C109": 1.855,
+     "R105": 1.559
+    },
+    "legs_mm": {
+     "L9": [
+      0.664,
+      0.664
+     ],
+     "C99": [
+      1.739
+     ],
+     "L11": [
+      0.665
+     ],
+     "C109": [
+      1.855
+     ],
+     "R105": [
+      1.559
+     ]
+    },
+    "off_chip_mm": {
+     "L9": 0.202,
+     "C99": 0.202,
+     "L11": 0.204,
+     "C109": 0.285,
+     "R105": 0.204
+    },
+    "gap_mm": 0.2,
+    "decap_limits": []
+   },
+   "kind": "rf front end",
+   "source": "Mini-Circuits PMA2-43LN+ datasheet (REV, 5 pp.), p.4 Fig 1 Application and Characterization Circuit: L1 10nH between BIAS pin 1 and RF-IN pin 2, C1 DC block at RF-IN, R1 49.9R at the bias node, L2 8.2nH choke and C2 DC block at RF-OUT&DC-IN pin 7; no parts-layout figure (PL-400 is the land pattern), so no sides"
+  }
+ ],
+ "shields": [
+  {
+   "can": "J7",
+   "underside_mm": 2.0,
+   "wall_clearance_mm": 0.2,
+   "members": [
+    "C10",
+    "C12",
+    "C14",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C6",
+    "C8",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R8",
+    "U1",
+    "U2"
+   ],
+   "back_members": [
+    "C1",
+    "C11",
+    "C13",
+    "C15",
+    "C2",
+    "C21",
+    "C4",
+    "C5",
+    "C7",
+    "C9",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R9"
+   ],
+   "source": "experiment: members = the F-face parts inside the human board's can, back_members = the B-face parts under its footprint (human map, run2_work/membership.json); lid height assumed"
+  },
+  {
+   "can": "J8",
+   "underside_mm": 2.0,
+   "wall_clearance_mm": 0.2,
+   "members": [
+    "C100",
+    "C104",
+    "C108",
+    "C109",
+    "C63",
+    "C64",
+    "C70",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U3"
+   ],
+   "back_members": [
+    "C101",
+    "C102",
+    "C103",
+    "C105",
+    "C106",
+    "C107",
+    "C66",
+    "C68",
+    "C69"
+   ],
+   "source": "experiment: members = the F-face parts inside the human board's can, back_members = the B-face parts under its footprint (human map, run2_work/membership.json); lid height assumed"
+  },
+  {
+   "can": "J9",
+   "underside_mm": 2.0,
+   "wall_clearance_mm": 0.2,
+   "members": [
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C57",
+    "C58",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ],
+   "back_members": [
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C59",
+    "C60",
+    "C61",
+    "C62"
+   ],
+   "source": "experiment: members = the F-face parts inside the human board's can, back_members = the B-face parts under its footprint (human map, run2_work/membership.json); lid height assumed"
+  },
+  {
+   "can": "J10",
+   "underside_mm": 2.0,
+   "wall_clearance_mm": 0.2,
+   "members": [
+    "C72",
+    "C73",
+    "C74",
+    "C80",
+    "C81",
+    "C82",
+    "C84",
+    "C86",
+    "C88",
+    "C89",
+    "R74",
+    "R77",
+    "R82",
+    "R85",
+    "R92",
+    "R95",
+    "U18",
+    "U19",
+    "U20"
+   ],
+   "back_members": [
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C83",
+    "C85",
+    "C87",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "R80",
+    "R81",
+    "R83",
+    "R84",
+    "R86",
+    "R87",
+    "R90",
+    "R91",
+    "R93",
+    "R94",
+    "R96",
+    "R97",
+    "R98",
+    "R99"
+   ],
+   "source": "experiment: members = the F-face parts inside the human board's can, back_members = the B-face parts under its footprint (human map, run2_work/membership.json); lid height assumed"
+  },
+  {
+   "can": "J11",
+   "underside_mm": 2.0,
+   "wall_clearance_mm": 0.2,
+   "members": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C116",
+    "C117",
+    "C119",
+    "R109",
+    "R110",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "U28",
+    "U29",
+    "U30"
+   ],
+   "back_members": [
+    "C115",
+    "C118",
+    "C120",
+    "C121",
+    "C122",
+    "R111",
+    "R112",
+    "R126",
+    "R127"
+   ],
+   "source": "experiment: members = the F-face parts inside the human board's can, back_members = the B-face parts under its footprint (human map, run2_work/membership.json); lid height assumed"
+  },
+  {
+   "can": "J12",
+   "underside_mm": 2.0,
+   "wall_clearance_mm": 0.2,
+   "members": [
+    "C27",
+    "C28",
+    "C33",
+    "C34",
+    "C37",
+    "C38",
+    "C42",
+    "C43",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ],
+   "back_members": [
+    "C26",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C35",
+    "C36",
+    "C39",
+    "C40",
+    "C41",
+    "C44",
+    "R26",
+    "R27",
+    "R34",
+    "R35"
+   ],
+   "source": "experiment: members = the F-face parts inside the human board's can, back_members = the B-face parts under its footprint (human map, run2_work/membership.json); lid height assumed"
+  }
+ ],
+ "proximity": [
+  {
+   "ref": "C101",
+   "near": "U21",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C101": [
+     "1"
+    ],
+    "U21": [
+     "1"
+    ]
+   },
+   "why": "C101 sits on Net-(C101-Pad1), which touches exactly one IC pin (U21.1): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C103",
+   "near": "U22",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C103": [
+     "1"
+    ],
+    "U22": [
+     "1"
+    ]
+   },
+   "why": "C103 sits on Net-(C103-Pad1), which touches exactly one IC pin (U22.1): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C11",
+   "near": "U1",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C11": [
+     "1"
+    ],
+    "U1": [
+     "18"
+    ]
+   },
+   "why": "C11 sits on Net-(C11-Pad1), which touches exactly one IC pin (U1.18): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C112",
+   "near": "U28",
+   "max_mm": 5.1,
+   "basis": "pad_edge",
+   "pads": {
+    "C112": [
+     "1"
+    ],
+    "U28": [
+     "3"
+    ]
+   },
+   "why": "C112 sits on Net-(C112-Pad1), which touches exactly one IC pin (U28.3): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C113",
+   "near": "U28",
+   "max_mm": 5.1,
+   "basis": "pad_edge",
+   "pads": {
+    "C113": [
+     "1"
+    ],
+    "U28": [
+     "5"
+    ]
+   },
+   "why": "C113 sits on Net-(C113-Pad1), which touches exactly one IC pin (U28.5): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C12",
+   "near": "U1",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C12": [
+     "1"
+    ],
+    "U1": [
+     "9"
+    ]
+   },
+   "why": "C12 sits on Net-(C12-Pad1), which touches exactly one IC pin (U1.9): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C120",
+   "near": "U29",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C120": [
+     "1"
+    ],
+    "U29": [
+     "7"
+    ]
+   },
+   "why": "C120 sits on Net-(C120-Pad1), which touches exactly one IC pin (U29.7): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C121",
+   "near": "U29",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C121": [
+     "1"
+    ],
+    "U29": [
+     "7"
+    ]
+   },
+   "why": "C121 sits on Net-(C120-Pad1), which touches exactly one IC pin (U29.7): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C13",
+   "near": "U1",
+   "max_mm": 5.3,
+   "basis": "pad_edge",
+   "pads": {
+    "C13": [
+     "1"
+    ],
+    "U1": [
+     "13"
+    ]
+   },
+   "why": "C13 sits on Net-(C13-Pad1), which touches exactly one IC pin (U1.13): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C141",
+   "near": "U39",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C141": [
+     "1"
+    ],
+    "U39": [
+     "14"
+    ]
+   },
+   "why": "C141 sits on Net-(C141-Pad1), which touches exactly one IC pin (U39.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C142",
+   "near": "U40",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C142": [
+     "1"
+    ],
+    "U40": [
+     "14"
+    ]
+   },
+   "why": "C142 sits on Net-(C142-Pad1), which touches exactly one IC pin (U40.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C15",
+   "near": "U1",
+   "max_mm": 4.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C15": [
+     "1"
+    ],
+    "U1": [
+     "19"
+    ]
+   },
+   "why": "C15 sits on Net-(C15-Pad1), which touches exactly one IC pin (U1.19): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C16",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C16": [
+     "1"
+    ],
+    "U1": [
+     "36"
+    ]
+   },
+   "why": "C16 sits on /TOP/PLL/PLL_OUT, which touches exactly one IC pin (U1.36): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C170",
+   "near": "U41",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C170": [
+     "1"
+    ],
+    "U41": [
+     "14"
+    ]
+   },
+   "why": "C170 sits on Net-(C170-Pad1), which touches exactly one IC pin (U41.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C171",
+   "near": "U42",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C171": [
+     "1"
+    ],
+    "U42": [
+     "14"
+    ]
+   },
+   "why": "C171 sits on Net-(C171-Pad1), which touches exactly one IC pin (U42.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C172",
+   "near": "U43",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C172": [
+     "1"
+    ],
+    "U43": [
+     "14"
+    ]
+   },
+   "why": "C172 sits on Net-(C172-Pad1), which touches exactly one IC pin (U43.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C173",
+   "near": "U44",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C173": [
+     "1"
+    ],
+    "U44": [
+     "14"
+    ]
+   },
+   "why": "C173 sits on Net-(C173-Pad1), which touches exactly one IC pin (U44.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C174",
+   "near": "U45",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C174": [
+     "1"
+    ],
+    "U45": [
+     "14"
+    ]
+   },
+   "why": "C174 sits on Net-(C174-Pad1), which touches exactly one IC pin (U45.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C178",
+   "near": "U44",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C178": [
+     "2"
+    ],
+    "U44": [
+     "3"
+    ]
+   },
+   "why": "C178 sits on Net-(C178-Pad2), which touches exactly one IC pin (U44.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C179",
+   "near": "U45",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C179": [
+     "2"
+    ],
+    "U45": [
+     "3"
+    ]
+   },
+   "why": "C179 sits on Net-(C179-Pad2), which touches exactly one IC pin (U45.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C18",
+   "near": "U1",
+   "max_mm": 6.7,
+   "basis": "pad_edge",
+   "pads": {
+    "C18": [
+     "1"
+    ],
+    "U1": [
+     "15"
+    ]
+   },
+   "why": "C18 sits on Net-(C18-Pad1), which touches exactly one IC pin (U1.15): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C19",
+   "near": "U1",
+   "max_mm": 8.2,
+   "basis": "pad_edge",
+   "pads": {
+    "C19": [
+     "1"
+    ],
+    "U1": [
+     "16"
+    ]
+   },
+   "why": "C19 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C2",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C2": [
+     "1"
+    ],
+    "U1": [
+     "28"
+    ]
+   },
+   "why": "C2 sits on Net-(C2-Pad1), which touches exactly one IC pin (U1.28): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C22",
+   "near": "U1",
+   "max_mm": 6.3,
+   "basis": "pad_edge",
+   "pads": {
+    "C22": [
+     "1"
+    ],
+    "U1": [
+     "16"
+    ]
+   },
+   "why": "C22 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C23",
+   "near": "U2",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C23": [
+     "1"
+    ],
+    "U2": [
+     "3"
+    ]
+   },
+   "why": "C23 sits on Net-(C23-Pad1), which touches exactly one IC pin (U2.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C24",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C24": [
+     "1"
+    ],
+    "U1": [
+     "12"
+    ]
+   },
+   "why": "C24 sits on Net-(C24-Pad1), which touches exactly one IC pin (U1.12): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C25",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C25": [
+     "1"
+    ],
+    "U1": [
+     "16"
+    ]
+   },
+   "why": "C25 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C3",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C3": [
+     "1"
+    ],
+    "U1": [
+     "21"
+    ]
+   },
+   "why": "C3 sits on /TOP/PLL/PLL_IN, which touches exactly one IC pin (U1.21): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C37",
+   "near": "U7",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C37": [
+     "1"
+    ],
+    "U7": [
+     "4"
+    ]
+   },
+   "why": "C37 sits on Net-(C37-Pad1), which touches exactly one IC pin (U7.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C38",
+   "near": "U8",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C38": [
+     "1"
+    ],
+    "U8": [
+     "4"
+    ]
+   },
+   "why": "C38 sits on Net-(C38-Pad1), which touches exactly one IC pin (U8.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C42",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C42": [
+     "1"
+    ],
+    "U9": [
+     "2"
+    ]
+   },
+   "why": "C42 sits on Net-(C42-Pad1), which touches exactly one IC pin (U9.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C43",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C43": [
+     "1"
+    ],
+    "U9": [
+     "6"
+    ]
+   },
+   "why": "C43 sits on Net-(C43-Pad1), which touches exactly one IC pin (U9.6): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C47",
+   "near": "U10",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C47": [
+     "1"
+    ],
+    "U10": [
+     "2"
+    ]
+   },
+   "why": "C47 sits on Net-(C47-Pad1), which touches exactly one IC pin (U10.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C48",
+   "near": "U11",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C48": [
+     "1"
+    ],
+    "U11": [
+     "2"
+    ]
+   },
+   "why": "C48 sits on Net-(C48-Pad1), which touches exactly one IC pin (U11.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C55",
+   "near": "U14",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C55": [
+     "1"
+    ],
+    "U14": [
+     "2"
+    ]
+   },
+   "why": "C55 sits on Net-(C55-Pad1), which touches exactly one IC pin (U14.2): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C56",
+   "near": "U15",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C56": [
+     "1"
+    ],
+    "U15": [
+     "2"
+    ]
+   },
+   "why": "C56 sits on Net-(C56-Pad1), which touches exactly one IC pin (U15.2): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C57",
+   "near": "U14",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C57": [
+     "1"
+    ],
+    "U14": [
+     "7"
+    ]
+   },
+   "why": "C57 sits on Net-(C57-Pad1), which touches exactly one IC pin (U14.7): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C58",
+   "near": "U15",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C58": [
+     "1"
+    ],
+    "U15": [
+     "7"
+    ]
+   },
+   "why": "C58 sits on Net-(C58-Pad1), which touches exactly one IC pin (U15.7): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "C64",
+   "near": "U16",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C64": [
+     "2"
+    ],
+    "U16": [
+     "4"
+    ]
+   },
+   "why": "C64 sits on Net-(C64-Pad2), which touches exactly one IC pin (U16.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C7",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C7": [
+     "2"
+    ],
+    "U1": [
+     "30"
+    ]
+   },
+   "why": "C7 sits on Net-(C7-Pad2), which touches exactly one IC pin (U1.30): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C73",
+   "near": "U18",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C73": [
+     "2"
+    ],
+    "U18": [
+     "11"
+    ]
+   },
+   "why": "C73 sits on Net-(C73-Pad2), which touches exactly one IC pin (U18.11): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "C9",
+   "near": "U1",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C9": [
+     "1"
+    ],
+    "U1": [
+     "14"
+    ]
+   },
+   "why": "C9 sits on Net-(C9-Pad1), which touches exactly one IC pin (U1.14): decap/filter cap belongs at the pin"
+  },
+  {
+   "ref": "L1",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L1": [
+     "2"
+    ],
+    "U1": [
+     "28"
+    ]
+   },
+   "why": "L1 sits on Net-(C2-Pad1), which touches exactly one IC pin (U1.28): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "L2",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L2": [
+     "2"
+    ],
+    "U1": [
+     "23"
+    ]
+   },
+   "why": "L2 sits on Net-(L2-Pad2), which touches exactly one IC pin (U1.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "L3",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L3": [
+     "2"
+    ],
+    "U1": [
+     "25"
+    ]
+   },
+   "why": "L3 sits on Net-(L3-Pad2), which touches exactly one IC pin (U1.25): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "L4",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L4": [
+     "2"
+    ],
+    "U1": [
+     "14"
+    ]
+   },
+   "why": "L4 sits on Net-(C9-Pad1), which touches exactly one IC pin (U1.14): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "L5",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L5": [
+     "2"
+    ],
+    "U1": [
+     "18"
+    ]
+   },
+   "why": "L5 sits on Net-(C11-Pad1), which touches exactly one IC pin (U1.18): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "L6",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L6": [
+     "2"
+    ],
+    "U1": [
+     "13"
+    ]
+   },
+   "why": "L6 sits on Net-(C13-Pad1), which touches exactly one IC pin (U1.13): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "L7",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "L7": [
+     "2"
+    ],
+    "U1": [
+     "19"
+    ]
+   },
+   "why": "L7 sits on Net-(C15-Pad1), which touches exactly one IC pin (U1.19): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R10",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R10": [
+     "1"
+    ],
+    "U1": [
+     "22"
+    ]
+   },
+   "why": "R10 sits on Net-(R10-Pad1), which touches exactly one IC pin (U1.22): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R100",
+   "near": "U3",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R100": [
+     "1"
+    ],
+    "U3": [
+     "7"
+    ]
+   },
+   "why": "R100 sits on /TOP/Frequency mixers/PLLout0, which touches exactly one IC pin (U3.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R101",
+   "near": "U17",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R101": [
+     "1"
+    ],
+    "U17": [
+     "7"
+    ]
+   },
+   "why": "R101 sits on /TOP/Frequency mixers/IQout0, which touches exactly one IC pin (U17.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R108",
+   "near": "U24",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R108": [
+     "1"
+    ],
+    "U24": [
+     "3"
+    ]
+   },
+   "why": "R108 sits on Net-(R108-Pad1), which touches exactly one IC pin (U24.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R11",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R11": [
+     "1"
+    ],
+    "U1": [
+     "2"
+    ]
+   },
+   "why": "R11 sits on Net-(R11-Pad1), which touches exactly one IC pin (U1.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R117",
+   "near": "U28",
+   "max_mm": 5.4,
+   "basis": "pad_edge",
+   "pads": {
+    "R117": [
+     "2"
+    ],
+    "U28": [
+     "3"
+    ]
+   },
+   "why": "R117 sits on Net-(C112-Pad1), which touches exactly one IC pin (U28.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R118",
+   "near": "U28",
+   "max_mm": 5.4,
+   "basis": "pad_edge",
+   "pads": {
+    "R118": [
+     "2"
+    ],
+    "U28": [
+     "5"
+    ]
+   },
+   "why": "R118 sits on Net-(C113-Pad1), which touches exactly one IC pin (U28.5): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R119",
+   "near": "U28",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R119": [
+     "1"
+    ],
+    "U28": [
+     "2"
+    ]
+   },
+   "why": "R119 sits on Net-(R119-Pad1), which touches exactly one IC pin (U28.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R12",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R12": [
+     "1"
+    ],
+    "U1": [
+     "8"
+    ]
+   },
+   "why": "R12 sits on Net-(R12-Pad1), which touches exactly one IC pin (U1.8): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R120",
+   "near": "U28",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R120": [
+     "1"
+    ],
+    "U28": [
+     "6"
+    ]
+   },
+   "why": "R120 sits on Net-(R120-Pad1), which touches exactly one IC pin (U28.6): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R121",
+   "near": "U28",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R121": [
+     "1"
+    ],
+    "U28": [
+     "3"
+    ]
+   },
+   "why": "R121 sits on Net-(C112-Pad1), which touches exactly one IC pin (U28.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R122",
+   "near": "U28",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R122": [
+     "1"
+    ],
+    "U28": [
+     "5"
+    ]
+   },
+   "why": "R122 sits on Net-(C113-Pad1), which touches exactly one IC pin (U28.5): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R123",
+   "near": "U28",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R123": [
+     "1"
+    ],
+    "U28": [
+     "2"
+    ]
+   },
+   "why": "R123 sits on Net-(R119-Pad1), which touches exactly one IC pin (U28.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R124",
+   "near": "U28",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R124": [
+     "1"
+    ],
+    "U28": [
+     "6"
+    ]
+   },
+   "why": "R124 sits on Net-(R120-Pad1), which touches exactly one IC pin (U28.6): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R125",
+   "near": "U29",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R125": [
+     "1"
+    ],
+    "U29": [
+     "3"
+    ]
+   },
+   "why": "R125 sits on Net-(R125-Pad1), which touches exactly one IC pin (U29.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R126",
+   "near": "U29",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R126": [
+     "2"
+    ],
+    "U29": [
+     "4"
+    ]
+   },
+   "why": "R126 sits on Net-(R126-Pad2), which touches exactly one IC pin (U29.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R127",
+   "near": "U29",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R127": [
+     "1"
+    ],
+    "U29": [
+     "4"
+    ]
+   },
+   "why": "R127 sits on Net-(R126-Pad2), which touches exactly one IC pin (U29.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R146",
+   "near": "U35",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R146": [
+     "2"
+    ],
+    "U35": [
+     "5"
+    ]
+   },
+   "why": "R146 sits on Net-(R146-Pad2), which touches exactly one IC pin (U35.5): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R147",
+   "near": "U35",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R147": [
+     "2"
+    ],
+    "U35": [
+     "9"
+    ]
+   },
+   "why": "R147 sits on Net-(R147-Pad2), which touches exactly one IC pin (U35.9): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R148",
+   "near": "U35",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R148": [
+     "2"
+    ],
+    "U35": [
+     "12"
+    ]
+   },
+   "why": "R148 sits on Net-(R148-Pad2), which touches exactly one IC pin (U35.12): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R15",
+   "near": "U1",
+   "max_mm": 8.1,
+   "basis": "pad_edge",
+   "pads": {
+    "R15": [
+     "1"
+    ],
+    "U1": [
+     "16"
+    ]
+   },
+   "why": "R15 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R152",
+   "near": "U38",
+   "max_mm": 5.9,
+   "basis": "pad_edge",
+   "pads": {
+    "R152": [
+     "2"
+    ],
+    "U38": [
+     "14"
+    ]
+   },
+   "why": "R152 sits on Net-(R152-Pad2), which touches exactly one IC pin (U38.14): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R153",
+   "near": "U38",
+   "max_mm": 5.6,
+   "basis": "pad_edge",
+   "pads": {
+    "R153": [
+     "2"
+    ],
+    "U38": [
+     "15"
+    ]
+   },
+   "why": "R153 sits on Net-(R153-Pad2), which touches exactly one IC pin (U38.15): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R156",
+   "near": "U44",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R156": [
+     "2"
+    ],
+    "U44": [
+     "3"
+    ]
+   },
+   "why": "R156 sits on Net-(C178-Pad2), which touches exactly one IC pin (U44.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R157",
+   "near": "U44",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R157": [
+     "1"
+    ],
+    "U44": [
+     "3"
+    ]
+   },
+   "why": "R157 sits on Net-(C178-Pad2), which touches exactly one IC pin (U44.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R158",
+   "near": "U45",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R158": [
+     "2"
+    ],
+    "U45": [
+     "3"
+    ]
+   },
+   "why": "R158 sits on Net-(C179-Pad2), which touches exactly one IC pin (U45.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R159",
+   "near": "U45",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R159": [
+     "1"
+    ],
+    "U45": [
+     "3"
+    ]
+   },
+   "why": "R159 sits on Net-(C179-Pad2), which touches exactly one IC pin (U45.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R17",
+   "near": "U3",
+   "max_mm": 9.4,
+   "basis": "pad_edge",
+   "pads": {
+    "R17": [
+     "1"
+    ],
+    "U3": [
+     "2"
+    ]
+   },
+   "why": "R17 sits on Net-(C20-Pad2), which touches exactly one IC pin (U3.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R22",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R22": [
+     "1"
+    ],
+    "U1": [
+     "17"
+    ]
+   },
+   "why": "R22 sits on Net-(R22-Pad1), which touches exactly one IC pin (U1.17): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R24",
+   "near": "U4",
+   "max_mm": 9.6,
+   "basis": "pad_edge",
+   "pads": {
+    "R24": [
+     "2"
+    ],
+    "U4": [
+     "19"
+    ]
+   },
+   "why": "R24 sits on Net-(R24-Pad2), which touches exactly one IC pin (U4.19): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R25",
+   "near": "U4",
+   "max_mm": 7.8,
+   "basis": "pad_edge",
+   "pads": {
+    "R25": [
+     "1"
+    ],
+    "U4": [
+     "19"
+    ]
+   },
+   "why": "R25 sits on Net-(R24-Pad2), which touches exactly one IC pin (U4.19): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R26",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R26": [
+     "2"
+    ],
+    "U4": [
+     "26"
+    ]
+   },
+   "why": "R26 sits on Net-(R26-Pad2), which touches exactly one IC pin (U4.26): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R27",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R27": [
+     "1"
+    ],
+    "U4": [
+     "26"
+    ]
+   },
+   "why": "R27 sits on Net-(R26-Pad2), which touches exactly one IC pin (U4.26): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R28",
+   "near": "U4",
+   "max_mm": 6.5,
+   "basis": "pad_edge",
+   "pads": {
+    "R28": [
+     "2"
+    ],
+    "U4": [
+     "20"
+    ]
+   },
+   "why": "R28 sits on Net-(R28-Pad2), which touches exactly one IC pin (U4.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R29",
+   "near": "U4",
+   "max_mm": 5.1,
+   "basis": "pad_edge",
+   "pads": {
+    "R29": [
+     "1"
+    ],
+    "U4": [
+     "20"
+    ]
+   },
+   "why": "R29 sits on Net-(R28-Pad2), which touches exactly one IC pin (U4.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R30",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R30": [
+     "2"
+    ],
+    "U4": [
+     "23"
+    ]
+   },
+   "why": "R30 sits on Net-(R30-Pad2), which touches exactly one IC pin (U4.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R31",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R31": [
+     "1"
+    ],
+    "U4": [
+     "23"
+    ]
+   },
+   "why": "R31 sits on Net-(R30-Pad2), which touches exactly one IC pin (U4.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R32",
+   "near": "U4",
+   "max_mm": 5.2,
+   "basis": "pad_edge",
+   "pads": {
+    "R32": [
+     "2"
+    ],
+    "U4": [
+     "24"
+    ]
+   },
+   "why": "R32 sits on Net-(R32-Pad2), which touches exactly one IC pin (U4.24): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R33",
+   "near": "U4",
+   "max_mm": 6.7,
+   "basis": "pad_edge",
+   "pads": {
+    "R33": [
+     "1"
+    ],
+    "U4": [
+     "24"
+    ]
+   },
+   "why": "R33 sits on Net-(R32-Pad2), which touches exactly one IC pin (U4.24): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R34",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R34": [
+     "2"
+    ],
+    "U4": [
+     "25"
+    ]
+   },
+   "why": "R34 sits on Net-(R34-Pad2), which touches exactly one IC pin (U4.25): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R35",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R35": [
+     "1"
+    ],
+    "U4": [
+     "25"
+    ]
+   },
+   "why": "R35 sits on Net-(R34-Pad2), which touches exactly one IC pin (U4.25): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R36",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R36": [
+     "2"
+    ],
+    "U4": [
+     "22"
+    ]
+   },
+   "why": "R36 sits on Net-(R36-Pad2), which touches exactly one IC pin (U4.22): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R37",
+   "near": "U4",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R37": [
+     "1"
+    ],
+    "U4": [
+     "22"
+    ]
+   },
+   "why": "R37 sits on Net-(R36-Pad2), which touches exactly one IC pin (U4.22): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R40",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R40": [
+     "1"
+    ],
+    "U9": [
+     "2"
+    ]
+   },
+   "why": "R40 sits on Net-(C42-Pad1), which touches exactly one IC pin (U9.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R41",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R41": [
+     "1"
+    ],
+    "U9": [
+     "6"
+    ]
+   },
+   "why": "R41 sits on Net-(C43-Pad1), which touches exactly one IC pin (U9.6): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R42",
+   "near": "U7",
+   "max_mm": 5.1,
+   "basis": "pad_edge",
+   "pads": {
+    "R42": [
+     "2"
+    ],
+    "U7": [
+     "4"
+    ]
+   },
+   "why": "R42 sits on Net-(C37-Pad1), which touches exactly one IC pin (U7.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R43",
+   "near": "U8",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R43": [
+     "2"
+    ],
+    "U8": [
+     "4"
+    ]
+   },
+   "why": "R43 sits on Net-(C38-Pad1), which touches exactly one IC pin (U8.4): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R46",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R46": [
+     "1"
+    ],
+    "U9": [
+     "3"
+    ]
+   },
+   "why": "R46 sits on Net-(R44-Pad2), which touches exactly one IC pin (U9.3): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R47",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R47": [
+     "1"
+    ],
+    "U9": [
+     "5"
+    ]
+   },
+   "why": "R47 sits on Net-(R45-Pad2), which touches exactly one IC pin (U9.5): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R48",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R48": [
+     "1"
+    ],
+    "U9": [
+     "2"
+    ]
+   },
+   "why": "R48 sits on Net-(C42-Pad1), which touches exactly one IC pin (U9.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R49",
+   "near": "U9",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R49": [
+     "1"
+    ],
+    "U9": [
+     "6"
+    ]
+   },
+   "why": "R49 sits on Net-(C43-Pad1), which touches exactly one IC pin (U9.6): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R52",
+   "near": "U10",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R52": [
+     "1"
+    ],
+    "U10": [
+     "2"
+    ]
+   },
+   "why": "R52 sits on Net-(C47-Pad1), which touches exactly one IC pin (U10.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R53",
+   "near": "U11",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R53": [
+     "1"
+    ],
+    "U11": [
+     "2"
+    ]
+   },
+   "why": "R53 sits on Net-(C48-Pad1), which touches exactly one IC pin (U11.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R56",
+   "near": "U10",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R56": [
+     "1"
+    ],
+    "U10": [
+     "2"
+    ]
+   },
+   "why": "R56 sits on Net-(C47-Pad1), which touches exactly one IC pin (U10.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R57",
+   "near": "U11",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R57": [
+     "1"
+    ],
+    "U11": [
+     "2"
+    ]
+   },
+   "why": "R57 sits on Net-(C48-Pad1), which touches exactly one IC pin (U11.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R58",
+   "near": "U14",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R58": [
+     "2"
+    ],
+    "U14": [
+     "2"
+    ]
+   },
+   "why": "R58 sits on Net-(C55-Pad1), which touches exactly one IC pin (U14.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R59",
+   "near": "U15",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R59": [
+     "2"
+    ],
+    "U15": [
+     "2"
+    ]
+   },
+   "why": "R59 sits on Net-(C56-Pad1), which touches exactly one IC pin (U15.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R60",
+   "near": "U14",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R60": [
+     "1"
+    ],
+    "U14": [
+     "2"
+    ]
+   },
+   "why": "R60 sits on Net-(C55-Pad1), which touches exactly one IC pin (U14.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R61",
+   "near": "U15",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R61": [
+     "1"
+    ],
+    "U15": [
+     "2"
+    ]
+   },
+   "why": "R61 sits on Net-(C56-Pad1), which touches exactly one IC pin (U15.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R66",
+   "near": "U14",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R66": [
+     "2"
+    ],
+    "U14": [
+     "1"
+    ]
+   },
+   "why": "R66 sits on Net-(R66-Pad2), which touches exactly one IC pin (U14.1): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R67",
+   "near": "U15",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R67": [
+     "2"
+    ],
+    "U15": [
+     "1"
+    ]
+   },
+   "why": "R67 sits on Net-(R67-Pad2), which touches exactly one IC pin (U15.1): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R68",
+   "near": "U14",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R68": [
+     "1"
+    ],
+    "U14": [
+     "8"
+    ]
+   },
+   "why": "R68 sits on Net-(R68-Pad1), which touches exactly one IC pin (U14.8): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R69",
+   "near": "U15",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R69": [
+     "1"
+    ],
+    "U15": [
+     "8"
+    ]
+   },
+   "why": "R69 sits on Net-(R69-Pad1), which touches exactly one IC pin (U15.8): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R70",
+   "near": "U3",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R70": [
+     "1"
+    ],
+    "U3": [
+     "9"
+    ]
+   },
+   "why": "R70 sits on /TOP/IQ modulator/PLLout1, which touches exactly one IC pin (U3.9): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R72",
+   "near": "U16",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R72": [
+     "1"
+    ],
+    "U16": [
+     "7"
+    ]
+   },
+   "why": "R72 sits on Net-(R72-Pad1), which touches exactly one IC pin (U16.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R73",
+   "near": "U17",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R73": [
+     "1"
+    ],
+    "U17": [
+     "2"
+    ]
+   },
+   "why": "R73 sits on Net-(C70-Pad2), which touches exactly one IC pin (U17.2): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R75",
+   "near": "U18",
+   "max_mm": 6.5,
+   "basis": "pad_edge",
+   "pads": {
+    "R75": [
+     "2"
+    ],
+    "U18": [
+     "23"
+    ]
+   },
+   "why": "R75 sits on /TOP/Frequency dividers/FD0_N2, which touches exactly one IC pin (U18.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R76",
+   "near": "U18",
+   "max_mm": 7.1,
+   "basis": "pad_edge",
+   "pads": {
+    "R76": [
+     "1"
+    ],
+    "U18": [
+     "23"
+    ]
+   },
+   "why": "R76 sits on /TOP/Frequency dividers/FD0_N2, which touches exactly one IC pin (U18.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R78",
+   "near": "U18",
+   "max_mm": 6.5,
+   "basis": "pad_edge",
+   "pads": {
+    "R78": [
+     "2"
+    ],
+    "U18": [
+     "20"
+    ]
+   },
+   "why": "R78 sits on /TOP/Frequency dividers/FD0_S0, which touches exactly one IC pin (U18.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R79",
+   "near": "U18",
+   "max_mm": 6.5,
+   "basis": "pad_edge",
+   "pads": {
+    "R79": [
+     "1"
+    ],
+    "U18": [
+     "20"
+    ]
+   },
+   "why": "R79 sits on /TOP/Frequency dividers/FD0_S0, which touches exactly one IC pin (U18.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R80",
+   "near": "U18",
+   "max_mm": 8.5,
+   "basis": "pad_edge",
+   "pads": {
+    "R80": [
+     "2"
+    ],
+    "U18": [
+     "7"
+    ]
+   },
+   "why": "R80 sits on /TOP/Frequency dividers/FD0_DIV1, which touches exactly one IC pin (U18.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R81",
+   "near": "U18",
+   "max_mm": 8.6,
+   "basis": "pad_edge",
+   "pads": {
+    "R81": [
+     "1"
+    ],
+    "U18": [
+     "7"
+    ]
+   },
+   "why": "R81 sits on /TOP/Frequency dividers/FD0_DIV1, which touches exactly one IC pin (U18.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R82",
+   "near": "U18",
+   "max_mm": 6.8,
+   "basis": "pad_edge",
+   "pads": {
+    "R82": [
+     "1"
+    ],
+    "U18": [
+     "15"
+    ]
+   },
+   "why": "R82 sits on Net-(C80-Pad1), which touches exactly one IC pin (U18.15): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R83",
+   "near": "U19",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R83": [
+     "2"
+    ],
+    "U19": [
+     "23"
+    ]
+   },
+   "why": "R83 sits on /TOP/Frequency dividers/FD1_N2, which touches exactly one IC pin (U19.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R84",
+   "near": "U19",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R84": [
+     "1"
+    ],
+    "U19": [
+     "23"
+    ]
+   },
+   "why": "R84 sits on /TOP/Frequency dividers/FD1_N2, which touches exactly one IC pin (U19.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R85",
+   "near": "U18",
+   "max_mm": 6.8,
+   "basis": "pad_edge",
+   "pads": {
+    "R85": [
+     "1"
+    ],
+    "U18": [
+     "16"
+    ]
+   },
+   "why": "R85 sits on Net-(C81-Pad1), which touches exactly one IC pin (U18.16): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R86",
+   "near": "U19",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R86": [
+     "2"
+    ],
+    "U19": [
+     "20"
+    ]
+   },
+   "why": "R86 sits on /TOP/Frequency dividers/FD1_S0, which touches exactly one IC pin (U19.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R87",
+   "near": "U19",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R87": [
+     "1"
+    ],
+    "U19": [
+     "20"
+    ]
+   },
+   "why": "R87 sits on /TOP/Frequency dividers/FD1_S0, which touches exactly one IC pin (U19.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R88",
+   "near": "U19",
+   "max_mm": 6.6,
+   "basis": "pad_edge",
+   "pads": {
+    "R88": [
+     "2"
+    ],
+    "U19": [
+     "7"
+    ]
+   },
+   "why": "R88 sits on /TOP/Frequency dividers/FD1_DIV1, which touches exactly one IC pin (U19.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R89",
+   "near": "U19",
+   "max_mm": 6.7,
+   "basis": "pad_edge",
+   "pads": {
+    "R89": [
+     "1"
+    ],
+    "U19": [
+     "7"
+    ]
+   },
+   "why": "R89 sits on /TOP/Frequency dividers/FD1_DIV1, which touches exactly one IC pin (U19.7): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R9",
+   "near": "U1",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R9": [
+     "2"
+    ],
+    "U1": [
+     "26"
+    ]
+   },
+   "why": "R9 sits on Net-(R9-Pad2), which touches exactly one IC pin (U1.26): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R90",
+   "near": "U20",
+   "max_mm": 5.7,
+   "basis": "pad_edge",
+   "pads": {
+    "R90": [
+     "2"
+    ],
+    "U20": [
+     "23"
+    ]
+   },
+   "why": "R90 sits on /TOP/Frequency dividers/FD2_N2, which touches exactly one IC pin (U20.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R91",
+   "near": "U20",
+   "max_mm": 6.9,
+   "basis": "pad_edge",
+   "pads": {
+    "R91": [
+     "1"
+    ],
+    "U20": [
+     "23"
+    ]
+   },
+   "why": "R91 sits on /TOP/Frequency dividers/FD2_N2, which touches exactly one IC pin (U20.23): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R92",
+   "near": "U19",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R92": [
+     "1"
+    ],
+    "U19": [
+     "15"
+    ]
+   },
+   "why": "R92 sits on Net-(C88-Pad1), which touches exactly one IC pin (U19.15): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R93",
+   "near": "U20",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R93": [
+     "2"
+    ],
+    "U20": [
+     "22"
+    ]
+   },
+   "why": "R93 sits on /TOP/Frequency dividers/FD2_N1, which touches exactly one IC pin (U20.22): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R94",
+   "near": "U20",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R94": [
+     "1"
+    ],
+    "U20": [
+     "22"
+    ]
+   },
+   "why": "R94 sits on /TOP/Frequency dividers/FD2_N1, which touches exactly one IC pin (U20.22): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R95",
+   "near": "U19",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R95": [
+     "1"
+    ],
+    "U19": [
+     "16"
+    ]
+   },
+   "why": "R95 sits on Net-(C89-Pad1), which touches exactly one IC pin (U19.16): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R96",
+   "near": "U20",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R96": [
+     "2"
+    ],
+    "U20": [
+     "21"
+    ]
+   },
+   "why": "R96 sits on /TOP/Frequency dividers/FD2_N0, which touches exactly one IC pin (U20.21): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R97",
+   "near": "U20",
+   "max_mm": 5.5,
+   "basis": "pad_edge",
+   "pads": {
+    "R97": [
+     "1"
+    ],
+    "U20": [
+     "21"
+    ]
+   },
+   "why": "R97 sits on /TOP/Frequency dividers/FD2_N0, which touches exactly one IC pin (U20.21): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R98",
+   "near": "U20",
+   "max_mm": 6.3,
+   "basis": "pad_edge",
+   "pads": {
+    "R98": [
+     "2"
+    ],
+    "U20": [
+     "20"
+    ]
+   },
+   "why": "R98 sits on /TOP/Frequency dividers/FD2_S0, which touches exactly one IC pin (U20.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R99",
+   "near": "U20",
+   "max_mm": 7.8,
+   "basis": "pad_edge",
+   "pads": {
+    "R99": [
+     "1"
+    ],
+    "U20": [
+     "20"
+    ]
+   },
+   "why": "R99 sits on /TOP/Frequency dividers/FD2_S0, which touches exactly one IC pin (U20.20): series or pull part belongs at the pin"
+  },
+  {
+   "ref": "R14",
+   "near": "C16",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R14": [
+     "1"
+    ],
+    "C16": [
+     "2"
+    ]
+   },
+   "why": "R14 is on the local net Net-(C16-Pad2) shared with C16, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "R18",
+   "near": "C22",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R18": [
+     "1"
+    ],
+    "C22": [
+     "2"
+    ]
+   },
+   "why": "R18 is on the local net Net-(C22-Pad2) shared with C22, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "R21",
+   "near": "C23",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R21": [
+     "1"
+    ],
+    "C23": [
+     "2"
+    ]
+   },
+   "why": "R21 is on the local net Net-(C23-Pad2) shared with C23, hop 2 of the chain to U2"
+  },
+  {
+   "ref": "R19",
+   "near": "C24",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R19": [
+     "1"
+    ],
+    "C24": [
+     "2"
+    ]
+   },
+   "why": "R19 is on the local net Net-(C24-Pad2) shared with C24, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "R20",
+   "near": "C24",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R20": [
+     "1"
+    ],
+    "C24": [
+     "2"
+    ]
+   },
+   "why": "R20 is on the local net Net-(C24-Pad2) shared with C24, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "R71",
+   "near": "C64",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R71": [
+     "1"
+    ],
+    "C64": [
+     "1"
+    ]
+   },
+   "why": "R71 is on the local net Net-(C64-Pad1) shared with C64, hop 2 of the chain to U16"
+  },
+  {
+   "ref": "R77",
+   "near": "C73",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R77": [
+     "1"
+    ],
+    "C73": [
+     "1"
+    ]
+   },
+   "why": "R77 is on the local net Net-(C73-Pad1) shared with C73, hop 2 of the chain to U18"
+  },
+  {
+   "ref": "C10",
+   "near": "R11",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C10": [
+     "1"
+    ],
+    "R11": [
+     "2"
+    ]
+   },
+   "why": "C10 is on the local net Net-(C10-Pad1) shared with R11, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "C110",
+   "near": "R115",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C110": [
+     "2"
+    ],
+    "R115": [
+     "2"
+    ]
+   },
+   "why": "C110 is on the local net Net-(C110-Pad2) shared with R115, hop 2 of the chain to U26"
+  },
+  {
+   "ref": "C111",
+   "near": "R116",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C111": [
+     "2"
+    ],
+    "R116": [
+     "2"
+    ]
+   },
+   "why": "C111 is on the local net Net-(C111-Pad2) shared with R116, hop 2 of the chain to U27"
+  },
+  {
+   "ref": "C14",
+   "near": "R12",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C14": [
+     "1"
+    ],
+    "R12": [
+     "2"
+    ]
+   },
+   "why": "C14 is on the local net Net-(C14-Pad1) shared with R12, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "C33",
+   "near": "R40",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C33": [
+     "1"
+    ],
+    "R40": [
+     "2"
+    ]
+   },
+   "why": "C33 is on the local net Net-(C33-Pad1) shared with R40, hop 2 of the chain to U9"
+  },
+  {
+   "ref": "C34",
+   "near": "R41",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C34": [
+     "1"
+    ],
+    "R41": [
+     "2"
+    ]
+   },
+   "why": "C34 is on the local net Net-(C34-Pad1) shared with R41, hop 2 of the chain to U9"
+  },
+  {
+   "ref": "R62",
+   "near": "R66",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R62": [
+     "2"
+    ],
+    "R66": [
+     "1"
+    ]
+   },
+   "why": "R62 is on the local net Net-(R62-Pad2) shared with R66, hop 2 of the chain to U14"
+  },
+  {
+   "ref": "R63",
+   "near": "R66",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R63": [
+     "1"
+    ],
+    "R66": [
+     "1"
+    ]
+   },
+   "why": "R63 is on the local net Net-(R62-Pad2) shared with R66, hop 2 of the chain to U14"
+  },
+  {
+   "ref": "R64",
+   "near": "R67",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R64": [
+     "2"
+    ],
+    "R67": [
+     "1"
+    ]
+   },
+   "why": "R64 is on the local net Net-(R64-Pad2) shared with R67, hop 2 of the chain to U15"
+  },
+  {
+   "ref": "R65",
+   "near": "R67",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R65": [
+     "1"
+    ],
+    "R67": [
+     "1"
+    ]
+   },
+   "why": "R65 is on the local net Net-(R64-Pad2) shared with R67, hop 2 of the chain to U15"
+  },
+  {
+   "ref": "C5",
+   "near": "R9",
+   "max_mm": 3.0,
+   "basis": "pad_edge",
+   "pads": {
+    "C5": [
+     "1"
+    ],
+    "R9": [
+     "1"
+    ]
+   },
+   "why": "C5 is on the local net Net-(C5-Pad1) shared with R9, hop 2 of the chain to U1"
+  },
+  {
+   "ref": "R23",
+   "near": "R21",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "pads": {
+    "R23": [
+     "1"
+    ],
+    "R21": [
+     "2"
+    ]
+   },
+   "why": "R23 is on the local net Net-(R20-Pad2) shared with R21, hop 3 of the chain to U2"
+  }
+ ]
+}

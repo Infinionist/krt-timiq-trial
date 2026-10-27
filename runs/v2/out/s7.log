@@ -1,0 +1,161 @@
+Modified 22 footprint positions
+Successfully wrote /tmp/place_simple_kogzoq1d/fixed.kicad_pcb
+  NOTE: at their declared pose or face: BOX1 at (124.212, 214.948) 0, D2 at (112.216, 73.4378) 270, D3 at (118.221, 73.4327) 270, D4 at (124.22, 73.4327) 270, D5 at (130.22, 73.4327) 270, D6 at (112.216, 82.4395) 270, D7 at (118.216, 82.4395) 270, D8 at (124.22, 82.4395) 270, FIX1 at (256.216, 220.44) 0, FIX2 at (184.216, 220.44) 0, FIX3 at (112.216, 220.44) 0, FIX4 at (112.216, 148.44) 0, FIX5 at (112.216, 66.44) 0, FIX6 at (184.216, 66.44) 0, FIX7 at (256.216, 66.44) 0, FIX8 at (256.216, 148.44) 0, J1 at (146.286, 223.247) 90, J2 at (157.815, 223.25) 90, J3 at (210.045, 223.26) 90, J4 at (222.065, 223.24) 90, J5 at (221.932, 136.332) 90, J6 at (206.435, 73.4428) 180
+  WARNING [placement]: 1 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1
+  NOTE [placement]: 463 footprint(s) draw no courtyard and are seated on an ESTIMATED one, what they occupy (body and pads, #1300) -- pad_bbox: FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8; silk: C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, ...
+  heights: 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; declared: 6 shield(s); room under J10, J11, J12, J7, J8, J9
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  WARNING: shield J7: 33 of 33 member(s) have no known height, so the 2 mm under its lid is not judged for them: C10, C12, C14, C16, C17, C18, C19, C20 ...
+  WARNING: shield J8: 36 of 36 member(s) have no known height, so the 2 mm under its lid is not judged for them: C100, C104, C108, C109, C63, C64, C70, C98 ...
+  WARNING: shield J9: 32 of 32 member(s) have no known height, so the 2 mm under its lid is not judged for them: C45, C46, C47, C48, C57, C58, R50, R51 ...
+  WARNING: shield J10: 19 of 19 member(s) have no known height, so the 2 mm under its lid is not judged for them: C72, C73, C74, C80, C81, C82, C84, C86 ...
+  WARNING: shield J11: 26 of 26 member(s) have no known height, so the 2 mm under its lid is not judged for them: C110, C111, C112, C113, C114, C116, C117, C119 ...
+  WARNING: shield J12: 26 of 26 member(s) have no known height, so the 2 mm under its lid is not judged for them: C27, C28, C33, C34, C37, C38, C42, C43 ...
+  NOTE: shield J10 holds 19 part(s), 2 mm under the lid; J11 holds 26 part(s), 2 mm under the lid; J12 holds 26 part(s), 2 mm under the lid; J7 holds 33 part(s), 2 mm under the lid; J8 holds 36 part(s), 2 mm under the lid; J9 holds 32 part(s), 2 mm under the lid
+  NOTE: template U21: L8, C98, L10, C108, R103 seated as drawn and carried with it
+  NOTE: template U22: L9, C99, L11, C109, R105 seated as drawn and carried with it
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C114 on 5V_2 serves U28, U29, U30
+  NOTE: decap C115 on -5V serves U28
+  NOTE: decap C116 on 3V3_2 serves U29
+  NOTE: decap C117 on 5V_2 serves U28, U29, U30
+  NOTE: decap C118 on 5V_2 serves U28, U29, U30
+  NOTE: decap C119 on 5V_2 serves U28, U29, U30
+  NOTE: decap C123 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C124 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C125 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C126 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C127 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C128 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C129 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C130 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C131 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C132 on 5V_2 serves U33
+  NOTE: decap C133 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C134 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C135 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C136 on 5V_1 serves U36, U37
+  NOTE: decap C137 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C138 on 5V_1 serves U36, U37
+  NOTE: decap C139 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C140 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C146 on 5V_1 serves U39
+  NOTE: decap C147 on 5V_2 serves U40
+  NOTE: decap C151 on 5V_1 serves U39
+  NOTE: decap C152 on 5V_2 serves U40
+  NOTE: decap C153 on 5V_1 serves U39
+  NOTE: decap C154 on 5V_2 serves U40
+  NOTE: decap C158 on 5V_1 serves U39
+  NOTE: decap C159 on 5V_2 serves U40
+  NOTE: decap C160 on 5V_1 serves U39
+  NOTE: decap C161 on 5V_2 serves U40
+  NOTE: decap C165 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C166 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C167 on 24V serves U43
+  NOTE: decap C168 on -24V serves U44, U45
+  NOTE: decap C169 on -24V serves U44, U45
+  NOTE: decap C175 on 3V3_1 serves U41
+  NOTE: decap C176 on 3V3_2 serves U42
+  NOTE: decap C177 on 15V serves U43
+  NOTE: decap C180 on 3V3_1 serves U41
+  NOTE: decap C181 on 3V3_2 serves U42
+  NOTE: decap C182 on 15V serves U43
+  NOTE: decap C183 on 3V3_1 serves U41
+  NOTE: decap C184 on 3V3_2 serves U42
+  NOTE: decap C185 on 15V serves U43
+  NOTE: decap C186 on -5V serves U44
+  NOTE: decap C187 on -15V serves U45
+  NOTE: decap C188 on 3V3_1 serves U41
+  NOTE: decap C189 on 3V3_2 serves U42
+  NOTE: decap C190 on 15V serves U43
+  NOTE: decap C191 on -5V serves U44
+  NOTE: decap C192 on -15V serves U45
+  NOTE: decap C193 on 3V3_1 serves U41
+  NOTE: decap C194 on 3V3_2 serves U42
+  NOTE: decap C195 on 15V serves U43
+  NOTE: decap C196 on -5V serves U44
+  NOTE: decap C197 on -15V serves U45
+  NOTE: decap C198 on -5V serves U44
+  NOTE: decap C199 on -15V serves U45
+  NOTE: decap C200 on -5V serves U44
+  NOTE: decap C201 on -15V serves U45
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C26 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C29 on 15V serves U10, U11, U5, U6
+  NOTE: decap C30 on 15V serves U10, U11, U5, U6
+  NOTE: decap C31 on -15V serves U10, U11, U5, U6
+  NOTE: decap C32 on -15V serves U10, U11, U5, U6
+  NOTE: decap C35 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C36 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C39 on -5V serves U7, U8, U9
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C40 on -5V serves U7, U8, U9
+  NOTE: decap C41 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C44 on -5V serves U7, U8, U9
+  NOTE: decap C45 on 15V serves U10, U11, U5, U6
+  NOTE: decap C46 on 15V serves U10, U11, U5, U6
+  NOTE: decap C49 on -15V serves U10, U11, U5, U6
+  NOTE: decap C50 on -15V serves U10, U11, U5, U6
+  NOTE: decap C51 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C52 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C59 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C60 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C61 on -5V serves U14, U15
+  NOTE: decap C62 on -5V serves U14, U15
+  NOTE: decap C65 on 5V_2 serves U16
+  NOTE: decap C66 on 5V_2 serves U16
+  NOTE: decap C67 on 5V_2 serves U16
+  NOTE: decap C68 on 5V_2 serves U16
+  NOTE: decap C69 on 5V_2 serves U16
+  NOTE: decap C71 on 5V_2 serves U16
+  NOTE: decap C74 on 5V_1 serves U18, U19, U20
+  NOTE: decap C75 on 5V_1 serves U18, U19, U20
+  NOTE: decap C76 on 5V_1 serves U18, U19, U20
+  NOTE: decap C77 on 5V_1 serves U18, U19, U20
+  NOTE: decap C78 on 5V_1 serves U18, U19, U20
+  NOTE: decap C79 on 5V_1 serves U18, U19, U20
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+  NOTE: decap C82 on 5V_1 serves U18, U19, U20
+  NOTE: decap C83 on 5V_1 serves U18, U19, U20
+  NOTE: decap C84 on 5V_1 serves U18, U19, U20
+  NOTE: decap C85 on 5V_1 serves U18, U19, U20
+  NOTE: decap C86 on 5V_1 serves U18, U19, U20
+  NOTE: decap C87 on 5V_1 serves U18, U19, U20
+  NOTE: decap C90 on 5V_1 serves U18, U19, U20
+  NOTE: decap C91 on 5V_1 serves U18, U19, U20
+  NOTE: decap C92 on 5V_1 serves U18, U19, U20
+  NOTE: decap C93 on 5V_1 serves U18, U19, U20
+  NOTE: decap C94 on 5V_1 serves U18, U19, U20
+  NOTE: decap C95 on 5V_1 serves U18, U19, U20
+place_simple: 442 movable part(s), fixed: BOX1, D2, D3, D4, D5, D6, D7, D8, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6
+  group pll: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, C20, C21, C22, C23, C24, C25, C3, C4, C5, C6, C7, C8, C9, D1, J1, J2, L1, L2, L3, L4, L5, L6, L7, Q1, R1, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R2, R20, R21, R22, R23, R3, R4, R5, R6, R7, R8, R9, U1, U2, U3
+  group mixers: C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C98, C99, L10, L11, L8, L9, R100, R101, R102, R103, R104, R105, R106, R107, R108, U21, U22, U23, U24, U25, U26, U27
+  group adc: C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30
+  group digital: C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, J5, R128, R129, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R150, R151, R152, R153, U31, U32, U33, U34, U35, U36, U37, U38
+  group ldo_pos: C139, C140, C141, C142, C146, C147, C151, C152, C153, C154, C158, C159, C160, C161, C165, C166, C167, C170, C171, C172, C175, C176, C177, C180, C181, C182, C183, C184, C185, C188, C189, C190, C193, C194, C195, R154, R155, R160, R161, R162, U39, U40, U41, U42, U43
+  group power_in: C143, C144, C145, C148, C149, C150, C155, C156, C157, C162, C163, C164, J6, L12, L13, L14, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9
+  group ldo_neg: C168, C169, C173, C174, C178, C179, C186, C187, C191, C192, C196, C197, C198, C199, C200, C201, R156, R157, R158, R159, R163, R164, U44, U45
+  group dac: C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, U10, U11, U4, U5, U6, U7, U8, U9
+  group dac_if: C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U12, U13, U14, U15
+  group iqmod: C63, C64, C65, C66, C67, C68, C69, C70, C71, R70, R71, R72, R73, U16, U17
+  group dividers: C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C97, J3, J4, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20
+  move  22100: T  15.803 lam     2.5 reach 21.47 cost 23593.4 overlap 2799.92 mm2 best     inf accepted 0.30
+  move  44200: T   7.530 lam     6.3 reach 16.96 cost 20742.1 overlap 1584.61 mm2 best     inf accepted 0.20
+  move  66300: T   3.588 lam    15.8 reach 12.99 cost 20179.8 overlap 973.60 mm2 best     inf accepted 0.12
+  move  88400: T   1.709 lam    39.8 reach  9.54 cost 26418.9 overlap 408.37 mm2 best     inf accepted 0.08
+  move 110500: T   0.814 lam   100.0 reach  6.63 cost 33021.0 overlap  21.54 mm2 best     inf accepted 0.06
+  move 132600: T   0.388 lam   251.2 reach  4.24 cost 32344.5 overlap  10.64 mm2 best     inf accepted 0.04
+  move 154700: T   0.185 lam   630.9 reach  2.39 cost 32104.7 overlap   0.03 mm2 best     inf accepted 0.04
+  move 176800: T   0.088 lam  1584.8 reach  1.06 cost 31464.0 overlap   0.01 mm2 best     inf accepted 0.03
+  move 198900: T   0.042 lam  3980.9 reach  0.27 cost 30920.6 overlap   0.00 mm2 best 30920.6 accepted 0.04
+  move 221000: T   0.020 lam  9999.6 reach  0.10 cost 30656.8 overlap   0.00 mm2 best 30656.8 accepted 0.08
+place_simple: annealed 221000 moves in 269.1 s; cost 30656.8 (wire 10451.9 mm, 1477 crossings, claims 0.0, decaps 774.6, template 8.1 mm, halo 11442.55, pad hits 639, congestion 2.70, groups 336.3: pll 62.0, mixers 3.0, adc 4.4, digital 14.2, ldo_pos 49.6, power_in 6.0, ldo_neg 41.6, dac 73.1, dac_if 2.3, iqmod 1.4, dividers 78.6, hints 473.1: near:iqmod:pll 12.7, near:mixers:pll 0.5, near:dividers:pll 1.2, near:adc:mixers 191.1, near:dac:digital 31.0, near:digital:dividers 14.3, near:ldo_pos:power_in 0.6, near:ldo_neg:power_in 78.6, near:dac_if:iqmod 142.9)
+  template drift (worst pad, mm): L8 0.00, C98 0.00, L10 0.00, C108 0.00, R103 0.00, L9 0.00, C99 0.00, L11 0.00, C109 0.00, R105 9.14
+  WARNING: off its datasheet template past the tolerance: R105 (U22) 9.14 mm > 0.3; check_floorplan grades this a WARN (unless the intent's `severity` promotes `template`), so the judge ranks the seed no lower for it
+Modified 442 footprint positions
+Successfully wrote out/s7.kicad_pcb
+  floorplan: no error (check_floorplan --intent)
+  assembly: buildable (check_assembly --baseline)
+JSON_SUMMARY: {"final": {"wire": 10451.895761139998, "crossings": 1477, "claims": 0, "decaps": 774.587644286215, "groups": 336.2851665248086, "hints": 473.06990720978166, "halo": 11442.554971015243, "congestion": 2.6999983216197454, "pad_hits": 639.0, "decap_limits": 0.0, "decap_broken": 0, "claim_limits": 0, "claim_broken": 0, "template": 8.131579460001447, "cost": 30656.77969816974}, "moves": 221000, "seed": 7, "start": "clustered", "reseated": [], "illegal": [], "tight": {}, "refused": {}, "oversubscribed": [], "claim_arity": [], "floorplan": {"errors": 0, "rules": []}, "assembly": {"blocking": 0, "buildable": true, "fired": []}, "bga_field": [], "template_off": [{"anchor": "U22", "ref": "R105", "worst_mm": 9.136, "tolerance_mm": 0.3}], "decap_residual": [], "hints_saturated": [], "estimate_fallback": [], "faces": {"flippable": [], "needed": {}, "needed_kept": null}, "seconds": {"setup": 1.4, "anneal": 269.1}}

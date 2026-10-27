@@ -1,0 +1,17 @@
+judge_seeds: seeds 11, 7, 6, 9, 10, 1, 2 step(s) each, 3 at a time
+  seed 11: blocking 91 joins_needed 103 floorplan 0 assembly 0 vias 249 copper_mm 4761.86 segments 4577 (201 s)
+  seed 7: blocking 89 joins_needed 100 floorplan 0 assembly 0 vias 234 copper_mm 4522.63 segments 4607 (206 s)
+  seed 6: blocking 90 joins_needed 103 floorplan 0 assembly 0 vias 249 copper_mm 4744.95 segments 4342 (226 s)
+  seed 9: blocking 90 joins_needed 102 floorplan 0 assembly 0 vias 288 copper_mm 4067.28 segments 4183 (203 s)
+  seed 10: blocking 88 joins_needed 98 floorplan 0 assembly 0 vias 225 copper_mm 4302.4 segments 4367 (215 s)
+  seed 1: blocking 89 joins_needed 102 floorplan 0 assembly 0 vias 319 copper_mm 5483.81 segments 5072 (217 s)
+judge_seeds: ranked by quick_score.judge_key (floorplan errors + assembly, blocking, joins_needed, vias, copper_mm, segments):
+  seed 10: blocking 88 joins_needed 98 floorplan 0 assembly 0 vias 225 copper_mm 4302.4 segments 4367
+  seed 7: blocking 89 joins_needed 100 floorplan 0 assembly 0 vias 234 copper_mm 4522.63 segments 4607
+  seed 1: blocking 89 joins_needed 102 floorplan 0 assembly 0 vias 319 copper_mm 5483.81 segments 5072
+  seed 9: blocking 90 joins_needed 102 floorplan 0 assembly 0 vias 288 copper_mm 4067.28 segments 4183
+  seed 6: blocking 90 joins_needed 103 floorplan 0 assembly 0 vias 249 copper_mm 4744.95 segments 4342
+  seed 11: blocking 91 joins_needed 103 floorplan 0 assembly 0 vias 249 copper_mm 4761.86 segments 4577
+judge_seeds: best seed 10: keep its placement s10.kicad_pcb (never the --quick board)
+  NOTE: seeds 10, 7 lie within the quick/full spread of the best (same defects, blocking within 1, copper within 10%): level 2 cannot rank them. Re-run with --confirm close to route them at the full level
+JSON_SUMMARY: {"seeds": {"11": {"blocking": 91, "joins_needed": 103, "floorplan": 0, "vias": 249, "copper_mm": 4761.86, "segments": 4577, "seconds": 200.6}, "7": {"blocking": 89, "joins_needed": 100, "floorplan": 0, "vias": 234, "copper_mm": 4522.63, "segments": 4607, "seconds": 206.3}, "6": {"blocking": 90, "joins_needed": 103, "floorplan": 0, "vias": 249, "copper_mm": 4744.95, "segments": 4342, "seconds": 226.2}, "9": {"blocking": 90, "joins_needed": 102, "floorplan": 0, "vias": 288, "copper_mm": 4067.28, "segments": 4183, "seconds": 202.9}, "10": {"blocking": 88, "joins_needed": 98, "floorplan": 0, "vias": 225, "copper_mm": 4302.4, "segments": 4367, "seconds": 214.8}, "1": {"blocking": 89, "joins_needed": 102, "floorplan": 0, "vias": 319, "copper_mm": 5483.81, "segments": 5072, "seconds": 217.0}}, "ranking": [10, 7, 1, 9, 6, 11], "close": [10, 7], "confirmed": [], "best": 10}

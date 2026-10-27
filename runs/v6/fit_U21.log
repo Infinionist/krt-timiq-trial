@@ -1,0 +1,15 @@
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  C98    at ( -0.469,  +2.164) rot   0.0  legs 1.26 mm  (0.20 mm off the chip)
+  L8     at ( -2.796,  +0.111) rot 270.0  legs 2.17 + 2.79 mm  (0.24 mm off the chip)
+  C101   at ( -5.123,  +0.117) rot 270.0  legs 1.33 mm  (2.57 mm off the chip)
+  R103   at ( -7.449,  +1.694) rot  90.0  legs 1.32 mm  (4.90 mm off the chip)
+  C108   at ( +1.118,  -4.066) rot 180.0  legs 1.26 mm  (0.20 mm off the chip)
+  L10    at ( +3.465,  -3.599) rot 270.0  legs 2.34 mm  (0.20 mm off the chip)
+  C105   at ( +5.795,  -2.804) rot   0.0  legs 1.33 mm  (2.53 mm off the chip)
+  R106   at ( +5.032,  -5.925) rot 180.0  legs 1.32 mm  (2.07 mm off the chip)
+  NOTE: L8 (side +y) sits further past the chip's -x edge than its +y one: beside the -x edge, at a corner
+  NOTE: C101 (side +y) sits further past the chip's -x edge than its +y one: beside the -x edge, at a corner
+  NOTE: R103 (side +y) sits further past the chip's -x edge than its +y one: beside the -x edge, at a corner
+  NOTE: L10 (side -y) sits further past the chip's +x edge than its -y one: beside the +x edge, at a corner
+  NOTE: C105 (side -y) sits further past the chip's +x edge than its -y one: beside the +x edge, at a corner
+JSON_SUMMARY: {"anchor": "U21", "members": 8, "legs_gap_mm": {"C98": 1.264, "L8": 4.956, "C101": 1.327, "R103": 1.325, "C108": 1.265, "L10": 2.339, "C105": 1.33, "R106": 1.325}, "decap_over": []}

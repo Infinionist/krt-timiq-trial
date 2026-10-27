@@ -1,0 +1,27 @@
+{
+ "judge": [
+  6
+ ],
+ "scattered": [],
+ "clustered": [
+  6
+ ],
+ "anchored": [],
+ "illegal": [],
+ "refused": {},
+ "oversubscribed": [],
+ "claim_arity": [],
+ "floorplan": {
+  "6": 0
+ },
+ "assembly": {
+  "6": 0
+ },
+ "template_off": {
+  "6": []
+ },
+ "bga_field": {
+  "6": []
+ },
+ "baseline": "/tmp/pcb-trials/timiq/run2_work/place_test/fixed.kicad_pcb"
+}

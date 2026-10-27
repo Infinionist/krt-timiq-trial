@@ -1,0 +1,238 @@
+{
+ "schema": 1,
+ "kind": "floorplan-intent",
+ "units": "mm",
+ "overlap_waivers": [
+  {
+   "pair": [
+    "J7",
+    "C10"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C12"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C14"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C16"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C17"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C18"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C19"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C20"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C22"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C23"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C24"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C25"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C3"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C6"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "C8"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R10"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R11"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R12"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R13"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R14"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R15"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R16"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R165"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R17"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R18"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R19"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R20"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R21"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R22"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R23"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "R8"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "U1"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  },
+  {
+   "pair": [
+    "J7",
+    "U2"
+   ],
+   "why": "probe: member sits inside the fixed can frame J7 by design"
+  }
+ ]
+}

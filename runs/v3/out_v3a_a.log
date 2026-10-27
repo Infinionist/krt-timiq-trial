@@ -1,0 +1,4 @@
+place_simple: seeds 6, 7 (2 at a time)
+  seed 6: cost 17131.3, 218000 moves in 280.6 s -> /tmp/pcb-trials/timiq/v3/out/v3a/s6.kicad_pcb
+  seed 7: cost 18535.0, 218000 moves in 284.1 s -> /tmp/pcb-trials/timiq/v3/out/v3a/s7.kicad_pcb
+place_simple: judge seeds 6, 7 (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v3/out/v3a/judge.json

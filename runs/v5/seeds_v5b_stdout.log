@@ -1,0 +1,28 @@
+[05:20:44] START gate: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/gate.py
+[05:20:49] END   gate rc=0
+[05:20:49] START stage: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_router/copy_board.py /tmp/pcb-trials/timiq/v5/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb
+[05:20:49] END   stage rc=0
+[05:20:49] START baseline_cans: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/reattach.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+[05:20:49] END   baseline_cans rc=0
+[05:20:49] START place: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_placer/place_simple.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/s{seed}.kicad_pcb --groups /tmp/pcb-trials/timiq/v5/seeds/groups.json --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json --scattered 0 --clustered 1 --anchored 2 --judge 3 --jobs 3 --json /tmp/pcb-trials/timiq/v5/seeds/s{seed}.json
+[05:47:34] END   place rc=4
+[05:47:34] place_simple exit 4 (counts as one failed step); judge.json names: [none]
+forced: seed 0 (cost 27237); 1 part(s) illegal in EVERY seed ['U2'] (the input's: skill 3.6 case 1); per seed illegal counts {0: 9, 1: 7, 2: 7}
+[05:47:34] judge.json names no seed: forcing seed 0 (lowest final.cost) through judge_seeds --seeds (routing anyway)
+[05:47:34] START judge: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_placer/judge_seeds.py /tmp/pcb-trials/timiq/v5/seeds/judge.json --chain /tmp/pcb-trials/timiq/v5/seeds/judge_chain.txt --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json --jobs 3 --seeds 0
+[05:52:13] END   judge rc=0
+[05:52:13] top candidates (judge_seeds ranking), FORCED seed 0: 0
+[05:52:13] START reattach_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/reattach.py /tmp/pcb-trials/timiq/v5/seeds/s0.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb
+[05:52:13] END   reattach_0 rc=0
+[05:52:13] START check_assembly_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_tools/check_assembly.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json --json /tmp/pcb-trials/timiq/v5/seeds/c0.assembly.json
+[05:52:15] END   check_assembly_0 rc=4
+[05:52:15] FAILED (soft): check_assembly_0
+[05:52:15] START check_floorplan_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json
+[05:52:17] END   check_floorplan_0 rc=4
+[05:52:17] FAILED (soft): check_floorplan_0
+[05:52:17] START designer_check_0: /usr/bin/python3 /tmp/pcb-trials/timiq/v5/designer_check.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json --baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb --json /tmp/pcb-trials/timiq/v5/seeds/c0.designer.json
+[05:52:21] END   designer_check_0 rc=1
+[05:52:21] FAILED (soft): designer_check_0
+[05:52:21] START render_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb -o /tmp/pcb-trials/timiq/v5/seeds/c0.png
+[05:52:23] END   render_0 rc=0
+[05:52:23] DONE: candidates 0 (seed 0 forced: no seed was judgeable), 5 failed step(s)/post check(s); PNGs /tmp/pcb-trials/timiq/v5/seeds/c<S>.png; ranking in /tmp/pcb-trials/timiq/v5/seeds/judge.log

@@ -1,0 +1,85 @@
+{
+ "judge": [],
+ "scattered": [
+  0
+ ],
+ "clustered": [
+  1,
+  2
+ ],
+ "anchored": [],
+ "illegal": [
+  0,
+  1,
+  2
+ ],
+ "refused": {},
+ "oversubscribed": [],
+ "claim_arity": [],
+ "floorplan": {
+  "0": 3,
+  "1": 4,
+  "2": 3
+ },
+ "assembly": {
+  "0": 1,
+  "1": 1,
+  "2": 1
+ },
+ "template_off": {
+  "0": [
+   {
+    "anchor": "U22",
+    "ref": "C109",
+    "worst_mm": 15.941,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C107",
+    "worst_mm": 5.191,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "R107",
+    "worst_mm": 1.36,
+    "tolerance_mm": 0.3
+   }
+  ],
+  "1": [
+   {
+    "anchor": "U22",
+    "ref": "C107",
+    "worst_mm": 0.703,
+    "tolerance_mm": 0.3
+   }
+  ],
+  "2": [
+   {
+    "anchor": "U21",
+    "ref": "R103",
+    "worst_mm": 6.54,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U21",
+    "ref": "R106",
+    "worst_mm": 1.128,
+    "tolerance_mm": 0.3
+   },
+   {
+    "anchor": "U22",
+    "ref": "C107",
+    "worst_mm": 1.164,
+    "tolerance_mm": 0.3
+   }
+  ]
+ },
+ "bga_field": {
+  "0": [],
+  "1": [],
+  "2": []
+ },
+ "baseline": "/tmp/pcb-trials/timiq/v6/fixed.kicad_pcb"
+}

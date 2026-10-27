@@ -1,0 +1,12 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+stripped 6 can footprint(s) -> /tmp/pcb-trials/timiq/v5/fixed.kicad_pcb.tmp; side /tmp/pcb-trials/timiq/v5/cans_side.json; poses /tmp/pcb-trials/timiq/v5/cans_poses.json
+seat rc 0
+add_courtyards: 458 footprint(s): 0 already had a courtyard (untouched), 457 added at margin 0.25 mm, 1 skipped ['BOX1'], 0 unmeasurable [] -> /tmp/pcb-trials/timiq/v5/fixed.cy.kicad_pcb
+faces rc 0 set_faces: 81 named, 23 turned from B to F, 58 already on F -> /tmp/pcb-trials/timiq/v5/fixed.faces.kicad_pcb
+emit rc 0
+netrows rc 0 {'netlist_pin': 193, 'netlist_part': 12, 'decaps_soft': 122} ICs with 0 passive candidates: []
+fixed_poses 22 keepouts 24 proximity 327 templates 2 decap rows dropped 0 can blocks ['canJ7', 'canJ7_anchor', 'canJ8', 'canJ8_anchor', 'canJ9', 'canJ9_anchor', 'canJ10', 'canJ10_anchor', 'canJ11', 'canJ11_anchor', 'canJ12', 'canJ12_anchor', 'power']
+{'J7': (28, 24), 'J8': (41, 12), 'J9': (32, 12), 'J10': (19, 28), 'J11': (26, 9), 'J12': (26, 25)} power block 75 large parts started on F 81
+anchor zones {'J7': [137.709, 164.156, 160.501, 186.948], 'J8': [172.246, 177.978, 195.038, 200.77], 'J9': [172.835, 140.144, 195.627, 162.936], 'J10': [209.983, 168.184, 232.775, 190.976], 'J11': [138.673, 126.477, 161.465, 149.269], 'J12': [174.599, 107.669, 197.391, 130.461]}

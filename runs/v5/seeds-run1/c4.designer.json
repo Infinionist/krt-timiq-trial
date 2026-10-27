@@ -1,0 +1,42 @@
+[
+ {
+  "check": "assembly",
+  "pass": false,
+  "detail": "NOT BUILDABLE: blocking ['C110/J11', 'C33/J12', 'C48/J9', 'C6/J7', 'C74/J10', 'J10/R74']... other gates {'silk_enclosed_gating_pairs': 177} (baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb)"
+ },
+ {
+  "check": "floorplan",
+  "pass": false,
+  "detail": "81 error(s) {'decap_pin_distance_inferred': 12, 'proximity': 81, 'template': 2}"
+ },
+ {
+  "check": "members",
+  "pass": false,
+  "detail": "282/282 members in their can on their face; 7 intruder(s); e.g. ['C96@F in J10', 'C97@F in J10', 'R76@B in J10', 'R78@B in J10']"
+ },
+ {
+  "check": "band",
+  "pass": true,
+  "detail": "0 top-side part(s) in the wall band"
+ },
+ {
+  "check": "box",
+  "pass": true,
+  "detail": "6 can(s) checked, outside the box: []"
+ },
+ {
+  "check": "window",
+  "pass": true,
+  "detail": "overlap fraction of each can with the window {'J7': 0.38, 'J8': 0.48, 'J9': 0.65, 'J10': 0.17}"
+ },
+ {
+  "check": "holes",
+  "pass": true,
+  "detail": "14 holes, 0 part(s) inside a keep-out circle; tightest slack (0.005, 'hole-J5-1', 'C135')"
+ },
+ {
+  "check": "far",
+  "pass": true,
+  "detail": "35 of 380 passives are > 10 mm pad-edge from their IC pin (limit 36); worst [('R154', 120.8), ('R160', 85.1), ('R162', 70.5), ('C150', 68.9), ('R163', 67.1)]"
+ }
+]

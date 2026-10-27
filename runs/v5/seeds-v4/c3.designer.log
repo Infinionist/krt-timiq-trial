@@ -1,0 +1,19 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+designer_check /tmp/pcb-trials/timiq/v5/seeds/c3.kicad_pcb
+FAIL  assembly  NOT BUILDABLE: blocking ['J9/U13'] other gates {'silk_enclosed_gating_pairs': 144} (baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb)
+FAIL  floorplan 21 error(s) {'keepout': 1, 'proximity': 6, 'zone_containment': 14} (+117 pin-row proximity miss(es) graded WARN) (+2 anchor-pull miss(es) graded WARN)
+WARN  anchor-pull 2 of 7 anchor pull row(s) missed (anchor IC more than its max_mm from its marker; a pull, not a wall): U11->MK9 7.9 mm, U20->MK10 9.5 mm
+WARN  pin-rows  117 of 286 pin-row proximity limit(s) missed (3 mm pad-edge rows); worst R116->U27 43.8 mm, R157->U44 31.3 mm, L13->J6 28.8 mm
+PASS  members   282/282 members in their can (either face; 116 on F, 166 on B); 0 intruder(s); 8 optional part(s) ignored
+PASS  band      0 top-side part(s) in the wall band
+PASS  box       6 can(s) checked, outside the box: []
+PASS  window    overlap fraction of each can with the window {'J7': 0.38, 'J8': 0.48, 'J9': 0.65, 'J10': 0.17}
+PASS  holes     14 holes, 0 part(s) inside a keep-out circle; tightest slack (0.702, 'hole-J5-1', 'U37')
+FAIL  far       29 of 372 passives are > 10 mm pad-edge from their IC pin (limit 28; 8 LED series resistor(s) left out); worst [('R157', 30.8), ('C163', 29.9), ('C149', 29.4), ('C156', 26.1), ('C200', 24.3)]
+INFO  anchors   5/7 anchor ICs within their pull of the marker (+0 mm); 2 miss(es): U11@F (J9) 8.4 mm from its marker MK9 (pull 7 mm); U20@B (J10) 10.1 mm from its marker MK10 (pull 7 mm)
+INFO  filter-reg power-entry parts to the nearest regulator they serve (box gap): max 25.3 mm (C149 to U43); L12 9.9->U41, L13 5.5->U43, L14 18.9->U45, C143 5.6->U41, C144 17.0->U43, C145 8.6->U45, C146 2.4->U39, C147 0.0->U40, C148 12.3->U41, C149 25.3->U43, C150 21.1->U45
+INFO  keep_away [0] digital side: min 1.39 mm (INSIDE the 3 mm gap), R5 pad 1 (/TOP/PLL/PLL_CLK) to U1 pad 36 (/TOP/PLL/PLL_OUT); 132 aggressor / 13 victim nets; by victim group {'ADC inputs': 9.34, 'DAC I/Q outputs': 11.18, 'LO / PLL out': 1.39, 'RF to the SMA notches J1-J4': 3.12}
+INFO  keep_away [1] regulator input rails and power-entry filter nodes: min 35.89 mm (outside the 3 mm gap), L14 pad 3 (-24V) to U4 pad 45 (/TOP/DAC Interface/DAC_Q); 6 aggressor / 13 victim nets; by victim group {'ADC inputs': 41.77, 'DAC I/Q outputs': 35.89, 'LO / PLL out': 69.37, 'RF to the SMA notches J1-J4': 76.38}
+DESIGNER CHECK FAIL  (5/8; 4 info line(s), 2 warning line(s) not counted)

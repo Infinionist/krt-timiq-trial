@@ -1,0 +1,11 @@
+[18:11:49] START gate: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/gate.py
+GATE PASS
+  ok: U1=proximity, U2=proximity, U3=proximity, U4=proximity, U5=proximity, U6=proximity, U7=proximity, U8=proximity, U9=proximity, U10=proximity, U11=proximity, U12=proximity, U13=proximity, U14=proximity, U15=proximity, U16=proximity, U17=proximity, U18=proximity, U19=proximity, U20=proximity, U21
+[18:11:51] END   gate rc=0
+[18:11:51] START stage: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_router/copy_board.py /tmp/pcb-trials/timiq/v5/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb
+Copied 3 file(s): fixed.kicad_pcb, fixed.kicad_pro, fixed.design-brief.json
+[18:11:52] END   stage rc=0
+[18:11:52] START baseline_cans: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/reattach.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+reattached 6 can(s): J7, J8, J9, J10, J11, J12 -> /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+[18:11:52] END   baseline_cans rc=0
+[18:11:52] START place: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_placer/place_simple.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/s{seed}.kicad_pcb --groups /tmp/pcb-trials/timiq/v5/seeds/groups.json --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json --jobs 3 --json /tmp/pcb-trials/timiq/v5/seeds/s{seed}.json

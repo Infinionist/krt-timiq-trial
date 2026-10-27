@@ -1,0 +1,1125 @@
+{
+ "final": {
+  "wire": 8061.571229620001,
+  "crossings": 868,
+  "claims": 1968.5854590615693,
+  "decaps": 498.85773141265565,
+  "groups": 399.63704629749896,
+  "hints": 496.46968936743747,
+  "halo": 107.5876752953202,
+  "congestion": 4.444489300553432,
+  "pad_hits": 532.0,
+  "decap_limits": 0,
+  "decap_broken": 0,
+  "claim_limits": 645.451270901832,
+  "claim_broken": 173,
+  "template": 66.99772280845282,
+  "cost": 29606.6221840235
+ },
+ "moves": 218000,
+ "seed": 2,
+ "start": "anchored",
+ "runs": 3,
+ "declared": [],
+ "reseated": [],
+ "repaired": false,
+ "illegal": [
+  "C23",
+  "R6",
+  "U2",
+  "U27",
+  "U3",
+  "U4",
+  "U8"
+ ],
+ "tight": {},
+ "refused": {},
+ "estimate_fallback": [],
+ "oversubscribed": [],
+ "claim_arity": [
+  {
+   "ref": "L8",
+   "near": "U21",
+   "max_mm": 3.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C101-Pad1)",
+    "Net-(C98-Pad2)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "L9",
+   "near": "U22",
+   "max_mm": 3.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C103-Pad1)",
+    "Net-(C99-Pad2)"
+   ],
+   "rails": []
+  },
+  {
+   "ref": "U24",
+   "near": "U23",
+   "max_mm": 5.0,
+   "legs": 3,
+   "nets": [
+    "GND",
+    "Net-(U23-Pad3)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U26",
+   "near": "U24",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U24-Pad4)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U27",
+   "near": "U24",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U24-Pad6)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U26",
+   "near": "U25",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U25-Pad7)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U27",
+   "near": "U25",
+   "max_mm": 5.0,
+   "legs": 6,
+   "nets": [
+    "GND",
+    "Net-(U25-Pad9)"
+   ],
+   "rails": [
+    "GND"
+   ]
+  },
+  {
+   "ref": "U28",
+   "near": "R123",
+   "max_mm": 5.0,
+   "legs": 2,
+   "nets": [
+    "Net-(C110-Pad1)",
+    "Net-(R119-Pad1)"
+   ],
+   "rails": []
+  }
+ ],
+ "floorplan": {
+  "errors": 193,
+  "rules": [
+   "proximity",
+   "zone_containment"
+  ]
+ },
+ "assembly": {
+  "blocking": 1,
+  "buildable": false,
+  "fired": []
+ },
+ "bga_field": [],
+ "decap_residual": [],
+ "decap_repair": null,
+ "unseated": {},
+ "notes": [
+  "template U21: C98, L8, R103, C101, C100, R102, L10, C108, R106, C105 seated as drawn and carried with it",
+  "template U22: C99, L9, R105, C103, C102, R104, L11, C109, R107, C107 seated as drawn and carried with it",
+  "decap C1 on 3V3_1 serves U1, U2",
+  "decap C104 on 5V_2 serves U16",
+  "decap C106 on 5V_2 serves U16",
+  "decap C114 on 5V_2 serves U28, U29, U30",
+  "decap C115 on -5V serves U28",
+  "decap C116 on 3V3_2 serves U29",
+  "decap C117 on 5V_2 serves U28, U29, U30",
+  "decap C118 on 5V_2 serves U28, U29, U30",
+  "decap C119 on 5V_2 serves U28, U29, U30",
+  "decap C123 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C124 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C125 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C126 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C127 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C128 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C129 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C130 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C131 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C132 on 5V_2 serves U33",
+  "decap C133 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C134 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C135 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C136 on 5V_1 serves U36, U37",
+  "decap C137 on 3V3_2 serves U31, U32, U34, U35, U38",
+  "decap C138 on 5V_1 serves U36, U37",
+  "decap C21 on 3V3_1 serves U1, U2",
+  "decap C26 on 5V_2 serves U4, U7, U8, U9",
+  "decap C29 on 15V serves U5, U6",
+  "decap C30 on 15V serves U5, U6",
+  "decap C31 on -15V serves U5, U6",
+  "decap C32 on -15V serves U5, U6",
+  "decap C35 on 5V_2 serves U4, U7, U8, U9",
+  "decap C36 on 5V_2 serves U4, U7, U8, U9",
+  "decap C39 on -5V serves U7, U8, U9",
+  "decap C4 on 3V3_1 serves U1, U2",
+  "decap C40 on -5V serves U7, U8, U9",
+  "decap C41 on 5V_2 serves U4, U7, U8, U9",
+  "decap C44 on -5V serves U7, U8, U9",
+  "decap C45 on 15V serves U10, U11",
+  "decap C46 on 15V serves U10, U11",
+  "decap C49 on -15V serves U10, U11",
+  "decap C50 on -15V serves U10, U11",
+  "decap C51 on 5V_2 serves U12, U13, U14, U15",
+  "decap C52 on 5V_2 serves U12, U13, U14, U15",
+  "decap C59 on 5V_2 serves U12, U13, U14, U15",
+  "decap C6 on 3V3_1 serves U1, U2",
+  "decap C60 on 5V_2 serves U12, U13, U14, U15",
+  "decap C61 on -5V serves U14, U15",
+  "decap C62 on -5V serves U14, U15",
+  "decap C65 on 5V_2 serves U16",
+  "decap C66 on 5V_2 serves U16",
+  "decap C67 on 5V_2 serves U16",
+  "decap C68 on 5V_2 serves U16",
+  "decap C69 on 5V_2 serves U16",
+  "decap C71 on 5V_2 serves U16",
+  "decap C74 on 5V_1 serves U18, U19, U20",
+  "decap C75 on 5V_1 serves U18, U19, U20",
+  "decap C76 on 5V_1 serves U18, U19, U20",
+  "decap C77 on 5V_1 serves U18, U19, U20",
+  "decap C78 on 5V_1 serves U18, U19, U20",
+  "decap C79 on 5V_1 serves U18, U19, U20",
+  "decap C8 on 3V3_1 serves U1, U2",
+  "decap C82 on 5V_1 serves U18, U19, U20",
+  "decap C83 on 5V_1 serves U18, U19, U20",
+  "decap C84 on 5V_1 serves U18, U19, U20",
+  "decap C85 on 5V_1 serves U18, U19, U20",
+  "decap C86 on 5V_1 serves U18, U19, U20",
+  "decap C87 on 5V_1 serves U18, U19, U20",
+  "decap C90 on 5V_1 serves U18, U19, U20",
+  "decap C91 on 5V_1 serves U18, U19, U20",
+  "decap C92 on 5V_1 serves U18, U19, U20",
+  "decap C93 on 5V_1 serves U18, U19, U20",
+  "decap C94 on 5V_1 serves U18, U19, U20",
+  "decap C95 on 5V_1 serves U18, U19, U20",
+  "decap limits priced: 0 term(s) (decap_pin_distance 8.1577 mm)"
+ ],
+ "groups": [
+  [
+   "canJ7",
+   [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "U1",
+    "U2",
+    "MK7",
+    "J1",
+    "J2"
+   ]
+  ],
+  [
+   "canJ8",
+   [
+    "C20",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C98",
+    "C99",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "L8",
+    "L9",
+    "L10",
+    "L11",
+    "R14",
+    "R16",
+    "R17",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R165",
+    "U3",
+    "U16",
+    "U17",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "MK8"
+   ]
+  ],
+  [
+   "canJ9",
+   [
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "MK9"
+   ]
+  ],
+  [
+   "canJ10",
+   [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "R74",
+    "R77",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20",
+    "C96",
+    "C97",
+    "R75",
+    "R76",
+    "R78",
+    "R79",
+    "R88",
+    "R89",
+    "MK10",
+    "J3",
+    "J4"
+   ]
+  ],
+  [
+   "canJ11",
+   [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30",
+    "MK11"
+   ]
+  ],
+  [
+   "canJ12",
+   [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "MK12"
+   ]
+  ],
+  [
+   "digital",
+   [
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "J5",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38"
+   ]
+  ],
+  [
+   "status_led",
+   [
+    "D1",
+    "Q1",
+    "R1"
+   ]
+  ],
+  [
+   "pw_in",
+   [
+    "C143",
+    "C144",
+    "C145",
+    "C148",
+    "C149",
+    "C150",
+    "J6"
+   ]
+  ],
+  [
+   "pw_24v",
+   [
+    "L13",
+    "L14",
+    "C157",
+    "C164",
+    "C156",
+    "C163"
+   ]
+  ],
+  [
+   "pw_7v5",
+   [
+    "L12",
+    "C155",
+    "C162"
+   ]
+  ],
+  [
+   "pw_U39",
+   [
+    "U39",
+    "C141",
+    "C146",
+    "C151",
+    "C153",
+    "C158",
+    "C160",
+    "C166"
+   ]
+  ],
+  [
+   "pw_U40",
+   [
+    "U40",
+    "C142",
+    "C147",
+    "C152",
+    "C154",
+    "C159",
+    "C161",
+    "C140"
+   ]
+  ],
+  [
+   "pw_U41",
+   [
+    "U41",
+    "C170",
+    "C175",
+    "C180",
+    "C183",
+    "C188",
+    "C193",
+    "C165"
+   ]
+  ],
+  [
+   "pw_U42",
+   [
+    "U42",
+    "C171",
+    "C176",
+    "C181",
+    "C184",
+    "C189",
+    "C194",
+    "C139"
+   ]
+  ],
+  [
+   "pw_U43",
+   [
+    "U43",
+    "C172",
+    "C177",
+    "C182",
+    "C185",
+    "C190",
+    "C195",
+    "C167"
+   ]
+  ],
+  [
+   "pw_U44",
+   [
+    "U44",
+    "C173",
+    "C178",
+    "C186",
+    "C191",
+    "C196",
+    "C198",
+    "C200",
+    "R156",
+    "C168"
+   ]
+  ],
+  [
+   "pw_U45",
+   [
+    "U45",
+    "C174",
+    "C179",
+    "C187",
+    "C192",
+    "C197",
+    "C199",
+    "C201",
+    "R158",
+    "C169"
+   ]
+  ],
+  [
+   "pw_misc",
+   [
+    "R154",
+    "R155",
+    "R160",
+    "R161",
+    "R162",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "R157",
+    "R159",
+    "R163",
+    "R164"
+   ]
+  ]
+ ],
+ "stats": {
+  "shift": [
+   83117,
+   5876
+  ],
+  "turn": [
+   31060,
+   7328
+  ],
+  "swap": [
+   20959,
+   619
+  ],
+  "jump": [
+   20805,
+   2913
+  ],
+  "dock": [
+   20635,
+   3432
+  ],
+  "gshift": [
+   24932,
+   844
+  ],
+  "gturn": [
+   3750,
+   614
+  ],
+  "gswap": [
+   2397,
+   78
+  ],
+  "escape": [
+   10345,
+   300
+  ]
+ },
+ "templates": [
+  {
+   "anchor": "U21",
+   "ref": "C98",
+   "worst_mm": 3.076,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L8",
+   "worst_mm": 0.599,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R103",
+   "worst_mm": 4.102,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C101",
+   "worst_mm": 1.607,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C100",
+   "worst_mm": 0.0,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R102",
+   "worst_mm": 2.205,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L10",
+   "worst_mm": 0.62,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C108",
+   "worst_mm": 2.374,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R106",
+   "worst_mm": 0.771,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C105",
+   "worst_mm": 9.759,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C99",
+   "worst_mm": 13.25,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L9",
+   "worst_mm": 1.869,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R105",
+   "worst_mm": 1.665,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C103",
+   "worst_mm": 4.667,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C102",
+   "worst_mm": 7.262,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R104",
+   "worst_mm": 2.706,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L11",
+   "worst_mm": 4.517,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C109",
+   "worst_mm": 3.387,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R107",
+   "worst_mm": 2.615,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C107",
+   "worst_mm": 6.962,
+   "tolerance_mm": 0.3
+  }
+ ],
+ "hints_saturated": [],
+ "template_keepout": [],
+ "pad_overhang": {
+  "BOX1": 166.74
+ },
+ "template_off": [
+  {
+   "anchor": "U21",
+   "ref": "C98",
+   "worst_mm": 3.076,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L8",
+   "worst_mm": 0.599,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R103",
+   "worst_mm": 4.102,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C101",
+   "worst_mm": 1.607,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R102",
+   "worst_mm": 2.205,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "L10",
+   "worst_mm": 0.62,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C108",
+   "worst_mm": 2.374,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "R106",
+   "worst_mm": 0.771,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U21",
+   "ref": "C105",
+   "worst_mm": 9.759,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C99",
+   "worst_mm": 13.25,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L9",
+   "worst_mm": 1.869,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R105",
+   "worst_mm": 1.665,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C103",
+   "worst_mm": 4.667,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C102",
+   "worst_mm": 7.262,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R104",
+   "worst_mm": 2.706,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "L11",
+   "worst_mm": 4.517,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C109",
+   "worst_mm": 3.387,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "R107",
+   "worst_mm": 2.615,
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "ref": "C107",
+   "worst_mm": 6.962,
+   "tolerance_mm": 0.3
+  }
+ ],
+ "faces": {
+  "flippable": [
+   "C104",
+   "C106",
+   "C26",
+   "C27",
+   "C28",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C39",
+   "C40",
+   "C41",
+   "C44",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C71",
+   "R108",
+   "R71",
+   "R72"
+  ],
+  "needed": {
+   "C104": "room for C101 (past its claim limit) in group canJ8",
+   "C106": "room for C101 (past its claim limit) in group canJ8",
+   "C64": "room for C101 (past its claim limit) in group canJ8",
+   "C65": "room for C101 (past its claim limit) in group canJ8",
+   "C66": "room for C101 (past its claim limit) in group canJ8",
+   "C67": "room for C101 (past its claim limit) in group canJ8",
+   "C68": "room for C101 (past its claim limit) in group canJ8",
+   "C69": "room for C101 (past its claim limit) in group canJ8",
+   "C71": "room for C101 (past its claim limit) in group canJ8",
+   "R108": "room for C101 (past its claim limit) in group canJ8",
+   "R71": "room for C101 (past its claim limit) in group canJ8",
+   "R72": "room for C101 (past its claim limit) in group canJ8",
+   "C26": "no legal pose",
+   "C27": "past its claim limit",
+   "C28": "past its claim limit",
+   "C29": "room for C37 (past its claim limit) in group canJ12",
+   "C30": "room for C37 (past its claim limit) in group canJ12",
+   "C31": "room for C37 (past its claim limit) in group canJ12",
+   "C32": "room for C37 (past its claim limit) in group canJ12",
+   "C33": "room for C37 (past its claim limit) in group canJ12",
+   "C34": "room for C37 (past its claim limit) in group canJ12",
+   "C35": "room for C37 (past its claim limit) in group canJ12",
+   "C36": "room for C37 (past its claim limit) in group canJ12",
+   "C39": "room for C37 (past its claim limit) in group canJ12",
+   "C40": "room for C37 (past its claim limit) in group canJ12",
+   "C41": "room for C37 (past its claim limit) in group canJ12",
+   "C44": "room for C37 (past its claim limit) in group canJ12"
+  },
+  "needed_kept": true
+ },
+ "seconds": {
+  "setup": 1.2,
+  "anneal": 1598.7
+ }
+}

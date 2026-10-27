@@ -1,0 +1,867 @@
+{
+ "rows": [
+  {
+   "ref": "C12",
+   "near": "U1",
+   "pads": [
+    "9"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VrefVCO decap 0.1uF (Fig 32 label \"0.1 µF\" at VrefVCO)",
+   "board_match": "C12.1 on net Net-(C12-Pad1) = U1.9 net",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; pin table p5: \"VrefVCO 9 LDO Bypass LDO Bypass\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "R12",
+   "near": "U1",
+   "pads": [
+    "8"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VregVCO series 4.7 ohm (Fig 32 labels \"4.7 µF\" \"4.7Ω\" at VregVCO)",
+   "board_match": "R12.1 on net Net-(R12-Pad1) = U1.8 net",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p5: \"VregVCO 8 LDO Output LDO Output for VCO\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C14",
+   "near": "U1",
+   "pads": [
+    "8"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VregVCO decap 4.7uF",
+   "board_match": "C14.1 on net Net-(C14-Pad1) (via R12)",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p5: \"VregVCO 8 LDO Output LDO Output for VCO\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "R11",
+   "near": "U1",
+   "pads": [
+    "2"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VregRFout series 10 ohm (Fig 32 \"1 µF\" \"10Ω\")",
+   "board_match": "R11.1 on net Net-(R11-Pad1) = U1.2 net",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p5: \"VregRFout 2 LDO Output LDO Output for RF output buffer.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C10",
+   "near": "U1",
+   "pads": [
+    "2"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VregRFout decap 1uF",
+   "board_match": "C10.1 on net Net-(C10-Pad1) (via R11)",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p5: \"VregRFout 2 LDO Output LDO Output for RF output buffer.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "R9",
+   "near": "U1",
+   "pads": [
+    "26"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VregFRAC series 4.7 ohm (Fig 32 \"1 µF\" \"4.7Ω\")",
+   "board_match": "R9.2 on net Net-(R9-Pad2) = U1.26 net",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p5: \"VregFRAC 26 LDO Output Regulated power supply used for the fractional delta-sigma circuitry.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C5",
+   "near": "U1",
+   "pads": [
+    "26"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VregFRAC decap 1uF",
+   "board_match": "C5.1 on net Net-(C5-Pad1) (via R9)",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p5: \"VregFRAC 26 LDO Output Regulated power supply used for the fractional delta-sigma circuitry.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L3",
+   "near": "U1",
+   "pads": [
+    "25"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccFRAC ferrite from +3.3V (Fig 32 \"Ferrite\")",
+   "board_match": "L3.2 on net Net-(L3-Pad2) = U1.25 net",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L2",
+   "near": "U1",
+   "pads": [
+    "23"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccOSCin ferrite from +3.3V (Fig 32 \"Ferrite\")",
+   "board_match": "L2.2 on net Net-(L2-Pad2) = U1.23 net",
+   "why": "Figure 32. Full Chip Mode, Differential OSCin; p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L6",
+   "near": "U1",
+   "pads": [
+    "13"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccPLL1 ferrite",
+   "board_match": "L6.2 on net Net-(C13-Pad1) = U1.13 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C13",
+   "near": "U1",
+   "pads": [
+    "13"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccPLL1 0.1uF bypass (Fig 32 \"0.1 µF\")",
+   "board_match": "C13.1 on net Net-(C13-Pad1) = U1.13 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L4",
+   "near": "U1",
+   "pads": [
+    "14"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccCP1 ferrite",
+   "board_match": "L4.2 on net Net-(C9-Pad1) = U1.14 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C9",
+   "near": "U1",
+   "pads": [
+    "14"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccCP1 0.1uF bypass",
+   "board_match": "C9.1 on net Net-(C9-Pad1) = U1.14 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L5",
+   "near": "U1",
+   "pads": [
+    "18"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccCP2 ferrite",
+   "board_match": "L5.2 on net Net-(C11-Pad1) = U1.18 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C11",
+   "near": "U1",
+   "pads": [
+    "18"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccCP2 0.1uF bypass",
+   "board_match": "C11.1 on net Net-(C11-Pad1) = U1.18 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L7",
+   "near": "U1",
+   "pads": [
+    "19"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccPLL2 ferrite",
+   "board_match": "L7.2 on net Net-(C15-Pad1) = U1.19 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C15",
+   "near": "U1",
+   "pads": [
+    "19"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccPLL2 0.1uF bypass",
+   "board_match": "C15.1 on net Net-(C15-Pad1) = U1.19 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "L1",
+   "near": "U1",
+   "pads": [
+    "28"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccDig ferrite",
+   "board_match": "L1.2 on net Net-(C2-Pad1) = U1.28 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C2",
+   "near": "U1",
+   "pads": [
+    "28"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "VccDig 0.1uF bypass",
+   "board_match": "C2.1 on net Net-(C2-Pad1) = U1.28 net",
+   "why": "p57: \"For the other Vcc pins, ferrite beads and bypass capacitors may be added in order to improve spurious performance.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C7",
+   "near": "U1",
+   "pads": [
+    "30"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "Bypass-pin cap to VccBias (pin 29)",
+   "board_match": "C7.2 on net Net-(C7-Pad2) = U1.30 net",
+   "why": "p4 pin table: \"Bypass 30 Bypass Put a cap to the VccBias pin.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C3",
+   "near": "U1",
+   "pads": [
+    "21"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "OSCin AC-coupling cap 0.1uF",
+   "board_match": "C3.1 on net /TOP/PLL/PLL_IN = U1.21 net",
+   "why": "p57: \"For both single-ended and differential operation, the input is AC coupled because the OSCin/OSCin* pins self-bias to an optimal DC operating point.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 57
+  },
+  {
+   "ref": "R10",
+   "near": "U1",
+   "pads": [
+    "22"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "OSCin* 50 ohm termination (board has no series cap on this net: see why/notes)",
+   "board_match": "R10.1 on net Net-(R10-Pad1) = U1.22 net",
+   "why": "p57: \"The OSCin* pin is terminated the same as the OSCin pin.\"; Fig 34 p58 (single-ended) shows 50 ohm and 0.1 µF on each of OSCin, OSCin*",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 57
+  },
+  {
+   "ref": "C24",
+   "near": "U1",
+   "pads": [
+    "12"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "ExtVCOin AC-coupling cap",
+   "board_match": "C24.1 on net Net-(C24-Pad1) = U1.12 net",
+   "why": "p4 pin table: \"ExtVCOin 12 RF Input Optional input for use with an external VCO. This pin should be AC coupled if used or left open if not used.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C16",
+   "near": "U1",
+   "pads": [
+    "36"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "RFout AC-coupling cap 100pF (Fig 32 \"100 pF\")",
+   "board_match": "C16.1 on net /TOP/PLL/PLL_OUT = U1.36 net",
+   "why": "p5 pin table: \"RFout 36 RF Output RF output. Must be AC coupled if used.\"; Fig 32 p56 \"100 pF\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 5
+  },
+  {
+   "ref": "C18",
+   "near": "U1",
+   "pads": [
+    "15"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "CPout loop-filter C1_LF 2.2nF",
+   "board_match": "C18.1 on net Net-(C18-Pad1) = U1.15 net",
+   "why": "Table 19 p59: \"C1_LF 2.2 nF\"; Fig 29 p27 shows C1_LF from CPout node to ground",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 59
+  },
+  {
+   "ref": "R15",
+   "near": "U1",
+   "pads": [
+    "15"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "CPout-to-Vtune link (0 ohm); Fig 29 p27 joins CPout and Vtune nodes",
+   "board_match": "R15.2 on net Net-(C18-Pad1) = U1.15 net",
+   "why": "Fig 29 p27 (figure, no text quote beyond label) \"Figure 29. Partially Integrated Loop Filter\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 27
+  },
+  {
+   "ref": "C19",
+   "near": "U1",
+   "pads": [
+    "16"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "Vtune cap 22nF (Table 19 C2_LF 22 nF)",
+   "board_match": "C19.1 on net Net-(C19-Pad1) = U1.16 net",
+   "why": "Table 19 p59: \"C2_LF 22 nF\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 59
+  },
+  {
+   "ref": "R13",
+   "near": "U1",
+   "pads": [
+    "15"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "loop-filter R2_LF series resistor: datasheet example 470 ohm, board 4K7 (discrepancy, WEBENCH-derived)",
+   "board_match": "R13.1 on net Net-(C18-Pad1) = U1.15 net",
+   "why": "Table 19 p59: \"R2_LF 470 Ω\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 59
+  },
+  {
+   "ref": "C17",
+   "near": "U1",
+   "pads": [
+    "15"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "loop-filter C2_LF branch (22nF) behind R13",
+   "board_match": "C17.1 on net Net-(C17-Pad1) (via R13)",
+   "why": "Table 19 p59: \"C2_LF 22 nF\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 59
+  },
+  {
+   "ref": "R22",
+   "near": "U1",
+   "pads": [
+    "17"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "FLout R2pLF resistor (FLout pin 17)",
+   "board_match": "R22.1 on net Net-(R22-Pad1) = U1.17 net",
+   "why": "Fig 32 p56 labels \"R2pLF\" at FLout; pin table p4: \"FLout 17 Output Fastlock output.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "page": 56
+  },
+  {
+   "ref": "C98",
+   "near": "U21",
+   "pads": [
+    "2"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C1 RF-IN series DC block (datasheet 1000pF 0402, board 100pF 0603)",
+   "board_match": "C98.2 on net Net-(C98-Pad2) = U21.2 net",
+   "why": "p4 Fig 1 table: \"C1, C2 1000pF 0402\"; p3 pad table: \"RF-IN 2 Connects to RF input via C1 and Pad 1 via L1\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "L8",
+   "near": "U21",
+   "pads": [
+    "2"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "L1 10nH bias choke RF-IN node to pad 1",
+   "board_match": "L8.2 on net Net-(C98-Pad2) = U21.2 net",
+   "why": "p4 Fig 1 table: \"L1 10nH 0402\"; p3 pad table: \"RF-IN 2 Connects to RF input via C1 and Pad 1 via L1\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "L8",
+   "near": "U21",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "L1 10nH, pad 1 end",
+   "board_match": "L8.1 on net Net-(C101-Pad1) = U21.1 net",
+   "why": "p3: \"Bias 1 Connects to Supply voltage (VS) via R1 & Rb\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 3
+  },
+  {
+   "ref": "R103",
+   "near": "U21",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "R1 49.9 ohm bias resistor",
+   "board_match": "R103.2 on net Net-(C101-Pad1) = U21.1 net",
+   "why": "p4 Fig 1 table: \"R1 49.9Ω 0402\"; p3 \"Bias 1 Connects to Supply voltage (VS) via R1 & Rb\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C101",
+   "near": "U21",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C3 100pF at bias pin to ground",
+   "board_match": "C101.1 on net Net-(C101-Pad1) = U21.1 net",
+   "why": "p4 Fig 1 table: \"C3, C4 100pF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "R102",
+   "near": "U21",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "Rb 5.11k bias resistor to VS (via R1 node)",
+   "board_match": "R102.2 on net Net-(C100-Pad1) (via C100)",
+   "why": "p4 Fig 1 table: \"Rb 5.11kΩ 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C100",
+   "near": "U21",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C5 4.7uF at R1/Rb node",
+   "board_match": "C100.1 on net Net-(C100-Pad1) (via R103)",
+   "why": "p4 Fig 1 table: \"C5, C6 4.7µF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "L10",
+   "near": "U21",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "L2 8.2nH RF-OUT/DC-in choke",
+   "board_match": "L10.2 on net Net-(C108-Pad1) = U21.7 net",
+   "why": "p4 Fig 1 table: \"L2 8.2nH 0402\"; p3 \"RF-OUT & DC-IN 7 Connects to RF out via C2 and VS via L2 & R2\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C108",
+   "near": "U21",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C2 RF-OUT series DC block (datasheet 1000pF 0402, board 100pF 0603)",
+   "board_match": "C108.1 on net Net-(C108-Pad1) = U21.7 net",
+   "why": "p4 Fig 1 table: \"C1, C2 1000pF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "R106",
+   "near": "U21",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "R2 0 ohm in series with L2 to VS (via L2 node)",
+   "board_match": "R106.2 on net Net-(C105-Pad1) (via L10)",
+   "why": "p4 Fig 1 table: \"R2 0Ω 0603\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C105",
+   "near": "U21",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C4 100pF supply-side decap at L2/R2 node",
+   "board_match": "C105.1 on net Net-(C105-Pad1) (via L10)",
+   "why": "p4 Fig 1 table: \"C3, C4 100pF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C99",
+   "near": "U22",
+   "pads": [
+    "2"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C1 RF-IN series DC block (datasheet 1000pF 0402, board 100pF 0603)",
+   "board_match": "C99.2 on net Net-(C99-Pad2) = U22.2 net",
+   "why": "p4 Fig 1 table: \"C1, C2 1000pF 0402\"; p3 pad table: \"RF-IN 2 Connects to RF input via C1 and Pad 1 via L1\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "L9",
+   "near": "U22",
+   "pads": [
+    "2"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "L1 10nH bias choke RF-IN node to pad 1",
+   "board_match": "L9.2 on net Net-(C99-Pad2) = U22.2 net",
+   "why": "p4 Fig 1 table: \"L1 10nH 0402\"; p3 pad table: \"RF-IN 2 Connects to RF input via C1 and Pad 1 via L1\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "L9",
+   "near": "U22",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "L1 10nH, pad 1 end",
+   "board_match": "L9.1 on net Net-(C103-Pad1) = U22.1 net",
+   "why": "p3: \"Bias 1 Connects to Supply voltage (VS) via R1 & Rb\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 3
+  },
+  {
+   "ref": "R105",
+   "near": "U22",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "R1 49.9 ohm bias resistor",
+   "board_match": "R105.2 on net Net-(C103-Pad1) = U22.1 net",
+   "why": "p4 Fig 1 table: \"R1 49.9Ω 0402\"; p3 \"Bias 1 Connects to Supply voltage (VS) via R1 & Rb\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C103",
+   "near": "U22",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C3 100pF at bias pin to ground",
+   "board_match": "C103.1 on net Net-(C103-Pad1) = U22.1 net",
+   "why": "p4 Fig 1 table: \"C3, C4 100pF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "R104",
+   "near": "U22",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "Rb 5.11k bias resistor to VS (via R1 node)",
+   "board_match": "R104.2 on net Net-(C102-Pad1) (via C102)",
+   "why": "p4 Fig 1 table: \"Rb 5.11kΩ 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C102",
+   "near": "U22",
+   "pads": [
+    "1"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C5 4.7uF at R1/Rb node",
+   "board_match": "C102.1 on net Net-(C102-Pad1) (via R105)",
+   "why": "p4 Fig 1 table: \"C5, C6 4.7µF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "L11",
+   "near": "U22",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "L2 8.2nH RF-OUT/DC-in choke",
+   "board_match": "L11.2 on net Net-(C109-Pad1) = U22.7 net",
+   "why": "p4 Fig 1 table: \"L2 8.2nH 0402\"; p3 \"RF-OUT & DC-IN 7 Connects to RF out via C2 and VS via L2 & R2\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C109",
+   "near": "U22",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C2 RF-OUT series DC block (datasheet 1000pF 0402, board 100pF 0603)",
+   "board_match": "C109.1 on net Net-(C109-Pad1) = U22.7 net",
+   "why": "p4 Fig 1 table: \"C1, C2 1000pF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "R107",
+   "near": "U22",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "R2 0 ohm in series with L2 to VS (via L2 node)",
+   "board_match": "R107.2 on net Net-(C107-Pad1) (via L11)",
+   "why": "p4 Fig 1 table: \"R2 0Ω 0603\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C107",
+   "near": "U22",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "C4 100pF supply-side decap at L2/R2 node",
+   "board_match": "C107.1 on net Net-(C107-Pad1) (via L11)",
+   "why": "p4 Fig 1 table: \"C3, C4 100pF 0402\"",
+   "doc": "/tmp/pcb-trials/timiq/run/datasheets/PMA2-43LN/pma2.pdf",
+   "page": 4
+  },
+  {
+   "ref": "C120",
+   "near": "U29",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "REFCAP 1uF HF decap (REFGND pin 6); board 0603 on B.Cu while chip on F.Cu",
+   "board_match": "C120.1 on net Net-(C120-Pad1) = U29.7 net",
+   "why": "p67: \"a small, 1-μF, X7R-grade, 0603-size ceramic capacitor placed close to the device pins for decoupling the high-frequency signals ... Both of these capacitors must be directly connected to the device pins without any vias between the pins and capacitors.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/ADS8694/ads8694.pdf",
+   "page": 67
+  },
+  {
+   "ref": "C121",
+   "near": "U29",
+   "pads": [
+    "7"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "REFCAP 22uF bulk (datasheet 1210 X7R, board 0603 22uF-10V)",
+   "board_match": "C121.1 on net Net-(C120-Pad1) = U29.7 net",
+   "why": "p67: \"a 22-µF, X7R-grade, 1210-size ceramic capacitor to provide the charge required by the reference circuit of the device\"; p28: \"A minimum capacitance of 10 µF must be placed between REFCAP (pin 7) and REFGND (pin 6). Place another capacitor of 1 µF as close to the REFCAP pin as possible for decoupling high-frequency signals.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/ADS8694/ads8694.pdf",
+   "page": 67
+  },
+  {
+   "ref": "C122",
+   "near": "U29",
+   "pads": [
+    "5"
+   ],
+   "max_mm": null,
+   "basis": "pad_edge",
+   "function": "REFIO 10uF (ds p26/p67 rule is for the internal reference; board REFIO also driven by U30, see notes[0])",
+   "board_match": "C122.1 on net Net-(C122-Pad1) = U29.5 net",
+   "why": "p26: \"Placing a 10-µF (minimum) decoupling capacitor between the REFIO pin and REFGND (pin 6) is recommended ... The capacitor must be placed as close to the REFIO pin as possible.\"; p67: \"The REFIO pin also must be decoupled with a 10-µF ceramic capacitor, if the internal reference of the device is used. The capacitor must be placed close to the device pins.\"",
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/ADS8694/ads8694.pdf",
+   "page": 26
+  }
+ ],
+ "templates": [
+  {
+   "chip": "U1 LMX2541",
+   "figure": "Figure 43. Layout (section 12.2 Layout Example)",
+   "page": 63,
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/lmx2541.pdf",
+   "image": "/tmp/pcb-trials/timiq/v5/datasheets/LMX2541/p63.png",
+   "usability": "weak: a PCB screenshot with partly unreadable designators (L1,L2,C16,R50,C17,C18,R48,C19,C20,C21,R49,C27,C28,L6,L7,R23-R25...) that do not match datasheet Fig 32 names; shows RFout to the left, loop-filter parts upper right, decaps bottom. No text explains it.",
+   "members": {
+    "C16": "RFout AC-couple (pin 36)",
+    "C24": "ExtVCOin AC-couple (pin 12)",
+    "C3": "OSCin AC-couple (pin 21)",
+    "R10": "OSCin* 50R (pin 22)",
+    "C13/L6": "VccPLL1 (13)",
+    "C9/L4": "VccCP1 (14)",
+    "C11/L5": "VccCP2 (18)",
+    "C15/L7": "VccPLL2 (19)",
+    "C2/L1": "VccDig (28)",
+    "L2": "VccOSCin (23)",
+    "L3": "VccFRAC (25)",
+    "R11,C10": "VregRFout (2)",
+    "R12,C14": "VregVCO (8)",
+    "C12": "VrefVCO (9)",
+    "R9,C5": "VregFRAC (26)",
+    "C7": "Bypass (30)",
+    "C18": "CPout C1_LF (15)",
+    "R13,C17": "R2_LF branch",
+    "C19,C22,C25,R22,R15": "Vtune side / FLout"
+   }
+  },
+  {
+   "chip": "U29 ADS8694",
+   "figure": "Figure 112. Board Layout for the ADS8694 and ADS8698 (section 11.2)",
+   "page": 68,
+   "doc": "/tmp/pcb-trials/timiq/v5/datasheets/ADS8694/ads8694.pdf",
+   "image": "/tmp/pcb-trials/timiq/v5/datasheets/ADS8694/p68.png",
+   "usability": "good as a pin-side placement diagram: shows which cap sits at which pin, drawn schematically (not to scale).",
+   "members": {
+    "C122": "REFIO (5) 10uF to REFGND",
+    "C120": "REFCAP (7) 1uF",
+    "C121": "REFCAP (7) 22uF",
+    "not on board": "1uF at AVDD 8/9 side, 1uF at AVDD 30, 10uF at DVDD 34 (see unmatched)"
+   }
+  }
+ ],
+ "unmatched": [
+  {
+   "chip": "U29",
+   "pins": [
+    "9",
+    "30"
+   ],
+   "need": "AVDD 1uF per supply pin",
+   "why": "p66: \"The AVDD supply pins must be decoupled with AGND by using a minimum 10-µF and 1-µF capacitor on each supply. Place the 1-µF capacitor as close to the supply pins as possible.\"; p67: \"TI recommends using a 1-μF, X7R-grade, 0603-size ceramic capacitor with at least a 10-V rating in close proximity to the analog (AVDD) supply pins.\"",
+   "board": "no 1uF on net 5V_2 in the ADC group; ADC-group caps on 5V_2: C114 10nF, C117 10nF, C118 10nF, C119 100nF (current gaps 7.4-17 mm, unplaced); 5V_2 caps elsewhere: C41/C36/C26/C35 10nF, C59/C60 10nF, C69/C71 4.7uF, C147/C152/C154/C159/C161 10uF 0805 (other groups)"
+  },
+  {
+   "chip": "U29",
+   "pins": [
+    "34"
+   ],
+   "need": "DVDD 10uF 0805 close to pin",
+   "why": "p66: \"Place a minimum 10-µF decoupling capacitor very close to the DVDD supply to provide the high-frequency digital switching current.\"; p67: \"For decoupling the digital (DVDD) supply pin, a 10-μF, X7R-grade, 0805-size ceramic capacitor with at least a 10-V rating is recommended.\"",
+   "board": "ADC group has only C116 10nF on 3V3_2 (14.3 mm away); 10uF 0805 C181/C184/C189 are in ldo_pos group (4.5-7.5 mm from pin 34 but not the ADC group)"
+  },
+  {
+   "chip": "U16 HMC1097LP4E, U18-U20 HMC705LP4E, U4 LTC2758",
+   "need": "datasheet text, figure, support parts",
+   "why": "NOT FOUND: analog.com did not answer from this machine (curl: no response / HTTP2 INTERNAL_ERROR / code 000 on every URL tried: .../data-sheets/hmc1097lp4e.pdf, hmc705lp4e.pdf, 2758fb.pdf); mouser mirror returned a JS challenge page, not a PDF. No local copy found. Nothing filled from memory.",
+   "board": "fit_template outputs saved: /tmp/pcb-trials/timiq/v5/datasheets/fit_U16.txt, fit_U18.txt, fit_U19.txt, fit_U20.txt, fit_U4.txt"
+  },
+  {
+   "chip": "U21,U22 PMA2-43LN+",
+   "need": "layout figure / placement text",
+   "why": "NOT STATED in pma2.pdf (REV. B, 5 pages): only \"Suggested Layout for PCB Design PL-400\" and \"Evaluation Board TB-805+\" are named (p5); the layout drawing PL-400 is a separate document not downloaded. No distance given."
+  },
+  {
+   "chip": "U1 LMX2541",
+   "need": "distance / placement text",
+   "why": "NOT STATED: section 12.1 Layout Guidelines (p62) only lists PLL configuration steps; no support part is placed at a pin and no distance is given. Only pin-level text: p57 \"The GND pins should have separate vias to ground and the GND DAP also needs to be grounded with 9 vias. The VccVCO, VccRFout, and VccDiv pins can be shorted to the power plane, but need to be connected.\""
+  }
+ ],
+ "notes": [
+  "ADS8694 CONTRADICTION (board vs p26/p28): board REFSEL (pin 3) net is R125.1 with R125.2 to GND (1k), i.e. low; p26: \"In order to select the internal reference, the REFSEL pin must be tied low or connected to AGND.\" while REFIO (pin 5) is on net Net-(C122-Pad1) shared with U30.6/7 (LTC6655-4.096, pin function not checked here). p28: external mode needs \"either tie the REFSEL pin high or connect this pin to the DVDD supply.\" Check intent in the schematic. Figures: Fig 57 p26 (internal ref) vs Fig 62 p28 (external ref); both show 1 uF + 22 uF on REFCAP.",
+  "ADS8694 p66 asks for 10uF and 1uF per AVDD supply; p67 names only the 1uF as the close one. C121 board 22uF is 0603, datasheet says 1210.",
+  "ADS8694 p67: \"Placing vias between the AVDD, DVDD pins and the bypass capacitors must be avoided.\" Board C120/C121/C122 are on B.Cu and U29 on F.Cu, so a via is unavoidable unless moved to F.Cu.",
+  "PMA2 Fig 1 caps C1/C2 are 1000pF 0402; board C98/C99/C108/C109 are 100pF 0603. Datasheet Fig 1 is the characterization test circuit (TB-805+), not a layout.",
+  "LMX2541 OSCin*: p57 \"terminated the same as the OSCin pin\" (Fig 34 shows 0.1 uF + 50 ohm on each); board pin 22 net has only R10 50R5 to GND, no series cap.",
+  "LMX2541 loop filter: board R13 4K7 vs Table 19 R2_LF 470 ohm (the example is a 4000.25 MHz/100 MHz design; WEBENCH sets the values).",
+  "Board positions in fixed.kicad_pcb are not final placement (support parts are 5-17 mm from the pins); gaps were not used for max_mm.",
+  "Values read off figure labels (Fig 32, Fig 112) were read from page images; pdftotext garbles the units (µ shows as P).",
+  "Page numbers: LMX2541 and ADS8694 printed page = PDF page."
+ ]
+}

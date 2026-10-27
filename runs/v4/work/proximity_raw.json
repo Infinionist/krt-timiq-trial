@@ -1,0 +1,3260 @@
+[
+ {
+  "ref": "C101",
+  "near": "U21",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C101": [
+    "1"
+   ],
+   "U21": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U21",
+  "kind": "shunt",
+  "why": "C101 sits on Net-(C101-Pad1), which touches exactly one IC pin (U21.1): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C103",
+  "near": "U22",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C103": [
+    "1"
+   ],
+   "U22": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U22",
+  "kind": "shunt",
+  "why": "C103 sits on Net-(C103-Pad1), which touches exactly one IC pin (U22.1): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C11",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C11": [
+    "1"
+   ],
+   "U1": [
+    "18"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C11 sits on Net-(C11-Pad1), which touches exactly one IC pin (U1.18): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C112",
+  "near": "U28",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C112": [
+    "1"
+   ],
+   "U28": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "shunt",
+  "why": "C112 sits on Net-(C112-Pad1), which touches exactly one IC pin (U28.3): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C113",
+  "near": "U28",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C113": [
+    "1"
+   ],
+   "U28": [
+    "5"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "shunt",
+  "why": "C113 sits on Net-(C113-Pad1), which touches exactly one IC pin (U28.5): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C12",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C12": [
+    "1"
+   ],
+   "U1": [
+    "9"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C12 sits on Net-(C12-Pad1), which touches exactly one IC pin (U1.9): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C120",
+  "near": "U29",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C120": [
+    "1"
+   ],
+   "U29": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U29",
+  "kind": "shunt",
+  "why": "C120 sits on Net-(C120-Pad1), which touches exactly one IC pin (U29.7): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C121",
+  "near": "U29",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C121": [
+    "1"
+   ],
+   "U29": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U29",
+  "kind": "shunt",
+  "why": "C121 sits on Net-(C120-Pad1), which touches exactly one IC pin (U29.7): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C13",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C13": [
+    "1"
+   ],
+   "U1": [
+    "13"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C13 sits on Net-(C13-Pad1), which touches exactly one IC pin (U1.13): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C141",
+  "near": "U39",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C141": [
+    "1"
+   ],
+   "U39": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U39",
+  "kind": "shunt",
+  "why": "C141 sits on Net-(C141-Pad1), which touches exactly one IC pin (U39.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C142",
+  "near": "U40",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C142": [
+    "1"
+   ],
+   "U40": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U40",
+  "kind": "shunt",
+  "why": "C142 sits on Net-(C142-Pad1), which touches exactly one IC pin (U40.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C15",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C15": [
+    "1"
+   ],
+   "U1": [
+    "19"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C15 sits on Net-(C15-Pad1), which touches exactly one IC pin (U1.19): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C16",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C16": [
+    "1"
+   ],
+   "U1": [
+    "36"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "C16 sits on /TOP/PLL/PLL_OUT, which touches exactly one IC pin (U1.36): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C17",
+  "near": "U2",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C17": [
+    "1"
+   ],
+   "U2": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U2",
+  "kind": "shunt",
+  "why": "C17 sits on Net-(C17-Pad1), which touches exactly one IC pin (U2.1): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C170",
+  "near": "U41",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C170": [
+    "1"
+   ],
+   "U41": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U41",
+  "kind": "shunt",
+  "why": "C170 sits on Net-(C170-Pad1), which touches exactly one IC pin (U41.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C171",
+  "near": "U42",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C171": [
+    "1"
+   ],
+   "U42": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U42",
+  "kind": "shunt",
+  "why": "C171 sits on Net-(C171-Pad1), which touches exactly one IC pin (U42.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C172",
+  "near": "U43",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C172": [
+    "1"
+   ],
+   "U43": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U43",
+  "kind": "shunt",
+  "why": "C172 sits on Net-(C172-Pad1), which touches exactly one IC pin (U43.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C173",
+  "near": "U44",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C173": [
+    "1"
+   ],
+   "U44": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U44",
+  "kind": "shunt",
+  "why": "C173 sits on Net-(C173-Pad1), which touches exactly one IC pin (U44.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C174",
+  "near": "U45",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C174": [
+    "1"
+   ],
+   "U45": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U45",
+  "kind": "shunt",
+  "why": "C174 sits on Net-(C174-Pad1), which touches exactly one IC pin (U45.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C178",
+  "near": "U44",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C178": [
+    "2"
+   ],
+   "U44": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U44",
+  "kind": "series",
+  "why": "C178 sits on Net-(C178-Pad2), which touches exactly one IC pin (U44.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C179",
+  "near": "U45",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C179": [
+    "2"
+   ],
+   "U45": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U45",
+  "kind": "series",
+  "why": "C179 sits on Net-(C179-Pad2), which touches exactly one IC pin (U45.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C18",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C18": [
+    "1"
+   ],
+   "U1": [
+    "15"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C18 sits on Net-(C18-Pad1), which touches exactly one IC pin (U1.15): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C19",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C19": [
+    "1"
+   ],
+   "U1": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C19 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C2",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C2": [
+    "1"
+   ],
+   "U1": [
+    "28"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C2 sits on Net-(C2-Pad1), which touches exactly one IC pin (U1.28): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C20",
+  "near": "U3",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C20": [
+    "2"
+   ],
+   "U3": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U3",
+  "kind": "series",
+  "why": "C20 sits on Net-(C20-Pad2), which touches exactly one IC pin (U3.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C22",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C22": [
+    "1"
+   ],
+   "U1": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "C22 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C23",
+  "near": "U2",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C23": [
+    "1"
+   ],
+   "U2": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U2",
+  "kind": "series",
+  "why": "C23 sits on Net-(C23-Pad1), which touches exactly one IC pin (U2.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C24",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C24": [
+    "1"
+   ],
+   "U1": [
+    "12"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "C24 sits on Net-(C24-Pad1), which touches exactly one IC pin (U1.12): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C25",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C25": [
+    "1"
+   ],
+   "U1": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "C25 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C3",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C3": [
+    "1"
+   ],
+   "U1": [
+    "21"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "C3 sits on /TOP/PLL/PLL_IN, which touches exactly one IC pin (U1.21): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C37",
+  "near": "U7",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C37": [
+    "1"
+   ],
+   "U7": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U7",
+  "kind": "series",
+  "why": "C37 sits on Net-(C37-Pad1), which touches exactly one IC pin (U7.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C38",
+  "near": "U8",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C38": [
+    "1"
+   ],
+   "U8": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U8",
+  "kind": "series",
+  "why": "C38 sits on Net-(C38-Pad1), which touches exactly one IC pin (U8.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C42",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C42": [
+    "1"
+   ],
+   "U9": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "C42 sits on Net-(C42-Pad1), which touches exactly one IC pin (U9.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C43",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C43": [
+    "1"
+   ],
+   "U9": [
+    "6"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "C43 sits on Net-(C43-Pad1), which touches exactly one IC pin (U9.6): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C47",
+  "near": "U10",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C47": [
+    "1"
+   ],
+   "U10": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U10",
+  "kind": "series",
+  "why": "C47 sits on Net-(C47-Pad1), which touches exactly one IC pin (U10.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C48",
+  "near": "U11",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C48": [
+    "1"
+   ],
+   "U11": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U11",
+  "kind": "series",
+  "why": "C48 sits on Net-(C48-Pad1), which touches exactly one IC pin (U11.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C55",
+  "near": "U14",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C55": [
+    "1"
+   ],
+   "U14": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U14",
+  "kind": "shunt",
+  "why": "C55 sits on Net-(C55-Pad1), which touches exactly one IC pin (U14.2): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C56",
+  "near": "U15",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C56": [
+    "1"
+   ],
+   "U15": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U15",
+  "kind": "shunt",
+  "why": "C56 sits on Net-(C56-Pad1), which touches exactly one IC pin (U15.2): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C57",
+  "near": "U14",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C57": [
+    "1"
+   ],
+   "U14": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U14",
+  "kind": "shunt",
+  "why": "C57 sits on Net-(C57-Pad1), which touches exactly one IC pin (U14.7): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C58",
+  "near": "U15",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C58": [
+    "1"
+   ],
+   "U15": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U15",
+  "kind": "shunt",
+  "why": "C58 sits on Net-(C58-Pad1), which touches exactly one IC pin (U15.7): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C64",
+  "near": "U16",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C64": [
+    "2"
+   ],
+   "U16": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U16",
+  "kind": "series",
+  "why": "C64 sits on Net-(C64-Pad2), which touches exactly one IC pin (U16.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C7",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C7": [
+    "2"
+   ],
+   "U1": [
+    "30"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "C7 sits on Net-(C7-Pad2), which touches exactly one IC pin (U1.30): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C73",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C73": [
+    "2"
+   ],
+   "U18": [
+    "11"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "C73 sits on Net-(C73-Pad2), which touches exactly one IC pin (U18.11): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C9",
+  "near": "U1",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C9": [
+    "1"
+   ],
+   "U1": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C9 sits on Net-(C9-Pad1), which touches exactly one IC pin (U1.14): decap/filter cap belongs at the pin"
+ },
+ {
+  "ref": "C96",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C96": [
+    "1"
+   ],
+   "U20": [
+    "15"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "C96 sits on Net-(C96-Pad1), which touches exactly one IC pin (U20.15): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "C97",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C97": [
+    "1"
+   ],
+   "U20": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "C97 sits on Net-(C97-Pad1), which touches exactly one IC pin (U20.16): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L1",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L1": [
+    "2"
+   ],
+   "U1": [
+    "28"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L1 sits on Net-(C2-Pad1), which touches exactly one IC pin (U1.28): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L10",
+  "near": "U21",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L10": [
+    "2"
+   ],
+   "U21": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U21",
+  "kind": "series",
+  "why": "L10 sits on Net-(C108-Pad1), which touches exactly one IC pin (U21.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L11",
+  "near": "U22",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L11": [
+    "2"
+   ],
+   "U22": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U22",
+  "kind": "series",
+  "why": "L11 sits on Net-(C109-Pad1), which touches exactly one IC pin (U22.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L2",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L2": [
+    "2"
+   ],
+   "U1": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L2 sits on Net-(L2-Pad2), which touches exactly one IC pin (U1.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L3",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L3": [
+    "2"
+   ],
+   "U1": [
+    "25"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L3 sits on Net-(L3-Pad2), which touches exactly one IC pin (U1.25): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L4",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L4": [
+    "2"
+   ],
+   "U1": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L4 sits on Net-(C9-Pad1), which touches exactly one IC pin (U1.14): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L5",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L5": [
+    "2"
+   ],
+   "U1": [
+    "18"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L5 sits on Net-(C11-Pad1), which touches exactly one IC pin (U1.18): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L6",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L6": [
+    "2"
+   ],
+   "U1": [
+    "13"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L6 sits on Net-(C13-Pad1), which touches exactly one IC pin (U1.13): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L7",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L7": [
+    "2"
+   ],
+   "U1": [
+    "19"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "L7 sits on Net-(C15-Pad1), which touches exactly one IC pin (U1.19): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L8",
+  "near": "U21",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L8": [
+    "1"
+   ],
+   "U21": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U21",
+  "kind": "series",
+  "why": "L8 sits on Net-(C101-Pad1), which touches exactly one IC pin (U21.1): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "L9",
+  "near": "U22",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "L9": [
+    "1"
+   ],
+   "U22": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U22",
+  "kind": "series",
+  "why": "L9 sits on Net-(C103-Pad1), which touches exactly one IC pin (U22.1): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R10",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R10": [
+    "1"
+   ],
+   "U1": [
+    "22"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "R10 sits on Net-(R10-Pad1), which touches exactly one IC pin (U1.22): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R100",
+  "near": "U3",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R100": [
+    "1"
+   ],
+   "U3": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U3",
+  "kind": "series",
+  "why": "R100 sits on /TOP/Frequency mixers/PLLout0, which touches exactly one IC pin (U3.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R101",
+  "near": "U17",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R101": [
+    "1"
+   ],
+   "U17": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U17",
+  "kind": "series",
+  "why": "R101 sits on /TOP/Frequency mixers/IQout0, which touches exactly one IC pin (U17.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R103",
+  "near": "U21",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R103": [
+    "2"
+   ],
+   "U21": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U21",
+  "kind": "series",
+  "why": "R103 sits on Net-(C101-Pad1), which touches exactly one IC pin (U21.1): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R105",
+  "near": "U22",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R105": [
+    "2"
+   ],
+   "U22": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U22",
+  "kind": "series",
+  "why": "R105 sits on Net-(C103-Pad1), which touches exactly one IC pin (U22.1): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R108",
+  "near": "U24",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R108": [
+    "1"
+   ],
+   "U24": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U24",
+  "kind": "series",
+  "why": "R108 sits on Net-(R108-Pad1), which touches exactly one IC pin (U24.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R11",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R11": [
+    "1"
+   ],
+   "U1": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "R11 sits on Net-(R11-Pad1), which touches exactly one IC pin (U1.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R115",
+  "near": "U26",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R115": [
+    "1"
+   ],
+   "U26": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U26",
+  "kind": "series",
+  "why": "R115 sits on /TOP/ADC/MIXERout0, which touches exactly one IC pin (U26.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R116",
+  "near": "U27",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R116": [
+    "1"
+   ],
+   "U27": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U27",
+  "kind": "series",
+  "why": "R116 sits on /TOP/ADC/MIXERout1, which touches exactly one IC pin (U27.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R117",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R117": [
+    "2"
+   ],
+   "U28": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R117 sits on Net-(C112-Pad1), which touches exactly one IC pin (U28.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R118",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R118": [
+    "2"
+   ],
+   "U28": [
+    "5"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R118 sits on Net-(C113-Pad1), which touches exactly one IC pin (U28.5): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R119",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R119": [
+    "1"
+   ],
+   "U28": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R119 sits on Net-(R119-Pad1), which touches exactly one IC pin (U28.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R12",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R12": [
+    "1"
+   ],
+   "U1": [
+    "8"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "R12 sits on Net-(R12-Pad1), which touches exactly one IC pin (U1.8): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R120",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R120": [
+    "1"
+   ],
+   "U28": [
+    "6"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R120 sits on Net-(R120-Pad1), which touches exactly one IC pin (U28.6): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R121",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R121": [
+    "1"
+   ],
+   "U28": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R121 sits on Net-(C112-Pad1), which touches exactly one IC pin (U28.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R122",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R122": [
+    "1"
+   ],
+   "U28": [
+    "5"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R122 sits on Net-(C113-Pad1), which touches exactly one IC pin (U28.5): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R123",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R123": [
+    "1"
+   ],
+   "U28": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R123 sits on Net-(R119-Pad1), which touches exactly one IC pin (U28.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R124",
+  "near": "U28",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R124": [
+    "1"
+   ],
+   "U28": [
+    "6"
+   ]
+  },
+  "hop": 1,
+  "root": "U28",
+  "kind": "series",
+  "why": "R124 sits on Net-(R120-Pad1), which touches exactly one IC pin (U28.6): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R125",
+  "near": "U29",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R125": [
+    "1"
+   ],
+   "U29": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U29",
+  "kind": "series",
+  "why": "R125 sits on Net-(R125-Pad1), which touches exactly one IC pin (U29.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R126",
+  "near": "U29",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R126": [
+    "2"
+   ],
+   "U29": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U29",
+  "kind": "series",
+  "why": "R126 sits on Net-(R126-Pad2), which touches exactly one IC pin (U29.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R127",
+  "near": "U29",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R127": [
+    "1"
+   ],
+   "U29": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U29",
+  "kind": "series",
+  "why": "R127 sits on Net-(R126-Pad2), which touches exactly one IC pin (U29.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R146",
+  "near": "U35",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R146": [
+    "2"
+   ],
+   "U35": [
+    "5"
+   ]
+  },
+  "hop": 1,
+  "root": "U35",
+  "kind": "series",
+  "why": "R146 sits on Net-(R146-Pad2), which touches exactly one IC pin (U35.5): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R147",
+  "near": "U35",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R147": [
+    "2"
+   ],
+   "U35": [
+    "9"
+   ]
+  },
+  "hop": 1,
+  "root": "U35",
+  "kind": "series",
+  "why": "R147 sits on Net-(R147-Pad2), which touches exactly one IC pin (U35.9): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R148",
+  "near": "U35",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R148": [
+    "2"
+   ],
+   "U35": [
+    "12"
+   ]
+  },
+  "hop": 1,
+  "root": "U35",
+  "kind": "series",
+  "why": "R148 sits on Net-(R148-Pad2), which touches exactly one IC pin (U35.12): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R15",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R15": [
+    "1"
+   ],
+   "U1": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "R15 sits on Net-(C19-Pad1), which touches exactly one IC pin (U1.16): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R152",
+  "near": "U38",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R152": [
+    "2"
+   ],
+   "U38": [
+    "14"
+   ]
+  },
+  "hop": 1,
+  "root": "U38",
+  "kind": "series",
+  "why": "R152 sits on Net-(R152-Pad2), which touches exactly one IC pin (U38.14): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R153",
+  "near": "U38",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R153": [
+    "2"
+   ],
+   "U38": [
+    "15"
+   ]
+  },
+  "hop": 1,
+  "root": "U38",
+  "kind": "series",
+  "why": "R153 sits on Net-(R153-Pad2), which touches exactly one IC pin (U38.15): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R156",
+  "near": "U44",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R156": [
+    "2"
+   ],
+   "U44": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U44",
+  "kind": "series",
+  "why": "R156 sits on Net-(C178-Pad2), which touches exactly one IC pin (U44.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R157",
+  "near": "U44",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R157": [
+    "1"
+   ],
+   "U44": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U44",
+  "kind": "series",
+  "why": "R157 sits on Net-(C178-Pad2), which touches exactly one IC pin (U44.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R158",
+  "near": "U45",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R158": [
+    "2"
+   ],
+   "U45": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U45",
+  "kind": "series",
+  "why": "R158 sits on Net-(C179-Pad2), which touches exactly one IC pin (U45.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R159",
+  "near": "U45",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R159": [
+    "1"
+   ],
+   "U45": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U45",
+  "kind": "series",
+  "why": "R159 sits on Net-(C179-Pad2), which touches exactly one IC pin (U45.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R16",
+  "near": "U3",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R16": [
+    "2"
+   ],
+   "U3": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U3",
+  "kind": "series",
+  "why": "R16 sits on Net-(C20-Pad2), which touches exactly one IC pin (U3.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R17",
+  "near": "U3",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R17": [
+    "1"
+   ],
+   "U3": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U3",
+  "kind": "series",
+  "why": "R17 sits on Net-(C20-Pad2), which touches exactly one IC pin (U3.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R22",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R22": [
+    "1"
+   ],
+   "U1": [
+    "17"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "R22 sits on Net-(R22-Pad1), which touches exactly one IC pin (U1.17): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R24",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R24": [
+    "2"
+   ],
+   "U4": [
+    "19"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R24 sits on Net-(R24-Pad2), which touches exactly one IC pin (U4.19): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R25",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R25": [
+    "1"
+   ],
+   "U4": [
+    "19"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R25 sits on Net-(R24-Pad2), which touches exactly one IC pin (U4.19): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R26",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R26": [
+    "2"
+   ],
+   "U4": [
+    "26"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R26 sits on Net-(R26-Pad2), which touches exactly one IC pin (U4.26): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R27",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R27": [
+    "1"
+   ],
+   "U4": [
+    "26"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R27 sits on Net-(R26-Pad2), which touches exactly one IC pin (U4.26): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R28",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R28": [
+    "2"
+   ],
+   "U4": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R28 sits on Net-(R28-Pad2), which touches exactly one IC pin (U4.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R29",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R29": [
+    "1"
+   ],
+   "U4": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R29 sits on Net-(R28-Pad2), which touches exactly one IC pin (U4.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R30",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R30": [
+    "2"
+   ],
+   "U4": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R30 sits on Net-(R30-Pad2), which touches exactly one IC pin (U4.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R31",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R31": [
+    "1"
+   ],
+   "U4": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R31 sits on Net-(R30-Pad2), which touches exactly one IC pin (U4.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R32",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R32": [
+    "2"
+   ],
+   "U4": [
+    "24"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R32 sits on Net-(R32-Pad2), which touches exactly one IC pin (U4.24): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R33",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R33": [
+    "1"
+   ],
+   "U4": [
+    "24"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R33 sits on Net-(R32-Pad2), which touches exactly one IC pin (U4.24): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R34",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R34": [
+    "2"
+   ],
+   "U4": [
+    "25"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R34 sits on Net-(R34-Pad2), which touches exactly one IC pin (U4.25): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R35",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R35": [
+    "1"
+   ],
+   "U4": [
+    "25"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R35 sits on Net-(R34-Pad2), which touches exactly one IC pin (U4.25): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R36",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R36": [
+    "2"
+   ],
+   "U4": [
+    "22"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R36 sits on Net-(R36-Pad2), which touches exactly one IC pin (U4.22): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R37",
+  "near": "U4",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R37": [
+    "1"
+   ],
+   "U4": [
+    "22"
+   ]
+  },
+  "hop": 1,
+  "root": "U4",
+  "kind": "series",
+  "why": "R37 sits on Net-(R36-Pad2), which touches exactly one IC pin (U4.22): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R40",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R40": [
+    "1"
+   ],
+   "U9": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "R40 sits on Net-(C42-Pad1), which touches exactly one IC pin (U9.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R41",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R41": [
+    "1"
+   ],
+   "U9": [
+    "6"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "R41 sits on Net-(C43-Pad1), which touches exactly one IC pin (U9.6): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R42",
+  "near": "U7",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R42": [
+    "2"
+   ],
+   "U7": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U7",
+  "kind": "series",
+  "why": "R42 sits on Net-(C37-Pad1), which touches exactly one IC pin (U7.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R43",
+  "near": "U8",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R43": [
+    "2"
+   ],
+   "U8": [
+    "4"
+   ]
+  },
+  "hop": 1,
+  "root": "U8",
+  "kind": "series",
+  "why": "R43 sits on Net-(C38-Pad1), which touches exactly one IC pin (U8.4): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R46",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R46": [
+    "1"
+   ],
+   "U9": [
+    "3"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "R46 sits on Net-(R44-Pad2), which touches exactly one IC pin (U9.3): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R47",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R47": [
+    "1"
+   ],
+   "U9": [
+    "5"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "R47 sits on Net-(R45-Pad2), which touches exactly one IC pin (U9.5): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R48",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R48": [
+    "1"
+   ],
+   "U9": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "R48 sits on Net-(C42-Pad1), which touches exactly one IC pin (U9.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R49",
+  "near": "U9",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R49": [
+    "1"
+   ],
+   "U9": [
+    "6"
+   ]
+  },
+  "hop": 1,
+  "root": "U9",
+  "kind": "series",
+  "why": "R49 sits on Net-(C43-Pad1), which touches exactly one IC pin (U9.6): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R52",
+  "near": "U10",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R52": [
+    "1"
+   ],
+   "U10": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U10",
+  "kind": "series",
+  "why": "R52 sits on Net-(C47-Pad1), which touches exactly one IC pin (U10.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R53",
+  "near": "U11",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R53": [
+    "1"
+   ],
+   "U11": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U11",
+  "kind": "series",
+  "why": "R53 sits on Net-(C48-Pad1), which touches exactly one IC pin (U11.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R56",
+  "near": "U10",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R56": [
+    "1"
+   ],
+   "U10": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U10",
+  "kind": "series",
+  "why": "R56 sits on Net-(C47-Pad1), which touches exactly one IC pin (U10.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R57",
+  "near": "U11",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R57": [
+    "1"
+   ],
+   "U11": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U11",
+  "kind": "series",
+  "why": "R57 sits on Net-(C48-Pad1), which touches exactly one IC pin (U11.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R58",
+  "near": "U14",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R58": [
+    "2"
+   ],
+   "U14": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U14",
+  "kind": "series",
+  "why": "R58 sits on Net-(C55-Pad1), which touches exactly one IC pin (U14.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R59",
+  "near": "U15",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R59": [
+    "2"
+   ],
+   "U15": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U15",
+  "kind": "series",
+  "why": "R59 sits on Net-(C56-Pad1), which touches exactly one IC pin (U15.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R60",
+  "near": "U14",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R60": [
+    "1"
+   ],
+   "U14": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U14",
+  "kind": "series",
+  "why": "R60 sits on Net-(C55-Pad1), which touches exactly one IC pin (U14.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R61",
+  "near": "U15",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R61": [
+    "1"
+   ],
+   "U15": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U15",
+  "kind": "series",
+  "why": "R61 sits on Net-(C56-Pad1), which touches exactly one IC pin (U15.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R66",
+  "near": "U14",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R66": [
+    "2"
+   ],
+   "U14": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U14",
+  "kind": "series",
+  "why": "R66 sits on Net-(R66-Pad2), which touches exactly one IC pin (U14.1): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R67",
+  "near": "U15",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R67": [
+    "2"
+   ],
+   "U15": [
+    "1"
+   ]
+  },
+  "hop": 1,
+  "root": "U15",
+  "kind": "series",
+  "why": "R67 sits on Net-(R67-Pad2), which touches exactly one IC pin (U15.1): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R68",
+  "near": "U14",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R68": [
+    "1"
+   ],
+   "U14": [
+    "8"
+   ]
+  },
+  "hop": 1,
+  "root": "U14",
+  "kind": "series",
+  "why": "R68 sits on Net-(R68-Pad1), which touches exactly one IC pin (U14.8): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R69",
+  "near": "U15",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R69": [
+    "1"
+   ],
+   "U15": [
+    "8"
+   ]
+  },
+  "hop": 1,
+  "root": "U15",
+  "kind": "series",
+  "why": "R69 sits on Net-(R69-Pad1), which touches exactly one IC pin (U15.8): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R70",
+  "near": "U3",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R70": [
+    "1"
+   ],
+   "U3": [
+    "9"
+   ]
+  },
+  "hop": 1,
+  "root": "U3",
+  "kind": "series",
+  "why": "R70 sits on /TOP/IQ modulator/PLLout1, which touches exactly one IC pin (U3.9): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R72",
+  "near": "U16",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R72": [
+    "1"
+   ],
+   "U16": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U16",
+  "kind": "series",
+  "why": "R72 sits on Net-(R72-Pad1), which touches exactly one IC pin (U16.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R73",
+  "near": "U17",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R73": [
+    "1"
+   ],
+   "U17": [
+    "2"
+   ]
+  },
+  "hop": 1,
+  "root": "U17",
+  "kind": "series",
+  "why": "R73 sits on Net-(C70-Pad2), which touches exactly one IC pin (U17.2): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R74",
+  "near": "U17",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R74": [
+    "1"
+   ],
+   "U17": [
+    "9"
+   ]
+  },
+  "hop": 1,
+  "root": "U17",
+  "kind": "series",
+  "why": "R74 sits on /TOP/Frequency dividers/IQout1, which touches exactly one IC pin (U17.9): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R75",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R75": [
+    "2"
+   ],
+   "U18": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R75 sits on /TOP/Frequency dividers/FD0_N2, which touches exactly one IC pin (U18.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R76",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R76": [
+    "1"
+   ],
+   "U18": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R76 sits on /TOP/Frequency dividers/FD0_N2, which touches exactly one IC pin (U18.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R78",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R78": [
+    "2"
+   ],
+   "U18": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R78 sits on /TOP/Frequency dividers/FD0_S0, which touches exactly one IC pin (U18.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R79",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R79": [
+    "1"
+   ],
+   "U18": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R79 sits on /TOP/Frequency dividers/FD0_S0, which touches exactly one IC pin (U18.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R80",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R80": [
+    "2"
+   ],
+   "U18": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R80 sits on /TOP/Frequency dividers/FD0_DIV1, which touches exactly one IC pin (U18.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R81",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R81": [
+    "1"
+   ],
+   "U18": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R81 sits on /TOP/Frequency dividers/FD0_DIV1, which touches exactly one IC pin (U18.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R82",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R82": [
+    "1"
+   ],
+   "U18": [
+    "15"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R82 sits on Net-(C80-Pad1), which touches exactly one IC pin (U18.15): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R83",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R83": [
+    "2"
+   ],
+   "U19": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R83 sits on /TOP/Frequency dividers/FD1_N2, which touches exactly one IC pin (U19.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R84",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R84": [
+    "1"
+   ],
+   "U19": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R84 sits on /TOP/Frequency dividers/FD1_N2, which touches exactly one IC pin (U19.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R85",
+  "near": "U18",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R85": [
+    "1"
+   ],
+   "U18": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U18",
+  "kind": "series",
+  "why": "R85 sits on Net-(C81-Pad1), which touches exactly one IC pin (U18.16): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R86",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R86": [
+    "2"
+   ],
+   "U19": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R86 sits on /TOP/Frequency dividers/FD1_S0, which touches exactly one IC pin (U19.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R87",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R87": [
+    "1"
+   ],
+   "U19": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R87 sits on /TOP/Frequency dividers/FD1_S0, which touches exactly one IC pin (U19.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R88",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R88": [
+    "2"
+   ],
+   "U19": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R88 sits on /TOP/Frequency dividers/FD1_DIV1, which touches exactly one IC pin (U19.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R89",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R89": [
+    "1"
+   ],
+   "U19": [
+    "7"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R89 sits on /TOP/Frequency dividers/FD1_DIV1, which touches exactly one IC pin (U19.7): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R9",
+  "near": "U1",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R9": [
+    "2"
+   ],
+   "U1": [
+    "26"
+   ]
+  },
+  "hop": 1,
+  "root": "U1",
+  "kind": "series",
+  "why": "R9 sits on Net-(R9-Pad2), which touches exactly one IC pin (U1.26): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R90",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R90": [
+    "2"
+   ],
+   "U20": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R90 sits on /TOP/Frequency dividers/FD2_N2, which touches exactly one IC pin (U20.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R91",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R91": [
+    "1"
+   ],
+   "U20": [
+    "23"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R91 sits on /TOP/Frequency dividers/FD2_N2, which touches exactly one IC pin (U20.23): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R92",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R92": [
+    "1"
+   ],
+   "U19": [
+    "15"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R92 sits on Net-(C88-Pad1), which touches exactly one IC pin (U19.15): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R93",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R93": [
+    "2"
+   ],
+   "U20": [
+    "22"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R93 sits on /TOP/Frequency dividers/FD2_N1, which touches exactly one IC pin (U20.22): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R94",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R94": [
+    "1"
+   ],
+   "U20": [
+    "22"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R94 sits on /TOP/Frequency dividers/FD2_N1, which touches exactly one IC pin (U20.22): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R95",
+  "near": "U19",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R95": [
+    "1"
+   ],
+   "U19": [
+    "16"
+   ]
+  },
+  "hop": 1,
+  "root": "U19",
+  "kind": "series",
+  "why": "R95 sits on Net-(C89-Pad1), which touches exactly one IC pin (U19.16): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R96",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R96": [
+    "2"
+   ],
+   "U20": [
+    "21"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R96 sits on /TOP/Frequency dividers/FD2_N0, which touches exactly one IC pin (U20.21): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R97",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R97": [
+    "1"
+   ],
+   "U20": [
+    "21"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R97 sits on /TOP/Frequency dividers/FD2_N0, which touches exactly one IC pin (U20.21): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R98",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R98": [
+    "2"
+   ],
+   "U20": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R98 sits on /TOP/Frequency dividers/FD2_S0, which touches exactly one IC pin (U20.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R99",
+  "near": "U20",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R99": [
+    "1"
+   ],
+   "U20": [
+    "20"
+   ]
+  },
+  "hop": 1,
+  "root": "U20",
+  "kind": "series",
+  "why": "R99 sits on /TOP/Frequency dividers/FD2_S0, which touches exactly one IC pin (U20.20): series or pull part belongs at the pin"
+ },
+ {
+  "ref": "R14",
+  "near": "C16",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R14": [
+    "1"
+   ],
+   "C16": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "series",
+  "why": "R14 is on the local net Net-(C16-Pad2) shared with C16, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "R18",
+  "near": "C22",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R18": [
+    "1"
+   ],
+   "C22": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "series",
+  "why": "R18 is on the local net Net-(C22-Pad2) shared with C22, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "R21",
+  "near": "C23",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R21": [
+    "1"
+   ],
+   "C23": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U2",
+  "kind": "series",
+  "why": "R21 is on the local net Net-(C23-Pad2) shared with C23, hop 2 of the chain to U2"
+ },
+ {
+  "ref": "R19",
+  "near": "C24",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R19": [
+    "1"
+   ],
+   "C24": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "series",
+  "why": "R19 is on the local net Net-(C24-Pad2) shared with C24, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "R20",
+  "near": "C24",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R20": [
+    "1"
+   ],
+   "C24": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "series",
+  "why": "R20 is on the local net Net-(C24-Pad2) shared with C24, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "R71",
+  "near": "C64",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R71": [
+    "1"
+   ],
+   "C64": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U16",
+  "kind": "series",
+  "why": "R71 is on the local net Net-(C64-Pad1) shared with C64, hop 2 of the chain to U16"
+ },
+ {
+  "ref": "R77",
+  "near": "C73",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R77": [
+    "1"
+   ],
+   "C73": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U18",
+  "kind": "series",
+  "why": "R77 is on the local net Net-(C73-Pad1) shared with C73, hop 2 of the chain to U18"
+ },
+ {
+  "ref": "R106",
+  "near": "L10",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R106": [
+    "2"
+   ],
+   "L10": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U21",
+  "kind": "series",
+  "why": "R106 is on the local net Net-(C105-Pad1) shared with L10, hop 2 of the chain to U21"
+ },
+ {
+  "ref": "C105",
+  "near": "L10",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C105": [
+    "1"
+   ],
+   "L10": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U21",
+  "kind": "shunt",
+  "why": "C105 is on the local net Net-(C105-Pad1) shared with L10, hop 2 of the chain to U21"
+ },
+ {
+  "ref": "R107",
+  "near": "L11",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R107": [
+    "2"
+   ],
+   "L11": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U22",
+  "kind": "series",
+  "why": "R107 is on the local net Net-(C107-Pad1) shared with L11, hop 2 of the chain to U22"
+ },
+ {
+  "ref": "C107",
+  "near": "L11",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C107": [
+    "1"
+   ],
+   "L11": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U22",
+  "kind": "shunt",
+  "why": "C107 is on the local net Net-(C107-Pad1) shared with L11, hop 2 of the chain to U22"
+ },
+ {
+  "ref": "C100",
+  "near": "R103",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C100": [
+    "1"
+   ],
+   "R103": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U21",
+  "kind": "shunt",
+  "why": "C100 is on the local net Net-(C100-Pad1) shared with R103, hop 2 of the chain to U21"
+ },
+ {
+  "ref": "R102",
+  "near": "R103",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R102": [
+    "2"
+   ],
+   "R103": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U21",
+  "kind": "series",
+  "why": "R102 is on the local net Net-(C100-Pad1) shared with R103, hop 2 of the chain to U21"
+ },
+ {
+  "ref": "R104",
+  "near": "R105",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R104": [
+    "2"
+   ],
+   "R105": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U22",
+  "kind": "series",
+  "why": "R104 is on the local net Net-(C102-Pad1) shared with R105, hop 2 of the chain to U22"
+ },
+ {
+  "ref": "C102",
+  "near": "R105",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C102": [
+    "1"
+   ],
+   "R105": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U22",
+  "kind": "shunt",
+  "why": "C102 is on the local net Net-(C102-Pad1) shared with R105, hop 2 of the chain to U22"
+ },
+ {
+  "ref": "C10",
+  "near": "R11",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C10": [
+    "1"
+   ],
+   "R11": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C10 is on the local net Net-(C10-Pad1) shared with R11, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "C110",
+  "near": "R115",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C110": [
+    "2"
+   ],
+   "R115": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U26",
+  "kind": "series",
+  "why": "C110 is on the local net Net-(C110-Pad2) shared with R115, hop 2 of the chain to U26"
+ },
+ {
+  "ref": "C111",
+  "near": "R116",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C111": [
+    "2"
+   ],
+   "R116": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U27",
+  "kind": "series",
+  "why": "C111 is on the local net Net-(C111-Pad2) shared with R116, hop 2 of the chain to U27"
+ },
+ {
+  "ref": "C14",
+  "near": "R12",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C14": [
+    "1"
+   ],
+   "R12": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C14 is on the local net Net-(C14-Pad1) shared with R12, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "C33",
+  "near": "R40",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C33": [
+    "1"
+   ],
+   "R40": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U9",
+  "kind": "shunt",
+  "why": "C33 is on the local net Net-(C33-Pad1) shared with R40, hop 2 of the chain to U9"
+ },
+ {
+  "ref": "C34",
+  "near": "R41",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C34": [
+    "1"
+   ],
+   "R41": [
+    "2"
+   ]
+  },
+  "hop": 2,
+  "root": "U9",
+  "kind": "shunt",
+  "why": "C34 is on the local net Net-(C34-Pad1) shared with R41, hop 2 of the chain to U9"
+ },
+ {
+  "ref": "R62",
+  "near": "R66",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R62": [
+    "2"
+   ],
+   "R66": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U14",
+  "kind": "series",
+  "why": "R62 is on the local net Net-(R62-Pad2) shared with R66, hop 2 of the chain to U14"
+ },
+ {
+  "ref": "R63",
+  "near": "R66",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R63": [
+    "1"
+   ],
+   "R66": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U14",
+  "kind": "series",
+  "why": "R63 is on the local net Net-(R62-Pad2) shared with R66, hop 2 of the chain to U14"
+ },
+ {
+  "ref": "R64",
+  "near": "R67",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R64": [
+    "2"
+   ],
+   "R67": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U15",
+  "kind": "series",
+  "why": "R64 is on the local net Net-(R64-Pad2) shared with R67, hop 2 of the chain to U15"
+ },
+ {
+  "ref": "R65",
+  "near": "R67",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R65": [
+    "1"
+   ],
+   "R67": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U15",
+  "kind": "series",
+  "why": "R65 is on the local net Net-(R64-Pad2) shared with R67, hop 2 of the chain to U15"
+ },
+ {
+  "ref": "C5",
+  "near": "R9",
+  "max_mm": 3.0,
+  "basis": "pad_edge",
+  "pads": {
+   "C5": [
+    "1"
+   ],
+   "R9": [
+    "1"
+   ]
+  },
+  "hop": 2,
+  "root": "U1",
+  "kind": "shunt",
+  "why": "C5 is on the local net Net-(C5-Pad1) shared with R9, hop 2 of the chain to U1"
+ },
+ {
+  "ref": "R23",
+  "near": "R21",
+  "max_mm": 5.0,
+  "basis": "pad_edge",
+  "pads": {
+   "R23": [
+    "1"
+   ],
+   "R21": [
+    "2"
+   ]
+  },
+  "hop": 3,
+  "root": "U2",
+  "kind": "series",
+  "why": "R23 is on the local net Net-(R20-Pad2) shared with R21, hop 3 of the chain to U2"
+ }
+]

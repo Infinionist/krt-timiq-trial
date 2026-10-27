@@ -1,0 +1,744 @@
+{
+ "schema": 1,
+ "kind": "design-brief",
+ "units": "mm",
+ "board": "fixed.kicad_pcb",
+ "interfaces": [],
+ "keepouts": [
+  {
+   "name": "wall-band-top",
+   "rect": [
+    124.2124,
+    94.9478,
+    244.2124,
+    97.6978
+   ],
+   "sides": [
+    "F"
+   ],
+   "allow": [
+    "BOX1",
+    "J5"
+   ],
+   "kind": "enclosure_wall_band",
+   "why": "Hammond 1590Q wall band: no top-side part within 2.75 mm of the box rim (FACTS 3, 8); bottom parts may stand there (the human has them)"
+  },
+  {
+   "name": "wall-band-bottom",
+   "rect": [
+    124.2124,
+    212.1978,
+    244.2124,
+    214.9478
+   ],
+   "sides": [
+    "F"
+   ],
+   "allow": [
+    "BOX1",
+    "J5"
+   ],
+   "kind": "enclosure_wall_band",
+   "why": "Hammond 1590Q wall band: no top-side part within 2.75 mm of the box rim (FACTS 3, 8); bottom parts may stand there (the human has them)"
+  },
+  {
+   "name": "wall-band-left",
+   "rect": [
+    124.2124,
+    97.6978,
+    126.9624,
+    212.1978
+   ],
+   "sides": [
+    "F"
+   ],
+   "allow": [
+    "BOX1",
+    "J5"
+   ],
+   "kind": "enclosure_wall_band",
+   "why": "Hammond 1590Q wall band: no top-side part within 2.75 mm of the box rim (FACTS 3, 8); bottom parts may stand there (the human has them)"
+  },
+  {
+   "name": "wall-band-right",
+   "rect": [
+    241.4624,
+    97.6978,
+    244.2124,
+    212.1978
+   ],
+   "sides": [
+    "F"
+   ],
+   "allow": [
+    "BOX1",
+    "J5"
+   ],
+   "kind": "enclosure_wall_band",
+   "why": "Hammond 1590Q wall band: no top-side part within 2.75 mm of the box rim (FACTS 3, 8); bottom parts may stand there (the human has them)"
+  },
+  {
+   "name": "hole-J5-1",
+   "circle": [
+    224.8018,
+    149.7424,
+    5.675
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "J5"
+   ],
+   "kind": "mounting_hole",
+   "why": "J5 hole, drill 4.35 mm: no part within 3.5 mm of the HOLE edge (radius 5.675 from the centre)"
+  },
+  {
+   "name": "hole-J5-2",
+   "circle": [
+    224.8018,
+    88.4224,
+    3.425
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "J5"
+   ],
+   "kind": "mounting_hole",
+   "why": "J5 hole, drill 4.35 mm: no part within 1.25 mm of the HOLE edge (radius 3.425 from the centre) (3.5 mm default; the human board has C193 closer, so the human's value)"
+  },
+  {
+   "name": "hole-BOX1-1",
+   "circle": [
+    128.9624,
+    210.1978,
+    5.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "BOX1 hole, drill 4 mm: no part within 3.5 mm of the HOLE edge (radius 5.5 from the centre)"
+  },
+  {
+   "name": "hole-BOX1-3",
+   "circle": [
+    239.4624,
+    210.1978,
+    5.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "BOX1 hole, drill 4 mm: no part within 3.5 mm of the HOLE edge (radius 5.5 from the centre)"
+  },
+  {
+   "name": "hole-BOX1-5",
+   "circle": [
+    239.4624,
+    99.6978,
+    5.4
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "BOX1 hole, drill 4 mm: no part within 3.4 mm of the HOLE edge (radius 5.4 from the centre) (3.5 mm default; the human board has U38 closer, so the human's value)"
+  },
+  {
+   "name": "hole-BOX1-7",
+   "circle": [
+    128.9624,
+    99.6978,
+    5.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "BOX1 hole, drill 4 mm: no part within 3.5 mm of the HOLE edge (radius 5.5 from the centre)"
+  },
+  {
+   "name": "hole-FIX1-1",
+   "circle": [
+    256.216,
+    220.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX1 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "hole-FIX2-1",
+   "circle": [
+    184.216,
+    220.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX2"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX2 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "hole-FIX3-1",
+   "circle": [
+    112.216,
+    220.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX3"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX3 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "hole-FIX4-1",
+   "circle": [
+    112.216,
+    148.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX4"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX4 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "hole-FIX5-1",
+   "circle": [
+    112.216,
+    66.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX5"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX5 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "hole-FIX6-1",
+   "circle": [
+    184.216,
+    66.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX6"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX6 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "hole-FIX7-1",
+   "circle": [
+    256.216,
+    66.44,
+    4.55
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX7"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX7 hole, drill 3.1 mm: no part within 3 mm of the HOLE edge (radius 4.55 from the centre) (3.5 mm default; the human board has C139 closer, so the human's value)"
+  },
+  {
+   "name": "hole-FIX8-1",
+   "circle": [
+    256.216,
+    148.44,
+    5.05
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1",
+    "FIX8"
+   ],
+   "kind": "mounting_hole",
+   "why": "FIX8 hole, drill 3.1 mm: no part within 3.5 mm of the HOLE edge (radius 5.05 from the centre)"
+  },
+  {
+   "name": "can-J7",
+   "rect": [
+    129.19,
+    157.87,
+    163.62,
+    192.26
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "U1",
+    "U2",
+    "BOX1"
+   ],
+   "kind": "shield_can",
+   "why": "shield can J7 (off the placing board, re-attached by reattach.py): the 34.4 mm footprint box is reserved for its members, sheet(s) pll"
+  },
+  {
+   "name": "can-J8",
+   "rect": [
+    167.01,
+    174.57,
+    201.44,
+    208.96
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C20",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C98",
+    "C99",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "L8",
+    "L9",
+    "L10",
+    "L11",
+    "R14",
+    "R16",
+    "R17",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R165",
+    "U3",
+    "U16",
+    "U17",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "BOX1"
+   ],
+   "kind": "shield_can",
+   "why": "shield can J8 (off the placing board, re-attached by reattach.py): the 34.4 mm footprint box is reserved for its members, sheet(s) mixers, iqmod"
+  },
+  {
+   "name": "can-J9",
+   "rect": [
+    167.01,
+    136.75,
+    201.44,
+    171.14
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "BOX1"
+   ],
+   "kind": "shield_can",
+   "why": "shield can J9 (off the placing board, re-attached by reattach.py): the 34.4 mm footprint box is reserved for its members, sheet(s) dac_if"
+  },
+  {
+   "name": "can-J10",
+   "rect": [
+    204.82,
+    162.29,
+    239.25,
+    196.67
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "R74",
+    "R77",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20",
+    "C96",
+    "C97",
+    "R75",
+    "R76",
+    "R78",
+    "R79",
+    "R88",
+    "R89",
+    "BOX1"
+   ],
+   "kind": "shield_can",
+   "why": "shield can J10 (off the placing board, re-attached by reattach.py): the 34.4 mm footprint box is reserved for its members, sheet(s) dividers; optional (allowed inside, not members): C96, C97, R75, R76, R78, R79, R88, R89"
+  },
+  {
+   "name": "can-J11",
+   "rect": [
+    129.19,
+    120.07,
+    163.62,
+    154.45
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30",
+    "BOX1"
+   ],
+   "kind": "shield_can",
+   "why": "shield can J11 (off the placing board, re-attached by reattach.py): the 34.4 mm footprint box is reserved for its members, sheet(s) adc"
+  },
+  {
+   "name": "can-J12",
+   "rect": [
+    167.01,
+    98.93,
+    201.44,
+    133.32
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "BOX1"
+   ],
+   "kind": "shield_can",
+   "why": "shield can J12 (off the placing board, re-attached by reattach.py): the 34.4 mm footprint box is reserved for its members, sheet(s) dac"
+  }
+ ],
+ "keep_away": [
+  {
+   "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+   "why": "digital side (132 nets: every net of J5 and the local nets of U31-U38) away from the sensitive nets (RF to the SMA notches J1-J4: 4; LO / PLL out: 5; DAC I/Q outputs: 2; ADC inputs: 2); gap 3 mm is KRT's derived default"
+  },
+  {
+   "rule": "24V,-24V,7V5,Net-(C143-Pad1),Net-(C144-Pad1),Net-(C145-Pad2):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+   "why": "regulator input rails and power-entry filter nodes (24V, -24V, 7V5, Net-(C143-Pad1), Net-(C144-Pad1), Net-(C145-Pad2)) away from the sensitive nets; gap 3 mm"
+  }
+ ],
+ "unknown": [
+  "lid_height_limit_27.5mm"
+ ],
+ "context": {
+  "rule": "v5-plan-v2",
+  "note": "lid height (27.5 mm) NOT declared (Infinionist 10-26: not a concern); cans J7-J12 are not on this board (cans_side.json + reattach.py)"
+ }
+}

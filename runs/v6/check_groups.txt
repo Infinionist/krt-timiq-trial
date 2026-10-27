@@ -1,0 +1,91 @@
+CMD: python -X utf8 py_tools/check_groups.py /tmp/pcb-trials/timiq/v6/fixed.kicad_pcb --groups /tmp/pcb-trials/timiq/v6/groups.json --intent /tmp/pcb-trials/timiq/v6/intent.json
+ENV KNOBS: none
+  at a declared pose (fixed): BOX1, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6
+  pll            signal      52 movable: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, C21, C22, C23, C24, C25, C3, C4, C5, C6, C7, C8, C9, L1, L2, L3, L4, L5, L6, L7, R10, R11, R12, R13, R15, R18, R19, R2, R20, R21, R22, R23, R3, R4, R5, R6, R7, R8, R9, U1, U2  fixed: J1
+  lo_mix_iq      signal      53 movable: C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C20, C63, C64, C65, C66, C67, C68, C69, C70, C71, C98, C99, L10, L11, L8, L9, R100, R101, R102, R103, R104, R105, R106, R107, R108, R14, R16, R165, R17, R70, R71, R72, R73, U16, U17, U21, U22, U23, U24, U25, U26, U27, U3  fixed: J2
+  dac_if         signal      44 movable: C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U10, U11, U12, U13, U14, U15
+  dividers       signal      55 movable: C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C97, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20  fixed: J3, J4
+  adc            signal      35 movable: C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30
+  dac            signal      51 movable: C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, U4, U5, U6, U7, U8, U9
+  digital        interface   50 movable: C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, R128, R129, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R150, R151, R152, R153, U31, U32, U33, U34, U35, U36, U37, U38  fixed: J5
+  pll_status     ui          3 movable: D1, Q1, R1
+  pw_in          power       6 movable: TP4, TP5, TP6, TP7, TP8, TP9  fixed: J6
+  pw_7v5         power       6 movable: L12, C143, C148, C155, C162, TP1
+  pw_24v         power       6 movable: L13, C144, C149, C156, C163, TP2
+  pw_n24v        power       6 movable: L14, C145, C150, C157, C164, TP3
+  reg_5v1        power       10 movable: U39, C139, C141, C146, C151, C153, C158, C160, D2, R154
+  reg_5v2        power       10 movable: U40, C140, C142, C147, C152, C154, C159, C161, D3, R155
+  reg_3v3a       power       10 movable: U41, C165, C170, C175, C180, C183, C188, C193, D4, R160
+  reg_3v3b       power       10 movable: U42, C166, C171, C176, C181, C184, C189, C194, D5, R161
+  reg_15v        power       10 movable: U43, C167, C172, C177, C182, C185, C190, C195, D6, R162
+  reg_m5v        power       13 movable: U44, C168, C173, C178, R156, R157, C186, C191, C196, C198, C200, D7, R163
+  reg_m15v       power       13 movable: U45, C169, C174, C179, R158, R159, C187, C192, C197, C199, C201, D8, R164
+  signal links between groups (rails excluded):
+    adc <-> dac: 0.786
+    adc <-> dac_if: 0.786
+    adc <-> digital: 6.95
+    adc <-> lo_mix_iq: 2.29
+    adc <-> pll_status: 0.286
+    adc <-> reg_3v3b: 0.667
+    adc <-> reg_5v2: 0.286
+    adc <-> reg_m5v: 0.5
+    dac <-> dac_if: 6.12
+    dac <-> digital: 4.29
+    dac <-> lo_mix_iq: 0.286
+    dac <-> pll_status: 0.286
+    dac <-> reg_15v: 0.667
+    dac <-> reg_5v2: 0.286
+    dac <-> reg_m15v: 0.667
+    dac <-> reg_m5v: 0.5
+    dac_if <-> digital: 0.286
+    dac_if <-> lo_mix_iq: 4.29
+    dac_if <-> pll_status: 0.286
+    dac_if <-> reg_15v: 0.667
+    dac_if <-> reg_5v2: 0.286
+    dac_if <-> reg_m15v: 0.667
+    dac_if <-> reg_m5v: 0.5
+    digital <-> dividers: 8.67
+    digital <-> lo_mix_iq: 0.286
+    digital <-> pll: 5.67
+    digital <-> pll_status: 0.952
+    digital <-> reg_3v3b: 0.667
+    digital <-> reg_5v1: 0.667
+    digital <-> reg_5v2: 0.286
+    dividers <-> lo_mix_iq: 1
+    dividers <-> reg_5v1: 0.667
+    lo_mix_iq <-> pll: 1
+    lo_mix_iq <-> pll_status: 0.286
+    lo_mix_iq <-> reg_5v2: 0.286
+    pll <-> pll_status: 0.667
+    pll <-> reg_3v3a: 1
+    pll_status <-> reg_5v2: 0.286
+    pw_24v <-> pw_in: 1
+    pw_24v <-> reg_15v: 1
+    pw_7v5 <-> pw_in: 1
+    pw_7v5 <-> reg_3v3a: 0.4
+    pw_7v5 <-> reg_3v3b: 0.4
+    pw_7v5 <-> reg_5v1: 0.4
+    pw_7v5 <-> reg_5v2: 0.4
+    pw_in <-> pw_n24v: 1
+    pw_n24v <-> reg_m15v: 0.667
+    pw_n24v <-> reg_m5v: 0.667
+    reg_3v3a <-> reg_3v3b: 0.4
+    reg_3v3a <-> reg_5v1: 0.4
+    reg_3v3a <-> reg_5v2: 0.4
+    reg_3v3b <-> reg_5v1: 0.4
+    reg_3v3b <-> reg_5v2: 0.4
+    reg_5v1 <-> reg_5v2: 0.4
+    reg_m15v <-> reg_m5v: 0.667
+  rails: GND
+  bridges: C16 (pll | lo_mix_iq), C178 (reg_m5v | adc/dac/dac_if), C179 (reg_m15v | dac/dac_if), C42 (dac | dac_if), C43 (dac | dac_if), C47 (dac_if | dac), C48 (dac_if | dac), C7 (pll | reg_3v3a), C72 (dividers | lo_mix_iq), L1 (pll | reg_3v3a), L2 (pll | reg_3v3a), L3 (pll | reg_3v3a), L4 (pll | reg_3v3a), L5 (pll | reg_3v3a), L6 (pll | reg_3v3a), L7 (pll | reg_3v3a), R1 (pll_status | adc/dac/dac_if/digital/lo_mix_iq/reg_5v2), R102 (lo_mix_iq | adc/dac/dac_if/digital/pll_status/reg_5v2), R104 (lo_mix_iq | adc/dac/dac_if/digital/pll_status/reg_5v2), R106 (lo_mix_iq | adc/dac/dac_if/digital/pll_status/reg_5v2), R107 (lo_mix_iq | adc/dac/dac_if/digital/pll_status/reg_5v2), R109 (adc | digital/reg_3v3b), R111 (adc | digital/reg_3v3b), R113 (adc | digital/reg_3v3b), R115 (adc | lo_mix_iq), R116 (adc | lo_mix_iq), R126 (adc | digital/reg_3v3b), R128 (digital | adc/reg_3v3b), R132 (digital | adc/reg_3v3b), R134 (digital | adc/reg_3v3b), R136 (digital | adc/reg_3v3b), R138 (digital | adc/reg_3v3b), R140 (digital | adc/reg_3v3b), R142 (digital | adc/reg_3v3b), R144 (digital | adc/reg_3v3b), R149 (digital | adc/reg_3v3b), R151 (digital | adc/dac/dac_if/lo_mix_iq/pll_status/reg_5v2), R154 (reg_5v1 | digital/dividers), R155 (reg_5v2 | adc/dac/dac_if/digital/lo_mix_iq/pll_status), R156 (reg_m5v | adc/dac/dac_if), R158 (reg_m15v | dac/dac_if), R16 (lo_mix_iq | pll), R160 (reg_3v3a | pll), R161 (reg_3v3b | adc/digital), R162 (reg_15v | dac/dac_if), R163 (reg_m5v | adc/dac/dac_if), R164 (reg_m15v | dac/dac_if), R24 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R26 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R28 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R30 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R32 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R34 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R36 (dac | adc/dac_if/digital/lo_mix_iq/pll_status/reg_5v2), R4 (pll | digital/reg_3v3a), R48 (dac | dac_if), R49 (dac | dac_if), R54 (dac_if | dac), R55 (dac_if | dac), R56 (dac_if | dac), R57 (dac_if | dac), R6 (pll | digital/reg_3v3a), R62 (dac_if | dac), R64 (dac_if | dac), R75 (dividers | digital/reg_5v1), R78 (dividers | digital/reg_5v1), R80 (dividers | digital/reg_5v1), R83 (dividers | digital/reg_5v1), R86 (dividers | digital/reg_5v1), R88 (dividers | digital/reg_5v1), R90 (dividers | digital/reg_5v1), R93 (dividers | digital/reg_5v1), R96 (dividers | digital/reg_5v1), R98 (dividers | digital/reg_5v1)
+  HINT  U1 (LMX2541SQ2690E): emc_roles reads a switching converter -- a switching stage or an RF front end? Name it, or record it `none`
+  HINT  U21 (PMA2-43LN+): emc_roles reads a switching converter; pin 1 carries inductor L8; pin 2 carries inductor L8; pin 7 carries inductor L10 -- a switching stage or an RF front end? Name it, or record it `none`
+  HINT  U22 (PMA2-43LN+): emc_roles reads a switching converter; pin 1 carries inductor L9; pin 2 carries inductor L9; pin 7 carries inductor L11 -- a switching stage or an RF front end? Name it, or record it `none`
+  WARN  C155 (pw_7v5) is a decap of U39/U40/U41/U42 (reg_3v3a/reg_3v3b/reg_5v1/reg_5v2) to the decap rule, and no IC in its own group carries its net 7V5: place_simple exempts it from the decap rule so it is placed with pw_7v5 -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C156 (pw_24v) is a decap of U43 (reg_15v) to the decap rule, and no IC in its own group carries its net 24V: place_simple exempts it from the decap rule so it is placed with pw_24v -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C157 (pw_n24v) is a decap of U44/U45 (reg_m15v/reg_m5v) to the decap rule, and no IC in its own group carries its net -24V: place_simple exempts it from the decap rule so it is placed with pw_n24v -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C162 (pw_7v5) is a decap of U39/U40/U41/U42 (reg_3v3a/reg_3v3b/reg_5v1/reg_5v2) to the decap rule, and no IC in its own group carries its net 7V5: place_simple exempts it from the decap rule so it is placed with pw_7v5 -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C163 (pw_24v) is a decap of U43 (reg_15v) to the decap rule, and no IC in its own group carries its net 24V: place_simple exempts it from the decap rule so it is placed with pw_24v -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C164 (pw_n24v) is a decap of U44/U45 (reg_m15v/reg_m5v) to the decap rule, and no IC in its own group carries its net -24V: place_simple exempts it from the decap rule so it is placed with pw_n24v -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+JSON_SUMMARY: {"bridges": 74, "crystals": [], "decap_cross_group": ["C155", "C156", "C157", "C162", "C163", "C164"], "errors": 0, "followers": ["C101", "C103", "C108", "C109", "C11", "C110", "C111", "C112", "C113", "C12", "C120", "C121", "C122", "C13", "C15", "C16", "C17", "C18", "C19", "C2", "C20", "C22", "C23", "C24", "C25", "C27", "C28", "C3", "C37", "C38", "C42", "C43", "C47", "C48", "C53", "C54", "C55", "C56", "C57", "C58", "C63", "C64", "C7", "C70", "C72", "C73", "C80", "C81", "C88", "C89", "C9", "C96", "C97", "C98", "C99", "L1", "L10", "L11", "L2", "L3", "L4", "L5", "L6", "L7", "L8", "L9", "R10", "R100", "R101", "R103", "R105", "R108", "R109", "R11", "R110", "R111", "R112", "R113", "R114", "R117", "R118", "R119", "R12", "R120", "R121", "R122", "R123", "R124", "R125", "R126", "R127", "R13", "R15", "R16", "R165", "R17", "R2", "R22", "R24", "R25", "R26", "R27", "R28", "R29", "R3", "R30", "R31", "R32", "R33", "R34", "R35", "R36", "R37", "R38", "R39", "R4", "R40", "R41", "R42", "R43", "R44", "R45", "R46", "R47", "R48", "R49", "R5", "R50", "R51", "R52", "R53", "R54", "R55", "R56", "R57", "R58", "R59", "R6", "R60", "R61", "R62", "R64", "R66", "R67", "R68", "R69", "R7", "R70", "R72", "R73", "R75", "R76", "R78", "R79", "R8", "R80", "R81", "R82", "R83", "R84", "R85", "R86", "R87", "R88", "R89", "R9", "R90", "R91", "R92", "R93", "R94", "R95", "R96", "R97", "R98", "R99", "U24", "U26", "U27", "U29", "U30", "U5", "U6"], "groups": 19, "pulled": [], "seated": ["BOX1", "FIX1", "FIX2", "FIX3", "FIX4", "FIX5", "FIX6", "FIX7", "FIX8", "J1", "J2", "J3", "J4", "J5", "J6"], "template_candidates": [], "template_hints": 3, "warnings": 6}
+EXIT=0

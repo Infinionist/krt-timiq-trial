@@ -1,0 +1,40 @@
+{
+ "judge": [
+  11,
+  7
+ ],
+ "scattered": [],
+ "clustered": [
+  7,
+  11
+ ],
+ "anchored": [],
+ "illegal": [],
+ "refused": {},
+ "oversubscribed": [],
+ "claim_arity": [],
+ "floorplan": {
+  "7": 0,
+  "11": 0
+ },
+ "assembly": {
+  "7": 0,
+  "11": 0
+ },
+ "template_off": {
+  "7": [
+   {
+    "anchor": "U22",
+    "ref": "R105",
+    "worst_mm": 9.136,
+    "tolerance_mm": 0.3
+   }
+  ],
+  "11": []
+ },
+ "bga_field": {
+  "7": [],
+  "11": []
+ },
+ "baseline": "/tmp/pcb-trials/timiq/v2/run/fixed.kicad_pcb"
+}

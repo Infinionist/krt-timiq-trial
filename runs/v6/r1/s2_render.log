@@ -1,0 +1,36 @@
+CMD: python -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb -o /tmp/pcb-trials/timiq/v6/r1/s2.png
+ENV KNOBS: none
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+floors     clearance 0.2mm [board netclass], board edge clearance 0.5mm [board constraint]
+  wrote /tmp/pcb-trials/timiq/v6/r1/s2_F.png  (1500x1600)
+  wrote /tmp/pcb-trials/timiq/v6/r1/s2_B.png  (1500x1600)
+
+WHAT THIS PANEL SHOWS
+  13 part(s) with COURTYARD off the outline: FIX1 by 1.1mm, FIX2 by 0.55mm, FIX3 by 1.1mm, FIX4 by 0.55mm, FIX5 by 1.1mm, FIX6 by 0.55mm, FIX7 by 1.1mm, FIX8 by 0.55mm
+
+THE WORST 6, framed one per crop
+  1. J3  off-board courtyard, 10.306mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --view 202.945,216.06,217.145,234.746 --clearance 0.2 --no-ratsnest -o /tmp/pcb-trials/timiq/v6/r1/s2_worst1.png
+  2. J2  off-board courtyard, 10.2955mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --view 150.715,216.05,164.915,234.736 --clearance 0.2 --no-ratsnest -o /tmp/pcb-trials/timiq/v6/r1/s2_worst2.png
+  3. J1  off-board courtyard, 10.293mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --view 139.186,216.047,153.386,234.733 --clearance 0.2 --no-ratsnest -o /tmp/pcb-trials/timiq/v6/r1/s2_worst3.png
+  4. J4  off-board courtyard, 10.286mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --view 214.965,216.04,229.165,234.726 --clearance 0.2 --no-ratsnest -o /tmp/pcb-trials/timiq/v6/r1/s2_worst4.png
+  5. J6  off-board courtyard, 4.9972mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --view 193.535,57.443,210.935,83.043 --clearance 0.2 --no-ratsnest -o /tmp/pcb-trials/timiq/v6/r1/s2_worst5.png
+  6. FIX1  off-board courtyard, 1.1mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --view 251.666,215.89,260.766,224.99 --clearance 0.2 --no-ratsnest -o /tmp/pcb-trials/timiq/v6/r1/s2_worst6.png
+
+SEE THE WHOLE PICTURE AGAIN, uncluttered
+  python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --clearance 0.2 --no-ratsnest --no-labels -o /tmp/pcb-trials/timiq/v6/r1/s2_clean.png
+  python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v6/r1/s2.kicad_pcb --clearance 0.2 --focus -o /tmp/pcb-trials/timiq/v6/r1/s2_focus/    # a panel per legality pocket
+
+DECLUTTER  (add these when the panel is too busy to read)
+  --no-ratsnest    drop the airwires -- the biggest source of visual noise on a dense board
+  --no-labels      drop ref designators (keep them on crops, drop them board-wide)
+  --no-ghosts --no-arrows   drop the --before overlay when you want the CURRENT state alone
+  --ratsnest-nets '<glob>'  show ONE bus instead of all of them
+  --per-side / --flat       split or merge the two sides
+  --ignore-nets <plane nets>  a plane-routed rail's airwire is a fiction; excluding it is what makes crossings/hpwl reproduce the optimizer's own numbers
+EXIT=0

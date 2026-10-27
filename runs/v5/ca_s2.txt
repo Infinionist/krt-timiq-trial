@@ -1,0 +1,1257 @@
+CMD: python -X utf8 py_tools/check_assembly.py /tmp/pcb-trials/timiq/v5/seeds/s2.kicad_pcb --baseline /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb
+ENV KNOBS: none
+  grading at clearance 0.2mm  [board netclass]
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+Assembly audit of /tmp/pcb-trials/timiq/v5/seeds/s2.kicad_pcb (clearance 0.2):
+  blocking 0  advisory 771  waived 226  contained 217  courtyard_blocking 0  new-vs-baseline 771
+  heights (#1443): 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; 0 pair(s) clear, one part under the other's body
+  baseline /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb is a pile: its overlaps are staging, not a baseline (#1103), so every advisory pair counts as new
+    C145 <-> J6  courtyard  47.7804mm2 side F  advisory  <-- NEW vs baseline
+    C145 <-> J6  body(silk/silk)  47.7804mm2 side F  advisory  <-- NEW vs baseline
+    C143 <-> J6  courtyard  38.9731mm2 side F  advisory  <-- NEW vs baseline
+    C143 <-> J6  body(silk/silk)  38.9731mm2 side F  advisory  <-- NEW vs baseline
+    C143 <-> L12  courtyard  18.11mm2 side F  advisory  <-- NEW vs baseline
+    C143 <-> L12  body(silk/silk)  18.11mm2 side F  advisory  CONTAINED 63%  <-- NEW vs baseline
+    C144 <-> L13  courtyard  12.5115mm2 side B  advisory  <-- NEW vs baseline
+    C144 <-> L13  body(silk/silk)  12.5115mm2 side B  advisory  <-- NEW vs baseline
+    C145 <-> C150  courtyard  11.0mm2 side F  advisory  <-- NEW vs baseline
+    C145 <-> C150  body(silk/silk)  11.0mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    J6 <-> L14  courtyard  5.8785mm2 side F  advisory  <-- NEW vs baseline
+    J6 <-> L14  body(silk/silk)  5.8785mm2 side F  advisory  <-- NEW vs baseline
+    C145 <-> L14  courtyard  4.786mm2 side F  advisory  <-- NEW vs baseline
+    C145 <-> L14  body(silk/silk)  4.786mm2 side F  advisory  <-- NEW vs baseline
+    C17 <-> U2  courtyard  4.7419mm2 side F  advisory  <-- NEW vs baseline
+    C17 <-> U2  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    C133 <-> U34  courtyard  4.1631mm2 side B  advisory  <-- NEW vs baseline
+    C133 <-> U34  body(silk/silk)  4.1631mm2 side B  advisory  CONTAINED 88%  <-- NEW vs baseline
+    C123 <-> U31  courtyard  4.0856mm2 side F  advisory  <-- NEW vs baseline
+    C123 <-> U31  body(silk/silk)  4.0856mm2 side F  advisory  CONTAINED 86%  <-- NEW vs baseline
+    C151 <-> C158  courtyard  4.0795mm2 side B  advisory  <-- NEW vs baseline
+    C151 <-> C158  body(silk/silk)  4.0795mm2 side B  advisory  <-- NEW vs baseline
+    C186 <-> C200  courtyard  4.0795mm2 side F  advisory  <-- NEW vs baseline
+    C186 <-> C200  body(silk/silk)  4.0795mm2 side F  advisory  <-- NEW vs baseline
+    C189 <-> C194  courtyard  4.0795mm2 side F  advisory  <-- NEW vs baseline
+    C189 <-> C194  body(silk/silk)  4.0795mm2 side F  advisory  <-- NEW vs baseline
+    C191 <-> C196  courtyard  4.0795mm2 side F  advisory  <-- NEW vs baseline
+    C191 <-> C196  body(silk/silk)  4.0795mm2 side F  advisory  <-- NEW vs baseline
+    C152 <-> U40  courtyard  3.8911mm2 side B  advisory  <-- NEW vs baseline
+    C152 <-> U40  body(silk/silk)  3.8911mm2 side B  advisory  <-- NEW vs baseline
+    C194 <-> U42  courtyard  3.8703mm2 side F  advisory  <-- NEW vs baseline
+    C194 <-> U42  body(silk/silk)  3.8703mm2 side F  advisory  <-- NEW vs baseline
+    C159 <-> U40  courtyard  3.7625mm2 side B  advisory  <-- NEW vs baseline
+    C159 <-> U40  body(silk/silk)  3.7625mm2 side B  advisory  <-- NEW vs baseline
+    C160 <-> U39  courtyard  3.6677mm2 side B  advisory  <-- NEW vs baseline
+    C160 <-> U39  body(silk/silk)  3.6677mm2 side B  advisory  <-- NEW vs baseline
+    C152 <-> C161  courtyard  3.6302mm2 side B  advisory  <-- NEW vs baseline
+    C152 <-> C161  body(silk/silk)  3.6302mm2 side B  advisory  <-- NEW vs baseline
+    C116 <-> U29  courtyard  3.6207mm2 side F  advisory  <-- NEW vs baseline
+    C116 <-> U29  body(silk/silk)  3.6207mm2 side F  advisory  CONTAINED 76%  <-- NEW vs baseline
+    U24 <-> U26  courtyard  3.5624mm2 side F  advisory  <-- NEW vs baseline
+    U24 <-> U26  body(silk/silk)  3.5624mm2 side F  advisory  <-- NEW vs baseline
+    D6 <-> R162  courtyard  3.5443mm2 side F  advisory  <-- NEW vs baseline
+    D6 <-> R162  body(silk/silk)  3.5443mm2 side F  advisory  <-- NEW vs baseline
+    D5 <-> R161  courtyard  3.4978mm2 side F  advisory  <-- NEW vs baseline
+    D5 <-> R161  body(silk/silk)  3.4978mm2 side F  advisory  <-- NEW vs baseline
+    C192 <-> C197  courtyard  3.259mm2 side F  advisory  <-- NEW vs baseline
+    C192 <-> C197  body(silk/silk)  3.259mm2 side F  advisory  <-- NEW vs baseline
+    U10 <-> U11  courtyard  3.237mm2 side F  advisory  <-- NEW vs baseline
+    U10 <-> U11  body(silk/silk)  3.237mm2 side F  advisory  <-- NEW vs baseline
+    J6 <-> L13  courtyard  3.1396mm2 side B  advisory  <-- NEW vs baseline
+    C176 <-> U42  courtyard  2.9557mm2 side F  advisory  <-- NEW vs baseline
+    C176 <-> U42  body(silk/silk)  2.9557mm2 side F  advisory  <-- NEW vs baseline
+    C148 <-> J6  courtyard  2.9045mm2 side F  advisory  <-- NEW vs baseline
+    C148 <-> J6  body(silk/silk)  2.9045mm2 side F  advisory  <-- NEW vs baseline
+    C158 <-> U39  courtyard  2.8792mm2 side B  advisory  <-- NEW vs baseline
+    C158 <-> U39  body(silk/silk)  2.8792mm2 side B  advisory  <-- NEW vs baseline
+    U25 <-> U27  courtyard  2.8487mm2 side F  advisory  <-- NEW vs baseline
+    U25 <-> U27  body(silk/silk)  2.8487mm2 side F  advisory  <-- NEW vs baseline
+    C177 <-> U43  courtyard  2.8422mm2 side B  advisory  <-- NEW vs baseline
+    C177 <-> U43  body(silk/silk)  2.8422mm2 side B  advisory  <-- NEW vs baseline
+    U23 <-> U24  courtyard  2.7977mm2 side F  advisory  <-- NEW vs baseline
+    U23 <-> U24  body(silk/silk)  2.7977mm2 side F  advisory  <-- NEW vs baseline
+    C195 <-> U43  courtyard  2.6424mm2 side B  advisory  <-- NEW vs baseline
+    C195 <-> U43  body(silk/silk)  2.6424mm2 side B  advisory  <-- NEW vs baseline
+    C154 <-> U40  courtyard  2.4334mm2 side B  advisory  <-- NEW vs baseline
+    C154 <-> U40  body(silk/silk)  2.4334mm2 side B  advisory  <-- NEW vs baseline
+    C168 <-> U44  courtyard  2.31mm2 side F  advisory  <-- NEW vs baseline
+    C168 <-> U44  body(silk/silk)  2.31mm2 side F  advisory  <-- NEW vs baseline
+    C169 <-> U45  courtyard  2.2985mm2 side F  advisory  <-- NEW vs baseline
+    C169 <-> U45  body(silk/silk)  2.2985mm2 side F  advisory  <-- NEW vs baseline
+    C167 <-> U43  courtyard  2.1697mm2 side B  advisory  <-- NEW vs baseline
+    C167 <-> U43  body(silk/silk)  2.1697mm2 side B  advisory  <-- NEW vs baseline
+    C144 <-> FIX6  courtyard  2.1046mm2 side B  advisory  <-- NEW vs baseline
+    C187 <-> C201  courtyard  2.0764mm2 side F  advisory  <-- NEW vs baseline
+    C187 <-> C201  body(silk/silk)  2.0764mm2 side F  advisory  <-- NEW vs baseline
+    R109 <-> U29  courtyard  2.0511mm2 side F  advisory  <-- NEW vs baseline
+    R109 <-> U29  body(silk/silk)  2.0511mm2 side F  advisory  <-- NEW vs baseline
+    D1 <-> Q1  courtyard  2.0484mm2 side F  advisory  <-- NEW vs baseline
+    D1 <-> Q1  body(silk/silk)  2.0484mm2 side F  advisory  <-- NEW vs baseline
+    C187 <-> C199  courtyard  1.8811mm2 side F  advisory  <-- NEW vs baseline
+    C187 <-> C199  body(silk/silk)  1.8811mm2 side F  advisory  <-- NEW vs baseline
+    C175 <-> C188  courtyard  1.8775mm2 side B  advisory  <-- NEW vs baseline
+    C175 <-> C188  body(silk/silk)  1.8775mm2 side B  advisory  <-- NEW vs baseline
+    C130 <-> U32  courtyard  1.8641mm2 side F  advisory  <-- NEW vs baseline
+    C130 <-> U32  body(silk/silk)  1.8641mm2 side F  advisory  <-- NEW vs baseline
+    C177 <-> C185  courtyard  1.855mm2 side B  advisory  <-- NEW vs baseline
+    C177 <-> C185  body(silk/silk)  1.855mm2 side B  advisory  <-- NEW vs baseline
+    C182 <-> C190  courtyard  1.8506mm2 side B  advisory  <-- NEW vs baseline
+    C182 <-> C190  body(silk/silk)  1.8506mm2 side B  advisory  <-- NEW vs baseline
+    C147 <-> C152  courtyard  1.8331mm2 side B  advisory  <-- NEW vs baseline
+    C147 <-> C152  body(silk/silk)  1.8331mm2 side B  advisory  <-- NEW vs baseline
+    R157 <-> U44  courtyard  1.8314mm2 side F  advisory  <-- NEW vs baseline
+    R157 <-> U44  body(silk/silk)  1.8314mm2 side F  advisory  <-- NEW vs baseline
+    R159 <-> U45  courtyard  1.8314mm2 side F  advisory  <-- NEW vs baseline
+    R159 <-> U45  body(silk/silk)  1.8314mm2 side F  advisory  <-- NEW vs baseline
+    C182 <-> C185  courtyard  1.8299mm2 side B  advisory  <-- NEW vs baseline
+    C182 <-> C185  body(silk/silk)  1.8299mm2 side B  advisory  <-- NEW vs baseline
+    C63 <-> U16  courtyard  1.8265mm2 side F  advisory  <-- NEW vs baseline
+    C63 <-> U16  body(silk/silk)  1.8265mm2 side F  advisory  <-- NEW vs baseline
+    C12 <-> U1  courtyard  1.8246mm2 side F  advisory  <-- NEW vs baseline
+    C12 <-> U1  body(silk/silk)  1.8246mm2 side F  advisory  <-- NEW vs baseline
+    C173 <-> U44  courtyard  1.8224mm2 side F  advisory  <-- NEW vs baseline
+    C173 <-> U44  body(silk/silk)  1.8224mm2 side F  advisory  <-- NEW vs baseline
+    C171 <-> U42  courtyard  1.8221mm2 side F  advisory  <-- NEW vs baseline
+    C171 <-> U42  body(silk/silk)  1.8221mm2 side F  advisory  <-- NEW vs baseline
+    C172 <-> U43  courtyard  1.8221mm2 side B  advisory  <-- NEW vs baseline
+    C172 <-> U43  body(silk/silk)  1.8221mm2 side B  advisory  <-- NEW vs baseline
+    D3 <-> R155  courtyard  1.8136mm2 side F  advisory  <-- NEW vs baseline
+    D3 <-> R155  body(silk/silk)  1.8136mm2 side F  advisory  <-- NEW vs baseline
+    R101 <-> U17  courtyard  1.787mm2 side F  advisory  <-- NEW vs baseline
+    R101 <-> U17  body(silk/silk)  1.787mm2 side F  advisory  <-- NEW vs baseline
+    C140 <-> C170  courtyard  1.7842mm2 side B  advisory  <-- NEW vs baseline
+    C140 <-> C170  body(silk/silk)  1.7842mm2 side B  advisory  <-- NEW vs baseline
+    C169 <-> C174  courtyard  1.7676mm2 side F  advisory  <-- NEW vs baseline
+    C169 <-> C174  body(silk/silk)  1.7676mm2 side F  advisory  <-- NEW vs baseline
+    C199 <-> C201  courtyard  1.7628mm2 side F  advisory  <-- NEW vs baseline
+    C199 <-> C201  body(silk/silk)  1.7628mm2 side F  advisory  <-- NEW vs baseline
+    C186 <-> C191  courtyard  1.7626mm2 side F  advisory  <-- NEW vs baseline
+    C186 <-> C191  body(silk/silk)  1.7626mm2 side F  advisory  <-- NEW vs baseline
+    C179 <-> U45  courtyard  1.7586mm2 side F  advisory  <-- NEW vs baseline
+    C179 <-> U45  body(silk/silk)  1.7586mm2 side F  advisory  <-- NEW vs baseline
+    C73 <-> U18  courtyard  1.7443mm2 side F  advisory  <-- NEW vs baseline
+    C73 <-> U18  body(silk/silk)  1.7443mm2 side F  advisory  <-- NEW vs baseline
+    C89 <-> U19  courtyard  1.7443mm2 side F  advisory  <-- NEW vs baseline
+    C89 <-> U19  body(silk/silk)  1.7443mm2 side F  advisory  <-- NEW vs baseline
+    C132 <-> U33  courtyard  1.7364mm2 side B  advisory  <-- NEW vs baseline
+    C132 <-> U33  body(silk/silk)  1.7364mm2 side B  advisory  <-- NEW vs baseline
+    C180 <-> U41  courtyard  1.7363mm2 side B  advisory  <-- NEW vs baseline
+    C180 <-> U41  body(silk/silk)  1.7363mm2 side B  advisory  <-- NEW vs baseline
+    C196 <-> U44  courtyard  1.697mm2 side F  advisory  <-- NEW vs baseline
+    C196 <-> U44  body(silk/silk)  1.697mm2 side F  advisory  <-- NEW vs baseline
+    C177 <-> C182  courtyard  1.6684mm2 side B  advisory  <-- NEW vs baseline
+    C177 <-> C182  body(silk/silk)  1.6684mm2 side B  advisory  <-- NEW vs baseline
+    C81 <-> U18  courtyard  1.6656mm2 side F  advisory  <-- NEW vs baseline
+    C81 <-> U18  body(silk/silk)  1.6656mm2 side F  advisory  <-- NEW vs baseline
+    C38 <-> U8  courtyard  1.627mm2 side F  advisory  <-- NEW vs baseline
+    C38 <-> U8  body(silk/silk)  1.627mm2 side F  advisory  <-- NEW vs baseline
+    C153 <-> U39  courtyard  1.615mm2 side B  advisory  <-- NEW vs baseline
+    C153 <-> U39  body(silk/silk)  1.615mm2 side B  advisory  <-- NEW vs baseline
+    R44 <-> U7  courtyard  1.6052mm2 side F  advisory  <-- NEW vs baseline
+    R44 <-> U7  body(silk/silk)  1.6052mm2 side F  advisory  <-- NEW vs baseline
+    C25 <-> U1  courtyard  1.5862mm2 side F  advisory  <-- NEW vs baseline
+    C25 <-> U1  body(silk/silk)  1.5862mm2 side F  advisory  <-- NEW vs baseline
+    C143 <-> C148  courtyard  1.5731mm2 side F  advisory  <-- NEW vs baseline
+    C143 <-> C148  body(silk/silk)  1.5731mm2 side F  advisory  <-- NEW vs baseline
+    D1 <-> R1  courtyard  1.5642mm2 side F  advisory  <-- NEW vs baseline
+    D1 <-> R1  body(silk/silk)  1.5642mm2 side F  advisory  <-- NEW vs baseline
+    C183 <-> C188  courtyard  1.5616mm2 side B  advisory  <-- NEW vs baseline
+    C183 <-> C188  body(silk/silk)  1.5616mm2 side B  advisory  <-- NEW vs baseline
+    R10 <-> U2  courtyard  1.5046mm2 side F  advisory  <-- NEW vs baseline
+    R10 <-> U2  body(silk/silk)  1.5046mm2 side F  advisory  <-- NEW vs baseline
+    C149 <-> J6  courtyard  1.5028mm2 side B  advisory  <-- NEW vs baseline
+    C182 <-> C195  courtyard  1.4696mm2 side B  advisory  <-- NEW vs baseline
+    C182 <-> C195  body(silk/silk)  1.4696mm2 side B  advisory  <-- NEW vs baseline
+    D2 <-> R154  courtyard  1.4511mm2 side F  advisory  <-- NEW vs baseline
+    D2 <-> R154  body(silk/silk)  1.4511mm2 side F  advisory  <-- NEW vs baseline
+    C147 <-> U40  courtyard  1.4391mm2 side B  advisory  <-- NEW vs baseline
+    C147 <-> U40  body(silk/silk)  1.4391mm2 side B  advisory  <-- NEW vs baseline
+    C191 <-> U44  courtyard  1.4283mm2 side F  advisory  <-- NEW vs baseline
+    C191 <-> U44  body(silk/silk)  1.4283mm2 side F  advisory  <-- NEW vs baseline
+    J6 <-> L12  courtyard  1.427mm2 side F  advisory  <-- NEW vs baseline
+    J6 <-> L12  body(silk/silk)  1.427mm2 side F  advisory  <-- NEW vs baseline
+    C175 <-> C180  courtyard  1.4207mm2 side B  advisory  <-- NEW vs baseline
+    C175 <-> C180  body(silk/silk)  1.4207mm2 side B  advisory  <-- NEW vs baseline
+    C80 <-> U18  courtyard  1.4186mm2 side F  advisory  <-- NEW vs baseline
+    C80 <-> U18  body(silk/silk)  1.4186mm2 side F  advisory  <-- NEW vs baseline
+    C146 <-> C153  courtyard  1.4127mm2 side B  advisory  <-- NEW vs baseline
+    C146 <-> C153  body(silk/silk)  1.4127mm2 side B  advisory  <-- NEW vs baseline
+    R120 <-> U28  courtyard  1.3659mm2 side F  advisory  <-- NEW vs baseline
+    R120 <-> U28  body(silk/silk)  1.3659mm2 side F  advisory  <-- NEW vs baseline
+    C177 <-> C195  courtyard  1.284mm2 side B  advisory  <-- NEW vs baseline
+    C177 <-> C195  body(silk/silk)  1.284mm2 side B  advisory  <-- NEW vs baseline
+    C46 <-> U11  courtyard  1.2318mm2 side F  advisory  <-- NEW vs baseline
+    C46 <-> U11  body(silk/silk)  1.2318mm2 side F  advisory  <-- NEW vs baseline
+    C57 <-> U14  courtyard  1.2318mm2 side F  advisory  <-- NEW vs baseline
+    C57 <-> U14  body(silk/silk)  1.2318mm2 side F  advisory  <-- NEW vs baseline
+    C58 <-> U15  courtyard  1.2318mm2 side F  advisory  <-- NEW vs baseline
+    C58 <-> U15  body(silk/silk)  1.2318mm2 side F  advisory  <-- NEW vs baseline
+    D4 <-> R160  courtyard  1.2228mm2 side F  advisory  <-- NEW vs baseline
+    D4 <-> R160  body(silk/silk)  1.2228mm2 side F  advisory  <-- NEW vs baseline
+    C147 <-> C154  courtyard  1.2118mm2 side B  advisory  <-- NEW vs baseline
+    C147 <-> C154  body(silk/silk)  1.2118mm2 side B  advisory  <-- NEW vs baseline
+    C27 <-> U5  courtyard  1.1936mm2 side F  advisory  <-- NEW vs baseline
+    C27 <-> U5  body(silk/silk)  1.1936mm2 side F  advisory  <-- NEW vs baseline
+    C124 <-> U32  courtyard  1.1567mm2 side F  advisory  <-- NEW vs baseline
+    C124 <-> U32  body(silk/silk)  1.1567mm2 side F  advisory  <-- NEW vs baseline
+    C82 <-> U18  courtyard  1.114mm2 side F  advisory  <-- NEW vs baseline
+    C82 <-> U18  body(silk/silk)  1.114mm2 side F  advisory  <-- NEW vs baseline
+    C181 <-> C184  courtyard  1.0978mm2 side F  advisory  <-- NEW vs baseline
+    C181 <-> C184  body(silk/silk)  1.0978mm2 side F  advisory  <-- NEW vs baseline
+    C146 <-> C165  courtyard  1.0839mm2 side B  advisory  <-- NEW vs baseline
+    C146 <-> C165  body(silk/silk)  1.0839mm2 side B  advisory  <-- NEW vs baseline
+    C191 <-> C198  courtyard  1.0654mm2 side F  advisory  <-- NEW vs baseline
+    C191 <-> C198  body(silk/silk)  1.0654mm2 side F  advisory  <-- NEW vs baseline
+    R60 <-> U14  courtyard  1.0107mm2 side F  advisory  <-- NEW vs baseline
+    R60 <-> U14  body(silk/silk)  1.0107mm2 side F  advisory  <-- NEW vs baseline
+    C113 <-> R122  courtyard  1.0028mm2 side F  advisory  <-- NEW vs baseline
+    C113 <-> R122  body(silk/silk)  1.0028mm2 side F  advisory  <-- NEW vs baseline
+    R142 <-> R143  courtyard  1.002mm2 side B  advisory  <-- NEW vs baseline
+    R142 <-> R143  body(silk/silk)  1.002mm2 side B  advisory  <-- NEW vs baseline
+    R156 <-> R157  courtyard  1.002mm2 side F  advisory  <-- NEW vs baseline
+    R156 <-> R157  body(silk/silk)  1.002mm2 side F  advisory  <-- NEW vs baseline
+    R73 <-> U17  courtyard  1.002mm2 side F  advisory  <-- NEW vs baseline
+    R73 <-> U17  body(silk/silk)  1.002mm2 side F  advisory  <-- NEW vs baseline
+    R42 <-> U4  courtyard  1.0014mm2 side F  advisory  <-- NEW vs baseline
+    R42 <-> U4  body(silk/silk)  1.0014mm2 side F  advisory  <-- NEW vs baseline
+    C104 <-> U23  courtyard  0.9969mm2 side F  advisory  <-- NEW vs baseline
+    C104 <-> U23  body(silk/silk)  0.9969mm2 side F  advisory  <-- NEW vs baseline
+    R21 <-> R23  courtyard  0.9952mm2 side F  advisory  <-- NEW vs baseline
+    R21 <-> R23  body(silk/silk)  0.9952mm2 side F  advisory  <-- NEW vs baseline
+    L2 <-> L3  courtyard  0.9799mm2 side B  advisory  <-- NEW vs baseline
+    L2 <-> L3  body(silk/silk)  0.9799mm2 side B  advisory  <-- NEW vs baseline
+    R13 <-> U1  courtyard  0.9712mm2 side F  advisory  <-- NEW vs baseline
+    R13 <-> U1  body(silk/silk)  0.9712mm2 side F  advisory  <-- NEW vs baseline
+    R146 <-> R151  courtyard  0.9704mm2 side B  advisory  <-- NEW vs baseline
+    R146 <-> R151  body(silk/silk)  0.9704mm2 side B  advisory  <-- NEW vs baseline
+    R70 <-> U3  courtyard  0.9697mm2 side F  advisory  <-- NEW vs baseline
+    R70 <-> U3  body(silk/silk)  0.9697mm2 side F  advisory  <-- NEW vs baseline
+    R110 <-> R114  courtyard  0.968mm2 side F  advisory  <-- NEW vs baseline
+    R110 <-> R114  body(silk/silk)  0.968mm2 side F  advisory  <-- NEW vs baseline
+    R80 <-> R93  courtyard  0.9632mm2 side B  advisory  <-- NEW vs baseline
+    R80 <-> R93  body(silk/silk)  0.9632mm2 side B  advisory  <-- NEW vs baseline
+    C25 <-> R15  courtyard  0.9594mm2 side F  advisory  <-- NEW vs baseline
+    C25 <-> R15  body(silk/silk)  0.9594mm2 side F  advisory  <-- NEW vs baseline
+    R117 <-> R121  courtyard  0.9547mm2 side F  advisory  <-- NEW vs baseline
+    R117 <-> R121  body(silk/silk)  0.9547mm2 side F  advisory  <-- NEW vs baseline
+    C183 <-> C193  courtyard  0.9419mm2 side B  advisory  <-- NEW vs baseline
+    C183 <-> C193  body(silk/silk)  0.9419mm2 side B  advisory  <-- NEW vs baseline
+    C22 <-> R22  courtyard  0.9349mm2 side F  advisory  <-- NEW vs baseline
+    C22 <-> R22  body(silk/silk)  0.9349mm2 side F  advisory  <-- NEW vs baseline
+    C37 <-> U7  courtyard  0.9325mm2 side F  advisory  <-- NEW vs baseline
+    C37 <-> U7  body(silk/silk)  0.9325mm2 side F  advisory  <-- NEW vs baseline
+    R45 <-> U8  courtyard  0.9297mm2 side F  advisory  <-- NEW vs baseline
+    R45 <-> U8  body(silk/silk)  0.9297mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> C198  courtyard  0.9271mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> C198  body(silk/silk)  0.9271mm2 side F  advisory  <-- NEW vs baseline
+    R118 <-> R122  courtyard  0.9085mm2 side F  advisory  <-- NEW vs baseline
+    R118 <-> R122  body(silk/silk)  0.9085mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> U44  courtyard  0.901mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> U44  body(silk/silk)  0.901mm2 side F  advisory  <-- NEW vs baseline
+    R82 <-> U18  courtyard  0.897mm2 side F  advisory  <-- NEW vs baseline
+    R82 <-> U18  body(silk/silk)  0.897mm2 side F  advisory  <-- NEW vs baseline
+    R158 <-> U45  courtyard  0.8963mm2 side F  advisory  <-- NEW vs baseline
+    R158 <-> U45  body(silk/silk)  0.8963mm2 side F  advisory  <-- NEW vs baseline
+    C141 <-> U39  courtyard  0.8925mm2 side B  advisory  <-- NEW vs baseline
+    C141 <-> U39  body(silk/silk)  0.8925mm2 side B  advisory  <-- NEW vs baseline
+    C142 <-> U40  courtyard  0.8925mm2 side B  advisory  <-- NEW vs baseline
+    C142 <-> U40  body(silk/silk)  0.8925mm2 side B  advisory  <-- NEW vs baseline
+    C174 <-> U45  courtyard  0.8925mm2 side F  advisory  <-- NEW vs baseline
+    C174 <-> U45  body(silk/silk)  0.8925mm2 side F  advisory  <-- NEW vs baseline
+    R150 <-> U34  courtyard  0.8924mm2 side B  advisory  <-- NEW vs baseline
+    R150 <-> U34  body(silk/silk)  0.8924mm2 side B  advisory  <-- NEW vs baseline
+    C57 <-> R68  courtyard  0.8799mm2 side F  advisory  <-- NEW vs baseline
+    C57 <-> R68  body(silk/silk)  0.8799mm2 side F  advisory  <-- NEW vs baseline
+    C141 <-> C153  courtyard  0.8774mm2 side B  advisory  <-- NEW vs baseline
+    C141 <-> C153  body(silk/silk)  0.8774mm2 side B  advisory  <-- NEW vs baseline
+    C140 <-> U41  courtyard  0.8747mm2 side B  advisory  <-- NEW vs baseline
+    C140 <-> U41  body(silk/silk)  0.8747mm2 side B  advisory  <-- NEW vs baseline
+    C23 <-> U2  courtyard  0.8675mm2 side F  advisory  <-- NEW vs baseline
+    C23 <-> U2  body(silk/silk)  0.8675mm2 side F  advisory  <-- NEW vs baseline
+    R38 <-> U4  courtyard  0.8583mm2 side F  advisory  <-- NEW vs baseline
+    R38 <-> U4  body(silk/silk)  0.8583mm2 side F  advisory  <-- NEW vs baseline
+    C64 <-> U16  courtyard  0.8582mm2 side F  advisory  <-- NEW vs baseline
+    C64 <-> U16  body(silk/silk)  0.8582mm2 side F  advisory  <-- NEW vs baseline
+    C154 <-> U39  courtyard  0.8571mm2 side B  advisory  <-- NEW vs baseline
+    C154 <-> U39  body(silk/silk)  0.8571mm2 side B  advisory  <-- NEW vs baseline
+    R77 <-> U18  courtyard  0.8544mm2 side F  advisory  <-- NEW vs baseline
+    R77 <-> U18  body(silk/silk)  0.8544mm2 side F  advisory  <-- NEW vs baseline
+    C86 <-> U20  courtyard  0.8513mm2 side F  advisory  <-- NEW vs baseline
+    C86 <-> U20  body(silk/silk)  0.8513mm2 side F  advisory  <-- NEW vs baseline
+    R28 <-> R36  courtyard  0.8495mm2 side B  advisory  <-- NEW vs baseline
+    R28 <-> R36  body(silk/silk)  0.8495mm2 side B  advisory  <-- NEW vs baseline
+    R85 <-> U18  courtyard  0.8489mm2 side F  advisory  <-- NEW vs baseline
+    R85 <-> U18  body(silk/silk)  0.8489mm2 side F  advisory  <-- NEW vs baseline
+    C96 <-> U20  courtyard  0.8487mm2 side F  advisory  <-- NEW vs baseline
+    C96 <-> U20  body(silk/silk)  0.8487mm2 side F  advisory  <-- NEW vs baseline
+    C70 <-> U16  courtyard  0.8422mm2 side F  advisory  <-- NEW vs baseline
+    C70 <-> U16  body(silk/silk)  0.8422mm2 side F  advisory  <-- NEW vs baseline
+    C43 <-> R49  courtyard  0.8372mm2 side F  advisory  <-- NEW vs baseline
+    C43 <-> R49  body(silk/silk)  0.8372mm2 side F  advisory  <-- NEW vs baseline
+    C42 <-> R40  courtyard  0.8243mm2 side F  advisory  <-- NEW vs baseline
+    C42 <-> R40  body(silk/silk)  0.8243mm2 side F  advisory  <-- NEW vs baseline
+    C110 <-> R121  courtyard  0.8236mm2 side F  advisory  <-- NEW vs baseline
+    C110 <-> R121  body(silk/silk)  0.8236mm2 side F  advisory  <-- NEW vs baseline
+    C77 <-> C85  courtyard  0.816mm2 side B  advisory  <-- NEW vs baseline
+    C77 <-> C85  body(silk/silk)  0.816mm2 side B  advisory  <-- NEW vs baseline
+    R14 <-> U2  courtyard  0.8115mm2 side F  advisory  <-- NEW vs baseline
+    R14 <-> U2  body(silk/silk)  0.8115mm2 side F  advisory  <-- NEW vs baseline
+    C97 <-> U20  courtyard  0.8044mm2 side F  advisory  <-- NEW vs baseline
+    C97 <-> U20  body(silk/silk)  0.8044mm2 side F  advisory  <-- NEW vs baseline
+    R43 <-> U8  courtyard  0.8009mm2 side F  advisory  <-- NEW vs baseline
+    R43 <-> U8  body(silk/silk)  0.8009mm2 side F  advisory  <-- NEW vs baseline
+    R19 <-> R8  courtyard  0.7909mm2 side F  advisory  <-- NEW vs baseline
+    R19 <-> R8  body(silk/silk)  0.7909mm2 side F  advisory  <-- NEW vs baseline
+    C170 <-> U41  courtyard  0.773mm2 side B  advisory  <-- NEW vs baseline
+    C170 <-> U41  body(silk/silk)  0.773mm2 side B  advisory  <-- NEW vs baseline
+    C87 <-> C94  courtyard  0.762mm2 side B  advisory  <-- NEW vs baseline
+    C87 <-> C94  body(silk/silk)  0.762mm2 side B  advisory  <-- NEW vs baseline
+    C20 <-> R14  courtyard  0.7439mm2 side F  advisory  <-- NEW vs baseline
+    C20 <-> R14  body(silk/silk)  0.7439mm2 side F  advisory  <-- NEW vs baseline
+    R165 <-> R17  courtyard  0.7335mm2 side F  advisory  <-- NEW vs baseline
+    R165 <-> R17  body(silk/silk)  0.7335mm2 side F  advisory  <-- NEW vs baseline
+    R107 <-> U27  courtyard  0.7202mm2 side F  advisory  <-- NEW vs baseline
+    R107 <-> U27  body(silk/silk)  0.7202mm2 side F  advisory  <-- NEW vs baseline
+    R129 <-> R130  courtyard  0.716mm2 side F  advisory  <-- NEW vs baseline
+    R129 <-> R130  body(silk/silk)  0.716mm2 side F  advisory  <-- NEW vs baseline
+    R143 <-> R145  courtyard  0.7023mm2 side B  advisory  <-- NEW vs baseline
+    R143 <-> R145  body(silk/silk)  0.7023mm2 side B  advisory  <-- NEW vs baseline
+    R117 <-> U28  courtyard  0.6988mm2 side F  advisory  <-- NEW vs baseline
+    R117 <-> U28  body(silk/silk)  0.6988mm2 side F  advisory  <-- NEW vs baseline
+    R121 <-> U28  courtyard  0.6889mm2 side F  advisory  <-- NEW vs baseline
+    R121 <-> U28  body(silk/silk)  0.6889mm2 side F  advisory  <-- NEW vs baseline
+    R59 <-> U13  courtyard  0.6889mm2 side F  advisory  <-- NEW vs baseline
+    R59 <-> U13  body(silk/silk)  0.6889mm2 side F  advisory  <-- NEW vs baseline
+    R111 <-> R112  courtyard  0.686mm2 side B  advisory  <-- NEW vs baseline
+    R111 <-> R112  body(silk/silk)  0.686mm2 side B  advisory  <-- NEW vs baseline
+    C12 <-> C8  courtyard  0.6701mm2 side F  advisory  <-- NEW vs baseline
+    C12 <-> C8  body(silk/silk)  0.6701mm2 side F  advisory  <-- NEW vs baseline
+    C67 <-> C69  courtyard  0.6678mm2 side B  advisory  <-- NEW vs baseline
+    C67 <-> C69  body(silk/silk)  0.6678mm2 side B  advisory  <-- NEW vs baseline
+    C164 <-> R156  courtyard  0.664mm2 side F  advisory  <-- NEW vs baseline
+    C164 <-> R156  body(silk/silk)  0.664mm2 side F  advisory  <-- NEW vs baseline
+    C187 <-> U45  courtyard  0.6574mm2 side F  advisory  <-- NEW vs baseline
+    C187 <-> U45  body(silk/silk)  0.6574mm2 side F  advisory  <-- NEW vs baseline
+    R119 <-> U28  courtyard  0.6469mm2 side F  advisory  <-- NEW vs baseline
+    R119 <-> U28  body(silk/silk)  0.6469mm2 side F  advisory  <-- NEW vs baseline
+    C3 <-> R13  courtyard  0.6439mm2 side F  advisory  <-- NEW vs baseline
+    C3 <-> R13  body(silk/silk)  0.6439mm2 side F  advisory  <-- NEW vs baseline
+    C77 <-> R79  courtyard  0.6438mm2 side B  advisory  <-- NEW vs baseline
+    C77 <-> R79  body(silk/silk)  0.6438mm2 side B  advisory  <-- NEW vs baseline
+    C125 <-> U38  courtyard  0.6414mm2 side F  advisory  <-- NEW vs baseline
+    C125 <-> U38  body(silk/silk)  0.6414mm2 side F  advisory  <-- NEW vs baseline
+    R42 <-> U7  courtyard  0.6322mm2 side F  advisory  <-- NEW vs baseline
+    R42 <-> U7  body(silk/silk)  0.6322mm2 side F  advisory  <-- NEW vs baseline
+    R140 <-> U34  courtyard  0.6297mm2 side B  advisory  <-- NEW vs baseline
+    R140 <-> U34  body(silk/silk)  0.6297mm2 side B  advisory  <-- NEW vs baseline
+    C198 <-> U44  courtyard  0.6182mm2 side F  advisory  <-- NEW vs baseline
+    C198 <-> U44  body(silk/silk)  0.6182mm2 side F  advisory  <-- NEW vs baseline
+    C137 <-> R149  courtyard  0.6163mm2 side B  advisory  <-- NEW vs baseline
+    C137 <-> R149  body(silk/silk)  0.6163mm2 side B  advisory  <-- NEW vs baseline
+    C18 <-> C24  courtyard  0.6034mm2 side F  advisory  <-- NEW vs baseline
+    C18 <-> C24  body(silk/silk)  0.6034mm2 side F  advisory  <-- NEW vs baseline
+    R83 <-> R87  courtyard  0.598mm2 side B  advisory  <-- NEW vs baseline
+    R83 <-> R87  body(silk/silk)  0.598mm2 side B  advisory  <-- NEW vs baseline
+    R23 <-> U2  courtyard  0.5977mm2 side F  advisory  <-- NEW vs baseline
+    R23 <-> U2  body(silk/silk)  0.5977mm2 side F  advisory  <-- NEW vs baseline
+    R13 <-> U2  courtyard  0.5847mm2 side F  advisory  <-- NEW vs baseline
+    R13 <-> U2  body(silk/silk)  0.5847mm2 side F  advisory  <-- NEW vs baseline
+    R138 <-> R139  courtyard  0.5789mm2 side B  advisory  <-- NEW vs baseline
+    R138 <-> R139  body(silk/silk)  0.5789mm2 side B  advisory  <-- NEW vs baseline
+    C119 <-> U30  courtyard  0.5642mm2 side F  advisory  <-- NEW vs baseline
+    C119 <-> U30  body(silk/silk)  0.5642mm2 side F  advisory  <-- NEW vs baseline
+    C191 <-> C200  courtyard  0.5638mm2 side F  advisory  <-- NEW vs baseline
+    C191 <-> C200  body(silk/silk)  0.5638mm2 side F  advisory  <-- NEW vs baseline
+    C28 <-> U6  courtyard  0.5569mm2 side F  advisory  <-- NEW vs baseline
+    C28 <-> U6  body(silk/silk)  0.5569mm2 side F  advisory  <-- NEW vs baseline
+    R57 <-> R63  courtyard  0.5514mm2 side F  advisory  <-- NEW vs baseline
+    R57 <-> R63  body(silk/silk)  0.5514mm2 side F  advisory  <-- NEW vs baseline
+    C147 <-> C161  courtyard  0.5396mm2 side B  advisory  <-- NEW vs baseline
+    C147 <-> C161  body(silk/silk)  0.5396mm2 side B  advisory  <-- NEW vs baseline
+    C64 <-> R72  courtyard  0.5382mm2 side F  advisory  <-- NEW vs baseline
+    C64 <-> R72  body(silk/silk)  0.5382mm2 side F  advisory  <-- NEW vs baseline
+    R88 <-> R89  courtyard  0.5308mm2 side B  advisory  <-- NEW vs baseline
+    R88 <-> R89  body(silk/silk)  0.5308mm2 side B  advisory  <-- NEW vs baseline
+    R100 <-> U3  courtyard  0.5074mm2 side F  advisory  <-- NEW vs baseline
+    R100 <-> U3  body(silk/silk)  0.5074mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> C84  courtyard  0.5057mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> C84  body(silk/silk)  0.5057mm2 side F  advisory  <-- NEW vs baseline
+    C88 <-> R92  courtyard  0.5048mm2 side F  advisory  <-- NEW vs baseline
+    C88 <-> R92  body(silk/silk)  0.5048mm2 side F  advisory  <-- NEW vs baseline
+    C9 <-> L4  courtyard  0.4988mm2 side B  advisory  <-- NEW vs baseline
+    C9 <-> L4  body(silk/silk)  0.4988mm2 side B  advisory  <-- NEW vs baseline
+    C128 <-> C129  courtyard  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C128 <-> C129  body(silk/silk)  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C14 <-> R12  courtyard  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C14 <-> R12  body(silk/silk)  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> R156  courtyard  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> R156  body(silk/silk)  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C179 <-> R159  courtyard  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C179 <-> R159  body(silk/silk)  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C22 <-> R18  courtyard  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C22 <-> R18  body(silk/silk)  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C38 <-> R45  courtyard  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C38 <-> R45  body(silk/silk)  0.495mm2 side F  advisory  <-- NEW vs baseline
+    C76 <-> C92  courtyard  0.495mm2 side B  advisory  <-- NEW vs baseline
+    C76 <-> C92  body(silk/silk)  0.495mm2 side B  advisory  <-- NEW vs baseline
+    R144 <-> R149  courtyard  0.495mm2 side B  advisory  <-- NEW vs baseline
+    R144 <-> R149  body(silk/silk)  0.495mm2 side B  advisory  <-- NEW vs baseline
+    R93 <-> R94  courtyard  0.495mm2 side B  advisory  <-- NEW vs baseline
+    R93 <-> R94  body(silk/silk)  0.495mm2 side B  advisory  <-- NEW vs baseline
+    R140 <-> R150  courtyard  0.4924mm2 side B  advisory  <-- NEW vs baseline
+    R140 <-> R150  body(silk/silk)  0.4924mm2 side B  advisory  <-- NEW vs baseline
+    C126 <-> R133  courtyard  0.4923mm2 side F  advisory  <-- NEW vs baseline
+    C126 <-> R133  body(silk/silk)  0.4923mm2 side F  advisory  <-- NEW vs baseline
+    R75 <-> R76  courtyard  0.4918mm2 side B  advisory  <-- NEW vs baseline
+    R75 <-> R76  body(silk/silk)  0.4918mm2 side B  advisory  <-- NEW vs baseline
+    C137 <-> R144  courtyard  0.4912mm2 side B  advisory  <-- NEW vs baseline
+    C137 <-> R144  body(silk/silk)  0.4912mm2 side B  advisory  <-- NEW vs baseline
+    C178 <-> R157  courtyard  0.4912mm2 side F  advisory  <-- NEW vs baseline
+    C178 <-> R157  body(silk/silk)  0.4912mm2 side F  advisory  <-- NEW vs baseline
+    C89 <-> R95  courtyard  0.4912mm2 side F  advisory  <-- NEW vs baseline
+    C89 <-> R95  body(silk/silk)  0.4912mm2 side F  advisory  <-- NEW vs baseline
+    C73 <-> R77  courtyard  0.491mm2 side F  advisory  <-- NEW vs baseline
+    C73 <-> R77  body(silk/silk)  0.491mm2 side F  advisory  <-- NEW vs baseline
+    C80 <-> R82  courtyard  0.491mm2 side F  advisory  <-- NEW vs baseline
+    C80 <-> R82  body(silk/silk)  0.491mm2 side F  advisory  <-- NEW vs baseline
+    C83 <-> C90  courtyard  0.491mm2 side B  advisory  <-- NEW vs baseline
+    C83 <-> C90  body(silk/silk)  0.491mm2 side B  advisory  <-- NEW vs baseline
+    R141 <-> R142  courtyard  0.491mm2 side B  advisory  <-- NEW vs baseline
+    R141 <-> R142  body(silk/silk)  0.491mm2 side B  advisory  <-- NEW vs baseline
+    C64 <-> R71  courtyard  0.4903mm2 side F  advisory  <-- NEW vs baseline
+    C64 <-> R71  body(silk/silk)  0.4903mm2 side F  advisory  <-- NEW vs baseline
+    R41 <-> U8  courtyard  0.4893mm2 side F  advisory  <-- NEW vs baseline
+    R41 <-> U8  body(silk/silk)  0.4893mm2 side F  advisory  <-- NEW vs baseline
+    C2 <-> L1  courtyard  0.4869mm2 side B  advisory  <-- NEW vs baseline
+    C2 <-> L1  body(silk/silk)  0.4869mm2 side B  advisory  <-- NEW vs baseline
+    C81 <-> R85  courtyard  0.4868mm2 side F  advisory  <-- NEW vs baseline
+    C81 <-> R85  body(silk/silk)  0.4868mm2 side F  advisory  <-- NEW vs baseline
+    C7 <-> R5  courtyard  0.4856mm2 side B  advisory  <-- NEW vs baseline
+    C7 <-> R5  body(silk/silk)  0.4856mm2 side B  advisory  <-- NEW vs baseline
+    C23 <-> R23  courtyard  0.4846mm2 side F  advisory  <-- NEW vs baseline
+    C23 <-> R23  body(silk/silk)  0.4846mm2 side F  advisory  <-- NEW vs baseline
+    C47 <-> R54  courtyard  0.4826mm2 side F  advisory  <-- NEW vs baseline
+    C47 <-> R54  body(silk/silk)  0.4826mm2 side F  advisory  <-- NEW vs baseline
+    C65 <-> C69  courtyard  0.4737mm2 side B  advisory  <-- NEW vs baseline
+    C65 <-> C69  body(silk/silk)  0.4737mm2 side B  advisory  <-- NEW vs baseline
+    C87 <-> C95  courtyard  0.4674mm2 side B  advisory  <-- NEW vs baseline
+    C87 <-> C95  body(silk/silk)  0.4674mm2 side B  advisory  <-- NEW vs baseline
+    C120 <-> C121  courtyard  0.4614mm2 side B  advisory  <-- NEW vs baseline
+    C120 <-> C121  body(silk/silk)  0.4614mm2 side B  advisory  <-- NEW vs baseline
+    R56 <-> R62  courtyard  0.4609mm2 side F  advisory  <-- NEW vs baseline
+    R56 <-> R62  body(silk/silk)  0.4609mm2 side F  advisory  <-- NEW vs baseline
+    C75 <-> C79  courtyard  0.4601mm2 side B  advisory  <-- NEW vs baseline
+    C75 <-> C79  body(silk/silk)  0.4601mm2 side B  advisory  <-- NEW vs baseline
+    R19 <-> R20  courtyard  0.4601mm2 side F  advisory  <-- NEW vs baseline
+    R19 <-> R20  body(silk/silk)  0.4601mm2 side F  advisory  <-- NEW vs baseline
+    C104 <-> R106  courtyard  0.4592mm2 side F  advisory  <-- NEW vs baseline
+    C104 <-> R106  body(silk/silk)  0.4592mm2 side F  advisory  <-- NEW vs baseline
+    R80 <-> R81  courtyard  0.458mm2 side B  advisory  <-- NEW vs baseline
+    R80 <-> R81  body(silk/silk)  0.458mm2 side B  advisory  <-- NEW vs baseline
+    R108 <-> U24  courtyard  0.4521mm2 side F  advisory  <-- NEW vs baseline
+    R108 <-> U24  body(silk/silk)  0.4521mm2 side F  advisory  <-- NEW vs baseline
+    C23 <-> R21  courtyard  0.4382mm2 side F  advisory  <-- NEW vs baseline
+    C23 <-> R21  body(silk/silk)  0.4382mm2 side F  advisory  <-- NEW vs baseline
+    C34 <-> R41  courtyard  0.4329mm2 side F  advisory  <-- NEW vs baseline
+    C34 <-> R41  body(silk/silk)  0.4329mm2 side F  advisory  <-- NEW vs baseline
+    C48 <-> R55  courtyard  0.4304mm2 side F  advisory  <-- NEW vs baseline
+    C48 <-> R55  body(silk/silk)  0.4304mm2 side F  advisory  <-- NEW vs baseline
+    R141 <-> R143  courtyard  0.4294mm2 side B  advisory  <-- NEW vs baseline
+    R141 <-> R143  body(silk/silk)  0.4294mm2 side B  advisory  <-- NEW vs baseline
+    C20 <-> R17  courtyard  0.4266mm2 side F  advisory  <-- NEW vs baseline
+    C20 <-> R17  body(silk/silk)  0.4266mm2 side F  advisory  <-- NEW vs baseline
+    C116 <-> R109  courtyard  0.4208mm2 side F  advisory  <-- NEW vs baseline
+    C116 <-> R109  body(silk/silk)  0.4208mm2 side F  advisory  <-- NEW vs baseline
+    C135 <-> J5  courtyard  0.4197mm2 side B  advisory  <-- NEW vs baseline
+    C135 <-> J5  body(silk/silk)  0.4197mm2 side B  advisory  <-- NEW vs baseline
+    L3 <-> R9  courtyard  0.4195mm2 side B  advisory  <-- NEW vs baseline
+    L3 <-> R9  body(silk/silk)  0.4195mm2 side B  advisory  <-- NEW vs baseline
+    R26 <-> R34  courtyard  0.4108mm2 side B  advisory  <-- NEW vs baseline
+    R26 <-> R34  body(silk/silk)  0.4108mm2 side B  advisory  <-- NEW vs baseline
+    C33 <-> U4  courtyard  0.4039mm2 side F  advisory  <-- NEW vs baseline
+    C33 <-> U4  body(silk/silk)  0.4039mm2 side F  advisory  <-- NEW vs baseline
+    C173 <-> C196  courtyard  0.3923mm2 side F  advisory  <-- NEW vs baseline
+    C173 <-> C196  body(silk/silk)  0.3923mm2 side F  advisory  <-- NEW vs baseline
+    C11 <-> C15  courtyard  0.3884mm2 side B  advisory  <-- NEW vs baseline
+    C11 <-> C15  body(silk/silk)  0.3884mm2 side B  advisory  <-- NEW vs baseline
+    R151 <-> U33  courtyard  0.3848mm2 side B  advisory  <-- NEW vs baseline
+    R151 <-> U33  body(silk/silk)  0.3848mm2 side B  advisory  <-- NEW vs baseline
+    C85 <-> C91  courtyard  0.3812mm2 side B  advisory  <-- NEW vs baseline
+    C85 <-> C91  body(silk/silk)  0.3812mm2 side B  advisory  <-- NEW vs baseline
+    C83 <-> R83  courtyard  0.3795mm2 side B  advisory  <-- NEW vs baseline
+    C83 <-> R83  body(silk/silk)  0.3795mm2 side B  advisory  <-- NEW vs baseline
+    C65 <-> C67  courtyard  0.3789mm2 side B  advisory  <-- NEW vs baseline
+    C65 <-> C67  body(silk/silk)  0.3789mm2 side B  advisory  <-- NEW vs baseline
+    C37 <-> R44  courtyard  0.3788mm2 side F  advisory  <-- NEW vs baseline
+    C37 <-> R44  body(silk/silk)  0.3788mm2 side F  advisory  <-- NEW vs baseline
+    R16 <-> R17  courtyard  0.3714mm2 side F  advisory  <-- NEW vs baseline
+    R16 <-> R17  body(silk/silk)  0.3714mm2 side F  advisory  <-- NEW vs baseline
+    C20 <-> R16  courtyard  0.3667mm2 side F  advisory  <-- NEW vs baseline
+    C20 <-> R16  body(silk/silk)  0.3667mm2 side F  advisory  <-- NEW vs baseline
+    C78 <-> C83  courtyard  0.3641mm2 side B  advisory  <-- NEW vs baseline
+    C78 <-> C83  body(silk/silk)  0.3641mm2 side B  advisory  <-- NEW vs baseline
+    C42 <-> R48  courtyard  0.3638mm2 side F  advisory  <-- NEW vs baseline
+    C42 <-> R48  body(silk/silk)  0.3638mm2 side F  advisory  <-- NEW vs baseline
+    C19 <-> R15  courtyard  0.3629mm2 side F  advisory  <-- NEW vs baseline
+    C19 <-> R15  body(silk/silk)  0.3629mm2 side F  advisory  <-- NEW vs baseline
+    R29 <-> R37  courtyard  0.362mm2 side B  advisory  <-- NEW vs baseline
+    R29 <-> R37  body(silk/silk)  0.362mm2 side B  advisory  <-- NEW vs baseline
+    C156 <-> C163  courtyard  0.3586mm2 side B  advisory  <-- NEW vs baseline
+    C156 <-> C163  body(silk/silk)  0.3586mm2 side B  advisory  <-- NEW vs baseline
+    R57 <-> R62  courtyard  0.3576mm2 side F  advisory  <-- NEW vs baseline
+    R57 <-> R62  body(silk/silk)  0.3576mm2 side F  advisory  <-- NEW vs baseline
+    R109 <-> R113  courtyard  0.3568mm2 side F  advisory  <-- NEW vs baseline
+    R109 <-> R113  body(silk/silk)  0.3568mm2 side F  advisory  <-- NEW vs baseline
+    C43 <-> R47  courtyard  0.3561mm2 side F  advisory  <-- NEW vs baseline
+    C43 <-> R47  body(silk/silk)  0.3561mm2 side F  advisory  <-- NEW vs baseline
+    C13 <-> L6  courtyard  0.3534mm2 side B  advisory  <-- NEW vs baseline
+    C13 <-> L6  body(silk/silk)  0.3534mm2 side B  advisory  <-- NEW vs baseline
+    C12 <-> C18  courtyard  0.3517mm2 side F  advisory  <-- NEW vs baseline
+    C12 <-> C18  body(silk/silk)  0.3517mm2 side F  advisory  <-- NEW vs baseline
+    C109 <-> R72  courtyard  0.3512mm2 side F  advisory  <-- NEW vs baseline
+    C109 <-> R72  body(silk/silk)  0.3512mm2 side F  advisory  <-- NEW vs baseline
+    R80 <-> R94  courtyard  0.3505mm2 side B  advisory  <-- NEW vs baseline
+    R80 <-> R94  body(silk/silk)  0.3505mm2 side B  advisory  <-- NEW vs baseline
+    C179 <-> C187  courtyard  0.3503mm2 side F  advisory  <-- NEW vs baseline
+    C179 <-> C187  body(silk/silk)  0.3503mm2 side F  advisory  <-- NEW vs baseline
+    C1 <-> C21  courtyard  0.3444mm2 side B  advisory  <-- NEW vs baseline
+    C1 <-> C21  body(silk/silk)  0.3444mm2 side B  advisory  <-- NEW vs baseline
+    C10 <-> R11  courtyard  0.3439mm2 side F  advisory  <-- NEW vs baseline
+    C10 <-> R11  body(silk/silk)  0.3439mm2 side F  advisory  <-- NEW vs baseline
+    R113 <-> U29  courtyard  0.3401mm2 side F  advisory  <-- NEW vs baseline
+    R113 <-> U29  body(silk/silk)  0.3401mm2 side F  advisory  <-- NEW vs baseline
+    C93 <-> R98  courtyard  0.3397mm2 side B  advisory  <-- NEW vs baseline
+    C93 <-> R98  body(silk/silk)  0.3397mm2 side B  advisory  <-- NEW vs baseline
+    R58 <-> R60  courtyard  0.3395mm2 side F  advisory  <-- NEW vs baseline
+    R58 <-> R60  body(silk/silk)  0.3395mm2 side F  advisory  <-- NEW vs baseline
+    C185 <-> C190  courtyard  0.3387mm2 side B  advisory  <-- NEW vs baseline
+    C185 <-> C190  body(silk/silk)  0.3387mm2 side B  advisory  <-- NEW vs baseline
+    R77 <-> U20  courtyard  0.3386mm2 side F  advisory  <-- NEW vs baseline
+    R77 <-> U20  body(silk/silk)  0.3386mm2 side F  advisory  <-- NEW vs baseline
+    C80 <-> R77  courtyard  0.3272mm2 side F  advisory  <-- NEW vs baseline
+    C80 <-> R77  body(silk/silk)  0.3272mm2 side F  advisory  <-- NEW vs baseline
+    C47 <-> R56  courtyard  0.3269mm2 side F  advisory  <-- NEW vs baseline
+    C47 <-> R56  body(silk/silk)  0.3269mm2 side F  advisory  <-- NEW vs baseline
+    R27 <-> R34  courtyard  0.322mm2 side B  advisory  <-- NEW vs baseline
+    R27 <-> R34  body(silk/silk)  0.322mm2 side B  advisory  <-- NEW vs baseline
+    R90 <-> R91  courtyard  0.3216mm2 side B  advisory  <-- NEW vs baseline
+    R90 <-> R91  body(silk/silk)  0.3216mm2 side B  advisory  <-- NEW vs baseline
+    R118 <-> R124  courtyard  0.3126mm2 side F  advisory  <-- NEW vs baseline
+    R118 <-> R124  body(silk/silk)  0.3126mm2 side F  advisory  <-- NEW vs baseline
+    R126 <-> R127  courtyard  0.3057mm2 side B  advisory  <-- NEW vs baseline
+    R126 <-> R127  body(silk/silk)  0.3057mm2 side B  advisory  <-- NEW vs baseline
+    C120 <-> R127  courtyard  0.3027mm2 side B  advisory  <-- NEW vs baseline
+    C120 <-> R127  body(silk/silk)  0.3027mm2 side B  advisory  <-- NEW vs baseline
+    R31 <-> R32  courtyard  0.3026mm2 side B  advisory  <-- NEW vs baseline
+    R31 <-> R32  body(silk/silk)  0.3026mm2 side B  advisory  <-- NEW vs baseline
+    C17 <-> R10  courtyard  0.296mm2 side F  advisory  <-- NEW vs baseline
+    C17 <-> R10  body(silk/silk)  0.296mm2 side F  advisory  <-- NEW vs baseline
+    R122 <-> R124  courtyard  0.2816mm2 side F  advisory  <-- NEW vs baseline
+    R122 <-> R124  body(silk/silk)  0.2816mm2 side F  advisory  <-- NEW vs baseline
+    R32 <-> R35  courtyard  0.2792mm2 side B  advisory  <-- NEW vs baseline
+    R32 <-> R35  body(silk/silk)  0.2792mm2 side B  advisory  <-- NEW vs baseline
+    R59 <-> R65  courtyard  0.2661mm2 side F  advisory  <-- NEW vs baseline
+    R59 <-> R65  body(silk/silk)  0.2661mm2 side F  advisory  <-- NEW vs baseline
+    C77 <-> R78  courtyard  0.2596mm2 side B  advisory  <-- NEW vs baseline
+    C77 <-> R78  body(silk/silk)  0.2596mm2 side B  advisory  <-- NEW vs baseline
+    R10 <-> U1  courtyard  0.2586mm2 side F  advisory  <-- NEW vs baseline
+    R10 <-> U1  body(silk/silk)  0.2586mm2 side F  advisory  <-- NEW vs baseline
+    C68 <-> C71  courtyard  0.2578mm2 side B  advisory  <-- NEW vs baseline
+    C68 <-> C71  body(silk/silk)  0.2578mm2 side B  advisory  <-- NEW vs baseline
+    R20 <-> R21  courtyard  0.2568mm2 side F  advisory  <-- NEW vs baseline
+    R20 <-> R21  body(silk/silk)  0.2568mm2 side F  advisory  <-- NEW vs baseline
+    C79 <-> R86  courtyard  0.2553mm2 side B  advisory  <-- NEW vs baseline
+    C79 <-> R86  body(silk/silk)  0.2553mm2 side B  advisory  <-- NEW vs baseline
+    C88 <-> C89  courtyard  0.2518mm2 side F  advisory  <-- NEW vs baseline
+    C88 <-> C89  body(silk/silk)  0.2518mm2 side F  advisory  <-- NEW vs baseline
+    C104 <-> L10  courtyard  0.2466mm2 side F  advisory  <-- NEW vs baseline
+    C104 <-> L10  body(silk/silk)  0.2466mm2 side F  advisory  <-- NEW vs baseline
+    R62 <-> R63  courtyard  0.24mm2 side F  advisory  <-- NEW vs baseline
+    R62 <-> R63  body(silk/silk)  0.24mm2 side F  advisory  <-- NEW vs baseline
+    R67 <-> U15  courtyard  0.2317mm2 side F  advisory  <-- NEW vs baseline
+    R67 <-> U15  body(silk/silk)  0.2317mm2 side F  advisory  <-- NEW vs baseline
+    R51 <-> R55  courtyard  0.2298mm2 side F  advisory  <-- NEW vs baseline
+    R51 <-> R55  body(silk/silk)  0.2298mm2 side F  advisory  <-- NEW vs baseline
+    C164 <-> C168  courtyard  0.2284mm2 side F  advisory  <-- NEW vs baseline
+    C164 <-> C168  body(silk/silk)  0.2284mm2 side F  advisory  <-- NEW vs baseline
+    R110 <-> R113  courtyard  0.2227mm2 side F  advisory  <-- NEW vs baseline
+    R110 <-> R113  body(silk/silk)  0.2227mm2 side F  advisory  <-- NEW vs baseline
+    R40 <-> R46  courtyard  0.2185mm2 side F  advisory  <-- NEW vs baseline
+    R40 <-> R46  body(silk/silk)  0.2185mm2 side F  advisory  <-- NEW vs baseline
+    C111 <-> R124  courtyard  0.2169mm2 side F  advisory  <-- NEW vs baseline
+    C111 <-> R124  body(silk/silk)  0.2169mm2 side F  advisory  <-- NEW vs baseline
+    R55 <-> R56  courtyard  0.2147mm2 side F  advisory  <-- NEW vs baseline
+    R55 <-> R56  body(silk/silk)  0.2147mm2 side F  advisory  <-- NEW vs baseline
+    R152 <-> U38  courtyard  0.1886mm2 side F  advisory  <-- NEW vs baseline
+    R152 <-> U38  body(silk/silk)  0.1886mm2 side F  advisory  <-- NEW vs baseline
+    R53 <-> U11  courtyard  0.1886mm2 side F  advisory  <-- NEW vs baseline
+    R53 <-> U11  body(silk/silk)  0.1886mm2 side F  advisory  <-- NEW vs baseline
+    R26 <-> R27  courtyard  0.1827mm2 side B  advisory  <-- NEW vs baseline
+    R26 <-> R27  body(silk/silk)  0.1827mm2 side B  advisory  <-- NEW vs baseline
+    R69 <-> U15  courtyard  0.1812mm2 side F  advisory  <-- NEW vs baseline
+    R69 <-> U15  body(silk/silk)  0.1812mm2 side F  advisory  <-- NEW vs baseline
+    R47 <-> R49  courtyard  0.1799mm2 side F  advisory  <-- NEW vs baseline
+    R47 <-> R49  body(silk/silk)  0.1799mm2 side F  advisory  <-- NEW vs baseline
+    R90 <-> R99  courtyard  0.1779mm2 side B  advisory  <-- NEW vs baseline
+    R90 <-> R99  body(silk/silk)  0.1779mm2 side B  advisory  <-- NEW vs baseline
+    C11 <-> L5  courtyard  0.1759mm2 side B  advisory  <-- NEW vs baseline
+    C11 <-> L5  body(silk/silk)  0.1759mm2 side B  advisory  <-- NEW vs baseline
+    C112 <-> C119  courtyard  0.1744mm2 side F  advisory  <-- NEW vs baseline
+    C112 <-> C119  body(silk/silk)  0.1744mm2 side F  advisory  <-- NEW vs baseline
+    C5 <-> R9  courtyard  0.1724mm2 side B  advisory  <-- NEW vs baseline
+    C5 <-> R9  body(silk/silk)  0.1724mm2 side B  advisory  <-- NEW vs baseline
+    C26 <-> C40  courtyard  0.1704mm2 side B  advisory  <-- NEW vs baseline
+    C26 <-> C40  body(silk/silk)  0.1704mm2 side B  advisory  <-- NEW vs baseline
+    C66 <-> C71  courtyard  0.1672mm2 side B  advisory  <-- NEW vs baseline
+    C66 <-> C71  body(silk/silk)  0.1672mm2 side B  advisory  <-- NEW vs baseline
+    C129 <-> U31  courtyard  0.1671mm2 side F  advisory  <-- NEW vs baseline
+    C129 <-> U31  body(silk/silk)  0.1671mm2 side F  advisory  <-- NEW vs baseline
+    R132 <-> R135  courtyard  0.1664mm2 side F  advisory  <-- NEW vs baseline
+    R132 <-> R135  body(silk/silk)  0.1664mm2 side F  advisory  <-- NEW vs baseline
+    R124 <-> U28  courtyard  0.1634mm2 side F  advisory  <-- NEW vs baseline
+    R124 <-> U28  body(silk/silk)  0.1634mm2 side F  advisory  <-- NEW vs baseline
+    C76 <-> C93  courtyard  0.163mm2 side B  advisory  <-- NEW vs baseline
+    C76 <-> C93  body(silk/silk)  0.163mm2 side B  advisory  <-- NEW vs baseline
+    R48 <-> U9  courtyard  0.1597mm2 side F  advisory  <-- NEW vs baseline
+    R48 <-> U9  body(silk/silk)  0.1597mm2 side F  advisory  <-- NEW vs baseline
+    R83 <-> R84  courtyard  0.1533mm2 side B  advisory  <-- NEW vs baseline
+    R83 <-> R84  body(silk/silk)  0.1533mm2 side B  advisory  <-- NEW vs baseline
+    R135 <-> R137  courtyard  0.153mm2 side F  advisory  <-- NEW vs baseline
+    R135 <-> R137  body(silk/silk)  0.153mm2 side F  advisory  <-- NEW vs baseline
+    L5 <-> L7  courtyard  0.1515mm2 side B  advisory  <-- NEW vs baseline
+    L5 <-> L7  body(silk/silk)  0.1515mm2 side B  advisory  <-- NEW vs baseline
+    C117 <-> U29  courtyard  0.1453mm2 side F  advisory  <-- NEW vs baseline
+    C117 <-> U29  body(silk/silk)  0.1453mm2 side F  advisory  <-- NEW vs baseline
+    R90 <-> R94  courtyard  0.1422mm2 side B  advisory  <-- NEW vs baseline
+    R90 <-> R94  body(silk/silk)  0.1422mm2 side B  advisory  <-- NEW vs baseline
+    C34 <-> U8  courtyard  0.1385mm2 side F  advisory  <-- NEW vs baseline
+    C34 <-> U8  body(silk/silk)  0.1385mm2 side F  advisory  <-- NEW vs baseline
+    R61 <-> U15  courtyard  0.1375mm2 side F  advisory  <-- NEW vs baseline
+    R61 <-> U15  body(silk/silk)  0.1375mm2 side F  advisory  <-- NEW vs baseline
+    R132 <-> R134  courtyard  0.1302mm2 side F  advisory  <-- NEW vs baseline
+    R132 <-> R134  body(silk/silk)  0.1302mm2 side F  advisory  <-- NEW vs baseline
+    C34 <-> R43  courtyard  0.1301mm2 side F  advisory  <-- NEW vs baseline
+    C34 <-> R43  body(silk/silk)  0.1301mm2 side F  advisory  <-- NEW vs baseline
+    R30 <-> R35  courtyard  0.1282mm2 side B  advisory  <-- NEW vs baseline
+    R30 <-> R35  body(silk/silk)  0.1282mm2 side B  advisory  <-- NEW vs baseline
+    C79 <-> R87  courtyard  0.127mm2 side B  advisory  <-- NEW vs baseline
+    C79 <-> R87  body(silk/silk)  0.127mm2 side B  advisory  <-- NEW vs baseline
+    R75 <-> R79  courtyard  0.1266mm2 side B  advisory  <-- NEW vs baseline
+    R75 <-> R79  body(silk/silk)  0.1266mm2 side B  advisory  <-- NEW vs baseline
+    R90 <-> R96  courtyard  0.118mm2 side B  advisory  <-- NEW vs baseline
+    R90 <-> R96  body(silk/silk)  0.118mm2 side B  advisory  <-- NEW vs baseline
+    R130 <-> R131  courtyard  0.1152mm2 side F  advisory  <-- NEW vs baseline
+    R130 <-> R131  body(silk/silk)  0.1152mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> U20  courtyard  0.1062mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> U20  body(silk/silk)  0.1062mm2 side F  advisory  <-- NEW vs baseline
+    R50 <-> U10  courtyard  0.105mm2 side F  advisory  <-- NEW vs baseline
+    R50 <-> U10  body(silk/silk)  0.105mm2 side F  advisory  <-- NEW vs baseline
+    R125 <-> U29  courtyard  0.1049mm2 side F  advisory  <-- NEW vs baseline
+    R125 <-> U29  body(silk/silk)  0.1049mm2 side F  advisory  <-- NEW vs baseline
+    C78 <-> R83  courtyard  0.1041mm2 side B  advisory  <-- NEW vs baseline
+    C78 <-> R83  body(silk/silk)  0.1041mm2 side B  advisory  <-- NEW vs baseline
+    R78 <-> R79  courtyard  0.0998mm2 side B  advisory  <-- NEW vs baseline
+    R78 <-> R79  body(silk/silk)  0.0998mm2 side B  advisory  <-- NEW vs baseline
+    R129 <-> U32  courtyard  0.0963mm2 side F  advisory  <-- NEW vs baseline
+    R129 <-> U32  body(silk/silk)  0.0963mm2 side F  advisory  <-- NEW vs baseline
+    R142 <-> U34  courtyard  0.0963mm2 side B  advisory  <-- NEW vs baseline
+    R142 <-> U34  body(silk/silk)  0.0963mm2 side B  advisory  <-- NEW vs baseline
+    R151 <-> U35  courtyard  0.0963mm2 side B  advisory  <-- NEW vs baseline
+    R151 <-> U35  body(silk/silk)  0.0963mm2 side B  advisory  <-- NEW vs baseline
+    R148 <-> U35  courtyard  0.0962mm2 side B  advisory  <-- NEW vs baseline
+    R148 <-> U35  body(silk/silk)  0.0962mm2 side B  advisory  <-- NEW vs baseline
+    R139 <-> R142  courtyard  0.0956mm2 side B  advisory  <-- NEW vs baseline
+    R139 <-> R142  body(silk/silk)  0.0956mm2 side B  advisory  <-- NEW vs baseline
+    R55 <-> R62  courtyard  0.0952mm2 side F  advisory  <-- NEW vs baseline
+    R55 <-> R62  body(silk/silk)  0.0952mm2 side F  advisory  <-- NEW vs baseline
+    R143 <-> U34  courtyard  0.0925mm2 side B  advisory  <-- NEW vs baseline
+    R143 <-> U34  body(silk/silk)  0.0925mm2 side B  advisory  <-- NEW vs baseline
+    R145 <-> U34  courtyard  0.0925mm2 side B  advisory  <-- NEW vs baseline
+    R145 <-> U34  body(silk/silk)  0.0925mm2 side B  advisory  <-- NEW vs baseline
+    C114 <-> U29  courtyard  0.0924mm2 side F  advisory  <-- NEW vs baseline
+    C114 <-> U29  body(silk/silk)  0.0924mm2 side F  advisory  <-- NEW vs baseline
+    R110 <-> U29  courtyard  0.0924mm2 side F  advisory  <-- NEW vs baseline
+    R110 <-> U29  body(silk/silk)  0.0924mm2 side F  advisory  <-- NEW vs baseline
+    C93 <-> R97  courtyard  0.0895mm2 side B  advisory  <-- NEW vs baseline
+    C93 <-> R97  body(silk/silk)  0.0895mm2 side B  advisory  <-- NEW vs baseline
+    R92 <-> R95  courtyard  0.0881mm2 side F  advisory  <-- NEW vs baseline
+    R92 <-> R95  body(silk/silk)  0.0881mm2 side F  advisory  <-- NEW vs baseline
+    R123 <-> U28  courtyard  0.0848mm2 side F  advisory  <-- NEW vs baseline
+    R123 <-> U28  body(silk/silk)  0.0848mm2 side F  advisory  <-- NEW vs baseline
+    C42 <-> U9  courtyard  0.0847mm2 side F  advisory  <-- NEW vs baseline
+    C42 <-> U9  body(silk/silk)  0.0847mm2 side F  advisory  <-- NEW vs baseline
+    C33 <-> U5  courtyard  0.082mm2 side F  advisory  <-- NEW vs baseline
+    C33 <-> U5  body(silk/silk)  0.082mm2 side F  advisory  <-- NEW vs baseline
+    C128 <-> U31  courtyard  0.0818mm2 side F  advisory  <-- NEW vs baseline
+    C128 <-> U31  body(silk/silk)  0.0818mm2 side F  advisory  <-- NEW vs baseline
+    L2 <-> R9  courtyard  0.0814mm2 side B  advisory  <-- NEW vs baseline
+    L2 <-> R9  body(silk/silk)  0.0814mm2 side B  advisory  <-- NEW vs baseline
+    C18 <-> C8  courtyard  0.0805mm2 side F  advisory  <-- NEW vs baseline
+    C18 <-> C8  body(silk/silk)  0.0805mm2 side F  advisory  <-- NEW vs baseline
+    R94 <-> R96  courtyard  0.0803mm2 side B  advisory  <-- NEW vs baseline
+    R94 <-> R96  body(silk/silk)  0.0803mm2 side B  advisory  <-- NEW vs baseline
+    R18 <-> R22  courtyard  0.0785mm2 side F  advisory  <-- NEW vs baseline
+    R18 <-> R22  body(silk/silk)  0.0785mm2 side F  advisory  <-- NEW vs baseline
+    R20 <-> R8  courtyard  0.0785mm2 side F  advisory  <-- NEW vs baseline
+    R20 <-> R8  body(silk/silk)  0.0785mm2 side F  advisory  <-- NEW vs baseline
+    R147 <-> U35  courtyard  0.0779mm2 side B  advisory  <-- NEW vs baseline
+    R147 <-> U35  body(silk/silk)  0.0779mm2 side B  advisory  <-- NEW vs baseline
+    R97 <-> R98  courtyard  0.0763mm2 side B  advisory  <-- NEW vs baseline
+    R97 <-> R98  body(silk/silk)  0.0763mm2 side B  advisory  <-- NEW vs baseline
+    R93 <-> R96  courtyard  0.0758mm2 side B  advisory  <-- NEW vs baseline
+    R93 <-> R96  body(silk/silk)  0.0758mm2 side B  advisory  <-- NEW vs baseline
+    C112 <-> U28  courtyard  0.0753mm2 side F  advisory  <-- NEW vs baseline
+    C112 <-> U28  body(silk/silk)  0.0753mm2 side F  advisory  <-- NEW vs baseline
+    C15 <-> L5  courtyard  0.0729mm2 side B  advisory  <-- NEW vs baseline
+    C15 <-> L5  body(silk/silk)  0.0729mm2 side B  advisory  <-- NEW vs baseline
+    C121 <-> R127  courtyard  0.066mm2 side B  advisory  <-- NEW vs baseline
+    C121 <-> R127  body(silk/silk)  0.066mm2 side B  advisory  <-- NEW vs baseline
+    R41 <-> U9  courtyard  0.0633mm2 side F  advisory  <-- NEW vs baseline
+    R41 <-> U9  body(silk/silk)  0.0633mm2 side F  advisory  <-- NEW vs baseline
+    R133 <-> R134  courtyard  0.0622mm2 side F  advisory  <-- NEW vs baseline
+    R133 <-> R134  body(silk/silk)  0.0622mm2 side F  advisory  <-- NEW vs baseline
+    R45 <-> U9  courtyard  0.0561mm2 side F  advisory  <-- NEW vs baseline
+    R45 <-> U9  body(silk/silk)  0.0561mm2 side F  advisory  <-- NEW vs baseline
+    R75 <-> R78  courtyard  0.0558mm2 side B  advisory  <-- NEW vs baseline
+    R75 <-> R78  body(silk/silk)  0.0558mm2 side B  advisory  <-- NEW vs baseline
+    C7 <-> L1  courtyard  0.055mm2 side B  advisory  <-- NEW vs baseline
+    C7 <-> L1  body(silk/silk)  0.055mm2 side B  advisory  <-- NEW vs baseline
+    R96 <-> R97  courtyard  0.0526mm2 side B  advisory  <-- NEW vs baseline
+    R96 <-> R97  body(silk/silk)  0.0526mm2 side B  advisory  <-- NEW vs baseline
+    R25 <-> R36  courtyard  0.0525mm2 side B  advisory  <-- NEW vs baseline
+    R25 <-> R36  body(silk/silk)  0.0525mm2 side B  advisory  <-- NEW vs baseline
+    C45 <-> U11  courtyard  0.0515mm2 side F  advisory  <-- NEW vs baseline
+    C45 <-> U11  body(silk/silk)  0.0515mm2 side F  advisory  <-- NEW vs baseline
+    R46 <-> U9  courtyard  0.0428mm2 side F  advisory  <-- NEW vs baseline
+    R46 <-> U9  body(silk/silk)  0.0428mm2 side F  advisory  <-- NEW vs baseline
+    R121 <-> R123  courtyard  0.0424mm2 side F  advisory  <-- NEW vs baseline
+    R121 <-> R123  body(silk/silk)  0.0424mm2 side F  advisory  <-- NEW vs baseline
+    C127 <-> U32  courtyard  0.042mm2 side F  advisory  <-- NEW vs baseline
+    C127 <-> U32  body(silk/silk)  0.042mm2 side F  advisory  <-- NEW vs baseline
+    R130 <-> U32  courtyard  0.0416mm2 side F  advisory  <-- NEW vs baseline
+    R130 <-> U32  body(silk/silk)  0.0416mm2 side F  advisory  <-- NEW vs baseline
+    C110 <-> R123  courtyard  0.0389mm2 side F  advisory  <-- NEW vs baseline
+    C110 <-> R123  body(silk/silk)  0.0389mm2 side F  advisory  <-- NEW vs baseline
+    R4 <-> R7  courtyard  0.0358mm2 side B  advisory  <-- NEW vs baseline
+    R4 <-> R7  body(silk/silk)  0.0358mm2 side B  advisory  <-- NEW vs baseline
+    R146 <-> U35  courtyard  0.0315mm2 side B  advisory  <-- NEW vs baseline
+    R146 <-> U35  body(silk/silk)  0.0315mm2 side B  advisory  <-- NEW vs baseline
+    C43 <-> U9  courtyard  0.0264mm2 side F  advisory  <-- NEW vs baseline
+    C43 <-> U9  body(silk/silk)  0.0264mm2 side F  advisory  <-- NEW vs baseline
+    C78 <-> C79  courtyard  0.0262mm2 side B  advisory  <-- NEW vs baseline
+    C78 <-> C79  body(silk/silk)  0.0262mm2 side B  advisory  <-- NEW vs baseline
+    C72 <-> U18  courtyard  0.0244mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> U18  body(silk/silk)  0.0244mm2 side F  advisory  <-- NEW vs baseline
+    C47 <-> R52  courtyard  0.0214mm2 side F  advisory  <-- NEW vs baseline
+    C47 <-> R52  body(silk/silk)  0.0214mm2 side F  advisory  <-- NEW vs baseline
+    R128 <-> U32  courtyard  0.019mm2 side F  advisory  <-- NEW vs baseline
+    R128 <-> U32  body(silk/silk)  0.019mm2 side F  advisory  <-- NEW vs baseline
+    C132 <-> R153  courtyard  0.0156mm2 side B  advisory  <-- NEW vs baseline
+    C132 <-> R153  body(silk/silk)  0.0156mm2 side B  advisory  <-- NEW vs baseline
+    R25 <-> R28  courtyard  0.0156mm2 side B  advisory  <-- NEW vs baseline
+    R25 <-> R28  body(silk/silk)  0.0156mm2 side B  advisory  <-- NEW vs baseline
+    C158 <-> C160  courtyard  0.0146mm2 side B  advisory  <-- NEW vs baseline
+    C158 <-> C160  body(silk/silk)  0.0146mm2 side B  advisory  <-- NEW vs baseline
+    R52 <-> R54  courtyard  0.0138mm2 side F  advisory  <-- NEW vs baseline
+    R52 <-> R54  body(silk/silk)  0.0138mm2 side F  advisory  <-- NEW vs baseline
+    R28 <-> R29  courtyard  0.0137mm2 side B  advisory  <-- NEW vs baseline
+    R28 <-> R29  body(silk/silk)  0.0137mm2 side B  advisory  <-- NEW vs baseline
+    R46 <-> U4  courtyard  0.0128mm2 side F  advisory  <-- NEW vs baseline
+    R46 <-> U4  body(silk/silk)  0.0128mm2 side F  advisory  <-- NEW vs baseline
+    R141 <-> R145  courtyard  0.0078mm2 side B  advisory  <-- NEW vs baseline
+    R141 <-> R145  body(silk/silk)  0.0078mm2 side B  advisory  <-- NEW vs baseline
+    R111 <-> R127  courtyard  0.0068mm2 side B  advisory  <-- NEW vs baseline
+    R111 <-> R127  body(silk/silk)  0.0068mm2 side B  advisory  <-- NEW vs baseline
+    C150 <-> L14  courtyard  0.0046mm2 side F  advisory  <-- NEW vs baseline
+    C150 <-> L14  body(silk/silk)  0.0046mm2 side F  advisory  <-- NEW vs baseline
+    R109 <-> R110  courtyard  0.0039mm2 side F  advisory  <-- NEW vs baseline
+    R109 <-> R110  body(silk/silk)  0.0039mm2 side F  advisory  <-- NEW vs baseline
+    R58 <-> R66  courtyard  0.0038mm2 side F  advisory  <-- NEW vs baseline
+    R58 <-> R66  body(silk/silk)  0.0038mm2 side F  advisory  <-- NEW vs baseline
+    C126 <-> R132  courtyard  0.003mm2 side F  advisory  <-- NEW vs baseline
+    C126 <-> R132  body(silk/silk)  0.003mm2 side F  advisory  <-- NEW vs baseline
+    R135 <-> R136  courtyard  0.0026mm2 side F  advisory  <-- NEW vs baseline
+    R135 <-> R136  body(silk/silk)  0.0026mm2 side F  advisory  <-- NEW vs baseline
+    R63 <-> R65  courtyard  0.0023mm2 side F  advisory  <-- NEW vs baseline
+    R63 <-> R65  body(silk/silk)  0.0023mm2 side F  advisory  <-- NEW vs baseline
+    R12 <-> U1  courtyard  0.0017mm2 side F  advisory  <-- NEW vs baseline
+    R12 <-> U1  body(silk/silk)  0.0017mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> C81  courtyard  0.0008mm2 side F  advisory  <-- NEW vs baseline
+    C72 <-> C81  body(silk/silk)  0.0008mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> U2  body(silk/silk)  169.8419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U4  body(silk/silk)  121.3008mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U29  body(silk/silk)  80.9209mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U31  body(silk/silk)  80.9209mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U32  body(silk/silk)  80.9209mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U38  body(silk/silk)  80.9209mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U1  body(silk/silk)  64.0mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U10  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U11  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U14  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U15  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U5  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U6  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U9  body(silk/silk)  41.1531mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U16  body(silk/silk)  38.6136mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U18  body(silk/silk)  38.6136mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U19  body(silk/silk)  38.6136mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U20  body(silk/silk)  38.6136mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U23  body(silk/silk)  37.1612mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U26  body(silk/silk)  30.7096mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U27  body(silk/silk)  30.7096mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U17  body(silk/silk)  24.2812mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U25  body(silk/silk)  24.2812mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U3  body(silk/silk)  24.2812mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U24  body(silk/silk)  23.8507mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C155  body(silk/silk)  18.4526mm2 side F  waived:container_class  CONTAINED 71%
+    BOX1 <-> U12  body(silk/silk)  18.3038mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U13  body(silk/silk)  18.3038mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U28  body(silk/silk)  18.3038mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U30  body(silk/silk)  18.3038mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> TP2  body(silk/silk)  17.0967mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> TP3  body(silk/silk)  17.0967mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> TP8  body(silk/silk)  17.0967mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U7  body(silk/silk)  16.1129mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U8  body(silk/silk)  16.1129mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> Q1  body(silk/silk)  14.7096mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C157  body(silk/silk)  13.4604mm2 side F  waived:container_class  CONTAINED 52%
+    BOX1 <-> U22  body(silk/silk)  9.6588mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U21  body(silk/silk)  9.5813mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> D1  body(silk/silk)  9.5484mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> U45  body(silk/silk)  8.2262mm2 side F  waived:container_class
+    BOX1 <-> C187  body(silk/silk)  6.3323mm2 side F  waived:container_class  CONTAINED 58%
+    BOX1 <-> C197  body(silk/silk)  5.3766mm2 side F  waived:container_class
+    BOX1 <-> C10  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C100  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C104  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C108  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C109  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C110  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C111  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C112  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C113  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C114  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C116  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C117  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C119  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C12  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C123  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C124  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C125  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C126  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C127  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C128  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C129  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C130  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C131  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C136  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C138  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C14  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C16  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C17  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C179  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C18  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C19  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C20  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C22  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C23  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C24  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C25  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C27  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C28  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C3  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C33  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C34  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C37  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C38  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C42  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C43  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C45  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C46  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C47  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C48  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C57  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C58  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C6  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C63  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C64  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C70  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C72  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C73  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C74  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C8  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C80  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C81  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C82  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C84  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C86  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C88  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C89  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C96  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C97  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C98  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> C99  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> L10  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> L11  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> L8  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> L9  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R1  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R10  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R100  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R101  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R102  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R103  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R104  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R105  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R106  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R107  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R108  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R109  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R11  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R110  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R113  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R114  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R115  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R116  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R117  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R118  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R119  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R12  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R120  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R121  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R122  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R123  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R124  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R125  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R128  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R129  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R13  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R130  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R131  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R132  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R133  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R134  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R135  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R136  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R137  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R14  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R15  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R152  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R159  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R16  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R165  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R17  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R18  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R19  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R20  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R21  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R22  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R23  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R38  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R39  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R40  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R41  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R42  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R43  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R44  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R45  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R46  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R47  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R48  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R49  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R50  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R51  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R52  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R53  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R54  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R55  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R56  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R57  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R58  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R59  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R60  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R61  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R62  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R63  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R64  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R65  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R66  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R67  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R68  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R69  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R70  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R71  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R72  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R73  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R74  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R77  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R8  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R82  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R85  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R92  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    BOX1 <-> R95  body(silk/silk)  4.7419mm2 side F  waived:container_class  CONTAINED 100%
+    TP6 <-> TP9  courtyard  4.4103mm2 side F  waived:marker_class
+    TP6 <-> TP9  body(silk/silk)  4.4103mm2 side F  waived:marker_class
+    C200 <-> TP7  courtyard  3.2935mm2 side F  waived:marker_class
+    C200 <-> TP7  body(silk/silk)  3.2935mm2 side F  waived:marker_class
+    C143 <-> TP6  courtyard  3.2082mm2 side F  waived:marker_class
+    C143 <-> TP6  body(silk/silk)  3.2082mm2 side F  waived:marker_class
+    BOX1 <-> R158  body(silk/silk)  2.9089mm2 side F  waived:container_class  CONTAINED 61%
+    C162 <-> TP1  courtyard  2.3864mm2 side F  waived:marker_class
+    C162 <-> TP1  body(silk/silk)  2.3864mm2 side F  waived:marker_class
+    C192 <-> TP7  courtyard  2.1219mm2 side F  waived:marker_class
+    C192 <-> TP7  body(silk/silk)  2.1219mm2 side F  waived:marker_class
+    BOX1 <-> TP1  body(silk/silk)  1.4443mm2 side F  waived:container_class
+    C155 <-> TP1  courtyard  1.0337mm2 side F  waived:marker_class
+    C155 <-> TP1  body(silk/silk)  1.0337mm2 side F  waived:marker_class
+  pad/hole/oob echo: 0 pad pair(s), 0 hole conflict(s), 3 part(s) with pad copper off-board: J3 (0.02mm), J2 (0.0095mm), J1 (0.007mm)
+    (part pad AABB -- pads PLUS NPTH drill circles, summed over the union rect's four sides -- against an outline inflated by the GRADING CLEARANCE. It moves when --clearance moves, so a hit here is not necessarily copper off the outline. The per-pad, margin-0 outline measure is render_placement's checklist.a_off_outline.pad_copper.)
+    ...but NO PAD crosses the real outline (per-pad, margin 0, is empty). The count above is the part's bounding box against an outline inflated by the grading clearance -- an edge-mounted part reports a breach its copper does not make.
+  CONTAINMENT (217): a part's drawn body (its .Fab outline, else its silk united with its pads) lies wholly or mostly inside another part's.
+    C143 <-> L12  18.11mm2  63% of the smaller body  [does not gate: a silk-drawn body, which never gates (#896)]
+    C145 <-> C150  11.0mm2  100% of the smaller body  [does not gate: a silk-drawn body, which never gates (#896)]
+    C17 <-> U2  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    C133 <-> U34  4.1631mm2  88% of the smaller body  [does not gate: a silk-drawn body, which never gates (#896)]
+    C123 <-> U31  4.0856mm2  86% of the smaller body  [does not gate: a silk-drawn body, which never gates (#896)]
+    C116 <-> U29  3.6207mm2  76% of the smaller body  [does not gate: a silk-drawn body, which never gates (#896)]
+    BOX1 <-> U2  169.8419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U4  121.3008mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U29  80.9209mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U31  80.9209mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U32  80.9209mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U38  80.9209mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U1  64.0mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U10  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U11  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U14  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U15  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U5  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U6  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U9  41.1531mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U16  38.6136mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U18  38.6136mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U19  38.6136mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U20  38.6136mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U23  37.1612mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U26  30.7096mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U27  30.7096mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U17  24.2812mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U25  24.2812mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U3  24.2812mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U24  23.8507mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C155  18.4526mm2  71% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U12  18.3038mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U13  18.3038mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U28  18.3038mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U30  18.3038mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> TP2  17.0967mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> TP3  17.0967mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> TP8  17.0967mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U7  16.1129mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U8  16.1129mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> Q1  14.7096mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C157  13.4604mm2  52% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U22  9.6588mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> U21  9.5813mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> D1  9.5484mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C187  6.3323mm2  58% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C10  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C100  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C104  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C108  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C109  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C110  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C111  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C112  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C113  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C114  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C116  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C117  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C119  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C12  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C123  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C124  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C125  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C126  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C127  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C128  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C129  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C130  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C131  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C136  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C138  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C14  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C16  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C17  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C179  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C18  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C19  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C20  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C22  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C23  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C24  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C25  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C27  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C28  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C3  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C33  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C34  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C37  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C38  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C42  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C43  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C45  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C46  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C47  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C48  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C57  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C58  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C6  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C63  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C64  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C70  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C72  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C73  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C74  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C8  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C80  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C81  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C82  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C84  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C86  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C88  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C89  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C96  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C97  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C98  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> C99  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> L10  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> L11  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> L8  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> L9  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R1  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R10  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R100  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R101  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R102  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R103  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R104  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R105  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R106  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R107  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R108  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R109  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R11  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R110  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R113  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R114  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R115  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R116  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R117  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R118  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R119  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R12  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R120  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R121  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R122  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R123  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R124  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R125  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R128  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R129  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R13  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R130  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R131  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R132  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R133  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R134  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R135  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R136  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R137  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R14  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R15  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R152  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R159  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R16  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R165  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R17  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R18  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R19  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R20  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R21  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R22  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R23  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R38  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R39  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R40  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R41  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R42  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R43  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R44  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R45  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R46  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R47  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R48  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R49  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R50  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R51  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R52  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R53  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R54  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R55  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R56  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R57  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R58  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R59  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R60  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R61  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R62  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R63  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R64  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R65  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R66  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R67  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R68  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R69  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R70  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R71  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R72  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R73  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R74  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R77  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R8  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R82  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R85  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R92  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R95  4.7419mm2  100% of the smaller body  [does not gate: a board-sized container is involved]
+    BOX1 <-> R158  2.9089mm2  61% of the smaller body  [does not gate: a board-sized container is involved]
+    None of these BLOCK: 211 a board-sized container is involved; 5 a silk-drawn body, which never gates (#896); 1 inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401).
+  BODY COVERAGE: 450 of 458 part(s) draw a body the containment channel can judge (450 silk)
+    A silk body is the LAST resort and never gates: a library may draw an assembly outline there rather than the part (esp_prog's SOT89 draws corner brackets 5.2mm apart around a 4.5mm part). Such pairs are reported, with their source, and excluded from the blocking channels.
+    8 part(s) draw no usable body (no .Fab body, no usable silk), so the channel cannot judge them: FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8
+  ASSEMBLY SIDES: F 279 / B 179 pad-bearing part(s) of 458 block(s); 2 reflow pass(es), 19 through-hole part(s)
+    Through-hole F 19 / B 0 (plated barrels only), counted and never folded in: a drilled part on the front needs wave, selective or hand soldering, not a second reflow pass.
+    observed policy: sides=both -- counted per footprint BLOCK, verdict from the pad-bearing subset (parts_by_side_basis in --json has the rule in full)
+  INSIDE A CLOSED SILK BODY (1): 1 GATE (a member moved vs the baseline)
+    C17 <-> U2  100% of the smaller body  GATES (moved: C17 U2)
+  TEST POINT COVERED (3): a test point's pad copper lies under another part's drawn body, where no probe can reach it -- 0 of 3 GATE (a member moved vs the baseline)
+    TP2 under BOX1  100% of its pad copper  body silk  side F  waived:container_class
+    TP3 under BOX1  100% of its pad copper  body silk  side F  waived:container_class
+    TP8 under BOX1  100% of its pad copper  body silk  side F  waived:container_class
+    A deliberate pose is accepted by naming the pair in the intent's `overlap_waivers`.
+  BODY-TO-EDGE BAND: 32 of 449 part(s) have a body within 2.5mm of the board edge [derived_default: JLCPCB's assembly rule, one assembler's -- REPORT-ONLY; declare assembly.body_edge_mm in the intent to gate]  new_in_band 17
+    J1 0.0mm (silk, side F)
+    J2 0.0mm (silk, side F)
+    J3 0.0mm (silk, side F)
+    J4 0.0mm (silk, side F)
+    J6 0.0mm (silk, side F)
+    U43 0.0mm (silk, side B)  MOVED
+    C177 0.108mm (silk, side B)  MOVED
+    FIX1 0.2mm (pad_bbox, side F)
+    FIX2 0.2mm (pad_bbox, side F)
+    FIX3 0.2mm (pad_bbox, side F)
+    FIX4 0.2mm (pad_bbox, side F)
+    FIX5 0.2mm (pad_bbox, side F)
+    ... +20 more (--json)
+  CONTAINERS: BOX1 (pin_frame) -- a pin frame is graded on its pins, an outline is waived, neither on its rect
+  VERDICT: NOT BUILDABLE
+EXIT=4

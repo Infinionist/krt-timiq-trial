@@ -1,0 +1,1856 @@
+CMD: python -X utf8 py_tools/check_assembly.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json --json /tmp/pcb-trials/timiq/v5/seeds/c0.assembly.json
+ENV KNOBS: none
+  grading at clearance 0.25mm  [fixed default]
+  NOTE: this board declares NO net class and NO board constraint (no sibling .kicad_pro, no (net_class) block), so 0.25mm is a FALLBACK rather than the board's own floor. Pass --clearance <the value the copper was routed to> if you know it; the pad/hole ECHO counts move with it, `blocking` usually does not.
+  note: 27 declared waiver(s) matched no waivable overlap (C104<->J8, C106<->J8, C26<->J12, C27<->J12, C28<->J12, C29<->J12) -- harmless, and the first thing to check if a waiver stopped working. A pad-on-pad contact is never waivable, so such a pair lands here too.
+Assembly audit of /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb (clearance 0.25):
+  blocking 5  advisory 335  waived 546  contained 597  courtyard_blocking 0  new-vs-baseline 335
+  heights (#1443): 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; 0 pair(s) clear, one part under the other's body
+  baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb is a pile: its overlaps are staging, not a baseline (#1103), so every advisory pair counts as new
+    BOX1 <-> J10  body(silk/silk)  1177.1413mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> J11  body(silk/silk)  1177.1413mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> J12  body(silk/silk)  1177.1413mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> J7  body(silk/silk)  1177.1413mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> J8  body(silk/silk)  1177.1413mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> J9  body(silk/silk)  1177.1413mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U2  body(silk/silk)  169.8419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U4  body(silk/silk)  121.3008mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U29  body(silk/silk)  80.9209mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U32  body(silk/silk)  80.9209mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U34  body(silk/silk)  80.9209mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U1  body(silk/silk)  64.0mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U33  body(silk/silk)  43.3602mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U35  body(silk/silk)  43.3602mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U36  body(silk/silk)  43.3602mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U37  body(silk/silk)  43.3602mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U10  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U11  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U14  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U15  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U5  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U6  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U9  body(silk/silk)  41.1531mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U16  body(silk/silk)  38.6136mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U18  body(silk/silk)  38.6136mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U19  body(silk/silk)  38.6136mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U20  body(silk/silk)  38.6136mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U23  body(silk/silk)  37.1612mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U26  body(silk/silk)  30.7096mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U27  body(silk/silk)  30.7096mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U17  body(silk/silk)  24.2812mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U25  body(silk/silk)  24.2812mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U3  body(silk/silk)  24.2812mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U24  body(silk/silk)  23.8507mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U38  body(silk/silk)  18.6807mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> U12  body(silk/silk)  18.3038mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U13  body(silk/silk)  18.3038mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U28  body(silk/silk)  18.3038mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U30  body(silk/silk)  18.3038mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U7  body(silk/silk)  16.1129mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U8  body(silk/silk)  16.1129mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U31  body(silk/silk)  11.8415mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> U22  body(silk/silk)  9.6588mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U21  body(silk/silk)  9.5813mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C165  body(silk/silk)  8.8672mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> U39  body(silk/silk)  4.8512mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> C1  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C10  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C100  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C101  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C102  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C103  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C105  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C107  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C108  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C109  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C11  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C110  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C111  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C112  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C113  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C114  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C115  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C116  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C117  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C118  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C119  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C12  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C120  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C121  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C122  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C123  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C124  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C125  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C126  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C128  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C129  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C13  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C130  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C131  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C132  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C133  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C134  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C135  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C136  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C137  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C138  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C14  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C15  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C16  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C17  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C18  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C19  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C2  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C20  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C21  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C22  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C23  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C24  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C25  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C3  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C37  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C38  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C4  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C42  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C43  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C45  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C46  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C47  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C48  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C49  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C5  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C50  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C51  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C52  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C53  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C54  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C55  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C56  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C57  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C58  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C59  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C6  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C60  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C61  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C62  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C63  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C7  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C70  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C72  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C73  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C74  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C75  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C76  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C77  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C78  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C79  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C8  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C80  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C81  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C82  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C83  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C84  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C85  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C86  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C87  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C88  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C89  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C9  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C90  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C91  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C92  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C93  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C94  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C95  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C96  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C97  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C98  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> C99  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L1  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L10  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L11  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L2  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L3  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L4  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L5  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L6  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L7  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L8  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> L9  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R10  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R100  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R101  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R102  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R103  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R104  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R105  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R106  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R107  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R109  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R11  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R110  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R111  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R112  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R113  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R114  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R115  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R116  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R117  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R118  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R119  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R12  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R120  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R121  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R122  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R123  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R124  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R125  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R126  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R127  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R128  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R129  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R13  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R130  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R131  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R132  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R133  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R134  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R135  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R136  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R137  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R138  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R139  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R14  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R140  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R141  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R142  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R143  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R144  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R145  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R146  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R147  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R148  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R149  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R15  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R150  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R151  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R16  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R165  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R17  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R18  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R19  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R2  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R20  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R21  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R22  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R23  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R24  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R25  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R26  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R27  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R28  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R29  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R3  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R30  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R31  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R32  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R33  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R34  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R35  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R36  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R37  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R38  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R39  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R4  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R40  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R41  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R42  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R43  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R44  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R45  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R46  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R47  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R48  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R49  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R5  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R50  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R51  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R52  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R53  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R54  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R55  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R56  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R57  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R58  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R59  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R6  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R60  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R61  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R62  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R63  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R64  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R65  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R66  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R67  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R68  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R69  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R7  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R70  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R73  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R74  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R75  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R76  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R77  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R78  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R79  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R8  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R80  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R81  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R82  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R83  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R84  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R85  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R86  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R87  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R88  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R89  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R9  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R90  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R91  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R92  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R93  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R94  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R95  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R96  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R97  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R98  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> R99  body(silk/silk)  4.7419mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> U41  body(silk/silk)  4.3792mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> C127  body(silk/silk)  4.2587mm2 side F  advisory  CONTAINED 90%  <-- NEW vs baseline
+    BOX1 <-> C143  body(silk/silk)  3.4691mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> C166  body(silk/silk)  2.9483mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> C183  body(silk/silk)  2.3663mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> U43  body(silk/silk)  1.8962mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> C170  body(silk/silk)  1.1709mm2 side F  advisory  <-- NEW vs baseline
+    J10 <-> R76  pad_intersection  0.9904mm2 side F  BLOCKING
+        SHORT: J10.23:4 <-> R76.1:201
+    J10 <-> R79  pad_intersection  0.8878mm2 side F  BLOCKING
+        SHORT: J10.22:4 <-> R79.1:198
+    BOX1 <-> C141  body(silk/silk)  0.6785mm2 side F  advisory  <-- NEW vs baseline
+    J9 <-> R66  pad_intersection  0.4903mm2 side F  BLOCKING
+        SHORT: J9.5:4 <-> R66.1:120
+        SHORT: J9.5:4 <-> R66.2:122
+    BOX1 <-> C172  body(silk/silk)  0.412mm2 side F  advisory  <-- NEW vs baseline
+    J10 <-> R75  pad_intersection  0.2154mm2 side F  BLOCKING
+        SHORT: J10.23:4 <-> R75.1:51
+    MK7 <-> U1  courtyard  0.04mm2 side F  advisory  <-- NEW vs baseline
+    BOX1 <-> MK10  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> MK11  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> MK12  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> MK7  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> MK8  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    BOX1 <-> MK9  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    MK7 <-> U1  pads_under_body  0.01mm2 side F  advisory  CONTAINED 100%  <-- NEW vs baseline
+    MK7 <-> U1  pad_intersection  0.0006mm2 side F  BLOCKING
+    J7 <-> U2  courtyard  185.9009mm2 side F  waived:intent_declared
+    J7 <-> U2  body(silk/silk)  169.8419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> U4  courtyard  134.8776mm2 side F  waived:intent_declared
+    J12 <-> U4  body(silk/silk)  121.3008mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> U29  courtyard  91.1265mm2 side F  waived:intent_declared
+    J11 <-> U29  body(silk/silk)  80.9209mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> U1  courtyard  73.96mm2 side F  waived:intent_declared
+    J7 <-> U1  body(silk/silk)  64.0mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> U5  courtyard  48.8537mm2 side F  waived:intent_declared
+    J12 <-> U6  courtyard  48.8537mm2 side F  waived:intent_declared
+    J12 <-> U9  courtyard  48.8537mm2 side F  waived:intent_declared
+    J9 <-> U10  courtyard  48.8537mm2 side F  waived:intent_declared
+    J9 <-> U11  courtyard  48.8537mm2 side F  waived:intent_declared
+    J9 <-> U14  courtyard  48.8537mm2 side F  waived:intent_declared
+    J9 <-> U15  courtyard  48.8537mm2 side F  waived:intent_declared
+    J10 <-> U18  courtyard  46.4304mm2 side F  waived:intent_declared
+    J10 <-> U19  courtyard  46.4304mm2 side F  waived:intent_declared
+    J10 <-> U20  courtyard  46.4304mm2 side F  waived:intent_declared
+    J8 <-> U16  courtyard  46.4304mm2 side F  waived:intent_declared
+    J8 <-> U23  courtyard  44.8364mm2 side F  waived:intent_declared
+    J12 <-> U5  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> U6  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> U9  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> U10  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> U11  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> U14  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> U15  body(silk/silk)  41.1531mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> U18  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> U19  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> U20  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U16  body(silk/silk)  38.6136mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U26  courtyard  37.1756mm2 side F  waived:intent_declared
+    J8 <-> U27  courtyard  37.1756mm2 side F  waived:intent_declared
+    J8 <-> U23  body(silk/silk)  37.1612mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U26  body(silk/silk)  30.7096mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U27  body(silk/silk)  30.7096mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U17  courtyard  30.5588mm2 side F  waived:intent_declared
+    J8 <-> U25  courtyard  30.5588mm2 side F  waived:intent_declared
+    J8 <-> U3  courtyard  30.5588mm2 side F  waived:intent_declared
+    J8 <-> U24  courtyard  30.0728mm2 side F  waived:intent_declared
+    J8 <-> U17  body(silk/silk)  24.2812mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U25  body(silk/silk)  24.2812mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U3  body(silk/silk)  24.2812mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U24  body(silk/silk)  23.8507mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> U28  courtyard  23.6329mm2 side F  waived:intent_declared
+    J11 <-> U30  courtyard  23.6329mm2 side F  waived:intent_declared
+    J9 <-> U12  courtyard  23.6329mm2 side F  waived:intent_declared
+    J9 <-> U13  courtyard  23.6329mm2 side F  waived:intent_declared
+    J12 <-> U7  courtyard  21.3497mm2 side F  waived:intent_declared
+    J12 <-> U8  courtyard  21.3497mm2 side F  waived:intent_declared
+    J11 <-> U28  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> U30  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> U12  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> U13  body(silk/silk)  18.3038mm2 side F  waived:intent_declared  CONTAINED 100%
+    BOX1 <-> TP1  body(silk/silk)  17.0967mm2 side F  waived:marker_class  CONTAINED 100%
+    BOX1 <-> TP4  body(silk/silk)  17.0967mm2 side F  waived:marker_class  CONTAINED 100%
+    BOX1 <-> TP6  body(silk/silk)  17.0967mm2 side F  waived:marker_class  CONTAINED 100%
+    BOX1 <-> TP7  body(silk/silk)  17.0967mm2 side F  waived:marker_class  CONTAINED 100%
+    BOX1 <-> TP8  body(silk/silk)  17.0967mm2 side F  waived:marker_class  CONTAINED 100%
+    BOX1 <-> TP9  body(silk/silk)  17.0967mm2 side F  waived:marker_class  CONTAINED 100%
+    J12 <-> U7  body(silk/silk)  16.1129mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> U8  body(silk/silk)  16.1129mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U22  courtyard  13.7492mm2 side F  waived:intent_declared
+    J8 <-> U21  courtyard  13.6567mm2 side F  waived:intent_declared
+    J8 <-> U22  body(silk/silk)  9.6588mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> U21  body(silk/silk)  9.5813mm2 side F  waived:intent_declared  CONTAINED 100%
+    C1 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C10 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C100 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C101 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C102 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C103 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C105 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C107 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C108 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C109 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C11 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C110 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C111 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C112 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C113 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C114 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C115 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C116 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C117 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C118 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C119 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C12 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C120 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C121 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C122 <-> J11  courtyard  7.8822mm2 side F  waived:intent_declared
+    C13 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C14 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C15 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C16 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C17 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C18 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C19 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C2 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C20 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C21 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C22 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C23 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C24 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C25 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C3 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C37 <-> J12  courtyard  7.8822mm2 side F  waived:intent_declared
+    C38 <-> J12  courtyard  7.8822mm2 side F  waived:intent_declared
+    C4 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C42 <-> J12  courtyard  7.8822mm2 side F  waived:intent_declared
+    C43 <-> J12  courtyard  7.8822mm2 side F  waived:intent_declared
+    C45 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C46 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C47 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C48 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C49 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C5 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C50 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C51 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C52 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C53 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C54 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C55 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C56 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C57 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C58 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C59 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C6 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C60 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C61 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C62 <-> J9  courtyard  7.8822mm2 side F  waived:intent_declared
+    C63 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C7 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C70 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C72 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C73 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C74 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C75 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C76 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C77 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C78 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C79 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C8 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C80 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C81 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C82 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C83 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C84 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C85 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C86 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C87 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C88 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C89 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C9 <-> J7  courtyard  7.8822mm2 side F  waived:intent_declared
+    C90 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C91 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C92 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C93 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C94 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C95 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C96 <-> J10  courtyard  7.8822mm2 side F  waived:intent_declared
+    C98 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    C99 <-> J8  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R74  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R77  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R78  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R80  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R81  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R82  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R83  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R84  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R85  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R86  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R87  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R88  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R89  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R90  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R91  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R92  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R93  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R94  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R95  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R96  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R97  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R98  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R99  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R109  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R110  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R111  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R112  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R113  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R114  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R115  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R116  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R117  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R118  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R119  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R120  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R121  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R122  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R123  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R124  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R125  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R126  courtyard  7.8822mm2 side F  waived:intent_declared
+    J11 <-> R127  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R24  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R25  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R26  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R27  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R28  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R29  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R30  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R31  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R32  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R33  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R34  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R35  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R36  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R37  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R38  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R39  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R40  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R41  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R42  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R43  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R44  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R45  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R46  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R47  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R48  courtyard  7.8822mm2 side F  waived:intent_declared
+    J12 <-> R49  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L1  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L2  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L3  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L4  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L5  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L6  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> L7  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R10  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R11  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R12  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R13  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R15  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R18  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R19  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R2  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R20  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R21  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R22  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R23  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R3  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R4  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R5  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R6  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R7  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R8  courtyard  7.8822mm2 side F  waived:intent_declared
+    J7 <-> R9  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> L10  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> L11  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> L8  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> L9  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R100  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R101  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R102  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R103  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R104  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R105  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R106  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R107  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R14  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R16  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R165  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R17  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R70  courtyard  7.8822mm2 side F  waived:intent_declared
+    J8 <-> R73  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R50  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R51  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R52  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R53  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R54  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R55  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R56  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R57  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R58  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R59  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R60  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R61  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R62  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R63  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R64  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R65  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R66  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R67  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R68  courtyard  7.8822mm2 side F  waived:intent_declared
+    J9 <-> R69  courtyard  7.8822mm2 side F  waived:intent_declared
+    J10 <-> R75  courtyard  7.8093mm2 side F  waived:intent_declared
+    C97 <-> J10  courtyard  7.5679mm2 side F  waived:intent_declared
+    J10 <-> R79  courtyard  5.8479mm2 side F  waived:intent_declared
+    J10 <-> R76  courtyard  5.6302mm2 side F  waived:intent_declared
+    C1 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C10 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C100 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C101 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C102 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C103 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C105 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C107 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C108 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C109 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C11 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C110 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C111 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C112 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C113 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C114 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C115 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C116 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C117 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C118 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C119 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C12 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C120 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C121 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C122 <-> J11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C13 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C14 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C15 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C16 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C17 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C18 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C19 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C2 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C20 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C21 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C22 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C23 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C24 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C25 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C3 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C37 <-> J12  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C38 <-> J12  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C4 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C42 <-> J12  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C43 <-> J12  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C45 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C46 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C47 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C48 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C49 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C5 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C50 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C51 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C52 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C53 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C54 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C55 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C56 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C57 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C58 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C59 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C6 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C60 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C61 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C62 <-> J9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C63 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C7 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C70 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C72 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C73 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C74 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C75 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C76 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C77 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C78 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C79 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C8 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C80 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C81 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C82 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C83 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C84 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C85 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C86 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C87 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C88 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C89 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C9 <-> J7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C90 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C91 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C92 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C93 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C94 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C95 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C96 <-> J10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C98 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    C99 <-> J8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R74  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R77  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R78  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R80  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R81  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R82  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R83  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R84  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R85  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R86  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R87  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R88  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R89  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R90  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R91  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R92  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R93  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R94  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R95  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R96  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R97  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R98  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R99  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R109  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R110  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R111  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R112  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R113  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R114  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R115  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R116  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R117  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R118  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R119  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R120  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R121  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R122  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R123  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R124  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R125  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R126  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> R127  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R24  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R25  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R26  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R27  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R28  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R29  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R30  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R31  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R32  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R33  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R34  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R35  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R36  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R37  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R38  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R39  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R40  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R41  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R42  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R43  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R44  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R45  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R46  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R47  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R48  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> R49  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L1  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L2  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L3  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L4  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L5  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L6  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> L7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R12  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R13  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R15  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R18  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R19  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R2  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R20  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R21  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R22  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R23  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R3  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R4  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R5  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R6  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R7  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> R9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> L10  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> L11  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> L8  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> L9  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R100  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R101  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R102  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R103  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R104  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R105  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R106  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R107  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R14  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R16  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R165  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R17  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R70  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> R73  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R50  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R51  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R52  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R53  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R54  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R55  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R56  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R57  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R58  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R59  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R60  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R61  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R62  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R63  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R64  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R65  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R66  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R67  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R68  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> R69  body(silk/silk)  4.7419mm2 side F  waived:intent_declared  CONTAINED 100%
+    J10 <-> R75  body(silk/silk)  4.6808mm2 side F  waived:intent_declared  CONTAINED 99%
+    C97 <-> J10  body(silk/silk)  4.5157mm2 side F  waived:intent_declared  CONTAINED 95%
+    J10 <-> R79  body(silk/silk)  3.2816mm2 side F  waived:intent_declared  CONTAINED 69%
+    J10 <-> R76  body(silk/silk)  3.1254mm2 side F  waived:intent_declared  CONTAINED 66%
+    J10 <-> TP8  courtyard  1.1836mm2 side F  waived:marker_class
+    J9 <-> TP4  courtyard  1.165mm2 side F  waived:marker_class
+    J10 <-> MK10  courtyard  0.04mm2 side F  waived:intent_declared
+    J11 <-> MK11  courtyard  0.04mm2 side F  waived:intent_declared
+    J12 <-> MK12  courtyard  0.04mm2 side F  waived:intent_declared
+    J7 <-> MK7  courtyard  0.04mm2 side F  waived:intent_declared
+    J8 <-> MK8  courtyard  0.04mm2 side F  waived:intent_declared
+    J9 <-> MK9  courtyard  0.04mm2 side F  waived:intent_declared
+    J10 <-> MK10  pads_under_body  0.01mm2 side F  waived:intent_declared  CONTAINED 100%
+    J11 <-> MK11  pads_under_body  0.01mm2 side F  waived:intent_declared  CONTAINED 100%
+    J12 <-> MK12  pads_under_body  0.01mm2 side F  waived:intent_declared  CONTAINED 100%
+    J7 <-> MK7  pads_under_body  0.01mm2 side F  waived:intent_declared  CONTAINED 100%
+    J8 <-> MK8  pads_under_body  0.01mm2 side F  waived:intent_declared  CONTAINED 100%
+    J9 <-> MK9  pads_under_body  0.01mm2 side F  waived:intent_declared  CONTAINED 100%
+  pad/hole/oob echo: 8 pad pair(s), 0 hole conflict(s), 12 part(s) with pad copper off-board: FIX1 (0.1mm), FIX3 (0.1mm), FIX5 (0.1mm), FIX7 (0.1mm), J3 (0.07mm), J2 (0.0595mm) ... showing 6 of 12
+    (part pad AABB -- pads PLUS NPTH drill circles, summed over the union rect's four sides -- against an outline inflated by the GRADING CLEARANCE. It moves when --clearance moves, so a hit here is not necessarily copper off the outline. The per-pad, margin-0 outline measure is render_placement's checklist.a_off_outline.pad_copper.)
+    ...but NO PAD crosses the real outline (per-pad, margin 0, is empty). The count above is the part's bounding box against an outline inflated by the grading clearance -- an edge-mounted part reports a breach its copper does not make.
+  CONTAINMENT (597): a part's drawn body (its .Fab outline, else its silk united with its pads) lies wholly or mostly inside another part's.
+    BOX1 <-> J10  1177.1413mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> J11  1177.1413mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> J12  1177.1413mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> J7  1177.1413mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> J8  1177.1413mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> J9  1177.1413mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U2  169.8419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U4  121.3008mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U29  80.9209mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U32  80.9209mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U34  80.9209mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U1  64.0mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U33  43.3602mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U35  43.3602mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U36  43.3602mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U37  43.3602mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U10  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U11  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U14  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U15  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U5  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U6  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U9  41.1531mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U16  38.6136mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U18  38.6136mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U19  38.6136mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U20  38.6136mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U23  37.1612mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U26  30.7096mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U27  30.7096mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U17  24.2812mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U25  24.2812mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U3  24.2812mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U24  23.8507mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U12  18.3038mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U13  18.3038mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U28  18.3038mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U30  18.3038mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U7  16.1129mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U8  16.1129mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U22  9.6588mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> U21  9.5813mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C1  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C10  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C100  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C101  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C102  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C103  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C105  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C107  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C108  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C109  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C11  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C110  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C111  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C112  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C113  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C114  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C115  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C116  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C117  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C118  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C119  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C12  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C120  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C121  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C122  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C123  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C124  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C125  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C126  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C128  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C129  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C13  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C130  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C131  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C132  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C133  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C134  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C135  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C136  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C137  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C138  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C14  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C15  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C16  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C17  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C18  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C19  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C2  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C20  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C21  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C22  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C23  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C24  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C25  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C3  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C37  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C38  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C4  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C42  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C43  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C45  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C46  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C47  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C48  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C49  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C5  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C50  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C51  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C52  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C53  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C54  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C55  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C56  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C57  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C58  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C59  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C6  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C60  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C61  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C62  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C63  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C7  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C70  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C72  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C73  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C74  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C75  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C76  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C77  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C78  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C79  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C8  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C80  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C81  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C82  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C83  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C84  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C85  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C86  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C87  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C88  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C89  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C9  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C90  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C91  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C92  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C93  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C94  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C95  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C96  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C97  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C98  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C99  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L1  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L10  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L11  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L2  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L3  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L4  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L5  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L6  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L7  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L8  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> L9  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R10  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R100  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R101  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R102  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R103  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R104  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R105  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R106  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R107  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R109  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R11  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R110  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R111  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R112  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R113  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R114  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R115  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R116  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R117  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R118  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R119  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R12  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R120  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R121  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R122  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R123  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R124  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R125  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R126  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R127  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R128  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R129  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R13  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R130  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R131  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R132  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R133  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R134  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R135  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R136  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R137  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R138  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R139  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R14  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R140  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R141  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R142  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R143  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R144  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R145  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R146  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R147  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R148  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R149  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R15  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R150  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R151  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R16  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R165  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R17  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R18  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R19  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R2  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R20  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R21  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R22  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R23  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R24  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R25  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R26  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R27  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R28  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R29  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R3  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R30  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R31  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R32  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R33  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R34  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R35  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R36  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R37  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R38  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R39  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R4  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R40  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R41  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R42  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R43  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R44  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R45  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R46  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R47  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R48  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R49  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R5  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R50  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R51  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R52  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R53  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R54  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R55  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R56  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R57  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R58  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R59  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R6  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R60  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R61  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R62  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R63  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R64  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R65  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R66  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R67  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R68  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R69  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R7  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R70  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R73  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R74  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R75  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R76  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R77  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R78  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R79  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R8  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R80  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R81  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R82  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R83  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R84  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R85  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R86  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R87  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R88  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R89  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R9  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R90  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R91  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R92  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R93  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R94  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R95  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R96  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R97  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R98  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> R99  4.7419mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> C127  4.2587mm2  90% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> MK10  0.01mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> MK11  0.01mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> MK12  0.01mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> MK7  0.01mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> MK8  0.01mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    BOX1 <-> MK9  0.01mm2  100% of the smaller body  [does not gate: inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401)]
+    MK7 <-> U1  0.01mm2  100% of the smaller body  [does not gate: a silk-drawn body, which never gates (#896)]
+    J7 <-> U2  169.8419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> U4  121.3008mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> U29  80.9209mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> U1  64.0mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> U5  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> U6  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> U9  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> U10  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> U11  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> U14  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> U15  41.1531mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> U18  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> U19  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> U20  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U16  38.6136mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U23  37.1612mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U26  30.7096mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U27  30.7096mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U17  24.2812mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U25  24.2812mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U3  24.2812mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U24  23.8507mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> U28  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> U30  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> U12  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> U13  18.3038mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    BOX1 <-> TP1  17.0967mm2  100% of the smaller body  [does not gate: a mount-hole/fiducial/testpoint is involved]
+    BOX1 <-> TP4  17.0967mm2  100% of the smaller body  [does not gate: a mount-hole/fiducial/testpoint is involved]
+    BOX1 <-> TP6  17.0967mm2  100% of the smaller body  [does not gate: a mount-hole/fiducial/testpoint is involved]
+    BOX1 <-> TP7  17.0967mm2  100% of the smaller body  [does not gate: a mount-hole/fiducial/testpoint is involved]
+    BOX1 <-> TP8  17.0967mm2  100% of the smaller body  [does not gate: a mount-hole/fiducial/testpoint is involved]
+    BOX1 <-> TP9  17.0967mm2  100% of the smaller body  [does not gate: a mount-hole/fiducial/testpoint is involved]
+    J12 <-> U7  16.1129mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> U8  16.1129mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U22  9.6588mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> U21  9.5813mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C1 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C10 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C100 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C101 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C102 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C103 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C105 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C107 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C108 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C109 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C11 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C110 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C111 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C112 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C113 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C114 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C115 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C116 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C117 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C118 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C119 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C12 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C120 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C121 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C122 <-> J11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C13 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C14 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C15 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C16 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C17 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C18 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C19 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C2 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C20 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C21 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C22 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C23 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C24 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C25 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C3 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C37 <-> J12  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C38 <-> J12  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C4 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C42 <-> J12  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C43 <-> J12  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C45 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C46 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C47 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C48 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C49 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C5 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C50 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C51 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C52 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C53 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C54 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C55 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C56 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C57 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C58 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C59 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C6 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C60 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C61 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C62 <-> J9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C63 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C7 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C70 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C72 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C73 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C74 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C75 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C76 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C77 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C78 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C79 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C8 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C80 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C81 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C82 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C83 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C84 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C85 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C86 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C87 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C88 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C89 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C9 <-> J7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C90 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C91 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C92 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C93 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C94 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C95 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C96 <-> J10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C98 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C99 <-> J8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R74  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R77  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R78  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R80  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R81  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R82  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R83  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R84  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R85  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R86  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R87  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R88  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R89  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R90  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R91  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R92  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R93  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R94  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R95  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R96  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R97  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R98  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R99  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R109  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R110  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R111  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R112  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R113  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R114  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R115  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R116  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R117  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R118  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R119  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R120  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R121  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R122  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R123  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R124  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R125  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R126  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> R127  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R24  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R25  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R26  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R27  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R28  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R29  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R30  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R31  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R32  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R33  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R34  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R35  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R36  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R37  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R38  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R39  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R40  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R41  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R42  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R43  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R44  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R45  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R46  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R47  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R48  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> R49  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L1  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L2  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L3  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L4  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L5  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L6  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> L7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R12  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R13  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R15  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R18  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R19  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R2  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R20  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R21  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R22  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R23  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R3  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R4  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R5  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R6  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R7  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> R9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> L10  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> L11  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> L8  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> L9  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R100  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R101  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R102  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R103  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R104  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R105  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R106  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R107  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R14  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R16  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R165  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R17  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R70  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> R73  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R50  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R51  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R52  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R53  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R54  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R55  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R56  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R57  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R58  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R59  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R60  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R61  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R62  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R63  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R64  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R65  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R66  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R67  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R68  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> R69  4.7419mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R75  4.6808mm2  99% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    C97 <-> J10  4.5157mm2  95% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R79  3.2816mm2  69% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> R76  3.1254mm2  66% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J10 <-> MK10  0.01mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J11 <-> MK11  0.01mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J12 <-> MK12  0.01mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J7 <-> MK7  0.01mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J8 <-> MK8  0.01mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    J9 <-> MK9  0.01mm2  100% of the smaller body  [does not gate: named in the intent's overlap_waivers]
+    None of these BLOCK: 269 named in the intent's overlap_waivers; 6 a mount-hole/fiducial/testpoint is involved; 1 a silk-drawn body, which never gates (#896); 321 inside a CLOSED silk-drawn body: gates when a member moved vs --baseline (#1401).
+  BODY COVERAGE: 456 of 470 part(s) draw a body the containment channel can judge (456 silk)
+    A silk body is the LAST resort and never gates: a library may draw an assembly outline there rather than the part (esp_prog's SOT89 draws corner brackets 5.2mm apart around a 4.5mm part). Such pairs are reported, with their source, and excluded from the blocking channels.
+    14 part(s) draw no usable body (no .Fab body, no usable silk), so the channel cannot judge them: FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8 ...
+  ASSEMBLY SIDES: F 442 / B 28 pad-bearing part(s) of 470 block(s); 2 reflow pass(es), 19 through-hole part(s)
+    Through-hole F 19 / B 0 (plated barrels only), counted and never folded in: a drilled part on the front needs wave, selective or hand soldering, not a second reflow pass.
+    observed policy: sides=both -- counted per footprint BLOCK, verdict from the pad-bearing subset (parts_by_side_basis in --json has the rule in full)
+  INSIDE A CLOSED SILK BODY (321): 309 GATE (a member moved vs the baseline)
+    BOX1 <-> J10  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> J11  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> J12  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> J7  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> J8  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> J9  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> U2  100% of the smaller body  GATES (moved: U2)
+    BOX1 <-> U4  100% of the smaller body  GATES (moved: U4)
+    BOX1 <-> U29  100% of the smaller body  GATES (moved: U29)
+    BOX1 <-> U32  100% of the smaller body  GATES (moved: U32)
+    BOX1 <-> U34  100% of the smaller body  GATES (moved: U34)
+    BOX1 <-> U1  100% of the smaller body  GATES (moved: U1)
+    BOX1 <-> U33  100% of the smaller body  GATES (moved: U33)
+    BOX1 <-> U35  100% of the smaller body  GATES (moved: U35)
+    BOX1 <-> U36  100% of the smaller body  GATES (moved: U36)
+    BOX1 <-> U37  100% of the smaller body  GATES (moved: U37)
+    BOX1 <-> U10  100% of the smaller body  GATES (moved: U10)
+    BOX1 <-> U11  100% of the smaller body  GATES (moved: U11)
+    BOX1 <-> U14  100% of the smaller body  GATES (moved: U14)
+    BOX1 <-> U15  100% of the smaller body  GATES (moved: U15)
+    BOX1 <-> U5  100% of the smaller body  GATES (moved: U5)
+    BOX1 <-> U6  100% of the smaller body  GATES (moved: U6)
+    BOX1 <-> U9  100% of the smaller body  GATES (moved: U9)
+    BOX1 <-> U16  100% of the smaller body  GATES (moved: U16)
+    BOX1 <-> U18  100% of the smaller body  GATES (moved: U18)
+    BOX1 <-> U19  100% of the smaller body  GATES (moved: U19)
+    BOX1 <-> U20  100% of the smaller body  GATES (moved: U20)
+    BOX1 <-> U23  100% of the smaller body  GATES (moved: U23)
+    BOX1 <-> U26  100% of the smaller body  GATES (moved: U26)
+    BOX1 <-> U27  100% of the smaller body  GATES (moved: U27)
+    BOX1 <-> U17  100% of the smaller body  GATES (moved: U17)
+    BOX1 <-> U25  100% of the smaller body  GATES (moved: U25)
+    BOX1 <-> U3  100% of the smaller body  GATES (moved: U3)
+    BOX1 <-> U24  100% of the smaller body  GATES (moved: U24)
+    BOX1 <-> U12  100% of the smaller body  GATES (moved: U12)
+    BOX1 <-> U13  100% of the smaller body  GATES (moved: U13)
+    BOX1 <-> U28  100% of the smaller body  GATES (moved: U28)
+    BOX1 <-> U30  100% of the smaller body  GATES (moved: U30)
+    BOX1 <-> U7  100% of the smaller body  GATES (moved: U7)
+    BOX1 <-> U8  100% of the smaller body  GATES (moved: U8)
+    BOX1 <-> U22  100% of the smaller body  GATES (moved: U22)
+    BOX1 <-> U21  100% of the smaller body  GATES (moved: U21)
+    BOX1 <-> C1  100% of the smaller body  GATES (moved: C1)
+    BOX1 <-> C10  100% of the smaller body  GATES (moved: C10)
+    BOX1 <-> C100  100% of the smaller body  GATES (moved: C100)
+    BOX1 <-> C101  100% of the smaller body  GATES (moved: C101)
+    BOX1 <-> C102  100% of the smaller body  GATES (moved: C102)
+    BOX1 <-> C103  100% of the smaller body  GATES (moved: C103)
+    BOX1 <-> C105  100% of the smaller body  GATES (moved: C105)
+    BOX1 <-> C107  100% of the smaller body  GATES (moved: C107)
+    BOX1 <-> C108  100% of the smaller body  GATES (moved: C108)
+    BOX1 <-> C109  100% of the smaller body  GATES (moved: C109)
+    BOX1 <-> C11  100% of the smaller body  GATES (moved: C11)
+    BOX1 <-> C110  100% of the smaller body  GATES (moved: C110)
+    BOX1 <-> C111  100% of the smaller body  GATES (moved: C111)
+    BOX1 <-> C112  100% of the smaller body  GATES (moved: C112)
+    BOX1 <-> C113  100% of the smaller body  GATES (moved: C113)
+    BOX1 <-> C114  100% of the smaller body  GATES (moved: C114)
+    BOX1 <-> C115  100% of the smaller body  GATES (moved: C115)
+    BOX1 <-> C116  100% of the smaller body  GATES (moved: C116)
+    BOX1 <-> C117  100% of the smaller body  GATES (moved: C117)
+    BOX1 <-> C118  100% of the smaller body  GATES (moved: C118)
+    BOX1 <-> C119  100% of the smaller body  GATES (moved: C119)
+    BOX1 <-> C12  100% of the smaller body  GATES (moved: C12)
+    BOX1 <-> C120  100% of the smaller body  GATES (moved: C120)
+    BOX1 <-> C121  100% of the smaller body  GATES (moved: C121)
+    BOX1 <-> C122  100% of the smaller body  GATES (moved: C122)
+    BOX1 <-> C123  100% of the smaller body  GATES (moved: C123)
+    BOX1 <-> C124  100% of the smaller body  GATES (moved: C124)
+    BOX1 <-> C125  100% of the smaller body  GATES (moved: C125)
+    BOX1 <-> C126  100% of the smaller body  GATES (moved: C126)
+    BOX1 <-> C128  100% of the smaller body  GATES (moved: C128)
+    BOX1 <-> C129  100% of the smaller body  GATES (moved: C129)
+    BOX1 <-> C13  100% of the smaller body  GATES (moved: C13)
+    BOX1 <-> C130  100% of the smaller body  GATES (moved: C130)
+    BOX1 <-> C131  100% of the smaller body  GATES (moved: C131)
+    BOX1 <-> C132  100% of the smaller body  GATES (moved: C132)
+    BOX1 <-> C133  100% of the smaller body  GATES (moved: C133)
+    BOX1 <-> C134  100% of the smaller body  GATES (moved: C134)
+    BOX1 <-> C135  100% of the smaller body  GATES (moved: C135)
+    BOX1 <-> C136  100% of the smaller body  GATES (moved: C136)
+    BOX1 <-> C137  100% of the smaller body  GATES (moved: C137)
+    BOX1 <-> C138  100% of the smaller body  GATES (moved: C138)
+    BOX1 <-> C14  100% of the smaller body  GATES (moved: C14)
+    BOX1 <-> C15  100% of the smaller body  GATES (moved: C15)
+    BOX1 <-> C16  100% of the smaller body  GATES (moved: C16)
+    BOX1 <-> C17  100% of the smaller body  GATES (moved: C17)
+    BOX1 <-> C18  100% of the smaller body  GATES (moved: C18)
+    BOX1 <-> C19  100% of the smaller body  GATES (moved: C19)
+    BOX1 <-> C2  100% of the smaller body  GATES (moved: C2)
+    BOX1 <-> C20  100% of the smaller body  GATES (moved: C20)
+    BOX1 <-> C21  100% of the smaller body  GATES (moved: C21)
+    BOX1 <-> C22  100% of the smaller body  GATES (moved: C22)
+    BOX1 <-> C23  100% of the smaller body  GATES (moved: C23)
+    BOX1 <-> C24  100% of the smaller body  GATES (moved: C24)
+    BOX1 <-> C25  100% of the smaller body  GATES (moved: C25)
+    BOX1 <-> C3  100% of the smaller body  GATES (moved: C3)
+    BOX1 <-> C37  100% of the smaller body  GATES (moved: C37)
+    BOX1 <-> C38  100% of the smaller body  GATES (moved: C38)
+    BOX1 <-> C4  100% of the smaller body  GATES (moved: C4)
+    BOX1 <-> C42  100% of the smaller body  GATES (moved: C42)
+    BOX1 <-> C43  100% of the smaller body  GATES (moved: C43)
+    BOX1 <-> C45  100% of the smaller body  GATES (moved: C45)
+    BOX1 <-> C46  100% of the smaller body  GATES (moved: C46)
+    BOX1 <-> C47  100% of the smaller body  GATES (moved: C47)
+    BOX1 <-> C48  100% of the smaller body  GATES (moved: C48)
+    BOX1 <-> C49  100% of the smaller body  GATES (moved: C49)
+    BOX1 <-> C5  100% of the smaller body  GATES (moved: C5)
+    BOX1 <-> C50  100% of the smaller body  GATES (moved: C50)
+    BOX1 <-> C51  100% of the smaller body  GATES (moved: C51)
+    BOX1 <-> C52  100% of the smaller body  GATES (moved: C52)
+    BOX1 <-> C53  100% of the smaller body  GATES (moved: C53)
+    BOX1 <-> C54  100% of the smaller body  GATES (moved: C54)
+    BOX1 <-> C55  100% of the smaller body  GATES (moved: C55)
+    BOX1 <-> C56  100% of the smaller body  GATES (moved: C56)
+    BOX1 <-> C57  100% of the smaller body  GATES (moved: C57)
+    BOX1 <-> C58  100% of the smaller body  GATES (moved: C58)
+    BOX1 <-> C59  100% of the smaller body  GATES (moved: C59)
+    BOX1 <-> C6  100% of the smaller body  GATES (moved: C6)
+    BOX1 <-> C60  100% of the smaller body  GATES (moved: C60)
+    BOX1 <-> C61  100% of the smaller body  GATES (moved: C61)
+    BOX1 <-> C62  100% of the smaller body  GATES (moved: C62)
+    BOX1 <-> C63  100% of the smaller body  GATES (moved: C63)
+    BOX1 <-> C7  100% of the smaller body  GATES (moved: C7)
+    BOX1 <-> C70  100% of the smaller body  GATES (moved: C70)
+    BOX1 <-> C72  100% of the smaller body  GATES (moved: C72)
+    BOX1 <-> C73  100% of the smaller body  GATES (moved: C73)
+    BOX1 <-> C74  100% of the smaller body  GATES (moved: C74)
+    BOX1 <-> C75  100% of the smaller body  GATES (moved: C75)
+    BOX1 <-> C76  100% of the smaller body  GATES (moved: C76)
+    BOX1 <-> C77  100% of the smaller body  GATES (moved: C77)
+    BOX1 <-> C78  100% of the smaller body  GATES (moved: C78)
+    BOX1 <-> C79  100% of the smaller body  GATES (moved: C79)
+    BOX1 <-> C8  100% of the smaller body  GATES (moved: C8)
+    BOX1 <-> C80  100% of the smaller body  GATES (moved: C80)
+    BOX1 <-> C81  100% of the smaller body  GATES (moved: C81)
+    BOX1 <-> C82  100% of the smaller body  GATES (moved: C82)
+    BOX1 <-> C83  100% of the smaller body  GATES (moved: C83)
+    BOX1 <-> C84  100% of the smaller body  GATES (moved: C84)
+    BOX1 <-> C85  100% of the smaller body  GATES (moved: C85)
+    BOX1 <-> C86  100% of the smaller body  GATES (moved: C86)
+    BOX1 <-> C87  100% of the smaller body  GATES (moved: C87)
+    BOX1 <-> C88  100% of the smaller body  GATES (moved: C88)
+    BOX1 <-> C89  100% of the smaller body  GATES (moved: C89)
+    BOX1 <-> C9  100% of the smaller body  GATES (moved: C9)
+    BOX1 <-> C90  100% of the smaller body  GATES (moved: C90)
+    BOX1 <-> C91  100% of the smaller body  GATES (moved: C91)
+    BOX1 <-> C92  100% of the smaller body  GATES (moved: C92)
+    BOX1 <-> C93  100% of the smaller body  GATES (moved: C93)
+    BOX1 <-> C94  100% of the smaller body  GATES (moved: C94)
+    BOX1 <-> C95  100% of the smaller body  GATES (moved: C95)
+    BOX1 <-> C96  100% of the smaller body  GATES (moved: C96)
+    BOX1 <-> C97  100% of the smaller body  GATES (moved: C97)
+    BOX1 <-> C98  100% of the smaller body  GATES (moved: C98)
+    BOX1 <-> C99  100% of the smaller body  GATES (moved: C99)
+    BOX1 <-> L1  100% of the smaller body  GATES (moved: L1)
+    BOX1 <-> L10  100% of the smaller body  GATES (moved: L10)
+    BOX1 <-> L11  100% of the smaller body  GATES (moved: L11)
+    BOX1 <-> L2  100% of the smaller body  GATES (moved: L2)
+    BOX1 <-> L3  100% of the smaller body  GATES (moved: L3)
+    BOX1 <-> L4  100% of the smaller body  GATES (moved: L4)
+    BOX1 <-> L5  100% of the smaller body  GATES (moved: L5)
+    BOX1 <-> L6  100% of the smaller body  GATES (moved: L6)
+    BOX1 <-> L7  100% of the smaller body  GATES (moved: L7)
+    BOX1 <-> L8  100% of the smaller body  GATES (moved: L8)
+    BOX1 <-> L9  100% of the smaller body  GATES (moved: L9)
+    BOX1 <-> R10  100% of the smaller body  GATES (moved: R10)
+    BOX1 <-> R100  100% of the smaller body  GATES (moved: R100)
+    BOX1 <-> R101  100% of the smaller body  GATES (moved: R101)
+    BOX1 <-> R102  100% of the smaller body  GATES (moved: R102)
+    BOX1 <-> R103  100% of the smaller body  GATES (moved: R103)
+    BOX1 <-> R104  100% of the smaller body  GATES (moved: R104)
+    BOX1 <-> R105  100% of the smaller body  GATES (moved: R105)
+    BOX1 <-> R106  100% of the smaller body  GATES (moved: R106)
+    BOX1 <-> R107  100% of the smaller body  GATES (moved: R107)
+    BOX1 <-> R109  100% of the smaller body  GATES (moved: R109)
+    BOX1 <-> R11  100% of the smaller body  GATES (moved: R11)
+    BOX1 <-> R110  100% of the smaller body  GATES (moved: R110)
+    BOX1 <-> R111  100% of the smaller body  GATES (moved: R111)
+    BOX1 <-> R112  100% of the smaller body  GATES (moved: R112)
+    BOX1 <-> R113  100% of the smaller body  GATES (moved: R113)
+    BOX1 <-> R114  100% of the smaller body  GATES (moved: R114)
+    BOX1 <-> R115  100% of the smaller body  GATES (moved: R115)
+    BOX1 <-> R116  100% of the smaller body  GATES (moved: R116)
+    BOX1 <-> R117  100% of the smaller body  GATES (moved: R117)
+    BOX1 <-> R118  100% of the smaller body  GATES (moved: R118)
+    BOX1 <-> R119  100% of the smaller body  GATES (moved: R119)
+    BOX1 <-> R12  100% of the smaller body  GATES (moved: R12)
+    BOX1 <-> R120  100% of the smaller body  GATES (moved: R120)
+    BOX1 <-> R121  100% of the smaller body  GATES (moved: R121)
+    BOX1 <-> R122  100% of the smaller body  GATES (moved: R122)
+    BOX1 <-> R123  100% of the smaller body  GATES (moved: R123)
+    BOX1 <-> R124  100% of the smaller body  GATES (moved: R124)
+    BOX1 <-> R125  100% of the smaller body  GATES (moved: R125)
+    BOX1 <-> R126  100% of the smaller body  GATES (moved: R126)
+    BOX1 <-> R127  100% of the smaller body  GATES (moved: R127)
+    BOX1 <-> R128  100% of the smaller body  GATES (moved: R128)
+    BOX1 <-> R129  100% of the smaller body  GATES (moved: R129)
+    BOX1 <-> R13  100% of the smaller body  GATES (moved: R13)
+    BOX1 <-> R130  100% of the smaller body  GATES (moved: R130)
+    BOX1 <-> R131  100% of the smaller body  GATES (moved: R131)
+    BOX1 <-> R132  100% of the smaller body  GATES (moved: R132)
+    BOX1 <-> R133  100% of the smaller body  GATES (moved: R133)
+    BOX1 <-> R134  100% of the smaller body  GATES (moved: R134)
+    BOX1 <-> R135  100% of the smaller body  GATES (moved: R135)
+    BOX1 <-> R136  100% of the smaller body  GATES (moved: R136)
+    BOX1 <-> R137  100% of the smaller body  GATES (moved: R137)
+    BOX1 <-> R138  100% of the smaller body  GATES (moved: R138)
+    BOX1 <-> R139  100% of the smaller body  GATES (moved: R139)
+    BOX1 <-> R14  100% of the smaller body  GATES (moved: R14)
+    BOX1 <-> R140  100% of the smaller body  GATES (moved: R140)
+    BOX1 <-> R141  100% of the smaller body  GATES (moved: R141)
+    BOX1 <-> R142  100% of the smaller body  GATES (moved: R142)
+    BOX1 <-> R143  100% of the smaller body  GATES (moved: R143)
+    BOX1 <-> R144  100% of the smaller body  GATES (moved: R144)
+    BOX1 <-> R145  100% of the smaller body  GATES (moved: R145)
+    BOX1 <-> R146  100% of the smaller body  GATES (moved: R146)
+    BOX1 <-> R147  100% of the smaller body  GATES (moved: R147)
+    BOX1 <-> R148  100% of the smaller body  GATES (moved: R148)
+    BOX1 <-> R149  100% of the smaller body  GATES (moved: R149)
+    BOX1 <-> R15  100% of the smaller body  GATES (moved: R15)
+    BOX1 <-> R150  100% of the smaller body  GATES (moved: R150)
+    BOX1 <-> R151  100% of the smaller body  GATES (moved: R151)
+    BOX1 <-> R16  100% of the smaller body  GATES (moved: R16)
+    BOX1 <-> R165  100% of the smaller body  GATES (moved: R165)
+    BOX1 <-> R17  100% of the smaller body  GATES (moved: R17)
+    BOX1 <-> R18  100% of the smaller body  GATES (moved: R18)
+    BOX1 <-> R19  100% of the smaller body  GATES (moved: R19)
+    BOX1 <-> R2  100% of the smaller body  GATES (moved: R2)
+    BOX1 <-> R20  100% of the smaller body  GATES (moved: R20)
+    BOX1 <-> R21  100% of the smaller body  GATES (moved: R21)
+    BOX1 <-> R22  100% of the smaller body  GATES (moved: R22)
+    BOX1 <-> R23  100% of the smaller body  GATES (moved: R23)
+    BOX1 <-> R24  100% of the smaller body  GATES (moved: R24)
+    BOX1 <-> R25  100% of the smaller body  GATES (moved: R25)
+    BOX1 <-> R26  100% of the smaller body  GATES (moved: R26)
+    BOX1 <-> R27  100% of the smaller body  GATES (moved: R27)
+    BOX1 <-> R28  100% of the smaller body  GATES (moved: R28)
+    BOX1 <-> R29  100% of the smaller body  GATES (moved: R29)
+    BOX1 <-> R3  100% of the smaller body  GATES (moved: R3)
+    BOX1 <-> R30  100% of the smaller body  GATES (moved: R30)
+    BOX1 <-> R31  100% of the smaller body  GATES (moved: R31)
+    BOX1 <-> R32  100% of the smaller body  GATES (moved: R32)
+    BOX1 <-> R33  100% of the smaller body  GATES (moved: R33)
+    BOX1 <-> R34  100% of the smaller body  GATES (moved: R34)
+    BOX1 <-> R35  100% of the smaller body  GATES (moved: R35)
+    BOX1 <-> R36  100% of the smaller body  GATES (moved: R36)
+    BOX1 <-> R37  100% of the smaller body  GATES (moved: R37)
+    BOX1 <-> R38  100% of the smaller body  GATES (moved: R38)
+    BOX1 <-> R39  100% of the smaller body  GATES (moved: R39)
+    BOX1 <-> R4  100% of the smaller body  GATES (moved: R4)
+    BOX1 <-> R40  100% of the smaller body  GATES (moved: R40)
+    BOX1 <-> R41  100% of the smaller body  GATES (moved: R41)
+    BOX1 <-> R42  100% of the smaller body  GATES (moved: R42)
+    BOX1 <-> R43  100% of the smaller body  GATES (moved: R43)
+    BOX1 <-> R44  100% of the smaller body  GATES (moved: R44)
+    BOX1 <-> R45  100% of the smaller body  GATES (moved: R45)
+    BOX1 <-> R46  100% of the smaller body  GATES (moved: R46)
+    BOX1 <-> R47  100% of the smaller body  GATES (moved: R47)
+    BOX1 <-> R48  100% of the smaller body  GATES (moved: R48)
+    BOX1 <-> R49  100% of the smaller body  GATES (moved: R49)
+    BOX1 <-> R5  100% of the smaller body  GATES (moved: R5)
+    BOX1 <-> R50  100% of the smaller body  GATES (moved: R50)
+    BOX1 <-> R51  100% of the smaller body  GATES (moved: R51)
+    BOX1 <-> R52  100% of the smaller body  GATES (moved: R52)
+    BOX1 <-> R53  100% of the smaller body  GATES (moved: R53)
+    BOX1 <-> R54  100% of the smaller body  GATES (moved: R54)
+    BOX1 <-> R55  100% of the smaller body  GATES (moved: R55)
+    BOX1 <-> R56  100% of the smaller body  GATES (moved: R56)
+    BOX1 <-> R57  100% of the smaller body  GATES (moved: R57)
+    BOX1 <-> R58  100% of the smaller body  GATES (moved: R58)
+    BOX1 <-> R59  100% of the smaller body  GATES (moved: R59)
+    BOX1 <-> R6  100% of the smaller body  GATES (moved: R6)
+    BOX1 <-> R60  100% of the smaller body  GATES (moved: R60)
+    BOX1 <-> R61  100% of the smaller body  GATES (moved: R61)
+    BOX1 <-> R62  100% of the smaller body  GATES (moved: R62)
+    BOX1 <-> R63  100% of the smaller body  GATES (moved: R63)
+    BOX1 <-> R64  100% of the smaller body  GATES (moved: R64)
+    BOX1 <-> R65  100% of the smaller body  GATES (moved: R65)
+    BOX1 <-> R66  100% of the smaller body  GATES (moved: R66)
+    BOX1 <-> R67  100% of the smaller body  GATES (moved: R67)
+    BOX1 <-> R68  100% of the smaller body  GATES (moved: R68)
+    BOX1 <-> R69  100% of the smaller body  GATES (moved: R69)
+    BOX1 <-> R7  100% of the smaller body  GATES (moved: R7)
+    BOX1 <-> R70  100% of the smaller body  GATES (moved: R70)
+    BOX1 <-> R73  100% of the smaller body  GATES (moved: R73)
+    BOX1 <-> R74  100% of the smaller body  GATES (moved: R74)
+    BOX1 <-> R75  100% of the smaller body  GATES (moved: R75)
+    BOX1 <-> R76  100% of the smaller body  GATES (moved: R76)
+    BOX1 <-> R77  100% of the smaller body  GATES (moved: R77)
+    BOX1 <-> R78  100% of the smaller body  GATES (moved: R78)
+    BOX1 <-> R79  100% of the smaller body  GATES (moved: R79)
+    BOX1 <-> R8  100% of the smaller body  GATES (moved: R8)
+    BOX1 <-> R80  100% of the smaller body  GATES (moved: R80)
+    BOX1 <-> R81  100% of the smaller body  GATES (moved: R81)
+    BOX1 <-> R82  100% of the smaller body  GATES (moved: R82)
+    BOX1 <-> R83  100% of the smaller body  GATES (moved: R83)
+    BOX1 <-> R84  100% of the smaller body  GATES (moved: R84)
+    BOX1 <-> R85  100% of the smaller body  GATES (moved: R85)
+    BOX1 <-> R86  100% of the smaller body  GATES (moved: R86)
+    BOX1 <-> R87  100% of the smaller body  GATES (moved: R87)
+    BOX1 <-> R88  100% of the smaller body  GATES (moved: R88)
+    BOX1 <-> R89  100% of the smaller body  GATES (moved: R89)
+    BOX1 <-> R9  100% of the smaller body  GATES (moved: R9)
+    BOX1 <-> R90  100% of the smaller body  GATES (moved: R90)
+    BOX1 <-> R91  100% of the smaller body  GATES (moved: R91)
+    BOX1 <-> R92  100% of the smaller body  GATES (moved: R92)
+    BOX1 <-> R93  100% of the smaller body  GATES (moved: R93)
+    BOX1 <-> R94  100% of the smaller body  GATES (moved: R94)
+    BOX1 <-> R95  100% of the smaller body  GATES (moved: R95)
+    BOX1 <-> R96  100% of the smaller body  GATES (moved: R96)
+    BOX1 <-> R97  100% of the smaller body  GATES (moved: R97)
+    BOX1 <-> R98  100% of the smaller body  GATES (moved: R98)
+    BOX1 <-> R99  100% of the smaller body  GATES (moved: R99)
+    BOX1 <-> C127  90% of the smaller body  GATES (moved: C127)
+    BOX1 <-> MK10  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> MK11  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> MK12  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> MK7  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> MK8  100% of the smaller body  baseline's own (no member moved)
+    BOX1 <-> MK9  100% of the smaller body  baseline's own (no member moved)
+  TEST POINT COVERED (6): a test point's pad copper lies under another part's drawn body, where no probe can reach it -- 0 of 6 GATE (a member moved vs the baseline)
+    TP1 under BOX1  100% of its pad copper  body silk  side F  never gates: the body is drawn on silk
+    TP4 under BOX1  100% of its pad copper  body silk  side F  never gates: the body is drawn on silk
+    TP6 under BOX1  100% of its pad copper  body silk  side F  never gates: the body is drawn on silk
+    TP7 under BOX1  100% of its pad copper  body silk  side F  never gates: the body is drawn on silk
+    TP8 under BOX1  100% of its pad copper  body silk  side F  never gates: the body is drawn on silk
+    TP9 under BOX1  100% of its pad copper  body silk  side F  never gates: the body is drawn on silk
+    A deliberate pose is accepted by naming the pair in the intent's `overlap_waivers`.
+  BODY-TO-EDGE BAND: 22 of 461 part(s) have a body within 2.5mm of the board edge [derived_default: JLCPCB's assembly rule, one assembler's -- REPORT-ONLY; declare assembly.body_edge_mm in the intent to gate]  new_in_band 7
+    FIX1 0.0mm (courtyard, side F)
+    FIX2 0.0mm (courtyard, side F)
+    FIX3 0.0mm (courtyard, side F)
+    FIX4 0.0mm (courtyard, side F)
+    FIX5 0.0mm (courtyard, side F)
+    FIX6 0.0mm (courtyard, side F)
+    FIX7 0.0mm (courtyard, side F)
+    FIX8 0.0mm (courtyard, side F)
+    J1 0.0mm (silk, side F)
+    J2 0.0mm (silk, side F)
+    J3 0.0mm (silk, side F)
+    J4 0.0mm (silk, side F)
+    ... +10 more (--json)
+    in the band but belonging at the edge, never counted (edge class, marker, or an edge the intent declares): TP3 0.8mm [testpoint], TP2 0.978mm [testpoint]
+  VERDICT: NOT BUILDABLE
+  JSON -> /tmp/pcb-trials/timiq/v5/seeds/c0.assembly.json
+EXIT=4

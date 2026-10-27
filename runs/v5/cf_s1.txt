@@ -1,0 +1,157 @@
+CMD: python -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v5/seeds/s1.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json
+ENV KNOBS: none
+design brief s1.design-brief.json: 0 interface(s), 24 keep-out(s), 1 declared UNKNOWN, 3 tier-0 field(s) not declared
+grading at clearance 0.2 (board netclass), edge 0.5 (board constraint)
+  WARNING [placement]: 458 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1, C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, C108, ...
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+Floorplan: s1.kicad_pcb vs intent.json
+  458 footprints, 16 block(s), 563 part(s) covered
+  outline: 1 ring(s), 0 cutout(s), 0 milled contour(s)
+  ALSO NOT FULLY GRADED: 3 budget_abstained, 3 rules_skipped_armed -- the violations below are what WAS measured, not all of it
+  89 error(s), 19 warning(s) from 8 rule(s)
+    [warn ] decap_pin_distance_inferred: U29 pin 34 (3V3_2) is 9.27mm from C116, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U31 pin 21 (3V3_2) is 8.34mm from C133, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U39 pin 13 (7V5) is 15.68mm from C139, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U39 pin 15 (7V5) is 15.68mm from C139, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U39 pin 16 (7V5) is 14.90mm from C139, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U40 pin 13 (7V5) is 28.30mm from C162, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U40 pin 15 (7V5) is 27.41mm from C162, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U40 pin 16 (7V5) is 25.88mm from C162, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U43 pin 1 (15V) is 48.69mm from C185, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U43 pin 13 (24V) is 38.43mm from C167, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U43 pin 15 (24V) is 38.43mm from C167, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U43 pin 16 (24V) is 39.86mm from C167, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U43 pin 20 (15V) is 47.10mm from C185, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U43 pin 3 (15V) is 49.70mm from C185, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U45 pin 13 (-24V) is 77.40mm from C157, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U45 pin 15 (-24V) is 77.43mm from C157, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [warn ] decap_pin_distance_inferred: U45 pin 16 (-24V) is 76.68mm from C157, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction
+    [ERROR] keepout: BOX1 (F) is inside keep-out 'can-J10' [204.82, 162.29, 239.25, 196.67]
+    [ERROR] keepout: BOX1 (F) is inside keep-out 'can-J11' [129.19, 120.07, 163.62, 154.45]
+    [ERROR] keepout: BOX1 (F) is inside keep-out 'can-J12' [167.01, 98.93, 201.44, 133.32]
+    [ERROR] keepout: BOX1 (F) is inside keep-out 'can-J7' [129.19, 157.87, 163.62, 192.26]
+    [ERROR] keepout: BOX1 (F) is inside keep-out 'can-J8' [167.01, 174.57, 201.44, 208.96]
+    [ERROR] keepout: BOX1 (F) is inside keep-out 'can-J9' [167.01, 136.75, 201.44, 171.14]
+    [ERROR] proximity: C10 pad 1 is 2.99mm from U1 pad 2, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C100 pad 1 is 3.97mm from U21 pad 1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C102 pad 1 is 2.24mm from U22 pad 1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C112 pad 1 is 10.69mm from U28 pad 3 on Net-(C112-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C14 pad 1 is 2.99mm from U1 pad 8, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C144 pad 1 is 4.45mm from J6 pad 3 on Net-(C144-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C145 pad 2 is 2.16mm from J6 pad 5 on Net-(C145-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C148 pad 1 is 5.70mm from J6 pad 1 on Net-(C143-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C17 pad 2 is 6.45mm from U1 pad 15, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C174 pad 1 is 2.28mm from U45 pad 14 on Net-(C174-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C178 pad 2 is 2.94mm from U44 pad 3 on Net-(C178-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C18 pad 1 is 4.15mm from U1 pad 15, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C20 pad 2 is 13.56mm from U3 pad 2 on Net-(C20-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C25 pad 1 is 3.08mm from U1 pad 16 on Net-(C19-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C28 pad 1 is 6.87mm from U4 pad 3 on Net-(C28-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C28 pad 2 is 7.36mm from U4 pad 2 on Net-(C28-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C37 pad 1 is 2.11mm from U7 pad 4 on Net-(C37-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C38 pad 2 is 2.11mm from U8 pad 1 on Net-(C38-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C42 pad 1 is 4.16mm from U9 pad 2 on Net-(C42-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C42 pad 2 is 3.87mm from U9 pad 1 on Net-(C42-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C43 pad 1 is 5.26mm from U9 pad 6 on Net-(C43-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C43 pad 2 is 4.94mm from U9 pad 7 on Net-(C43-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C47 pad 2 is 6.05mm from U4 pad 39 on /TOP/DAC Interface/DAC_I, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C48 pad 2 is 7.46mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C5 pad 1 is 4.78mm from U1 pad 26, past the declared 2.00mm proximity limit
+    [ERROR] proximity: C89 pad 1 is 2.05mm from U19 pad 16 on Net-(C89-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: C96 pad 1 is 2.40mm from U20 pad 15 on Net-(C96-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: L12 pad 1 is 3.51mm from J6 pad 1 on Net-(C143-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R100 pad 1 is 3.17mm from U3 pad 7 on /TOP/Frequency mixers/PLLout0, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R102 pad 2 is 3.16mm from U21 pad 1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R103 pad 2 is 2.24mm from U21 pad 1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R104 pad 2 is 3.97mm from U22 pad 1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R105 pad 2 is 2.24mm from U22 pad 1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R106 pad 1 is 2.06mm from U21 pad 7, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R107 pad 1 is 2.06mm from U22 pad 7, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R115 pad 1 is 26.56mm from U26 pad 2 on /TOP/ADC/MIXERout0, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R116 pad 1 is 28.69mm from U27 pad 2 on /TOP/ADC/MIXERout1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R129 pad 1 is 2.20mm from U32 pad 34 on Net-(R129-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R13 pad 1 is 4.21mm from U1 pad 15, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R135 pad 1 is 2.20mm from U34 pad 34 on Net-(R134-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R139 pad 1 is 2.11mm from U34 pad 31 on Net-(R138-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R140 pad 2 is 3.16mm from U34 pad 27 on Net-(R140-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R142 pad 2 is 3.06mm from U34 pad 26 on Net-(R142-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R144 pad 2 is 3.32mm from U34 pad 24 on Net-(R144-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R145 pad 1 is 2.67mm from U34 pad 24 on Net-(R144-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R15 pad 1 is 2.95mm from U1 pad 15, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R153 pad 2 is 3.31mm from U38 pad 15 on Net-(R153-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R154 pad 2 is 2.21mm from D2 pad 1 on Net-(D2-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R155 pad 2 is 2.01mm from D3 pad 1 on Net-(D3-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R158 pad 2 is 2.13mm from U45 pad 3 on Net-(C179-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R16 pad 2 is 14.92mm from U3 pad 2 on Net-(C20-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R160 pad 2 is 2.24mm from D4 pad 1 on Net-(D4-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R165 pad 1 is 29.97mm from J2 pad 1 on Net-(C20-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R17 pad 1 is 14.89mm from U3 pad 2 on Net-(C20-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R22 pad 1 is 4.26mm from U1 pad 17, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R3 pad 1 is 2.10mm from Q1 pad 1 on /TOP/PLL/PLL_LOCKED, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R33 pad 1 is 2.55mm from U4 pad 24 on Net-(R32-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R38 pad 1 is 4.77mm from U4 pad 41 on Net-(R38-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R39 pad 1 is 5.85mm from U4 pad 44 on Net-(R39-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R40 pad 1 is 8.71mm from U9 pad 2 on Net-(C42-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R46 pad 1 is 11.76mm from U9 pad 3 on Net-(R44-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R47 pad 1 is 5.03mm from U9 pad 5 on Net-(R45-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R48 pad 1 is 3.19mm from U9 pad 2 on Net-(C42-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R48 pad 2 is 2.78mm from U9 pad 1 on Net-(C42-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R49 pad 1 is 6.46mm from U9 pad 6 on Net-(C43-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R49 pad 2 is 9.31mm from U9 pad 7 on Net-(C43-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R5 pad 1 is 2.01mm from U1 pad 33 on /TOP/PLL/PLL_CLK, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R50 pad 1 is 21.66mm from U9 pad 1 on Net-(C42-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R51 pad 1 is 11.98mm from U9 pad 7 on Net-(C43-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R54 pad 2 is 23.04mm from U4 pad 39 on /TOP/DAC Interface/DAC_I, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R55 pad 2 is 7.50mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R56 pad 2 is 6.11mm from U4 pad 39 on /TOP/DAC Interface/DAC_I, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R57 pad 2 is 6.08mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R60 pad 1 is 2.76mm from U14 pad 2 on Net-(C55-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R61 pad 1 is 2.00mm from U15 pad 2 on Net-(C56-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R62 pad 1 is 8.37mm from U4 pad 40 on /TOP/DAC Interface/DAC_I, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R64 pad 1 is 10.50mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R74 pad 1 is 7.57mm from U17 pad 9 on /TOP/Frequency dividers/IQout1, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R79 pad 1 is 2.28mm from U18 pad 20 on /TOP/Frequency dividers/FD0_S0, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R8 pad 1 is 30.57mm from J1 pad 1 on Net-(C3-Pad2), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R82 pad 1 is 2.24mm from U18 pad 15 on Net-(C80-Pad1), past the declared 2.00mm proximity limit
+    [ERROR] proximity: R90 pad 2 is 2.43mm from U20 pad 23 on /TOP/Frequency dividers/FD2_N2, past the declared 2.00mm proximity limit
+    [ERROR] proximity: R98 pad 2 is 2.02mm from U20 pad 20 on /TOP/Frequency dividers/FD2_S0, past the declared 2.00mm proximity limit
+    [warn ] template: templates[0] (U21): 2 of 10 member(s) off the template -- worst C101, a pad 0.00mm from its template position (on the other face)
+    [warn ] template: templates[1] (U22): 3 of 10 member(s) off the template -- worst C103, a pad 0.00mm from its template position (on the other face)
+  pad stacks: 0 (two parts' pad copper overlapping, any net -- check_assembly's pad_intersection, exact; printed, not a floorplan rule)
+  templates[0] U21: 2 of 10 member(s) off, worst C98 0.00mm
+  templates[1] U22: 3 of 10 member(s) off, worst C99 0.00mm
+  decap pins: 107 on 36 of 45 candidate IC(s) -- rail_net 107
+  3 declared value(s) NOT DERIVABLE -- not graded, not passed:
+    - decaps.max_distance_mm: the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range
+    - oob_count: the board is a pile: its off-board count is staging, not a baseline (#1103)
+    - overlap_area: the board is a pile: its overlap is staging, not a baseline (#1103)
+  11 rule(s) did not run:
+    - array_formation: the intent declares no arrays
+    - cover: the intent declares no covers
+    - decap_distance: the intent declares no decaps.max_distance_mm; the emitter WITHHELD decaps.max_distance_mm (the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range)
+    - decap_ungraded: the intent declares no decaps.max_distance_mm; the emitter WITHHELD decaps.max_distance_mm (the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range)
+    - edge_connector: the intent declares no edge_connectors
+    - keep_away: the intent declares no keep_away rules
+    - legality: the intent declares no legality_budget; the emitter WITHHELD oob_count (the board is a pile: its off-board count is staging, not a baseline (#1103)), overlap_area (the board is a pile: its overlap is staging, not a baseline (#1103))
+    - must_lock: the intent declares no must_lock patterns
+    - pins_to_edge: the intent declares no edge_connectors
+    - replicate: the intent declares no replicate copies
+    - zone_exclusive: no block is marked exclusive
+  rule roster: 8 armed, 11 not; 2 rule(s) owe a written answer
+    [policy] zone_exclusive: a policy about who may enter a zone; nothing on the board says that a zone is reserved
+    [not applicable] edge_connector: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [OWED] decap_distance: the intent declares no decaps.max_distance_mm
+    [advisory] decap_ungraded: the intent declares no decaps.max_distance_mm
+    [policy] keep_away: a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive
+    [not applicable] must_lock: must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing
+    [OWED] legality: the intent declares no legality_budget
+    [not applicable] pins_to_edge: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [policy] array_formation: a design decision about which parts form one row; nothing on the board says which identical parts belong together
+    [policy] replicate: a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike
+    [policy] cover: a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches
+    OWED: decap_distance: dark -- the intent declares no decaps.max_distance_mm. It applies here (122 decoupling cap(s) share a rail with an IC). Arm it with `decaps.max_distance_mm` if the design has that requirement, or write why it does not: dispositions.rules.decap_distance
+    OWED: legality: dark -- the intent declares no legality_budget. It applies here (every placement has a legality to measure). Arm it with `legality_budget` if the design has that requirement, or write why it does not: dispositions.rules.legality
+  brief clause coverage: 24 graded, 0 uncovered, 0 abstained, 0 declared unknown, 0 carried
+JSON_SUMMARY: {"blocks": 16, "blocks_resolved": 16, "board": "s1.kicad_pcb", "brief": "/tmp/pcb-trials/timiq/v5/seeds/s1.design-brief.json", "brief_absent": 3, "brief_clauses": 24, "brief_clauses_abstained": 0, "brief_clauses_carried": 0, "brief_clauses_drifted": 0, "brief_clauses_graded": 24, "brief_clauses_not_claimed": 0, "brief_clauses_uncovered": 0, "brief_coverage_complete": true, "brief_declared": 24, "brief_drift": 0, "brief_unknown": 1, "brief_unknown_keys": ["lid_height_limit_27.5mm"], "budget_abstained": 3, "budget_abstained_keys": ["decaps.max_distance_mm", "oob_count", "overlap_area"], "budget_dispositioned": 0, "carried_facts": [], "clearance_used": {"source": "board netclass", "value": 0.2}, "complete": false, "contradiction_ids": [], "contradictions": 0, "contradictions_undispositioned": [], "cutouts": 0, "decap_pins_by_channel": {"pinfunction": 0, "pintype": 0, "rail_net": 107, "role": 0}, "decap_pins_graded": 107, "derived_default_clauses": [], "edge_clearance_used": {"source": "board constraint", "value": 0.5}, "edge_contours": 0, "edge_seating_abstained": 0, "edge_seating_declared": 0, "edge_seating_rows": 0, "edge_seating_worst_offset_pct": null, "errors": 89, "hole_shortfall": 0.0, "hpwl": 6019.6396, "intent": "intent.json", "keep_away_unpriced": 0, "keepout_pad_amount": 0.0, "keepout_pad_parts": 0, "ledger_status": {"advisory": 1, "dark": 2, "graded_fail": 8, "graded_pass": 24, "inapplicable": 3, "policy": 5}, "locked_contact_pairs": 0, "mechanical": null, "not_graded": {"budget_abstained": 3, "rules_skipped_armed": 3}, "oob_amount": 4.8365, "oob_area": 32.2887, "oob_count": 12, "overlap_area": 0.0, "pad_conflict_pairs": 0, "pad_intersection_pairs": 0, "pad_overlap_pairs": 0, "pad_shortfall": 0.0, "pad_stack_count": 0, "parts_covered": 458, "parts_total": 458, "pass": false, "rules_dark_undispositioned": ["decap_distance", "legality"], "rules_run": 8, "rules_skipped": 11, "stale_dispositions": [], "state_duplicate_fraction": 0.0, "state_has_copper": false, "state_outside_fraction": 0.0, "state_partially_unplaced": false, "state_spread_ratio": 0.9708, "state_unplaced": false, "unmeasured_facts": [], "violations": 108, "violations_by_rule": {"decap_pin_distance_inferred": 17, "keepout": 6, "proximity": 83, "template": 2}, "warnings": 19}
+EXIT=4

@@ -1,0 +1,1264 @@
+{
+ "board": "fixed.kicad_pcb",
+ "declaration_ledger": [
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "envelope.rect",
+   "disposition": null,
+   "grader": "envelope",
+   "id": "rule:envelope",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "pending",
+   "why": "armed by the plan's `envelope.rect`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_containment",
+   "id": "rule:zone_containment",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "no block declares a zone"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_side",
+   "id": "rule:zone_side",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "no block declares a side"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "assembly.sides",
+   "disposition": null,
+   "grader": "assembly_side",
+   "id": "rule:assembly_side",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "pending",
+   "why": "armed by the plan's `assembly.sides`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_exclusive",
+   "id": "rule:zone_exclusive",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "no block is marked exclusive"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "keepouts[]",
+   "disposition": null,
+   "grader": "keepout",
+   "id": "rule:keepout",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "pending",
+   "why": "armed by the plan's `keepouts[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "edge_connector",
+   "id": "rule:edge_connector",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_distance",
+   "id": "rule:decap_distance",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_ungraded",
+   "id": "rule:decap_ungraded",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "decaps.max_pin_distance_mm",
+   "disposition": null,
+   "grader": "decap_pin_distance",
+   "id": "rule:decap_pin_distance",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "pending",
+   "why": "armed by the plan's `decaps.max_pin_distance_mm`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "proximity",
+   "id": "rule:proximity",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no proximity claims"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "keep_away",
+   "id": "rule:keep_away",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no keep_away rules"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "must_lock",
+   "id": "rule:must_lock",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no must_lock patterns"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "legality",
+   "id": "rule:legality",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no legality_budget"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "pins_to_edge",
+   "id": "rule:pins_to_edge",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "array_formation",
+   "id": "rule:array_formation",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no arrays"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "replicate",
+   "id": "rule:replicate",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no replicate copies"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "template",
+   "id": "rule:template",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no templates"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "cover",
+   "id": "rule:cover",
+   "kind": "rule",
+   "source": "intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no covers"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:BOX1:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     124.2124,
+     214.9478,
+     0.0
+    ],
+    "mechanical": [
+     124.2124,
+     214.9478,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D2:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     112.216,
+     73.4378,
+     270.0
+    ],
+    "mechanical": [
+     112.216,
+     73.4378,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D3:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     118.2206,
+     73.4327,
+     270.0
+    ],
+    "mechanical": [
+     118.2206,
+     73.4327,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D4:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     124.2201,
+     73.4327,
+     270.0
+    ],
+    "mechanical": [
+     124.2201,
+     73.4327,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D5:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     130.2196,
+     73.4327,
+     270.0
+    ],
+    "mechanical": [
+     130.2196,
+     73.4327,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D6:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     112.216,
+     82.4395,
+     270.0
+    ],
+    "mechanical": [
+     112.216,
+     82.4395,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D7:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     118.2155,
+     82.4395,
+     270.0
+    ],
+    "mechanical": [
+     118.2155,
+     82.4395,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:D8:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     124.2201,
+     82.4395,
+     270.0
+    ],
+    "mechanical": [
+     124.2201,
+     82.4395,
+     270.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX1:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     256.216,
+     220.44,
+     0.0
+    ],
+    "mechanical": [
+     256.216,
+     220.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX2:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     184.216,
+     220.44,
+     0.0
+    ],
+    "mechanical": [
+     184.216,
+     220.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX3:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     112.216,
+     220.44,
+     0.0
+    ],
+    "mechanical": [
+     112.216,
+     220.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX4:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     112.216,
+     148.44,
+     0.0
+    ],
+    "mechanical": [
+     112.216,
+     148.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX5:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     112.216,
+     66.44,
+     0.0
+    ],
+    "mechanical": [
+     112.216,
+     66.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX6:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     184.216,
+     66.44,
+     0.0
+    ],
+    "mechanical": [
+     184.216,
+     66.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX7:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     256.216,
+     66.44,
+     0.0
+    ],
+    "mechanical": [
+     256.216,
+     66.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:FIX8:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     256.216,
+     148.44,
+     0.0
+    ],
+    "mechanical": [
+     256.216,
+     148.44,
+     0.0
+    ]
+   },
+   "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J1:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     146.2857,
+     223.247,
+     90.0
+    ],
+    "mechanical": [
+     146.2857,
+     223.247,
+     90.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J10:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     207.29584,
+     195.37452,
+     0.0
+    ],
+    "mechanical": [
+     207.29584,
+     195.37452,
+     0.0
+    ]
+   },
+   "why": "Infinionist 10-26: shield cans J7-J10 are fixed at the human pose under the lid window (design intent known before placement)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J2:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     157.8147,
+     223.2495,
+     90.0
+    ],
+    "mechanical": [
+     157.8147,
+     223.2495,
+     90.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J3:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     210.045,
+     223.26,
+     90.0
+    ],
+    "mechanical": [
+     210.045,
+     223.26,
+     90.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J4:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     222.065,
+     223.24,
+     90.0
+    ],
+    "mechanical": [
+     222.065,
+     223.24,
+     90.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J5:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     221.9318,
+     136.3324,
+     90.0
+    ],
+    "mechanical": [
+     221.9318,
+     136.3324,
+     90.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J6:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     206.4348,
+     73.4428,
+     180.0
+    ],
+    "mechanical": [
+     206.4348,
+     73.4428,
+     180.0
+    ]
+   },
+   "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J7:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     131.6648,
+     190.96,
+     0.0
+    ],
+    "mechanical": [
+     131.6648,
+     190.96,
+     0.0
+    ]
+   },
+   "why": "Infinionist 10-26: shield cans J7-J10 are fixed at the human pose under the lid window (design intent known before placement)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J8:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     169.4854,
+     207.6605,
+     0.0
+    ],
+    "mechanical": [
+     169.4854,
+     207.6605,
+     0.0
+    ]
+   },
+   "why": "Infinionist 10-26: shield cans J7-J10 are fixed at the human pose under the lid window (design intent known before placement)",
+   "winner": "mechanical"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J9:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/mechanical.json (sha256 d9b9fbb44bf9a0d6011e958c4933986fc0468af559366f6c29da62a09c2e7782)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     169.4854,
+     169.84244,
+     0.0
+    ],
+    "mechanical": [
+     169.4854,
+     169.84244,
+     0.0
+    ]
+   },
+   "why": "Infinionist 10-26: shield cans J7-J10 are fixed at the human pose under the lid window (design intent known before placement)",
+   "winner": "mechanical"
+  }
+ ],
+ "intent": "intent.json",
+ "measured": {
+  "edge_oversubscribed": [],
+  "edges": [],
+  "fixed_overlap": {
+   "pairs": [],
+   "total_mm2": 0
+  },
+  "fixed_pose_conflicts": [],
+  "outline_area_per_face_mm2": {
+   "B": 0.0,
+   "F": 250.88
+  },
+  "utilisation_per_face_clearance0": 0.9526,
+  "zones": []
+ },
+ "plan_findings": [
+  {
+   "expected": {
+    "utilisation": "< 0.55"
+   },
+   "measured": {
+    "utilisation": 0.9526
+   },
+   "message": "the busiest face is 95% covered by courtyard at zero clearance -- past the 55% this toolchain calls comfortable to route. Several shipped boards run hotter, so it is a warning: expect to route between parts with little room",
+   "rule": "plan_board_crowded",
+   "severity": "warn"
+  }
+ ],
+ "rule_roster": [
+  {
+   "applicability_reason": "armed by the plan's `envelope.rect`",
+   "applicable": true,
+   "arming_key": "envelope.rect",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "envelope",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every movable block can be given a zone",
+   "applicable": true,
+   "arming_key": "blocks[].zone",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "zone_containment",
+   "skip_reason": "no block declares a zone",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "the board carries parts on both faces",
+   "applicable": true,
+   "arming_key": "blocks[].side",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "zone_side",
+   "skip_reason": "no block declares a side",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `assembly.sides`",
+   "applicable": true,
+   "arming_key": "assembly.sides",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "assembly_side",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a policy about who may enter a zone; nothing on the board says that a zone is reserved",
+   "applicable": true,
+   "arming_key": "blocks[].exclusive (on a zoned block)",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "zone_exclusive",
+   "skip_reason": "no block is marked exclusive",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `keepouts[]`",
+   "applicable": true,
+   "arming_key": "keepouts[]",
+   "brief_claims": [
+    "wall-band-top",
+    "wall-band-bottom",
+    "wall-band-left",
+    "wall-band-right",
+    "hole-J5-1",
+    "hole-J5-2",
+    "hole-BOX1-1",
+    "hole-BOX1-3",
+    "hole-BOX1-5",
+    "hole-BOX1-7",
+    "hole-FIX1-1",
+    "hole-FIX2-1",
+    "hole-FIX3-1",
+    "hole-FIX4-1",
+    "hole-FIX5-1",
+    "hole-FIX6-1",
+    "hole-FIX7-1",
+    "hole-FIX8-1"
+   ],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "keepout",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "edge_connector",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "decap_distance",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {
+    "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_ungraded",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {
+    "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `decaps.max_pin_distance_mm`",
+   "applicable": true,
+   "arming_key": "decaps.max_pin_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_pin_distance",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two named parts; nothing on the board, and nothing in a design brief, says which parts must be near which",
+   "applicable": true,
+   "arming_key": "proximity[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "proximity",
+   "skip_reason": "the intent declares no proximity claims",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive",
+   "applicable": true,
+   "arming_key": "keep_away[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "keep_away",
+   "skip_reason": "the intent declares no keep_away rules",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing",
+   "applicable": false,
+   "arming_key": "must_lock[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "must_lock",
+   "skip_reason": "the intent declares no must_lock patterns",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every placement has a legality to measure",
+   "applicable": true,
+   "arming_key": "legality_budget",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "legality",
+   "skip_reason": "the intent declares no legality_budget",
+   "state": "dark",
+   "withheld": {
+    "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+    "overlap_area": "the board is a pile: its overlap is staging, not a baseline (#1103)"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "pins_to_edge",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which parts form one row; nothing on the board says which identical parts belong together",
+   "applicable": true,
+   "arming_key": "arrays[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "array_formation",
+   "skip_reason": "the intent declares no arrays",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike",
+   "applicable": true,
+   "arming_key": "replicate[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "replicate",
+   "skip_reason": "the intent declares no replicate copies",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "an arrangement read from a part's datasheet; the board says which parts are wired to the chip, not where its datasheet puts them",
+   "applicable": true,
+   "arming_key": "templates[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "template",
+   "skip_reason": "the intent declares no templates",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches",
+   "applicable": true,
+   "arming_key": "covers[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "cover",
+   "skip_reason": "the intent declares no covers",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  }
+ ],
+ "stale_dispositions": []
+}

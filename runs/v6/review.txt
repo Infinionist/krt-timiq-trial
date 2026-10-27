@@ -1,0 +1,213 @@
+route_review: 163 open net(s), 3 of them poured; 8 congested area(s), 4 turned part(s); signal layers B.Cu, F.Cu, pitch 0.338 mm
+== open nets
+   /TOP/PLL/PLL_IN (no copper): disconnected at C3, U1; on C3, U1
+   Net-(C24-Pad1) (no copper): disconnected at C24, U1; on C24, U1
+   Net-(C63-Pad2) (no copper): disconnected at C63, U16; on C63, U16
+   Net-(C64-Pad2) (no copper): disconnected at C64, U16; on C64, U16
+   Net-(C70-Pad1) (no copper): disconnected at C70, U16; on C70, U16
+   Net-(C73-Pad2) (no copper): disconnected at C73, U18; on C73, U18
+   Net-(C81-Pad1) (no copper): disconnected at C81, R85, U18; on C81, R85, U18
+   Net-(C81-Pad2) (no copper): disconnected at C81, U19; on C81, U19
+   Net-(C89-Pad2) (no copper): disconnected at C89, U20; on C89, U20
+   Net-(C96-Pad1) (no copper): disconnected at C96, U20; on C96, U20
+   Net-(C97-Pad1) (no copper): disconnected at C97, U20; on C97, U20
+   /TOP/PLL/PLL_LOCKED (no copper): disconnected at Q1, R3, U1, U38; on Q1, R3, U1, U38
+   Net-(R10-Pad1) (no copper): disconnected at R10, U1; on R10, U1
+   Net-(R11-Pad1) (no copper): disconnected at R11, U1; on R11, U1
+   Net-(R12-Pad1) (no copper): disconnected at R12, U1; on R12, U1
+   Net-(R22-Pad1) (no copper): disconnected at R22, U1; on R22, U1
+   Net-(R38-Pad1) (no copper): disconnected at R38, U4; on R38, U4
+   Net-(R39-Pad1) (no copper): disconnected at R39, U4; on R39, U4
+   /TOP/ADC/ADC_SCK (no copper): disconnected at R110, U29, U32; on R110, U29, U32
+   /TOP/ADC/ADC_MISO (no copper): disconnected at R113, U29, U38; on R113, U29, U38
+   /TOP/ADC/ADC_ALARM (no copper): disconnected at R114, U29, U38; on R114, U29, U38
+   Net-(R125-Pad1) (no copper): disconnected at R125, U29; on R125, U29
+   Net-(R152-Pad2) (no copper): disconnected at R152, U38; on R152, U38
+   /TOP/PLL/PLL_CE (no copper): disconnected at R4, U1, U31; on R4, U1, U31
+   Net-(L2-Pad2) (no copper): disconnected at L2, U1; on L2, U1
+   /TOP/PLL/PLL_ENout (no copper): disconnected at R6, U1, U31; on R6, U1, U31
+   Net-(L3-Pad2) (no copper): disconnected at L3, U1; on L3, U1
+   Net-(R9-Pad2) (no copper): disconnected at R9, U1; on R9, U1
+   Net-(C7-Pad2) (no copper): disconnected at C7, U1; on C7, U1
+   /TOP/PLL/PLL_DATA (no copper): disconnected at R7, U1, U31; on R7, U1, U31
+   /TOP/PLL/PLL_CLK (no copper): disconnected at R5, U1, U31; on R5, U1, U31
+   /TOP/PLL/PLL_LE (no copper): disconnected at R2, U1, U31; on R2, U1, U31
+   /TOP/DAC//DAC_CS (no copper): disconnected at U33, U4; on U33, U4
+   /TOP/DAC Interface/I_P (no copper): disconnected at U14, U16; on U14, U16
+   /TOP/DAC Interface/I_N (no copper): disconnected at U14, U16; on U14, U16
+   /TOP/DAC Interface/Q_P (no copper): disconnected at U15, U16; on U15, U16
+   /TOP/DAC Interface/Q_N (no copper): disconnected at U15, U16; on U15, U16
+   /TOP/Frequency dividers/FD0_N0 (no copper): disconnected at U18, U36; on U18, U36
+   /TOP/Frequency dividers/FD0_N1 (no copper): disconnected at U18, U36; on U18, U36
+   /TOP/Frequency dividers/FD1_N0 (no copper): disconnected at U19, U37; on U19, U37
+   /TOP/Frequency dividers/FD1_N1 (no copper): disconnected at U19, U37; on U19, U37
+   /TOP/Frequency dividers/FD1_N2 (no copper): disconnected at R83, R84, U19; on R83, R84, U19
+   /TOP/Frequency dividers/FD2_N1 (no copper): disconnected at R93, R94, U20; on R93, R94, U20
+   /TOP/Frequency dividers/FD2_N2 (no copper): disconnected at R90, R91, U20; on R90, R91, U20
+   /TOP/ADC//ADC_RST (no copper): disconnected at R111, U29, U32; on R111, U29, U32
+   Net-(R126-Pad2) (no copper): disconnected at R126, R127, U29; on R126, R127, U29
+   /TOP/digital interface/PLL_CE-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_ENout-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_ENout-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_DATA-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_DATA-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_CLK-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_CLK-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_LE-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_LE-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/SPARE0-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/SPARE0-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/SPARE1-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/SPARE1-N (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/SPARE2-P (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_END (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_ENC (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_ENB (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface/PLL_ENA (no copper): disconnected at J5, U31; on J5, U31
+   /TOP/digital interface//DAC_CS-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_SCK-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_SCK-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_MOSI-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_MOSI-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/SPARE3-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/SPARE3-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface//ADC_RST-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface//ADC_RST-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface//ADC_CS-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface//ADC_CS-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/ADC_SCK-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/ADC_SCK-N (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/ADC_MOSI-P (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_END (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_ENC (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_ENB (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/DAC_ENA (no copper): disconnected at J5, U32; on J5, U32
+   /TOP/digital interface/D_ENA (no copper): disconnected at J5, U38; on J5, U38
+   Net-(U35-Pad3) (no copper): disconnected at U35, U38; on U35, U38
+   Net-(U35-Pad6) (no copper): disconnected at U35, U38; on U35, U38
+   Net-(U35-Pad8) (no copper): disconnected at U35, U38; on U35, U38
+   Net-(R153-Pad2) (no copper): disconnected at R153, U38; on R153, U38
+   /TOP/digital interface/D_ENB (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE7-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE6-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE6-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE5-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE5-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE4-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/SPARE4-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/ADC_ALARM-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/ADC_ALARM-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/ADC_MISO-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/ADC_MISO-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/DAC_MISO-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/DAC_MISO-P (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/PLL_LOCKED-N (no copper): disconnected at J5, U38; on J5, U38
+   /TOP/digital interface/FD0_BYP-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD0_N1-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD0_N1-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD0_N0-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD0_N0-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD1_BYP-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD1_BYP-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD1_N1-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD1_N1-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD1_N0-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD1_N0-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD2_BYP-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD2_BYP-N (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD2_DIV1-P (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD_ENA (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD_ENB (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD_ENC (no copper): disconnected at J5, U34; on J5, U34
+   /TOP/digital interface/FD_END (no copper): disconnected at J5, U34; on J5, U34
+   3V3_1 (poured): disconnected at U1; on C1, C175, C180, C183, C188, C193, C21, C4
+   GND (poured): disconnected at C103, C104, C123, C125, C127, C129, C130, C131, C134, C135, C138, C140, C142, C144, C146, C148, C150, C157, C162, C163, C164, C169, C172, C174, C180, C183, C189, C19, C190, C193, C194, C197, C21, C33, C39, C41, C49, C65, C67, C8, D6, D8, L12, L14, R129, R131, R133, R135, R137, R139, R141, R143, R146, R148, R150, R152, R153, R18, R19, R23, R25, R29, R46, R52, R53, R60, R63, R85, U1, U16, U18, U19, U20, U21, U22, U23, U24, U25, U26, U27, U29, U3, U31, U32, U34, U35, U36, U37, U38, U4, U44, U45, U5, U6, U7; on BOX1, C1, C10, C100, C101, C102, C103, C104
+   Net-(C18-Pad1): disconnected at U1; on C18, R13, R15, U1
+   Net-(C19-Pad1): disconnected at U1; on C19, C22, C25, R15, U1
+   Net-(C27-Pad1): disconnected at U4; on C27, U4, U5
+   Net-(C28-Pad1): disconnected at U4; on C28, U4, U6
+   5V_1: disconnected at U18, U19, U20; on C136, C138, C146, C151, C153, C158, C160, C74
+   Net-(C80-Pad1): disconnected at U18; on C80, R82, U18
+   Net-(C88-Pad1): disconnected at U19; on C88, R92, U19
+   Net-(C89-Pad1): disconnected at U19; on C89, R95, U19
+   5V_2 (poured): disconnected at U29, U4; on C104, C106, C114, C117, C118, C119, C132, C147
+   Net-(C110-Pad1): disconnected at U29; on C110, R123, U28, U29
+   Net-(C111-Pad1): disconnected at U29; on C111, R124, U28, U29
+   3V3_2: disconnected at U29, U31, U32, U34, U38; on C116, C123, C124, C125, C126, C127, C128, C129
+   /TOP/ADC//ADC_CS: disconnected at U32; on R109, U29, U32
+   Net-(R128-Pad2): disconnected at U32; on R128, U32, U33
+   Net-(R129-Pad1): disconnected at U32; on R129, U32, U33
+   Net-(R130-Pad1): disconnected at U32; on R130, U32, U33
+   Net-(R131-Pad1): disconnected at U32; on R131, U32, U33
+   Net-(R132-Pad2): disconnected at U34; on R132, R133, U34, U36
+   Net-(R134-Pad2): disconnected at U34; on R134, R135, U34, U36
+   Net-(R136-Pad2): disconnected at U34; on R136, R137, U34, U36
+   Net-(C13-Pad1): disconnected at U1; on C13, L6, U1
+   Net-(C9-Pad1): disconnected at U1; on C9, L4, U1
+   /TOP/DAC/DAC_MISO: disconnected at U4; on R151, U35, U4
+   Net-(R24-Pad2): disconnected at U4; on R24, R25, U4
+   Net-(R28-Pad2): disconnected at U4; on R28, R29, U4
+   Net-(R36-Pad2): disconnected at U4; on R36, R37, U4
+   Net-(R30-Pad2): disconnected at U4; on R30, R31, U4
+   Net-(R26-Pad2): disconnected at U4; on R26, R27, U4
+   /TOP/Frequency dividers/FD0_S0: disconnected at U18; on R78, R79, U18
+   /TOP/Frequency dividers/FD0_N2: disconnected at U18; on R75, R76, U18
+   /TOP/Frequency dividers/FD1_S0: disconnected at U19; on R86, R87, U19
+   /TOP/Frequency dividers/FD2_S0: disconnected at U20; on R98, R99, U20
+   /TOP/Frequency dividers/FD2_N0: disconnected at U20; on R96, R97, U20
+   /TOP/ADC/ADC_MOSI: disconnected at U32; on R112, U29, U32
+   Net-(C122-Pad1): disconnected at U29; on C122, U29, U30
+   Net-(C120-Pad1): disconnected at U29; on C120, C121, U29
+   Net-(R138-Pad2): disconnected at U34; on R138, R139, U34, U36
+   Net-(R140-Pad2): disconnected at U34; on R140, R141, U34, U37
+   Net-(R142-Pad2): disconnected at U34; on R142, R143, U34, U37
+   Net-(R144-Pad2): disconnected at U34; on R144, R145, U34, U37
+   Net-(R149-Pad2): disconnected at U34; on R149, R150, U34, U37
+== most vias (signal nets)
+   7V5                                  vias 10  routed  169.2 mm  tree  131.1  C139, C140, C155, C162, C165, C166
+   3V3_2                                vias  9  routed  277.5 mm  tree  244.1  C116, C123, C124, C125, C126, C127
+   -15V                                 vias  8  routed  130.0 mm  tree  113.9  C179, C187, C192, C197, C199, C201
+   15V                                  vias  8  routed  171.2 mm  tree  137.4  C177, C182, C185, C190, C195, C29
+   5V_1                                 vias  7  routed  180.9 mm  tree  161.1  C136, C138, C146, C151, C153, C158
+   Net-(C144-Pad1)                      vias  4  routed  118.4 mm  tree   78.4  C144, C149, J6, L13
+   Net-(C42-Pad2)                       vias  4  routed   33.1 mm  tree   28.7  C42, R48, R50, R54, U10, U9
+   Net-(C43-Pad2)                       vias  4  routed   55.9 mm  tree   39.6  C43, R49, R51, R55, U11, U9
+== longest detours (routed / tree, tree > 3 mm)
+   Net-(C55-Pad1)                       x 3.5  routed   18.7 mm  tree    5.4  vias 1  C55, R58, R60, U14
+   Net-(C105-Pad1)                      x 3.3  routed   15.9 mm  tree    4.8  vias 1  C105, L10, R106
+   Net-(C113-Pad1)                      x 3.2  routed   21.3 mm  tree    6.6  vias 1  C113, R118, R122, U28
+   Net-(R20-Pad2)                       x 2.9  routed   22.9 mm  tree    7.9  vias 0  R20, R21, R23
+   Net-(C33-Pad1)                       x 2.5  routed   17.2 mm  tree    6.7  vias 0  C33, R40, R42
+   Net-(C53-Pad1)                       x 2.2  routed    9.3 mm  tree    4.2  vias 1  C53, R58, U12
+   Net-(C111-Pad1)                      x 2.1  routed   14.5 mm  tree    6.9  vias 1  C111, R124, U28, U29
+   Net-(C43-Pad1)                       x 2.0  routed   25.3 mm  tree   12.6  vias 2  C43, R39, R41, R49, U9
+== congested areas (occupancy >= 0.5 on 2.0 mm cells)
+   box [178.0, 118.0, 180.0, 122.0]  cells 2  mean 0.52  peak 0.53  vias 3
+      parts: U9
+      nets:  Net-(C43-Pad1), Net-(C43-Pad2), /TOP/DAC Interface/DAC_I, Net-(R45-Pad2)
+   box [186.0, 122.0, 188.0, 124.0]  cells 1  mean 0.76  peak 0.76  vias 3
+      parts: R44
+      nets:  Net-(C42-Pad1), /TOP/DAC Interface/DAC_Q, Net-(R44-Pad2)
+   box [238.0, 140.0, 240.0, 142.0]  cells 1  mean 0.62  peak 0.62  vias 4
+      parts: U41
+      nets:  7V5, Net-(C170-Pad1)
+   box [150.0, 140.0, 152.0, 142.0]  cells 1  mean 0.57  peak 0.57  vias 2
+      parts: C111, U28
+      nets:  Net-(C111-Pad1), 5V_2, Net-(C113-Pad1), Net-(C111-Pad2)
+   box [222.0, 178.0, 224.0, 180.0]  cells 1  mean 0.52  peak 0.52  vias 2
+      parts: C80
+      nets:  /TOP/Frequency dividers/FD1_BYP, Net-(C80-Pad2), 5V_1
+   box [178.0, 112.0, 180.0, 114.0]  cells 1  mean 0.5  peak 0.5  vias 1
+      parts: C27
+      nets:  Net-(C27-Pad2), Net-(C143-Pad1), -15V, Net-(C144-Pad1)
+   box [190.0, 196.0, 192.0, 198.0]  cells 1  mean 0.5  peak 0.5  vias 1
+      parts: C107
+      nets:  Net-(C107-Pad1), Net-(U23-Pad3), 5V_2
+   box [238.0, 86.0, 240.0, 88.0]  cells 1  mean 0.5  peak 0.5  vias 3
+      parts: U42
+      nets:  3V3_2
+== two-pad parts turned against their wiring (turn 180)
+   R62    at (184.87, 146.57) rot 180: saves 2.0 mm  -> place_pose BOARD OUT set R62 183.2828 146.5671 --rot 0
+   R6     at (151.84, 179.78) rot 0: saves 1.8 mm  -> place_pose BOARD OUT set R6 153.4258 179.7822 --rot 180
+   R22    at (139.54, 179.01) rot 90: saves 1.5 mm  -> place_pose BOARD OUT set R22 139.5423 177.4265 --rot 270
+   C64    at (174.13, 189.56) rot 0: saves 1.2 mm  -> place_pose BOARD OUT set C64 175.7122 189.557 --rot 180

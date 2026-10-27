@@ -1,0 +1,121 @@
+[05:20:44] START gate: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/gate.py
+GATE PASS
+  fill table (single face, member courtyards with KRT clearance / usable area; limit 0.65, TIGHT above 0.55):
+    zone                               face   n flip usable F usable B  load F  load B    F0     F     B limit  verdict
+    canJ7                              F/B   52   12      949      949     614     109  0.76  0.65  0.12  0.65  TIGHT
+    canJ8                              F/B   53   13      949      949     610     118  0.77  0.64  0.12  0.65  TIGHT
+    canJ9                              F     44    0      949      949     604       0  0.64  0.64  0.00  0.65  TIGHT
+    canJ10                             F     47    0      949      949     548       0  0.58  0.58  0.00  0.65  TIGHT
+    canJ11                             F     35    0      949      949     437       0  0.46  0.46  0.00  0.65  ok
+    canJ12                             F/B   51   15      949      949     614     136  0.79  0.65  0.14  0.65  TIGHT
+    power_strip                        F     75    0     3929     4208    2007       0  0.51  0.51  0.00  0.65  ok
+    free (everything outside the cans) F    154    0    13954    15152    3461       0  0.25  0.25  0.00  0.65  ok
+  ok: U1=proximity, U2=proximity, U3=proximity, U4=proximity, U5=proximity, U6=proximity, U7=proximity, U8=proximity, U9=proximity, U10=proximity, U11=proximity, U12=proximity, U13=proximity, U14=proximity, U15=proximity, U16=proximity, U17=proximity, U18=proximity, U19=proximity, U20=proximity, U21
+[05:20:49] END   gate rc=0
+[05:20:49] START stage: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_router/copy_board.py /tmp/pcb-trials/timiq/v5/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb
+Copied 3 file(s): fixed.kicad_pcb, fixed.kicad_pro, fixed.design-brief.json
+[05:20:49] END   stage rc=0
+[05:20:49] START baseline_cans: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/reattach.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+reattached 6 can(s): J7, J8, J9, J10, J11, J12 -> /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+[05:20:49] END   baseline_cans rc=0
+[05:20:49] START place: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_placer/place_simple.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/s{seed}.kicad_pcb --groups /tmp/pcb-trials/timiq/v5/seeds/groups.json --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json --scattered 0 --clustered 1 --anchored 2 --judge 3 --jobs 3 --json /tmp/pcb-trials/timiq/v5/seeds/s{seed}.json
+place_simple: seeds 0, 1, 2 (3 at a time)
+  seed 0 (clustered): cost 27237.5, 218000 moves in 1556.5 s, no legal pose for C13, C145, C21, R104, R165, R66, U1, U11, U2, 176 floorplan error(s) (keepout, proximity, zone_containment), NOT BUILDABLE (blocking, courtyard_blocking_gating) -> /tmp/pcb-trials/timiq/v5/seeds/s0.kicad_pcb
+  seed 1 (anchored): cost 29329.1, 218000 moves in 1594.6 s, no legal pose for R2, U10, U15, U2, U23, U4, U5, 187 floorplan error(s) (proximity, zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s1.kicad_pcb
+  seed 2 (anchored): cost 29606.6, 218000 moves in 1598.7 s, no legal pose for C23, R6, U2, U27, U3, U4, U8, 193 floorplan error(s) (proximity, zone_containment), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s2.kicad_pcb
+place_simple: judge seeds none (the 3 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v5/seeds/judge.json
+  WARNING: proximity L8 near U21 (max 3 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C101-Pad1), Net-(C98-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the s
+  WARNING: proximity L9 near U22 (max 3 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C103-Pad1), Net-(C99-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the s
+  WARNING: proximity U24 near U23 (max 5 mm) names no pads: it is priced over 3 shared-net pad legs on GND, Net-(U23-Pad3) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read
+  WARNING: proximity U26 near U24 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U24-Pad4) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read
+  WARNING: proximity U27 near U24 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U24-Pad6) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read
+  WARNING: proximity U26 near U25 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U25-Pad7) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read
+  WARNING: proximity U27 near U25 (max 5 mm) names no pads: it is priced over 6 shared-net pad legs on GND, Net-(U25-Pad9) (rail nets: GND), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read
+  WARNING: proximity U28 near R123 (max 5 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C110-Pad1), Net-(R119-Pad1), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read th
+[05:47:34] END   place rc=4
+[05:47:34] place_simple exit 4 (counts as one failed step); judge.json names: [none]
+[05:47:34] judge.json names no seed: forcing seed 0 (lowest final.cost) through judge_seeds --seeds (routing anyway)
+[05:47:34] START judge: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_placer/judge_seeds.py /tmp/pcb-trials/timiq/v5/seeds/judge.json --chain /tmp/pcb-trials/timiq/v5/seeds/judge_chain.txt --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json --jobs 3 --seeds 0
+judge_seeds: seeds 0, 2 step(s) each, 3 at a time
+  seed 0: blocking 265 joins_needed 104 floorplan 176 assembly 1 vias 306 copper_mm 4844.21 segments 4890 (279 s)
+judge_seeds: ranked by quick_score.judge_key (floorplan errors + assembly, blocking, joins_needed, vias, copper_mm, segments):
+  seed 0: blocking 265 joins_needed 104 floorplan 176 assembly 1 vias 306 copper_mm 4844.21 segments 4890
+judge_seeds: best seed 0: keep its placement s0.kicad_pcb (never the --quick board)
+JSON_SUMMARY: {"seeds": {"0": {"blocking": 265, "joins_needed": 104, "floorplan": 176, "vias": 306, "copper_mm": 4844.21, "segments": 4890, "seconds": 279.3}}, "ranking": [0], "close": [0], "confirmed": [], "best": 0}
+[05:52:13] END   judge rc=0
+[05:52:13] top candidates (judge_seeds ranking), FORCED seed 0: 0
+[05:52:13] START reattach_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/reattach.py /tmp/pcb-trials/timiq/v5/seeds/s0.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb
+reattached 6 can(s): J7, J8, J9, J10, J11, J12 -> /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb
+[05:52:13] END   reattach_0 rc=0
+[05:52:13] START check_assembly_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_tools/check_assembly.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json --json /tmp/pcb-trials/timiq/v5/seeds/c0.assembly.json
+    FIX3 0.0mm (courtyard, side F)
+    FIX4 0.0mm (courtyard, side F)
+    FIX5 0.0mm (courtyard, side F)
+    FIX6 0.0mm (courtyard, side F)
+    FIX7 0.0mm (courtyard, side F)
+    FIX8 0.0mm (courtyard, side F)
+    J1 0.0mm (silk, side F)
+    J2 0.0mm (silk, side F)
+    J3 0.0mm (silk, side F)
+    J4 0.0mm (silk, side F)
+    ... +10 more (--json)
+    in the band but belonging at the edge, never counted (edge class, marker, or an edge the intent declares): TP3 0.8mm [testpoint], TP2 0.978mm [testpoint]
+  VERDICT: NOT BUILDABLE
+  JSON -> /tmp/pcb-trials/timiq/v5/seeds/c0.assembly.json
+EXIT=4
+[05:52:15] END   check_assembly_0 rc=4
+[05:52:15] FAILED (soft): check_assembly_0
+[05:52:15] START check_floorplan_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json
+    [not applicable] must_lock: must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing
+    [OWED] legality: the intent declares no legality_budget
+    [not applicable] pins_to_edge: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [policy] array_formation: a design decision about which parts form one row; nothing on the board says which identical parts belong together
+    [policy] replicate: a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike
+    [policy] cover: a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches
+    OWED: decap_distance: dark -- the intent declares no decaps.max_distance_mm. It applies here (122 decoupling cap(s) share a rail with an IC). Arm it with `decaps.max_distance_mm` if the design has that requirement, or write why it does not: dispositions.rules.decap_distance
+    OWED: legality: dark -- the intent declares no legality_budget. It applies here (every placement has a legality to measure). Arm it with `legality_budget` if the design has that requirement, or write why it does not: dispositions.rules.legality
+  WARNING keep_away: 2 keep_away rule(s) in this intent are graded on the placement but will NOT be priced by route.py, route_diff.py or the GUI: the routers read keep-away rules from the design brief beside the board, never from an intent, and no design brief sits beside the board (c0.design-brief.
+    - keep_away[0] '/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Freq
+    - keep_away[1] '24V,-24V,7V5,Net-(C143-Pad1),Net-(C144-Pad1),Net-(C145-Pad2):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-
+    fix: declare each rule in the `keep_away` list of /tmp/pcb-trials/timiq/v5/seeds/c0.design-brief.json, the brief the route steps read beside this board, then re-run check_floorplan.py --emit-intent so the intent carries it from the brief
+JSON_SUMMARY: {"blocks": 11, "blocks_resolved": 11, "board": "c0.kicad_pcb", "brief": null, "brief_absent": 0, "brief_declared": 0, "brief_drift": 0, "brief_unknown": 0, "brief_unknown_keys": [], "budget_abstained": 3, "budget_abstained_keys": ["decaps.max_distance_mm", "oob_count", "overlap_area"],
+  NOT FULLY GRADED: 3 budget_abstained, 3 rules_skipped_armed. A channel the intent asked for was never measured, so this is an absent verdict, not a clean one.
+EXIT=4
+[05:52:17] END   check_floorplan_0 rc=4
+[05:52:17] FAILED (soft): check_floorplan_0
+[05:52:17] START designer_check_0: /usr/bin/python3 /tmp/pcb-trials/timiq/v5/designer_check.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --intent /tmp/pcb-trials/timiq/v5/seeds/intent_reattached.json --baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb --json /tmp/pcb-trials/timiq/v5/seeds/c0.designer.json
+FAIL  assembly  NOT BUILDABLE: blocking ['J10/R75', 'J10/R76', 'J10/R79', 'J9/R66', 'MK7/U1'] other gates {'silk_enclosed_gating_pairs': 309} (baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb)
+FAIL  floorplan 11 error(s) {'keepout': 1, 'proximity': 3, 'zone_containment': 7} (+162 pin-row proximity miss(es) graded WARN) (+3 anchor-pull miss(es) graded WARN)
+WARN  anchor-pull 3 of 7 anchor pull row(s) missed (anchor IC more than its max_mm from its marker; a pull, not a wall): U11->MK9 9.5 mm, U16->MK8 8.0 mm, U20->MK10 7.7 mm
+WARN  pin-rows  162 of 271 pin-row proximity limit(s) missed (3 mm pad-edge rows); worst R49->U9 22.6 mm, R49->U9 20.7 mm, R12->U1 16.4 mm
+PASS  members   282/282 members in their can (front, only the flippable small passives may stand on B; 255 on F, 27 on B, 40 listed flippable); 0 intruder(s); 8 optional part(s) ignored
+PASS  band      0 top-side part(s) in the wall band
+PASS  box       6 can(s) checked, outside the box: []
+PASS  window    overlap fraction of each can with the window {'J7': 0.38, 'J8': 0.48, 'J9': 0.65, 'J10': 0.17}
+FAIL  holes     14 holes, 1 part(s) inside a keep-out circle; tightest slack (-0.899, 'hole-FIX6-1', 'C145'); ['C145 0.90 mm inside hole-FIX6-1']
+FAIL  far       42 of 372 passives are > 10 mm pad-edge from their IC pin (limit 28; 8 LED series resistor(s) left out); worst [('L13', 58.3), ('C149', 50.1), ('C144', 43.2), ('C156', 32.9), ('C126', 29.8)]
+INFO  anchors   4/7 anchor ICs within their pull of the marker (+0 mm); 3 miss(es): U16@F (J8) 8.7 mm from its marker MK8 (pull 7 mm); U11@F (J9) 10.0 mm from its marker MK9 (pull 7 mm); U20@F (J10) 8.4 mm from its marker MK10 (pull 7 mm)
+INFO  filter-reg power-entry parts to the nearest regulator they serve (box gap): max 58.3 mm (L13 to U43); L12 6.8->U40, L13 58.3->U43, L14 4.2->U45, C143 13.0->U40, C144 43.1->U43, C145 6.8->U45, C146 3.6->U39, C147 2.2->U40, C148 13.5->U40, C149 49.9->U43, C150 22.7->U45
+INFO  keep_away [0] digital side: min 1.33 mm (INSIDE the 3 mm gap), R7 pad 1 (/TOP/PLL/PLL_DATA) to C3 pad 1 (/TOP/PLL/PLL_IN); 132 aggressor / 13 victim nets; by victim group {'ADC inputs': 7.56, 'DAC I/Q outputs': 15.46, 'LO / PLL out': 1.33, 'RF to the SMA notches J1-J4': 2.91}
+INFO  keep_away [1] regulator input rails and power-entry filter nodes: min 22.57 mm (outside the 3 mm gap), TP1 pad 1 (7V5) to U4 pad 39 (/TOP/DAC Interface/DAC_I); 6 aggressor / 13 victim nets; by victim group {'ADC inputs': 29.67, 'DAC I/Q outputs': 22.57, 'LO / PLL out': 66.87, 'RF to the SMA no
+DESIGNER CHECK FAIL  (4/8; 4 info line(s), 2 warning line(s) not counted)
+[05:52:21] END   designer_check_0 rc=1
+[05:52:21] FAILED (soft): designer_check_0
+[05:52:21] START render_0: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb -o /tmp/pcb-trials/timiq/v5/seeds/c0.png
+  6. FIX1  off-board courtyard, 0.6mm out
+     python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --view 251.666,215.89,260.766,224.99 --clearance 0.25 --no-ratsnest -o /tmp/pcb-trials/timiq/v5/seeds/c0_worst6.png
+
+SEE THE WHOLE PICTURE AGAIN, uncluttered
+  python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --clearance 0.25 --no-ratsnest --no-labels -o /tmp/pcb-trials/timiq/v5/seeds/c0_clean.png
+  python3 -X utf8 py_tools/render_placement.py /tmp/pcb-trials/timiq/v5/seeds/c0.kicad_pcb --clearance 0.25 --focus -o /tmp/pcb-trials/timiq/v5/seeds/c0_focus/    # a panel per legality pocket
+
+DECLUTTER  (add these when the panel is too busy to read)
+  --no-ratsnest    drop the airwires -- the biggest source of visual noise on a dense board
+  --no-labels      drop ref designators (keep them on crops, drop them board-wide)
+  --no-ghosts --no-arrows   drop the --before overlay when you want the CURRENT state alone
+  --ratsnest-nets '<glob>'  show ONE bus instead of all of them
+  --per-side / --flat       split or merge the two sides
+  --ignore-nets <plane nets>  a plane-routed rail's airwire is a fiction; excluding it is what makes crossings/hpwl reproduce the optimizer's own numbers
+EXIT=0
+[05:52:23] END   render_0 rc=0
+[05:52:23] DONE: candidates 0 (seed 0 forced: no seed was judgeable), 5 failed step(s)/post check(s); PNGs /tmp/pcb-trials/timiq/v5/seeds/c<S>.png; ranking in /tmp/pcb-trials/timiq/v5/seeds/judge.log

@@ -1,0 +1,456 @@
+{
+ "board": "/tmp/pcb-trials/timiq/v2/out/s11.kicad_pcb",
+ "label": "v2s11",
+ "shields": {
+  "front_declared": 172,
+  "front_outside": 0,
+  "front_on_wall": 0,
+  "strangers_inside": 0,
+  "back_declared": 97,
+  "back_outside": 38,
+  "too_tall": 0,
+  "detail_outside": [
+   {
+    "part": "C11",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 6.025
+   },
+   {
+    "part": "C15",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 3.225
+   },
+   {
+    "part": "C21",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 4.538
+   },
+   {
+    "part": "C5",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 1.232
+   },
+   {
+    "part": "C9",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 3.268
+   },
+   {
+    "part": "L4",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 3.658
+   },
+   {
+    "part": "L5",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 5.157
+   },
+   {
+    "part": "L6",
+    "can": "J7",
+    "face": "back",
+    "out_mm": 3.733
+   }
+  ],
+  "resolve_problems": []
+ },
+ "wire": {
+  "hpwl_mm": 9494,
+  "mst_signal_mm": 12504
+ },
+ "illegal_parts": [
+  "C3",
+  "C10",
+  "C14",
+  "C19",
+  "C20",
+  "C25",
+  "C33",
+  "C34",
+  "C37",
+  "C42",
+  "C46",
+  "C47",
+  "C57",
+  "C58",
+  "C63",
+  "C72",
+  "C73",
+  "C81",
+  "C82",
+  "C84",
+  "C104",
+  "C145",
+  "C155",
+  "C157",
+  "C162",
+  "C164",
+  "C166",
+  "C168",
+  "C169",
+  "C173",
+  "C174",
+  "C178",
+  "C179",
+  "C181",
+  "C186",
+  "C187",
+  "C191",
+  "C192",
+  "C194",
+  "C196",
+  "C197",
+  "C198",
+  "C199",
+  "C200",
+  "C201",
+  "D1",
+  "J1",
+  "J2",
+  "J3",
+  "J4",
+  "J6",
+  "J9",
+  "J10",
+  "Q1",
+  "R1",
+  "R8",
+  "R11",
+  "R12",
+  "R14",
+  "R16",
+  "R17",
+  "R18",
+  "R22",
+  "R38",
+  "R40",
+  "R42",
+  "R43",
+  "R44",
+  "R46",
+  "R48",
+  "R49",
+  "R56",
+  "R57",
+  "R59",
+  "R64",
+  "R65",
+  "R67",
+  "R68",
+  "R69",
+  "R70",
+  "R72",
+  "R74",
+  "R82",
+  "R85",
+  "R104",
+  "R107",
+  "R135",
+  "R154",
+  "R156",
+  "R157",
+  "R158",
+  "R159",
+  "R162",
+  "R163",
+  "R164",
+  "TP1",
+  "TP2",
+  "TP3",
+  "TP8",
+  "U3",
+  "U6",
+  "U7",
+  "U8",
+  "U9",
+  "U10",
+  "U14",
+  "U15",
+  "U16",
+  "U18",
+  "U23",
+  "U24",
+  "U27",
+  "U42",
+  "U44",
+  "U45",
+  "L14",
+  "FIX1",
+  "FIX2",
+  "FIX3",
+  "FIX4",
+  "FIX5",
+  "FIX6",
+  "FIX7",
+  "FIX8",
+  "C5",
+  "C9",
+  "C11",
+  "C13",
+  "C15",
+  "C21",
+  "C30",
+  "C31",
+  "C32",
+  "C39",
+  "C40",
+  "C44",
+  "C49",
+  "C50",
+  "C51",
+  "C54",
+  "C55",
+  "C56",
+  "C59",
+  "C60",
+  "C61",
+  "C62",
+  "C65",
+  "C66",
+  "C67",
+  "C68",
+  "C76",
+  "C77",
+  "C83",
+  "C85",
+  "C94",
+  "C106",
+  "C121",
+  "C133",
+  "C137",
+  "C140",
+  "C141",
+  "C142",
+  "C146",
+  "C151",
+  "C153",
+  "C156",
+  "C158",
+  "C160",
+  "C163",
+  "C167",
+  "C172",
+  "C177",
+  "C182",
+  "C185",
+  "C190",
+  "C195",
+  "L1",
+  "L4",
+  "L5",
+  "L6",
+  "L7",
+  "R2",
+  "R3",
+  "R9",
+  "R26",
+  "R27",
+  "R75",
+  "R76",
+  "R80",
+  "R81",
+  "R86",
+  "R87",
+  "R90",
+  "R91",
+  "R94",
+  "R96",
+  "R97",
+  "R98",
+  "R99",
+  "R111",
+  "R126",
+  "R127",
+  "R138",
+  "R140",
+  "R142",
+  "R144",
+  "R145",
+  "R147",
+  "R148",
+  "U34",
+  "U35",
+  "U37",
+  "U39",
+  "U40",
+  "U43"
+ ],
+ "bottom_passives": {
+  "n": 163,
+  "median_mm": 4.8,
+  "gt10mm": 45,
+  "gt20mm": 14,
+  "worst": [
+   [
+    "C156",
+    35.9
+   ],
+   [
+    "R127",
+    34.4
+   ],
+   [
+    "R79",
+    32.5
+   ],
+   [
+    "R27",
+    29.6
+   ],
+   [
+    "R25",
+    28.8
+   ],
+   [
+    "C121",
+    28.2
+   ],
+   [
+    "C11",
+    27.0
+   ],
+   [
+    "R126",
+    27.0
+   ]
+  ]
+ },
+ "box": {
+  "should_be_inside_but_outside_their_zone": 146,
+  "should_be_inside_but_outside_inner_square": 147,
+  "outsiders_in_box_outline": 70,
+  "outsiders_in_inner_square": 48,
+  "wall_band_hits_all": 91,
+  "wall_band_hits_F": 64,
+  "detail_missing": [
+   "C10",
+   "C100",
+   "C101",
+   "C104",
+   "C105",
+   "C106",
+   "C108",
+   "C11",
+   "C13",
+   "C138"
+  ],
+  "detail_outsiders": [
+   "C133",
+   "C140",
+   "C141",
+   "C142",
+   "C145",
+   "C146",
+   "C151",
+   "C153",
+   "C155",
+   "C156"
+  ]
+ },
+ "holes": {
+  "hits_vs_declared_radius": 7,
+  "hits_vs_plain_3.5mm": 8,
+  "detail_declared": [
+   [
+    "hole-J5-1",
+    "C137",
+    5.3
+   ],
+   [
+    "hole-J5-1",
+    "U34",
+    2.38
+   ],
+   [
+    "hole-BOX1-3",
+    "J10",
+    4.22
+   ],
+   [
+    "hole-BOX1-5",
+    "J9",
+    2.22
+   ],
+   [
+    "hole-FIX2-1",
+    "C21",
+    4.46
+   ],
+   [
+    "hole-FIX2-1",
+    "L5",
+    4.72
+   ],
+   [
+    "hole-FIX2-1",
+    "L7",
+    3.43
+   ]
+  ],
+  "detail_3.5": [
+   [
+    "hole-J5-1",
+    "U34",
+    0.2
+   ],
+   [
+    "hole-BOX1-5",
+    "J9",
+    0.22
+   ],
+   [
+    "hole-FIX2-1",
+    "L7",
+    1.88
+   ],
+   [
+    "hole-BOX1-3",
+    "J10",
+    2.22
+   ],
+   [
+    "hole-FIX2-1",
+    "C21",
+    2.91
+   ],
+   [
+    "hole-BOX1-5",
+    "C46",
+    3.11
+   ],
+   [
+    "hole-J5-1",
+    "C137",
+    3.12
+   ],
+   [
+    "hole-FIX2-1",
+    "L5",
+    3.17
+   ]
+  ]
+ },
+ "check_floorplan": {
+  "decap_pin_distance_inferred:warn": 4,
+  "intent_zone_overlap:warn": 3,
+  "keepout:error": 183,
+  "proximity:error": 87,
+  "zone_containment:error": 140
+ },
+ "check_floorplan_errors": 410,
+ "proximity_errors": [
+  "C11 pad 1 is 25.98mm from U1 pad 18 on Net-(C11-Pad1), past the declared 3.00mm proximity ",
+  "C111 pad 2 is 6.30mm from R116 pad 2 on Net-(C111-Pad2), past the declared 5.00mm proximit",
+  "C112 pad 1 is 9.04mm from U28 pad 3 on Net-(C112-Pad1), past the declared 5.10mm proximity",
+  "C113 pad 1 is 15.57mm from U28 pad 5 on Net-(C113-Pad1), past the declared 5.10mm proximit",
+  "C12 pad 1 is 21.96mm from U1 pad 9 on Net-(C12-Pad1), past the declared 3.00mm proximity l",
+  "C120 pad 1 is 23.57mm from U29 pad 7 on Net-(C120-Pad1), past the declared 3.00mm proximit"
+ ]
+}

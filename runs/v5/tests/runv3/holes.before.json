@@ -1,0 +1,250 @@
+[
+ {
+  "name": "hole-J5-1",
+  "host": "J5",
+  "x": 224.8018,
+  "y": 149.7424,
+  "drill": 4.35,
+  "pad_d": 4.35,
+  "hole_gap_human": 7.07,
+  "radius": 5.675,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "J5"
+  ]
+ },
+ {
+  "name": "hole-J5-2",
+  "host": "J5",
+  "x": 224.8018,
+  "y": 88.4224,
+  "drill": 4.35,
+  "pad_d": 4.35,
+  "hole_gap_human": 1.289,
+  "radius": 3.425,
+  "clearance_from_hole_edge": 1.25,
+  "default": 3.5,
+  "human_limited": true,
+  "nearest_human_part": "C193",
+  "allow": [
+   "BOX1",
+   "J5"
+  ]
+ },
+ {
+  "name": "hole-BOX1-1",
+  "host": "BOX1",
+  "x": 128.9624,
+  "y": 210.1978,
+  "drill": 4.0,
+  "pad_d": 5.5,
+  "hole_gap_human": 7.386,
+  "radius": 5.5,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1"
+  ]
+ },
+ {
+  "name": "hole-BOX1-3",
+  "host": "BOX1",
+  "x": 239.4624,
+  "y": 210.1978,
+  "drill": 4.0,
+  "pad_d": 5.5,
+  "hole_gap_human": 7.548,
+  "radius": 5.5,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1"
+  ]
+ },
+ {
+  "name": "hole-BOX1-5",
+  "host": "BOX1",
+  "x": 239.4624,
+  "y": 99.6978,
+  "drill": 4.0,
+  "pad_d": 5.5,
+  "hole_gap_human": 3.408,
+  "radius": 5.4,
+  "clearance_from_hole_edge": 3.4,
+  "default": 3.5,
+  "human_limited": true,
+  "nearest_human_part": "U38",
+  "allow": [
+   "BOX1"
+  ]
+ },
+ {
+  "name": "hole-BOX1-7",
+  "host": "BOX1",
+  "x": 128.9624,
+  "y": 99.6978,
+  "drill": 4.0,
+  "pad_d": 5.5,
+  "hole_gap_human": 11.552,
+  "radius": 5.5,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1"
+  ]
+ },
+ {
+  "name": "hole-FIX1-1",
+  "host": "FIX1",
+  "x": 256.216,
+  "y": 220.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 27.544,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX1"
+  ]
+ },
+ {
+  "name": "hole-FIX2-1",
+  "host": "FIX2",
+  "x": 184.216,
+  "y": 220.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 10.777,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX2"
+  ]
+ },
+ {
+  "name": "hole-FIX3-1",
+  "host": "FIX3",
+  "x": 112.216,
+  "y": 220.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 8.378,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX3"
+  ]
+ },
+ {
+  "name": "hole-FIX4-1",
+  "host": "FIX4",
+  "x": 112.216,
+  "y": 148.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 16.251,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX4"
+  ]
+ },
+ {
+  "name": "hole-FIX5-1",
+  "host": "FIX5",
+  "x": 112.216,
+  "y": 66.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 5.048,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX5"
+  ]
+ },
+ {
+  "name": "hole-FIX6-1",
+  "host": "FIX6",
+  "x": 184.216,
+  "y": 66.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 5.235,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX6"
+  ]
+ },
+ {
+  "name": "hole-FIX7-1",
+  "host": "FIX7",
+  "x": 256.216,
+  "y": 66.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 3.03,
+  "radius": 4.55,
+  "clearance_from_hole_edge": 3.0,
+  "default": 3.5,
+  "human_limited": true,
+  "nearest_human_part": "C139",
+  "allow": [
+   "BOX1",
+   "FIX7"
+  ]
+ },
+ {
+  "name": "hole-FIX8-1",
+  "host": "FIX8",
+  "x": 256.216,
+  "y": 148.44,
+  "drill": 3.1,
+  "pad_d": 5.6,
+  "hole_gap_human": 7.205,
+  "radius": 5.05,
+  "clearance_from_hole_edge": 3.5,
+  "default": 3.5,
+  "human_limited": false,
+  "nearest_human_part": null,
+  "allow": [
+   "BOX1",
+   "FIX8"
+  ]
+ }
+]

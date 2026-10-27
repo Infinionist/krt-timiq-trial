@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TimIQ-RF_sch-rescue") (type "Legacy") (uri "${KIPRJMOD}/TimIQ-RF_sch-rescue.lib") (options "") (descr ""))
+)

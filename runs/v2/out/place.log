@@ -1,0 +1,5 @@
+place_simple: seeds 7, 11 (2 at a time)
+  seed 7 (clustered): cost 30656.8, 221000 moves in 269.1 s -> out/s7.kicad_pcb
+  seed 11 (clustered): cost 28411.3, 221000 moves in 1040.5 s -> out/s11.kicad_pcb
+place_simple: judge seeds 11, 7 (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> out/judge.json
+exit 0

@@ -1,0 +1,13 @@
+preflight ok: claude = /usr/local/bin/claude (2.1.301 (Claude Code))
+preflight ok: subscription login (claude.ai)
+preflight ok: referenced paths exist
+preflight ok: venv imports (grid_router, numpy, scipy, shapely)
+preflight ok: krt at db056e03, no tracked changes
+preflight ok: run inputs match inputs.sha256 (board, pro, brief, mechanical.json, intent.json, 11 sheets, sym-lib-table, rescue lib)
+preflight ok: run folder is fresh
+preflight ok: workspace trust accepted for /tmp/pcb-trials/timiq/krt
+preflight ok: stage gate: stage_gate TimIQ_RF: PASS {"copper": 0, "fills": 0, "teardrops": 0, "tuning": 0, "drawings": 0, "artwork": 0, "locked_text": 0, "locked_pads": 0, "text_angles":
+fence_audit: no staging record beside the control (draw.json/source or stage.json/source_basename), so no project can be checked for the SOURCE name. Pose scanning is unaffected.
+fence_audit [create] /tmp/pcb-trials/timiq/run: 1 file(s) scanned against /tmp/pcb-trials/timiq/_truth/human_stripped.kicad_pcb
+  VERDICT: CLEAN (no undeclared board OR pose record carries the control's placement)
+run finished: exit 143 (see /tmp/pcb-trials/timiq/run.meta, /tmp/pcb-trials/timiq/run.stderr.log, /tmp/pcb-trials/timiq/run/stream.jsonl)

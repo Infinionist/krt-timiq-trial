@@ -1,0 +1,215 @@
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  NOTE: template U21: C98, L8, C101, R103, C108, L10, C105, R106 seated as drawn and carried with it
+  NOTE: template U22: C99, L9, C103, R105, C109, L11, C107, R107 seated as drawn and carried with it
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C104 on 5V_2 serves U16
+  NOTE: decap C106 on 5V_2 serves U16
+  NOTE: decap C114 on 5V_2 serves U28, U29, U30
+  NOTE: decap C115 on -5V serves U28
+  NOTE: decap C116 on 3V3_2 serves U29
+  NOTE: decap C117 on 5V_2 serves U28, U29, U30
+  NOTE: decap C118 on 5V_2 serves U28, U29, U30
+  NOTE: decap C119 on 5V_2 serves U28, U29, U30
+  NOTE: decap C123 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C124 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C125 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C126 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C127 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C128 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C129 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C130 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C131 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C132 on 5V_2 serves U33
+  NOTE: decap C133 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C134 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C135 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C136 on 5V_1 serves U36, U37
+  NOTE: decap C137 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C138 on 5V_1 serves U36, U37
+  NOTE: decap C139 on 7V5 serves U39
+  NOTE: decap C140 on 7V5 serves U40
+  NOTE: decap C146 on 5V_1 serves U39
+  NOTE: decap C147 on 5V_2 serves U40
+  NOTE: decap C151 on 5V_1 serves U39
+  NOTE: decap C152 on 5V_2 serves U40
+  NOTE: decap C153 on 5V_1 serves U39
+  NOTE: decap C154 on 5V_2 serves U40
+  NOTE: decap C158 on 5V_1 serves U39
+  NOTE: decap C159 on 5V_2 serves U40
+  NOTE: decap C160 on 5V_1 serves U39
+  NOTE: decap C161 on 5V_2 serves U40
+  NOTE: decap C165 on 7V5 serves U41
+  NOTE: decap C166 on 7V5 serves U42
+  NOTE: decap C167 on 24V serves U43
+  NOTE: decap C168 on -24V serves U44
+  NOTE: decap C169 on -24V serves U45
+  NOTE: decap C175 on 3V3_1 serves U41
+  NOTE: decap C176 on 3V3_2 serves U42
+  NOTE: decap C177 on 15V serves U43
+  NOTE: decap C180 on 3V3_1 serves U41
+  NOTE: decap C181 on 3V3_2 serves U42
+  NOTE: decap C182 on 15V serves U43
+  NOTE: decap C183 on 3V3_1 serves U41
+  NOTE: decap C184 on 3V3_2 serves U42
+  NOTE: decap C185 on 15V serves U43
+  NOTE: decap C186 on -5V serves U44
+  NOTE: decap C187 on -15V serves U45
+  NOTE: decap C188 on 3V3_1 serves U41
+  NOTE: decap C189 on 3V3_2 serves U42
+  NOTE: decap C190 on 15V serves U43
+  NOTE: decap C191 on -5V serves U44
+  NOTE: decap C192 on -15V serves U45
+  NOTE: decap C193 on 3V3_1 serves U41
+  NOTE: decap C194 on 3V3_2 serves U42
+  NOTE: decap C195 on 15V serves U43
+  NOTE: decap C196 on -5V serves U44
+  NOTE: decap C197 on -15V serves U45
+  NOTE: decap C198 on -5V serves U44
+  NOTE: decap C199 on -15V serves U45
+  NOTE: decap C200 on -5V serves U44
+  NOTE: decap C201 on -15V serves U45
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C26 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C29 on 15V serves U5, U6
+  NOTE: decap C30 on 15V serves U5, U6
+  NOTE: decap C31 on -15V serves U5, U6
+  NOTE: decap C32 on -15V serves U5, U6
+  NOTE: decap C35 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C36 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C39 on -5V serves U7, U8, U9
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C40 on -5V serves U7, U8, U9
+  NOTE: decap C41 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C44 on -5V serves U7, U8, U9
+  NOTE: decap C45 on 15V serves U10, U11
+  NOTE: decap C46 on 15V serves U10, U11
+  NOTE: decap C49 on -15V serves U10, U11
+  NOTE: decap C50 on -15V serves U10, U11
+  NOTE: decap C51 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C52 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C59 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C60 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C61 on -5V serves U14, U15
+  NOTE: decap C62 on -5V serves U14, U15
+  NOTE: decap C65 on 5V_2 serves U16
+  NOTE: decap C66 on 5V_2 serves U16
+  NOTE: decap C67 on 5V_2 serves U16
+  NOTE: decap C68 on 5V_2 serves U16
+  NOTE: decap C69 on 5V_2 serves U16
+  NOTE: decap C71 on 5V_2 serves U16
+  NOTE: decap C74 on 5V_1 serves U18, U19, U20
+  NOTE: decap C75 on 5V_1 serves U18, U19, U20
+  NOTE: decap C76 on 5V_1 serves U18, U19, U20
+  NOTE: decap C77 on 5V_1 serves U18, U19, U20
+  NOTE: decap C78 on 5V_1 serves U18, U19, U20
+  NOTE: decap C79 on 5V_1 serves U18, U19, U20
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+  NOTE: decap C82 on 5V_1 serves U18, U19, U20
+  NOTE: decap C83 on 5V_1 serves U18, U19, U20
+  NOTE: decap C84 on 5V_1 serves U18, U19, U20
+  NOTE: decap C85 on 5V_1 serves U18, U19, U20
+  NOTE: decap C86 on 5V_1 serves U18, U19, U20
+  NOTE: decap C87 on 5V_1 serves U18, U19, U20
+  NOTE: decap C90 on 5V_1 serves U18, U19, U20
+  NOTE: decap C91 on 5V_1 serves U18, U19, U20
+  NOTE: decap C92 on 5V_1 serves U18, U19, U20
+  NOTE: decap C93 on 5V_1 serves U18, U19, U20
+  NOTE: decap C94 on 5V_1 serves U18, U19, U20
+  NOTE: decap C95 on 5V_1 serves U18, U19, U20
+place_simple: 443 movable part(s), fixed: BOX1, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6
+  group pll: J1, C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, C21, C22, C23, C24, C25, C3, C4, C5, C6, C7, C8, C9, L1, L2, L3, L4, L5, L6, L7, R10, R11, R12, R13, R15, R18, R19, R2, R20, R21, R22, R23, R3, R4, R5, R6, R7, R8, R9, U1, U2
+  group lo_mix_iq: J2, C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C20, C63, C64, C65, C66, C67, C68, C69, C70, C71, C98, C99, L10, L11, L8, L9, R100, R101, R102, R103, R104, R105, R106, R107, R108, R14, R16, R165, R17, R70, R71, R72, R73, U16, U17, U21, U22, U23, U24, U25, U26, U27, U3
+  group dac_if: C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U10, U11, U12, U13, U14, U15
+  group dividers: J3, J4, C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C97, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20
+  group adc: C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30
+  group dac: C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, U4, U5, U6, U7, U8, U9
+  group digital: C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, J5, R128, R129, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R150, R151, R152, R153, U31, U32, U33, U34, U35, U36, U37, U38
+  group pll_status: D1, Q1, R1
+  group pw_in: J6, TP4, TP5, TP6, TP7, TP8, TP9
+  group pw_7v5: L12, C143, C148, C155, C162, TP1
+  group pw_24v: L13, C144, C149, C156, C163, TP2
+  group pw_n24v: L14, C145, C150, C157, C164, TP3
+  group reg_5v1: U39, C139, C141, C146, C151, C153, C158, C160, D2, R154
+  group reg_5v2: U40, C140, C142, C147, C152, C154, C159, C161, D3, R155
+  group reg_3v3a: U41, C165, C170, C175, C180, C183, C188, C193, D4, R160
+  group reg_3v3b: U42, C166, C171, C176, C181, C184, C189, C194, D5, R161
+  group reg_15v: U43, C167, C172, C177, C182, C185, C190, C195, D6, R162
+  group reg_m5v: U44, C168, C173, C178, R156, R157, C186, C191, C196, C198, C200, D7, R163
+  group reg_m15v: U45, C169, C174, C179, R158, R159, C187, C192, C197, C199, C201, D8, R164
+  WARNING: pad copper reaches past the drawn courtyard: BOX1 166.74 mm (locked); the anneal prices the courtyard, check_assembly gates courtyard plus pad copper, so a neighbour can end over such a pad and the seed grade NOT BUILDABLE (ranked below the buildable seeds)
+  move  22150: T  25.795 lam     2.5 reach 21.47 cost 22706.1 overlap 2432.34 mm2 best     inf accepted 0.33
+  move  44300: T  11.639 lam     6.3 reach 16.96 cost 19963.4 overlap 1255.04 mm2 best     inf accepted 0.21
+  move  66450: T   5.252 lam    15.8 reach 12.99 cost 21528.4 overlap 414.49 mm2 best     inf accepted 0.10
+  move  88600: T   2.370 lam    39.8 reach  9.54 cost 22357.3 overlap 213.28 mm2 best     inf accepted 0.05
+  move 110750: T   1.069 lam   100.0 reach  6.63 cost 23307.3 overlap 117.44 mm2 best     inf accepted 0.04
+  move 132900: T   0.482 lam   251.2 reach  4.24 cost 25372.6 overlap  71.78 mm2 best     inf accepted 0.03
+  move 155050: T   0.218 lam   630.9 reach  2.39 cost 26023.4 overlap  53.06 mm2 best     inf accepted 0.03
+  move 177200: T   0.098 lam  1584.8 reach  1.06 cost 27043.0 overlap  38.15 mm2 best     inf accepted 0.03
+  move 199350: T   0.044 lam  3980.9 reach  0.27 cost 26642.6 overlap  30.30 mm2 best     inf accepted 0.04
+  move 221500: T   0.020 lam  9999.6 reach  0.10 cost 26460.0 overlap  24.53 mm2 best     inf accepted 0.06
+  NOTE: run 1 left no legal pose for C106, C108, C20, C31, C32, C84, L3, R107, R165, R17, R30, R39, R41, R48, R49, R75, R8, R91, U1, U11, U13, U14, U15, U16, U17, U18, U2, U20, U25, U26, U3, U4, U5, U6, U9; annealing again from a fresh start
+  move  22150: T  21.919 lam     2.5 reach 21.47 cost 23371.8 overlap 2299.77 mm2 best     inf accepted 0.32
+  move  44300: T  10.071 lam     6.3 reach 16.96 cost 19020.6 overlap 1034.75 mm2 best     inf accepted 0.19
+  move  88600: T   2.126 lam    39.8 reach  9.54 cost 20915.6 overlap 164.17 mm2 best     inf accepted 0.07
+  move 110750: T   0.977 lam   100.0 reach  6.63 cost 21339.6 overlap 100.94 mm2 best     inf accepted 0.03
+  move 132900: T   0.449 lam   251.2 reach  4.24 cost 21581.9 overlap  68.27 mm2 best     inf accepted 0.03
+  move 155050: T   0.206 lam   630.9 reach  2.39 cost 22446.5 overlap  52.30 mm2 best     inf accepted 0.03
+  move 177200: T   0.095 lam  1584.8 reach  1.06 cost 23269.1 overlap  37.73 mm2 best     inf accepted 0.03
+  move 199350: T   0.044 lam  3980.9 reach  0.27 cost 22782.0 overlap  29.99 mm2 best     inf accepted 0.04
+  move 221500: T   0.020 lam  9999.6 reach  0.10 cost 22587.7 overlap  27.23 mm2 best     inf accepted 0.07
+  NOTE: run 2 left no legal pose for C16, C22, C36, C43, C78, C99, L5, R105, R13, R26, R39, R41, R43, R51, R58, R98, U10, U12, U14, U17, U2, U23, U25, U27, U3, U4, U6, U9; annealing again from a fresh start
+  move  22150: T  28.888 lam     2.5 reach 21.47 cost 24833.8 overlap 2781.28 mm2 best     inf accepted 0.35
+  move  44300: T  12.872 lam     6.3 reach 16.96 cost 19717.2 overlap 1174.32 mm2 best     inf accepted 0.23
+  move  66450: T   5.735 lam    15.8 reach 12.99 cost 20331.6 overlap 429.26 mm2 best     inf accepted 0.11
+  move  88600: T   2.556 lam    39.8 reach  9.54 cost 22122.9 overlap 149.03 mm2 best     inf accepted 0.06
+  move 110750: T   1.139 lam   100.0 reach  6.63 cost 22413.0 overlap  96.41 mm2 best     inf accepted 0.03
+  move 155050: T   0.226 lam   630.9 reach  2.39 cost 23646.3 overlap  40.75 mm2 best     inf accepted 0.03
+  move 177200: T   0.101 lam  1584.8 reach  1.06 cost 23917.0 overlap  29.42 mm2 best     inf accepted 0.03
+  move 199350: T   0.045 lam  3980.9 reach  0.27 cost 23952.6 overlap  24.76 mm2 best     inf accepted 0.04
+  move 221500: T   0.020 lam  9999.6 reach  0.10 cost 23751.8 overlap  22.68 mm2 best     inf accepted 0.06
+  NOTE: run 3 left no legal pose for C20, C31, C33, C36, C99, L1, R108, R165, R25, R30, R55, R69, R72, R96, U2, U23, U27, U9
+  NOTE: no room on their face, annealing again with them on the other: C10 (room for C16 (past its claim limit) in group pll), C100 (room for C20 (no legal pose) in group lo_mix_iq), C102 (room for C20 (no legal pose) in group lo_mix_iq), C104 (room for C20 (no legal pose) in group lo_mix_iq), C106 (room for C20 (no legal pose) in group lo_mix_iq), C11 (past its claim limit), C110 (past its claim limit), C111 (past its claim limit), C112 (past its claim limit), C113 (room for U29 (past its claim limit) in group adc), C114 (room for U29 (past its claim limit) in group adc), C115 (room for U29 (past its claim limit) in group adc), C116 (room for U29 (past its claim limit) in group adc), C117 (room for U29 (past its claim limit) in group adc), C118 (room for U29 (past its claim limit) in group adc), C119 (room for U29 (past its claim limit) in group adc), C12 (past its claim limit), C120 (past its claim limit), C121 (past its claim limit), C122 (past its claim limit), C13 (past its claim limit), C14 (room for C16 (past its claim limit) in group pll), C15 (past its claim limit), C17 (room for C16 (past its claim limit) in group pll), C18 (room for C16 (past its claim limit) in group pll), C19 (room for C16 (past its claim limit) in group pll), C2 (room for C16 (past its claim limit) in group pll), C21 (room for C16 (past its claim limit) in group pll), C26 (room for U6 (past its claim limit) in group dac), C27 (room for U6 (past its claim limit) in group dac), C28 (past its claim limit), C29 (room for U6 (past its claim limit) in group dac), C30 (room for U6 (past its claim limit) in group dac), C31 (no legal pose), C32 (room for U6 (past its claim limit) in group dac), C33 (no legal pose), C34 (room for U6 (past its claim limit) in group dac), C35 (room for U6 (past its claim limit) in group dac), C36 (no legal pose), C37 (past its claim limit), C38 (past its claim limit), C39 (room for U6 (past its claim limit) in group dac), C40 (room for U6 (past its claim limit) in group dac), C41 (room for U6 (past its claim limit) in group dac), C42 (past its claim limit), C43 (past its claim limit), C44 (room for U6 (past its claim limit) in group dac), C47 (past its claim limit), C5 (room for C16 (past its claim limit) in group pll), C53 (past its claim limit), C54 (past its claim limit), C56 (past its claim limit), C57 (past its claim limit), C67 (room for C20 (no legal pose) in group lo_mix_iq), C68 (room for C20 (no legal pose) in group lo_mix_iq), C69 (room for C20 (no legal pose) in group lo_mix_iq), C71 (room for C20 (no legal pose) in group lo_mix_iq), C76 (room for C72 (past its claim limit) in group dividers), C77 (room for C72 (past its claim limit) in group dividers), C78 (room for C72 (past its claim limit) in group dividers), C79 (room for C72 (past its claim limit) in group dividers), C84 (room for C72 (past its claim limit) in group dividers), C85 (room for C72 (past its claim limit) in group dividers), C86 (room for C72 (past its claim limit) in group dividers), C87 (room for C72 (past its claim limit) in group dividers), C9 (room for C16 (past its claim limit) in group pll), C92 (room for C72 (past its claim limit) in group dividers), C93 (room for C72 (past its claim limit) in group dividers), C94 (room for C72 (past its claim limit) in group dividers), C95 (room for C72 (past its claim limit) in group dividers), R109 (past its claim limit), R110 (past its claim limit), R111 (past its claim limit), R112 (past its claim limit), R113 (past its claim limit), R114 (room for U29 (past its claim limit) in group adc), R115 (room for U29 (past its claim limit) in group adc), R116 (room for U29 (past its claim limit) in group adc), R117 (past its claim limit), R118 (past its claim limit), R119 (past its claim limit), R120 (room for U29 (past its claim limit) in group adc), R121 (past its claim limit), R122 (room for U29 (past its claim limit) in group adc), R123 (past its claim limit), R124 (past its claim limit), R125 (past its claim limit), R126 (room for U29 (past its claim limit) in group adc), R127 (past its claim limit), R24 (past its claim limit), R25 (no legal pose), R26 (past its claim limit), R27 (room for U6 (past its claim limit) in group dac), R28 (past its claim limit), R29 (past its claim limit), R30 (no legal pose), R31 (past its claim limit), R32 (past its claim limit), R33 (past its claim limit), R34 (past its claim limit), R35 (past its claim limit), R36 (past its claim limit), R37 (past its claim limit), R38 (past its claim limit), R39 (past its claim limit), R40 (past its claim limit), R41 (past its claim limit), R42 (room for U6 (past its claim limit) in group dac), R43 (room for U6 (past its claim limit) in group dac), R44 (past its claim limit), R45 (past its claim limit), R46 (past its claim limit), R47 (past its claim limit), R48 (room for U6 (past its claim limit) in group dac), R49 (past its claim limit), R50 (past its claim limit), R51 (past its claim limit), R52 (past its claim limit), R53 (past its claim limit), R55 (no legal pose), R56 (past its claim limit), R57 (past its claim limit), R58 (past its claim limit), R59 (past its claim limit), R62 (past its claim limit), R67 (past its claim limit), R69 (no legal pose)
+Modified 127 footprint positions
+Successfully wrote /tmp/place_simple_hlfkjvre/needed_fixed.kicad_pcb
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  move  22150: T  24.422 lam     2.5 reach 21.47 cost 22845.3 overlap 1887.56 mm2 best     inf accepted 0.33
+  move  44300: T  11.087 lam     6.3 reach 16.96 cost 19179.3 overlap 702.26 mm2 best     inf accepted 0.20
+  move  66450: T   5.033 lam    15.8 reach 12.99 cost 19396.3 overlap 232.72 mm2 best     inf accepted 0.11
+  move  88600: T   2.285 lam    39.8 reach  9.54 cost 18907.3 overlap  87.89 mm2 best     inf accepted 0.06
+  move 110750: T   1.037 lam   100.0 reach  6.63 cost 19004.4 overlap  42.31 mm2 best     inf accepted 0.04
+  move 132900: T   0.471 lam   251.2 reach  4.24 cost 19109.2 overlap  25.83 mm2 best     inf accepted 0.03
+  move 155050: T   0.214 lam   630.9 reach  2.39 cost 20040.5 overlap  15.88 mm2 best     inf accepted 0.03
+  move 199350: T   0.044 lam  3980.9 reach  0.27 cost 19984.9 overlap   7.41 mm2 best     inf accepted 0.04
+  move 221500: T   0.020 lam  9999.6 reach  0.10 cost 19616.8 overlap   6.95 mm2 best     inf accepted 0.07
+  NOTE: run 1 left no legal pose for L1, U17, U2, U24, U3; annealing again from a fresh start
+  move  22150: T  22.984 lam     2.5 reach 21.47 cost 20929.0 overlap 1736.96 mm2 best     inf accepted 0.33
+  move  44300: T  10.505 lam     6.3 reach 16.96 cost 18567.7 overlap 726.22 mm2 best     inf accepted 0.20
+  move  88600: T   2.194 lam    39.8 reach  9.54 cost 18160.8 overlap  81.95 mm2 best     inf accepted 0.09
+  move 110750: T   1.003 lam   100.0 reach  6.63 cost 17974.1 overlap  40.37 mm2 best     inf accepted 0.04
+  move 132900: T   0.458 lam   251.2 reach  4.24 cost 18245.6 overlap  26.83 mm2 best     inf accepted 0.03
+  move 155050: T   0.209 lam   630.9 reach  2.39 cost 19149.3 overlap  15.20 mm2 best     inf accepted 0.03
+  move 177200: T   0.096 lam  1584.8 reach  1.06 cost 18652.6 overlap  11.66 mm2 best     inf accepted 0.04
+  move 199350: T   0.044 lam  3980.9 reach  0.27 cost 17903.8 overlap   7.25 mm2 best     inf accepted 0.05
+  move 221500: T   0.020 lam  9999.6 reach  0.10 cost 17926.7 overlap   5.28 mm2 best     inf accepted 0.08
+  NOTE: run 2 left no legal pose for C16, C65, R105, R70, U2, U23; annealing again from a fresh start
+  move  22150: T  27.679 lam     2.5 reach 21.47 cost 22509.1 overlap 1811.35 mm2 best     inf accepted 0.34
+  move  44300: T  12.392 lam     6.3 reach 16.96 cost 18204.6 overlap 941.22 mm2 best     inf accepted 0.21
+  move  66450: T   5.548 lam    15.8 reach 12.99 cost 18322.6 overlap 310.28 mm2 best     inf accepted 0.11
+  move  88600: T   2.484 lam    39.8 reach  9.54 cost 18906.4 overlap 117.14 mm2 best     inf accepted 0.06
+  move 110750: T   1.112 lam   100.0 reach  6.63 cost 19738.8 overlap  47.19 mm2 best     inf accepted 0.05
+  move 132900: T   0.498 lam   251.2 reach  4.24 cost 20168.5 overlap  24.50 mm2 best     inf accepted 0.04
+  move 155050: T   0.223 lam   630.9 reach  2.39 cost 20140.2 overlap  13.13 mm2 best     inf accepted 0.03
+  move 199350: T   0.045 lam  3980.9 reach  0.27 cost 19499.5 overlap   1.59 mm2 best     inf accepted 0.04
+  move 221500: T   0.020 lam  9999.6 reach  0.10 cost 19299.8 overlap   0.85 mm2 best     inf accepted 0.07
+  NOTE: run 3 left no legal pose for C101, R17, U2
+  NOTE: with them flipped: 3 part(s) without a legal pose, 0 decap limit(s), 105 claim limit(s) broken, cost 19299.8, against 18, 0, 155, 24159.7; kept
+place_simple: annealed 221500 moves in 1201.5 s; cost 19299.8 (wire 6755.8 mm, 763 crossings, claims 1050.7, 105 claim limit(s) broken, decaps 646.5, template 7.6 mm, halo 179.69, pad hits 425, congestion 1.30, groups 226.2: pll 31.6, lo_mix_iq 23.2, dac_if 2.9, dividers 28.1, adc 3.9, dac 2.2, digital 12.5, pll_status 0.4, pw_in 2.2, pw_7v5 72.3, pw_24v 28.2, pw_n24v 1.3, reg_5v1 2.4, reg_5v2 1.9, reg_3v3a 2.7, reg_3v3b 2.1, reg_15v 2.1, reg_m5v 2.8, reg_m15v 3.4, hints 732.4: near:pll:pll_status 5.2, near:pw_7v5:pw_in 6.7, near:pw_24v:pw_in 32.1, near:pw_in:pw_n24v 0.4, near:pw_7v5:reg_5v1 105.4, near:dividers:reg_5v1 3.7, near:digital:reg_5v1 1.7, near:pw_7v5:reg_5v2 6.5, near:dac:reg_5v2 4.9, near:dac_if:reg_5v2 79.3, near:adc:reg_5v2 16.6, near:pw_7v5:reg_3v3a 29.6, near:pll:reg_3v3a 92.8, near:pw_7v5:reg_3v3b 0.4, near:adc:reg_3v3b 0.8, near:digital:reg_3v3b 71.0, near:pw_24v:reg_15v 0.4, near:dac:reg_15v 44.7, near:dac_if:reg_15v 0.5, near:pw_n24v:reg_m5v 16.8, near:dac:reg_m5v 15.7, near:dac_if:reg_m5v 96.9, near:adc:reg_m5v 54.6, near:pw_n24v:reg_m15v 41.3, near:dac:reg_m15v 0.6, near:dac_if:reg_m15v 3.8)
+  WARNING: no legal pose found for: C101, R17, U2
+  template drift (worst pad, mm): C98 0.00, L8 0.00, C101 0.01, R103 6.54, C108 0.00, L10 0.00, C105 0.00, R106 1.13, C99 0.00, L9 0.00, C103 0.00, R105 0.00, C109 0.00, L11 0.00, C107 1.16, R107 0.00
+  WARNING: off its datasheet template past the tolerance: R103 (U21) 6.54 mm > 0.3, R106 (U21) 1.13 mm > 0.3, C107 (U22) 1.16 mm > 0.3; check_floorplan grades this a WARN (unless the intent's `severity` promotes `template`), so the judge ranks the seed no lower for it
+Modified 443 footprint positions
+Successfully wrote /tmp/pcb-trials/timiq/v6/r2/s2.kicad_pcb
+  floorplan: 3 floorplan error(s) (zone_containment) (check_floorplan --intent)
+  assembly: NOT BUILDABLE (check_assembly) (check_assembly --baseline)
+JSON_SUMMARY: {"final": {"wire": 6755.79348408, "crossings": 763, "claims": 1050.7193116344824, "decaps": 646.5331963269483, "groups": 226.15462182589414, "hints": 732.3938013318568, "halo": 179.69288901389987, "congestion": 1.3040456676872023, "pad_hits": 425.0, "decap_limits": 0.0, "decap_broken": 0, "claim_limits": 501.09848228121575, "claim_broken": 105, "template": 7.638126726552395, "cost": 19299.75671164944}, "moves": 221500, "seed": 2, "start": "clustered", "reseated": [], "illegal": ["C101", "R17", "U2"], "tight": {}, "refused": {}, "oversubscribed": [], "claim_arity": [], "floorplan": {"errors": 3, "rules": ["zone_containment"]}, "assembly": {"blocking": 1, "buildable": false, "fired": []}, "bga_field": [], "template_off": [{"anchor": "U21", "ref": "R103", "worst_mm": 6.54, "tolerance_mm": 0.3}, {"anchor": "U21", "ref": "R106", "worst_mm": 1.128, "tolerance_mm": 0.3}, {"anchor": "U22", "ref": "C107", "worst_mm": 1.164, "tolerance_mm": 0.3}], "decap_residual": [], "hints_saturated": [], "estimate_fallback": [], "faces": {"flippable": ["C10", "C100", "C102", "C104", "C106", "C11", "C110", "C111", "C112", "C113", "C114", "C115", "C116", "C117", "C118", "C119", "C12", "C120", "C121", "C122", "C123", "C124", "C125", "C126", "C127", "C128", "C129", "C13", "C130", "C131", "C132", "C133", "C134", "C135", "C136", "C137", "C138", "C14", "C141", "C142", "C146", "C147", "C148", "C149", "C15", "C150", "C151", "C152", "C153", "C154", "C158", "C159", "C160", "C161", "C162", "C163", "C164", "C17", "C170", "C171", "C172", "C173", "C174", "C175", "C176", "C177", "C178", "C179", "C18", "C180", "C181", "C182", "C183", "C184", "C185", "C186", "C187", "C188", "C189", "C19", "C190", "C191", "C192", "C193", "C194", "C195", "C196", "C197", "C198", "C199", "C2", "C200", "C201", "C21", "C26", "C27", "C28", "C29", "C30", "C31", "C32", "C33", "C34", "C35", "C36", "C37", "C38", "C39", "C40", "C41", "C42", "C43", "C44", "C45", "C46", "C47", "C48", "C49", "C5", "C50", "C51", "C52", "C53", "C54", "C55", "C56", "C57", "C58", "C59", "C60", "C61", "C62", "C67", "C68", "C69", "C71", "C76", "C77", "C78", "C79", "C84", "C85", "C86", "C87", "C9", "C92", "C93", "C94", "C95", "R1", "R109", "R110", "R111", "R112", "R113", "R114", "R115", "R116", "R117", "R118", "R119", "R120", "R121", "R122", "R123", "R124", "R125", "R126", "R127", "R128", "R129", "R130", "R131", "R132", "R133", "R134", "R135", "R136", "R137", "R138", "R139", "R140", "R141", "R142", "R143", "R144", "R145", "R146", "R147", "R148", "R149", "R150", "R151", "R152", "R153", "R154", "R155", "R156", "R157", "R158", "R159", "R160", "R161", "R162", "R163", "R164", "R24", "R25", "R26", "R27", "R28", "R29", "R30", "R31", "R32", "R33", "R34", "R35", "R36", "R37", "R38", "R39", "R40", "R41", "R42", "R43", "R44", "R45", "R46", "R47", "R48", "R49", "R50", "R51", "R52", "R53", "R54", "R55", "R56", "R57", "R58", "R59", "R60", "R61", "R62", "R63", "R64", "R65", "R66", "R67", "R68", "R69"], "needed": {"C11": "past its claim limit", "C110": "past its claim limit", "C111": "past its claim limit", "C112": "past its claim limit", "C12": "past its claim limit", "C120": "past its claim limit", "C121": "past its claim limit", "C122": "past its claim limit", "C13": "past its claim limit", "C15": "past its claim limit", "C10": "room for C16 (past its claim limit) in group pll", "C14": "room for C16 (past its claim limit) in group pll", "C17": "room for C16 (past its claim limit) in group pll", "C18": "room for C16 (past its claim limit) in group pll", "C19": "room for C16 (past its claim limit) in group pll", "C2": "room for C16 (past its claim limit) in group pll", "C21": "room for C16 (past its claim limit) in group pll", "C5": "room for C16 (past its claim limit) in group pll", "C9": "room for C16 (past its claim limit) in group pll", "C100": "room for C20 (no legal pose) in group lo_mix_iq", "C102": "room for C20 (no legal pose) in group lo_mix_iq", "C104": "room for C20 (no legal pose) in group lo_mix_iq", "C106": "room for C20 (no legal pose) in group lo_mix_iq", "C67": "room for C20 (no legal pose) in group lo_mix_iq", "C68": "room for C20 (no legal pose) in group lo_mix_iq", "C69": "room for C20 (no legal pose) in group lo_mix_iq", "C71": "room for C20 (no legal pose) in group lo_mix_iq", "C28": "past its claim limit", "C31": "no legal pose", "C33": "no legal pose", "C36": "no legal pose", "C37": "past its claim limit", "C38": "past its claim limit", "C42": "past its claim limit", "C43": "past its claim limit", "C47": "past its claim limit", "C53": "past its claim limit", "C54": "past its claim limit", "C56": "past its claim limit", "C57": "past its claim limit", "C76": "room for C72 (past its claim limit) in group dividers", "C77": "room for C72 (past its claim limit) in group dividers", "C78": "room for C72 (past its claim limit) in group dividers", "C79": "room for C72 (past its claim limit) in group dividers", "C84": "room for C72 (past its claim limit) in group dividers", "C85": "room for C72 (past its claim limit) in group dividers", "C86": "room for C72 (past its claim limit) in group dividers", "C87": "room for C72 (past its claim limit) in group dividers", "C92": "room for C72 (past its claim limit) in group dividers", "C93": "room for C72 (past its claim limit) in group dividers", "C94": "room for C72 (past its claim limit) in group dividers", "C95": "room for C72 (past its claim limit) in group dividers", "R109": "past its claim limit", "R110": "past its claim limit", "R111": "past its claim limit", "R112": "past its claim limit", "R113": "past its claim limit", "R117": "past its claim limit", "R118": "past its claim limit", "R119": "past its claim limit", "R121": "past its claim limit", "R123": "past its claim limit", "R124": "past its claim limit", "R125": "past its claim limit", "R127": "past its claim limit", "R24": "past its claim limit", "R25": "no legal pose", "R26": "past its claim limit", "R28": "past its claim limit", "R29": "past its claim limit", "R30": "no legal pose", "R31": "past its claim limit", "R32": "past its claim limit", "R33": "past its claim limit", "R34": "past its claim limit", "R35": "past its claim limit", "R36": "past its claim limit", "R37": "past its claim limit", "R38": "past its claim limit", "R39": "past its claim limit", "R40": "past its claim limit", "R41": "past its claim limit", "R44": "past its claim limit", "R45": "past its claim limit", "R46": "past its claim limit", "R47": "past its claim limit", "R49": "past its claim limit", "R50": "past its claim limit", "R51": "past its claim limit", "R52": "past its claim limit", "R53": "past its claim limit", "R55": "no legal pose", "R56": "past its claim limit", "R57": "past its claim limit", "R58": "past its claim limit", "R59": "past its claim limit", "R62": "past its claim limit", "R67": "past its claim limit", "R69": "no legal pose", "C113": "room for U29 (past its claim limit) in group adc", "C114": "room for U29 (past its claim limit) in group adc", "C115": "room for U29 (past its claim limit) in group adc", "C116": "room for U29 (past its claim limit) in group adc", "C117": "room for U29 (past its claim limit) in group adc", "C118": "room for U29 (past its claim limit) in group adc", "C119": "room for U29 (past its claim limit) in group adc", "R114": "room for U29 (past its claim limit) in group adc", "R115": "room for U29 (past its claim limit) in group adc", "R116": "room for U29 (past its claim limit) in group adc", "R120": "room for U29 (past its claim limit) in group adc", "R122": "room for U29 (past its claim limit) in group adc", "R126": "room for U29 (past its claim limit) in group adc", "C26": "room for U6 (past its claim limit) in group dac", "C27": "room for U6 (past its claim limit) in group dac", "C29": "room for U6 (past its claim limit) in group dac", "C30": "room for U6 (past its claim limit) in group dac", "C32": "room for U6 (past its claim limit) in group dac", "C34": "room for U6 (past its claim limit) in group dac", "C35": "room for U6 (past its claim limit) in group dac", "C39": "room for U6 (past its claim limit) in group dac", "C40": "room for U6 (past its claim limit) in group dac", "C41": "room for U6 (past its claim limit) in group dac", "C44": "room for U6 (past its claim limit) in group dac", "R27": "room for U6 (past its claim limit) in group dac", "R42": "room for U6 (past its claim limit) in group dac", "R43": "room for U6 (past its claim limit) in group dac", "R48": "room for U6 (past its claim limit) in group dac"}, "needed_kept": true}, "seconds": {"setup": 1.2, "anneal": 1201.5}}

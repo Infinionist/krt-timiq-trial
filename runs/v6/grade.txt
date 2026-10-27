@@ -1,0 +1,2 @@
+{"done": true, "assembly_verdict": "buildable (blocking 0)", "floorplan_errors": 0}
+wrote /tmp/pcb-trials/timiq/v6/grade_final.json

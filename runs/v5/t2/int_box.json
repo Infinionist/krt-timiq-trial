@@ -1,0 +1,1566 @@
+{
+ "assembly": {
+  "sides": "both",
+  "why": "observed: 285 pad-bearing part(s) on F and 179 on B, 2 reflow pass(es). every footprint BLOCK (#726): blocks sharing one reference are keyed with an ordinal suffix and counted separately. `pad_bearing` restricts that to blocks carrying at least one pad that is not a paste/mask aperture (#1143), and it is the count the populated-side verdict is taken from -- a zero-pad graphic on the back does not make a board double-sided."
+ },
+ "blocks": [
+  {
+   "group": "sheet:4f61069c/55b24967",
+   "name": "sheet:4f61069c/55b24967",
+   "note": "derived from the board; tighten or delete",
+   "refs": [
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ],
+   "zone": [
+    176.143,
+    146.594,
+    198.677,
+    169.28
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55b25766",
+   "name": "sheet:4f61069c/55b25766",
+   "note": "members are spread across the board and their bounding box overlaps another block, so no zone is claimed. Add one only if this really is a contiguous area",
+   "refs": [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "U10",
+    "U11",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55b76454",
+   "name": "sheet:4f61069c/55b76454",
+   "note": "members are spread across the board and their bounding box overlaps another block, so no zone is claimed. Add one only if this really is a contiguous area",
+   "refs": [
+    "BOX1",
+    "C139",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C178",
+    "C179",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C200",
+    "C201",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J10",
+    "J11",
+    "J12",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "L12",
+    "L13",
+    "L14",
+    "R154",
+    "R155",
+    "R156",
+    "R157",
+    "R158",
+    "R159",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "U39",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55bfa0eb",
+   "name": "sheet:4f61069c/55bfa0eb",
+   "note": "members are spread across the board and their bounding box overlaps another block, so no zone is claimed. Add one only if this really is a contiguous area",
+   "refs": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "D1",
+    "J1",
+    "J2",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "Q1",
+    "R1",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "U1",
+    "U2",
+    "U3"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55c36387",
+   "name": "sheet:4f61069c/55c36387",
+   "note": "derived from the board; tighten or delete",
+   "refs": [
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17"
+   ],
+   "zone": [
+    174.792,
+    172.477,
+    195.626,
+    187.386
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55d7108b",
+   "name": "sheet:4f61069c/55d7108b",
+   "note": "members are spread across the board and their bounding box overlaps another block, so no zone is claimed. Add one only if this really is a contiguous area",
+   "refs": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55dd4d5a",
+   "name": "sheet:4f61069c/55dd4d5a",
+   "note": "derived from the board; tighten or delete",
+   "refs": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30"
+   ],
+   "zone": [
+    132.374,
+    122.835,
+    160.435,
+    150.149
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55dd5793",
+   "name": "sheet:4f61069c/55dd5793",
+   "note": "derived from the board; tighten or delete",
+   "refs": [
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "J5",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38"
+   ],
+   "zone": [
+    199.333,
+    85.247,
+    250.481,
+    152.917
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/56c4bef4",
+   "name": "sheet:4f61069c/56c4bef4",
+   "note": "derived from the board; tighten or delete",
+   "refs": [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "J3",
+    "J4",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20"
+   ],
+   "zone": [
+    203.995,
+    157.964,
+    236.924,
+    223.44
+   ]
+  }
+ ],
+ "board": "human_stripped.kicad_pcb",
+ "context": {
+  "basis": {
+   "assembly.sides": "observed_baseline",
+   "blocks[sheet:4f61069c/55b24967].zone": "observed_baseline",
+   "blocks[sheet:4f61069c/55c36387].zone": "observed_baseline",
+   "blocks[sheet:4f61069c/55dd4d5a].zone": "observed_baseline",
+   "blocks[sheet:4f61069c/55dd5793].zone": "observed_baseline",
+   "blocks[sheet:4f61069c/56c4bef4].zone": "observed_baseline",
+   "decaps.max_pin_distance_mm": "reference:human_stripped.kicad_pcb",
+   "defaults.zone_tolerance_mm": "derived_default",
+   "edge_connectors[FIX1].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX2].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX3].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX4].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX5].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX6].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX7].overhang_mm": "observed_baseline",
+   "edge_connectors[FIX8].overhang_mm": "observed_baseline",
+   "edge_connectors[J1].edge": "observed_baseline",
+   "edge_connectors[J1].overhang_mm": "observed_baseline",
+   "edge_connectors[J2].edge": "observed_baseline",
+   "edge_connectors[J2].overhang_mm": "observed_baseline",
+   "edge_connectors[J3].edge": "observed_baseline",
+   "edge_connectors[J3].overhang_mm": "observed_baseline",
+   "edge_connectors[J4].edge": "observed_baseline",
+   "edge_connectors[J4].overhang_mm": "observed_baseline",
+   "envelope.tolerance_mm": "derived_default",
+   "legality_budget.oob_count": "observed_baseline"
+  },
+  "budget_withheld": {
+   "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range",
+   "overlap_area": "1 blocking body pair(s) on the emitting board (run-6)"
+  },
+  "cutouts": [],
+  "decap_census": {
+   "beyond_radius": 34,
+   "beyond_radius_refs": [
+    "C104",
+    "C106",
+    "C151",
+    "C152",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C168",
+    "C169",
+    "C180",
+    "C181",
+    "C182",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C200",
+    "C201"
+   ],
+   "emitted_max_pin_distance_mm": 8.1577,
+   "ics": 34,
+   "max_mm": 3.584319999999991,
+   "max_mm_display": 3.5843,
+   "median_mm": 2.4997,
+   "metric": "cap footprint centroid to IC bounding box, clamped to 0 inside (placement.groups.decap_tethers)",
+   "no_rail_chip": 0,
+   "no_rail_chip_refs": [],
+   "population": 122,
+   "reference_board": "human_stripped.kicad_pcb",
+   "reference_board_sha256": "36b43fd8472c601a45bb056c520637edc7a180abcc1806e6cdc036ece56189c6",
+   "reference_part_match": 1.0,
+   "reference_pin_census": {
+    "covered": 107,
+    "max_mm": 8.1576,
+    "max_raw": 8.157620000000009,
+    "pins": 107,
+    "uncovered": 0
+   },
+   "reference_tethers": 88,
+   "search_radius_mm": 5.0,
+   "source": "auto-tethers",
+   "tethers": 88,
+   "unaccounted": 0,
+   "worst_beyond_mm": 15.0945
+  },
+  "declared_pose_overlaps": {
+   "accepted": [],
+   "hard": []
+  },
+  "edge_contours": 0,
+  "file_locked": [],
+  "keepouts_note": "empty because a keep-out is a mechanical fact -- an enclosure rib, a standoff, a battery, a display window, an antenna clearance -- and none of those can be read off a board. \"[]\" here means NONE DECLARED, never \"not considered\". Declare them by hand; since #701 the seat search honours them, not only the grade.",
+  "mechanical": {
+   "anchored": [
+    "BOX1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+   ],
+   "fixed_poses": [
+    "BOX1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "J5",
+    "J6"
+   ],
+   "fixed_skipped": {
+    "FIX1": "an edge_connectors entry already places it",
+    "FIX2": "an edge_connectors entry already places it",
+    "FIX3": "an edge_connectors entry already places it",
+    "FIX4": "an edge_connectors entry already places it",
+    "FIX5": "an edge_connectors entry already places it",
+    "FIX6": "an edge_connectors entry already places it",
+    "FIX7": "an edge_connectors entry already places it",
+    "FIX8": "an edge_connectors entry already places it",
+    "J1": "an edge_connectors entry already places it",
+    "J2": "an edge_connectors entry already places it",
+    "J3": "an edge_connectors entry already places it",
+    "J4": "an edge_connectors entry already places it"
+   },
+   "path": "/tmp/pcb-trials/timiq/run/mechanical.json",
+   "sha256": "061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d",
+   "skipped": {}
+  },
+  "note": "read-only, describing the board as it is. The outline is not editable by this toolchain: size, cutouts and slots are mechanical decisions the user owns",
+  "reconciliation": [
+   {
+    "field": "pose",
+    "id": "BOX1:pose",
+    "kind": "agree",
+    "ref": "BOX1",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       124.21244,
+       214.94776,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       124.2124,
+       214.9478,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D2:pose",
+    "kind": "agree",
+    "ref": "D2",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       112.21604,
+       73.43776,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       73.4378,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D3:pose",
+    "kind": "agree",
+    "ref": "D3",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       118.2206,
+       73.43268,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       118.2206,
+       73.4327,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D4:pose",
+    "kind": "agree",
+    "ref": "D4",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       124.22008,
+       73.43268,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       124.2201,
+       73.4327,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D5:pose",
+    "kind": "agree",
+    "ref": "D5",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       130.21956,
+       73.43268,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       130.2196,
+       73.4327,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D6:pose",
+    "kind": "agree",
+    "ref": "D6",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       112.21604,
+       82.43952,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       82.4395,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D7:pose",
+    "kind": "agree",
+    "ref": "D7",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       118.21552,
+       82.43952,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       118.2155,
+       82.4395,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "D8:pose",
+    "kind": "agree",
+    "ref": "D8",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       124.22008,
+       82.43952,
+       270.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       124.2201,
+       82.4395,
+       270.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX1:pose",
+    "kind": "agree",
+    "ref": "FIX1",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       256.216,
+       220.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       256.216,
+       220.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX2:pose",
+    "kind": "agree",
+    "ref": "FIX2",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       184.216,
+       220.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       184.216,
+       220.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX3:pose",
+    "kind": "agree",
+    "ref": "FIX3",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       112.216,
+       220.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       220.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX4:pose",
+    "kind": "agree",
+    "ref": "FIX4",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       112.216,
+       148.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       148.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX5:pose",
+    "kind": "agree",
+    "ref": "FIX5",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       112.216,
+       66.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       112.216,
+       66.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX6:pose",
+    "kind": "agree",
+    "ref": "FIX6",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       184.216,
+       66.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       184.216,
+       66.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX7:pose",
+    "kind": "agree",
+    "ref": "FIX7",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       256.216,
+       66.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       256.216,
+       66.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "FIX8:pose",
+    "kind": "agree",
+    "ref": "FIX8",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       256.216,
+       148.44,
+       0.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       256.216,
+       148.44,
+       0.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J1:pose",
+    "kind": "agree",
+    "ref": "J1",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       146.28568,
+       223.24696,
+       90.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       146.2857,
+       223.247,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J2:pose",
+    "kind": "agree",
+    "ref": "J2",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       157.81474,
+       223.2495,
+       90.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       157.8147,
+       223.2495,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J3:pose",
+    "kind": "agree",
+    "ref": "J3",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       210.045,
+       223.26,
+       90.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       210.045,
+       223.26,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J4:pose",
+    "kind": "agree",
+    "ref": "J4",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       222.065,
+       223.24,
+       90.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       222.065,
+       223.24,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J5:pose",
+    "kind": "agree",
+    "ref": "J5",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       221.9318,
+       136.3324,
+       90.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       221.9318,
+       136.3324,
+       90.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   },
+   {
+    "field": "pose",
+    "id": "J6:pose",
+    "kind": "agree",
+    "ref": "J6",
+    "values": {
+     "board": {
+      "authority": "inferred",
+      "source": "_truth/human_stripped.kicad_pcb",
+      "value": [
+       206.4348,
+       73.44284,
+       180.0
+      ]
+     },
+     "mechanical": {
+      "authority": "recorded_fact",
+      "source": "/tmp/pcb-trials/timiq/run/mechanical.json (sha256 061936abb28fbbbfa73568856c1a96fde050f5ea0ca57e5275650d3411aac28d)",
+      "value": [
+       206.4348,
+       73.4428,
+       180.0
+      ]
+     }
+    },
+    "why": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+    "winner": "mechanical"
+   }
+  ]
+ },
+ "decaps": {
+  "max_pin_distance_mm": 8.1577
+ },
+ "defaults": {
+  "zone_tolerance_mm": 0.5
+ },
+ "edge_connectors": [
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX1"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX2"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX3"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX4"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX5"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX6"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX7"
+  },
+  {
+   "note": "overhang observed at 0.000mm; not an edge part (no part class), so no edge is claimed",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "FIX8"
+  },
+  {
+   "edge": "south",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "J1"
+  },
+  {
+   "edge": "south",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "J2"
+  },
+  {
+   "edge": "south",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "J3"
+  },
+  {
+   "edge": "south",
+   "overhang_mm": {
+    "max": 0.5,
+    "min": 0.0
+   },
+   "ref": "J4"
+  }
+ ],
+ "envelope": {
+  "rect": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "tolerance_mm": 0.5
+ },
+ "fixed_poses": [
+  {
+   "basis": "mechanical",
+   "ref": "BOX1",
+   "rot": 0.0,
+   "why": "mechanical.json: fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)",
+   "x": 124.2124,
+   "y": 214.9478
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D2",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 112.216,
+   "y": 73.4378
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D3",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 118.2206,
+   "y": 73.4327
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D4",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 124.2201,
+   "y": 73.4327
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D5",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 130.2196,
+   "y": 73.4327
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D6",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 112.216,
+   "y": 82.4395
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D7",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 118.2155,
+   "y": 82.4395
+  },
+  {
+   "basis": "mechanical",
+   "ref": "D8",
+   "rot": 270.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 124.2201,
+   "y": 82.4395
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J5",
+   "rot": 90.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 221.9318,
+   "y": 136.3324
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J6",
+   "rot": 180.0,
+   "why": "mechanical.json: fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses",
+   "x": 206.4348,
+   "y": 73.4428
+  }
+ ],
+ "keepouts": [
+  {
+   "name": "box_interior",
+   "rect": [
+    126.71,
+    97.45,
+    241.71,
+    212.45
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "max_height_mm": 27.5,
+   "why": "probe"
+  }
+ ],
+ "kind": "floorplan-intent",
+ "legality_budget": {
+  "oob_count": 12
+ },
+ "min_reader": 15,
+ "must_lock": [],
+ "schema": 1,
+ "units": "mm"
+}

@@ -1,0 +1,44 @@
+CMD: python -X utf8 /tmp/pcb-trials/timiq/krt/py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v5/probe/tiny_E/tiny.kicad_pcb --emit-intent /tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json --allow-unplaced
+ENV KNOBS: none
+check_floorplan: this board does not look PLACED (58 footprints at 58 distinct position(s)).
+  - footprints span 9.3% of the board diagonal
+  - 100% of footprints lie outside the board outline
+  Its poses are not a placement yet: py_placer/place_simple.py places a board from a pile.
+  To see what the file currently contains:  python3 -X utf8 py_tools/render_placement.py <board> -o state.png
+design brief tiny.design-brief.json: 0 interface(s), 0 keep-out(s), 3 tier-0 field(s) not declared
+mechanical declaration /tmp/pcb-trials/timiq/v5/probe/tiny_E/mechanical.json: 1 pose(s), 0 edge(s)
+  WARNING [placement]: 58 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, ...
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  WARNING [placement]: 58 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, ...
+  DRIFT J7:pose: mechanical (131.6648, 190.96, 0.0) [recorded_fact]; board (181.6313, 350.8248, 0.0) [inferred] -> mechanical wins
+  1 mechanical ref(s) the grade anchors at their declared pose (compiled from the file at grade time; each must be locked there, or seated by a fixed_poses entry)
+  1 of them compiled into fixed_poses[] for place_simple to seat
+Wrote /tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json
+  1 block(s), 0 with a zone, 0 edge connector(s), 0 locked part(s)
+  envelope [109.216, 63.44, 259.216, 223.44] -- read from the board. The outline is not editable by this toolchain
+  pile: the board is a pile (footprints span 9.3% of the board diagonal; 100% of footprints lie outside the board outline): staging poses are not claims -- withheld edge_connectors[].edge read off a pose, blocks[].zone, legality_budget.oob_count for 58 unlocked part(s) off the board; kept: KiCad-locked parts; a brief / mechanical.json merged after this
+  decap census: 1 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 8.8692mm), so the limit was not derived from them -- decap_ungraded reports them at WARN
+  WARNING [placement]: 58 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, ...
+  rule roster: 2 armed, 17 not; 4 rule(s) owe a written answer
+    [OWED] zone_containment: no block declares a zone
+    [OWED] zone_side: no block declares a side
+    [policy] zone_exclusive: a policy about who may enter a zone; nothing on the board says that a zone is reserved
+    [not applicable] keepout: nothing declares a keep-out: the brief (if any) names none, and the board file has none this intent can grade
+    [not applicable] edge_connector: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [OWED] decap_distance: the intent declares no decaps.max_distance_mm
+    [advisory] decap_ungraded: the intent declares no decaps.max_distance_mm
+    [advisory] decap_pin_distance: the intent declares no decaps.max_pin_distance_mm
+    [policy] proximity: a design relation between two named parts; nothing on the board, and nothing in a design brief, says which parts must be near which
+    [policy] keep_away: a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive
+    [not applicable] must_lock: must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing
+    [OWED] legality: the intent declares no legality_budget
+    [not applicable] pins_to_edge: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [policy] array_formation: a design decision about which parts form one row; nothing on the board says which identical parts belong together
+    [policy] replicate: a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike
+    [policy] template: an arrangement read from a part's datasheet; the board says which parts are wired to the chip, not where its datasheet puts them
+    [policy] cover: a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches
+    OWED: zone_containment: dark -- no block declares a zone. It applies here (every movable block can be given a zone). Arm it with `blocks[].zone` if the design has that requirement, or write why it does not: dispositions.rules.zone_containment
+    OWED: zone_side: dark -- no block declares a side. It applies here (the board carries parts on both faces). Arm it with `blocks[].side` if the design has that requirement, or write why it does not: dispositions.rules.zone_side
+    OWED: decap_distance: dark -- the intent declares no decaps.max_distance_mm. It applies here (5 decoupling cap(s) share a rail with an IC). Arm it with `decaps.max_distance_mm` if the design has that requirement, or write why it does not: dispositions.rules.decap_distance
+    OWED: legality: dark -- the intent declares no legality_budget. It applies here (every placement has a legality to measure). Arm it with `legality_budget` if the design has that requirement, or write why it does not: dispositions.rules.legality
+EXIT=0

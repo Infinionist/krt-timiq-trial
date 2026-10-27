@@ -1,0 +1,134 @@
+Loading /tmp/pcb-trials/timiq/run/fixed.kicad_pcb...
+Extracting components...
+Found 464 components:
+  Auto-classified: 390
+  Needs AI analysis: 74
+UNKNOWN: ['BOX1', 'C108', 'C109', 'C110', 'C111', 'C16', 'C178', 'C179', 'C20', 'C22', 'C23', 'C24', 'C25', 'C27', 'C28', 'C3', 'C37', 'C38', 'C42', 'C43', 'C47', 'C48', 'C63', 'C64', 'C7', 'C70', 'C72', 'C73', 'C80', 'C81', 'C88', 'C89', 'C96', 'C97', 'C98', 'C99', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'FIX1', 'FIX2', 'FIX3', 'FIX4', 'FIX5', 'FIX6', 'FIX7', 'FIX8', 'J1', 'J10', 'J11', 'J12', 'J2', 'J3', 'J4', 'J5', 'J6', 'J7', 'J8', 'J9', 'Q1', 'TP1', 'TP2', 'TP3', 'TP4', 'TP5', 'TP6', 'TP7', 'TP8', 'TP9']
+7A4700
+    Notes: TPS7A4700
+
+## Current Sinks (ICs requiring power)
+
+  U1: LMX2541SQ2690E (300mA)
+  U2: CVHD-950M-108.3681 (60mA)
+  U3: GP2Y+ (unknown)
+  U4: LTC2758ACLX (20mA)
+  U5: LT1012ACS8 (unknown)
+  U6: LT1012ACS8 (unknown)
+  U7: LTC2054HVCS5 (unknown)
+  U8: LTC2054HVCS5 (unknown)
+  U9: LTC6241HVCS8 (unknown)
+  U10: LT1360CS8 (unknown)
+  U11: LT1360CS8 (unknown)
+  U12: LTC6655BHMS8-1.25 (unknown)
+  U13: LTC6655BHMS8-1.25 (unknown)
+  U14: LT6600CS8-2.5 (unknown)
+  U15: LT6600CS8-2.5 (unknown)
+  U16: HMC1097LP4E (180mA)
+  U17: GP2Y+ (unknown)
+  U18: HMC705LP4E (100mA)
+  U19: HMC705LP4E (100mA)
+  U20: HMC705LP4E (100mA)
+  U21: PMA2-43LN+ (60mA)
+  U22: PMA2-43LN+ (60mA)
+  U23: GAT-5+ (unknown)
+  U24: QCN-34+ (unknown)
+  U25: GP2Y+ (unknown)
+  U26: SIM-73L+ (unknown)
+  U27: SIM-73L+ (unknown)
+  U28: OPA2209AIDGKR (unknown)
+  U29: ADS8694IDBT (30mA)
+  U30: LTC6655BHMS8-4.096 (unknown)
+  U31: SN75LVDT388ADBT (70mA)
+  U32: SN75LVDT388ADBT (70mA)
+  U38: SN75LVDS389DBT (70mA)
+  U33: SN74LV4T125PWR (unknown)
+  U34: SN75LVDT388ADBT (70mA)
+  U35: SN74LV4T125PWR (unknown)
+  U36: SN74LV4T125PWR (unknown)
+  U37: SN74LV4T125PWR (unknown)
+
+## Traced Power Paths
+
+  Path 1: U41 -> U1
+    Current: 300mA
+    Nets: 3V3_1
+  Path 2: U41 -> U2
+    Current: 60mA
+    Nets: 3V3_1
+  Path 3: U40 -> U4
+    Current: 20mA
+    Nets: 5V_2
+  Path 4: U45 -> U5
+    Current: 100mA
+    Nets: -15V
+  Path 5: U43 -> U5
+    Current: 100mA
+    Nets: 15V
+  Path 6: U45 -> U6
+    Current: 100mA
+    Nets: -15V
+  Path 7: U43 -> U6
+    Current: 100mA
+    Nets: 15V
+  Path 8: U44 -> U7
+    Current: 100mA
+    Nets: -5V
+  Path 9: U40 -> U7
+    Current: 100mA
+    Nets: 5V_2
+  Path 10: U44 -> U8
+    Current: 100mA
+    Nets: -5V
+  Path 11: U40 -> U8
+    Current: 100mA
+    Nets: 5V_2
+  Path 12: U44 -> U9
+    Current: 100mA
+    Nets: -5V
+  Path 13: U40 -> U9
+    Current: 100mA
+    Nets: 5V_2
+  Path 14: U45 -> U10
+    Current: 100mA
+    Nets: -15V
+  Path 15: U43 -> U10
+    Current: 100mA
+    Nets: 15V
+  Path 16: U45 -> U11
+    Current: 100mA
+    Nets: -15V
+  Path 17: U43 -> U11
+    Current: 100mA
+    Nets: 15V
+  Path 18: U40 -> U12
+    Current: 100mA
+    Nets: 5V_2
+  Path 19: U40 -> U13
+    Current: 100mA
+    Nets: 5V_2
+  Path 20: U40 -> U14
+    Current: 100mA
+    Nets: 5V_2
+  ... and 20 more paths
+
+## Power Net Recommendations
+
+  Net Name                          | Width (mm)
+  --------------------------------------------------
+  -15V                                | 0.70
+  -5V                                 | 1.00
+  15V                                 | 0.70
+  3V3_1                               | 0.70
+  3V3_2                               | 0.70
+  5V_1                                | 1.00
+  5V_2                                | 1.20
+  GND                                 | 2.00
+
+## Routing Configuration
+
+  --power-nets "3V3_1" "5V_2" "-15V" "15V" "-5V" "5V_1" "3V3_2" "GND"
+  --power-nets-widths 0.7 1.2 0.7 0.7 1.0 1.0 0.7 2.0
+
+======================================================================
+REC {'3V3_1': 0.7, '5V_2': 1.2, '-15V': 0.7, '15V': 0.7, '-5V': 1.0, '5V_1': 1.0, '3V3_2': 0.7, 'GND': 2.0}

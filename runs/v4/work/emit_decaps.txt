@@ -1,0 +1,9 @@
+CMD: python -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v4/in/fixed.kicad_pcb --emit-intent /tmp/pcb-trials/timiq/v4/work/emit_decaps.json --decaps-from /tmp/pcb-trials/timiq/v4/in/human.kicad_pcb --no-brief
+ENV KNOBS: none
+check_floorplan: this board does not look PLACED (464 footprints at 464 distinct position(s)).
+  - footprints span 10.0% of the board diagonal
+  - 100% of footprints lie outside the board outline
+  Its poses are not a placement yet: py_placer/place_simple.py places a board from a pile.
+  To see what the file currently contains:  python3 -X utf8 py_tools/render_placement.py <board> -o state.png
+  Override with --allow-unplaced.
+EXIT=3

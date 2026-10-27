@@ -1,0 +1,28 @@
+[18:19:32] START gate: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/gate.py
+GATE PASS
+  ok: U1=proximity, U2=proximity, U3=proximity, U4=proximity, U5=proximity, U6=proximity, U7=proximity, U8=proximity, U9=proximity, U10=proximity, U11=proximity, U12=proximity, U13=proximity, U14=proximity, U15=proximity, U16=proximity, U17=proximity, U18=proximity, U19=proximity, U20=proximity, U21
+[18:19:35] END   gate rc=0
+[18:19:35] START stage: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_router/copy_board.py /tmp/pcb-trials/timiq/v5/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb
+Copied 3 file(s): fixed.kicad_pcb, fixed.kicad_pro, fixed.design-brief.json
+[18:19:35] END   stage rc=0
+[18:19:35] START baseline_cans: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 /tmp/pcb-trials/timiq/v5/reattach.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+reattached 6 can(s): J7, J8, J9, J10, J11, J12 -> /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb
+[18:19:35] END   baseline_cans rc=0
+[18:19:35] START place: /tmp/pcb-trials/timiq/krt/.venv/bin/python -X utf8 py_placer/place_simple.py /tmp/pcb-trials/timiq/v5/seeds/fixed.kicad_pcb /tmp/pcb-trials/timiq/v5/seeds/s{seed}.kicad_pcb --groups /tmp/pcb-trials/timiq/v5/seeds/groups.json --intent /tmp/pcb-trials/timiq/v5/seeds/intent.json --jobs 12 --json /tmp/pcb-trials/timiq/v5/seeds/s{seed}.json
+  seed 4: cost 18158.8, 218000 moves in 4354.0 s, 87 floorplan error(s) (keepout, proximity), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s4.kicad_pcb
+  seed 1: cost 17443.9, 218000 moves in 4415.1 s, 89 floorplan error(s) (keepout, proximity), NOT BUILDABLE (check_assembly) -> /tmp/pcb-trials/timiq/v5/seeds/s1.kicad_pcb
+place_simple: judge seeds 2, 4, 1, 11, 10, 7 (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/v5/seeds/judge.json
+  WARNING: seed 2 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 2 is judged with 82 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 4 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 4 is judged with 87 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 1 is judged NOT BUILDABLE (check_assembly): it cannot be DONE as placed (fewer than 6 legal seeds are buildable and clean)
+  WARNING: seed 1 is judged with 89 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 11 is judged with 118 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 10 is judged with 118 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: seed 7 is judged with 118 floorplan error(s) (keepout, proximity): it cannot be DONE as placed (fewer than 6 legal seeds grade clean)
+  WARNING: proximity L8 near U21 (max 2 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C101-Pad1), Net-(C98-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the s
+  WARNING: proximity L9 near U22 (max 2 mm) names no pads: it is priced over 2 shared-net pad legs on Net-(C103-Pad1), Net-(C99-Pad2), but check_floorplan grades the ONE closest pad pair, so the objective can call it broken while the grade passes it; name the facing pads in `pads` so both read the s
+  WARNING: BOX1's declared pose is not legal, in every seed: keep-out 'can-J7'; keep-out 'can-J8'; keep-out 'can-J9'; keep-out 'can-J10'; keep-out 'can-J11'; keep-out 'can-J12'
+[19:33:17] END   place rc=4
+[19:33:17] place_simple exit 4: see /tmp/pcb-trials/timiq/v5/seeds/place.log and /tmp/pcb-trials/timiq/v5/seeds/judge.json (skill §3.6: fix the input or repair by hand)

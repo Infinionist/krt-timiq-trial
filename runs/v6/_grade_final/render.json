@@ -1,0 +1,1532 @@
+{
+  "blocker_nets": [],
+  "checklist": {
+    "a_body_edge_band": {
+      "citation": "JLCPCB assembly terms, section 2 \"Notes on DFM\", item 3: \"The distance between the body of the components and the edge of the board must be equal or greater than 2.5mm.\" One assembler's rule, which also adds edge rails when the file has none (https://jlcpcb.com/help/article/Terms-and-Conditions-of-JLCPCB-Assembly-Service, read 2026-10-14)",
+      "eligible": 449,
+      "error": null,
+      "excluded": [],
+      "gates": false,
+      "in_band": [
+        [
+          "FIX1",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX2",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX3",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX4",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX5",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX6",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX7",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "FIX8",
+          0.0,
+          "courtyard"
+        ],
+        [
+          "J1",
+          0.0,
+          "silk"
+        ],
+        [
+          "J2",
+          0.0,
+          "silk"
+        ],
+        [
+          "J3",
+          0.0,
+          "silk"
+        ],
+        [
+          "J4",
+          0.0,
+          "silk"
+        ],
+        [
+          "J6",
+          0.0,
+          "silk"
+        ],
+        [
+          "D3",
+          0.8,
+          "silk"
+        ],
+        [
+          "R155",
+          1.261,
+          "silk"
+        ],
+        [
+          "C153",
+          2.19,
+          "silk"
+        ]
+      ],
+      "measured": 458,
+      "new_in_band": null,
+      "new_in_band_refs": null,
+      "threshold_basis": "derived_default",
+      "threshold_mm": 2.5,
+      "unmeasured": []
+    },
+    "a_off_outline": {
+      "courtyard": [
+        [
+          "FIX1",
+          1.1
+        ],
+        [
+          "FIX2",
+          0.55
+        ],
+        [
+          "FIX3",
+          1.1
+        ],
+        [
+          "FIX4",
+          0.55
+        ],
+        [
+          "FIX5",
+          1.1
+        ],
+        [
+          "FIX6",
+          0.55
+        ],
+        [
+          "FIX7",
+          1.1
+        ],
+        [
+          "FIX8",
+          0.55
+        ],
+        [
+          "J1",
+          10.293
+        ],
+        [
+          "J2",
+          10.2955
+        ],
+        [
+          "J3",
+          10.306
+        ],
+        [
+          "J4",
+          10.286
+        ],
+        [
+          "J6",
+          4.9972
+        ]
+      ],
+      "courtyard_estimated": [],
+      "graphic_copper": [],
+      "graphic_copper_unmeasured": [],
+      "keepout_copper": [],
+      "keepout_copper_before": null,
+      "keepout_copper_pads": [],
+      "keepout_copper_unmeasured": [],
+      "pad_copper": [],
+      "pad_copper_gating": []
+    },
+    "b_body_overlap_pairs": [],
+    "b_body_seam": {
+      "mm": -58.0732,
+      "ref_a": "BOX1",
+      "ref_b": "U15",
+      "source_a": "silk",
+      "source_b": "silk"
+    },
+    "b_body_sources": {
+      "BOX1": "silk",
+      "C1": "silk",
+      "C10": "silk",
+      "C100": "silk",
+      "C101": "silk",
+      "C102": "silk",
+      "C103": "silk",
+      "C104": "silk",
+      "C105": "silk",
+      "C106": "silk",
+      "C107": "silk",
+      "C108": "silk",
+      "C109": "silk",
+      "C11": "silk",
+      "C110": "silk",
+      "C111": "silk",
+      "C112": "silk",
+      "C113": "silk",
+      "C114": "silk",
+      "C115": "silk",
+      "C116": "silk",
+      "C117": "silk",
+      "C118": "silk",
+      "C119": "silk",
+      "C12": "silk",
+      "C120": "silk",
+      "C121": "silk",
+      "C122": "silk",
+      "C123": "silk",
+      "C124": "silk",
+      "C125": "silk",
+      "C126": "silk",
+      "C127": "silk",
+      "C128": "silk",
+      "C129": "silk",
+      "C13": "silk",
+      "C130": "silk",
+      "C131": "silk",
+      "C132": "silk",
+      "C133": "silk",
+      "C134": "silk",
+      "C135": "silk",
+      "C136": "silk",
+      "C137": "silk",
+      "C138": "silk",
+      "C139": "silk",
+      "C14": "silk",
+      "C140": "silk",
+      "C141": "silk",
+      "C142": "silk",
+      "C143": "silk",
+      "C144": "silk",
+      "C145": "silk",
+      "C146": "silk",
+      "C147": "silk",
+      "C148": "silk",
+      "C149": "silk",
+      "C15": "silk",
+      "C150": "silk",
+      "C151": "silk",
+      "C152": "silk",
+      "C153": "silk",
+      "C154": "silk",
+      "C155": "silk",
+      "C156": "silk",
+      "C157": "silk",
+      "C158": "silk",
+      "C159": "silk",
+      "C16": "silk",
+      "C160": "silk",
+      "C161": "silk",
+      "C162": "silk",
+      "C163": "silk",
+      "C164": "silk",
+      "C165": "silk",
+      "C166": "silk",
+      "C167": "silk",
+      "C168": "silk",
+      "C169": "silk",
+      "C17": "silk",
+      "C170": "silk",
+      "C171": "silk",
+      "C172": "silk",
+      "C173": "silk",
+      "C174": "silk",
+      "C175": "silk",
+      "C176": "silk",
+      "C177": "silk",
+      "C178": "silk",
+      "C179": "silk",
+      "C18": "silk",
+      "C180": "silk",
+      "C181": "silk",
+      "C182": "silk",
+      "C183": "silk",
+      "C184": "silk",
+      "C185": "silk",
+      "C186": "silk",
+      "C187": "silk",
+      "C188": "silk",
+      "C189": "silk",
+      "C19": "silk",
+      "C190": "silk",
+      "C191": "silk",
+      "C192": "silk",
+      "C193": "silk",
+      "C194": "silk",
+      "C195": "silk",
+      "C196": "silk",
+      "C197": "silk",
+      "C198": "silk",
+      "C199": "silk",
+      "C2": "silk",
+      "C20": "silk",
+      "C200": "silk",
+      "C201": "silk",
+      "C21": "silk",
+      "C22": "silk",
+      "C23": "silk",
+      "C24": "silk",
+      "C25": "silk",
+      "C26": "silk",
+      "C27": "silk",
+      "C28": "silk",
+      "C29": "silk",
+      "C3": "silk",
+      "C30": "silk",
+      "C31": "silk",
+      "C32": "silk",
+      "C33": "silk",
+      "C34": "silk",
+      "C35": "silk",
+      "C36": "silk",
+      "C37": "silk",
+      "C38": "silk",
+      "C39": "silk",
+      "C4": "silk",
+      "C40": "silk",
+      "C41": "silk",
+      "C42": "silk",
+      "C43": "silk",
+      "C44": "silk",
+      "C45": "silk",
+      "C46": "silk",
+      "C47": "silk",
+      "C48": "silk",
+      "C49": "silk",
+      "C5": "silk",
+      "C50": "silk",
+      "C51": "silk",
+      "C52": "silk",
+      "C53": "silk",
+      "C54": "silk",
+      "C55": "silk",
+      "C56": "silk",
+      "C57": "silk",
+      "C58": "silk",
+      "C59": "silk",
+      "C6": "silk",
+      "C60": "silk",
+      "C61": "silk",
+      "C62": "silk",
+      "C63": "silk",
+      "C64": "silk",
+      "C65": "silk",
+      "C66": "silk",
+      "C67": "silk",
+      "C68": "silk",
+      "C69": "silk",
+      "C7": "silk",
+      "C70": "silk",
+      "C71": "silk",
+      "C72": "silk",
+      "C73": "silk",
+      "C74": "silk",
+      "C75": "silk",
+      "C76": "silk",
+      "C77": "silk",
+      "C78": "silk",
+      "C79": "silk",
+      "C8": "silk",
+      "C80": "silk",
+      "C81": "silk",
+      "C82": "silk",
+      "C83": "silk",
+      "C84": "silk",
+      "C85": "silk",
+      "C86": "silk",
+      "C87": "silk",
+      "C88": "silk",
+      "C89": "silk",
+      "C9": "silk",
+      "C90": "silk",
+      "C91": "silk",
+      "C92": "silk",
+      "C93": "silk",
+      "C94": "silk",
+      "C95": "silk",
+      "C96": "silk",
+      "C97": "silk",
+      "C98": "silk",
+      "C99": "silk",
+      "D1": "silk",
+      "D2": "silk",
+      "D3": "silk",
+      "D4": "silk",
+      "D5": "silk",
+      "D6": "silk",
+      "D7": "silk",
+      "D8": "silk",
+      "J1": "silk",
+      "J2": "silk",
+      "J3": "silk",
+      "J4": "silk",
+      "J5": "silk",
+      "J6": "silk",
+      "L1": "silk",
+      "L10": "silk",
+      "L11": "silk",
+      "L12": "silk",
+      "L13": "silk",
+      "L14": "silk",
+      "L2": "silk",
+      "L3": "silk",
+      "L4": "silk",
+      "L5": "silk",
+      "L6": "silk",
+      "L7": "silk",
+      "L8": "silk",
+      "L9": "silk",
+      "Q1": "silk",
+      "R1": "silk",
+      "R10": "silk",
+      "R100": "silk",
+      "R101": "silk",
+      "R102": "silk",
+      "R103": "silk",
+      "R104": "silk",
+      "R105": "silk",
+      "R106": "silk",
+      "R107": "silk",
+      "R108": "silk",
+      "R109": "silk",
+      "R11": "silk",
+      "R110": "silk",
+      "R111": "silk",
+      "R112": "silk",
+      "R113": "silk",
+      "R114": "silk",
+      "R115": "silk",
+      "R116": "silk",
+      "R117": "silk",
+      "R118": "silk",
+      "R119": "silk",
+      "R12": "silk",
+      "R120": "silk",
+      "R121": "silk",
+      "R122": "silk",
+      "R123": "silk",
+      "R124": "silk",
+      "R125": "silk",
+      "R126": "silk",
+      "R127": "silk",
+      "R128": "silk",
+      "R129": "silk",
+      "R13": "silk",
+      "R130": "silk",
+      "R131": "silk",
+      "R132": "silk",
+      "R133": "silk",
+      "R134": "silk",
+      "R135": "silk",
+      "R136": "silk",
+      "R137": "silk",
+      "R138": "silk",
+      "R139": "silk",
+      "R14": "silk",
+      "R140": "silk",
+      "R141": "silk",
+      "R142": "silk",
+      "R143": "silk",
+      "R144": "silk",
+      "R145": "silk",
+      "R146": "silk",
+      "R147": "silk",
+      "R148": "silk",
+      "R149": "silk",
+      "R15": "silk",
+      "R150": "silk",
+      "R151": "silk",
+      "R152": "silk",
+      "R153": "silk",
+      "R154": "silk",
+      "R155": "silk",
+      "R156": "silk",
+      "R157": "silk",
+      "R158": "silk",
+      "R159": "silk",
+      "R16": "silk",
+      "R160": "silk",
+      "R161": "silk",
+      "R162": "silk",
+      "R163": "silk",
+      "R164": "silk",
+      "R165": "silk",
+      "R17": "silk",
+      "R18": "silk",
+      "R19": "silk",
+      "R2": "silk",
+      "R20": "silk",
+      "R21": "silk",
+      "R22": "silk",
+      "R23": "silk",
+      "R24": "silk",
+      "R25": "silk",
+      "R26": "silk",
+      "R27": "silk",
+      "R28": "silk",
+      "R29": "silk",
+      "R3": "silk",
+      "R30": "silk",
+      "R31": "silk",
+      "R32": "silk",
+      "R33": "silk",
+      "R34": "silk",
+      "R35": "silk",
+      "R36": "silk",
+      "R37": "silk",
+      "R38": "silk",
+      "R39": "silk",
+      "R4": "silk",
+      "R40": "silk",
+      "R41": "silk",
+      "R42": "silk",
+      "R43": "silk",
+      "R44": "silk",
+      "R45": "silk",
+      "R46": "silk",
+      "R47": "silk",
+      "R48": "silk",
+      "R49": "silk",
+      "R5": "silk",
+      "R50": "silk",
+      "R51": "silk",
+      "R52": "silk",
+      "R53": "silk",
+      "R54": "silk",
+      "R55": "silk",
+      "R56": "silk",
+      "R57": "silk",
+      "R58": "silk",
+      "R59": "silk",
+      "R6": "silk",
+      "R60": "silk",
+      "R61": "silk",
+      "R62": "silk",
+      "R63": "silk",
+      "R64": "silk",
+      "R65": "silk",
+      "R66": "silk",
+      "R67": "silk",
+      "R68": "silk",
+      "R69": "silk",
+      "R7": "silk",
+      "R70": "silk",
+      "R71": "silk",
+      "R72": "silk",
+      "R73": "silk",
+      "R74": "silk",
+      "R75": "silk",
+      "R76": "silk",
+      "R77": "silk",
+      "R78": "silk",
+      "R79": "silk",
+      "R8": "silk",
+      "R80": "silk",
+      "R81": "silk",
+      "R82": "silk",
+      "R83": "silk",
+      "R84": "silk",
+      "R85": "silk",
+      "R86": "silk",
+      "R87": "silk",
+      "R88": "silk",
+      "R89": "silk",
+      "R9": "silk",
+      "R90": "silk",
+      "R91": "silk",
+      "R92": "silk",
+      "R93": "silk",
+      "R94": "silk",
+      "R95": "silk",
+      "R96": "silk",
+      "R97": "silk",
+      "R98": "silk",
+      "R99": "silk",
+      "TP1": "silk",
+      "TP2": "silk",
+      "TP3": "silk",
+      "TP4": "silk",
+      "TP5": "silk",
+      "TP6": "silk",
+      "TP7": "silk",
+      "TP8": "silk",
+      "TP9": "silk",
+      "U1": "silk",
+      "U10": "silk",
+      "U11": "silk",
+      "U12": "silk",
+      "U13": "silk",
+      "U14": "silk",
+      "U15": "silk",
+      "U16": "silk",
+      "U17": "silk",
+      "U18": "silk",
+      "U19": "silk",
+      "U2": "silk",
+      "U20": "silk",
+      "U21": "silk",
+      "U22": "silk",
+      "U23": "silk",
+      "U24": "silk",
+      "U25": "silk",
+      "U26": "silk",
+      "U27": "silk",
+      "U28": "silk",
+      "U29": "silk",
+      "U3": "silk",
+      "U30": "silk",
+      "U31": "silk",
+      "U32": "silk",
+      "U33": "silk",
+      "U34": "silk",
+      "U35": "silk",
+      "U36": "silk",
+      "U37": "silk",
+      "U38": "silk",
+      "U39": "silk",
+      "U4": "silk",
+      "U40": "silk",
+      "U41": "silk",
+      "U42": "silk",
+      "U43": "silk",
+      "U44": "silk",
+      "U45": "silk",
+      "U5": "silk",
+      "U6": "silk",
+      "U7": "silk",
+      "U8": "silk",
+      "U9": "silk"
+    },
+    "b_courtyard_advisory_pairs": [],
+    "b_courtyard_blocking_pairs": [],
+    "b_courtyard_census_error": null,
+    "b_courtyard_overlap_mm2": 0,
+    "b_cross_side_stacks": [
+      [
+        "C106",
+        "U16",
+        7.88
+      ],
+      [
+        "C11",
+        "U1",
+        7.88
+      ],
+      [
+        "C117",
+        "U29",
+        7.88
+      ],
+      [
+        "C17",
+        "U2",
+        7.88
+      ],
+      [
+        "C18",
+        "U2",
+        7.88
+      ],
+      [
+        "C21",
+        "U2",
+        7.88
+      ],
+      [
+        "C25",
+        "U2",
+        7.88
+      ],
+      [
+        "C37",
+        "U7",
+        7.88
+      ],
+      [
+        "C38",
+        "U8",
+        7.88
+      ],
+      [
+        "C4",
+        "U2",
+        7.88
+      ],
+      [
+        "C41",
+        "U4",
+        7.88
+      ],
+      [
+        "C61",
+        "U14",
+        7.88
+      ],
+      [
+        "C7",
+        "U1",
+        7.88
+      ],
+      [
+        "R102",
+        "U23",
+        7.88
+      ],
+      [
+        "R113",
+        "U29",
+        7.88
+      ],
+      [
+        "R120",
+        "U29",
+        7.88
+      ],
+      [
+        "R124",
+        "U28",
+        7.88
+      ],
+      [
+        "R13",
+        "U2",
+        7.88
+      ],
+      [
+        "R15",
+        "U1",
+        7.88
+      ],
+      [
+        "R22",
+        "U2",
+        7.88
+      ],
+      [
+        "R24",
+        "U4",
+        7.88
+      ],
+      [
+        "R25",
+        "U4",
+        7.88
+      ],
+      [
+        "R26",
+        "U4",
+        7.88
+      ],
+      [
+        "R29",
+        "U4",
+        7.88
+      ],
+      [
+        "R34",
+        "U4",
+        7.88
+      ],
+      [
+        "R48",
+        "U9",
+        7.88
+      ],
+      [
+        "R54",
+        "U10",
+        7.88
+      ],
+      [
+        "R60",
+        "U14",
+        7.88
+      ],
+      [
+        "R61",
+        "U15",
+        7.88
+      ],
+      [
+        "R64",
+        "U11",
+        7.88
+      ],
+      [
+        "R90",
+        "U20",
+        7.88
+      ],
+      [
+        "R94",
+        "U20",
+        7.88
+      ],
+      [
+        "R99",
+        "U20",
+        7.88
+      ],
+      [
+        "C119",
+        "U30",
+        7.73
+      ],
+      [
+        "R51",
+        "U11",
+        7.6
+      ],
+      [
+        "C58",
+        "U15",
+        7.34
+      ],
+      [
+        "C71",
+        "U16",
+        7.22
+      ],
+      [
+        "R127",
+        "U29",
+        7.18
+      ],
+      [
+        "R89",
+        "U19",
+        7.13
+      ],
+      [
+        "R82",
+        "U18",
+        7.05
+      ],
+      [
+        "R58",
+        "U12",
+        7.0
+      ],
+      [
+        "R32",
+        "U4",
+        6.97
+      ],
+      [
+        "C32",
+        "U6",
+        6.85
+      ],
+      [
+        "R85",
+        "U18",
+        6.8
+      ],
+      [
+        "R95",
+        "U19",
+        6.75
+      ],
+      [
+        "C23",
+        "U2",
+        6.69
+      ],
+      [
+        "C29",
+        "U5",
+        6.58
+      ],
+      [
+        "C28",
+        "U4",
+        6.56
+      ],
+      [
+        "C121",
+        "U29",
+        6.49
+      ],
+      [
+        "R78",
+        "U18",
+        6.48
+      ],
+      [
+        "R63",
+        "U10",
+        6.34
+      ],
+      [
+        "C72",
+        "C81",
+        6.05
+      ],
+      [
+        "R123",
+        "U29",
+        6.05
+      ],
+      [
+        "R3",
+        "U2",
+        6.05
+      ],
+      [
+        "C105",
+        "U17",
+        5.87
+      ],
+      [
+        "R6",
+        "U1",
+        5.85
+      ],
+      [
+        "C9",
+        "U1",
+        5.78
+      ],
+      [
+        "C69",
+        "U16",
+        5.73
+      ],
+      [
+        "C43",
+        "U9",
+        5.59
+      ],
+      [
+        "C46",
+        "U10",
+        5.55
+      ],
+      [
+        "R53",
+        "U11",
+        5.26
+      ],
+      [
+        "R46",
+        "U9",
+        5.11
+      ],
+      [
+        "R87",
+        "U19",
+        5.09
+      ],
+      [
+        "C59",
+        "U13",
+        5.01
+      ],
+      [
+        "C118",
+        "U29",
+        4.99
+      ],
+      [
+        "R27",
+        "U5",
+        4.98
+      ],
+      [
+        "R35",
+        "U5",
+        4.96
+      ],
+      [
+        "R92",
+        "U19",
+        4.92
+      ],
+      [
+        "R28",
+        "U4",
+        4.91
+      ],
+      [
+        "C22",
+        "U1",
+        4.66
+      ],
+      [
+        "C48",
+        "U11",
+        4.58
+      ],
+      [
+        "C104",
+        "R72",
+        4.5
+      ],
+      [
+        "C52",
+        "U12",
+        4.33
+      ],
+      [
+        "C66",
+        "U17",
+        4.11
+      ],
+      [
+        "R59",
+        "U13",
+        4.05
+      ],
+      [
+        "C47",
+        "U10",
+        4.01
+      ],
+      [
+        "R56",
+        "U10",
+        4.01
+      ],
+      [
+        "C76",
+        "U20",
+        3.95
+      ],
+      [
+        "C108",
+        "C67",
+        3.93
+      ],
+      [
+        "R76",
+        "U18",
+        3.92
+      ],
+      [
+        "R39",
+        "U9",
+        3.91
+      ],
+      [
+        "R2",
+        "U1",
+        3.84
+      ],
+      [
+        "R81",
+        "U18",
+        3.73
+      ],
+      [
+        "R62",
+        "U10",
+        3.69
+      ],
+      [
+        "R38",
+        "U9",
+        3.68
+      ],
+      [
+        "C107",
+        "R108",
+        3.64
+      ],
+      [
+        "R83",
+        "U19",
+        3.62
+      ],
+      [
+        "R42",
+        "U7",
+        3.56
+      ],
+      [
+        "R43",
+        "U8",
+        3.56
+      ],
+      [
+        "C55",
+        "U14",
+        3.54
+      ],
+      [
+        "R126",
+        "U29",
+        3.49
+      ],
+      [
+        "C6",
+        "U2",
+        3.35
+      ],
+      [
+        "R96",
+        "U20",
+        3.3
+      ],
+      [
+        "R14",
+        "R70",
+        2.95
+      ],
+      [
+        "C16",
+        "L3",
+        2.84
+      ],
+      [
+        "C68",
+        "R101",
+        2.84
+      ],
+      [
+        "R68",
+        "U14",
+        2.82
+      ],
+      [
+        "C27",
+        "U4",
+        2.74
+      ],
+      [
+        "C62",
+        "U15",
+        2.69
+      ],
+      [
+        "C68",
+        "U17",
+        2.69
+      ],
+      [
+        "C26",
+        "U8",
+        2.66
+      ],
+      [
+        "C12",
+        "U1",
+        2.4
+      ],
+      [
+        "R67",
+        "U15",
+        2.34
+      ],
+      [
+        "C104",
+        "U16",
+        2.24
+      ],
+      [
+        "C31",
+        "U5",
+        2.23
+      ],
+      [
+        "C16",
+        "L1",
+        2.22
+      ],
+      [
+        "R74",
+        "R86",
+        2.21
+      ],
+      [
+        "C19",
+        "U2",
+        2.18
+      ],
+      [
+        "C100",
+        "R103",
+        2.16
+      ],
+      [
+        "R21",
+        "U2",
+        1.97
+      ],
+      [
+        "R31",
+        "U4",
+        1.88
+      ],
+      [
+        "C30",
+        "U4",
+        1.83
+      ],
+      [
+        "R107",
+        "U27",
+        1.79
+      ],
+      [
+        "C64",
+        "C69",
+        1.65
+      ],
+      [
+        "C97",
+        "R98",
+        1.64
+      ],
+      [
+        "C42",
+        "U9",
+        1.6
+      ],
+      [
+        "R30",
+        "U4",
+        1.54
+      ],
+      [
+        "L7",
+        "R8",
+        1.49
+      ],
+      [
+        "C16",
+        "R7",
+        1.48
+      ],
+      [
+        "C100",
+        "C101",
+        1.46
+      ],
+      [
+        "C56",
+        "U15",
+        1.45
+      ],
+      [
+        "R69",
+        "U15",
+        1.44
+      ],
+      [
+        "R88",
+        "U19",
+        1.4
+      ],
+      [
+        "C49",
+        "U10",
+        1.33
+      ],
+      [
+        "L9",
+        "R106",
+        1.33
+      ],
+      [
+        "R49",
+        "U9",
+        1.29
+      ],
+      [
+        "R101",
+        "R104",
+        1.24
+      ],
+      [
+        "C102",
+        "R108",
+        1.23
+      ],
+      [
+        "C22",
+        "U2",
+        1.23
+      ],
+      [
+        "C99",
+        "R106",
+        1.17
+      ],
+      [
+        "C103",
+        "C67",
+        1.13
+      ],
+      [
+        "C98",
+        "R71",
+        1.09
+      ],
+      [
+        "R52",
+        "U10",
+        1.09
+      ],
+      [
+        "R121",
+        "U28",
+        1.02
+      ]
+    ],
+    "b_pad_clearance_pairs": [],
+    "b_testpoint_covered": [
+      [
+        "TP1",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ],
+      [
+        "TP2",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ],
+      [
+        "TP3",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ],
+      [
+        "TP4",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ],
+      [
+        "TP5",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ],
+      [
+        "TP7",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ],
+      [
+        "TP8",
+        "BOX1",
+        1.0,
+        "silk",
+        "",
+        false
+      ]
+    ],
+    "c_hole_conflicts": [],
+    "c_locked_refs": [],
+    "d_moved": {
+      "expected": null,
+      "match": null,
+      "moved": 0
+    }
+  },
+  "defect_panels": [],
+  "defects": [],
+  "describe": {
+    "worst": [
+      {
+        "body_stack": false,
+        "kind": "off-board courtyard",
+        "note": "10.306mm out",
+        "refs": [
+          "J3"
+        ],
+        "view": [
+          202.945,
+          216.06,
+          217.145,
+          234.746
+        ]
+      },
+      {
+        "body_stack": false,
+        "kind": "off-board courtyard",
+        "note": "10.2955mm out",
+        "refs": [
+          "J2"
+        ],
+        "view": [
+          150.715,
+          216.05,
+          164.915,
+          234.736
+        ]
+      },
+      {
+        "body_stack": false,
+        "kind": "off-board courtyard",
+        "note": "10.293mm out",
+        "refs": [
+          "J1"
+        ],
+        "view": [
+          139.186,
+          216.047,
+          153.386,
+          234.733
+        ]
+      },
+      {
+        "body_stack": false,
+        "kind": "off-board courtyard",
+        "note": "10.286mm out",
+        "refs": [
+          "J4"
+        ],
+        "view": [
+          214.965,
+          216.04,
+          229.165,
+          234.726
+        ]
+      },
+      {
+        "body_stack": false,
+        "kind": "off-board courtyard",
+        "note": "4.9972mm out",
+        "refs": [
+          "J6"
+        ],
+        "view": [
+          193.535,
+          57.443,
+          210.935,
+          83.043
+        ]
+      },
+      {
+        "body_stack": false,
+        "kind": "off-board courtyard",
+        "note": "1.1mm out",
+        "refs": [
+          "FIX1"
+        ],
+        "view": [
+          251.666,
+          215.89,
+          260.766,
+          224.99
+        ]
+      }
+    ]
+  },
+  "failed_nets": [],
+  "instrument": {
+    "before": null,
+    "board": "/tmp/pcb-trials/timiq/v6/final.kicad_pcb",
+    "clearance": 0.2,
+    "clearance_requested": null,
+    "defect_json": [],
+    "defect_notes": [],
+    "floors": {
+      "board_edge_clearance": {
+        "source": "board constraint",
+        "value": 0.5
+      },
+      "clearance": {
+        "source": "board netclass",
+        "value": 0.2
+      }
+    },
+    "ignore_nets": [],
+    "net_lists": {
+      "ignore_nets": {
+        "flag": "--ignore-nets",
+        "matched": 0,
+        "nets_matched": 0,
+        "requested": 0,
+        "unmatched": []
+      },
+      "ratsnest_nets": {
+        "flag": "--ratsnest-nets",
+        "matched": 0,
+        "nets_matched": 0,
+        "requested": 0,
+        "unmatched": []
+      }
+    },
+    "ratsnest_nets": [],
+    "size": 1600,
+    "summary_json": null,
+    "supersample": 2
+  },
+  "metrics": {
+    "crossings": 1259,
+    "hole_shortfall": 0.0,
+    "hpwl": 6671.682319999993,
+    "keepout_pad_amount": 0.0,
+    "keepout_pad_parts": 0,
+    "length": 7659.603057410677,
+    "locked_contact_pairs": 0,
+    "oob_amount": 52.77770000000004,
+    "oob_area": 572.2312799999997,
+    "oob_count": 13,
+    "overlap_area": 0.0,
+    "pad_conflict_pairs": 0,
+    "pad_intersection_pairs": 0,
+    "pad_overlap_pairs": 0,
+    "pad_shortfall": 0.0
+  },
+  "moved": 0,
+  "moved_refs": [],
+  "no_outline": false,
+  "panels": [
+    {
+      "label": "final",
+      "path": "/tmp/pcb-trials/timiq/v6/_grade_final/render_F.png",
+      "side": "F",
+      "view": null
+    },
+    {
+      "label": "final",
+      "path": "/tmp/pcb-trials/timiq/v6/_grade_final/render_B.png",
+      "side": "B",
+      "view": null
+    }
+  ],
+  "unplaced": false
+}

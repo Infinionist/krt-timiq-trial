@@ -1,0 +1,34 @@
+{
+ "judge": [],
+ "scattered": [],
+ "clustered": [
+  7
+ ],
+ "anchored": [],
+ "illegal": [
+  7
+ ],
+ "refused": {},
+ "oversubscribed": [],
+ "claim_arity": [],
+ "floorplan": {
+  "7": 0
+ },
+ "assembly": {
+  "7": 1
+ },
+ "template_off": {
+  "7": [
+   {
+    "anchor": "U21",
+    "ref": "L10",
+    "worst_mm": 16.216,
+    "tolerance_mm": 0.3
+   }
+  ]
+ },
+ "bga_field": {
+  "7": []
+ },
+ "baseline": "/tmp/pcb-trials/timiq/v2/run/fixed.kicad_pcb"
+}

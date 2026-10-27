@@ -1,0 +1,38 @@
+CMD: python -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/v4/in/fixed.kicad_pcb --intent /tmp/pcb-trials/timiq/v4/in/intent_v4.json --plan-only
+ENV KNOBS: none
+check_floorplan: this board does not look PLACED (464 footprints at 464 distinct position(s)).
+  - footprints span 10.0% of the board diagonal
+  - 100% of footprints lie outside the board outline
+  Its poses are not a placement yet: py_placer/place_simple.py places a board from a pile.
+  To see what the file currently contains:  python3 -X utf8 py_tools/render_placement.py <board> -o state.png
+design brief fixed.design-brief.json: 0 interface(s), 19 keep-out(s), 3 tier-0 field(s) not declared
+  WARNING [placement]: 464 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1, C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, C108, ...
+  heights: 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; declared: 6 shield(s); room under J10, J11, J12, J7, J8, J9
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  WARNING [placement]: 464 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1, C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, C108, ...
+  heights: 0 part heights from models, 0 from IPC names, 0 part(s) with room under them; declared: 6 shield(s); room under J10, J11, J12, J7, J8, J9
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+PLAN /tmp/pcb-trials/timiq/v4/in/intent_v4.json on /tmp/pcb-trials/timiq/v4/in/fixed.kicad_pcb: 0 error(s), 4 warning(s) -- checked before any pose exists
+    [warn ] intent_zone_overlap: zones 'box_inside' and 'box_outerband' overlap by 10920.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_inside' and 'box_wallband' overlap by 10920.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] intent_zone_overlap: zones 'box_wallband' and 'box_outerband' overlap by 13110.25mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared
+    [warn ] plan_board_crowded: the busiest face is 95% covered by courtyard at zero clearance -- past the 55% this toolchain calls comfortable to route. Several shipped boards run hotter, so it is a warning: expect to route between parts with little room
+  rule roster: 7 armed, 12 not; 3 rule(s) owe a written answer
+    [OWED] zone_side: no block declares a side
+    [policy] zone_exclusive: a policy about who may enter a zone; nothing on the board says that a zone is reserved
+    [not applicable] edge_connector: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [OWED] decap_distance: the intent declares no decaps.max_distance_mm
+    [advisory] decap_ungraded: the intent declares no decaps.max_distance_mm
+    [policy] keep_away: a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive
+    [not applicable] must_lock: must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing
+    [OWED] legality: the intent declares no legality_budget
+    [not applicable] pins_to_edge: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [policy] array_formation: a design decision about which parts form one row; nothing on the board says which identical parts belong together
+    [policy] replicate: a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike
+    [policy] cover: a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches
+    OWED: zone_side: dark -- no block declares a side. It applies here (the board carries parts on both faces). Arm it with `blocks[].side` if the design has that requirement, or write why it does not: dispositions.rules.zone_side
+    OWED: decap_distance: dark -- the intent declares no decaps.max_distance_mm. It applies here (122 decoupling cap(s) share a rail with an IC). Arm it with `decaps.max_distance_mm` if the design has that requirement, or write why it does not: dispositions.rules.decap_distance
+    OWED: legality: dark -- the intent declares no legality_budget. It applies here (every placement has a legality to measure). Arm it with `legality_budget` if the design has that requirement, or write why it does not: dispositions.rules.legality
+JSON_SUMMARY: {"board": "fixed.kicad_pcb", "carried_facts": [], "clearance_used": {"source": "board netclass", "value": 0.2}, "contradictions": 0, "contradictions_undispositioned": [], "derived_default_clauses": [], "edge_clearance_used": {"source": "board constraint", "value": 0.5}, "intent": "intent_v4.json", "ledger_status": {"advisory": 1, "dark": 3, "inapplicable": 3, "pending": 7, "policy": 5}, "mechanical": null, "plan_errors": 0, "plan_findings_by_rule": {"intent_zone_overlap": 3, "plan_board_crowded": 1}, "plan_only": true, "plan_warnings": 4, "rules_dark_undispositioned": ["zone_side", "decap_distance", "legality"], "stale_dispositions": [], "unmeasured_facts": []}
+EXIT=0

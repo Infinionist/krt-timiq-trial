@@ -1,0 +1,570 @@
+{
+ "checks": {
+  "plan_only_errors": 0,
+  "check_groups_errors": 0,
+  "ics": 45,
+  "ics_uncovered": 0,
+  "cans_problems_count": 0,
+  "footprints_without_courtyard": 0,
+  "input_problems_count": 0,
+  "preflight_problems_count": 0
+ },
+ "missing": {
+  "ics": {},
+  "cans": {},
+  "inputs": {},
+  "preflight": {}
+ },
+ "fill_table": [
+  {
+   "name": "canJ7",
+   "kind": "can",
+   "n": 52,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 614.2,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 109.1,
+   "n_flex": 12,
+   "fill_F0": 0.762,
+   "fill_F": 0.647,
+   "fill_B": 0.115,
+   "fill": 0.647,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F/B",
+   "missing": []
+  },
+  {
+   "name": "canJ8",
+   "kind": "can",
+   "n": 53,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 609.9,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 118.2,
+   "n_flex": 13,
+   "fill_F0": 0.768,
+   "fill_F": 0.643,
+   "fill_B": 0.125,
+   "fill": 0.643,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F/B",
+   "missing": []
+  },
+  {
+   "name": "canJ9",
+   "kind": "can",
+   "n": 44,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 603.7,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.636,
+   "fill_F": 0.636,
+   "fill_B": 0.0,
+   "fill": 0.636,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ10",
+   "kind": "can",
+   "n": 47,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 547.5,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.577,
+   "fill_F": 0.577,
+   "fill_B": 0.0,
+   "fill": 0.577,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ11",
+   "kind": "can",
+   "n": 35,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 437.3,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.461,
+   "fill_F": 0.461,
+   "fill_B": 0.0,
+   "fill": 0.461,
+   "limit": 0.65,
+   "status": "ok",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ12",
+   "kind": "can",
+   "n": 51,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 614.0,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 136.3,
+   "n_flex": 15,
+   "fill_F0": 0.791,
+   "fill_F": 0.647,
+   "fill_B": 0.144,
+   "fill": 0.647,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F/B",
+   "missing": []
+  },
+  {
+   "name": "power_strip",
+   "kind": "power",
+   "n": 75,
+   "zone_mm2": 4389.8,
+   "usable_F_mm2": 3929.4,
+   "usable_B_mm2": 4208.1,
+   "load_F_mm2": 2007.1,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.511,
+   "fill_F": 0.511,
+   "fill_B": 0.0,
+   "fill": 0.511,
+   "limit": 0.65,
+   "status": "ok",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "free (everything outside the cans)",
+   "kind": "free",
+   "n": 154,
+   "zone_mm2": 0.0,
+   "usable_F_mm2": 13954.1,
+   "usable_B_mm2": 15151.6,
+   "load_F_mm2": 3460.9,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.248,
+   "fill_F": 0.248,
+   "fill_B": 0.0,
+   "fill": 0.248,
+   "limit": 0.65,
+   "status": "ok",
+   "face": "F",
+   "missing": []
+  }
+ ],
+ "flippable": {
+  "canJ7": [
+   "C1",
+   "C21",
+   "C4",
+   "C6",
+   "C8",
+   "C10",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C15",
+   "C2"
+  ],
+  "canJ8": [
+   "C104",
+   "C106",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C71",
+   "C64",
+   "R108",
+   "R14",
+   "R71",
+   "R72"
+  ],
+  "canJ12": [
+   "C26",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C35",
+   "C36",
+   "C39",
+   "C40",
+   "C41",
+   "C44",
+   "C27",
+   "C28",
+   "C33",
+   "C34"
+  ]
+ },
+ "rf_path_parts_in_cans": {
+  "J7": [
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C22",
+   "C25",
+   "C3",
+   "R13",
+   "R15",
+   "R8",
+   "U1",
+   "U2"
+  ],
+  "J8": [
+   "C100",
+   "C101",
+   "C102",
+   "C103",
+   "C105",
+   "C107",
+   "C108",
+   "C109",
+   "C20",
+   "C63",
+   "C70",
+   "C98",
+   "C99",
+   "L10",
+   "L11",
+   "L8",
+   "L9",
+   "R100",
+   "R101",
+   "R102",
+   "R103",
+   "R104",
+   "R105",
+   "R106",
+   "R107",
+   "R16",
+   "R165",
+   "R17",
+   "R70",
+   "R73",
+   "U16",
+   "U17",
+   "U21",
+   "U22",
+   "U23",
+   "U24",
+   "U25",
+   "U26",
+   "U27",
+   "U3"
+  ],
+  "J9": [
+   "C47",
+   "C48",
+   "R50",
+   "R51",
+   "R52",
+   "R53",
+   "R54",
+   "R55",
+   "R56",
+   "R57",
+   "R62",
+   "R64",
+   "U10",
+   "U11"
+  ],
+  "J10": [
+   "C80",
+   "C88",
+   "R82",
+   "R92",
+   "U18",
+   "U19",
+   "U20"
+  ],
+  "J11": [
+   "C110",
+   "C111",
+   "R119",
+   "R120",
+   "R123",
+   "R124",
+   "U28",
+   "U29"
+  ],
+  "J12": [
+   "C42",
+   "C43",
+   "R38",
+   "R39",
+   "R40",
+   "R41",
+   "R48",
+   "R49",
+   "U4",
+   "U9"
+  ]
+ },
+ "limit": 0.65,
+ "anchored": {
+  "1": [
+   {
+    "group": "canJ7",
+    "n": 52,
+    "x": 213.14,
+    "y": 127.25
+   },
+   {
+    "group": "canJ8",
+    "n": 53,
+    "x": 214.37,
+    "y": 116.99
+   },
+   {
+    "group": "canJ9",
+    "n": 44,
+    "x": 225.27,
+    "y": 83.24
+   },
+   {
+    "group": "canJ10",
+    "n": 55,
+    "x": 190.92,
+    "y": 168.53
+   },
+   {
+    "group": "canJ11",
+    "n": 35,
+    "x": 235.59,
+    "y": 157.57
+   },
+   {
+    "group": "canJ12",
+    "n": 51,
+    "x": 187.16,
+    "y": 133.37
+   },
+   {
+    "group": "digital",
+    "n": 50,
+    "x": 241.77,
+    "y": 141.03
+   },
+   {
+    "group": "status_led",
+    "n": 3,
+    "x": 210.43,
+    "y": 153.98
+   },
+   {
+    "group": "pw_in",
+    "n": 6,
+    "x": 196.8,
+    "y": 63.75
+   },
+   {
+    "group": "pw_24v",
+    "n": 6,
+    "x": 239.43,
+    "y": 98.12
+   },
+   {
+    "group": "pw_7v5",
+    "n": 3,
+    "x": 221.19,
+    "y": 86.95
+   },
+   {
+    "group": "pw_U39",
+    "n": 8,
+    "x": 179.97,
+    "y": 130.65
+   },
+   {
+    "group": "pw_U40",
+    "n": 8,
+    "x": 214.4,
+    "y": 90.34
+   },
+   {
+    "group": "pw_U41",
+    "n": 8,
+    "x": 195.82,
+    "y": 75.0
+   },
+   {
+    "group": "pw_U42",
+    "n": 8,
+    "x": 145.71,
+    "y": 129.39
+   },
+   {
+    "group": "pw_U43",
+    "n": 8,
+    "x": 158.91,
+    "y": 117.26
+   },
+   {
+    "group": "pw_U44",
+    "n": 10,
+    "x": 206.93,
+    "y": 109.8
+   },
+   {
+    "group": "pw_U45",
+    "n": 10,
+    "x": 213.51,
+    "y": 107.38
+   },
+   {
+    "group": "pw_misc",
+    "n": 18,
+    "x": 177.6,
+    "y": 98.16
+   }
+  ],
+  "2": [
+   {
+    "group": "canJ7",
+    "n": 52,
+    "x": 181.05,
+    "y": 121.56
+   },
+   {
+    "group": "canJ8",
+    "n": 53,
+    "x": 188.06,
+    "y": 115.4
+   },
+   {
+    "group": "canJ9",
+    "n": 44,
+    "x": 204.37,
+    "y": 119.07
+   },
+   {
+    "group": "canJ10",
+    "n": 55,
+    "x": 257.26,
+    "y": 111.78
+   },
+   {
+    "group": "canJ11",
+    "n": 35,
+    "x": 202.06,
+    "y": 123.57
+   },
+   {
+    "group": "canJ12",
+    "n": 51,
+    "x": 219.46,
+    "y": 94.24
+   },
+   {
+    "group": "digital",
+    "n": 50,
+    "x": 188.5,
+    "y": 127.78
+   },
+   {
+    "group": "status_led",
+    "n": 3,
+    "x": 222.56,
+    "y": 135.73
+   },
+   {
+    "group": "pw_in",
+    "n": 6,
+    "x": 195.55,
+    "y": 57.8
+   },
+   {
+    "group": "pw_24v",
+    "n": 6,
+    "x": 200.51,
+    "y": 91.99
+   },
+   {
+    "group": "pw_7v5",
+    "n": 3,
+    "x": 231.27,
+    "y": 91.39
+   },
+   {
+    "group": "pw_U39",
+    "n": 8,
+    "x": 137.69,
+    "y": 101.28
+   },
+   {
+    "group": "pw_U40",
+    "n": 8,
+    "x": 192.26,
+    "y": 110.99
+   },
+   {
+    "group": "pw_U41",
+    "n": 8,
+    "x": 186.7,
+    "y": 90.37
+   },
+   {
+    "group": "pw_U42",
+    "n": 8,
+    "x": 148.5,
+    "y": 98.24
+   },
+   {
+    "group": "pw_U43",
+    "n": 8,
+    "x": 171.06,
+    "y": 84.71
+   },
+   {
+    "group": "pw_U44",
+    "n": 10,
+    "x": 178.74,
+    "y": 91.56
+   },
+   {
+    "group": "pw_U45",
+    "n": 10,
+    "x": 130.45,
+    "y": 78.74
+   },
+   {
+    "group": "pw_misc",
+    "n": 18,
+    "x": 144.67,
+    "y": 88.72
+   }
+  ]
+ },
+ "n_movable": 436,
+ "pass": true
+}

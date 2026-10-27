@@ -1,0 +1,1466 @@
+{
+ "blocks": {
+  "canJ7_B": [
+   "C1",
+   "C11",
+   "C13",
+   "C15",
+   "C2",
+   "C21",
+   "C4",
+   "C5",
+   "C7",
+   "C9",
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R9"
+  ],
+  "canJ7_F": [
+   "C10",
+   "C12",
+   "C14",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C3",
+   "C6",
+   "C8",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14",
+   "R15",
+   "R16",
+   "R165",
+   "R17",
+   "R18",
+   "R19",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R8",
+   "U1",
+   "U2"
+  ],
+  "sheet:4f61069c/55bfa0eb": [
+   "C1",
+   "C10",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C2",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C8",
+   "C9",
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14",
+   "R15",
+   "R16",
+   "R165",
+   "R17",
+   "R18",
+   "R19",
+   "R2",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "U1",
+   "U2"
+  ]
+ },
+ "board": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/out.kicad_pcb",
+ "brief_coverage": {
+  "abstained": 0,
+  "brief": "out.design-brief.json",
+  "carried": 0,
+  "clauses": [],
+  "complete": true,
+  "drifted": 0,
+  "graded": 0,
+  "not_claimed": 0,
+  "schema": 1,
+  "uncovered": 0
+ },
+ "budget_abstained": {
+  "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+  "overlap_area": "the project sets courtyards_overlap to ignore, so a courtyard overlap budget grades nothing it asks for"
+ },
+ "budget_dispositioned": {},
+ "complete": false,
+ "decap_pin_evidence": {},
+ "declaration_ledger": [
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "envelope.rect",
+   "disposition": null,
+   "grader": "envelope",
+   "id": "rule:envelope",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `envelope.rect`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "blocks[].zone",
+   "disposition": null,
+   "grader": "zone_containment",
+   "id": "rule:zone_containment",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "graded_fail",
+   "why": "armed by the plan's `blocks[].zone`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "blocks[].side",
+   "disposition": null,
+   "grader": "zone_side",
+   "id": "rule:zone_side",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `blocks[].side`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "assembly.sides",
+   "disposition": null,
+   "grader": "assembly_side",
+   "id": "rule:assembly_side",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `assembly.sides`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_exclusive",
+   "id": "rule:zone_exclusive",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "no block is marked exclusive"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "keepout",
+   "id": "rule:keepout",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no keepouts"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "edge_connector",
+   "id": "rule:edge_connector",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_distance",
+   "id": "rule:decap_distance",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_ungraded",
+   "id": "rule:decap_ungraded",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_pin_distance",
+   "id": "rule:decap_pin_distance",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_pin_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "proximity",
+   "id": "rule:proximity",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no proximity claims"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "keep_away",
+   "id": "rule:keep_away",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no keep_away rules"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "must_lock",
+   "id": "rule:must_lock",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no must_lock patterns"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "legality",
+   "id": "rule:legality",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no legality_budget"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "pins_to_edge",
+   "id": "rule:pins_to_edge",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "array_formation",
+   "id": "rule:array_formation",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no arrays"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "replicate",
+   "id": "rule:replicate",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no replicate copies"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "template",
+   "id": "rule:template",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no templates"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "cover",
+   "id": "rule:cover",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no covers"
+  },
+  {
+   "authority": "recorded_fact",
+   "basis": "mechanical",
+   "consequence": null,
+   "disposition": null,
+   "grader": "reconciliation",
+   "id": "reconcile:J7:pose",
+   "kind": "reconciliation",
+   "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/mechanical.json (sha256 bba37eb35869059805da204b69ad33cfd15d0db54651f056fbbd2d6d8a0f569d)",
+   "status": "graded_pass",
+   "values": {
+    "board": [
+     131.6648,
+     190.96,
+     0.0
+    ],
+    "mechanical": [
+     131.6648,
+     190.96,
+     0.0
+    ]
+   },
+   "why": "probe: Infinionist 10-26, J7-J10 fixed at the human pose under the lid window",
+   "winner": "mechanical"
+  }
+ ],
+ "edge_connector_evidence": [],
+ "edge_seating": [],
+ "health": {},
+ "intent": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/intent.json",
+ "legality": {
+  "hole_shortfall": 0.0,
+  "hpwl": 714.1542,
+  "keepout_pad_amount": 0.0,
+  "keepout_pad_parts": 0,
+  "locked_contact_pairs": 0,
+  "oob_amount": 0.0,
+  "oob_area": 0.0,
+  "oob_count": 0,
+  "overlap_area": 0.0,
+  "overlap_area_waived": 25.8769,
+  "pad_conflict_pairs": 0,
+  "pad_intersection_pairs": 0,
+  "pad_overlap_pairs": 0,
+  "pad_shortfall": 0.0
+ },
+ "n_footprints": 58,
+ "not_graded": {
+  "budget_abstained": 2,
+  "rules_skipped_armed": 1
+ },
+ "outline": {
+  "bounds": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "cutouts": 0,
+  "edge_contours": 0,
+  "edge_segments": 5,
+  "outlines": 1,
+  "problems": [],
+  "simple_rectangle": false,
+  "trustworthy": true
+ },
+ "pad_stacks": {
+  "pad_stack_area": 0,
+  "pad_stack_basis": "check_assembly's pad_intersection channel (legality.pad_intersection_pairs): two parts' pad copper intersecting on a shared side, any net, confirmed on the pads' outlines by check_drc's pad-pad check; never waivable",
+  "pad_stack_count": 0,
+  "pad_stack_pairs": []
+ },
+ "pass": false,
+ "reconciliation": [
+  {
+   "field": "pose",
+   "id": "J7:pose",
+   "kind": "agree",
+   "ref": "J7",
+   "values": {
+    "board": {
+     "authority": "inferred",
+     "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/out.kicad_pcb",
+     "value": [
+      131.6648,
+      190.96,
+      0.0
+     ]
+    },
+    "mechanical": {
+     "authority": "recorded_fact",
+     "source": "/tmp/pcb-trials/timiq/v5/probe/tiny_E/mechanical.json (sha256 bba37eb35869059805da204b69ad33cfd15d0db54651f056fbbd2d6d8a0f569d)",
+     "value": [
+      131.6648,
+      190.96,
+      0.0
+     ]
+    }
+   },
+   "why": "probe: Infinionist 10-26, J7-J10 fixed at the human pose under the lid window",
+   "winner": "mechanical"
+  }
+ ],
+ "rule_roster": [
+  {
+   "applicability_reason": "armed by the plan's `envelope.rect`",
+   "applicable": true,
+   "arming_key": "envelope.rect",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "envelope",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `blocks[].zone`",
+   "applicable": true,
+   "arming_key": "blocks[].zone",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "zone_containment",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `blocks[].side`",
+   "applicable": true,
+   "arming_key": "blocks[].side",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "zone_side",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `assembly.sides`",
+   "applicable": true,
+   "arming_key": "assembly.sides",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "assembly_side",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a policy about who may enter a zone; nothing on the board says that a zone is reserved",
+   "applicable": true,
+   "arming_key": "blocks[].exclusive (on a zoned block)",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "zone_exclusive",
+   "skip_reason": "no block is marked exclusive",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "nothing declares a keep-out: the brief (if any) names none, and the board file has none this intent can grade",
+   "applicable": false,
+   "arming_key": "keepouts[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "keepout",
+   "skip_reason": "the intent declares no keepouts",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "edge_connector",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "5 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "decap_distance",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "5 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_ungraded",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "the board has supply pins and caps on their rails",
+   "applicable": true,
+   "arming_key": "decaps.max_pin_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_pin_distance",
+   "skip_reason": "the intent declares no decaps.max_pin_distance_mm",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two named parts; nothing on the board, and nothing in a design brief, says which parts must be near which",
+   "applicable": true,
+   "arming_key": "proximity[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "proximity",
+   "skip_reason": "the intent declares no proximity claims",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive",
+   "applicable": true,
+   "arming_key": "keep_away[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "keep_away",
+   "skip_reason": "the intent declares no keep_away rules",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing",
+   "applicable": false,
+   "arming_key": "must_lock[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "must_lock",
+   "skip_reason": "the intent declares no must_lock patterns",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every placement has a legality to measure",
+   "applicable": true,
+   "arming_key": "legality_budget",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "legality",
+   "skip_reason": "the intent declares no legality_budget",
+   "state": "dark",
+   "withheld": {
+    "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+    "overlap_area": "the project sets courtyards_overlap to ignore, so a courtyard overlap budget grades nothing it asks for"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "pins_to_edge",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which parts form one row; nothing on the board says which identical parts belong together",
+   "applicable": true,
+   "arming_key": "arrays[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "array_formation",
+   "skip_reason": "the intent declares no arrays",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike",
+   "applicable": true,
+   "arming_key": "replicate[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "replicate",
+   "skip_reason": "the intent declares no replicate copies",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "an arrangement read from a part's datasheet; the board says which parts are wired to the chip, not where its datasheet puts them",
+   "applicable": true,
+   "arming_key": "templates[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "template",
+   "skip_reason": "the intent declares no templates",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches",
+   "applicable": true,
+   "arming_key": "covers[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "cover",
+   "skip_reason": "the intent declares no covers",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  }
+ ],
+ "rules_run": [
+  "envelope",
+  "zone_containment",
+  "zone_side",
+  "assembly_side"
+ ],
+ "rules_skipped": {
+  "array_formation": "the intent declares no arrays",
+  "cover": "the intent declares no covers",
+  "decap_distance": "the intent declares no decaps.max_distance_mm",
+  "decap_pin_distance": "the intent declares no decaps.max_pin_distance_mm",
+  "decap_ungraded": "the intent declares no decaps.max_distance_mm",
+  "edge_connector": "the intent declares no edge_connectors",
+  "keep_away": "the intent declares no keep_away rules",
+  "keepout": "the intent declares no keepouts",
+  "legality": "the intent declares no legality_budget; the emitter WITHHELD oob_count (the board is a pile: its off-board count is staging, not a baseline (#1103)), overlap_area (the project sets courtyards_overlap to ignore, so a courtyard overlap budget grades nothing it asks for)",
+  "must_lock": "the intent declares no must_lock patterns",
+  "pins_to_edge": "the intent declares no edge_connectors",
+  "proximity": "the intent declares no proximity claims",
+  "replicate": "the intent declares no replicate copies",
+  "template": "the intent declares no templates",
+  "zone_exclusive": "no block is marked exclusive"
+ },
+ "schema": 1,
+ "stale_dispositions": [],
+ "state": {
+  "distinct_positions": 58,
+  "duplicate_fraction": 0.0,
+  "has_copper": false,
+  "n_footprints": 58,
+  "outside_fraction": 0.0,
+  "partially_unplaced": false,
+  "segments": 0,
+  "spread_ratio": 0.2465,
+  "stacked_refs": [],
+  "stacked_suspect_refs": [],
+  "unplaced": false,
+  "vias": 0
+ },
+ "violations": [
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "east",
+    "open_sides": [],
+    "outside_mm": 2.2061,
+    "rect": [
+     163.0153,
+     172.867,
+     164.0161,
+     175.4527
+    ]
+   },
+   "message": "C12 courtyard extends 2.21mm past the east edge of block 'canJ7_F'",
+   "ref": "C12",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "north",
+    "open_sides": [],
+    "outside_mm": 2.2013,
+    "rect": [
+     141.2739,
+     157.4587,
+     143.8596,
+     158.4595
+    ]
+   },
+   "message": "C14 courtyard extends 2.20mm past the north edge of block 'canJ7_F'",
+   "ref": "C14",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "east",
+    "open_sides": [],
+    "outside_mm": 2.207,
+    "rect": [
+     163.0162,
+     164.4279,
+     164.017,
+     167.0136
+    ]
+   },
+   "message": "C16 courtyard extends 2.21mm past the east edge of block 'canJ7_F'",
+   "ref": "C16",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.1984,
+    "rect": [
+     144.7779,
+     191.6576,
+     147.3636,
+     192.6584
+    ]
+   },
+   "message": "C18 courtyard extends 2.20mm past the south edge of block 'canJ7_F'",
+   "ref": "C18",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "north",
+    "open_sides": [],
+    "outside_mm": 2.2027,
+    "rect": [
+     152.5825,
+     157.4573,
+     155.1682,
+     158.4581
+    ]
+   },
+   "message": "C20 courtyard extends 2.20mm past the north edge of block 'canJ7_F'",
+   "ref": "C20",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "west",
+    "open_sides": [],
+    "outside_mm": 2.2204,
+    "rect": [
+     128.7896,
+     179.4334,
+     129.7904,
+     182.0191
+    ]
+   },
+   "message": "C23 courtyard extends 2.22mm past the west edge of block 'canJ7_F'",
+   "ref": "C23",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.2045,
+    "rect": [
+     156.875,
+     191.6637,
+     159.4607,
+     192.6645
+    ]
+   },
+   "message": "C25 courtyard extends 2.20mm past the south edge of block 'canJ7_F'",
+   "ref": "C25",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "east",
+    "open_sides": [],
+    "outside_mm": 3.394,
+    "rect": [
+     164.2032,
+     186.749,
+     165.204,
+     189.3347
+    ]
+   },
+   "message": "C3 courtyard extends 3.39mm past the east edge of block 'canJ7_F'",
+   "ref": "C3",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "east",
+    "open_sides": [],
+    "outside_mm": 2.2038,
+    "rect": [
+     163.013,
+     168.9875,
+     164.0138,
+     171.5732
+    ]
+   },
+   "message": "C6 courtyard extends 2.20mm past the east edge of block 'canJ7_F'",
+   "ref": "C6",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.3894,
+    "rect": [
+     141.0504,
+     191.8486,
+     143.6361,
+     192.8494
+    ]
+   },
+   "message": "C8 courtyard extends 2.39mm past the south edge of block 'canJ7_F'",
+   "ref": "C8",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "north",
+    "open_sides": [],
+    "outside_mm": 2.2013,
+    "rect": [
+     145.6456,
+     157.4587,
+     148.2313,
+     158.4595
+    ]
+   },
+   "message": "R12 courtyard extends 2.20mm past the north edge of block 'canJ7_F'",
+   "ref": "R12",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.2087,
+    "rect": [
+     147.906,
+     191.6679,
+     150.4917,
+     192.6687
+    ]
+   },
+   "message": "R13 courtyard extends 2.21mm past the south edge of block 'canJ7_F'",
+   "ref": "R13",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.2087,
+    "rect": [
+     150.6927,
+     191.6679,
+     153.2784,
+     192.6687
+    ]
+   },
+   "message": "R15 courtyard extends 2.21mm past the south edge of block 'canJ7_F'",
+   "ref": "R15",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "north",
+    "open_sides": [],
+    "outside_mm": 2.2131,
+    "rect": [
+     149.7077,
+     157.4469,
+     152.2934,
+     158.4477
+    ]
+   },
+   "message": "R165 courtyard extends 2.21mm past the north edge of block 'canJ7_F'",
+   "ref": "R165",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "north",
+    "open_sides": [],
+    "outside_mm": 2.1998,
+    "rect": [
+     157.5288,
+     157.4602,
+     160.1145,
+     158.461
+    ]
+   },
+   "message": "R17 courtyard extends 2.20mm past the north edge of block 'canJ7_F'",
+   "ref": "R17",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.2055,
+    "rect": [
+     159.6827,
+     191.6647,
+     162.2684,
+     192.6655
+    ]
+   },
+   "message": "R18 courtyard extends 2.21mm past the south edge of block 'canJ7_F'",
+   "ref": "R18",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "west",
+    "open_sides": [],
+    "outside_mm": 2.1914,
+    "rect": [
+     128.8186,
+     166.7504,
+     129.8194,
+     169.3361
+    ]
+   },
+   "message": "R19 courtyard extends 2.19mm past the west edge of block 'canJ7_F'",
+   "ref": "R19",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "west",
+    "open_sides": [],
+    "outside_mm": 2.2066,
+    "rect": [
+     128.8034,
+     172.8116,
+     129.8042,
+     175.3973
+    ]
+   },
+   "message": "R20 courtyard extends 2.21mm past the west edge of block 'canJ7_F'",
+   "ref": "R20",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "west",
+    "open_sides": [],
+    "outside_mm": 2.2016,
+    "rect": [
+     128.8084,
+     175.644,
+     129.8092,
+     178.2297
+    ]
+   },
+   "message": "R21 courtyard extends 2.20mm past the west edge of block 'canJ7_F'",
+   "ref": "R21",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "east",
+    "open_sides": [],
+    "outside_mm": 3.396,
+    "rect": [
+     164.2052,
+     182.3983,
+     165.206,
+     184.984
+    ]
+   },
+   "message": "R22 courtyard extends 3.40mm past the east edge of block 'canJ7_F'",
+   "ref": "R22",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 2.2096,
+    "rect": [
+     137.9157,
+     191.6688,
+     140.5014,
+     192.6696
+    ]
+   },
+   "message": "R23 courtyard extends 2.21mm past the south edge of block 'canJ7_F'",
+   "ref": "R23",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "east",
+    "open_sides": [],
+    "outside_mm": 9.2204,
+    "rect": [
+     164.2304,
+     169.4214,
+     171.0304,
+     176.2214
+    ]
+   },
+   "message": "U1 courtyard extends 9.22mm past the east edge of block 'canJ7_F'",
+   "ref": "U1",
+   "rule": "zone_containment",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7_F",
+   "expected": {
+    "tolerance_mm": 0.5,
+    "zone": [
+     131.01,
+     159.66,
+     161.81,
+     190.46
+    ]
+   },
+   "measured": {
+    "axis": "west",
+    "open_sides": [],
+    "outside_mm": 8.6474,
+    "rect": [
+     122.3626,
+     182.3729,
+     128.7126,
+     193.2949
+    ]
+   },
+   "message": "U2 courtyard extends 8.65mm past the west edge of block 'canJ7_F'",
+   "ref": "U2",
+   "rule": "zone_containment",
+   "severity": "error"
+  }
+ ]
+}

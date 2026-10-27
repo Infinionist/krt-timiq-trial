@@ -1,0 +1,14 @@
+place_simple: seeds 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 (4 at a time)
+  seed 3: cost 16898.7, 221000 moves in 566.4 s -> /tmp/pcb-trials/timiq/run/s3.kicad_pcb
+  seed 2: cost 17802.8, 221000 moves in 816.4 s -> /tmp/pcb-trials/timiq/run/s2.kicad_pcb
+  seed 1: cost 14230.5, 221000 moves in 819.9 s -> /tmp/pcb-trials/timiq/run/s1.kicad_pcb
+  seed 4: cost 18243.2, 221000 moves in 280.1 s -> /tmp/pcb-trials/timiq/run/s4.kicad_pcb
+  seed 6 (clustered): cost 12148.1, 221000 moves in 249.6 s -> /tmp/pcb-trials/timiq/run/s6.kicad_pcb
+  seed 0: cost 15927.6, 221000 moves in 1075.7 s -> /tmp/pcb-trials/timiq/run/s0.kicad_pcb
+  seed 7 (clustered): cost 11625.7, 221000 moves in 248.2 s -> /tmp/pcb-trials/timiq/run/s7.kicad_pcb
+  seed 8 (clustered): cost 14235.7, 221000 moves in 256.6 s -> /tmp/pcb-trials/timiq/run/s8.kicad_pcb
+  seed 10 (clustered): cost 12713.4, 221000 moves in 257.1 s -> /tmp/pcb-trials/timiq/run/s10.kicad_pcb
+  seed 5: cost 18144.8, 221000 moves in 825.0 s -> /tmp/pcb-trials/timiq/run/s5.kicad_pcb
+  seed 11 (clustered): cost 11104.5, 221000 moves in 483.2 s -> /tmp/pcb-trials/timiq/run/s11.kicad_pcb
+  seed 9 (clustered): cost 12203.4, 221000 moves in 2110.6 s -> /tmp/pcb-trials/timiq/run/s9.kicad_pcb
+place_simple: judge seeds 11, 7, 6, 9, 10, 1 (the 6 legal seeds of lowest cost, buildable and floorplan-clean first) -> /tmp/pcb-trials/timiq/run/judge.json

@@ -1,0 +1,139 @@
+CMD: python3 -X utf8 py_tools/check_floorplan.py /tmp/pcb-trials/timiq/run/fixed.kicad_pcb --intent /tmp/pcb-trials/timiq/run/intent_run.json --allow-unplaced
+ENV KNOBS: KICAD_ROUTE_TRACE=1 KRT_DATASHEET_DIR=/tmp/pcb-trials/timiq/run/datasheets
+check_floorplan: this board does not look PLACED (464 footprints at 464 distinct position(s)).
+  - footprints span 10.0% of the board diagonal
+  - 100% of footprints lie outside the board outline
+  Its poses are not a placement yet: py_placer/place_simple.py places a board from a pile.
+  To see what the file currently contains:  python3 -X utf8 py_tools/render_placement.py <board> -o state.png
+design brief fixed.design-brief.json: 0 interface(s), 0 keep-out(s), 3 tier-0 field(s) not declared
+mechanical declaration /tmp/pcb-trials/timiq/run/mechanical.json: 22 pose(s), 0 edge(s)
+grading at clearance 0.2 (board netclass), edge 0.5 (board constraint)
+  WARNING [placement]: 464 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1, C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, C108, ...
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+Floorplan: fixed.kicad_pcb vs intent_run.json
+  464 footprints, 9 block(s), 464 part(s) covered
+  outline: 1 ring(s), 0 cutout(s), 0 milled contour(s)
+  ALSO NOT FULLY GRADED: 2 budget_abstained, 1 rules_skipped_armed -- the violations below are what WAS measured, not all of it
+  35 error(s), 11 warning(s) from 3 rule(s)
+    [warn ] mechanical_drift: BOX1 is 138.709mm from its declared mechanical pose (124.212, 214.948, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [ERROR] mechanical_drift: D2 is 284.868mm from and turned 90.0 deg from its declared mechanical pose (112.216, 73.438, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: D3 is 283.664mm from and turned 90.0 deg from its declared mechanical pose (118.221, 73.433, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: D4 is 282.548mm from and turned 90.0 deg from its declared mechanical pose (124.220, 73.433, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: D5 is 281.526mm from and turned 90.0 deg from its declared mechanical pose (130.220, 73.433, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: D6 is 276.876mm from and turned 90.0 deg from its declared mechanical pose (112.216, 82.439, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: D7 is 275.576mm from and turned 90.0 deg from its declared mechanical pose (118.216, 82.439, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: D8 is 274.370mm from and turned 90.0 deg from its declared mechanical pose (124.220, 82.439, 270.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [warn ] mechanical_drift: FIX1 is 147.763mm from its declared mechanical pose (256.216, 220.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX2 is 129.659mm from its declared mechanical pose (184.216, 220.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX3 is 149.570mm from its declared mechanical pose (112.216, 220.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX4 is 215.255mm from its declared mechanical pose (112.216, 148.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX5 is 293.667mm from its declared mechanical pose (112.216, 66.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX6 is 283.687mm from its declared mechanical pose (184.216, 66.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX7 is 291.329mm from its declared mechanical pose (256.216, 66.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [warn ] mechanical_drift: FIX8 is 212.087mm from its declared mechanical pose (256.216, 148.440, 0.0) -- fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)
+    [ERROR] mechanical_drift: J1 is 134.567mm from and turned 90.0 deg from its declared mechanical pose (146.286, 223.247, 90.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: J2 is 129.153mm from and turned 90.0 deg from its declared mechanical pose (157.815, 223.250, 90.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: J3 is 131.365mm from and turned 90.0 deg from its declared mechanical pose (210.045, 223.260, 90.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: J4 is 134.524mm from and turned 90.0 deg from its declared mechanical pose (222.065, 223.240, 90.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: J5 is 218.523mm from and turned 90.0 deg from its declared mechanical pose (221.932, 136.332, 90.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [ERROR] mechanical_drift: J6 is 278.556mm from and turned 180.0 deg from its declared mechanical pose (206.435, 73.443, 180.0) -- fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses
+    [warn ] template: templates[0] (U21): 5 of 5 member(s) off the template -- worst C98, a pad 13.01mm from its template position
+    [warn ] template: templates[1] (U22): 5 of 5 member(s) off the template -- worst C99, a pad 13.01mm from its template position
+    [ERROR] zone_containment: BOX1 courtyard extends 128.49mm past the south edge of block 'mech:BOX1' -- the anchor is BOX1's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D2 courtyard extends 274.75mm past the south edge of block 'mech:D2' -- the anchor is D2's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D3 courtyard extends 274.75mm past the south edge of block 'mech:D3' -- the anchor is D3's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D4 courtyard extends 274.75mm past the south edge of block 'mech:D4' -- the anchor is D4's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D5 courtyard extends 274.75mm past the south edge of block 'mech:D5' -- the anchor is D5's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D6 courtyard extends 265.75mm past the south edge of block 'mech:D6' -- the anchor is D6's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D7 courtyard extends 265.75mm past the south edge of block 'mech:D7' -- the anchor is D7's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: D8 courtyard extends 265.75mm past the south edge of block 'mech:D8' -- the anchor is D8's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX1 courtyard extends 129.65mm past the south edge of block 'mech:FIX1' -- the anchor is FIX1's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX2 courtyard extends 129.65mm past the south edge of block 'mech:FIX2' -- the anchor is FIX2's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX3 courtyard extends 129.65mm past the south edge of block 'mech:FIX3' -- the anchor is FIX3's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX4 courtyard extends 201.65mm past the south edge of block 'mech:FIX4' -- the anchor is FIX4's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX5 courtyard extends 283.65mm past the south edge of block 'mech:FIX5' -- the anchor is FIX5's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX6 courtyard extends 283.65mm past the south edge of block 'mech:FIX6' -- the anchor is FIX6's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX7 courtyard extends 283.65mm past the south edge of block 'mech:FIX7' -- the anchor is FIX7's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: FIX8 courtyard extends 201.65mm past the south edge of block 'mech:FIX8' -- the anchor is FIX8's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: J1 courtyard extends 131.89mm past the south edge of block 'mech:J1' -- the anchor is J1's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: J2 courtyard extends 132.63mm past the south edge of block 'mech:J2' -- the anchor is J2's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: J3 courtyard extends 132.61mm past the south edge of block 'mech:J3' -- the anchor is J3's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: J4 courtyard extends 132.63mm past the south edge of block 'mech:J4' -- the anchor is J4's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: J5 courtyard extends 205.78mm past the south edge of block 'mech:J5' -- the anchor is J5's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+    [ERROR] zone_containment: J6 courtyard extends 279.13mm past the south edge of block 'mech:J6' -- the anchor is J6's declared pose in /tmp/pcb-trials/timiq/run/mechanical.json
+  pad stacks: 4869 (two parts' pad copper overlapping, any net -- check_assembly's pad_intersection, exact; printed, not a floorplan rule) -- check_assembly grades these NOT BUILDABLE
+    BOX1 <-> J7  3.8000mm2  side -
+    BOX1 <-> J8  3.8000mm2  side -
+    BOX1 <-> J9  3.8000mm2  side -
+    C1 <-> C101  0.3705mm2  side B
+    C1 <-> C118  0.0688mm2  side B
+    ... 4864 more
+  templates[0] U21: 5 of 5 member(s) off, worst C98 13.01mm
+  templates[1] U22: 5 of 5 member(s) off, worst C99 13.01mm
+  2 declared value(s) NOT DERIVABLE -- not graded, not passed:
+    - oob_count: the board is a pile: its off-board count is staging, not a baseline (#1103)
+    - overlap_area: the board is a pile: its overlap is staging, not a baseline (#1103)
+  16 rule(s) did not run:
+    - array_formation: the intent declares no arrays
+    - cover: the intent declares no covers
+    - decap_distance: the intent declares no decaps.max_distance_mm
+    - decap_pin_distance: the intent declares no decaps.max_pin_distance_mm
+    - decap_ungraded: the intent declares no decaps.max_distance_mm
+    - edge_connector: the intent declares no edge_connectors
+    - keep_away: the intent declares no keep_away rules
+    - keepout: the intent declares no keepouts
+    - legality: the intent declares no legality_budget; the emitter WITHHELD oob_count (the board is a pile: its off-board count is staging, not a baseline (#1103)), overlap_area (the board is a pile: its overlap is staging, not a baseline (#1103))
+    - must_lock: the intent declares no must_lock patterns
+    - pins_to_edge: the intent declares no edge_connectors
+    - proximity: the intent declares no proximity claims
+    - replicate: the intent declares no replicate copies
+    - zone_containment: no block declares a zone
+    - zone_exclusive: no block is marked exclusive
+    - zone_side: no block declares a side
+  rule roster: 3 armed, 16 not; 4 rule(s) owe a written answer
+    [OWED] zone_containment: no block declares a zone
+    [OWED] zone_side: no block declares a side
+    [policy] zone_exclusive: a policy about who may enter a zone; nothing on the board says that a zone is reserved
+    [not applicable] keepout: nothing declares a keep-out: the brief (if any) names none, and the board file has none this intent can grade
+    [not applicable] edge_connector: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [OWED] decap_distance: the intent declares no decaps.max_distance_mm
+    [advisory] decap_ungraded: the intent declares no decaps.max_distance_mm
+    [advisory] decap_pin_distance: the intent declares no decaps.max_pin_distance_mm
+    [policy] proximity: a design relation between two named parts; nothing on the board, and nothing in a design brief, says which parts must be near which
+    [policy] keep_away: a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive
+    [not applicable] must_lock: must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing
+    [OWED] legality: the intent declares no legality_budget
+    [not applicable] pins_to_edge: no part classifies as an edge receptacle or actuator, so nothing has an edge to claim
+    [policy] array_formation: a design decision about which parts form one row; nothing on the board says which identical parts belong together
+    [policy] replicate: a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike
+    [policy] cover: a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches
+    OWED: zone_containment: dark -- no block declares a zone. It applies here (every movable block can be given a zone). Arm it with `blocks[].zone` if the design has that requirement, or write why it does not: dispositions.rules.zone_containment
+    OWED: zone_side: dark -- no block declares a side. It applies here (the board carries parts on both faces). Arm it with `blocks[].side` if the design has that requirement, or write why it does not: dispositions.rules.zone_side
+    OWED: decap_distance: dark -- the intent declares no decaps.max_distance_mm. It applies here (122 decoupling cap(s) share a rail with an IC). Arm it with `decaps.max_distance_mm` if the design has that requirement, or write why it does not: dispositions.rules.decap_distance
+    OWED: legality: dark -- the intent declares no legality_budget. It applies here (every placement has a legality to measure). Arm it with `legality_budget` if the design has that requirement, or write why it does not: dispositions.rules.legality
+  DRIFT BOX1:pose: mechanical (124.2124, 214.9478, 0.0) [recorded_fact]; board (176.462, 343.44, 0.0) [inferred] -> mechanical wins
+  DRIFT D2:pose: mechanical (112.216, 73.4378, 270.0) [recorded_fact]; board (180.1544, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT D3:pose: mechanical (118.2206, 73.4327, 270.0) [recorded_fact]; board (180.8928, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT D4:pose: mechanical (124.2201, 73.4327, 270.0) [recorded_fact]; board (181.6313, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT D5:pose: mechanical (130.2196, 73.4327, 270.0) [recorded_fact]; board (182.3698, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT D6:pose: mechanical (112.216, 82.4395, 270.0) [recorded_fact]; board (183.1083, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT D7:pose: mechanical (118.2155, 82.4395, 270.0) [recorded_fact]; board (183.8468, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT D8:pose: mechanical (124.2201, 82.4395, 270.0) [recorded_fact]; board (184.5852, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX1:pose: mechanical (256.216, 220.44, 0.0) [recorded_fact]; board (185.3237, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX2:pose: mechanical (184.216, 220.44, 0.0) [recorded_fact]; board (186.0622, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX3:pose: mechanical (112.216, 220.44, 0.0) [recorded_fact]; board (186.8007, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX4:pose: mechanical (112.216, 148.44, 0.0) [recorded_fact]; board (187.5392, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX5:pose: mechanical (112.216, 66.44, 0.0) [recorded_fact]; board (188.2776, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX6:pose: mechanical (184.216, 66.44, 0.0) [recorded_fact]; board (189.0161, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX7:pose: mechanical (256.216, 66.44, 0.0) [recorded_fact]; board (189.7546, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT FIX8:pose: mechanical (256.216, 148.44, 0.0) [recorded_fact]; board (190.4931, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT J1:pose: mechanical (146.2857, 223.247, 90.0) [recorded_fact]; board (191.2316, 350.0863, 0.0) [inferred] -> mechanical wins
+  DRIFT J2:pose: mechanical (157.8147, 223.2495, 90.0) [recorded_fact]; board (177.9389, 350.8248, 0.0) [inferred] -> mechanical wins
+  DRIFT J3:pose: mechanical (210.045, 223.26, 90.0) [recorded_fact]; board (178.6774, 350.8248, 0.0) [inferred] -> mechanical wins
+  DRIFT J4:pose: mechanical (222.065, 223.24, 90.0) [recorded_fact]; board (179.4159, 350.8248, 0.0) [inferred] -> mechanical wins
+  DRIFT J5:pose: mechanical (221.9318, 136.3324, 90.0) [recorded_fact]; board (180.1544, 350.8248, 0.0) [inferred] -> mechanical wins
+  DRIFT J6:pose: mechanical (206.4348, 73.4428, 180.0) [recorded_fact]; board (180.8928, 350.8248, 0.0) [inferred] -> mechanical wins
+JSON_SUMMARY: {"blocks": 9, "blocks_resolved": 9, "board": "fixed.kicad_pcb", "brief": "/tmp/pcb-trials/timiq/run/fixed.design-brief.json", "brief_absent": 3, "brief_declared": 0, "brief_drift": 0, "brief_unknown": 0, "brief_unknown_keys": [], "budget_abstained": 2, "budget_abstained_keys": ["oob_count", "overlap_area"], "budget_dispositioned": 0, "carried_facts": [], "clearance_used": {"source": "board netclass", "value": 0.2}, "complete": false, "contradiction_ids": [], "contradictions": 0, "contradictions_undispositioned": [], "cutouts": 0, "decap_pins_by_channel": {}, "decap_pins_graded": 0, "derived_default_clauses": [], "edge_clearance_used": {"source": "board constraint", "value": 0.5}, "edge_contours": 0, "edge_seating_abstained": 0, "edge_seating_declared": 0, "edge_seating_rows": 0, "edge_seating_worst_offset_pct": null, "errors": 35, "hole_shortfall": 178.2155, "hpwl": 4965.7529, "intent": "intent_run.json", "keep_away_unpriced": 0, "keepout_pad_amount": 0.0, "keepout_pad_parts": 0, "ledger_status": {"advisory": 2, "dark": 4, "graded_fail": 22, "graded_pass": 3, "inapplicable": 4, "policy": 6}, "locked_contact_pairs": 0, "mechanical": "/tmp/pcb-trials/timiq/run/mechanical.json", "not_graded": {"budget_abstained": 2, "rules_skipped_armed": 1}, "oob_amount": 59792.0258, "oob_area": 23926.8903, "oob_count": 464, "overlap_area": 30335.8932, "pad_conflict_pairs": 5254, "pad_intersection_pairs": 5003, "pad_overlap_pairs": 4608, "pad_shortfall": 6591.9674, "pad_stack_count": 4869, "parts_covered": 464, "parts_total": 464, "pass": false, "rules_dark_undispositioned": ["zone_containment", "zone_side", "decap_distance", "legality"], "rules_run": 3, "rules_skipped": 16, "stale_dispositions": [], "state_duplicate_fraction": 0.0, "state_has_copper": false, "state_outside_fraction": 1.0, "state_partially_unplaced": false, "state_spread_ratio": 0.1, "state_unplaced": true, "unmeasured_facts": [], "violations": 46, "violations_by_rule": {"mechanical_drift": 22, "template": 2, "zone_containment": 22}, "warnings": 11}
+  NOT FULLY GRADED: 2 budget_abstained, 1 rules_skipped_armed. A channel the intent asked for was never measured, so this is an absent verdict, not a clean one.
+EXIT=4

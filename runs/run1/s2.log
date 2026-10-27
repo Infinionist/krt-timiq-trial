@@ -1,0 +1,173 @@
+Modified 22 footprint positions
+Successfully wrote /tmp/place_simple_qiq_h6cd/fixed.kicad_pcb
+  NOTE: at their declared pose or face: BOX1 at (124.212, 214.948) 0, D2 at (112.216, 73.4378) 270, D3 at (118.221, 73.4327) 270, D4 at (124.22, 73.4327) 270, D5 at (130.22, 73.4327) 270, D6 at (112.216, 82.4395) 270, D7 at (118.216, 82.4395) 270, D8 at (124.22, 82.4395) 270, FIX1 at (256.216, 220.44) 0, FIX2 at (184.216, 220.44) 0, FIX3 at (112.216, 220.44) 0, FIX4 at (112.216, 148.44) 0, FIX5 at (112.216, 66.44) 0, FIX6 at (184.216, 66.44) 0, FIX7 at (256.216, 66.44) 0, FIX8 at (256.216, 148.44) 0, J1 at (146.286, 223.247) 90, J2 at (157.815, 223.25) 90, J3 at (210.045, 223.26) 90, J4 at (222.065, 223.24) 90, J5 at (221.932, 136.332) 90, J6 at (206.435, 73.4428) 180
+  WARNING [placement]: 1 footprint(s) have no courtyard (F/B.CrtYd) and fall back to their pad bounding box, which carries no courtyard margin: BOX1
+  NOTE [placement]: 463 footprint(s) draw no courtyard and are seated on an ESTIMATED one, what they occupy (body and pads, #1300) -- pad_bbox: FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8; silk: C1, C10, C100, C101, C102, C103, C104, C105, C106, C107, ...
+  container footprint(s) (>= 50% of the board, a pin frame or an outline -- frame, not body): BOX1 (pin_frame)
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+  NOTE: template U21: L8, C98, L10, C108, R103 seated as drawn and carried with it
+  NOTE: template U22: L9, C99, L11, C109, R105 seated as drawn and carried with it
+  NOTE: decap C1 on 3V3_1 serves U1, U2
+  NOTE: decap C114 on 5V_2 serves U28, U29, U30
+  NOTE: decap C115 on -5V serves U28
+  NOTE: decap C116 on 3V3_2 serves U29
+  NOTE: decap C117 on 5V_2 serves U28, U29, U30
+  NOTE: decap C118 on 5V_2 serves U28, U29, U30
+  NOTE: decap C119 on 5V_2 serves U28, U29, U30
+  NOTE: decap C123 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C124 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C125 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C126 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C127 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C128 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C129 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C130 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C131 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C132 on 5V_2 serves U33
+  NOTE: decap C133 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C134 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C135 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C136 on 5V_1 serves U36, U37
+  NOTE: decap C137 on 3V3_2 serves U31, U32, U34, U35, U38
+  NOTE: decap C138 on 5V_1 serves U36, U37
+  NOTE: decap C139 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C140 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C146 on 5V_1 serves U39
+  NOTE: decap C147 on 5V_2 serves U40
+  NOTE: decap C151 on 5V_1 serves U39
+  NOTE: decap C152 on 5V_2 serves U40
+  NOTE: decap C153 on 5V_1 serves U39
+  NOTE: decap C154 on 5V_2 serves U40
+  NOTE: decap C158 on 5V_1 serves U39
+  NOTE: decap C159 on 5V_2 serves U40
+  NOTE: decap C160 on 5V_1 serves U39
+  NOTE: decap C161 on 5V_2 serves U40
+  NOTE: decap C165 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C166 on 7V5 serves U39, U40, U41, U42
+  NOTE: decap C167 on 24V serves U43
+  NOTE: decap C168 on -24V serves U44, U45
+  NOTE: decap C169 on -24V serves U44, U45
+  NOTE: decap C175 on 3V3_1 serves U41
+  NOTE: decap C176 on 3V3_2 serves U42
+  NOTE: decap C177 on 15V serves U43
+  NOTE: decap C180 on 3V3_1 serves U41
+  NOTE: decap C181 on 3V3_2 serves U42
+  NOTE: decap C182 on 15V serves U43
+  NOTE: decap C183 on 3V3_1 serves U41
+  NOTE: decap C184 on 3V3_2 serves U42
+  NOTE: decap C185 on 15V serves U43
+  NOTE: decap C186 on -5V serves U44
+  NOTE: decap C187 on -15V serves U45
+  NOTE: decap C188 on 3V3_1 serves U41
+  NOTE: decap C189 on 3V3_2 serves U42
+  NOTE: decap C190 on 15V serves U43
+  NOTE: decap C191 on -5V serves U44
+  NOTE: decap C192 on -15V serves U45
+  NOTE: decap C193 on 3V3_1 serves U41
+  NOTE: decap C194 on 3V3_2 serves U42
+  NOTE: decap C195 on 15V serves U43
+  NOTE: decap C196 on -5V serves U44
+  NOTE: decap C197 on -15V serves U45
+  NOTE: decap C198 on -5V serves U44
+  NOTE: decap C199 on -15V serves U45
+  NOTE: decap C200 on -5V serves U44
+  NOTE: decap C201 on -15V serves U45
+  NOTE: decap C21 on 3V3_1 serves U1, U2
+  NOTE: decap C26 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C29 on 15V serves U10, U11, U5, U6
+  NOTE: decap C30 on 15V serves U10, U11, U5, U6
+  NOTE: decap C31 on -15V serves U10, U11, U5, U6
+  NOTE: decap C32 on -15V serves U10, U11, U5, U6
+  NOTE: decap C35 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C36 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C39 on -5V serves U7, U8, U9
+  NOTE: decap C4 on 3V3_1 serves U1, U2
+  NOTE: decap C40 on -5V serves U7, U8, U9
+  NOTE: decap C41 on 5V_2 serves U4, U7, U8, U9
+  NOTE: decap C44 on -5V serves U7, U8, U9
+  NOTE: decap C45 on 15V serves U10, U11, U5, U6
+  NOTE: decap C46 on 15V serves U10, U11, U5, U6
+  NOTE: decap C49 on -15V serves U10, U11, U5, U6
+  NOTE: decap C50 on -15V serves U10, U11, U5, U6
+  NOTE: decap C51 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C52 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C59 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C6 on 3V3_1 serves U1, U2
+  NOTE: decap C60 on 5V_2 serves U12, U13, U14, U15
+  NOTE: decap C61 on -5V serves U14, U15
+  NOTE: decap C62 on -5V serves U14, U15
+  NOTE: decap C65 on 5V_2 serves U16
+  NOTE: decap C66 on 5V_2 serves U16
+  NOTE: decap C67 on 5V_2 serves U16
+  NOTE: decap C68 on 5V_2 serves U16
+  NOTE: decap C69 on 5V_2 serves U16
+  NOTE: decap C71 on 5V_2 serves U16
+  NOTE: decap C74 on 5V_1 serves U18, U19, U20
+  NOTE: decap C75 on 5V_1 serves U18, U19, U20
+  NOTE: decap C76 on 5V_1 serves U18, U19, U20
+  NOTE: decap C77 on 5V_1 serves U18, U19, U20
+  NOTE: decap C78 on 5V_1 serves U18, U19, U20
+  NOTE: decap C79 on 5V_1 serves U18, U19, U20
+  NOTE: decap C8 on 3V3_1 serves U1, U2
+  NOTE: decap C82 on 5V_1 serves U18, U19, U20
+  NOTE: decap C83 on 5V_1 serves U18, U19, U20
+  NOTE: decap C84 on 5V_1 serves U18, U19, U20
+  NOTE: decap C85 on 5V_1 serves U18, U19, U20
+  NOTE: decap C86 on 5V_1 serves U18, U19, U20
+  NOTE: decap C87 on 5V_1 serves U18, U19, U20
+  NOTE: decap C90 on 5V_1 serves U18, U19, U20
+  NOTE: decap C91 on 5V_1 serves U18, U19, U20
+  NOTE: decap C92 on 5V_1 serves U18, U19, U20
+  NOTE: decap C93 on 5V_1 serves U18, U19, U20
+  NOTE: decap C94 on 5V_1 serves U18, U19, U20
+  NOTE: decap C95 on 5V_1 serves U18, U19, U20
+place_simple: 442 movable part(s), fixed: BOX1, D2, D3, D4, D5, D6, D7, D8, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6
+  group pll: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, C20, C21, C22, C23, C24, C25, C3, C4, C5, C6, C7, C8, C9, D1, J1, J2, L1, L2, L3, L4, L5, L6, L7, Q1, R1, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R2, R20, R21, R22, R23, R3, R4, R5, R6, R7, R8, R9, U1, U2, U3
+  group mixers: C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C98, C99, L10, L11, L8, L9, R100, R101, R102, R103, R104, R105, R106, R107, R108, U21, U22, U23, U24, U25, U26, U27
+  group adc: C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30
+  group digital: C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, J5, R128, R129, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R150, R151, R152, R153, U31, U32, U33, U34, U35, U36, U37, U38
+  group ldo_pos: C139, C140, C141, C142, C146, C147, C151, C152, C153, C154, C158, C159, C160, C161, C165, C166, C167, C170, C171, C172, C175, C176, C177, C180, C181, C182, C183, C184, C185, C188, C189, C190, C193, C194, C195, R154, R155, R160, R161, R162, U39, U40, U41, U42, U43
+  group power_in: C143, C144, C145, C148, C149, C150, C155, C156, C157, C162, C163, C164, J6, L12, L13, L14, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9
+  group ldo_neg: C168, C169, C173, C174, C178, C179, C186, C187, C191, C192, C196, C197, C198, C199, C200, C201, R156, R157, R158, R159, R163, R164, U44, U45
+  group dac: C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, U10, U11, U4, U5, U6, U7, U8, U9
+  group dac_if: C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U12, U13, U14, U15
+  group iqmod: C63, C64, C65, C66, C67, C68, C69, C70, C71, R70, R71, R72, R73, U16, U17
+  group dividers: C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C97, J3, J4, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20
+  group shields: J10, J11, J12, J7, J8, J9
+  move  22100: T  16.602 lam     2.5 reach 21.47 cost 27344.4 overlap 636.34 mm2 best     inf accepted 0.34
+  move  44200: T   7.867 lam     6.3 reach 16.96 cost 21369.1 overlap 329.53 mm2 best     inf accepted 0.21
+  move  66300: T   3.728 lam    15.8 reach 12.99 cost 19611.5 overlap 150.32 mm2 best     inf accepted 0.12
+  move  88400: T   1.767 lam    39.8 reach  9.54 cost 18700.2 overlap 106.06 mm2 best     inf accepted 0.07
+  move 110500: T   0.837 lam   100.0 reach  6.63 cost 18727.5 overlap  82.31 mm2 best     inf accepted 0.05
+  move 132600: T   0.397 lam   251.2 reach  4.24 cost 18143.5 overlap  81.72 mm2 best     inf accepted 0.03
+  move 154700: T   0.188 lam   630.9 reach  2.39 cost 17804.9 overlap  79.08 mm2 best     inf accepted 0.03
+  move 176800: T   0.089 lam  1584.8 reach  1.06 cost 18419.0 overlap  76.10 mm2 best     inf accepted 0.03
+  move 198900: T   0.042 lam  3980.9 reach  0.27 cost 17992.9 overlap  75.89 mm2 best     inf accepted 0.05
+  move 221000: T   0.020 lam  9999.6 reach  0.10 cost 17821.9 overlap  75.82 mm2 best     inf accepted 0.08
+  NOTE: run 1 left no legal pose for J12, J8; annealing again from a fresh start
+  move  22100: T  18.326 lam     2.5 reach 21.47 cost 29064.4 overlap 1041.87 mm2 best     inf accepted 0.35
+  move  44200: T   8.589 lam     6.3 reach 16.96 cost 21553.2 overlap 327.11 mm2 best     inf accepted 0.23
+  move  66300: T   4.026 lam    15.8 reach 12.99 cost 19955.9 overlap 121.72 mm2 best     inf accepted 0.14
+  move 110500: T   0.884 lam   100.0 reach  6.63 cost 18816.9 overlap  44.09 mm2 best     inf accepted 0.07
+  move 132600: T   0.414 lam   251.2 reach  4.24 cost 18416.2 overlap  42.54 mm2 best     inf accepted 0.04
+  move 154700: T   0.194 lam   630.9 reach  2.39 cost 17992.4 overlap  42.19 mm2 best     inf accepted 0.04
+  move 176800: T   0.091 lam  1584.8 reach  1.06 cost 17624.6 overlap  42.00 mm2 best     inf accepted 0.03
+  move 198900: T   0.043 lam  3980.9 reach  0.27 cost 17313.7 overlap  42.00 mm2 best     inf accepted 0.05
+  NOTE: run 2 left no legal pose for J10, J11; annealing again from a fresh start
+  move  22100: T  15.422 lam     2.5 reach 21.47 cost 26935.6 overlap 1008.19 mm2 best     inf accepted 0.32
+  move  44200: T   7.368 lam     6.3 reach 16.96 cost 21994.7 overlap 383.88 mm2 best     inf accepted 0.20
+  move  66300: T   3.520 lam    15.8 reach 12.99 cost 20284.1 overlap 167.91 mm2 best     inf accepted 0.11
+  move  88400: T   1.682 lam    39.8 reach  9.54 cost 19787.8 overlap  76.48 mm2 best     inf accepted 0.07
+  move 110500: T   0.804 lam   100.0 reach  6.63 cost 19335.5 overlap  57.35 mm2 best     inf accepted 0.05
+  move 132600: T   0.384 lam   251.2 reach  4.24 cost 18927.5 overlap  52.02 mm2 best     inf accepted 0.04
+  move 154700: T   0.183 lam   630.9 reach  2.39 cost 18594.6 overlap  50.75 mm2 best     inf accepted 0.03
+  move 176800: T   0.088 lam  1584.8 reach  1.06 cost 18242.3 overlap  50.73 mm2 best     inf accepted 0.03
+  move 198900: T   0.042 lam  3980.9 reach  0.27 cost 17924.8 overlap  50.73 mm2 best     inf accepted 0.05
+  move 221000: T   0.020 lam  9999.6 reach  0.10 cost 17802.8 overlap  50.73 mm2 best     inf accepted 0.08
+place_simple: annealed 221000 moves in 816.4 s; cost 17802.8 (wire 9573.7 mm, 1094 crossings, claims 0.0, decaps 588.1, template 0.0 mm, halo 51.55, pad hits 496, congestion 5.84, groups 745.5: pll 112.9, mixers 17.9, adc 64.6, digital 42.1, ldo_pos 85.0, power_in 105.3, ldo_neg 127.0, dac 77.2, dac_if 10.2, iqmod 1.1, dividers 90.5, shields 11.8, hints 64.3: near:iqmod:pll 8.1, near:mixers:pll 0.4, near:iqmod:mixers 0.7, near:adc:mixers 0.4, near:adc:digital 52.6, near:dac:digital 0.4, near:ldo_neg:power_in 0.4, near:dac:dac_if 1.3)
+  template drift (worst pad, mm): L8 0.00, C98 0.00, L10 0.00, C108 0.00, R103 0.00, L9 0.00, C99 0.00, L11 0.00, C109 0.00, R105 0.00
+Modified 442 footprint positions
+Successfully wrote /tmp/pcb-trials/timiq/run/s2.kicad_pcb
+  floorplan: no error (check_floorplan --intent)
+  assembly: buildable (check_assembly --baseline)
+JSON_SUMMARY: {"final": {"wire": 9573.72588344, "crossings": 1094, "claims": 0, "decaps": 588.145461391064, "groups": 745.5300679974363, "hints": 64.29444228909603, "halo": 51.54649499001842, "congestion": 5.836820006128926, "pad_hits": 496.0, "decap_limits": 0.0, "decap_broken": 0, "claim_limits": 0, "claim_broken": 0, "template": 0.001216463727358346, "cost": 17802.813829891806}, "moves": 221000, "seed": 2, "start": "scattered", "reseated": [], "illegal": [], "tight": {}, "refused": {}, "oversubscribed": [], "claim_arity": [], "floorplan": {"errors": 0, "rules": []}, "assembly": {"blocking": 0, "buildable": true, "fired": []}, "bga_field": [], "template_off": [], "decap_residual": [], "hints_saturated": [], "estimate_fallback": [], "faces": {"flippable": [], "needed": {}, "needed_kept": null}, "seconds": {"setup": 1.8, "anneal": 816.4}}

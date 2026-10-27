@@ -1,0 +1,2 @@
+python3 -X utf8 py_router/route_diff.py {in} {out} --nets '/TOP/DAC Interface/I_*' '/TOP/DAC Interface/Q_*' --layers F.Cu In1.Cu In2.Cu In3.Cu In4.Cu In5.Cu In6.Cu B.Cu --layer-costs 1.0 3.0 2.5 2.5 3.0 2.5 3.0 1.0
+python3 -X utf8 py_router/route.py {in} {out} --nets '*' --power-nets GND 7V5 24V -24V 5V_2 5V_1 -5V 3V3_1 3V3_2 15V -15V --power-nets-widths 0.4 0.8 0.7 0.7 0.6 0.8 0.5 0.5 0.7 0.7 0.7 --layers F.Cu In1.Cu In2.Cu In3.Cu In4.Cu In5.Cu In6.Cu B.Cu --layer-costs 1.0 3.0 2.5 2.5 3.0 2.5 3.0 1.0 --json-out {dir}/route.json

@@ -1,0 +1,744 @@
+{
+ "verdict": "PASS",
+ "limit": 0.65,
+ "rows_before": [
+  {
+   "name": "canJ7",
+   "kind": "can",
+   "n": 52,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 723.3,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.762,
+   "fill_F": 0.762,
+   "fill_B": 0.0,
+   "fill": 0.762,
+   "limit": 0.65,
+   "status": "FAIL",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ8",
+   "kind": "can",
+   "n": 53,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 728.1,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.768,
+   "fill_F": 0.768,
+   "fill_B": 0.0,
+   "fill": 0.768,
+   "limit": 0.65,
+   "status": "FAIL",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ9",
+   "kind": "can",
+   "n": 44,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 603.7,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.636,
+   "fill_F": 0.636,
+   "fill_B": 0.0,
+   "fill": 0.636,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ10",
+   "kind": "can",
+   "n": 47,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 547.5,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.577,
+   "fill_F": 0.577,
+   "fill_B": 0.0,
+   "fill": 0.577,
+   "limit": 0.65,
+   "status": "TIGHT",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ11",
+   "kind": "can",
+   "n": 35,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 437.3,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.461,
+   "fill_F": 0.461,
+   "fill_B": 0.0,
+   "fill": 0.461,
+   "limit": 0.65,
+   "status": "ok",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "canJ12",
+   "kind": "can",
+   "n": 51,
+   "zone_mm2": 948.6,
+   "usable_F_mm2": 948.6,
+   "usable_B_mm2": 948.6,
+   "load_F_mm2": 750.3,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.791,
+   "fill_F": 0.791,
+   "fill_B": 0.0,
+   "fill": 0.791,
+   "limit": 0.65,
+   "status": "FAIL",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "power_strip",
+   "kind": "power",
+   "n": 75,
+   "zone_mm2": 4389.8,
+   "usable_F_mm2": 3929.4,
+   "usable_B_mm2": 4208.1,
+   "load_F_mm2": 2007.1,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.511,
+   "fill_F": 0.511,
+   "fill_B": 0.0,
+   "fill": 0.511,
+   "limit": 0.65,
+   "status": "ok",
+   "face": "F",
+   "missing": []
+  },
+  {
+   "name": "free (everything outside the cans)",
+   "kind": "free",
+   "n": 154,
+   "zone_mm2": 0.0,
+   "usable_F_mm2": 13954.1,
+   "usable_B_mm2": 15151.6,
+   "load_F_mm2": 3460.9,
+   "load_B_mm2": 0.0,
+   "flex_mm2": 0.0,
+   "n_flex": 0,
+   "fill_F0": 0.248,
+   "fill_F": 0.248,
+   "fill_B": 0.0,
+   "fill": 0.248,
+   "limit": 0.65,
+   "status": "ok",
+   "face": "F",
+   "missing": []
+  }
+ ],
+ "plans": {
+  "J7": {
+   "picks": [
+    "C1",
+    "C21",
+    "C4",
+    "C6",
+    "C8",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C2"
+   ],
+   "F0": 0.762,
+   "F": 0.648,
+   "B": 0.115,
+   "shortfall_mm2": 0.0,
+   "eligible": 40,
+   "ineligible": {
+    "C3": "RF-path part: victim net of the keep_away rules (Net-(C3-Pad2)); victim net of the keep_away rules (/TOP/PLL/PLL_IN)",
+    "C16": "RF-path part: victim net of the keep_away rules (/TOP/PLL/PLL_OUT)",
+    "C17": "RF-path part: net of R13, a part of an ordered RF chain / RF front end",
+    "C18": "RF-path part: net of R13, a part of an ordered RF chain / RF front end",
+    "C19": "RF-path part: series closure through R15 from Net-(C18-Pad1)",
+    "C22": "RF-path part: series closure through R15 from Net-(C18-Pad1)",
+    "C25": "RF-path part: series closure through R15 from Net-(C18-Pad1)",
+    "R8": "RF-path part: victim net of the keep_away rules (Net-(C3-Pad2))",
+    "R13": "RF-path part: net of R13, a part of an ordered RF chain / RF front end",
+    "R15": "RF-path part: net of R13, a part of an ordered RF chain / RF front end; series closure through R15 from Net-(C18-Pad1)",
+    "U1": "an IC stays on the front",
+    "U2": "an IC stays on the front"
+   }
+  },
+  "J8": {
+   "picks": [
+    "C104",
+    "C106",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C71",
+    "C64",
+    "R108",
+    "R14",
+    "R71",
+    "R72"
+   ],
+   "F0": 0.768,
+   "F": 0.643,
+   "B": 0.125,
+   "shortfall_mm2": 0.0,
+   "eligible": 13,
+   "ineligible": {
+    "C20": "RF-path part: victim net of the keep_away rules (Net-(C20-Pad1)); victim net of the keep_away rules (Net-(C20-Pad2))",
+    "C63": "RF-path part: victim net of the keep_away rules (/TOP/IQ modulator/PLLout1); net of C63, a part of an ordered RF chain / RF front end",
+    "C70": "RF-path part: net of C70, a part of an ordered RF chain / RF front end",
+    "C98": "RF-path part: victim net of the keep_away rules (/TOP/Frequency mixers/PLLout0); net of C98, a part of an ordered RF chain / RF front end",
+    "C99": "RF-path part: net of C99, a part of an ordered RF chain / RF front end",
+    "C100": "RF-path part: net of C100, a part of an ordered RF chain / RF front end",
+    "C101": "RF-path part: net of C101, a part of an ordered RF chain / RF front end",
+    "C102": "RF-path part: net of C102, a part of an ordered RF chain / RF front end",
+    "C103": "RF-path part: net of C103, a part of an ordered RF chain / RF front end",
+    "C105": "RF-path part: net of C105, a part of an ordered RF chain / RF front end",
+    "C107": "RF-path part: net of C107, a part of an ordered RF chain / RF front end",
+    "C108": "RF-path part: net of C108, a part of an ordered RF chain / RF front end",
+    "C109": "RF-path part: net of C109, a part of an ordered RF chain / RF front end",
+    "L8": "class L is not a small passive (R, C, FB)",
+    "L9": "class L is not a small passive (R, C, FB)",
+    "L10": "class L is not a small passive (R, C, FB)",
+    "L11": "class L is not a small passive (R, C, FB)",
+    "R16": "RF-path part: victim net of the keep_away rules (Net-(C20-Pad2))",
+    "R17": "RF-path part: victim net of the keep_away rules (Net-(C20-Pad2))",
+    "R70": "RF-path part: victim net of the keep_away rules (/TOP/IQ modulator/PLLout1)",
+    "R73": "RF-path part: net of C70, a part of an ordered RF chain / RF front end",
+    "R100": "RF-path part: victim net of the keep_away rules (/TOP/Frequency mixers/PLLout0)",
+    "R101": "RF-path part: net of C99, a part of an ordered RF chain / RF front end",
+    "R102": "RF-path part: net of C100, a part of an ordered RF chain / RF front end",
+    "R103": "RF-path part: net of C100, a part of an ordered RF chain / RF front end; net of C101, a part of an ordered RF chain / RF front end",
+    "R104": "RF-path part: net of C102, a part of an ordered RF chain / RF front end",
+    "R105": "RF-path part: net of C102, a part of an ordered RF chain / RF front end; net of C103, a part of an ordered RF chain / RF front end",
+    "R106": "RF-path part: net of C105, a part of an ordered RF chain / RF front end",
+    "R107": "RF-path part: net of C107, a part of an ordered RF chain / RF front end",
+    "R165": "RF-path part: victim net of the keep_away rules (Net-(C20-Pad1))",
+    "U3": "an IC stays on the front",
+    "U16": "an IC stays on the front",
+    "U17": "an IC stays on the front",
+    "U21": "an IC stays on the front",
+    "U22": "an IC stays on the front",
+    "U23": "an IC stays on the front",
+    "U24": "an IC stays on the front",
+    "U25": "an IC stays on the front",
+    "U26": "an IC stays on the front",
+    "U27": "an IC stays on the front"
+   }
+  },
+  "J9": {
+   "picks": [],
+   "F0": 0.636,
+   "F": 0.636,
+   "B": 0.0,
+   "shortfall_mm2": 0.0,
+   "eligible": null,
+   "ineligible": {}
+  },
+  "J10": {
+   "picks": [],
+   "F0": 0.577,
+   "F": 0.577,
+   "B": 0.0,
+   "shortfall_mm2": 0.0,
+   "eligible": null,
+   "ineligible": {}
+  },
+  "J11": {
+   "picks": [],
+   "F0": 0.461,
+   "F": 0.461,
+   "B": 0.0,
+   "shortfall_mm2": 0.0,
+   "eligible": null,
+   "ineligible": {}
+  },
+  "J12": {
+   "picks": [
+    "C26",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C35",
+    "C36",
+    "C39",
+    "C40",
+    "C41",
+    "C44",
+    "C27",
+    "C28",
+    "C33",
+    "C34"
+   ],
+   "F0": 0.791,
+   "F": 0.647,
+   "B": 0.144,
+   "shortfall_mm2": 0.0,
+   "eligible": 37,
+   "ineligible": {
+    "C42": "RF-path part: series closure through R54 from /TOP/DAC Interface/DAC_I; series closure through C42 from Net-(C42-Pad2)",
+    "C43": "RF-path part: series closure through R55 from /TOP/DAC Interface/DAC_Q; series closure through C43 from Net-(C43-Pad2)",
+    "R38": "RF-path part: series closure through C42 from Net-(C42-Pad2); series closure through R38 from Net-(C42-Pad1)",
+    "R39": "RF-path part: series closure through C43 from Net-(C43-Pad2); series closure through R39 from Net-(C43-Pad1)",
+    "R40": "RF-path part: series closure through C42 from Net-(C42-Pad2)",
+    "R41": "RF-path part: series closure through C43 from Net-(C43-Pad2)",
+    "R48": "RF-path part: series closure through R54 from /TOP/DAC Interface/DAC_I; series closure through C42 from Net-(C42-Pad2)",
+    "R49": "RF-path part: series closure through R55 from /TOP/DAC Interface/DAC_Q; series closure through C43 from Net-(C43-Pad2)",
+    "U4": "an IC stays on the front",
+    "U5": "an IC stays on the front",
+    "U6": "an IC stays on the front",
+    "U7": "an IC stays on the front",
+    "U8": "an IC stays on the front",
+    "U9": "an IC stays on the front"
+   }
+  }
+ },
+ "flippable_other": {},
+ "shortfall_mm2": {},
+ "rf_path": {
+  "rule": "faces_v5.py docstring",
+  "nets": [
+   "/TOP/DAC Interface/DAC_I",
+   "/TOP/DAC Interface/DAC_Q",
+   "/TOP/Frequency mixers/IQout0",
+   "/TOP/Frequency mixers/PLLout0",
+   "/TOP/IQ modulator/PLLout1",
+   "/TOP/PLL/PLL_IN",
+   "/TOP/PLL/PLL_OUT",
+   "Net-(C100-Pad1)",
+   "Net-(C101-Pad1)",
+   "Net-(C102-Pad1)",
+   "Net-(C103-Pad1)",
+   "Net-(C105-Pad1)",
+   "Net-(C107-Pad1)",
+   "Net-(C108-Pad1)",
+   "Net-(C108-Pad2)",
+   "Net-(C109-Pad1)",
+   "Net-(C109-Pad2)",
+   "Net-(C110-Pad1)",
+   "Net-(C111-Pad1)",
+   "Net-(C17-Pad1)",
+   "Net-(C18-Pad1)",
+   "Net-(C19-Pad1)",
+   "Net-(C20-Pad1)",
+   "Net-(C20-Pad2)",
+   "Net-(C3-Pad2)",
+   "Net-(C42-Pad1)",
+   "Net-(C42-Pad2)",
+   "Net-(C43-Pad1)",
+   "Net-(C43-Pad2)",
+   "Net-(C47-Pad1)",
+   "Net-(C48-Pad1)",
+   "Net-(C63-Pad2)",
+   "Net-(C70-Pad1)",
+   "Net-(C70-Pad2)",
+   "Net-(C80-Pad1)",
+   "Net-(C80-Pad2)",
+   "Net-(C88-Pad1)",
+   "Net-(C88-Pad2)",
+   "Net-(C96-Pad1)",
+   "Net-(C96-Pad2)",
+   "Net-(C97-Pad1)",
+   "Net-(C97-Pad2)",
+   "Net-(C98-Pad2)",
+   "Net-(C99-Pad2)",
+   "Net-(R119-Pad1)",
+   "Net-(R120-Pad1)",
+   "Net-(R38-Pad1)",
+   "Net-(R39-Pad1)",
+   "Net-(U23-Pad3)",
+   "Net-(U24-Pad4)",
+   "Net-(U24-Pad6)",
+   "Net-(U25-Pad7)",
+   "Net-(U25-Pad9)"
+  ],
+  "parts": {
+   "C96": [
+    "victim net of the keep_away rules (Net-(C96-Pad2))",
+    "series closure through C96 from Net-(C96-Pad2)"
+   ],
+   "J3": [
+    "victim net of the keep_away rules (Net-(C96-Pad2))"
+   ],
+   "C16": [
+    "victim net of the keep_away rules (/TOP/PLL/PLL_OUT)"
+   ],
+   "U1": [
+    "victim net of the keep_away rules (/TOP/PLL/PLL_OUT)",
+    "victim net of the keep_away rules (/TOP/PLL/PLL_IN)",
+    "net of R13, a part of an ordered RF chain / RF front end",
+    "series closure through R15 from Net-(C18-Pad1)"
+   ],
+   "C48": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_Q)",
+    "series closure through C48 from /TOP/DAC Interface/DAC_Q"
+   ],
+   "R55": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_Q)",
+    "series closure through R55 from /TOP/DAC Interface/DAC_Q"
+   ],
+   "R57": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_Q)",
+    "series closure through C48 from /TOP/DAC Interface/DAC_Q"
+   ],
+   "R64": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_Q)"
+   ],
+   "U4": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_Q)",
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_I)",
+    "series closure through R39 from Net-(C43-Pad1)",
+    "series closure through R38 from Net-(C42-Pad1)"
+   ],
+   "U11": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_Q)",
+    "series closure through C48 from /TOP/DAC Interface/DAC_Q",
+    "series closure through R55 from /TOP/DAC Interface/DAC_Q"
+   ],
+   "C63": [
+    "victim net of the keep_away rules (/TOP/IQ modulator/PLLout1)",
+    "net of C63, a part of an ordered RF chain / RF front end"
+   ],
+   "R70": [
+    "victim net of the keep_away rules (/TOP/IQ modulator/PLLout1)"
+   ],
+   "U3": [
+    "victim net of the keep_away rules (/TOP/IQ modulator/PLLout1)",
+    "victim net of the keep_away rules (Net-(C20-Pad2))",
+    "victim net of the keep_away rules (/TOP/Frequency mixers/PLLout0)"
+   ],
+   "C3": [
+    "victim net of the keep_away rules (Net-(C3-Pad2))",
+    "victim net of the keep_away rules (/TOP/PLL/PLL_IN)"
+   ],
+   "J1": [
+    "victim net of the keep_away rules (Net-(C3-Pad2))"
+   ],
+   "R8": [
+    "victim net of the keep_away rules (Net-(C3-Pad2))"
+   ],
+   "C97": [
+    "victim net of the keep_away rules (Net-(C97-Pad2))",
+    "series closure through C97 from Net-(C97-Pad2)"
+   ],
+   "J4": [
+    "victim net of the keep_away rules (Net-(C97-Pad2))"
+   ],
+   "C47": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_I)",
+    "series closure through C47 from /TOP/DAC Interface/DAC_I"
+   ],
+   "R54": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_I)",
+    "series closure through R54 from /TOP/DAC Interface/DAC_I"
+   ],
+   "R56": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_I)",
+    "series closure through C47 from /TOP/DAC Interface/DAC_I"
+   ],
+   "R62": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_I)"
+   ],
+   "U10": [
+    "victim net of the keep_away rules (/TOP/DAC Interface/DAC_I)",
+    "series closure through C47 from /TOP/DAC Interface/DAC_I",
+    "series closure through R54 from /TOP/DAC Interface/DAC_I"
+   ],
+   "C20": [
+    "victim net of the keep_away rules (Net-(C20-Pad1))",
+    "victim net of the keep_away rules (Net-(C20-Pad2))"
+   ],
+   "J2": [
+    "victim net of the keep_away rules (Net-(C20-Pad1))"
+   ],
+   "R165": [
+    "victim net of the keep_away rules (Net-(C20-Pad1))"
+   ],
+   "C111": [
+    "victim net of the keep_away rules (Net-(C111-Pad1))"
+   ],
+   "R124": [
+    "victim net of the keep_away rules (Net-(C111-Pad1))",
+    "series closure through R124 from Net-(C111-Pad1)"
+   ],
+   "U28": [
+    "victim net of the keep_away rules (Net-(C111-Pad1))",
+    "victim net of the keep_away rules (Net-(C110-Pad1))",
+    "net of R123, a part of an ordered RF chain / RF front end",
+    "series closure through R124 from Net-(C111-Pad1)"
+   ],
+   "U29": [
+    "victim net of the keep_away rules (Net-(C111-Pad1))",
+    "victim net of the keep_away rules (Net-(C110-Pad1))"
+   ],
+   "R16": [
+    "victim net of the keep_away rules (Net-(C20-Pad2))"
+   ],
+   "R17": [
+    "victim net of the keep_away rules (Net-(C20-Pad2))"
+   ],
+   "C110": [
+    "victim net of the keep_away rules (Net-(C110-Pad1))"
+   ],
+   "R123": [
+    "victim net of the keep_away rules (Net-(C110-Pad1))",
+    "net of R123, a part of an ordered RF chain / RF front end"
+   ],
+   "C98": [
+    "victim net of the keep_away rules (/TOP/Frequency mixers/PLLout0)",
+    "net of C98, a part of an ordered RF chain / RF front end"
+   ],
+   "R100": [
+    "victim net of the keep_away rules (/TOP/Frequency mixers/PLLout0)"
+   ],
+   "C100": [
+    "net of C100, a part of an ordered RF chain / RF front end"
+   ],
+   "R102": [
+    "net of C100, a part of an ordered RF chain / RF front end"
+   ],
+   "R103": [
+    "net of C100, a part of an ordered RF chain / RF front end",
+    "net of C101, a part of an ordered RF chain / RF front end"
+   ],
+   "L8": [
+    "net of C101, a part of an ordered RF chain / RF front end",
+    "net of C98, a part of an ordered RF chain / RF front end"
+   ],
+   "U21": [
+    "net of C101, a part of an ordered RF chain / RF front end",
+    "net of C108, a part of an ordered RF chain / RF front end",
+    "net of C98, a part of an ordered RF chain / RF front end"
+   ],
+   "C101": [
+    "net of C101, a part of an ordered RF chain / RF front end"
+   ],
+   "R104": [
+    "net of C102, a part of an ordered RF chain / RF front end"
+   ],
+   "R105": [
+    "net of C102, a part of an ordered RF chain / RF front end",
+    "net of C103, a part of an ordered RF chain / RF front end"
+   ],
+   "C102": [
+    "net of C102, a part of an ordered RF chain / RF front end"
+   ],
+   "L9": [
+    "net of C103, a part of an ordered RF chain / RF front end",
+    "net of C99, a part of an ordered RF chain / RF front end"
+   ],
+   "U22": [
+    "net of C103, a part of an ordered RF chain / RF front end",
+    "net of C109, a part of an ordered RF chain / RF front end",
+    "net of C99, a part of an ordered RF chain / RF front end"
+   ],
+   "C103": [
+    "net of C103, a part of an ordered RF chain / RF front end"
+   ],
+   "L10": [
+    "net of C105, a part of an ordered RF chain / RF front end",
+    "net of C108, a part of an ordered RF chain / RF front end"
+   ],
+   "R106": [
+    "net of C105, a part of an ordered RF chain / RF front end"
+   ],
+   "C105": [
+    "net of C105, a part of an ordered RF chain / RF front end"
+   ],
+   "L11": [
+    "net of C107, a part of an ordered RF chain / RF front end",
+    "net of C109, a part of an ordered RF chain / RF front end"
+   ],
+   "R107": [
+    "net of C107, a part of an ordered RF chain / RF front end"
+   ],
+   "C107": [
+    "net of C107, a part of an ordered RF chain / RF front end"
+   ],
+   "C108": [
+    "net of C108, a part of an ordered RF chain / RF front end"
+   ],
+   "U23": [
+    "net of C108, a part of an ordered RF chain / RF front end",
+    "net between two ICs of the ordered RF chains"
+   ],
+   "C109": [
+    "net of C109, a part of an ordered RF chain / RF front end"
+   ],
+   "U25": [
+    "net of C109, a part of an ordered RF chain / RF front end",
+    "net between two ICs of the ordered RF chains"
+   ],
+   "U16": [
+    "net of C63, a part of an ordered RF chain / RF front end",
+    "net of C70, a part of an ordered RF chain / RF front end"
+   ],
+   "C70": [
+    "net of C70, a part of an ordered RF chain / RF front end"
+   ],
+   "R73": [
+    "net of C70, a part of an ordered RF chain / RF front end"
+   ],
+   "U17": [
+    "net of C70, a part of an ordered RF chain / RF front end",
+    "net of C99, a part of an ordered RF chain / RF front end"
+   ],
+   "C80": [
+    "net of C80, a part of an ordered RF chain / RF front end"
+   ],
+   "U19": [
+    "net of C80, a part of an ordered RF chain / RF front end",
+    "net of C88, a part of an ordered RF chain / RF front end"
+   ],
+   "R82": [
+    "net of C80, a part of an ordered RF chain / RF front end"
+   ],
+   "U18": [
+    "net of C80, a part of an ordered RF chain / RF front end"
+   ],
+   "C88": [
+    "net of C88, a part of an ordered RF chain / RF front end"
+   ],
+   "R92": [
+    "net of C88, a part of an ordered RF chain / RF front end"
+   ],
+   "U20": [
+    "net of C88, a part of an ordered RF chain / RF front end",
+    "series closure through C96 from Net-(C96-Pad2)",
+    "series closure through C97 from Net-(C97-Pad2)"
+   ],
+   "C99": [
+    "net of C99, a part of an ordered RF chain / RF front end"
+   ],
+   "R101": [
+    "net of C99, a part of an ordered RF chain / RF front end"
+   ],
+   "R119": [
+    "net of R123, a part of an ordered RF chain / RF front end"
+   ],
+   "C18": [
+    "net of R13, a part of an ordered RF chain / RF front end"
+   ],
+   "R13": [
+    "net of R13, a part of an ordered RF chain / RF front end"
+   ],
+   "R15": [
+    "net of R13, a part of an ordered RF chain / RF front end",
+    "series closure through R15 from Net-(C18-Pad1)"
+   ],
+   "C17": [
+    "net of R13, a part of an ordered RF chain / RF front end"
+   ],
+   "U2": [
+    "net of R13, a part of an ordered RF chain / RF front end"
+   ],
+   "U24": [
+    "net between two ICs of the ordered RF chains"
+   ],
+   "U26": [
+    "net between two ICs of the ordered RF chains"
+   ],
+   "U27": [
+    "net between two ICs of the ordered RF chains"
+   ],
+   "R53": [
+    "series closure through C48 from /TOP/DAC Interface/DAC_Q"
+   ],
+   "C43": [
+    "series closure through R55 from /TOP/DAC Interface/DAC_Q",
+    "series closure through C43 from Net-(C43-Pad2)"
+   ],
+   "R49": [
+    "series closure through R55 from /TOP/DAC Interface/DAC_Q",
+    "series closure through C43 from Net-(C43-Pad2)"
+   ],
+   "R51": [
+    "series closure through R55 from /TOP/DAC Interface/DAC_Q"
+   ],
+   "U9": [
+    "series closure through R55 from /TOP/DAC Interface/DAC_Q",
+    "series closure through R54 from /TOP/DAC Interface/DAC_I",
+    "series closure through C43 from Net-(C43-Pad2)",
+    "series closure through C42 from Net-(C42-Pad2)"
+   ],
+   "R52": [
+    "series closure through C47 from /TOP/DAC Interface/DAC_I"
+   ],
+   "C42": [
+    "series closure through R54 from /TOP/DAC Interface/DAC_I",
+    "series closure through C42 from Net-(C42-Pad2)"
+   ],
+   "R48": [
+    "series closure through R54 from /TOP/DAC Interface/DAC_I",
+    "series closure through C42 from Net-(C42-Pad2)"
+   ],
+   "R50": [
+    "series closure through R54 from /TOP/DAC Interface/DAC_I"
+   ],
+   "R120": [
+    "series closure through R124 from Net-(C111-Pad1)"
+   ],
+   "C19": [
+    "series closure through R15 from Net-(C18-Pad1)"
+   ],
+   "C22": [
+    "series closure through R15 from Net-(C18-Pad1)"
+   ],
+   "C25": [
+    "series closure through R15 from Net-(C18-Pad1)"
+   ],
+   "R39": [
+    "series closure through C43 from Net-(C43-Pad2)",
+    "series closure through R39 from Net-(C43-Pad1)"
+   ],
+   "R41": [
+    "series closure through C43 from Net-(C43-Pad2)"
+   ],
+   "R38": [
+    "series closure through C42 from Net-(C42-Pad2)",
+    "series closure through R38 from Net-(C42-Pad1)"
+   ],
+   "R40": [
+    "series closure through C42 from Net-(C42-Pad2)"
+   ]
+  }
+ }
+}

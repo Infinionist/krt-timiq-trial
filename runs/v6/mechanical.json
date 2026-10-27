@@ -1,0 +1,113 @@
+{
+ "schema": 1,
+ "context": {
+  "rule": "v6: the board physical facts only (holes, SMAs, J5, J6, enclosure BOX1)"
+ },
+ "fixed": [
+  {
+   "ref": "FIX1",
+   "x": 256.216,
+   "y": 220.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX2",
+   "x": 184.216,
+   "y": 220.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX3",
+   "x": 112.216,
+   "y": 220.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX4",
+   "x": 112.216,
+   "y": 148.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX5",
+   "x": 112.216,
+   "y": 66.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX6",
+   "x": 184.216,
+   "y": 66.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX7",
+   "x": 256.216,
+   "y": 66.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "FIX8",
+   "x": 256.216,
+   "y": 148.44,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "J1",
+   "x": 146.2857,
+   "y": 223.247,
+   "rot": 90.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "J2",
+   "x": 157.8147,
+   "y": 223.2495,
+   "rot": 90.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "J3",
+   "x": 210.045,
+   "y": 223.26,
+   "rot": 90.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "J4",
+   "x": 222.065,
+   "y": 223.24,
+   "rot": 90.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "J5",
+   "x": 221.9318,
+   "y": 136.3324,
+   "rot": 90.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "J6",
+   "x": 206.4348,
+   "y": 73.4428,
+   "rot": 180.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  },
+  {
+   "ref": "BOX1",
+   "x": 124.2124,
+   "y": 214.9478,
+   "rot": 0.0,
+   "reason": "v6 physical fact: mounting hardware / connector at its fixed pose"
+  }
+ ]
+}

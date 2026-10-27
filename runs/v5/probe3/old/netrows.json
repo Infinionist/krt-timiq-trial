@@ -1,0 +1,3747 @@
+{
+ "rows": [
+  {
+   "ref": "C20",
+   "near": "U3",
+   "pads": {
+    "C20": [
+     "2"
+    ],
+    "U3": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C20 pad 2 on the net of U3 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C22",
+   "near": "U1",
+   "pads": {
+    "C22": [
+     "1"
+    ],
+    "U1": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C22 pad 1 on the net of U1 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C23",
+   "near": "U2",
+   "pads": {
+    "C23": [
+     "1"
+    ],
+    "U2": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C23 pad 1 on the net of U2 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C25",
+   "near": "U1",
+   "pads": {
+    "C25": [
+     "1"
+    ],
+    "U1": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C25 pad 1 on the net of U1 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C27",
+   "near": "U4",
+   "pads": {
+    "C27": [
+     "1",
+     "2"
+    ],
+    "U4": [
+     "34",
+     "35",
+     "36"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C27 pad 1,2 on the net of U4 pin 34,35,36 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C28",
+   "near": "U4",
+   "pads": {
+    "C28": [
+     "1",
+     "2"
+    ],
+    "U4": [
+     "1",
+     "2",
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C28 pad 1,2 on the net of U4 pin 1,2,3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C37",
+   "near": "U7",
+   "pads": {
+    "C37": [
+     "1",
+     "2"
+    ],
+    "U7": [
+     "1",
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C37 pad 1,2 on the net of U7 pin 1,4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C38",
+   "near": "U8",
+   "pads": {
+    "C38": [
+     "1",
+     "2"
+    ],
+    "U8": [
+     "1",
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C38 pad 1,2 on the net of U8 pin 1,4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C42",
+   "near": "U9",
+   "pads": {
+    "C42": [
+     "1",
+     "2"
+    ],
+    "U9": [
+     "1",
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C42 pad 1,2 on the net of U9 pin 1,2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C43",
+   "near": "U9",
+   "pads": {
+    "C43": [
+     "1",
+     "2"
+    ],
+    "U9": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C43 pad 1,2 on the net of U9 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C47",
+   "near": "U4",
+   "pads": {
+    "C47": [
+     "2"
+    ],
+    "U4": [
+     "39",
+     "40"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C47 pad 2 on the net of U4 pin 39,40 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C48",
+   "near": "U4",
+   "pads": {
+    "C48": [
+     "2"
+    ],
+    "U4": [
+     "45",
+     "46"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C48 pad 2 on the net of U4 pin 45,46 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C53",
+   "near": "U12",
+   "pads": {
+    "C53": [
+     "1"
+    ],
+    "U12": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C53 pad 1 on the net of U12 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C54",
+   "near": "U13",
+   "pads": {
+    "C54": [
+     "1"
+    ],
+    "U13": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C54 pad 1 on the net of U13 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C55",
+   "near": "U14",
+   "pads": {
+    "C55": [
+     "1"
+    ],
+    "U14": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C55 pad 1 on the net of U14 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C56",
+   "near": "U15",
+   "pads": {
+    "C56": [
+     "1"
+    ],
+    "U15": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C56 pad 1 on the net of U15 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C57",
+   "near": "U14",
+   "pads": {
+    "C57": [
+     "1"
+    ],
+    "U14": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C57 pad 1 on the net of U14 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C58",
+   "near": "U15",
+   "pads": {
+    "C58": [
+     "1"
+    ],
+    "U15": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C58 pad 1 on the net of U15 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C63",
+   "near": "U16",
+   "pads": {
+    "C63": [
+     "2"
+    ],
+    "U16": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C63 pad 2 on the net of U16 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C64",
+   "near": "U16",
+   "pads": {
+    "C64": [
+     "2"
+    ],
+    "U16": [
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C64 pad 2 on the net of U16 pin 4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C70",
+   "near": "U16",
+   "pads": {
+    "C70": [
+     "1"
+    ],
+    "U16": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C70 pad 1 on the net of U16 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C72",
+   "near": "U18",
+   "pads": {
+    "C72": [
+     "2"
+    ],
+    "U18": [
+     "12"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C72 pad 2 on the net of U18 pin 12 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C73",
+   "near": "U18",
+   "pads": {
+    "C73": [
+     "2"
+    ],
+    "U18": [
+     "11"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C73 pad 2 on the net of U18 pin 11 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C80",
+   "near": "U18",
+   "pads": {
+    "C80": [
+     "1"
+    ],
+    "U18": [
+     "15"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C80 pad 1 on the net of U18 pin 15 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C81",
+   "near": "U18",
+   "pads": {
+    "C81": [
+     "1"
+    ],
+    "U18": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C81 pad 1 on the net of U18 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C88",
+   "near": "U19",
+   "pads": {
+    "C88": [
+     "1"
+    ],
+    "U19": [
+     "15"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C88 pad 1 on the net of U19 pin 15 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C89",
+   "near": "U19",
+   "pads": {
+    "C89": [
+     "1"
+    ],
+    "U19": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C89 pad 1 on the net of U19 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C96",
+   "near": "U20",
+   "pads": {
+    "C96": [
+     "1"
+    ],
+    "U20": [
+     "15"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C96 pad 1 on the net of U20 pin 15 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C97",
+   "near": "U20",
+   "pads": {
+    "C97": [
+     "1"
+    ],
+    "U20": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C97 pad 1 on the net of U20 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C110",
+   "near": "U28",
+   "pads": {
+    "C110": [
+     "1"
+    ],
+    "U28": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C110 pad 1 on the net of U28 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C111",
+   "near": "U28",
+   "pads": {
+    "C111": [
+     "1"
+    ],
+    "U28": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C111 pad 1 on the net of U28 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C112",
+   "near": "U28",
+   "pads": {
+    "C112": [
+     "1"
+    ],
+    "U28": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C112 pad 1 on the net of U28 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C113",
+   "near": "U28",
+   "pads": {
+    "C113": [
+     "1"
+    ],
+    "U28": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C113 pad 1 on the net of U28 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C141",
+   "near": "U39",
+   "pads": {
+    "C141": [
+     "1"
+    ],
+    "U39": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C141 pad 1 on the net of U39 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C142",
+   "near": "U40",
+   "pads": {
+    "C142": [
+     "1"
+    ],
+    "U40": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C142 pad 1 on the net of U40 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C143",
+   "near": "J6",
+   "pads": {
+    "C143": [
+     "1"
+    ],
+    "J6": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C143 pad 1 on the net of J6 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C144",
+   "near": "J6",
+   "pads": {
+    "C144": [
+     "1"
+    ],
+    "J6": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C144 pad 1 on the net of J6 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C145",
+   "near": "J6",
+   "pads": {
+    "C145": [
+     "2"
+    ],
+    "J6": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C145 pad 2 on the net of J6 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C148",
+   "near": "J6",
+   "pads": {
+    "C148": [
+     "1"
+    ],
+    "J6": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C148 pad 1 on the net of J6 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C149",
+   "near": "J6",
+   "pads": {
+    "C149": [
+     "1"
+    ],
+    "J6": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C149 pad 1 on the net of J6 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C150",
+   "near": "J6",
+   "pads": {
+    "C150": [
+     "1"
+    ],
+    "J6": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C150 pad 1 on the net of J6 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C170",
+   "near": "U41",
+   "pads": {
+    "C170": [
+     "1"
+    ],
+    "U41": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C170 pad 1 on the net of U41 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C171",
+   "near": "U42",
+   "pads": {
+    "C171": [
+     "1"
+    ],
+    "U42": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C171 pad 1 on the net of U42 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C172",
+   "near": "U43",
+   "pads": {
+    "C172": [
+     "1"
+    ],
+    "U43": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C172 pad 1 on the net of U43 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C173",
+   "near": "U44",
+   "pads": {
+    "C173": [
+     "1"
+    ],
+    "U44": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C173 pad 1 on the net of U44 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C174",
+   "near": "U45",
+   "pads": {
+    "C174": [
+     "1"
+    ],
+    "U45": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C174 pad 1 on the net of U45 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C178",
+   "near": "U44",
+   "pads": {
+    "C178": [
+     "2"
+    ],
+    "U44": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C178 pad 2 on the net of U44 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C179",
+   "near": "U45",
+   "pads": {
+    "C179": [
+     "2"
+    ],
+    "U45": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: C179 pad 2 on the net of U45 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "L12",
+   "near": "J6",
+   "pads": {
+    "L12": [
+     "1"
+    ],
+    "J6": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: L12 pad 1 on the net of J6 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "L13",
+   "near": "J6",
+   "pads": {
+    "L13": [
+     "1"
+    ],
+    "J6": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: L13 pad 1 on the net of J6 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "L14",
+   "near": "J6",
+   "pads": {
+    "L14": [
+     "1"
+    ],
+    "J6": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: L14 pad 1 on the net of J6 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R1",
+   "near": "D1",
+   "pads": {
+    "R1": [
+     "2"
+    ],
+    "D1": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R1 pad 2 on the net of D1 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R2",
+   "near": "U1",
+   "pads": {
+    "R2": [
+     "1"
+    ],
+    "U1": [
+     "34"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R2 pad 1 on the net of U1 pin 34 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R3",
+   "near": "Q1",
+   "pads": {
+    "R3": [
+     "1"
+    ],
+    "Q1": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R3 pad 1 on the net of Q1 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R4",
+   "near": "U1",
+   "pads": {
+    "R4": [
+     "2"
+    ],
+    "U1": [
+     "11"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R4 pad 2 on the net of U1 pin 11 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R5",
+   "near": "U1",
+   "pads": {
+    "R5": [
+     "1"
+    ],
+    "U1": [
+     "33"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R5 pad 1 on the net of U1 pin 33 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R6",
+   "near": "U1",
+   "pads": {
+    "R6": [
+     "2"
+    ],
+    "U1": [
+     "24"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R6 pad 2 on the net of U1 pin 24 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R7",
+   "near": "U1",
+   "pads": {
+    "R7": [
+     "1"
+    ],
+    "U1": [
+     "32"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R7 pad 1 on the net of U1 pin 32 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R8",
+   "near": "J1",
+   "pads": {
+    "R8": [
+     "1"
+    ],
+    "J1": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R8 pad 1 on the net of J1 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R16",
+   "near": "U3",
+   "pads": {
+    "R16": [
+     "2"
+    ],
+    "U3": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R16 pad 2 on the net of U3 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R17",
+   "near": "U3",
+   "pads": {
+    "R17": [
+     "1"
+    ],
+    "U3": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R17 pad 1 on the net of U3 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R24",
+   "near": "U4",
+   "pads": {
+    "R24": [
+     "2"
+    ],
+    "U4": [
+     "19"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R24 pad 2 on the net of U4 pin 19 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R25",
+   "near": "U4",
+   "pads": {
+    "R25": [
+     "1"
+    ],
+    "U4": [
+     "19"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R25 pad 1 on the net of U4 pin 19 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R26",
+   "near": "U4",
+   "pads": {
+    "R26": [
+     "2"
+    ],
+    "U4": [
+     "26"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R26 pad 2 on the net of U4 pin 26 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R27",
+   "near": "U4",
+   "pads": {
+    "R27": [
+     "1"
+    ],
+    "U4": [
+     "26"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R27 pad 1 on the net of U4 pin 26 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R28",
+   "near": "U4",
+   "pads": {
+    "R28": [
+     "2"
+    ],
+    "U4": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R28 pad 2 on the net of U4 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R29",
+   "near": "U4",
+   "pads": {
+    "R29": [
+     "1"
+    ],
+    "U4": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R29 pad 1 on the net of U4 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R30",
+   "near": "U4",
+   "pads": {
+    "R30": [
+     "2"
+    ],
+    "U4": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R30 pad 2 on the net of U4 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R31",
+   "near": "U4",
+   "pads": {
+    "R31": [
+     "1"
+    ],
+    "U4": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R31 pad 1 on the net of U4 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R32",
+   "near": "U4",
+   "pads": {
+    "R32": [
+     "2"
+    ],
+    "U4": [
+     "24"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R32 pad 2 on the net of U4 pin 24 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R33",
+   "near": "U4",
+   "pads": {
+    "R33": [
+     "1"
+    ],
+    "U4": [
+     "24"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R33 pad 1 on the net of U4 pin 24 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R34",
+   "near": "U4",
+   "pads": {
+    "R34": [
+     "2"
+    ],
+    "U4": [
+     "25"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R34 pad 2 on the net of U4 pin 25 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R35",
+   "near": "U4",
+   "pads": {
+    "R35": [
+     "1"
+    ],
+    "U4": [
+     "25"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R35 pad 1 on the net of U4 pin 25 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R36",
+   "near": "U4",
+   "pads": {
+    "R36": [
+     "2"
+    ],
+    "U4": [
+     "22"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R36 pad 2 on the net of U4 pin 22 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R37",
+   "near": "U4",
+   "pads": {
+    "R37": [
+     "1"
+    ],
+    "U4": [
+     "22"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R37 pad 1 on the net of U4 pin 22 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R38",
+   "near": "U4",
+   "pads": {
+    "R38": [
+     "1"
+    ],
+    "U4": [
+     "41"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R38 pad 1 on the net of U4 pin 41 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R39",
+   "near": "U4",
+   "pads": {
+    "R39": [
+     "1"
+    ],
+    "U4": [
+     "44"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R39 pad 1 on the net of U4 pin 44 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R40",
+   "near": "U9",
+   "pads": {
+    "R40": [
+     "1"
+    ],
+    "U9": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R40 pad 1 on the net of U9 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R41",
+   "near": "U9",
+   "pads": {
+    "R41": [
+     "1"
+    ],
+    "U9": [
+     "6"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R41 pad 1 on the net of U9 pin 6 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R42",
+   "near": "U7",
+   "pads": {
+    "R42": [
+     "2"
+    ],
+    "U7": [
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R42 pad 2 on the net of U7 pin 4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R43",
+   "near": "U8",
+   "pads": {
+    "R43": [
+     "2"
+    ],
+    "U8": [
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R43 pad 2 on the net of U8 pin 4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R44",
+   "near": "U7",
+   "pads": {
+    "R44": [
+     "1"
+    ],
+    "U7": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R44 pad 1 on the net of U7 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R45",
+   "near": "U8",
+   "pads": {
+    "R45": [
+     "1"
+    ],
+    "U8": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R45 pad 1 on the net of U8 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R46",
+   "near": "U9",
+   "pads": {
+    "R46": [
+     "1"
+    ],
+    "U9": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R46 pad 1 on the net of U9 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R47",
+   "near": "U9",
+   "pads": {
+    "R47": [
+     "1"
+    ],
+    "U9": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R47 pad 1 on the net of U9 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R48",
+   "near": "U9",
+   "pads": {
+    "R48": [
+     "1",
+     "2"
+    ],
+    "U9": [
+     "1",
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R48 pad 1,2 on the net of U9 pin 1,2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R49",
+   "near": "U9",
+   "pads": {
+    "R49": [
+     "1",
+     "2"
+    ],
+    "U9": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R49 pad 1,2 on the net of U9 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R50",
+   "near": "U9",
+   "pads": {
+    "R50": [
+     "1"
+    ],
+    "U9": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R50 pad 1 on the net of U9 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R51",
+   "near": "U9",
+   "pads": {
+    "R51": [
+     "1"
+    ],
+    "U9": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R51 pad 1 on the net of U9 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R52",
+   "near": "U10",
+   "pads": {
+    "R52": [
+     "1"
+    ],
+    "U10": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R52 pad 1 on the net of U10 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R53",
+   "near": "U11",
+   "pads": {
+    "R53": [
+     "1"
+    ],
+    "U11": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R53 pad 1 on the net of U11 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R54",
+   "near": "U4",
+   "pads": {
+    "R54": [
+     "2"
+    ],
+    "U4": [
+     "39",
+     "40"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R54 pad 2 on the net of U4 pin 39,40 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R55",
+   "near": "U4",
+   "pads": {
+    "R55": [
+     "2"
+    ],
+    "U4": [
+     "45",
+     "46"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R55 pad 2 on the net of U4 pin 45,46 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R56",
+   "near": "U4",
+   "pads": {
+    "R56": [
+     "2"
+    ],
+    "U4": [
+     "39",
+     "40"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R56 pad 2 on the net of U4 pin 39,40 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R57",
+   "near": "U4",
+   "pads": {
+    "R57": [
+     "2"
+    ],
+    "U4": [
+     "45",
+     "46"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R57 pad 2 on the net of U4 pin 45,46 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R58",
+   "near": "U12",
+   "pads": {
+    "R58": [
+     "1"
+    ],
+    "U12": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R58 pad 1 on the net of U12 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R59",
+   "near": "U13",
+   "pads": {
+    "R59": [
+     "1"
+    ],
+    "U13": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R59 pad 1 on the net of U13 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R60",
+   "near": "U14",
+   "pads": {
+    "R60": [
+     "1"
+    ],
+    "U14": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R60 pad 1 on the net of U14 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R61",
+   "near": "U15",
+   "pads": {
+    "R61": [
+     "1"
+    ],
+    "U15": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R61 pad 1 on the net of U15 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R62",
+   "near": "U4",
+   "pads": {
+    "R62": [
+     "1"
+    ],
+    "U4": [
+     "39",
+     "40"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R62 pad 1 on the net of U4 pin 39,40 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R64",
+   "near": "U4",
+   "pads": {
+    "R64": [
+     "1"
+    ],
+    "U4": [
+     "45",
+     "46"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R64 pad 1 on the net of U4 pin 45,46 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R66",
+   "near": "U14",
+   "pads": {
+    "R66": [
+     "2"
+    ],
+    "U14": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R66 pad 2 on the net of U14 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R67",
+   "near": "U15",
+   "pads": {
+    "R67": [
+     "2"
+    ],
+    "U15": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R67 pad 2 on the net of U15 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R68",
+   "near": "U14",
+   "pads": {
+    "R68": [
+     "1"
+    ],
+    "U14": [
+     "8"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R68 pad 1 on the net of U14 pin 8 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R69",
+   "near": "U15",
+   "pads": {
+    "R69": [
+     "1"
+    ],
+    "U15": [
+     "8"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R69 pad 1 on the net of U15 pin 8 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R70",
+   "near": "U3",
+   "pads": {
+    "R70": [
+     "1"
+    ],
+    "U3": [
+     "9"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R70 pad 1 on the net of U3 pin 9 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R72",
+   "near": "U16",
+   "pads": {
+    "R72": [
+     "1"
+    ],
+    "U16": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R72 pad 1 on the net of U16 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R73",
+   "near": "U17",
+   "pads": {
+    "R73": [
+     "1"
+    ],
+    "U17": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R73 pad 1 on the net of U17 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R74",
+   "near": "U17",
+   "pads": {
+    "R74": [
+     "1"
+    ],
+    "U17": [
+     "9"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R74 pad 1 on the net of U17 pin 9 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R75",
+   "near": "U18",
+   "pads": {
+    "R75": [
+     "2"
+    ],
+    "U18": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R75 pad 2 on the net of U18 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R76",
+   "near": "U18",
+   "pads": {
+    "R76": [
+     "1"
+    ],
+    "U18": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R76 pad 1 on the net of U18 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R78",
+   "near": "U18",
+   "pads": {
+    "R78": [
+     "2"
+    ],
+    "U18": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R78 pad 2 on the net of U18 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R79",
+   "near": "U18",
+   "pads": {
+    "R79": [
+     "1"
+    ],
+    "U18": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R79 pad 1 on the net of U18 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R80",
+   "near": "U18",
+   "pads": {
+    "R80": [
+     "2"
+    ],
+    "U18": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R80 pad 2 on the net of U18 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R81",
+   "near": "U18",
+   "pads": {
+    "R81": [
+     "1"
+    ],
+    "U18": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R81 pad 1 on the net of U18 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R82",
+   "near": "U18",
+   "pads": {
+    "R82": [
+     "1"
+    ],
+    "U18": [
+     "15"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R82 pad 1 on the net of U18 pin 15 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R83",
+   "near": "U19",
+   "pads": {
+    "R83": [
+     "2"
+    ],
+    "U19": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R83 pad 2 on the net of U19 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R84",
+   "near": "U19",
+   "pads": {
+    "R84": [
+     "1"
+    ],
+    "U19": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R84 pad 1 on the net of U19 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R85",
+   "near": "U18",
+   "pads": {
+    "R85": [
+     "1"
+    ],
+    "U18": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R85 pad 1 on the net of U18 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R86",
+   "near": "U19",
+   "pads": {
+    "R86": [
+     "2"
+    ],
+    "U19": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R86 pad 2 on the net of U19 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R87",
+   "near": "U19",
+   "pads": {
+    "R87": [
+     "1"
+    ],
+    "U19": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R87 pad 1 on the net of U19 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R88",
+   "near": "U19",
+   "pads": {
+    "R88": [
+     "2"
+    ],
+    "U19": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R88 pad 2 on the net of U19 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R89",
+   "near": "U19",
+   "pads": {
+    "R89": [
+     "1"
+    ],
+    "U19": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R89 pad 1 on the net of U19 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R90",
+   "near": "U20",
+   "pads": {
+    "R90": [
+     "2"
+    ],
+    "U20": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R90 pad 2 on the net of U20 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R91",
+   "near": "U20",
+   "pads": {
+    "R91": [
+     "1"
+    ],
+    "U20": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R91 pad 1 on the net of U20 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R92",
+   "near": "U19",
+   "pads": {
+    "R92": [
+     "1"
+    ],
+    "U19": [
+     "15"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R92 pad 1 on the net of U19 pin 15 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R93",
+   "near": "U20",
+   "pads": {
+    "R93": [
+     "2"
+    ],
+    "U20": [
+     "22"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R93 pad 2 on the net of U20 pin 22 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R94",
+   "near": "U20",
+   "pads": {
+    "R94": [
+     "1"
+    ],
+    "U20": [
+     "22"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R94 pad 1 on the net of U20 pin 22 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R95",
+   "near": "U19",
+   "pads": {
+    "R95": [
+     "1"
+    ],
+    "U19": [
+     "16"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R95 pad 1 on the net of U19 pin 16 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R96",
+   "near": "U20",
+   "pads": {
+    "R96": [
+     "2"
+    ],
+    "U20": [
+     "21"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R96 pad 2 on the net of U20 pin 21 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R97",
+   "near": "U20",
+   "pads": {
+    "R97": [
+     "1"
+    ],
+    "U20": [
+     "21"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R97 pad 1 on the net of U20 pin 21 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R98",
+   "near": "U20",
+   "pads": {
+    "R98": [
+     "2"
+    ],
+    "U20": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R98 pad 2 on the net of U20 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R99",
+   "near": "U20",
+   "pads": {
+    "R99": [
+     "1"
+    ],
+    "U20": [
+     "20"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R99 pad 1 on the net of U20 pin 20 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R100",
+   "near": "U3",
+   "pads": {
+    "R100": [
+     "1"
+    ],
+    "U3": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R100 pad 1 on the net of U3 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R101",
+   "near": "U17",
+   "pads": {
+    "R101": [
+     "1"
+    ],
+    "U17": [
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R101 pad 1 on the net of U17 pin 7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R108",
+   "near": "U24",
+   "pads": {
+    "R108": [
+     "1"
+    ],
+    "U24": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R108 pad 1 on the net of U24 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R109",
+   "near": "U29",
+   "pads": {
+    "R109": [
+     "2"
+    ],
+    "U29": [
+     "38"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R109 pad 2 on the net of U29 pin 38 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R110",
+   "near": "U29",
+   "pads": {
+    "R110": [
+     "1"
+    ],
+    "U29": [
+     "37"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R110 pad 1 on the net of U29 pin 37 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R111",
+   "near": "U29",
+   "pads": {
+    "R111": [
+     "2"
+    ],
+    "U29": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R111 pad 2 on the net of U29 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R112",
+   "near": "U29",
+   "pads": {
+    "R112": [
+     "1"
+    ],
+    "U29": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R112 pad 1 on the net of U29 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R113",
+   "near": "U29",
+   "pads": {
+    "R113": [
+     "2"
+    ],
+    "U29": [
+     "36"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R113 pad 2 on the net of U29 pin 36 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R114",
+   "near": "U29",
+   "pads": {
+    "R114": [
+     "1"
+    ],
+    "U29": [
+     "35"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R114 pad 1 on the net of U29 pin 35 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R115",
+   "near": "U26",
+   "pads": {
+    "R115": [
+     "1"
+    ],
+    "U26": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R115 pad 1 on the net of U26 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R116",
+   "near": "U27",
+   "pads": {
+    "R116": [
+     "1"
+    ],
+    "U27": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R116 pad 1 on the net of U27 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R117",
+   "near": "U28",
+   "pads": {
+    "R117": [
+     "2"
+    ],
+    "U28": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R117 pad 2 on the net of U28 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R118",
+   "near": "U28",
+   "pads": {
+    "R118": [
+     "2"
+    ],
+    "U28": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R118 pad 2 on the net of U28 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R119",
+   "near": "U28",
+   "pads": {
+    "R119": [
+     "1"
+    ],
+    "U28": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R119 pad 1 on the net of U28 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R120",
+   "near": "U28",
+   "pads": {
+    "R120": [
+     "1"
+    ],
+    "U28": [
+     "6"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R120 pad 1 on the net of U28 pin 6 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R121",
+   "near": "U28",
+   "pads": {
+    "R121": [
+     "1"
+    ],
+    "U28": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R121 pad 1 on the net of U28 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R122",
+   "near": "U28",
+   "pads": {
+    "R122": [
+     "1"
+    ],
+    "U28": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R122 pad 1 on the net of U28 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R123",
+   "near": "U28",
+   "pads": {
+    "R123": [
+     "1",
+     "2"
+    ],
+    "U28": [
+     "1",
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R123 pad 1,2 on the net of U28 pin 1,2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R124",
+   "near": "U28",
+   "pads": {
+    "R124": [
+     "1",
+     "2"
+    ],
+    "U28": [
+     "6",
+     "7"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R124 pad 1,2 on the net of U28 pin 6,7 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R125",
+   "near": "U29",
+   "pads": {
+    "R125": [
+     "1"
+    ],
+    "U29": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R125 pad 1 on the net of U29 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R126",
+   "near": "U29",
+   "pads": {
+    "R126": [
+     "2"
+    ],
+    "U29": [
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R126 pad 2 on the net of U29 pin 4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R127",
+   "near": "U29",
+   "pads": {
+    "R127": [
+     "1"
+    ],
+    "U29": [
+     "4"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R127 pad 1 on the net of U29 pin 4 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R128",
+   "near": "U32",
+   "pads": {
+    "R128": [
+     "2"
+    ],
+    "U32": [
+     "35"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R128 pad 2 on the net of U32 pin 35 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R129",
+   "near": "U32",
+   "pads": {
+    "R129": [
+     "1"
+    ],
+    "U32": [
+     "34"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R129 pad 1 on the net of U32 pin 34 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R130",
+   "near": "U32",
+   "pads": {
+    "R130": [
+     "1"
+    ],
+    "U32": [
+     "32"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R130 pad 1 on the net of U32 pin 32 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R131",
+   "near": "U32",
+   "pads": {
+    "R131": [
+     "1"
+    ],
+    "U32": [
+     "31"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R131 pad 1 on the net of U32 pin 31 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R132",
+   "near": "U34",
+   "pads": {
+    "R132": [
+     "2"
+    ],
+    "U34": [
+     "35"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R132 pad 2 on the net of U34 pin 35 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R133",
+   "near": "U34",
+   "pads": {
+    "R133": [
+     "1"
+    ],
+    "U34": [
+     "35"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R133 pad 1 on the net of U34 pin 35 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R134",
+   "near": "U34",
+   "pads": {
+    "R134": [
+     "2"
+    ],
+    "U34": [
+     "34"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R134 pad 2 on the net of U34 pin 34 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R135",
+   "near": "U34",
+   "pads": {
+    "R135": [
+     "1"
+    ],
+    "U34": [
+     "34"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R135 pad 1 on the net of U34 pin 34 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R136",
+   "near": "U34",
+   "pads": {
+    "R136": [
+     "2"
+    ],
+    "U34": [
+     "32"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R136 pad 2 on the net of U34 pin 32 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R137",
+   "near": "U34",
+   "pads": {
+    "R137": [
+     "1"
+    ],
+    "U34": [
+     "32"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R137 pad 1 on the net of U34 pin 32 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R138",
+   "near": "U34",
+   "pads": {
+    "R138": [
+     "2"
+    ],
+    "U34": [
+     "31"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R138 pad 2 on the net of U34 pin 31 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R139",
+   "near": "U34",
+   "pads": {
+    "R139": [
+     "1"
+    ],
+    "U34": [
+     "31"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R139 pad 1 on the net of U34 pin 31 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R140",
+   "near": "U34",
+   "pads": {
+    "R140": [
+     "2"
+    ],
+    "U34": [
+     "27"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R140 pad 2 on the net of U34 pin 27 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R141",
+   "near": "U34",
+   "pads": {
+    "R141": [
+     "1"
+    ],
+    "U34": [
+     "27"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R141 pad 1 on the net of U34 pin 27 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R142",
+   "near": "U34",
+   "pads": {
+    "R142": [
+     "2"
+    ],
+    "U34": [
+     "26"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R142 pad 2 on the net of U34 pin 26 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R143",
+   "near": "U34",
+   "pads": {
+    "R143": [
+     "1"
+    ],
+    "U34": [
+     "26"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R143 pad 1 on the net of U34 pin 26 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R144",
+   "near": "U34",
+   "pads": {
+    "R144": [
+     "2"
+    ],
+    "U34": [
+     "24"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R144 pad 2 on the net of U34 pin 24 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R145",
+   "near": "U34",
+   "pads": {
+    "R145": [
+     "1"
+    ],
+    "U34": [
+     "24"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R145 pad 1 on the net of U34 pin 24 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R146",
+   "near": "U35",
+   "pads": {
+    "R146": [
+     "2"
+    ],
+    "U35": [
+     "5"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R146 pad 2 on the net of U35 pin 5 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R147",
+   "near": "U35",
+   "pads": {
+    "R147": [
+     "2"
+    ],
+    "U35": [
+     "9"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R147 pad 2 on the net of U35 pin 9 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R148",
+   "near": "U35",
+   "pads": {
+    "R148": [
+     "2"
+    ],
+    "U35": [
+     "12"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R148 pad 2 on the net of U35 pin 12 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R149",
+   "near": "U34",
+   "pads": {
+    "R149": [
+     "2"
+    ],
+    "U34": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R149 pad 2 on the net of U34 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R150",
+   "near": "U34",
+   "pads": {
+    "R150": [
+     "1"
+    ],
+    "U34": [
+     "23"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R150 pad 1 on the net of U34 pin 23 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R151",
+   "near": "U35",
+   "pads": {
+    "R151": [
+     "2"
+    ],
+    "U35": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R151 pad 2 on the net of U35 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R152",
+   "near": "U38",
+   "pads": {
+    "R152": [
+     "2"
+    ],
+    "U38": [
+     "14"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R152 pad 2 on the net of U38 pin 14 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R153",
+   "near": "U38",
+   "pads": {
+    "R153": [
+     "2"
+    ],
+    "U38": [
+     "15"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R153 pad 2 on the net of U38 pin 15 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R154",
+   "near": "D2",
+   "pads": {
+    "R154": [
+     "2"
+    ],
+    "D2": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R154 pad 2 on the net of D2 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R155",
+   "near": "D3",
+   "pads": {
+    "R155": [
+     "2"
+    ],
+    "D3": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R155 pad 2 on the net of D3 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R156",
+   "near": "U44",
+   "pads": {
+    "R156": [
+     "2"
+    ],
+    "U44": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R156 pad 2 on the net of U44 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R157",
+   "near": "U44",
+   "pads": {
+    "R157": [
+     "1"
+    ],
+    "U44": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R157 pad 1 on the net of U44 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R158",
+   "near": "U45",
+   "pads": {
+    "R158": [
+     "2"
+    ],
+    "U45": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R158 pad 2 on the net of U45 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R159",
+   "near": "U45",
+   "pads": {
+    "R159": [
+     "1"
+    ],
+    "U45": [
+     "3"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R159 pad 1 on the net of U45 pin 3 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R160",
+   "near": "D4",
+   "pads": {
+    "R160": [
+     "2"
+    ],
+    "D4": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R160 pad 2 on the net of D4 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R161",
+   "near": "D5",
+   "pads": {
+    "R161": [
+     "2"
+    ],
+    "D5": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R161 pad 2 on the net of D5 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R162",
+   "near": "D6",
+   "pads": {
+    "R162": [
+     "2"
+    ],
+    "D6": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R162 pad 2 on the net of D6 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R163",
+   "near": "D7",
+   "pads": {
+    "R163": [
+     "2"
+    ],
+    "D7": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R163 pad 2 on the net of D7 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R164",
+   "near": "D8",
+   "pads": {
+    "R164": [
+     "2"
+    ],
+    "D8": [
+     "2"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R164 pad 2 on the net of D8 pin 2 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "R165",
+   "near": "J2",
+   "pads": {
+    "R165": [
+     "1"
+    ],
+    "J2": [
+     "1"
+    ]
+   },
+   "max_mm": 2.0,
+   "basis": "pad_edge",
+   "why": "netlist: R165 pad 1 on the net of J2 pin 1 (KRT skill default 2 mm for a part named at a pin)",
+   "source_kind": "netlist_pin"
+  },
+  {
+   "ref": "C33",
+   "near": "R40",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: C33 shares a local net with R40 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "C34",
+   "near": "R41",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: C34 shares a local net with R41 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R14",
+   "near": "R16",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R14 shares a local net with R16 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R18",
+   "near": "C22",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R18 shares a local net with C22 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R21",
+   "near": "C23",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R21 shares a local net with C23 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R63",
+   "near": "R62",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R63 shares a local net with R62 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R65",
+   "near": "R64",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R65 shares a local net with R64 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R71",
+   "near": "C64",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R71 shares a local net with C64 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R77",
+   "near": "C73",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R77 shares a local net with C73 (1 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R20",
+   "near": "R21",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R20 shares a local net with R21 (2 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R23",
+   "near": "R21",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R23 shares a local net with R21 (2 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  },
+  {
+   "ref": "R19",
+   "near": "R20",
+   "max_mm": 5.0,
+   "basis": "pad_edge",
+   "why": "netlist: R19 shares a local net with R20 (3 hop(s) from an anchor pin; KRT skill default 5 mm for a part named near a part)",
+   "source_kind": "netlist_part"
+  }
+ ],
+ "ic_candidates": {
+  "U1": [
+   "C2",
+   "C3",
+   "C7",
+   "C9",
+   "C11",
+   "C12",
+   "C13",
+   "C15",
+   "C16",
+   "C18",
+   "C19",
+   "C22",
+   "C24",
+   "C25",
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R9",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R15",
+   "R22"
+  ],
+  "U2": [
+   "C17",
+   "C23",
+   "R13"
+  ],
+  "U3": [
+   "C20",
+   "C63",
+   "C98",
+   "R16",
+   "R17",
+   "R70",
+   "R100"
+  ],
+  "U4": [
+   "C27",
+   "C28",
+   "C47",
+   "C48",
+   "R24",
+   "R25",
+   "R26",
+   "R27",
+   "R28",
+   "R29",
+   "R30",
+   "R31",
+   "R32",
+   "R33",
+   "R34",
+   "R35",
+   "R36",
+   "R37",
+   "R38",
+   "R39",
+   "R54",
+   "R55",
+   "R56",
+   "R57",
+   "R62",
+   "R64",
+   "R151"
+  ],
+  "U5": [
+   "C27"
+  ],
+  "U6": [
+   "C28"
+  ],
+  "U7": [
+   "C37",
+   "R42",
+   "R44"
+  ],
+  "U8": [
+   "C38",
+   "R43",
+   "R45"
+  ],
+  "U9": [
+   "C42",
+   "C43",
+   "R38",
+   "R39",
+   "R40",
+   "R41",
+   "R44",
+   "R45",
+   "R46",
+   "R47",
+   "R48",
+   "R49",
+   "R50",
+   "R51",
+   "R54",
+   "R55"
+  ],
+  "U10": [
+   "C42",
+   "C47",
+   "R48",
+   "R50",
+   "R52",
+   "R54",
+   "R56",
+   "R62"
+  ],
+  "U11": [
+   "C43",
+   "C48",
+   "R49",
+   "R51",
+   "R53",
+   "R55",
+   "R57",
+   "R64"
+  ],
+  "U12": [
+   "C53",
+   "R58"
+  ],
+  "U13": [
+   "C54",
+   "R59"
+  ],
+  "U14": [
+   "C55",
+   "C57",
+   "R58",
+   "R60",
+   "R66",
+   "R68"
+  ],
+  "U15": [
+   "C56",
+   "C58",
+   "R59",
+   "R61",
+   "R67",
+   "R69"
+  ],
+  "U16": [
+   "C63",
+   "C64",
+   "C70",
+   "R72"
+  ],
+  "U17": [
+   "C70",
+   "C72",
+   "C99",
+   "R73",
+   "R74",
+   "R101"
+  ],
+  "U18": [
+   "C72",
+   "C73",
+   "C80",
+   "C81",
+   "R75",
+   "R76",
+   "R78",
+   "R79",
+   "R80",
+   "R81",
+   "R82",
+   "R85"
+  ],
+  "U19": [
+   "C80",
+   "C81",
+   "C88",
+   "C89",
+   "R83",
+   "R84",
+   "R86",
+   "R87",
+   "R88",
+   "R89",
+   "R92",
+   "R95"
+  ],
+  "U20": [
+   "C88",
+   "C89",
+   "C96",
+   "C97",
+   "R90",
+   "R91",
+   "R93",
+   "R94",
+   "R96",
+   "R97",
+   "R98",
+   "R99"
+  ],
+  "U21": [
+   "C98",
+   "C101",
+   "C108",
+   "L8",
+   "L10",
+   "R103"
+  ],
+  "U22": [
+   "C99",
+   "C103",
+   "C109",
+   "L9",
+   "L11",
+   "R105"
+  ],
+  "U23": [
+   "C108"
+  ],
+  "U24": [
+   "R108"
+  ],
+  "U25": [
+   "C109"
+  ],
+  "U26": [
+   "R115"
+  ],
+  "U27": [
+   "R116"
+  ],
+  "U28": [
+   "C110",
+   "C111",
+   "C112",
+   "C113",
+   "R117",
+   "R118",
+   "R119",
+   "R120",
+   "R121",
+   "R122",
+   "R123",
+   "R124"
+  ],
+  "U29": [
+   "C110",
+   "C111",
+   "C120",
+   "C121",
+   "C122",
+   "R109",
+   "R110",
+   "R111",
+   "R112",
+   "R113",
+   "R114",
+   "R123",
+   "R124",
+   "R125",
+   "R126",
+   "R127"
+  ],
+  "U30": [
+   "C122"
+  ],
+  "U31": [
+   "R2",
+   "R4",
+   "R5",
+   "R6",
+   "R7"
+  ],
+  "U32": [
+   "R109",
+   "R110",
+   "R111",
+   "R112",
+   "R128",
+   "R129",
+   "R130",
+   "R131"
+  ],
+  "U33": [
+   "R128",
+   "R129",
+   "R130",
+   "R131"
+  ],
+  "U34": [
+   "R132",
+   "R133",
+   "R134",
+   "R135",
+   "R136",
+   "R137",
+   "R138",
+   "R139",
+   "R140",
+   "R141",
+   "R142",
+   "R143",
+   "R144",
+   "R145",
+   "R149",
+   "R150"
+  ],
+  "U35": [
+   "R146",
+   "R147",
+   "R148",
+   "R151"
+  ],
+  "U36": [
+   "R132",
+   "R133",
+   "R134",
+   "R135",
+   "R136",
+   "R137",
+   "R138",
+   "R139"
+  ],
+  "U37": [
+   "R140",
+   "R141",
+   "R142",
+   "R143",
+   "R144",
+   "R145",
+   "R149",
+   "R150"
+  ],
+  "U38": [
+   "R3",
+   "R113",
+   "R114",
+   "R152",
+   "R153"
+  ],
+  "U39": [
+   "C141"
+  ],
+  "U40": [
+   "C142"
+  ],
+  "U41": [
+   "C170"
+  ],
+  "U42": [
+   "C171"
+  ],
+  "U43": [
+   "C156",
+   "C163",
+   "C167",
+   "C172",
+   "L13"
+  ],
+  "U44": [
+   "C157",
+   "C164",
+   "C168",
+   "C169",
+   "C173",
+   "C178",
+   "L14",
+   "R156",
+   "R157"
+  ],
+  "U45": [
+   "C157",
+   "C164",
+   "C168",
+   "C169",
+   "C174",
+   "C179",
+   "L14",
+   "R158",
+   "R159"
+  ]
+ },
+ "decaps": [
+  "C1",
+  "C104",
+  "C106",
+  "C114",
+  "C115",
+  "C116",
+  "C117",
+  "C118",
+  "C119",
+  "C123",
+  "C124",
+  "C125",
+  "C126",
+  "C127",
+  "C128",
+  "C129",
+  "C130",
+  "C131",
+  "C132",
+  "C133",
+  "C134",
+  "C135",
+  "C136",
+  "C137",
+  "C138",
+  "C139",
+  "C140",
+  "C146",
+  "C147",
+  "C151",
+  "C152",
+  "C153",
+  "C154",
+  "C155",
+  "C156",
+  "C157",
+  "C158",
+  "C159",
+  "C160",
+  "C161",
+  "C162",
+  "C163",
+  "C164",
+  "C165",
+  "C166",
+  "C167",
+  "C168",
+  "C169",
+  "C175",
+  "C176",
+  "C177",
+  "C180",
+  "C181",
+  "C182",
+  "C183",
+  "C184",
+  "C185",
+  "C186",
+  "C187",
+  "C188",
+  "C189",
+  "C190",
+  "C191",
+  "C192",
+  "C193",
+  "C194",
+  "C195",
+  "C196",
+  "C197",
+  "C198",
+  "C199",
+  "C200",
+  "C201",
+  "C21",
+  "C26",
+  "C29",
+  "C30",
+  "C31",
+  "C32",
+  "C35",
+  "C36",
+  "C39",
+  "C4",
+  "C40",
+  "C41",
+  "C44",
+  "C45",
+  "C46",
+  "C49",
+  "C50",
+  "C51",
+  "C52",
+  "C59",
+  "C6",
+  "C60",
+  "C61",
+  "C62",
+  "C65",
+  "C66",
+  "C67",
+  "C68",
+  "C69",
+  "C71",
+  "C74",
+  "C75",
+  "C76",
+  "C77",
+  "C78",
+  "C79",
+  "C8",
+  "C82",
+  "C83",
+  "C84",
+  "C85",
+  "C86",
+  "C87",
+  "C90",
+  "C91",
+  "C92",
+  "C93",
+  "C94",
+  "C95"
+ ],
+ "counts": {
+  "netlist_pin": 193,
+  "netlist_part": 12,
+  "decaps_soft": 122
+ }
+}

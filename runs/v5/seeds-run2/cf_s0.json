@@ -1,0 +1,4897 @@
+{
+ "blocks": {
+  "canJ10": [
+   "C72",
+   "C73",
+   "C74",
+   "C75",
+   "C76",
+   "C77",
+   "C78",
+   "C79",
+   "C80",
+   "C81",
+   "C82",
+   "C83",
+   "C84",
+   "C85",
+   "C86",
+   "C87",
+   "C88",
+   "C89",
+   "C90",
+   "C91",
+   "C92",
+   "C93",
+   "C94",
+   "C95",
+   "R74",
+   "R77",
+   "R80",
+   "R81",
+   "R82",
+   "R83",
+   "R84",
+   "R85",
+   "R86",
+   "R87",
+   "R90",
+   "R91",
+   "R92",
+   "R93",
+   "R94",
+   "R95",
+   "R96",
+   "R97",
+   "R98",
+   "R99",
+   "U18",
+   "U19"
+  ],
+  "canJ10_anchor": [
+   "U20"
+  ],
+  "canJ11": [
+   "C110",
+   "C111",
+   "C112",
+   "C113",
+   "C114",
+   "C115",
+   "C116",
+   "C117",
+   "C118",
+   "C119",
+   "C120",
+   "C121",
+   "C122",
+   "R109",
+   "R110",
+   "R111",
+   "R112",
+   "R113",
+   "R114",
+   "R115",
+   "R116",
+   "R117",
+   "R118",
+   "R119",
+   "R120",
+   "R121",
+   "R122",
+   "R123",
+   "R124",
+   "R125",
+   "R126",
+   "R127",
+   "U28",
+   "U30"
+  ],
+  "canJ11_anchor": [
+   "U29"
+  ],
+  "canJ12": [
+   "C26",
+   "C27",
+   "C28",
+   "C29",
+   "C30",
+   "C31",
+   "C32",
+   "C33",
+   "C34",
+   "C35",
+   "C36",
+   "C37",
+   "C38",
+   "C39",
+   "C40",
+   "C41",
+   "C42",
+   "C43",
+   "C44",
+   "R24",
+   "R25",
+   "R26",
+   "R27",
+   "R28",
+   "R29",
+   "R30",
+   "R31",
+   "R32",
+   "R33",
+   "R34",
+   "R35",
+   "R36",
+   "R37",
+   "R38",
+   "R39",
+   "R40",
+   "R41",
+   "R42",
+   "R43",
+   "R44",
+   "R45",
+   "R46",
+   "R47",
+   "R48",
+   "R49",
+   "U5",
+   "U6",
+   "U7",
+   "U8",
+   "U9"
+  ],
+  "canJ12_anchor": [
+   "U4"
+  ],
+  "canJ7": [
+   "C1",
+   "C10",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C2",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C8",
+   "C9",
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R15",
+   "R18",
+   "R19",
+   "R2",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "U2"
+  ],
+  "canJ7_anchor": [
+   "U1"
+  ],
+  "canJ8": [
+   "C100",
+   "C101",
+   "C102",
+   "C103",
+   "C104",
+   "C105",
+   "C106",
+   "C107",
+   "C108",
+   "C109",
+   "C20",
+   "C63",
+   "C64",
+   "C65",
+   "C66",
+   "C67",
+   "C68",
+   "C69",
+   "C70",
+   "C71",
+   "C98",
+   "C99",
+   "L10",
+   "L11",
+   "L8",
+   "L9",
+   "R100",
+   "R101",
+   "R102",
+   "R103",
+   "R104",
+   "R105",
+   "R106",
+   "R107",
+   "R108",
+   "R14",
+   "R16",
+   "R165",
+   "R17",
+   "R70",
+   "R71",
+   "R72",
+   "R73",
+   "U17",
+   "U21",
+   "U22",
+   "U23",
+   "U24",
+   "U25",
+   "U26",
+   "U27",
+   "U3"
+  ],
+  "canJ8_anchor": [
+   "U16"
+  ],
+  "canJ9": [
+   "C45",
+   "C46",
+   "C47",
+   "C48",
+   "C49",
+   "C50",
+   "C51",
+   "C52",
+   "C53",
+   "C54",
+   "C55",
+   "C56",
+   "C57",
+   "C58",
+   "C59",
+   "C60",
+   "C61",
+   "C62",
+   "R50",
+   "R51",
+   "R52",
+   "R53",
+   "R54",
+   "R55",
+   "R56",
+   "R57",
+   "R58",
+   "R59",
+   "R60",
+   "R61",
+   "R62",
+   "R63",
+   "R64",
+   "R65",
+   "R66",
+   "R67",
+   "R68",
+   "R69",
+   "U12",
+   "U13",
+   "U14",
+   "U15"
+  ],
+  "canJ9_anchor": [
+   "U10",
+   "U11"
+  ],
+  "power": [
+   "C139",
+   "C140",
+   "C141",
+   "C142",
+   "C143",
+   "C144",
+   "C145",
+   "C146",
+   "C147",
+   "C148",
+   "C149",
+   "C150",
+   "C151",
+   "C152",
+   "C153",
+   "C154",
+   "C155",
+   "C156",
+   "C157",
+   "C158",
+   "C159",
+   "C160",
+   "C161",
+   "C162",
+   "C163",
+   "C164",
+   "C165",
+   "C166",
+   "C167",
+   "C168",
+   "C169",
+   "C170",
+   "C171",
+   "C172",
+   "C173",
+   "C174",
+   "C175",
+   "C176",
+   "C177",
+   "C178",
+   "C179",
+   "C180",
+   "C181",
+   "C182",
+   "C183",
+   "C184",
+   "C185",
+   "C186",
+   "C187",
+   "C188",
+   "C189",
+   "C190",
+   "C191",
+   "C192",
+   "C193",
+   "C194",
+   "C195",
+   "C196",
+   "C197",
+   "C198",
+   "C199",
+   "C200",
+   "C201",
+   "L12",
+   "L13",
+   "L14",
+   "R156",
+   "R158",
+   "U39",
+   "U40",
+   "U41",
+   "U42",
+   "U43",
+   "U44",
+   "U45"
+  ],
+  "sheet:4f61069c/55b76454": [
+   "BOX1",
+   "C139",
+   "C140",
+   "C141",
+   "C142",
+   "C143",
+   "C144",
+   "C145",
+   "C146",
+   "C147",
+   "C148",
+   "C149",
+   "C150",
+   "C151",
+   "C152",
+   "C153",
+   "C154",
+   "C155",
+   "C156",
+   "C157",
+   "C158",
+   "C159",
+   "C160",
+   "C161",
+   "C162",
+   "C163",
+   "C164",
+   "C165",
+   "C166",
+   "C167",
+   "C168",
+   "C169",
+   "C170",
+   "C171",
+   "C172",
+   "C173",
+   "C174",
+   "C175",
+   "C176",
+   "C177",
+   "C178",
+   "C179",
+   "C180",
+   "C181",
+   "C182",
+   "C183",
+   "C184",
+   "C185",
+   "C186",
+   "C187",
+   "C188",
+   "C189",
+   "C190",
+   "C191",
+   "C192",
+   "C193",
+   "C194",
+   "C195",
+   "C196",
+   "C197",
+   "C198",
+   "C199",
+   "C200",
+   "C201",
+   "D2",
+   "D3",
+   "D4",
+   "D5",
+   "D6",
+   "D7",
+   "D8",
+   "FIX1",
+   "FIX2",
+   "FIX3",
+   "FIX4",
+   "FIX5",
+   "FIX6",
+   "FIX7",
+   "FIX8",
+   "J6",
+   "L12",
+   "L13",
+   "L14",
+   "R154",
+   "R155",
+   "R156",
+   "R157",
+   "R158",
+   "R159",
+   "R160",
+   "R161",
+   "R162",
+   "R163",
+   "R164",
+   "TP1",
+   "TP2",
+   "TP3",
+   "TP4",
+   "TP5",
+   "TP6",
+   "TP7",
+   "TP8",
+   "TP9",
+   "U39",
+   "U40",
+   "U41",
+   "U42",
+   "U43",
+   "U44",
+   "U45"
+  ],
+  "sheet:4f61069c/55bfa0eb": [
+   "C1",
+   "C10",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C15",
+   "C16",
+   "C17",
+   "C18",
+   "C19",
+   "C2",
+   "C20",
+   "C21",
+   "C22",
+   "C23",
+   "C24",
+   "C25",
+   "C3",
+   "C4",
+   "C5",
+   "C6",
+   "C7",
+   "C8",
+   "C9",
+   "D1",
+   "J1",
+   "J2",
+   "L1",
+   "L2",
+   "L3",
+   "L4",
+   "L5",
+   "L6",
+   "L7",
+   "Q1",
+   "R1",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14",
+   "R15",
+   "R16",
+   "R165",
+   "R17",
+   "R18",
+   "R19",
+   "R2",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "sheet:4f61069c/55dd5793": [
+   "C123",
+   "C124",
+   "C125",
+   "C126",
+   "C127",
+   "C128",
+   "C129",
+   "C130",
+   "C131",
+   "C132",
+   "C133",
+   "C134",
+   "C135",
+   "C136",
+   "C137",
+   "C138",
+   "J5",
+   "R128",
+   "R129",
+   "R130",
+   "R131",
+   "R132",
+   "R133",
+   "R134",
+   "R135",
+   "R136",
+   "R137",
+   "R138",
+   "R139",
+   "R140",
+   "R141",
+   "R142",
+   "R143",
+   "R144",
+   "R145",
+   "R146",
+   "R147",
+   "R148",
+   "R149",
+   "R150",
+   "R151",
+   "R152",
+   "R153",
+   "U31",
+   "U32",
+   "U33",
+   "U34",
+   "U35",
+   "U36",
+   "U37",
+   "U38"
+  ],
+  "sheet:4f61069c/56c4bef4": [
+   "C72",
+   "C73",
+   "C74",
+   "C75",
+   "C76",
+   "C77",
+   "C78",
+   "C79",
+   "C80",
+   "C81",
+   "C82",
+   "C83",
+   "C84",
+   "C85",
+   "C86",
+   "C87",
+   "C88",
+   "C89",
+   "C90",
+   "C91",
+   "C92",
+   "C93",
+   "C94",
+   "C95",
+   "C96",
+   "C97",
+   "J3",
+   "J4",
+   "R74",
+   "R75",
+   "R76",
+   "R77",
+   "R78",
+   "R79",
+   "R80",
+   "R81",
+   "R82",
+   "R83",
+   "R84",
+   "R85",
+   "R86",
+   "R87",
+   "R88",
+   "R89",
+   "R90",
+   "R91",
+   "R92",
+   "R93",
+   "R94",
+   "R95",
+   "R96",
+   "R97",
+   "R98",
+   "R99",
+   "U18",
+   "U19",
+   "U20"
+  ]
+ },
+ "board": "/tmp/pcb-trials/timiq/v5/seeds/s0.kicad_pcb",
+ "brief_coverage": {
+  "abstained": 0,
+  "brief": "s0.design-brief.json",
+  "carried": 0,
+  "clauses": [
+   {
+    "drifted": false,
+    "id": "keep_away[0].rule",
+    "keep_away_rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "kind": "keep_away",
+    "ref": null,
+    "rule": "keep_away",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keep_away[1].rule",
+    "keep_away_rule": "24V,-24V,7V5,Net-(C143-Pad1),Net-(C144-Pad1),Net-(C145-Pad2):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "kind": "keep_away",
+    "ref": null,
+    "rule": "keep_away",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[can-J10]",
+    "kind": "keepouts",
+    "ref": "can-J10",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[can-J11]",
+    "kind": "keepouts",
+    "ref": "can-J11",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[can-J12]",
+    "kind": "keepouts",
+    "ref": "can-J12",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[can-J7]",
+    "kind": "keepouts",
+    "ref": "can-J7",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[can-J8]",
+    "kind": "keepouts",
+    "ref": "can-J8",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[can-J9]",
+    "kind": "keepouts",
+    "ref": "can-J9",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-BOX1-1]",
+    "kind": "keepouts",
+    "ref": "hole-BOX1-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-BOX1-3]",
+    "kind": "keepouts",
+    "ref": "hole-BOX1-3",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-BOX1-5]",
+    "kind": "keepouts",
+    "ref": "hole-BOX1-5",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-BOX1-7]",
+    "kind": "keepouts",
+    "ref": "hole-BOX1-7",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX1-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX1-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX2-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX2-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX3-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX3-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX4-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX4-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX5-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX5-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX6-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX6-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX7-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX7-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-FIX8-1]",
+    "kind": "keepouts",
+    "ref": "hole-FIX8-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-J5-1]",
+    "kind": "keepouts",
+    "ref": "hole-J5-1",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[hole-J5-2]",
+    "kind": "keepouts",
+    "ref": "hole-J5-2",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[wall-band-bottom]",
+    "kind": "keepouts",
+    "ref": "wall-band-bottom",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[wall-band-left]",
+    "kind": "keepouts",
+    "ref": "wall-band-left",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[wall-band-right]",
+    "kind": "keepouts",
+    "ref": "wall-band-right",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   },
+   {
+    "drifted": false,
+    "id": "keepouts[wall-band-top]",
+    "kind": "keepouts",
+    "ref": "wall-band-top",
+    "rule": "keepout",
+    "state": "graded",
+    "why": ""
+   }
+  ],
+  "complete": true,
+  "drifted": 0,
+  "graded": 26,
+  "not_claimed": 0,
+  "schema": 1,
+  "uncovered": 0
+ },
+ "budget_abstained": {
+  "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range",
+  "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+  "overlap_area": "the board is a pile: its overlap is staging, not a baseline (#1103)"
+ },
+ "budget_dispositioned": {},
+ "complete": false,
+ "decap_pin_evidence": {
+  "by_channel": {
+   "pinfunction": 0,
+   "pintype": 0,
+   "rail_net": 36,
+   "role": 0
+  },
+  "chips": 45,
+  "chips_graded": 36,
+  "order_decided": [],
+  "pins": 107,
+  "pins_by_channel": {
+   "pinfunction": 0,
+   "pintype": 0,
+   "rail_net": 107,
+   "role": 0
+  }
+ },
+ "declaration_ledger": [
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "envelope.rect",
+   "disposition": null,
+   "grader": "envelope",
+   "id": "rule:envelope",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `envelope.rect`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "blocks[].zone",
+   "disposition": null,
+   "grader": "zone_containment",
+   "id": "rule:zone_containment",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_fail",
+   "why": "armed by the plan's `blocks[].zone`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_side",
+   "id": "rule:zone_side",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "no block declares a side"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "assembly.sides",
+   "disposition": null,
+   "grader": "assembly_side",
+   "id": "rule:assembly_side",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `assembly.sides`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_exclusive",
+   "id": "rule:zone_exclusive",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "no block is marked exclusive"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "keepouts[]",
+   "disposition": null,
+   "grader": "keepout",
+   "id": "rule:keepout",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_fail",
+   "why": "armed by the plan's `keepouts[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "edge_connector",
+   "id": "rule:edge_connector",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_distance",
+   "id": "rule:decap_distance",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_ungraded",
+   "id": "rule:decap_ungraded",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "decaps.max_pin_distance_mm",
+   "disposition": null,
+   "grader": "decap_pin_distance",
+   "id": "rule:decap_pin_distance",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `decaps.max_pin_distance_mm`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "proximity[]",
+   "disposition": null,
+   "grader": "proximity",
+   "id": "rule:proximity",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_fail",
+   "why": "armed by the plan's `proximity[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "keep_away[]",
+   "disposition": null,
+   "grader": "keep_away",
+   "id": "rule:keep_away",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `keep_away[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "must_lock",
+   "id": "rule:must_lock",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no must_lock patterns"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "legality",
+   "id": "rule:legality",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no legality_budget"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "pins_to_edge",
+   "id": "rule:pins_to_edge",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "array_formation",
+   "id": "rule:array_formation",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no arrays"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "replicate",
+   "id": "rule:replicate",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no replicate copies"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "templates[]",
+   "disposition": null,
+   "grader": "template",
+   "id": "rule:template",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "graded_pass",
+   "why": "armed by the plan's `templates[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "cover",
+   "id": "rule:cover",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no covers"
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keep_away",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keep_away",
+   "id": "keep_away[0].rule",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_warn",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keep_away",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keep_away",
+   "id": "keep_away[1].rule",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[can-J10]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[can-J11]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[can-J12]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[can-J7]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[can-J8]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[can-J9]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-BOX1-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-BOX1-3]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-BOX1-5]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-BOX1-7]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX1-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX2-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX3-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX4-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX5-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_fail",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX6-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_fail",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX7-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-FIX8-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-J5-1]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[hole-J5-2]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[wall-band-bottom]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[wall-band-left]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[wall-band-right]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  },
+  {
+   "attribution": "rule+ref",
+   "authority": "declared",
+   "basis": "declared",
+   "consequence": "keepout",
+   "disposition": null,
+   "drifted": false,
+   "grader": "keepout",
+   "id": "keepouts[wall-band-top]",
+   "kind": "brief_clause",
+   "source": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+   "status": "graded_pass",
+   "why": ""
+  }
+ ],
+ "edge_connector_evidence": [],
+ "edge_seating": [],
+ "health": {},
+ "intent": "/tmp/pcb-trials/timiq/v5/seeds/intent.json",
+ "keep_away": [
+  {
+   "aggressor_nets": 132,
+   "aggressor_pads": 288,
+   "closest": {
+    "aggressor": {
+     "net": "/TOP/PLL/PLL_LOCKED",
+     "pad": "20",
+     "ref": "U1",
+     "side": "F.Cu"
+    },
+    "cross_face": true,
+    "victim": {
+     "net": "/TOP/PLL/PLL_IN",
+     "pad": "1",
+     "ref": "C3",
+     "side": "B.Cu"
+    }
+   },
+   "gap_mm": 3.0,
+   "index": 0,
+   "min_gap_mm": 0.1176,
+   "not_measured": [
+    "tracks: route.py --keep-away prices and reports those once routed",
+    "coupling through planes or between faces: the distance is plan view, and each pad's side is named so a reader can judge",
+    "which nets are noisy or sensitive: the rule declares that, nothing on the board says it"
+   ],
+   "pairs_measured": 13208,
+   "part_pairs_inside": 4,
+   "passes": false,
+   "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+   "same_part_pairs": 40,
+   "source": "brief",
+   "state": "inside",
+   "victim_nets": 13,
+   "victim_pads": 46
+  },
+  {
+   "aggressor_nets": 6,
+   "aggressor_pads": 52,
+   "closest": {
+    "aggressor": {
+     "net": "24V",
+     "pad": "1",
+     "ref": "C167",
+     "side": "B.Cu"
+    },
+    "cross_face": false,
+    "victim": {
+     "net": "/TOP/DAC Interface/DAC_Q",
+     "pad": "46",
+     "ref": "U4",
+     "side": "B.Cu"
+    }
+   },
+   "gap_mm": 3.0,
+   "index": 1,
+   "min_gap_mm": 41.7754,
+   "not_measured": [
+    "tracks: route.py --keep-away prices and reports those once routed",
+    "coupling through planes or between faces: the distance is plan view, and each pad's side is named so a reader can judge",
+    "which nets are noisy or sensitive: the rule declares that, nothing on the board says it"
+   ],
+   "pairs_measured": 2392,
+   "part_pairs_inside": 0,
+   "passes": true,
+   "rule": "24V,-24V,7V5,Net-(C143-Pad1),Net-(C144-Pad1),Net-(C145-Pad2):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+   "same_part_pairs": 0,
+   "source": "brief",
+   "state": "pass",
+   "victim_nets": 13,
+   "victim_pads": 46
+  }
+ ],
+ "keep_away_unpriced": {
+  "checked": 2,
+  "fix": null,
+  "router_brief": "/tmp/pcb-trials/timiq/v5/seeds/s0.design-brief.json",
+  "router_brief_declares": [
+   "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+   "24V,-24V,7V5,Net-(C143-Pad1),Net-(C144-Pad1),Net-(C145-Pad2):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3"
+  ],
+  "router_brief_error": null,
+  "rules": [],
+  "warning": null
+ },
+ "legality": {
+  "hole_shortfall": 0.0,
+  "hpwl": 6628.9388,
+  "keepout_pad_amount": 0.0,
+  "keepout_pad_parts": 0,
+  "locked_contact_pairs": 0,
+  "oob_amount": 52.7777,
+  "oob_area": 572.2313,
+  "oob_count": 13,
+  "overlap_area": 0.0,
+  "pad_conflict_pairs": 0,
+  "pad_intersection_pairs": 0,
+  "pad_overlap_pairs": 0,
+  "pad_shortfall": 0.0
+ },
+ "n_footprints": 458,
+ "not_graded": {
+  "budget_abstained": 3,
+  "rules_skipped_armed": 3
+ },
+ "outline": {
+  "bounds": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "cutouts": 0,
+  "edge_contours": 0,
+  "edge_segments": 5,
+  "outlines": 1,
+  "problems": [],
+  "simple_rectangle": false,
+  "trustworthy": true
+ },
+ "pad_stacks": {
+  "pad_stack_area": 0,
+  "pad_stack_basis": "check_assembly's pad_intersection channel (legality.pad_intersection_pairs): two parts' pad copper intersecting on a shared side, any net, confirmed on the pads' outlines by check_drc's pad-pad check; never waivable",
+  "pad_stack_count": 0,
+  "pad_stack_pairs": []
+ },
+ "pass": false,
+ "reconciliation": [],
+ "rule_roster": [
+  {
+   "applicability_reason": "armed by the plan's `envelope.rect`",
+   "applicable": true,
+   "arming_key": "envelope.rect",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "envelope",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `blocks[].zone`",
+   "applicable": true,
+   "arming_key": "blocks[].zone",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "zone_containment",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "the board carries parts on both faces",
+   "applicable": true,
+   "arming_key": "blocks[].side",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "zone_side",
+   "skip_reason": "no block declares a side",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `assembly.sides`",
+   "applicable": true,
+   "arming_key": "assembly.sides",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "assembly_side",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a policy about who may enter a zone; nothing on the board says that a zone is reserved",
+   "applicable": true,
+   "arming_key": "blocks[].exclusive (on a zoned block)",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "zone_exclusive",
+   "skip_reason": "no block is marked exclusive",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `keepouts[]`",
+   "applicable": true,
+   "arming_key": "keepouts[]",
+   "brief_claims": [
+    "wall-band-top",
+    "wall-band-bottom",
+    "wall-band-left",
+    "wall-band-right",
+    "hole-J5-1",
+    "hole-J5-2",
+    "hole-BOX1-1",
+    "hole-BOX1-3",
+    "hole-BOX1-5",
+    "hole-BOX1-7",
+    "hole-FIX1-1",
+    "hole-FIX2-1",
+    "hole-FIX3-1",
+    "hole-FIX4-1",
+    "hole-FIX5-1",
+    "hole-FIX6-1",
+    "hole-FIX7-1",
+    "hole-FIX8-1",
+    "can-J7",
+    "can-J8",
+    "can-J9",
+    "can-J10",
+    "can-J11",
+    "can-J12"
+   ],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "keepout",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "edge_connector",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "decap_distance",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {
+    "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_ungraded",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {
+    "decaps.max_distance_mm": "the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `decaps.max_pin_distance_mm`",
+   "applicable": true,
+   "arming_key": "decaps.max_pin_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_pin_distance",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `proximity[]`",
+   "applicable": true,
+   "arming_key": "proximity[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "proximity",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `keep_away[]`",
+   "applicable": true,
+   "arming_key": "keep_away[]",
+   "brief_claims": [
+    "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "24V,-24V,7V5,Net-(C143-Pad1),Net-(C144-Pad1),Net-(C145-Pad2):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3"
+   ],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "keep_away",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing",
+   "applicable": false,
+   "arming_key": "must_lock[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "must_lock",
+   "skip_reason": "the intent declares no must_lock patterns",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every placement has a legality to measure",
+   "applicable": true,
+   "arming_key": "legality_budget",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "legality",
+   "skip_reason": "the intent declares no legality_budget",
+   "state": "dark",
+   "withheld": {
+    "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+    "overlap_area": "the board is a pile: its overlap is staging, not a baseline (#1103)"
+   },
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "pins_to_edge",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which parts form one row; nothing on the board says which identical parts belong together",
+   "applicable": true,
+   "arming_key": "arrays[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "array_formation",
+   "skip_reason": "the intent declares no arrays",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike",
+   "applicable": true,
+   "arming_key": "replicate[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "replicate",
+   "skip_reason": "the intent declares no replicate copies",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `templates[]`",
+   "applicable": true,
+   "arming_key": "templates[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "template",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches",
+   "applicable": true,
+   "arming_key": "covers[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "cover",
+   "skip_reason": "the intent declares no covers",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  }
+ ],
+ "rules_run": [
+  "envelope",
+  "zone_containment",
+  "assembly_side",
+  "keepout",
+  "decap_pin_distance",
+  "proximity",
+  "keep_away",
+  "template"
+ ],
+ "rules_skipped": {
+  "array_formation": "the intent declares no arrays",
+  "cover": "the intent declares no covers",
+  "decap_distance": "the intent declares no decaps.max_distance_mm; the emitter WITHHELD decaps.max_distance_mm (the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range)",
+  "decap_ungraded": "the intent declares no decaps.max_distance_mm; the emitter WITHHELD decaps.max_distance_mm (the reference board human_stripped.kicad_pcb: 34 of 122 rail-sharing cap(s) lie beyond the 5.0mm search radius (worst 15.0945mm): a limit derived from the survivors would bless a board whose caps have left decoupling range)",
+  "edge_connector": "the intent declares no edge_connectors",
+  "legality": "the intent declares no legality_budget; the emitter WITHHELD oob_count (the board is a pile: its off-board count is staging, not a baseline (#1103)), overlap_area (the board is a pile: its overlap is staging, not a baseline (#1103))",
+  "must_lock": "the intent declares no must_lock patterns",
+  "pins_to_edge": "the intent declares no edge_connectors",
+  "replicate": "the intent declares no replicate copies",
+  "zone_exclusive": "no block is marked exclusive",
+  "zone_side": "no block declares a side"
+ },
+ "schema": 1,
+ "stale_dispositions": [],
+ "state": {
+  "distinct_positions": 458,
+  "duplicate_fraction": 0.0,
+  "has_copper": false,
+  "n_footprints": 458,
+  "outside_fraction": 0.0284,
+  "partially_unplaced": false,
+  "segments": 0,
+  "spread_ratio": 0.9708,
+  "stacked_refs": [],
+  "stacked_suspect_refs": [],
+  "unplaced": false,
+  "vias": 0
+ },
+ "templates": [
+  {
+   "anchor": "U21",
+   "index": 0,
+   "members": [
+    {
+     "mean_mm": 5.6462,
+     "ref": "R103",
+     "side_differs": false,
+     "worst_mm": 5.6462
+    },
+    {
+     "mean_mm": 1.5366,
+     "ref": "C101",
+     "side_differs": true,
+     "worst_mm": 2.6109
+    },
+    {
+     "mean_mm": 1.6272,
+     "ref": "C98",
+     "side_differs": false,
+     "worst_mm": 2.3871
+    },
+    {
+     "mean_mm": 1.7001,
+     "ref": "L10",
+     "side_differs": false,
+     "worst_mm": 2.27
+    },
+    {
+     "mean_mm": 1.1207,
+     "ref": "C105",
+     "side_differs": true,
+     "worst_mm": 2.2415
+    },
+    {
+     "mean_mm": 1.2507,
+     "ref": "C100",
+     "side_differs": false,
+     "worst_mm": 1.2507
+    },
+    {
+     "mean_mm": 1.103,
+     "ref": "L8",
+     "side_differs": false,
+     "worst_mm": 1.103
+    },
+    {
+     "mean_mm": 0.9704,
+     "ref": "C108",
+     "side_differs": false,
+     "worst_mm": 0.9704
+    },
+    {
+     "mean_mm": 0.6181,
+     "ref": "R106",
+     "side_differs": false,
+     "worst_mm": 0.6181
+    },
+    {
+     "mean_mm": 0.0,
+     "ref": "R102",
+     "side_differs": false,
+     "worst_mm": 0.0
+    }
+   ],
+   "off": 9,
+   "passes": false,
+   "state": "measured",
+   "tolerance_mm": 0.3
+  },
+  {
+   "anchor": "U22",
+   "index": 1,
+   "members": [
+    {
+     "mean_mm": 6.759,
+     "ref": "R104",
+     "side_differs": false,
+     "worst_mm": 6.759
+    },
+    {
+     "mean_mm": 4.2395,
+     "ref": "C109",
+     "side_differs": false,
+     "worst_mm": 4.2395
+    },
+    {
+     "mean_mm": 1.1207,
+     "ref": "C107",
+     "side_differs": true,
+     "worst_mm": 2.2415
+    },
+    {
+     "mean_mm": 1.6973,
+     "ref": "C99",
+     "side_differs": false,
+     "worst_mm": 1.9202
+    },
+    {
+     "mean_mm": 1.3467,
+     "ref": "R107",
+     "side_differs": false,
+     "worst_mm": 1.3467
+    },
+    {
+     "mean_mm": 1.1946,
+     "ref": "R105",
+     "side_differs": false,
+     "worst_mm": 1.1946
+    },
+    {
+     "mean_mm": 0.8647,
+     "ref": "L11",
+     "side_differs": false,
+     "worst_mm": 0.8647
+    },
+    {
+     "mean_mm": 0.8121,
+     "ref": "L9",
+     "side_differs": false,
+     "worst_mm": 0.8121
+    },
+    {
+     "mean_mm": 0.6037,
+     "ref": "C103",
+     "side_differs": true,
+     "worst_mm": 0.6037
+    },
+    {
+     "mean_mm": 0.0,
+     "ref": "C102",
+     "side_differs": true,
+     "worst_mm": 0.0
+    }
+   ],
+   "off": 10,
+   "passes": false,
+   "state": "measured",
+   "tolerance_mm": 0.3
+  }
+ ],
+ "violations": [
+  {
+   "block": "canJ7_anchor",
+   "expected": {
+    "max_pin_distance_mm": 8.1577
+   },
+   "measured": {
+    "cap": "C8",
+    "cap_side": "F",
+    "caps_on_rail": 10,
+    "channel": "rail_net",
+    "gap_mm": 9.0073,
+    "ic_side": "F",
+    "net": "3V3_1",
+    "pad": "3",
+    "pins_on_rail": 4
+   },
+   "message": "U1 pin 3 (3V3_1) is 9.01mm from C8, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction",
+   "ref": "U1",
+   "rule": "decap_pin_distance_inferred",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ12_anchor",
+   "expected": {
+    "max_pin_distance_mm": 8.1577
+   },
+   "measured": {
+    "cap": "C35",
+    "cap_side": "B",
+    "caps_on_rail": 26,
+    "channel": "rail_net",
+    "gap_mm": 9.9906,
+    "ic_side": "B",
+    "net": "5V_2",
+    "pad": "31",
+    "pins_on_rail": 9
+   },
+   "message": "U4 pin 31 (5V_2) is 9.99mm from C35, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction",
+   "ref": "U4",
+   "rule": "decap_pin_distance_inferred",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ12_anchor",
+   "expected": {
+    "max_pin_distance_mm": 8.1577
+   },
+   "measured": {
+    "cap": "C35",
+    "cap_side": "B",
+    "caps_on_rail": 26,
+    "channel": "rail_net",
+    "gap_mm": 9.9906,
+    "ic_side": "B",
+    "net": "5V_2",
+    "pad": "32",
+    "pins_on_rail": 9
+   },
+   "message": "U4 pin 32 (5V_2) is 9.99mm from C35, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction",
+   "ref": "U4",
+   "rule": "decap_pin_distance_inferred",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ12_anchor",
+   "expected": {
+    "max_pin_distance_mm": 8.1577
+   },
+   "measured": {
+    "cap": "C35",
+    "cap_side": "B",
+    "caps_on_rail": 26,
+    "channel": "rail_net",
+    "gap_mm": 9.5309,
+    "ic_side": "B",
+    "net": "5V_2",
+    "pad": "37",
+    "pins_on_rail": 9
+   },
+   "message": "U4 pin 37 (5V_2) is 9.53mm from C35, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction",
+   "ref": "U4",
+   "rule": "decap_pin_distance_inferred",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ12_anchor",
+   "expected": {
+    "max_pin_distance_mm": 8.1577
+   },
+   "measured": {
+    "cap": "C35",
+    "cap_side": "B",
+    "caps_on_rail": 26,
+    "channel": "rail_net",
+    "gap_mm": 9.0525,
+    "ic_side": "B",
+    "net": "5V_2",
+    "pad": "38",
+    "pins_on_rail": 9
+   },
+   "message": "U4 pin 38 (5V_2) is 9.05mm from C35, the nearest decoupling cap on that rail (limit 8.16mm) -- pin inferred from the net NAME, not from a pintype or pinfunction",
+   "ref": "U4",
+   "rule": "decap_pin_distance_inferred",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "overlap_area_mm2": 0.0
+   },
+   "measured": {
+    "other_block": "canJ10_anchor",
+    "overlap_area_mm2": 519.4753
+   },
+   "message": "zones 'canJ10' and 'canJ10_anchor' overlap by 519.48mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared",
+   "rule": "intent_zone_overlap",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "overlap_area_mm2": 0.0
+   },
+   "measured": {
+    "other_block": "canJ11_anchor",
+    "overlap_area_mm2": 519.4753
+   },
+   "message": "zones 'canJ11' and 'canJ11_anchor' overlap by 519.48mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared",
+   "rule": "intent_zone_overlap",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "overlap_area_mm2": 0.0
+   },
+   "measured": {
+    "other_block": "canJ12_anchor",
+    "overlap_area_mm2": 519.4753
+   },
+   "message": "zones 'canJ12' and 'canJ12_anchor' overlap by 519.48mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared",
+   "rule": "intent_zone_overlap",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "overlap_area_mm2": 0.0
+   },
+   "measured": {
+    "other_block": "canJ7_anchor",
+    "overlap_area_mm2": 519.4753
+   },
+   "message": "zones 'canJ7' and 'canJ7_anchor' overlap by 519.48mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared",
+   "rule": "intent_zone_overlap",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "overlap_area_mm2": 0.0
+   },
+   "measured": {
+    "other_block": "canJ8_anchor",
+    "overlap_area_mm2": 519.4753
+   },
+   "message": "zones 'canJ8' and 'canJ8_anchor' overlap by 519.48mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared",
+   "rule": "intent_zone_overlap",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "overlap_area_mm2": 0.0
+   },
+   "measured": {
+    "other_block": "canJ9_anchor",
+    "overlap_area_mm2": 519.4753
+   },
+   "message": "zones 'canJ9' and 'canJ9_anchor' overlap by 519.48mm2 on the same side; a member of either may be placed there -- declare `exclusive` on one of them if the area is not meant to be shared",
+   "rule": "intent_zone_overlap",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "gap_mm": 3.0
+   },
+   "measured": {
+    "aggressor": {
+     "net": "/TOP/PLL/PLL_LE",
+     "pad": "1",
+     "ref": "R2",
+     "side": "B.Cu"
+    },
+    "basis": "pad_edge",
+    "cross_face": true,
+    "gap_mm": 1.9196,
+    "index": 0,
+    "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "victim": {
+     "net": "/TOP/PLL/PLL_OUT",
+     "pad": "1",
+     "ref": "C16",
+     "side": "F.Cu"
+    }
+   },
+   "message": "C16 pad 1 (F.Cu) on /TOP/PLL/PLL_OUT is 1.92mm from R2 pad 1 (B.Cu) on /TOP/PLL/PLL_LE, inside the 3.00mm keep-away; the pads are on opposite faces, so this is the plan-view distance and the board between them is not measured (keep_away[0] '/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3')",
+   "ref": "C16",
+   "rule": "keep_away",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "gap_mm": 3.0
+   },
+   "measured": {
+    "aggressor": {
+     "net": "/TOP/PLL/PLL_LOCKED",
+     "pad": "20",
+     "ref": "U1",
+     "side": "F.Cu"
+    },
+    "basis": "pad_edge",
+    "cross_face": true,
+    "gap_mm": 0.1176,
+    "index": 0,
+    "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "victim": {
+     "net": "/TOP/PLL/PLL_IN",
+     "pad": "1",
+     "ref": "C3",
+     "side": "B.Cu"
+    }
+   },
+   "message": "C3 pad 1 (B.Cu) on /TOP/PLL/PLL_IN is 0.12mm from U1 pad 20 (F.Cu) on /TOP/PLL/PLL_LOCKED, inside the 3.00mm keep-away; the pads are on opposite faces, so this is the plan-view distance and the board between them is not measured (keep_away[0] '/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3')",
+   "ref": "C3",
+   "rule": "keep_away",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ7_anchor",
+   "expected": {
+    "gap_mm": 3.0
+   },
+   "measured": {
+    "aggressor": {
+     "net": "/TOP/PLL/PLL_LE",
+     "pad": "1",
+     "ref": "R2",
+     "side": "B.Cu"
+    },
+    "basis": "pad_edge",
+    "cross_face": true,
+    "gap_mm": 1.8473,
+    "index": 0,
+    "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "victim": {
+     "net": "/TOP/PLL/PLL_OUT",
+     "pad": "36",
+     "ref": "U1",
+     "side": "F.Cu"
+    }
+   },
+   "message": "U1 pad 36 (F.Cu) on /TOP/PLL/PLL_OUT is 1.85mm from R2 pad 1 (B.Cu) on /TOP/PLL/PLL_LE, inside the 3.00mm keep-away; the pads are on opposite faces, so this is the plan-view distance and the board between them is not measured (keep_away[0] '/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3')",
+   "ref": "U1",
+   "rule": "keep_away",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ11_anchor",
+   "expected": {
+    "gap_mm": 3.0
+   },
+   "measured": {
+    "aggressor": {
+     "net": "/TOP/ADC//ADC_RST",
+     "pad": "2",
+     "ref": "R111",
+     "side": "B.Cu"
+    },
+    "basis": "pad_edge",
+    "cross_face": false,
+    "gap_mm": 1.9656,
+    "index": 0,
+    "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3",
+    "victim": {
+     "net": "Net-(C110-Pad1)",
+     "pad": "16",
+     "ref": "U29",
+     "side": "B.Cu"
+    }
+   },
+   "message": "U29 pad 16 (B.Cu) on Net-(C110-Pad1) is 1.97mm from R111 pad 2 (B.Cu) on /TOP/ADC//ADC_RST, inside the 3.00mm keep-away (keep_away[0] '/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/DAC_I,/TOP/DAC?Interface/DAC_Q,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C110-Pad1),Net-(C111-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C3-Pad2),Net-(C96-Pad2),Net-(C97-Pad2):3')",
+   "ref": "U29",
+   "rule": "keep_away",
+   "severity": "warn"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1",
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1' circle (184.216, 66.44, 5.05)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1",
+     "FIX5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX5-1",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "D2 (F) is inside keep-out 'hole-FIX5-1' circle (112.216, 66.44, 5.05)",
+   "ref": "D2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.1304,
+    "near": "U1",
+    "near_pad": "2",
+    "near_pads": 1,
+    "net": "Net-(C10-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C10 pad 1 is 4.13mm from U1 pad 2, past the declared 3.00mm proximity limit",
+   "ref": "C10",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.155,
+    "near": "U21",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C100-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C100 pad 1 is 5.16mm from U21 pad 1, past the declared 3.00mm proximity limit",
+   "ref": "C100",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.6195,
+    "near": "U22",
+    "near_pad": "7",
+    "near_pads": 1,
+    "net": "Net-(C109-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C109 pad 1 is 3.62mm from U22 pad 7, past the declared 3.00mm proximity limit",
+   "ref": "C109",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.1517,
+    "near": "U1",
+    "near_pad": "18",
+    "near_pads": 1,
+    "net": "Net-(C11-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C11 pad 1 is 4.15mm from U1 pad 18, past the declared 3.00mm proximity limit",
+   "ref": "C11",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.3139,
+    "near": "U29",
+    "near_pad": "5",
+    "near_pads": 1,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C122 pad 2 is 3.31mm from U29 pad 5, past the declared 3.00mm proximity limit",
+   "ref": "C122",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.1401,
+    "near": "U1",
+    "near_pad": "13",
+    "near_pads": 1,
+    "net": "Net-(C13-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C13 pad 1 is 4.14mm from U1 pad 13, past the declared 3.00mm proximity limit",
+   "ref": "C13",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.4421,
+    "near": "U1",
+    "near_pad": "8",
+    "near_pads": 1,
+    "net": "Net-(C14-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C14 pad 1 is 4.44mm from U1 pad 8, past the declared 3.00mm proximity limit",
+   "ref": "C14",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.767,
+    "near": "U40",
+    "near_pad": "16",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C140 pad 2 is 5.77mm from U40 pad 16, past the declared 5.00mm proximity limit",
+   "ref": "C140",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.9626,
+    "near": "U40",
+    "near_pad": "14",
+    "near_pads": 1,
+    "net": "Net-(C142-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C142 pad 1 is 4.96mm from U40 pad 14 on Net-(C142-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C142",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.3793,
+    "near": "J6",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C143-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C143 pad 1 is 5.38mm from J6 pad 1 on Net-(C143-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C143",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 8.111,
+    "near": "J6",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C144-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C144 pad 1 is 8.11mm from J6 pad 3 on Net-(C144-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C144",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 14.0669,
+    "near": "J6",
+    "near_pad": "5",
+    "near_pads": 1,
+    "net": "Net-(C145-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C145 pad 2 is 14.07mm from J6 pad 5 on Net-(C145-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "C145",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 16.3557,
+    "near": "U40",
+    "near_pad": "15",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C147 pad 2 is 16.36mm from U40 pad 15, past the declared 5.00mm proximity limit",
+   "ref": "C147",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 28.9256,
+    "near": "J6",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C143-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C148 pad 1 is 28.93mm from J6 pad 1 on Net-(C143-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C148",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 28.6,
+    "near": "U39",
+    "near_pad": "15",
+    "near_pads": 21,
+    "net": "5V_1",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C153 pad 1 is 28.60mm from U39 pad 15, past the declared 5.00mm proximity limit",
+   "ref": "C153",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 8.8342,
+    "near": "U40",
+    "near_pad": "20",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C154 pad 2 is 8.83mm from U40 pad 20, past the declared 5.00mm proximity limit",
+   "ref": "C154",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.2919,
+    "near": "U40",
+    "near_pad": "10",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C155 pad 2 is 6.29mm from U40 pad 10, past the declared 5.00mm proximity limit",
+   "ref": "C155",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 9.8909,
+    "near": "U40",
+    "near_pad": "15",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C161 pad 2 is 9.89mm from U40 pad 15, past the declared 5.00mm proximity limit",
+   "ref": "C161",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 8.1416,
+    "near": "U41",
+    "near_pad": "20",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C165 pad 2 is 8.14mm from U41 pad 20, past the declared 5.00mm proximity limit",
+   "ref": "C165",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.5121,
+    "near": "U43",
+    "near_pad": "20",
+    "near_pads": 21,
+    "net": "24V",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C167 pad 1 is 5.51mm from U43 pad 20, past the declared 5.00mm proximity limit",
+   "ref": "C167",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.1057,
+    "near": "U45",
+    "near_pad": "10",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C169 pad 2 is 5.11mm from U45 pad 10, past the declared 5.00mm proximity limit",
+   "ref": "C169",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 12.0425,
+    "near": "U1",
+    "near_pad": "15",
+    "near_pads": 1,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C17 pad 2 is 12.04mm from U1 pad 15, past the declared 3.00mm proximity limit",
+   "ref": "C17",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.9925,
+    "near": "U43",
+    "near_pad": "14",
+    "near_pads": 1,
+    "net": "Net-(C172-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C172 pad 1 is 5.99mm from U43 pad 14 on Net-(C172-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C172",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.1818,
+    "near": "U44",
+    "near_pad": "14",
+    "near_pads": 1,
+    "net": "Net-(C173-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C173 pad 1 is 5.18mm from U44 pad 14 on Net-(C173-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C173",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 7.7444,
+    "near": "U45",
+    "near_pad": "14",
+    "near_pads": 1,
+    "net": "Net-(C174-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C174 pad 1 is 7.74mm from U45 pad 14 on Net-(C174-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C174",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.7688,
+    "near": "U44",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C178-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C178 pad 2 is 6.77mm from U44 pad 3 on Net-(C178-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "C178",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.335,
+    "near": "U45",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C179-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C179 pad 2 is 6.34mm from U45 pad 3 on Net-(C179-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "C179",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 11.4028,
+    "near": "U42",
+    "near_pad": "6",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C189 pad 2 is 11.40mm from U42 pad 6, past the declared 5.00mm proximity limit",
+   "ref": "C189",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.5092,
+    "near": "U1",
+    "near_pad": "16",
+    "near_pads": 1,
+    "net": "Net-(C19-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C19 pad 1 is 6.51mm from U1 pad 16, past the declared 3.00mm proximity limit",
+   "ref": "C19",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.1438,
+    "near": "U44",
+    "near_pad": "19",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C191 pad 2 is 5.14mm from U44 pad 19, past the declared 5.00mm proximity limit",
+   "ref": "C191",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.4868,
+    "near": "U45",
+    "near_pad": "15",
+    "near_pads": 21,
+    "net": "-15V",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C192 pad 1 is 5.49mm from U45 pad 15, past the declared 5.00mm proximity limit",
+   "ref": "C192",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.736,
+    "near": "U43",
+    "near_pad": "1",
+    "near_pads": 21,
+    "net": "GND",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C195 pad 2 is 5.74mm from U43 pad 1, past the declared 5.00mm proximity limit",
+   "ref": "C195",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 7.3031,
+    "near": "U45",
+    "near_pad": "12",
+    "near_pads": 21,
+    "net": "-15V",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C201 pad 1 is 7.30mm from U45 pad 12, past the declared 5.00mm proximity limit",
+   "ref": "C201",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 9.0342,
+    "near": "U1",
+    "near_pad": "16",
+    "near_pads": 1,
+    "net": "Net-(C19-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C22 pad 1 is 9.03mm from U1 pad 16 on Net-(C19-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C22",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 28.7404,
+    "near": "U4",
+    "near_pad": "34",
+    "near_pads": 3,
+    "net": "Net-(C27-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 2
+   },
+   "message": "C27 pad 1 is 28.74mm from U4 pad 34 on Net-(C27-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C27",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 27.6556,
+    "near": "U4",
+    "near_pad": "35",
+    "near_pads": 3,
+    "net": "Net-(C27-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 2
+   },
+   "message": "C27 pad 2 is 27.66mm from U4 pad 35 on Net-(C27-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "C27",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.931,
+    "near": "U4",
+    "near_pad": "39",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_I",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C47 pad 2 is 4.93mm from U4 pad 39 on /TOP/DAC Interface/DAC_I, past the declared 3.00mm proximity limit",
+   "ref": "C47",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.3846,
+    "near": "U4",
+    "near_pad": "46",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_Q",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C48 pad 2 is 4.38mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 3.00mm proximity limit",
+   "ref": "C48",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.9269,
+    "near": "U1",
+    "near_pad": "26",
+    "near_pads": 1,
+    "net": "Net-(C5-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "C5 pad 1 is 5.93mm from U1 pad 26, past the declared 3.00mm proximity limit",
+   "ref": "C5",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.3827,
+    "near": "U16",
+    "near_pad": "16",
+    "near_pads": 1,
+    "net": "Net-(C70-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C70 pad 1 is 6.38mm from U16 pad 16 on Net-(C70-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C70",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.5203,
+    "near": "U18",
+    "near_pad": "11",
+    "near_pads": 1,
+    "net": "Net-(C73-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C73 pad 2 is 4.52mm from U18 pad 11 on Net-(C73-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "C73",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.2944,
+    "near": "U18",
+    "near_pad": "15",
+    "near_pads": 1,
+    "net": "Net-(C80-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C80 pad 1 is 6.29mm from U18 pad 15 on Net-(C80-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C80",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.8907,
+    "near": "U18",
+    "near_pad": "16",
+    "near_pads": 1,
+    "net": "Net-(C81-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "C81 pad 1 is 5.89mm from U18 pad 16 on Net-(C81-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "C81",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.006,
+    "near": "U1",
+    "near_pad": "28",
+    "near_pads": 1,
+    "net": "Net-(C2-Pad1)",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "L1 pad 2 is 3.01mm from U1 pad 28, past the declared 3.00mm proximity limit",
+   "ref": "L1",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 29.3668,
+    "near": "J6",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C143-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "L12 pad 1 is 29.37mm from J6 pad 1 on Net-(C143-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "L12",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 15.1783,
+    "near": "J6",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C144-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "L13 pad 1 is 15.18mm from J6 pad 3 on Net-(C144-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "L13",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 40.1329,
+    "near": "J6",
+    "near_pad": "5",
+    "near_pads": 1,
+    "net": "Net-(C145-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "L14 pad 1 is 40.13mm from J6 pad 5 on Net-(C145-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "L14",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.0328,
+    "near": "U1",
+    "near_pad": "14",
+    "near_pads": 1,
+    "net": "Net-(C9-Pad1)",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "L4 pad 2 is 4.03mm from U1 pad 14, past the declared 3.00mm proximity limit",
+   "ref": "L4",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.8889,
+    "near": "U1",
+    "near_pad": "18",
+    "near_pads": 1,
+    "net": "Net-(C11-Pad1)",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "L5 pad 2 is 3.89mm from U1 pad 18, past the declared 3.00mm proximity limit",
+   "ref": "L5",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.1563,
+    "near": "U21",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C100-Pad1)",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R102 pad 2 is 3.16mm from U21 pad 1, past the declared 3.00mm proximity limit",
+   "ref": "R102",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.0759,
+    "near": "U21",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C101-Pad1)",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R103 pad 2 is 5.08mm from U21 pad 1, past the declared 3.00mm proximity limit",
+   "ref": "R103",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 10.6829,
+    "near": "U22",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "5V_2",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R104 pad 1 is 10.68mm from U22 pad 1, past the declared 3.00mm proximity limit",
+   "ref": "R104",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.0751,
+    "near": "U22",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C103-Pad1)",
+    "pad": "2",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R105 pad 2 is 3.08mm from U22 pad 1, past the declared 3.00mm proximity limit",
+   "ref": "R105",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.2845,
+    "near": "U22",
+    "near_pad": "7",
+    "near_pads": 1,
+    "net": "5V_2",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R107 pad 1 is 3.28mm from U22 pad 7, past the declared 3.00mm proximity limit",
+   "ref": "R107",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 7.1249,
+    "near": "U29",
+    "near_pad": "2",
+    "near_pads": 1,
+    "net": "/TOP/ADC//ADC_RST",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R111 pad 2 is 7.12mm from U29 pad 2 on /TOP/ADC//ADC_RST, past the declared 3.00mm proximity limit",
+   "ref": "R111",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 45.1856,
+    "near": "U26",
+    "near_pad": "2",
+    "near_pads": 1,
+    "net": "/TOP/ADC/MIXERout0",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R115 pad 1 is 45.19mm from U26 pad 2 on /TOP/ADC/MIXERout0, past the declared 3.00mm proximity limit",
+   "ref": "R115",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 42.9185,
+    "near": "U27",
+    "near_pad": "2",
+    "near_pads": 1,
+    "net": "/TOP/ADC/MIXERout1",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R116 pad 1 is 42.92mm from U27 pad 2 on /TOP/ADC/MIXERout1, past the declared 3.00mm proximity limit",
+   "ref": "R116",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.4076,
+    "near": "U28",
+    "near_pad": "5",
+    "near_pads": 1,
+    "net": "Net-(C113-Pad1)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R118 pad 2 is 3.41mm from U28 pad 5 on Net-(C113-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R118",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ11",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.0636,
+    "near": "U28",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C112-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R121 pad 1 is 3.06mm from U28 pad 3 on Net-(C112-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R121",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 11.5705,
+    "near": "U1",
+    "near_pad": "15",
+    "near_pads": 1,
+    "net": "Net-(C18-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R13 pad 1 is 11.57mm from U1 pad 15, past the declared 3.00mm proximity limit",
+   "ref": "R13",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.0841,
+    "near": "U32",
+    "near_pad": "32",
+    "near_pads": 1,
+    "net": "Net-(R130-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R130 pad 1 is 5.08mm from U32 pad 32 on Net-(R130-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R130",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.699,
+    "near": "U34",
+    "near_pad": "35",
+    "near_pads": 1,
+    "net": "Net-(R132-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R132 pad 2 is 3.70mm from U34 pad 35 on Net-(R132-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R132",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.1338,
+    "near": "U34",
+    "near_pad": "34",
+    "near_pads": 1,
+    "net": "Net-(R134-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R134 pad 2 is 3.13mm from U34 pad 34 on Net-(R134-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R134",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.3419,
+    "near": "U34",
+    "near_pad": "31",
+    "near_pads": 1,
+    "net": "Net-(R138-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R138 pad 2 is 3.34mm from U34 pad 31 on Net-(R138-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R138",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.5205,
+    "near": "U34",
+    "near_pad": "31",
+    "near_pads": 1,
+    "net": "Net-(R138-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R139 pad 1 is 3.52mm from U34 pad 31 on Net-(R138-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R139",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.1896,
+    "near": "U34",
+    "near_pad": "27",
+    "near_pads": 1,
+    "net": "Net-(R140-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R140 pad 2 is 4.19mm from U34 pad 27 on Net-(R140-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R140",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.159,
+    "near": "U34",
+    "near_pad": "26",
+    "near_pads": 1,
+    "net": "Net-(R142-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R142 pad 2 is 4.16mm from U34 pad 26 on Net-(R142-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R142",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.5824,
+    "near": "U34",
+    "near_pad": "26",
+    "near_pads": 1,
+    "net": "Net-(R142-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R143 pad 1 is 5.58mm from U34 pad 26 on Net-(R142-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R143",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.0572,
+    "near": "U34",
+    "near_pad": "24",
+    "near_pads": 1,
+    "net": "Net-(R144-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R144 pad 2 is 6.06mm from U34 pad 24 on Net-(R144-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R144",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55dd5793",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.8109,
+    "near": "U34",
+    "near_pad": "24",
+    "near_pads": 1,
+    "net": "Net-(R144-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R145 pad 1 is 5.81mm from U34 pad 24 on Net-(R144-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R145",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.6591,
+    "near": "U44",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C178-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R156 pad 2 is 6.66mm from U44 pad 3 on Net-(C178-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R156",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/55b76454",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.1882,
+    "near": "U45",
+    "near_pad": "3",
+    "near_pads": 1,
+    "net": "Net-(C179-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R159 pad 1 is 5.19mm from U45 pad 3 on Net-(C179-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R159",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.92,
+    "near": "U1",
+    "near_pad": "17",
+    "near_pads": 1,
+    "net": "Net-(R22-Pad1)",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 2
+   },
+   "message": "R22 pad 1 is 5.92mm from U1 pad 17, past the declared 3.00mm proximity limit",
+   "ref": "R22",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.0852,
+    "near": "U4",
+    "near_pad": "20",
+    "near_pads": 1,
+    "net": "Net-(R28-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R28 pad 2 is 3.09mm from U4 pad 20 on Net-(R28-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R28",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.867,
+    "near": "U4",
+    "near_pad": "20",
+    "near_pads": 1,
+    "net": "Net-(R28-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R29 pad 1 is 3.87mm from U4 pad 20 on Net-(R28-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R29",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.6081,
+    "near": "U4",
+    "near_pad": "24",
+    "near_pads": 1,
+    "net": "Net-(R32-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R32 pad 2 is 3.61mm from U4 pad 24 on Net-(R32-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R32",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.6369,
+    "near": "U4",
+    "near_pad": "22",
+    "near_pads": 1,
+    "net": "Net-(R36-Pad2)",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R36 pad 2 is 6.64mm from U4 pad 22 on Net-(R36-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R36",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 11.2264,
+    "near": "U4",
+    "near_pad": "41",
+    "near_pads": 1,
+    "net": "Net-(R38-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R38 pad 1 is 11.23mm from U4 pad 41 on Net-(R38-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R38",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 12.0045,
+    "near": "U4",
+    "near_pad": "44",
+    "near_pads": 1,
+    "net": "Net-(R39-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R39 pad 1 is 12.00mm from U4 pad 44 on Net-(R39-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R39",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.4853,
+    "near": "U1",
+    "near_pad": "11",
+    "near_pads": 1,
+    "net": "/TOP/PLL/PLL_CE",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R4 pad 2 is 4.49mm from U1 pad 11 on /TOP/PLL/PLL_CE, past the declared 3.00mm proximity limit",
+   "ref": "R4",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ12",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.9379,
+    "near": "U9",
+    "near_pad": "6",
+    "near_pads": 1,
+    "net": "Net-(C43-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R41 pad 1 is 3.94mm from U9 pad 6 on Net-(C43-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R41",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.0858,
+    "near": "U1",
+    "near_pad": "33",
+    "near_pads": 1,
+    "net": "/TOP/PLL/PLL_CLK",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R5 pad 1 is 3.09mm from U1 pad 33 on /TOP/PLL/PLL_CLK, past the declared 3.00mm proximity limit",
+   "ref": "R5",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 46.8728,
+    "near": "U9",
+    "near_pad": "1",
+    "near_pads": 1,
+    "net": "Net-(C42-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R50 pad 1 is 46.87mm from U9 pad 1 on Net-(C42-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R50",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 28.7543,
+    "near": "U9",
+    "near_pad": "7",
+    "near_pads": 1,
+    "net": "Net-(C43-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R51 pad 1 is 28.75mm from U9 pad 7 on Net-(C43-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R51",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.4848,
+    "near": "U4",
+    "near_pad": "39",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_I",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R54 pad 2 is 6.48mm from U4 pad 39 on /TOP/DAC Interface/DAC_I, past the declared 3.00mm proximity limit",
+   "ref": "R54",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 8.8347,
+    "near": "U4",
+    "near_pad": "46",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_Q",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R55 pad 2 is 8.83mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 3.00mm proximity limit",
+   "ref": "R55",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.2092,
+    "near": "U4",
+    "near_pad": "40",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_I",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R56 pad 2 is 4.21mm from U4 pad 40 on /TOP/DAC Interface/DAC_I, past the declared 3.00mm proximity limit",
+   "ref": "R56",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 4.2637,
+    "near": "U4",
+    "near_pad": "45",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_Q",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R57 pad 2 is 4.26mm from U4 pad 45 on /TOP/DAC Interface/DAC_Q, past the declared 3.00mm proximity limit",
+   "ref": "R57",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ7",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.0842,
+    "near": "U1",
+    "near_pad": "24",
+    "near_pads": 1,
+    "net": "/TOP/PLL/PLL_ENout",
+    "pad": "2",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R6 pad 2 is 3.08mm from U1 pad 24 on /TOP/PLL/PLL_ENout, past the declared 3.00mm proximity limit",
+   "ref": "R6",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 11.2974,
+    "near": "U4",
+    "near_pad": "40",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_I",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R62 pad 1 is 11.30mm from U4 pad 40 on /TOP/DAC Interface/DAC_I, past the declared 3.00mm proximity limit",
+   "ref": "R62",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ9",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 6.7328,
+    "near": "U4",
+    "near_pad": "46",
+    "near_pads": 2,
+    "net": "/TOP/DAC Interface/DAC_Q",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R64 pad 1 is 6.73mm from U4 pad 46 on /TOP/DAC Interface/DAC_Q, past the declared 3.00mm proximity limit",
+   "ref": "R64",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.9279,
+    "near": "U17",
+    "near_pad": "2",
+    "near_pads": 1,
+    "net": "Net-(C70-Pad2)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R73 pad 1 is 3.93mm from U17 pad 2 on Net-(C70-Pad2), past the declared 3.00mm proximity limit",
+   "ref": "R73",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 12.3162,
+    "near": "U17",
+    "near_pad": "9",
+    "near_pads": 1,
+    "net": "/TOP/Frequency dividers/IQout1",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R74 pad 1 is 12.32mm from U17 pad 9 on /TOP/Frequency dividers/IQout1, past the declared 3.00mm proximity limit",
+   "ref": "R74",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/56c4bef4",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.1431,
+    "near": "U18",
+    "near_pad": "23",
+    "near_pads": 1,
+    "net": "/TOP/Frequency dividers/FD0_N2",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R76 pad 1 is 5.14mm from U18 pad 23 on /TOP/Frequency dividers/FD0_N2, past the declared 3.00mm proximity limit",
+   "ref": "R76",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "sheet:4f61069c/56c4bef4",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.8067,
+    "near": "U18",
+    "near_pad": "20",
+    "near_pads": 1,
+    "net": "/TOP/Frequency dividers/FD0_S0",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R79 pad 1 is 3.81mm from U18 pad 20 on /TOP/Frequency dividers/FD0_S0, past the declared 3.00mm proximity limit",
+   "ref": "R79",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.9035,
+    "near": "U18",
+    "near_pad": "15",
+    "near_pads": 1,
+    "net": "Net-(C80-Pad1)",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R82 pad 1 is 3.90mm from U18 pad 15 on Net-(C80-Pad1), past the declared 3.00mm proximity limit",
+   "ref": "R82",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.007,
+    "near": "U19",
+    "near_pad": "20",
+    "near_pads": 1,
+    "net": "/TOP/Frequency dividers/FD1_S0",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R87 pad 1 is 3.01mm from U19 pad 20 on /TOP/Frequency dividers/FD1_S0, past the declared 3.00mm proximity limit",
+   "ref": "R87",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.2865,
+    "near": "U20",
+    "near_pad": "22",
+    "near_pads": 1,
+    "net": "/TOP/Frequency dividers/FD2_N1",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R94 pad 1 is 3.29mm from U20 pad 22 on /TOP/Frequency dividers/FD2_N1, past the declared 3.00mm proximity limit",
+   "ref": "R94",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ10",
+   "expected": {
+    "max_mm": 3.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 3.0386,
+    "near": "U20",
+    "near_pad": "20",
+    "near_pads": 1,
+    "net": "/TOP/Frequency dividers/FD2_S0",
+    "pad": "1",
+    "pads_basis": "declared",
+    "paired_by": "net",
+    "subject_pads": 1
+   },
+   "message": "R99 pad 1 is 3.04mm from U20 pad 20 on /TOP/Frequency dividers/FD2_S0, past the declared 3.00mm proximity limit",
+   "ref": "R99",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.6306,
+    "near": "C99",
+    "near_pad": "1",
+    "near_pads": 2,
+    "net": "GND",
+    "pad": "6",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 13
+   },
+   "message": "U17 pad 6 is 5.63mm from C99 pad 1, past the declared 5.00mm proximity limit",
+   "ref": "U17",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 9.1106,
+    "near": "U23",
+    "near_pad": "3",
+    "near_pads": 4,
+    "net": "Net-(U24-Pad6)",
+    "pad": "6",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 6
+   },
+   "message": "U24 pad 6 is 9.11mm from U23 pad 3, past the declared 5.00mm proximity limit",
+   "ref": "U24",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 5.6827,
+    "near": "C109",
+    "near_pad": "2",
+    "near_pads": 2,
+    "net": "GND",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 13
+   },
+   "message": "U25 pad 1 is 5.68mm from C109 pad 2, past the declared 5.00mm proximity limit",
+   "ref": "U25",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "power",
+   "expected": {
+    "max_mm": 5.0
+   },
+   "measured": {
+    "basis": "pad_edge",
+    "gap_mm": 23.6878,
+    "near": "U40",
+    "near_pad": "16",
+    "near_pads": 21,
+    "net": "5V_1",
+    "pad": "1",
+    "pads_basis": "part",
+    "paired_by": "any",
+    "subject_pads": 21
+   },
+   "message": "U39 pad 1 is 23.69mm from U40 pad 16, past the declared 5.00mm proximity limit",
+   "ref": "U39",
+   "rule": "proximity",
+   "severity": "error"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "tolerance_mm": 0.3
+   },
+   "measured": {
+    "index": 0,
+    "max_mm": 5.6462,
+    "off": 9,
+    "worst": [
+     "R103",
+     "C101",
+     "C98",
+     "L10",
+     "C105",
+     "C100"
+    ]
+   },
+   "message": "templates[0] (U21): 9 of 10 member(s) off the template -- worst R103, a pad 5.65mm from its template position",
+   "ref": "R103",
+   "rule": "template",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ8",
+   "expected": {
+    "tolerance_mm": 0.3
+   },
+   "measured": {
+    "index": 1,
+    "max_mm": 6.759,
+    "off": 10,
+    "worst": [
+     "R104",
+     "C109",
+     "C107",
+     "C99",
+     "R107",
+     "R105"
+    ]
+   },
+   "message": "templates[1] (U22): 10 of 10 member(s) off the template -- worst R104, a pad 6.76mm from its template position",
+   "ref": "R104",
+   "rule": "template",
+   "severity": "warn"
+  },
+  {
+   "block": "canJ12_anchor",
+   "expected": {
+    "tolerance_mm": 1.0,
+    "zone": [
+     174.599,
+     107.669,
+     197.391,
+     130.461
+    ]
+   },
+   "measured": {
+    "axis": "south",
+    "open_sides": [],
+    "outside_mm": 4.7885,
+    "rect": [
+     185.2441,
+     123.5495,
+     196.7721,
+     135.2495
+    ]
+   },
+   "message": "U4 courtyard extends 4.79mm past the south edge of block 'canJ12_anchor'",
+   "ref": "U4",
+   "rule": "zone_containment",
+   "severity": "error"
+  }
+ ]
+}

@@ -1,0 +1,6332 @@
+{
+ "blocks": {},
+ "board": "/tmp/pcb-trials/timiq/v5/t2/human_cy.kicad_pcb",
+ "brief_coverage": {
+  "abstained": 0,
+  "brief": null,
+  "carried": 0,
+  "clauses": [],
+  "complete": true,
+  "drifted": 0,
+  "graded": 0,
+  "not_claimed": 0,
+  "schema": 1,
+  "uncovered": 0
+ },
+ "budget_abstained": {},
+ "budget_dispositioned": {},
+ "complete": true,
+ "decap_pin_evidence": {},
+ "declaration_ledger": [
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "envelope",
+   "id": "rule:envelope",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no envelope.rect"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_containment",
+   "id": "rule:zone_containment",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "no block declares a zone"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_side",
+   "id": "rule:zone_side",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "no block declares a side"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "assembly_side",
+   "id": "rule:assembly_side",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no assembly.sides"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "zone_exclusive",
+   "id": "rule:zone_exclusive",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "no block is marked exclusive"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": "keepouts[]",
+   "disposition": null,
+   "grader": "keepout",
+   "id": "rule:keepout",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "graded_fail",
+   "why": "armed by the plan's `keepouts[]`"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "edge_connector",
+   "id": "rule:edge_connector",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_distance",
+   "id": "rule:decap_distance",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_ungraded",
+   "id": "rule:decap_ungraded",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "decap_pin_distance",
+   "id": "rule:decap_pin_distance",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "advisory",
+   "why": "the intent declares no decaps.max_pin_distance_mm"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "proximity",
+   "id": "rule:proximity",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no proximity claims"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "keep_away",
+   "id": "rule:keep_away",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no keep_away rules"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "must_lock",
+   "id": "rule:must_lock",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no must_lock patterns"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "legality",
+   "id": "rule:legality",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "dark",
+   "why": "the intent declares no legality_budget"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "pins_to_edge",
+   "id": "rule:pins_to_edge",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "inapplicable",
+   "why": "the intent declares no edge_connectors"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "array_formation",
+   "id": "rule:array_formation",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no arrays"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "replicate",
+   "id": "rule:replicate",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no replicate copies"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "template",
+   "id": "rule:template",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no templates"
+  },
+  {
+   "authority": "hypothesis",
+   "basis": "declared",
+   "consequence": null,
+   "disposition": null,
+   "grader": "cover",
+   "id": "rule:cover",
+   "kind": "rule",
+   "source": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+   "source_reason": null,
+   "status": "policy",
+   "why": "the intent declares no covers"
+  }
+ ],
+ "edge_connector_evidence": [],
+ "edge_seating": [],
+ "health": {},
+ "intent": "/tmp/pcb-trials/timiq/v5/t2/cal_all.json",
+ "legality": {
+  "hole_shortfall": 0.0,
+  "hpwl": 6237.3248,
+  "keepout_pad_amount": 0.0,
+  "keepout_pad_parts": 0,
+  "locked_contact_pairs": 0,
+  "oob_amount": 52.7776,
+  "oob_area": 572.2303,
+  "oob_count": 13,
+  "overlap_area": 2737.8767,
+  "pad_conflict_pairs": 4,
+  "pad_intersection_pairs": 4,
+  "pad_overlap_pairs": 3,
+  "pad_shortfall": 1.5951
+ },
+ "n_footprints": 464,
+ "not_graded": {},
+ "outline": {
+  "bounds": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "cutouts": 0,
+  "edge_contours": 0,
+  "edge_segments": 5,
+  "outlines": 1,
+  "problems": [],
+  "simple_rectangle": false,
+  "trustworthy": true
+ },
+ "pad_stacks": {
+  "pad_stack_area": 2.0014,
+  "pad_stack_basis": "check_assembly's pad_intersection channel (legality.pad_intersection_pairs): two parts' pad copper intersecting on a shared side, any net, confirmed on the pads' outlines by check_drc's pad-pad check; never waivable",
+  "pad_stack_count": 1,
+  "pad_stack_pairs": [
+   [
+    "C20",
+    "R16",
+    2.0014,
+    "F"
+   ]
+  ]
+ },
+ "pass": false,
+ "reconciliation": [],
+ "rule_roster": [
+  {
+   "applicability_reason": "the board has an outline, and it bounds every placement",
+   "applicable": true,
+   "arming_key": "envelope.rect",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "envelope",
+   "skip_reason": "the intent declares no envelope.rect",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every movable block can be given a zone",
+   "applicable": true,
+   "arming_key": "blocks[].zone",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "zone_containment",
+   "skip_reason": "no block declares a zone",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "the board carries parts on both faces",
+   "applicable": true,
+   "arming_key": "blocks[].side",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "zone_side",
+   "skip_reason": "no block declares a side",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every board has faces for the fab to populate",
+   "applicable": true,
+   "arming_key": "assembly.sides",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "assembly_side",
+   "skip_reason": "the intent declares no assembly.sides",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a policy about who may enter a zone; nothing on the board says that a zone is reserved",
+   "applicable": true,
+   "arming_key": "blocks[].exclusive (on a zoned block)",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "zone_exclusive",
+   "skip_reason": "no block is marked exclusive",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "armed by the plan's `keepouts[]`",
+   "applicable": true,
+   "arming_key": "keepouts[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "keepout",
+   "skip_reason": "",
+   "state": "armed",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "edge_connector",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "decap_distance",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "122 decoupling cap(s) share a rail with an IC",
+   "applicable": true,
+   "arming_key": "decaps.max_distance_mm",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_ungraded",
+   "skip_reason": "the intent declares no decaps.max_distance_mm",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "the board has supply pins and caps on their rails",
+   "applicable": true,
+   "arming_key": "decaps.max_pin_distance_mm",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "decap_pin_distance",
+   "skip_reason": "the intent declares no decaps.max_pin_distance_mm",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two named parts; nothing on the board, and nothing in a design brief, says which parts must be near which",
+   "applicable": true,
+   "arming_key": "proximity[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "proximity",
+   "skip_reason": "the intent declares no proximity claims",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design relation between two net groups; nothing on the board says which nets are noisy and which are sensitive",
+   "applicable": true,
+   "arming_key": "keep_away[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "keep_away",
+   "skip_reason": "the intent declares no keep_away rules",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "must_lock is a plan's choice, not a requirement no board fact can excuse: the design brief never compiles one, so leaving it dark owes nothing",
+   "applicable": false,
+   "arming_key": "must_lock[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "must_lock",
+   "skip_reason": "the intent declares no must_lock patterns",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "every placement has a legality to measure",
+   "applicable": true,
+   "arming_key": "legality_budget",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": true,
+   "policy": false,
+   "rule": "legality",
+   "skip_reason": "the intent declares no legality_budget",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "no part classifies as an edge receptacle or actuator, so nothing has an edge to claim",
+   "applicable": false,
+   "arming_key": "edge_connectors[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": false,
+   "rule": "pins_to_edge",
+   "skip_reason": "the intent declares no edge_connectors",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which parts form one row; nothing on the board says which identical parts belong together",
+   "applicable": true,
+   "arming_key": "arrays[]",
+   "brief_claims": [],
+   "default_severity": "error",
+   "disposition": "",
+   "gating": true,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "array_formation",
+   "skip_reason": "the intent declares no arrays",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a design decision about which sheet instance is the template; the board says which instances are siblings, not that they must be laid out alike",
+   "applicable": true,
+   "arming_key": "replicate[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "replicate",
+   "skip_reason": "the intent declares no replicate copies",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "an arrangement read from a part's datasheet; the board says which parts are wired to the chip, not where its datasheet puts them",
+   "applicable": true,
+   "arming_key": "templates[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "template",
+   "skip_reason": "the intent declares no templates",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  },
+  {
+   "applicability_reason": "a body a connector carries, read from its datasheets; the board says where the connector is, not which card it takes or how low that card reaches",
+   "applicable": true,
+   "arming_key": "covers[]",
+   "brief_claims": [],
+   "default_severity": "warn",
+   "disposition": "",
+   "gating": false,
+   "needs_disposition": false,
+   "policy": true,
+   "rule": "cover",
+   "skip_reason": "the intent declares no covers",
+   "state": "dark",
+   "withheld": {},
+   "withheld_dispositions": {}
+  }
+ ],
+ "rules_run": [
+  "keepout"
+ ],
+ "rules_skipped": {
+  "array_formation": "the intent declares no arrays",
+  "assembly_side": "the intent declares no assembly.sides",
+  "cover": "the intent declares no covers",
+  "decap_distance": "the intent declares no decaps.max_distance_mm",
+  "decap_pin_distance": "the intent declares no decaps.max_pin_distance_mm",
+  "decap_ungraded": "the intent declares no decaps.max_distance_mm",
+  "edge_connector": "the intent declares no edge_connectors",
+  "envelope": "the intent declares no envelope.rect",
+  "keep_away": "the intent declares no keep_away rules",
+  "legality": "the intent declares no legality_budget",
+  "must_lock": "the intent declares no must_lock patterns",
+  "pins_to_edge": "the intent declares no edge_connectors",
+  "proximity": "the intent declares no proximity claims",
+  "replicate": "the intent declares no replicate copies",
+  "template": "the intent declares no templates",
+  "zone_containment": "no block declares a zone",
+  "zone_exclusive": "no block is marked exclusive",
+  "zone_side": "no block declares a side"
+ },
+ "schema": 1,
+ "stale_dispositions": [],
+ "state": {
+  "distinct_positions": 458,
+  "duplicate_fraction": 0.0259,
+  "has_copper": false,
+  "n_footprints": 464,
+  "outside_fraction": 0.028,
+  "partially_unplaced": false,
+  "segments": 0,
+  "spread_ratio": 0.9708,
+  "stacked_refs": [
+   "C149",
+   "C150",
+   "C53",
+   "C54",
+   "C55",
+   "R109",
+   "R110",
+   "R111",
+   "R112",
+   "R58",
+   "R59",
+   "R60"
+  ],
+  "stacked_suspect_refs": [],
+  "unplaced": false,
+  "vias": 0
+ },
+ "violations": [
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.175",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.175' circle (224.8018, 149.7424, 2.175)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.225",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.225' circle (224.8018, 149.7424, 2.225)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.275",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.275' circle (224.8018, 149.7424, 2.275)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.325",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.325' circle (224.8018, 149.7424, 2.325)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.375",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.375' circle (224.8018, 149.7424, 2.375)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.425",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.425' circle (224.8018, 149.7424, 2.425)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.475",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.475' circle (224.8018, 149.7424, 2.475)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.525",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.525' circle (224.8018, 149.7424, 2.525)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.575",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.575' circle (224.8018, 149.7424, 2.575)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.625",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.625' circle (224.8018, 149.7424, 2.625)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.675",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.675' circle (224.8018, 149.7424, 2.675)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.725",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.725' circle (224.8018, 149.7424, 2.725)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.775",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.775' circle (224.8018, 149.7424, 2.775)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.825",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.825' circle (224.8018, 149.7424, 2.825)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.875",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.875' circle (224.8018, 149.7424, 2.875)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.925",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.925' circle (224.8018, 149.7424, 2.925)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@2.975",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@2.975' circle (224.8018, 149.7424, 2.975)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.025",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.025' circle (224.8018, 149.7424, 3.025)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.075",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.075' circle (224.8018, 149.7424, 3.075)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.125",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.125' circle (224.8018, 149.7424, 3.125)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.175",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.175' circle (224.8018, 149.7424, 3.175)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.225",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.225' circle (224.8018, 149.7424, 3.225)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.275",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.275' circle (224.8018, 149.7424, 3.275)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.325",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.325' circle (224.8018, 149.7424, 3.325)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.375",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.375' circle (224.8018, 149.7424, 3.375)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.425",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.425' circle (224.8018, 149.7424, 3.425)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.475",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.475' circle (224.8018, 149.7424, 3.475)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.525",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.525' circle (224.8018, 149.7424, 3.525)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.575",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.575' circle (224.8018, 149.7424, 3.575)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.625",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.625' circle (224.8018, 149.7424, 3.625)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.675",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.675' circle (224.8018, 149.7424, 3.675)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.725",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.725' circle (224.8018, 149.7424, 3.725)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.775",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.775' circle (224.8018, 149.7424, 3.775)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.825",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.825' circle (224.8018, 149.7424, 3.825)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.875",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.875' circle (224.8018, 149.7424, 3.875)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.925",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.925' circle (224.8018, 149.7424, 3.925)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@3.975",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@3.975' circle (224.8018, 149.7424, 3.975)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.025",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.025' circle (224.8018, 149.7424, 4.025)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.075",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.075' circle (224.8018, 149.7424, 4.075)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.125",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.125' circle (224.8018, 149.7424, 4.125)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.175",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.175' circle (224.8018, 149.7424, 4.175)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.225",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.225' circle (224.8018, 149.7424, 4.225)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.275",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.275' circle (224.8018, 149.7424, 4.275)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.325",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.325' circle (224.8018, 149.7424, 4.325)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.375",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.375' circle (224.8018, 149.7424, 4.375)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.425",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.425' circle (224.8018, 149.7424, 4.425)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.475",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.475' circle (224.8018, 149.7424, 4.475)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.525",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.525' circle (224.8018, 149.7424, 4.525)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.575",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.575' circle (224.8018, 149.7424, 4.575)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.625",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.625' circle (224.8018, 149.7424, 4.625)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.675",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.675' circle (224.8018, 149.7424, 4.675)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.725",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.725' circle (224.8018, 149.7424, 4.725)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.775",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.775' circle (224.8018, 149.7424, 4.775)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.825",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.825' circle (224.8018, 149.7424, 4.825)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.875",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.875' circle (224.8018, 149.7424, 4.875)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.925",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.925' circle (224.8018, 149.7424, 4.925)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@4.975",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@4.975' circle (224.8018, 149.7424, 4.975)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.025",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.025' circle (224.8018, 149.7424, 5.025)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.075",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.075' circle (224.8018, 149.7424, 5.075)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.125",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.125' circle (224.8018, 149.7424, 5.125)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.175",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.175' circle (224.8018, 149.7424, 5.175)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.225",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.225' circle (224.8018, 149.7424, 5.225)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.275",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.275' circle (224.8018, 149.7424, 5.275)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.325",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.325' circle (224.8018, 149.7424, 5.325)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.375",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.375' circle (224.8018, 149.7424, 5.375)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.425",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.425' circle (224.8018, 149.7424, 5.425)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.475",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.475' circle (224.8018, 149.7424, 5.475)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.525",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.525' circle (224.8018, 149.7424, 5.525)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.575",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.575' circle (224.8018, 149.7424, 5.575)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.625",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.625' circle (224.8018, 149.7424, 5.625)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.675",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.675' circle (224.8018, 149.7424, 5.675)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-1@5.725",
+    "side": "F",
+    "sides_occupied": [
+     "B",
+     "F"
+    ]
+   },
+   "message": "BOX1 (F) is inside keep-out 'hole-J5-1@5.725' circle (224.8018, 149.7424, 5.725)",
+   "ref": "BOX1",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.4",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C137 (B) is inside keep-out 'hole-BOX1-5@5.4' circle (239.4624, 99.6978, 5.4)",
+   "ref": "C137",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.45",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C137 (B) is inside keep-out 'hole-BOX1-5@5.45' circle (239.4624, 99.6978, 5.45)",
+   "ref": "C137",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.5",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C137 (B) is inside keep-out 'hole-BOX1-5@5.5' circle (239.4624, 99.6978, 5.5)",
+   "ref": "C137",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.55",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C137 (B) is inside keep-out 'hole-BOX1-5@5.55' circle (239.4624, 99.6978, 5.55)",
+   "ref": "C137",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.2",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.2' circle (256.216, 66.44, 3.2)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.25",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.25' circle (256.216, 66.44, 3.25)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.3",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.3' circle (256.216, 66.44, 3.3)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.35",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.35' circle (256.216, 66.44, 3.35)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.4",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.4' circle (256.216, 66.44, 3.4)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.45",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.45' circle (256.216, 66.44, 3.45)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.5",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.5' circle (256.216, 66.44, 3.5)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.55",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.55' circle (256.216, 66.44, 3.55)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.6",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.6' circle (256.216, 66.44, 3.6)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.65",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.65' circle (256.216, 66.44, 3.65)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.7",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.7' circle (256.216, 66.44, 3.7)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.75",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.75' circle (256.216, 66.44, 3.75)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.8",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.8' circle (256.216, 66.44, 3.8)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.85",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.85' circle (256.216, 66.44, 3.85)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.9",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.9' circle (256.216, 66.44, 3.9)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@3.95",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@3.95' circle (256.216, 66.44, 3.95)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.0",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.0' circle (256.216, 66.44, 4.0)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.05",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.05' circle (256.216, 66.44, 4.05)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.1",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.1' circle (256.216, 66.44, 4.1)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.15",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.15' circle (256.216, 66.44, 4.15)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.2",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.2' circle (256.216, 66.44, 4.2)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.25",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.25' circle (256.216, 66.44, 4.25)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.3",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.3' circle (256.216, 66.44, 4.3)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.35",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.35' circle (256.216, 66.44, 4.35)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.4",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.4' circle (256.216, 66.44, 4.4)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.45",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.45' circle (256.216, 66.44, 4.45)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.5",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.5' circle (256.216, 66.44, 4.5)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.55",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.55' circle (256.216, 66.44, 4.55)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.6",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.6' circle (256.216, 66.44, 4.6)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.65",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.65' circle (256.216, 66.44, 4.65)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.7",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.7' circle (256.216, 66.44, 4.7)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.75",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.75' circle (256.216, 66.44, 4.75)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.8",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.8' circle (256.216, 66.44, 4.8)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.85",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.85' circle (256.216, 66.44, 4.85)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.9",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.9' circle (256.216, 66.44, 4.9)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@4.95",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@4.95' circle (256.216, 66.44, 4.95)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@5.0",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@5.0' circle (256.216, 66.44, 5.0)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@5.05",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@5.05' circle (256.216, 66.44, 5.05)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX7"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX7-1@5.1",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C139 (B) is inside keep-out 'hole-FIX7-1@5.1' circle (256.216, 66.44, 5.1)",
+   "ref": "C139",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.7",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@4.7' circle (184.216, 66.44, 4.7)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.75",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@4.75' circle (184.216, 66.44, 4.75)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.8",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@4.8' circle (184.216, 66.44, 4.8)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.85",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@4.85' circle (184.216, 66.44, 4.85)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.9",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@4.9' circle (184.216, 66.44, 4.9)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.95",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@4.95' circle (184.216, 66.44, 4.95)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@5.0",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@5.0' circle (184.216, 66.44, 5.0)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@5.05",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@5.05' circle (184.216, 66.44, 5.05)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@5.1",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C144 (B) is inside keep-out 'hole-FIX6-1@5.1' circle (184.216, 66.44, 5.1)",
+   "ref": "C144",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.65",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.65' circle (184.216, 66.44, 4.65)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.7",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.7' circle (184.216, 66.44, 4.7)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.75",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.75' circle (184.216, 66.44, 4.75)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.8",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.8' circle (184.216, 66.44, 4.8)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.85",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.85' circle (184.216, 66.44, 4.85)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.9",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.9' circle (184.216, 66.44, 4.9)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@4.95",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@4.95' circle (184.216, 66.44, 4.95)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@5.0",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@5.0' circle (184.216, 66.44, 5.0)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@5.05",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@5.05' circle (184.216, 66.44, 5.05)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX6"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX6-1@5.1",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "C145 (F) is inside keep-out 'hole-FIX6-1@5.1' circle (184.216, 66.44, 5.1)",
+   "ref": "C145",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.525' circle (224.8018, 88.4224, 4.525)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.575' circle (224.8018, 88.4224, 4.575)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.625' circle (224.8018, 88.4224, 4.625)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.675' circle (224.8018, 88.4224, 4.675)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.725' circle (224.8018, 88.4224, 4.725)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.775",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.775' circle (224.8018, 88.4224, 4.775)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.825",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.825' circle (224.8018, 88.4224, 4.825)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.875",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.875' circle (224.8018, 88.4224, 4.875)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.925",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.925' circle (224.8018, 88.4224, 4.925)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.975",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@4.975' circle (224.8018, 88.4224, 4.975)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.025",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.025' circle (224.8018, 88.4224, 5.025)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.075",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.075' circle (224.8018, 88.4224, 5.075)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.125' circle (224.8018, 88.4224, 5.125)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.175' circle (224.8018, 88.4224, 5.175)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.225' circle (224.8018, 88.4224, 5.225)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.275' circle (224.8018, 88.4224, 5.275)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.325' circle (224.8018, 88.4224, 5.325)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.375' circle (224.8018, 88.4224, 5.375)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.425' circle (224.8018, 88.4224, 5.425)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.475' circle (224.8018, 88.4224, 5.475)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.525' circle (224.8018, 88.4224, 5.525)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.575' circle (224.8018, 88.4224, 5.575)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.625' circle (224.8018, 88.4224, 5.625)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.675' circle (224.8018, 88.4224, 5.675)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C152 (B) is inside keep-out 'hole-J5-2@5.725' circle (224.8018, 88.4224, 5.725)",
+   "ref": "C152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.075",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.075' circle (224.8018, 88.4224, 4.075)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.125' circle (224.8018, 88.4224, 4.125)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.175' circle (224.8018, 88.4224, 4.175)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.225' circle (224.8018, 88.4224, 4.225)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.275' circle (224.8018, 88.4224, 4.275)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.325' circle (224.8018, 88.4224, 4.325)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.375' circle (224.8018, 88.4224, 4.375)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.425' circle (224.8018, 88.4224, 4.425)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.475' circle (224.8018, 88.4224, 4.475)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.525' circle (224.8018, 88.4224, 4.525)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.575' circle (224.8018, 88.4224, 4.575)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.625' circle (224.8018, 88.4224, 4.625)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.675' circle (224.8018, 88.4224, 4.675)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.725' circle (224.8018, 88.4224, 4.725)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.775",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.775' circle (224.8018, 88.4224, 4.775)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.825",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.825' circle (224.8018, 88.4224, 4.825)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.875",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.875' circle (224.8018, 88.4224, 4.875)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.925",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.925' circle (224.8018, 88.4224, 4.925)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.975",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@4.975' circle (224.8018, 88.4224, 4.975)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.025",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.025' circle (224.8018, 88.4224, 5.025)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.075",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.075' circle (224.8018, 88.4224, 5.075)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.125' circle (224.8018, 88.4224, 5.125)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.175' circle (224.8018, 88.4224, 5.175)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.225' circle (224.8018, 88.4224, 5.225)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.275' circle (224.8018, 88.4224, 5.275)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.325' circle (224.8018, 88.4224, 5.325)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.375' circle (224.8018, 88.4224, 5.375)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.425' circle (224.8018, 88.4224, 5.425)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.475' circle (224.8018, 88.4224, 5.475)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.525' circle (224.8018, 88.4224, 5.525)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.575' circle (224.8018, 88.4224, 5.575)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.625' circle (224.8018, 88.4224, 5.625)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.675' circle (224.8018, 88.4224, 5.675)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C159 (B) is inside keep-out 'hole-J5-2@5.725' circle (224.8018, 88.4224, 5.725)",
+   "ref": "C159",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.125' circle (224.8018, 88.4224, 5.125)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.175' circle (224.8018, 88.4224, 5.175)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.225' circle (224.8018, 88.4224, 5.225)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.275' circle (224.8018, 88.4224, 5.275)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.325' circle (224.8018, 88.4224, 5.325)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.375' circle (224.8018, 88.4224, 5.375)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.425' circle (224.8018, 88.4224, 5.425)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.475' circle (224.8018, 88.4224, 5.475)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.525' circle (224.8018, 88.4224, 5.525)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.575' circle (224.8018, 88.4224, 5.575)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.625' circle (224.8018, 88.4224, 5.625)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.675' circle (224.8018, 88.4224, 5.675)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C183 (B) is inside keep-out 'hole-J5-2@5.725' circle (224.8018, 88.4224, 5.725)",
+   "ref": "C183",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.375' circle (224.8018, 88.4224, 2.375)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.425' circle (224.8018, 88.4224, 2.425)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.475' circle (224.8018, 88.4224, 2.475)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.525' circle (224.8018, 88.4224, 2.525)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.575' circle (224.8018, 88.4224, 2.575)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.625' circle (224.8018, 88.4224, 2.625)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.675' circle (224.8018, 88.4224, 2.675)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.725' circle (224.8018, 88.4224, 2.725)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.775",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.775' circle (224.8018, 88.4224, 2.775)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.825",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.825' circle (224.8018, 88.4224, 2.825)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.875",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.875' circle (224.8018, 88.4224, 2.875)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.925",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.925' circle (224.8018, 88.4224, 2.925)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@2.975",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@2.975' circle (224.8018, 88.4224, 2.975)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.025",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.025' circle (224.8018, 88.4224, 3.025)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.075",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.075' circle (224.8018, 88.4224, 3.075)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.125' circle (224.8018, 88.4224, 3.125)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.175' circle (224.8018, 88.4224, 3.175)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.225' circle (224.8018, 88.4224, 3.225)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.275' circle (224.8018, 88.4224, 3.275)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.325' circle (224.8018, 88.4224, 3.325)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.375' circle (224.8018, 88.4224, 3.375)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.425' circle (224.8018, 88.4224, 3.425)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.475' circle (224.8018, 88.4224, 3.475)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.525' circle (224.8018, 88.4224, 3.525)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.575' circle (224.8018, 88.4224, 3.575)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.625' circle (224.8018, 88.4224, 3.625)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.675' circle (224.8018, 88.4224, 3.675)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.725' circle (224.8018, 88.4224, 3.725)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.775",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.775' circle (224.8018, 88.4224, 3.775)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.825",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.825' circle (224.8018, 88.4224, 3.825)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.875",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.875' circle (224.8018, 88.4224, 3.875)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.925",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.925' circle (224.8018, 88.4224, 3.925)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@3.975",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@3.975' circle (224.8018, 88.4224, 3.975)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.025",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.025' circle (224.8018, 88.4224, 4.025)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.075",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.075' circle (224.8018, 88.4224, 4.075)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.125' circle (224.8018, 88.4224, 4.125)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.175' circle (224.8018, 88.4224, 4.175)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.225' circle (224.8018, 88.4224, 4.225)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.275' circle (224.8018, 88.4224, 4.275)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.325' circle (224.8018, 88.4224, 4.325)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.375' circle (224.8018, 88.4224, 4.375)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.425' circle (224.8018, 88.4224, 4.425)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.475' circle (224.8018, 88.4224, 4.475)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.525' circle (224.8018, 88.4224, 4.525)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.575' circle (224.8018, 88.4224, 4.575)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.625' circle (224.8018, 88.4224, 4.625)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.675' circle (224.8018, 88.4224, 4.675)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.725' circle (224.8018, 88.4224, 4.725)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.775",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.775' circle (224.8018, 88.4224, 4.775)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.825",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.825' circle (224.8018, 88.4224, 4.825)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.875",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.875' circle (224.8018, 88.4224, 4.875)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.925",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.925' circle (224.8018, 88.4224, 4.925)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@4.975",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@4.975' circle (224.8018, 88.4224, 4.975)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.025",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.025' circle (224.8018, 88.4224, 5.025)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.075",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.075' circle (224.8018, 88.4224, 5.075)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.125",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.125' circle (224.8018, 88.4224, 5.125)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.175",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.175' circle (224.8018, 88.4224, 5.175)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.225",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.225' circle (224.8018, 88.4224, 5.225)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.275",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.275' circle (224.8018, 88.4224, 5.275)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.325",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.325' circle (224.8018, 88.4224, 5.325)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.375",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.375' circle (224.8018, 88.4224, 5.375)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.425",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.425' circle (224.8018, 88.4224, 5.425)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.475",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.475' circle (224.8018, 88.4224, 5.475)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.525",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.525' circle (224.8018, 88.4224, 5.525)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.575",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.575' circle (224.8018, 88.4224, 5.575)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.625",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.625' circle (224.8018, 88.4224, 5.625)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.675",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.675' circle (224.8018, 88.4224, 5.675)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "J5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-J5-2@5.725",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "C193 (B) is inside keep-out 'hole-J5-2@5.725' circle (224.8018, 88.4224, 5.725)",
+   "ref": "C193",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX5-1@4.95",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "D2 (F) is inside keep-out 'hole-FIX5-1@4.95' circle (112.216, 66.44, 4.95)",
+   "ref": "D2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX5-1@5.0",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "D2 (F) is inside keep-out 'hole-FIX5-1@5.0' circle (112.216, 66.44, 5.0)",
+   "ref": "D2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX5-1@5.05",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "D2 (F) is inside keep-out 'hole-FIX5-1@5.05' circle (112.216, 66.44, 5.05)",
+   "ref": "D2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "FIX5"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-FIX5-1@5.1",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "D2 (F) is inside keep-out 'hole-FIX5-1@5.1' circle (112.216, 66.44, 5.1)",
+   "ref": "D2",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.4",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R146 (B) is inside keep-out 'hole-BOX1-5@5.4' circle (239.4624, 99.6978, 5.4)",
+   "ref": "R146",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.45",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R146 (B) is inside keep-out 'hole-BOX1-5@5.45' circle (239.4624, 99.6978, 5.45)",
+   "ref": "R146",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.5",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R146 (B) is inside keep-out 'hole-BOX1-5@5.5' circle (239.4624, 99.6978, 5.5)",
+   "ref": "R146",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.55",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R146 (B) is inside keep-out 'hole-BOX1-5@5.55' circle (239.4624, 99.6978, 5.55)",
+   "ref": "R146",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.3",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'hole-BOX1-5@5.3' circle (239.4624, 99.6978, 5.3)",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.35",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'hole-BOX1-5@5.35' circle (239.4624, 99.6978, 5.35)",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.4",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'hole-BOX1-5@5.4' circle (239.4624, 99.6978, 5.4)",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.45",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'hole-BOX1-5@5.45' circle (239.4624, 99.6978, 5.45)",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.5",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'hole-BOX1-5@5.5' circle (239.4624, 99.6978, 5.5)",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.55",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "R152 (F) is inside keep-out 'hole-BOX1-5@5.55' circle (239.4624, 99.6978, 5.55)",
+   "ref": "R152",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.3",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'hole-BOX1-5@5.3' circle (239.4624, 99.6978, 5.3)",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.35",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'hole-BOX1-5@5.35' circle (239.4624, 99.6978, 5.35)",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.4",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'hole-BOX1-5@5.4' circle (239.4624, 99.6978, 5.4)",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.45",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'hole-BOX1-5@5.45' circle (239.4624, 99.6978, 5.45)",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.5",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'hole-BOX1-5@5.5' circle (239.4624, 99.6978, 5.5)",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.55",
+    "side": "B",
+    "sides_occupied": [
+     "B"
+    ]
+   },
+   "message": "R153 (B) is inside keep-out 'hole-BOX1-5@5.55' circle (239.4624, 99.6978, 5.55)",
+   "ref": "R153",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@4.8",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@4.8' circle (239.4624, 99.6978, 4.8)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@4.85",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@4.85' circle (239.4624, 99.6978, 4.85)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@4.9",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@4.9' circle (239.4624, 99.6978, 4.9)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@4.95",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@4.95' circle (239.4624, 99.6978, 4.95)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.0",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.0' circle (239.4624, 99.6978, 5.0)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.05",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.05' circle (239.4624, 99.6978, 5.05)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.1",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.1' circle (239.4624, 99.6978, 5.1)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.15",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.15' circle (239.4624, 99.6978, 5.15)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.2",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.2' circle (239.4624, 99.6978, 5.2)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.25",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.25' circle (239.4624, 99.6978, 5.25)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.3",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.3' circle (239.4624, 99.6978, 5.3)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.35",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.35' circle (239.4624, 99.6978, 5.35)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.4",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.4' circle (239.4624, 99.6978, 5.4)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.45",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.45' circle (239.4624, 99.6978, 5.45)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.5",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.5' circle (239.4624, 99.6978, 5.5)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  },
+  {
+   "expected": {
+    "allow": [
+     "BOX1"
+    ]
+   },
+   "measured": {
+    "keepout": "hole-BOX1-5@5.55",
+    "side": "F",
+    "sides_occupied": [
+     "F"
+    ]
+   },
+   "message": "U38 (F) is inside keep-out 'hole-BOX1-5@5.55' circle (239.4624, 99.6978, 5.55)",
+   "ref": "U38",
+   "rule": "keepout",
+   "severity": "error"
+  }
+ ]
+}

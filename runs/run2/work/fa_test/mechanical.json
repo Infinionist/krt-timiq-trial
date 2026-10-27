@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "fixed": [
+    {
+      "ref": "BOX1",
+      "x": 124.2124,
+      "y": 214.9478,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "D2",
+      "x": 112.216,
+      "y": 73.4378,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "D3",
+      "x": 118.2206,
+      "y": 73.4327,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "D4",
+      "x": 124.2201,
+      "y": 73.4327,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "D5",
+      "x": 130.2196,
+      "y": 73.4327,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "D6",
+      "x": 112.216,
+      "y": 82.4395,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "D7",
+      "x": 118.2155,
+      "y": 82.4395,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "D8",
+      "x": 124.2201,
+      "y": 82.4395,
+      "rot": 270.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "FIX1",
+      "x": 256.216,
+      "y": 220.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX2",
+      "x": 184.216,
+      "y": 220.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX3",
+      "x": 112.216,
+      "y": 220.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX4",
+      "x": 112.216,
+      "y": 148.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX5",
+      "x": 112.216,
+      "y": 66.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX6",
+      "x": 184.216,
+      "y": 66.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX7",
+      "x": 256.216,
+      "y": 66.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "FIX8",
+      "x": 256.216,
+      "y": 148.44,
+      "rot": 0.0,
+      "reason": "fa10-decl-v1: mounting part by drill (every pad drilled >= 2.0 mm, no signal net)"
+    },
+    {
+      "ref": "J1",
+      "x": 146.2857,
+      "y": 223.247,
+      "rot": 90.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "J2",
+      "x": 157.8147,
+      "y": 223.2495,
+      "rot": 90.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "J3",
+      "x": 210.045,
+      "y": 223.26,
+      "rot": 90.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "J4",
+      "x": 222.065,
+      "y": 223.24,
+      "rot": 90.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "J5",
+      "x": 221.9318,
+      "y": 136.3324,
+      "rot": 90.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    },
+    {
+      "ref": "J6",
+      "x": 206.4348,
+      "y": 73.4428,
+      "rot": 180.0,
+      "reason": "fa10-decl-v1 JUDGMENT: mechanical locks stated by the board owner: connectors, status LEDs and mounting hardware sit at fixed poses"
+    }
+  ],
+  "context": {
+    "rule": "fa10-decl-v1"
+  }
+}

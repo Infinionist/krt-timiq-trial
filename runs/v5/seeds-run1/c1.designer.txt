@@ -1,0 +1,13 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+designer_check /tmp/pcb-trials/timiq/v5/seeds/c1.kicad_pcb
+FAIL  assembly  NOT BUILDABLE: blocking ['C20/J7', 'C28/J12', 'C47/J9', 'J10/R74', 'J11/R114', 'J11/R115']... other gates {'silk_enclosed_gating_pairs': 175} (baseline /tmp/pcb-trials/timiq/v5/seeds/fixed_cans.kicad_pcb)
+FAIL  floorplan 83 error(s) {'decap_pin_distance_inferred': 17, 'proximity': 83, 'template': 2}
+FAIL  members   282/282 members in their can on their face; 8 intruder(s); e.g. ['C96@F in J10', 'C97@F in J10', 'R75@B in J10', 'R76@B in J10']
+PASS  band      0 top-side part(s) in the wall band
+PASS  box       6 can(s) checked, outside the box: []
+PASS  window    overlap fraction of each can with the window {'J7': 0.38, 'J8': 0.48, 'J9': 0.65, 'J10': 0.17}
+PASS  holes     14 holes, 0 part(s) inside a keep-out circle; tightest slack (0.089, 'hole-J5-1', 'R135')
+FAIL  far       41 of 380 passives are > 10 mm pad-edge from their IC pin (limit 36); worst [('R154', 118.0), ('R160', 91.6), ('C144', 87.5), ('L13', 85.3), ('C149', 82.3)]
+DESIGNER CHECK FAIL  (4/8)

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "kind": "design-brief",
+  "units": "mm",
+  "board": "TimIQ_RF.kicad_pcb",
+  "interfaces": [],
+  "context": {
+    "rule": "fa10-decl-v1"
+  }
+}

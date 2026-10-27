@@ -1,0 +1,205 @@
+{
+ "final": {
+  "wire": 753.7670773000002,
+  "crossings": 64,
+  "claims": 0,
+  "decaps": 44.59412879004497,
+  "groups": 6.533386188312932,
+  "hints": 0,
+  "halo": 23.81168199591978,
+  "congestion": 0.0,
+  "pad_hits": 66.0,
+  "decap_limits": 0.0,
+  "decap_broken": 0,
+  "claim_limits": 0,
+  "claim_broken": 0,
+  "template": 0,
+  "cost": 1159.4339478175746
+ },
+ "moves": 28500,
+ "seed": 1,
+ "start": "scattered",
+ "runs": 3,
+ "declared": [
+  "J7"
+ ],
+ "reseated": [
+  "R165"
+ ],
+ "repaired": false,
+ "illegal": [
+  "C10",
+  "C12",
+  "C14",
+  "C16",
+  "C17",
+  "C18",
+  "C19",
+  "C20",
+  "C22",
+  "C23",
+  "C24",
+  "C25",
+  "C3",
+  "C6",
+  "C8",
+  "R10",
+  "R11",
+  "R12",
+  "R13",
+  "R14",
+  "R15",
+  "R16",
+  "R165",
+  "R17",
+  "R18",
+  "R19",
+  "R20",
+  "R21",
+  "R22",
+  "R23",
+  "R8",
+  "U1",
+  "U2"
+ ],
+ "tight": {},
+ "refused": {},
+ "estimate_fallback": [],
+ "oversubscribed": [],
+ "claim_arity": [],
+ "floorplan": {
+  "errors": 33,
+  "rules": [
+   "zone_containment"
+  ]
+ },
+ "assembly": {
+  "blocking": 0,
+  "buildable": true,
+  "fired": []
+ },
+ "bga_field": [],
+ "decap_residual": [],
+ "decap_repair": null,
+ "unseated": {},
+ "notes": [
+  "decap C1 on 3V3_1 serves U1, U2",
+  "decap C21 on 3V3_1 serves U1, U2",
+  "decap C4 on 3V3_1 serves U1, U2",
+  "decap C6 on 3V3_1 serves U1, U2",
+  "decap C8 on 3V3_1 serves U1, U2"
+ ],
+ "groups": [
+  [
+   "pll",
+   [
+    "C10",
+    "C12",
+    "C14",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C6",
+    "C8",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R8",
+    "U1",
+    "U2",
+    "C1",
+    "C11",
+    "C13",
+    "C15",
+    "C2",
+    "C21",
+    "C4",
+    "C5",
+    "C7",
+    "C9",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R9",
+    "J7"
+   ]
+  ]
+ ],
+ "stats": {
+  "shift": [
+   10945,
+   896
+  ],
+  "turn": [
+   4035,
+   1003
+  ],
+  "swap": [
+   2749,
+   121
+  ],
+  "jump": [
+   2713,
+   309
+  ],
+  "dock": [
+   2820,
+   523
+  ],
+  "gshift": [
+   3319,
+   34
+  ],
+  "gturn": [
+   526,
+   1
+  ],
+  "escape": [
+   1393,
+   63
+  ]
+ },
+ "templates": [],
+ "hints_saturated": [],
+ "template_keepout": [],
+ "pad_overhang": {},
+ "template_off": [],
+ "faces": {
+  "flippable": [],
+  "needed": {},
+  "needed_kept": null
+ },
+ "seconds": {
+  "setup": 0.4,
+  "anneal": 80.4
+ }
+}

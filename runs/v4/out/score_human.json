@@ -1,0 +1,163 @@
+{
+ "board": "/tmp/pcb-trials/timiq/v4/in/human.kicad_pcb",
+ "label": "human",
+ "shields": {
+  "front_declared": 172,
+  "front_outside": 0,
+  "front_on_wall": 0,
+  "strangers_inside": 0,
+  "back_declared": 97,
+  "back_outside": 0,
+  "too_tall": 0,
+  "detail_outside": [],
+  "resolve_problems": []
+ },
+ "wire": {
+  "hpwl_mm": 6237,
+  "mst_signal_mm": 9503
+ },
+ "illegal_parts": [
+  "C20",
+  "C57",
+  "C58",
+  "C84",
+  "J1",
+  "J2",
+  "J3",
+  "J4",
+  "J6",
+  "R16",
+  "R17",
+  "R68",
+  "R69",
+  "R95",
+  "R106",
+  "R108",
+  "U23",
+  "U24",
+  "U26",
+  "R165",
+  "FIX1",
+  "FIX2",
+  "FIX3",
+  "FIX4",
+  "FIX5",
+  "FIX6",
+  "FIX7",
+  "FIX8",
+  "C132",
+  "C133",
+  "C139",
+  "C152",
+  "C159",
+  "J5",
+  "R148",
+  "R151",
+  "U33",
+  "U35",
+  "C193"
+ ],
+ "bottom_passives": {
+  "n": 163,
+  "median_mm": 4.25,
+  "gt10mm": 17,
+  "gt20mm": 3,
+  "worst": [
+   [
+    "L13",
+    23.3
+   ],
+   [
+    "R3",
+    21.8
+   ],
+   [
+    "R7",
+    20.1
+   ],
+   [
+    "R6",
+    19.5
+   ],
+   [
+    "R5",
+    18.9
+   ],
+   [
+    "C106",
+    18.0
+   ],
+   [
+    "R2",
+    17.8
+   ],
+   [
+    "C163",
+    15.6
+   ]
+  ]
+ },
+ "box": {
+  "should_be_inside_but_outside_their_zone": 0,
+  "should_be_inside_but_outside_inner_square": 43,
+  "outsiders_in_box_outline": 0,
+  "outsiders_in_inner_square": 0,
+  "wall_band_hits_all": 37,
+  "wall_band_hits_F": 19,
+  "detail_missing": [],
+  "detail_outsiders": []
+ },
+ "holes": {
+  "hits_vs_declared_radius": 0,
+  "hits_vs_plain_3.5mm": 8,
+  "detail_declared": [],
+  "detail_3.5": [
+   [
+    "hole-J5-2",
+    "C193",
+    0.6
+   ],
+   [
+    "hole-FIX7-1",
+    "C139",
+    2.06
+   ],
+   [
+    "hole-J5-2",
+    "C159",
+    2.18
+   ],
+   [
+    "hole-J5-2",
+    "C152",
+    2.71
+   ],
+   [
+    "hole-BOX1-5",
+    "U38",
+    3.06
+   ],
+   [
+    "hole-J5-2",
+    "C183",
+    3.31
+   ],
+   [
+    "hole-FIX6-1",
+    "C144",
+    3.42
+   ],
+   [
+    "hole-FIX6-1",
+    "C145",
+    3.42
+   ]
+  ]
+ },
+ "check_floorplan": {
+  "intent_zone_overlap:warn": 3,
+  "template:warn": 2
+ },
+ "check_floorplan_errors": 0,
+ "proximity_errors": []
+}

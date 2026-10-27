@@ -1,0 +1,187 @@
+{
+ "schema": 1,
+ "kind": "design-brief",
+ "units": "mm",
+ "board": "tiny.kicad_pcb",
+ "interfaces": [],
+ "covers": [
+  {
+   "connector": "J7",
+   "side": "F",
+   "axis_deg": 0,
+   "width_mm": 32,
+   "length_mm": 31.5,
+   "offset_mm": -15.9,
+   "underside_mm": 5.5,
+   "removable": false,
+   "source": "probe: Laird BMI-S-204-F frame 32x32x6 (FACTS 10, web); fixed shield"
+  }
+ ],
+ "heights": [
+  {
+   "ref": "C10",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C12",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C14",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C16",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C17",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C18",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C19",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C20",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C22",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C23",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C24",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C25",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C3",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C6",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "C8",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R10",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R11",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R12",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R13",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R14",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R15",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R16",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R165",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R17",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R18",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R19",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R20",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R21",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R22",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R23",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "R8",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "U1",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  },
+  {
+   "ref": "U2",
+   "height_mm": 0.9,
+   "source": "probe guess (not a datasheet)"
+  }
+ ]
+}

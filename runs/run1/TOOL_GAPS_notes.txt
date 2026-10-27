@@ -1,0 +1,2 @@
+G1 add_rule_area.py --mounting-holes: every hole carries GND -> "no mounting hole to write a ring for", exit 0, NO output file -> judge_seeds chain step fails ("exited 0 and wrote no board") for all 6 seeds. Cost ~2 min. Fix: removed step.
+G2 route_diff.py: --nets incl. '/TOP/digital interface/*' (34 LVDS pairs named X-P/X-N) -> 'Routing 82 nets as differential pairs' then 'Found 2 differential pair(s)': the -P/-N pairs silently not paired, while board_score lists them as unjoined_pairs.

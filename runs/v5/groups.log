@@ -1,0 +1,70 @@
+CMD: python -X utf8 /tmp/pcb-trials/timiq/krt/py_tools/check_groups.py fixed.kicad_pcb --groups groups.json --intent intent.json --json groups.json.out
+ENV KNOBS: none
+  at a declared pose (fixed): BOX1, D2, D3, D4, D5, D6, D7, D8, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J10, J2, J3, J4, J5, J6, J7, J8, J9
+  pll            core        61 movable: C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, C20, C21, C22, C23, C24, C25, C3, C4, C5, C6, C7, C8, C9, D1, L1, L2, L3, L4, L5, L6, L7, Q1, R1, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R2, R20, R21, R22, R23, R3, R4, R5, R6, R7, R8, R9, U1, U2, U3  fixed: J1, J2
+  mixers         rf          32 movable: C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C98, C99, L10, L11, L8, L9, R100, R101, R102, R103, R104, R105, R106, R107, R108, U21, U22, U23, U24, U25, U26, U27
+  adc            analog      35 movable: C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30
+  digital        interface   50 movable: C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, R128, R129, R130, R131, R132, R133, R134, R135, R136, R137, R138, R139, R140, R141, R142, R143, R144, R145, R146, R147, R148, R149, R150, R151, R152, R153, U31, U32, U33, U34, U35, U36, U37, U38  fixed: J5
+  ldo_pos        power       45 movable: C139, C140, C141, C142, C146, C147, C151, C152, C153, C154, C158, C159, C160, C161, C165, C166, C167, C170, C171, C172, C175, C176, C177, C180, C181, C182, C183, C184, C185, C188, C189, C190, C193, C194, C195, R154, R155, R160, R161, R162, U39, U40, U41, U42, U43
+  power_in       power       24 movable: C143, C144, C145, C148, C149, C150, C155, C156, C157, C162, C163, C164, L12, L13, L14, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9  fixed: J6
+  ldo_neg        power       24 movable: C168, C169, C173, C174, C178, C179, C186, C187, C191, C192, C196, C197, C198, C199, C200, C201, R156, R157, R158, R159, R163, R164, U44, U45
+  dac            analog      67 movable: C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, U10, U11, U4, U5, U6, U7, U8, U9
+  dac_if         analog      28 movable: C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U12, U13, U14, U15
+  iqmod          rf          15 movable: C63, C64, C65, C66, C67, C68, C69, C70, C71, R70, R71, R72, R73, U16, U17
+  dividers       rf          55 movable: C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C97, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20  fixed: J3, J4
+  shields        mechanical  2 movable: J11, J12  fixed: J10, J7, J8, J9
+  signal links between groups (rails excluded):
+    adc <-> dac: 0.75
+    adc <-> dac_if: 0.75
+    adc <-> digital: 6.92
+    adc <-> iqmod: 0.25
+    adc <-> ldo_neg: 0.5
+    adc <-> ldo_pos: 0.917
+    adc <-> mixers: 2.25
+    adc <-> pll: 0.25
+    dac <-> dac_if: 2.75
+    dac <-> digital: 4.25
+    dac <-> iqmod: 0.25
+    dac <-> ldo_neg: 1.5
+    dac <-> ldo_pos: 1.25
+    dac <-> mixers: 0.25
+    dac <-> pll: 0.25
+    dac_if <-> digital: 0.25
+    dac_if <-> iqmod: 4.25
+    dac_if <-> ldo_neg: 0.5
+    dac_if <-> ldo_pos: 0.25
+    dac_if <-> mixers: 0.25
+    dac_if <-> pll: 0.25
+    digital <-> dividers: 8.67
+    digital <-> iqmod: 0.25
+    digital <-> ldo_pos: 1.58
+    digital <-> mixers: 0.25
+    digital <-> pll: 6.25
+    dividers <-> iqmod: 1
+    dividers <-> ldo_pos: 0.667
+    iqmod <-> ldo_pos: 0.25
+    iqmod <-> mixers: 1.25
+    iqmod <-> pll: 1.25
+    ldo_neg <-> power_in: 1
+    ldo_pos <-> mixers: 0.25
+    ldo_pos <-> pll: 1.25
+    ldo_pos <-> power_in: 2
+    mixers <-> pll: 1.25
+  rails: GND
+  bridges: C178 (ldo_neg | adc/dac/dac_if), C179 (ldo_neg | dac), C47 (dac | dac_if), C48 (dac | dac_if), C63 (iqmod | pll), C7 (pll | ldo_pos), C72 (dividers | iqmod), C98 (mixers | pll), C99 (mixers | iqmod), L1 (pll | ldo_pos), L2 (pll | ldo_pos), L3 (pll | ldo_pos), L4 (pll | ldo_pos), L5 (pll | ldo_pos), L6 (pll | ldo_pos), L7 (pll | ldo_pos), R1 (pll | adc/dac/dac_if/digital/iqmod/ldo_pos/mixers), R102 (mixers | adc/dac/dac_if/digital/iqmod/ldo_pos/pll), R104 (mixers | adc/dac/dac_if/digital/iqmod/ldo_pos/pll), R106 (mixers | adc/dac/dac_if/digital/iqmod/ldo_pos/pll), R107 (mixers | adc/dac/dac_if/digital/iqmod/ldo_pos/pll), R109 (adc | digital/ldo_pos), R111 (adc | digital/ldo_pos), R113 (adc | digital/ldo_pos), R115 (adc | mixers), R116 (adc | mixers), R126 (adc | digital/ldo_pos), R128 (digital | adc/ldo_pos), R132 (digital | adc/ldo_pos), R134 (digital | adc/ldo_pos), R136 (digital | adc/ldo_pos), R138 (digital | adc/ldo_pos), R140 (digital | adc/ldo_pos), R142 (digital | adc/ldo_pos), R144 (digital | adc/ldo_pos), R149 (digital | adc/ldo_pos), R151 (digital | adc/dac/dac_if/iqmod/ldo_pos/mixers/pll), R154 (ldo_pos | digital/dividers), R155 (ldo_pos | adc/dac/dac_if/digital/iqmod/mixers/pll), R156 (ldo_neg | adc/dac/dac_if), R158 (ldo_neg | dac), R160 (ldo_pos | pll), R161 (ldo_pos | adc/digital), R162 (ldo_pos | dac), R163 (ldo_neg | adc/dac/dac_if), R164 (ldo_neg | dac), R24 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R26 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R28 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R30 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R32 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R34 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R36 (dac | adc/dac_if/digital/iqmod/ldo_pos/mixers/pll), R4 (pll | digital/ldo_pos), R54 (dac | dac_if), R55 (dac | dac_if), R56 (dac | dac_if), R57 (dac | dac_if), R6 (pll | digital/ldo_pos), R62 (dac_if | dac), R64 (dac_if | dac), R75 (dividers | digital/ldo_pos), R78 (dividers | digital/ldo_pos), R80 (dividers | digital/ldo_pos), R83 (dividers | digital/ldo_pos), R86 (dividers | digital/ldo_pos), R88 (dividers | digital/ldo_pos), R90 (dividers | digital/ldo_pos), R93 (dividers | digital/ldo_pos), R96 (dividers | digital/ldo_pos), R98 (dividers | digital/ldo_pos)
+  template candidate U21 (rf front end, group mixers): PMA2-43LN+ LNA gain block: bias inductor, DC blocks and output choke per its datasheet Fig 1 -- no templates[] row in the intent yet
+  template candidate U22 (rf front end, group mixers): second PMA2-43LN+ gain block, same circuit -- no templates[] row in the intent yet
+  template candidate U26 (rf front end, group mixers): SIM-73L+ passive mixer: no external support parts to place;  -- skipped: SIM-73L+ passive mixer: no external support parts to place; ports wired straight to the splitters
+  template candidate U27 (rf front end, group mixers): SIM-73L+ passive mixer: no external support parts to place -- skipped: SIM-73L+ passive mixer: no external support parts to place
+  template candidate U16 (rf front end, group iqmod): HMC1097 IQ modulator: its parts are ports' DC-block/decaps;  -- skipped: HMC1097 IQ modulator: its parts are ports' DC-block/decaps; not fetched within the 4h15 cap -- held by the decap rule and group
+  template candidate U18 (rf front end, group dividers): HMC705 divider: port coupling caps and decaps only; not fetc -- skipped: HMC705 divider: port coupling caps and decaps only; not fetched within the time cap, held by decap rule and group
+  WARN  C104 (mixers) is a decap of U12/U13/U14/U15/U16/U28/U29/U30/U33/U4/U40/U7/U8/U9 (adc/dac/dac_if/digital/iqmod/ldo_pos) to the decap rule, and no IC in its own group carries its net 5V_2: place_simple exempts it from the decap rule so it is placed with mixers -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C106 (mixers) is a decap of U12/U13/U14/U15/U16/U28/U29/U30/U33/U4/U40/U7/U8/U9 (adc/dac/dac_if/digital/iqmod/ldo_pos) to the decap rule, and no IC in its own group carries its net 5V_2: place_simple exempts it from the decap rule so it is placed with mixers -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C155 (power_in) is a decap of U39/U40/U41/U42 (ldo_pos) to the decap rule, and no IC in its own group carries its net 7V5: place_simple exempts it from the decap rule so it is placed with power_in -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C156 (power_in) is a decap of U43 (ldo_pos) to the decap rule, and no IC in its own group carries its net 24V: place_simple exempts it from the decap rule so it is placed with power_in -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C157 (power_in) is a decap of U44/U45 (ldo_neg) to the decap rule, and no IC in its own group carries its net -24V: place_simple exempts it from the decap rule so it is placed with power_in -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C162 (power_in) is a decap of U39/U40/U41/U42 (ldo_pos) to the decap rule, and no IC in its own group carries its net 7V5: place_simple exempts it from the decap rule so it is placed with power_in -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C163 (power_in) is a decap of U43 (ldo_pos) to the decap rule, and no IC in its own group carries its net 24V: place_simple exempts it from the decap rule so it is placed with power_in -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+  WARN  C164 (power_in) is a decap of U44/U45 (ldo_neg) to the decap rule, and no IC in its own group carries its net -24V: place_simple exempts it from the decap rule so it is placed with power_in -- right for a load or RC cap, wrong for a real decap (move it to its IC's group)
+JSON_SUMMARY: {"bridges": 71, "crystals": [], "decap_cross_group": ["C104", "C106", "C155", "C156", "C157", "C162", "C163", "C164"], "errors": 0, "followers": [], "groups": 12, "pulled": [], "seated": ["BOX1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "FIX1", "FIX2", "FIX3", "FIX4", "FIX5", "FIX6", "FIX7", "FIX8", "J1", "J10", "J2", "J3", "J4", "J5", "J6", "J7", "J8", "J9"], "template_candidates": ["U21", "U22", "U26", "U27", "U16", "U18"], "template_hints": 0, "warnings": 8}
+EXIT=0

@@ -1,0 +1,7 @@
+{
+ "schema": 1,
+ "kind": "design-brief",
+ "units": "mm",
+ "board": "tiny.kicad_pcb",
+ "interfaces": []
+}
