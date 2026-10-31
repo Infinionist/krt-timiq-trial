@@ -37,7 +37,7 @@ Board source (CERN open hardware): https://gitlab.com/ohwr/project/timiq/timiq-h
   Round 3: 6 of 12 seeds legal with 0 floorplan errors, the first legal placement of this board. Kept seed 7:
   buildable with BOX1 waivers, quick route 88 blocking (39 unrouted, 49 broken). Not DONE by the skill's table.
 - `runs/retest/`: the #1457 retest (2026-10-30) at KRT main 8f0c7ef4 (v0.23.7), with the cans kept on the board as
-  `cans[]` rows. `REPORT.md` (the run's own report), `compare.json` (vs v6), `final.kicad_pcb`, `intent.json`,
+  `cans[]` rows. `REPORT.md` (the run's own report), `compare.json` (vs v6), `final.kicad_pcb`, `intent.json`, `TimIQ_RF.design-brief.json` (the six `cans[]` rows),
   `seed3_with_cans.mp4` (the kept seed, with the can walls drawn in by `repro/add_cans.py`), `placed_3d.mp4`
   (make_movie as run), `repro/` (wall check, board_score repro). 12 of 12 seeds legal; kept seed 3.
 

@@ -1,0 +1,1395 @@
+{
+ "schema": 1,
+ "kind": "design-brief",
+ "units": "mm",
+ "board": "TimIQ_RF.kicad_pcb",
+ "interfaces": [],
+ "context": {
+  "rule": "retest-1"
+ },
+ "keepouts": [
+  {
+   "name": "box-post-1",
+   "circle": [
+    128.9624,
+    210.1978,
+    4.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+  },
+  {
+   "name": "box-post-2",
+   "circle": [
+    239.4624,
+    210.1978,
+    4.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+  },
+  {
+   "name": "box-post-3",
+   "circle": [
+    239.4624,
+    99.6978,
+    4.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+  },
+  {
+   "name": "box-post-4",
+   "circle": [
+    128.9624,
+    99.6978,
+    4.5
+   ],
+   "sides": [
+    "F",
+    "B"
+   ],
+   "allow": [
+    "BOX1"
+   ],
+   "kind": "mounting_hole",
+   "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+  }
+ ],
+ "keep_away": [
+  {
+   "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/I_N,/TOP/DAC?Interface/I_P,/TOP/DAC?Interface/Q_N,/TOP/DAC?Interface/Q_P,/TOP/Frequency?dividers/IQout1,/TOP/Frequency?mixers/IQout0,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C10-Pad1),Net-(C101-Pad1),Net-(C105-Pad1),Net-(C108-Pad1),Net-(C108-Pad2),Net-(C11-Pad1),Net-(C12-Pad1),Net-(C13-Pad1),Net-(C14-Pad1),Net-(C15-Pad1),Net-(C16-Pad2),Net-(C17-Pad1),Net-(C18-Pad1),Net-(C19-Pad1),Net-(C2-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C22-Pad2),Net-(C23-Pad1),Net-(C23-Pad2),Net-(C24-Pad1),Net-(C24-Pad2),Net-(C3-Pad2),Net-(C5-Pad1),Net-(C63-Pad2),Net-(C64-Pad1),Net-(C64-Pad2),Net-(C7-Pad2),Net-(C70-Pad1),Net-(C70-Pad2),Net-(C9-Pad1),Net-(C98-Pad2),Net-(L2-Pad2),Net-(L3-Pad2),Net-(R10-Pad1),Net-(R108-Pad1),Net-(R11-Pad1),Net-(R12-Pad1),Net-(R20-Pad2),Net-(R22-Pad1),Net-(R72-Pad1),Net-(R9-Pad2),Net-(U1-Pad35),Net-(U1-Pad4),Net-(U1-Pad5),Net-(U1-Pad6),Net-(U16-Pad1),Net-(U16-Pad13),Net-(U16-Pad15),Net-(U16-Pad6),Net-(U23-Pad3),Net-(U24-Pad4),Net-(U24-Pad6):3",
+   "why": "designer intent 2: LO/PLL nets stay at least 3 mm from digital nets (digital = the digital-interface sheet nets; LO/PLL = PLL can signal nets and the LO path into the splitter, IQ modulator and mixer amps)"
+  }
+ ],
+ "cans": [
+  {
+   "name": "J7",
+   "zone": [
+    131.01,
+    159.66,
+    161.81,
+    190.46
+   ],
+   "side": "F",
+   "wall_mm": 1.8,
+   "interior_height_mm": 6.0,
+   "source": "Laird BLS catalog p12: BMI-S-204-F frame MAXIMUM OVERALL HEIGHT .236 (6,00); cover BMI-S-204-C ordered separately, slips over the frame, so the lid underside is at the frame top. Cross-bars (0.20 mm stock) reach 5.80 under the lid; not modelled",
+   "members": {
+    "F": {
+     "in": [
+      "C10",
+      "C12",
+      "C14",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C22",
+      "C23",
+      "C24",
+      "C25",
+      "C3",
+      "C6",
+      "C8",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R15",
+      "R18",
+      "R19",
+      "R20",
+      "R21",
+      "R22",
+      "R23",
+      "R8",
+      "U1",
+      "U2"
+     ],
+     "either": []
+    },
+    "B": {
+     "in": [
+      "C1",
+      "C11",
+      "C13",
+      "C15",
+      "C2",
+      "C21",
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R9"
+     ]
+    }
+   }
+  },
+  {
+   "name": "J8",
+   "zone": [
+    168.8306,
+    176.3605,
+    199.6306,
+    207.1605
+   ],
+   "side": "F",
+   "wall_mm": 1.8,
+   "interior_height_mm": 6.0,
+   "source": "Laird BLS catalog p12: BMI-S-204-F frame MAXIMUM OVERALL HEIGHT .236 (6,00); cover BMI-S-204-C ordered separately, slips over the frame, so the lid underside is at the frame top. Cross-bars (0.20 mm stock) reach 5.80 under the lid; not modelled",
+   "members": {
+    "F": {
+     "in": [
+      "C100",
+      "C104",
+      "C108",
+      "C109",
+      "C20",
+      "C63",
+      "C64",
+      "C70",
+      "C98",
+      "C99",
+      "L10",
+      "L11",
+      "L8",
+      "L9",
+      "R100",
+      "R101",
+      "R102",
+      "R103",
+      "R104",
+      "R105",
+      "R106",
+      "R107",
+      "R108",
+      "R14",
+      "R16",
+      "R165",
+      "R17",
+      "R70",
+      "R71",
+      "R72",
+      "R73",
+      "U16",
+      "U17",
+      "U21",
+      "U22",
+      "U23",
+      "U24",
+      "U25",
+      "U26",
+      "U27",
+      "U3"
+     ],
+     "either": []
+    },
+    "B": {
+     "in": [
+      "C101",
+      "C102",
+      "C103",
+      "C105",
+      "C106",
+      "C107",
+      "C65",
+      "C66",
+      "C67",
+      "C68",
+      "C69",
+      "C71"
+     ]
+    }
+   }
+  },
+  {
+   "name": "J9",
+   "zone": [
+    168.8306,
+    138.5424,
+    199.6306,
+    169.3424
+   ],
+   "side": "F",
+   "wall_mm": 1.8,
+   "interior_height_mm": 6.0,
+   "source": "Laird BLS catalog p12: BMI-S-204-F frame MAXIMUM OVERALL HEIGHT .236 (6,00); cover BMI-S-204-C ordered separately, slips over the frame, so the lid underside is at the frame top. Cross-bars (0.20 mm stock) reach 5.80 under the lid; not modelled",
+   "members": {
+    "F": {
+     "in": [
+      "C45",
+      "C46",
+      "C47",
+      "C48",
+      "C57",
+      "C58",
+      "R50",
+      "R51",
+      "R52",
+      "R53",
+      "R54",
+      "R55",
+      "R56",
+      "R57",
+      "R58",
+      "R59",
+      "R60",
+      "R61",
+      "R62",
+      "R63",
+      "R64",
+      "R65",
+      "R66",
+      "R67",
+      "R68",
+      "R69",
+      "U10",
+      "U11",
+      "U12",
+      "U13",
+      "U14",
+      "U15"
+     ],
+     "either": []
+    },
+    "B": {
+     "in": [
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C54",
+      "C55",
+      "C56",
+      "C59",
+      "C60",
+      "C61",
+      "C62"
+     ]
+    }
+   }
+  },
+  {
+   "name": "J10",
+   "zone": [
+    206.641,
+    164.0745,
+    237.441,
+    194.8745
+   ],
+   "side": "F",
+   "wall_mm": 1.8,
+   "interior_height_mm": 6.0,
+   "source": "Laird BLS catalog p12: BMI-S-204-F frame MAXIMUM OVERALL HEIGHT .236 (6,00); cover BMI-S-204-C ordered separately, slips over the frame, so the lid underside is at the frame top. Cross-bars (0.20 mm stock) reach 5.80 under the lid; not modelled",
+   "members": {
+    "F": {
+     "in": [
+      "C72",
+      "C73",
+      "C74",
+      "C80",
+      "C81",
+      "C82",
+      "C84",
+      "C86",
+      "C88",
+      "C89",
+      "R74",
+      "R77",
+      "R82",
+      "R85",
+      "R92",
+      "R95",
+      "U18",
+      "U19",
+      "U20"
+     ],
+     "either": [
+      "C96",
+      "C97",
+      "R75",
+      "R76",
+      "R78",
+      "R79",
+      "R88",
+      "R89"
+     ]
+    },
+    "B": {
+     "in": [
+      "C75",
+      "C76",
+      "C77",
+      "C78",
+      "C79",
+      "C83",
+      "C85",
+      "C87",
+      "C90",
+      "C91",
+      "C92",
+      "C93",
+      "C94",
+      "C95",
+      "R80",
+      "R81",
+      "R83",
+      "R84",
+      "R86",
+      "R87",
+      "R90",
+      "R91",
+      "R93",
+      "R94",
+      "R96",
+      "R97",
+      "R98",
+      "R99"
+     ]
+    }
+   }
+  },
+  {
+   "name": "J11",
+   "zone": [
+    131.01,
+    121.8546,
+    161.81,
+    152.6546
+   ],
+   "side": "F",
+   "wall_mm": 1.8,
+   "interior_height_mm": 6.0,
+   "source": "Laird BLS catalog p12: BMI-S-204-F frame MAXIMUM OVERALL HEIGHT .236 (6,00); cover BMI-S-204-C ordered separately, slips over the frame, so the lid underside is at the frame top. Cross-bars (0.20 mm stock) reach 5.80 under the lid; not modelled",
+   "members": {
+    "F": {
+     "in": [
+      "C110",
+      "C111",
+      "C112",
+      "C113",
+      "C114",
+      "C116",
+      "C117",
+      "C119",
+      "R109",
+      "R110",
+      "R113",
+      "R114",
+      "R115",
+      "R116",
+      "R117",
+      "R118",
+      "R119",
+      "R120",
+      "R121",
+      "R122",
+      "R123",
+      "R124",
+      "R125",
+      "U28",
+      "U29",
+      "U30"
+     ],
+     "either": []
+    },
+    "B": {
+     "in": [
+      "C115",
+      "C118",
+      "C120",
+      "C121",
+      "C122",
+      "R111",
+      "R112",
+      "R126",
+      "R127"
+     ]
+    }
+   }
+  },
+  {
+   "name": "J12",
+   "zone": [
+    168.8306,
+    100.7168,
+    199.6306,
+    131.5168
+   ],
+   "side": "F",
+   "wall_mm": 1.8,
+   "interior_height_mm": 6.0,
+   "source": "Laird BLS catalog p12: BMI-S-204-F frame MAXIMUM OVERALL HEIGHT .236 (6,00); cover BMI-S-204-C ordered separately, slips over the frame, so the lid underside is at the frame top. Cross-bars (0.20 mm stock) reach 5.80 under the lid; not modelled",
+   "members": {
+    "F": {
+     "in": [
+      "C27",
+      "C28",
+      "C33",
+      "C34",
+      "C37",
+      "C38",
+      "C42",
+      "C43",
+      "R38",
+      "R39",
+      "R40",
+      "R41",
+      "R42",
+      "R43",
+      "R44",
+      "R45",
+      "R46",
+      "R47",
+      "R48",
+      "R49",
+      "U4",
+      "U5",
+      "U6",
+      "U7",
+      "U8",
+      "U9"
+     ],
+     "either": []
+    },
+    "B": {
+     "in": [
+      "C26",
+      "C29",
+      "C30",
+      "C31",
+      "C32",
+      "C35",
+      "C36",
+      "C39",
+      "C40",
+      "C41",
+      "C44",
+      "R24",
+      "R25",
+      "R26",
+      "R27",
+      "R28",
+      "R29",
+      "R30",
+      "R31",
+      "R32",
+      "R33",
+      "R34",
+      "R35",
+      "R36",
+      "R37"
+     ]
+    }
+   }
+  }
+ ],
+ "heights": [
+  {
+   "ref": "C10",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C100",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C104",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C108",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C109",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C110",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C111",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C112",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C113",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C114",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C116",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C117",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C119",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C12",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C14",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C16",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C17",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C18",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C19",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C20",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C22",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C23",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C24",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C25",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C27",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C28",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C3",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C33",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C34",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C37",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C38",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C42",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C43",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C45",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C46",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C47",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C48",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C57",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C58",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C6",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C63",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C64",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C70",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C72",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C73",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C74",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C8",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C80",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C81",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C82",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C84",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C86",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C88",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C89",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C96",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C97",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C98",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "C99",
+   "height_mm": 1.0,
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "ref": "L10",
+   "height_mm": 1.1,
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "ref": "L11",
+   "height_mm": 1.1,
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "ref": "L8",
+   "height_mm": 1.1,
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "ref": "L9",
+   "height_mm": 1.1,
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "ref": "R10",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R100",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R101",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R102",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R103",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R104",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R105",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R106",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R107",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R108",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R109",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R11",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R110",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R113",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R114",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R115",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R116",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R117",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R118",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R119",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R12",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R120",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R121",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R122",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R123",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R124",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R125",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R13",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R14",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R15",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R16",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R165",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R17",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R18",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R19",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R20",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R21",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R22",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R23",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R38",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R39",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R40",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R41",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R42",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R43",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R44",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R45",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R46",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R47",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R48",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R49",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R50",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R51",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R52",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R53",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R54",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R55",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R56",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R57",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R58",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R59",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R60",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R61",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R62",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R63",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R64",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R65",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R66",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R67",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R68",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R69",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R70",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R71",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R72",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R73",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R74",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R77",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R8",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R82",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R85",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R92",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "R95",
+   "height_mm": 0.55,
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "ref": "U1",
+   "height_mm": 0.8,
+   "source": "LMX2541SQ2690E WQFN-36 NJK0036A (SQA36A) datasheet p69: A max 0.8 mm"
+  },
+  {
+   "ref": "U10",
+   "height_mm": 1.752,
+   "source": "LT1360CS8 SO-8 (S8) datasheet p15: A max 1.752 mm"
+  },
+  {
+   "ref": "U11",
+   "height_mm": 1.752,
+   "source": "LT1360CS8 SO-8 (S8) datasheet p15: A max 1.752 mm"
+  },
+  {
+   "ref": "U12",
+   "height_mm": 1.1,
+   "source": "LTC6655BHMS8 MSOP-8 (MS8) datasheet p23: A max 1.1 mm"
+  },
+  {
+   "ref": "U13",
+   "height_mm": 1.1,
+   "source": "LTC6655BHMS8 MSOP-8 (MS8) datasheet p23: A max 1.1 mm"
+  },
+  {
+   "ref": "U14",
+   "height_mm": 1.752,
+   "source": "LT6600CS8-2.5 SO-8 (S8) datasheet p14: A max 1.752 mm"
+  },
+  {
+   "ref": "U15",
+   "height_mm": 1.752,
+   "source": "LT6600CS8-2.5 SO-8 (S8) datasheet p14: A max 1.752 mm"
+  },
+  {
+   "ref": "U16",
+   "height_mm": 1.0,
+   "source": "HMC1097LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "ref": "U17",
+   "height_mm": 0.99,
+   "source": "GP2Y+ Mini-Circuits DQ1225 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "ref": "U18",
+   "height_mm": 1.0,
+   "source": "HMC705LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "ref": "U19",
+   "height_mm": 1.0,
+   "source": "HMC705LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "ref": "U2",
+   "height_mm": 5.33,
+   "source": "CVHD-950M-108.3681 9x14 mm SMD datasheet p3: A max 5.33 mm"
+  },
+  {
+   "ref": "U20",
+   "height_mm": 1.0,
+   "source": "HMC705LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "ref": "U21",
+   "height_mm": 1.0,
+   "source": "PMA2-43LN+ Mini-Circuits MC1631-1 (2x2 mm MCLP) datasheet p1: A max 1 mm"
+  },
+  {
+   "ref": "U22",
+   "height_mm": 1.0,
+   "source": "PMA2-43LN+ Mini-Circuits MC1631-1 (2x2 mm MCLP) datasheet p1: A max 1 mm"
+  },
+  {
+   "ref": "U23",
+   "height_mm": 0.99,
+   "source": "GAT-5+ Mini-Circuits FG873 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "ref": "U24",
+   "height_mm": 1.07,
+   "source": "QCN-34+ Mini-Circuits FV1206 datasheet p2: A max 1.07 mm"
+  },
+  {
+   "ref": "U25",
+   "height_mm": 0.99,
+   "source": "GP2Y+ Mini-Circuits DQ1225 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "ref": "U26",
+   "height_mm": 2.21,
+   "source": "SIM-73L+ Mini-Circuits HV1195 datasheet p1: A max 2.21 mm"
+  },
+  {
+   "ref": "U27",
+   "height_mm": 2.21,
+   "source": "SIM-73L+ Mini-Circuits HV1195 datasheet p1: A max 2.21 mm"
+  },
+  {
+   "ref": "U28",
+   "height_mm": 1.1,
+   "source": "OPA2209AIDGKR VSSOP-8 (DGK0008A) datasheet p33: A max 1.1 mm"
+  },
+  {
+   "ref": "U29",
+   "height_mm": 1.2,
+   "source": "ADS8694IDBT TSSOP-38 (DBT0038A) datasheet p76: A max 1.2 mm"
+  },
+  {
+   "ref": "U3",
+   "height_mm": 0.99,
+   "source": "GP2Y+ Mini-Circuits DQ1225 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "ref": "U30",
+   "height_mm": 1.1,
+   "source": "LTC6655BHMS8 MSOP-8 (MS8) datasheet p23: A max 1.1 mm"
+  },
+  {
+   "ref": "U4",
+   "height_mm": 1.6,
+   "source": "LTC2758ACLX LQFP-48 (LX48, 7x7) datasheet p22: A max 1.6 mm"
+  },
+  {
+   "ref": "U5",
+   "height_mm": 1.752,
+   "source": "LT1012ACS8 SO-8 (S8) datasheet p19: A max 1.752 mm"
+  },
+  {
+   "ref": "U6",
+   "height_mm": 1.752,
+   "source": "LT1012ACS8 SO-8 (S8) datasheet p19: A max 1.752 mm"
+  },
+  {
+   "ref": "U7",
+   "height_mm": 1.0,
+   "source": "LTC2054HVCS5 TSOT-23-5 (S5) datasheet p15: A max 1 mm"
+  },
+  {
+   "ref": "U8",
+   "height_mm": 1.0,
+   "source": "LTC2054HVCS5 TSOT-23-5 (S5) datasheet p15: A max 1 mm"
+  },
+  {
+   "ref": "U9",
+   "height_mm": 1.752,
+   "source": "LTC6241HVCS8 SO-8 (S8) datasheet p27: A max 1.752 mm"
+  }
+ ]
+}
