@@ -1,0 +1,121 @@
+{
+ "new": {
+  "grade": {
+   "done": true,
+   "buildable": true,
+   "assembly_verdict": "buildable (blocking 0)",
+   "floorplan_errors": 0,
+   "floorplan_warnings": 19,
+   "crossings": 1663,
+   "hpwl": 6752.876800000005,
+   "keepout_copper": [],
+   "off_outline_pad_copper": [],
+   "off_outline_graphic_copper": [],
+   "grade_rc": 0
+  },
+  "fast": {
+   "file": "s3_fast.score.json",
+   "blocking": 65,
+   "joins_needed": 74,
+   "vias": 390,
+   "copper_mm": 5265.13,
+   "unrouted": 25,
+   "broken": 40
+  },
+  "seeds": {
+   "seeds": 12,
+   "legal": 12,
+   "legal_with_0_floorplan_errors": 12,
+   "max_seed_seconds": 642.0
+  }
+ },
+ "v6": {
+  "grade": {
+   "done": true,
+   "buildable": true,
+   "assembly_verdict": "buildable (blocking 0)",
+   "floorplan_errors": 0,
+   "floorplan_warnings": 133,
+   "crossings": 1259,
+   "hpwl": 6671.682319999993,
+   "keepout_copper": [],
+   "off_outline_pad_copper": []
+  },
+  "fast": {
+   "file": "s7_fast.score.json",
+   "blocking": 88,
+   "joins_needed": 101,
+   "vias": 311,
+   "copper_mm": 4146.98,
+   "unrouted": 39,
+   "broken": 49
+  },
+  "seeds": {
+   "seeds": 12,
+   "legal": 6,
+   "legal_with_0_floorplan_errors": 6,
+   "max_seed_seconds": 2401.2
+  },
+  "note": "v6 used db056e03, cans removed, courtyards synthesized; BOX1 waivers added after round 3"
+ },
+ "rows": [
+  {
+   "metric": "floorplan_errors",
+   "retest": 0,
+   "v6": 0,
+   "verdict": "same"
+  },
+  {
+   "metric": "floorplan_warnings",
+   "retest": 19,
+   "v6": 133,
+   "verdict": "better"
+  },
+  {
+   "metric": "crossings",
+   "retest": 1663,
+   "v6": 1259,
+   "verdict": "worse"
+  },
+  {
+   "metric": "hpwl",
+   "retest": 6752.876800000005,
+   "v6": 6671.682319999993,
+   "verdict": "worse"
+  },
+  {
+   "metric": "legal seeds",
+   "retest": 12,
+   "v6": 6,
+   "verdict": "better"
+  },
+  {
+   "metric": "blocking",
+   "retest": 65,
+   "v6": 88,
+   "verdict": "better"
+  },
+  {
+   "metric": "joins_needed",
+   "retest": 74,
+   "v6": 101,
+   "verdict": "better"
+  },
+  {
+   "metric": "vias",
+   "retest": 390,
+   "v6": 311,
+   "verdict": "worse"
+  },
+  {
+   "metric": "copper_mm",
+   "retest": 5265.13,
+   "v6": 4146.98,
+   "verdict": "worse"
+  }
+ ],
+ "notes": [
+  "buildable/done compare by value: retest True vs v6 True",
+  "v6 had BOX1 waivers on the grade only; retest has none unless the run added them"
+ ]
+}

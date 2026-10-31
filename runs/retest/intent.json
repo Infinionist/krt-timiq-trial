@@ -1,0 +1,5195 @@
+{
+ "assembly": {
+  "sides": "both",
+  "why": "observed: 279 pad-bearing part(s) on F and 179 on B, 2 reflow pass(es). every footprint BLOCK (#726): blocks sharing one reference are keyed with an ordinal suffix and counted separately. `pad_bearing` restricts that to blocks carrying at least one pad that is not a paste/mask aperture (#1143), and it is the count the populated-side verdict is taken from -- a zero-pad graphic on the back does not make a board double-sided."
+ },
+ "blocks": [
+  {
+   "group": "sheet:4f61069c/55b76454",
+   "name": "sheet:4f61069c/55b76454",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "BOX1",
+    "C139",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C178",
+    "C179",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C200",
+    "C201",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J6",
+    "L12",
+    "L13",
+    "L14",
+    "R154",
+    "R155",
+    "R156",
+    "R157",
+    "R158",
+    "R159",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "U39",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45"
+   ]
+  },
+  {
+   "name": "sheet:4f61069c/55bfa0eb",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "D1",
+    "J1",
+    "J2",
+    "Q1",
+    "R1"
+   ]
+  },
+  {
+   "group": "sheet:4f61069c/55dd5793",
+   "name": "sheet:4f61069c/55dd5793",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "J5",
+    "R128",
+    "R129",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38"
+   ]
+  },
+  {
+   "name": "sheet:4f61069c/56c4bef4",
+   "note": "the board is a pile, so its members' bounding box is staging, not a zone (#1103)",
+   "refs": [
+    "J3",
+    "J4"
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 0,
+    "derived_from": "cans[J7]",
+    "from": "brief"
+   },
+   "name": "can:J7:B",
+   "refs": [
+    "C1",
+    "C11",
+    "C13",
+    "C15",
+    "C2",
+    "C21",
+    "C4",
+    "C5",
+    "C7",
+    "C9",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R9"
+   ],
+   "side": "B",
+   "tolerance_mm": 0.0,
+   "zone": [
+    131.01,
+    159.66,
+    161.81,
+    190.46
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 0,
+    "derived_from": "cans[J7]",
+    "from": "brief"
+   },
+   "fence_mm": 1.8,
+   "name": "can:J7:F",
+   "refs": [
+    "C10",
+    "C12",
+    "C14",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C6",
+    "C8",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15",
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R8",
+    "U1",
+    "U2"
+   ],
+   "side": "F",
+   "tolerance_mm": 0.0,
+   "zone": [
+    131.01,
+    159.66,
+    161.81,
+    190.46
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 1,
+    "derived_from": "cans[J8]",
+    "from": "brief"
+   },
+   "name": "can:J8:B",
+   "refs": [
+    "C101",
+    "C102",
+    "C103",
+    "C105",
+    "C106",
+    "C107",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C71"
+   ],
+   "side": "B",
+   "tolerance_mm": 0.0,
+   "zone": [
+    168.8306,
+    176.3605,
+    199.6306,
+    207.1605
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 1,
+    "derived_from": "cans[J8]",
+    "from": "brief"
+   },
+   "fence_mm": 1.8,
+   "name": "can:J8:F",
+   "refs": [
+    "C100",
+    "C104",
+    "C108",
+    "C109",
+    "C20",
+    "C63",
+    "C64",
+    "C70",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R14",
+    "R16",
+    "R165",
+    "R17",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U3"
+   ],
+   "side": "F",
+   "tolerance_mm": 0.0,
+   "zone": [
+    168.8306,
+    176.3605,
+    199.6306,
+    207.1605
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 2,
+    "derived_from": "cans[J9]",
+    "from": "brief"
+   },
+   "name": "can:J9:B",
+   "refs": [
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C59",
+    "C60",
+    "C61",
+    "C62"
+   ],
+   "side": "B",
+   "tolerance_mm": 0.0,
+   "zone": [
+    168.8306,
+    138.5424,
+    199.6306,
+    169.3424
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 2,
+    "derived_from": "cans[J9]",
+    "from": "brief"
+   },
+   "fence_mm": 1.8,
+   "name": "can:J9:F",
+   "refs": [
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C57",
+    "C58",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15"
+   ],
+   "side": "F",
+   "tolerance_mm": 0.0,
+   "zone": [
+    168.8306,
+    138.5424,
+    199.6306,
+    169.3424
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 3,
+    "derived_from": "cans[J10]",
+    "from": "brief"
+   },
+   "name": "can:J10:B",
+   "refs": [
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C83",
+    "C85",
+    "C87",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "R80",
+    "R81",
+    "R83",
+    "R84",
+    "R86",
+    "R87",
+    "R90",
+    "R91",
+    "R93",
+    "R94",
+    "R96",
+    "R97",
+    "R98",
+    "R99"
+   ],
+   "side": "B",
+   "tolerance_mm": 0.0,
+   "zone": [
+    206.641,
+    164.0745,
+    237.441,
+    194.8745
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 3,
+    "derived_from": "cans[J10]",
+    "from": "brief"
+   },
+   "fence_mm": 1.8,
+   "name": "can:J10:F",
+   "refs": [
+    "C72",
+    "C73",
+    "C74",
+    "C80",
+    "C81",
+    "C82",
+    "C84",
+    "C86",
+    "C88",
+    "C89",
+    "R74",
+    "R77",
+    "R82",
+    "R85",
+    "R92",
+    "R95",
+    "U18",
+    "U19",
+    "U20"
+   ],
+   "side": "F",
+   "tolerance_mm": 0.0,
+   "zone": [
+    206.641,
+    164.0745,
+    237.441,
+    194.8745
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 4,
+    "derived_from": "cans[J11]",
+    "from": "brief"
+   },
+   "name": "can:J11:B",
+   "refs": [
+    "C115",
+    "C118",
+    "C120",
+    "C121",
+    "C122",
+    "R111",
+    "R112",
+    "R126",
+    "R127"
+   ],
+   "side": "B",
+   "tolerance_mm": 0.0,
+   "zone": [
+    131.01,
+    121.8546,
+    161.81,
+    152.6546
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 4,
+    "derived_from": "cans[J11]",
+    "from": "brief"
+   },
+   "fence_mm": 1.8,
+   "name": "can:J11:F",
+   "refs": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C116",
+    "C117",
+    "C119",
+    "R109",
+    "R110",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "U28",
+    "U29",
+    "U30"
+   ],
+   "side": "F",
+   "tolerance_mm": 0.0,
+   "zone": [
+    131.01,
+    121.8546,
+    161.81,
+    152.6546
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 5,
+    "derived_from": "cans[J12]",
+    "from": "brief"
+   },
+   "name": "can:J12:B",
+   "refs": [
+    "C26",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C35",
+    "C36",
+    "C39",
+    "C40",
+    "C41",
+    "C44",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37"
+   ],
+   "side": "B",
+   "tolerance_mm": 0.0,
+   "zone": [
+    168.8306,
+    100.7168,
+    199.6306,
+    131.5168
+   ]
+  },
+  {
+   "context": {
+    "brief_row": 5,
+    "derived_from": "cans[J12]",
+    "from": "brief"
+   },
+   "fence_mm": 1.8,
+   "name": "can:J12:F",
+   "refs": [
+    "C27",
+    "C28",
+    "C33",
+    "C34",
+    "C37",
+    "C38",
+    "C42",
+    "C43",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ],
+   "side": "F",
+   "tolerance_mm": 0.0,
+   "zone": [
+    168.8306,
+    100.7168,
+    199.6306,
+    131.5168
+   ]
+  },
+  {
+   "name": "top_face_ics",
+   "refs": [
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U39",
+    "U40",
+    "U41",
+    "U43",
+    "L13",
+    "C144",
+    "C156"
+   ],
+   "side": "F",
+   "why": "designer intent 6: ICs, RF and big parts on top (these sit on B in the pile: the digital ICs, four LDOs, filter L13 and the electrolytics C144/C156)"
+  },
+  {
+   "name": "center:J7",
+   "refs": [
+    "U1"
+   ],
+   "zone": [
+    138.41,
+    167.06,
+    154.41,
+    183.06
+   ],
+   "tolerance_mm": 0.5,
+   "why": "designer intent 8: the main IC of can J7 sits central (its centre 16 x 16 mm of the 30.8 mm interior; the size is this run's choice)"
+  },
+  {
+   "name": "center:J8",
+   "refs": [
+    "U16"
+   ],
+   "zone": [
+    176.231,
+    183.761,
+    192.231,
+    199.761
+   ],
+   "tolerance_mm": 0.5,
+   "why": "designer intent 8: the main IC of can J8 sits central (its centre 16 x 16 mm of the 30.8 mm interior; the size is this run's choice)"
+  },
+  {
+   "name": "center:J10",
+   "refs": [
+    "U19"
+   ],
+   "zone": [
+    214.041,
+    171.475,
+    230.041,
+    187.475
+   ],
+   "tolerance_mm": 0.5,
+   "why": "designer intent 8: the main IC of can J10 sits central (its centre 16 x 16 mm of the 30.8 mm interior; the size is this run's choice)"
+  },
+  {
+   "name": "center:J11",
+   "refs": [
+    "U29"
+   ],
+   "zone": [
+    138.41,
+    129.255,
+    154.41,
+    145.255
+   ],
+   "tolerance_mm": 0.5,
+   "why": "designer intent 8: the main IC of can J11 sits central (its centre 16 x 16 mm of the 30.8 mm interior; the size is this run's choice)"
+  },
+  {
+   "name": "center:J12",
+   "refs": [
+    "U4"
+   ],
+   "zone": [
+    176.231,
+    108.117,
+    192.231,
+    124.117
+   ],
+   "tolerance_mm": 0.5,
+   "why": "designer intent 8: the main IC of can J12 sits central (its centre 16 x 16 mm of the 30.8 mm interior; the size is this run's choice)"
+  }
+ ],
+ "board": "TimIQ_RF.kicad_pcb",
+ "context": {
+  "basis": {
+   "assembly.sides": "observed_baseline",
+   "defaults.zone_tolerance_mm": "derived_default",
+   "envelope.tolerance_mm": "derived_default"
+  },
+  "brief": {
+   "absent": [
+    "product.form_factor",
+    "product.primary_axis",
+    "interfaces"
+   ],
+   "consequences": [],
+   "contradictions": [
+    "block 'sheet:4f61069c/55b24967': the brief puts C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, R58, R59, R60, R61, R62, R63, R64, R65, R66, R67, R68, R69, U12, U13, U14, U15 under a can -- the brief wins, and the inferred block keeps its other parts",
+    "block 'sheet:4f61069c/55b25766': the brief puts C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52, R53, R54, R55, R56, R57, U10, U11, U4, U5, U6, U7, U8, U9 under a can -- the brief wins, and the inferred block keeps its other parts",
+    "block 'sheet:4f61069c/55bfa0eb': the brief puts C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C2, C20, C21, C22, C23, C24, C25, C3, C4, C5, C6, C7, C8, C9, L1, L2, L3, L4, L5, L6, L7, R10, R11, R12, R13, R14, R15, R16, R165, R17, R18, R19, R2, R20, R21, R22, R23, R3, R4, R5, R6, R7, R8, R9, U1, U2, U3 under a can -- the brief wins, and the inferred block keeps its other parts",
+    "block 'sheet:4f61069c/55c36387': the brief puts C63, C64, C65, C66, C67, C68, C69, C70, C71, R70, R71, R72, R73, U16, U17 under a can -- the brief wins, and the inferred block keeps its other parts",
+    "block 'sheet:4f61069c/55d7108b': the brief puts C100, C101, C102, C103, C104, C105, C106, C107, C108, C109, C98, C99, L10, L11, L8, L9, R100, R101, R102, R103, R104, R105, R106, R107, R108, U21, U22, U23, U24, U25, U26, U27 under a can -- the brief wins, and the inferred block keeps its other parts",
+    "block 'sheet:4f61069c/55dd4d5a': the brief puts C110, C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, R109, R110, R111, R112, R113, R114, R115, R116, R117, R118, R119, R120, R121, R122, R123, R124, R125, R126, R127, U28, U29, U30 under a can -- the brief wins, and the inferred block keeps its other parts",
+    "block 'sheet:4f61069c/56c4bef4': the brief puts C72, C73, C74, C75, C76, C77, C78, C79, C80, C81, C82, C83, C84, C85, C86, C87, C88, C89, C90, C91, C92, C93, C94, C95, C96, C97, R74, R75, R76, R77, R78, R79, R80, R81, R82, R83, R84, R85, R86, R87, R88, R89, R90, R91, R92, R93, R94, R95, R96, R97, R98, R99, U18, U19, U20 under a can -- the brief wins, and the inferred block keeps its other parts"
+   ],
+   "counts": {
+    "cans": 6,
+    "fixed": 0,
+    "heights": 174,
+    "interfaces": 0,
+    "keep_away": 1,
+    "keepouts": 4
+   },
+   "declared": [
+    "cans[J10].interior_height_mm",
+    "cans[J10].members",
+    "cans[J10].zone",
+    "cans[J11].interior_height_mm",
+    "cans[J11].members",
+    "cans[J11].zone",
+    "cans[J12].interior_height_mm",
+    "cans[J12].members",
+    "cans[J12].zone",
+    "cans[J7].interior_height_mm",
+    "cans[J7].members",
+    "cans[J7].zone",
+    "cans[J8].interior_height_mm",
+    "cans[J8].members",
+    "cans[J8].zone",
+    "cans[J9].interior_height_mm",
+    "cans[J9].members",
+    "cans[J9].zone",
+    "heights[C100]",
+    "heights[C104]",
+    "heights[C108]",
+    "heights[C109]",
+    "heights[C10]",
+    "heights[C110]",
+    "heights[C111]",
+    "heights[C112]",
+    "heights[C113]",
+    "heights[C114]",
+    "heights[C116]",
+    "heights[C117]",
+    "heights[C119]",
+    "heights[C12]",
+    "heights[C14]",
+    "heights[C16]",
+    "heights[C17]",
+    "heights[C18]",
+    "heights[C19]",
+    "heights[C20]",
+    "heights[C22]",
+    "heights[C23]",
+    "heights[C24]",
+    "heights[C25]",
+    "heights[C27]",
+    "heights[C28]",
+    "heights[C33]",
+    "heights[C34]",
+    "heights[C37]",
+    "heights[C38]",
+    "heights[C3]",
+    "heights[C42]",
+    "heights[C43]",
+    "heights[C45]",
+    "heights[C46]",
+    "heights[C47]",
+    "heights[C48]",
+    "heights[C57]",
+    "heights[C58]",
+    "heights[C63]",
+    "heights[C64]",
+    "heights[C6]",
+    "heights[C70]",
+    "heights[C72]",
+    "heights[C73]",
+    "heights[C74]",
+    "heights[C80]",
+    "heights[C81]",
+    "heights[C82]",
+    "heights[C84]",
+    "heights[C86]",
+    "heights[C88]",
+    "heights[C89]",
+    "heights[C8]",
+    "heights[C96]",
+    "heights[C97]",
+    "heights[C98]",
+    "heights[C99]",
+    "heights[L10]",
+    "heights[L11]",
+    "heights[L8]",
+    "heights[L9]",
+    "heights[R100]",
+    "heights[R101]",
+    "heights[R102]",
+    "heights[R103]",
+    "heights[R104]",
+    "heights[R105]",
+    "heights[R106]",
+    "heights[R107]",
+    "heights[R108]",
+    "heights[R109]",
+    "heights[R10]",
+    "heights[R110]",
+    "heights[R113]",
+    "heights[R114]",
+    "heights[R115]",
+    "heights[R116]",
+    "heights[R117]",
+    "heights[R118]",
+    "heights[R119]",
+    "heights[R11]",
+    "heights[R120]",
+    "heights[R121]",
+    "heights[R122]",
+    "heights[R123]",
+    "heights[R124]",
+    "heights[R125]",
+    "heights[R12]",
+    "heights[R13]",
+    "heights[R14]",
+    "heights[R15]",
+    "heights[R165]",
+    "heights[R16]",
+    "heights[R17]",
+    "heights[R18]",
+    "heights[R19]",
+    "heights[R20]",
+    "heights[R21]",
+    "heights[R22]",
+    "heights[R23]",
+    "heights[R38]",
+    "heights[R39]",
+    "heights[R40]",
+    "heights[R41]",
+    "heights[R42]",
+    "heights[R43]",
+    "heights[R44]",
+    "heights[R45]",
+    "heights[R46]",
+    "heights[R47]",
+    "heights[R48]",
+    "heights[R49]",
+    "heights[R50]",
+    "heights[R51]",
+    "heights[R52]",
+    "heights[R53]",
+    "heights[R54]",
+    "heights[R55]",
+    "heights[R56]",
+    "heights[R57]",
+    "heights[R58]",
+    "heights[R59]",
+    "heights[R60]",
+    "heights[R61]",
+    "heights[R62]",
+    "heights[R63]",
+    "heights[R64]",
+    "heights[R65]",
+    "heights[R66]",
+    "heights[R67]",
+    "heights[R68]",
+    "heights[R69]",
+    "heights[R70]",
+    "heights[R71]",
+    "heights[R72]",
+    "heights[R73]",
+    "heights[R74]",
+    "heights[R77]",
+    "heights[R82]",
+    "heights[R85]",
+    "heights[R8]",
+    "heights[R92]",
+    "heights[R95]",
+    "heights[U10]",
+    "heights[U11]",
+    "heights[U12]",
+    "heights[U13]",
+    "heights[U14]",
+    "heights[U15]",
+    "heights[U16]",
+    "heights[U17]",
+    "heights[U18]",
+    "heights[U19]",
+    "heights[U1]",
+    "heights[U20]",
+    "heights[U21]",
+    "heights[U22]",
+    "heights[U23]",
+    "heights[U24]",
+    "heights[U25]",
+    "heights[U26]",
+    "heights[U27]",
+    "heights[U28]",
+    "heights[U29]",
+    "heights[U2]",
+    "heights[U30]",
+    "heights[U3]",
+    "heights[U4]",
+    "heights[U5]",
+    "heights[U6]",
+    "heights[U7]",
+    "heights[U8]",
+    "heights[U9]",
+    "keep_away[0].rule",
+    "keepouts[box-post-1]",
+    "keepouts[box-post-2]",
+    "keepouts[box-post-3]",
+    "keepouts[box-post-4]"
+   ],
+   "fixed": [],
+   "not_graded": [],
+   "path": "/tmp/pcb-trials/timiq-retest/run/TimIQ_RF.design-brief.json",
+   "product": {},
+   "unknown": [],
+   "unmatched": [],
+   "unmatched_checked": true
+  },
+  "budget_withheld": {
+   "oob_count": "the board is a pile: its off-board count is staging, not a baseline (#1103)",
+   "overlap_area": "the board is a pile: its overlap is staging, not a baseline (#1103)"
+  },
+  "cutouts": [],
+  "decap_census": {
+   "beyond_radius": 71,
+   "beyond_radius_refs": [
+    "C1",
+    "C104",
+    "C106",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C140",
+    "C146",
+    "C147",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C176",
+    "C177",
+    "C180",
+    "C181",
+    "C184",
+    "C187",
+    "C189",
+    "C190",
+    "C191",
+    "C192",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C29",
+    "C35",
+    "C74",
+    "C75",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95"
+   ],
+   "ics": 10,
+   "max_mm": 4.975545996812829,
+   "max_mm_display": 4.9755,
+   "median_mm": 3.8183,
+   "metric": "cap footprint centroid to IC bounding box, clamped to 0 inside (placement.groups.decap_tethers)",
+   "no_rail_chip": 0,
+   "no_rail_chip_refs": [],
+   "population": 122,
+   "search_radius_mm": 5.0,
+   "source": "auto-tethers",
+   "tethers": 51,
+   "unaccounted": 0,
+   "worst_beyond_mm": 13.0095
+  },
+  "declared_pose_overlaps": {
+   "accepted": [],
+   "hard": []
+  },
+  "edge_contours": 0,
+  "file_locked": [],
+  "keep_away_note": "1 keep-away rule(s) DECLARED by the design brief TimIQ_RF.design-brief.json. check_floorplan grades them on the placed pads (WARN unless `severity` promotes them); route.py, route_diff.py and the GUI read the SAME rules off the brief and price them on the tracks. No placement search reads them.",
+  "keepouts_note": "22 keep-out(s) DECLARED by the design brief TimIQ_RF.design-brief.json. A keep-out is a mechanical fact and cannot be read off a board, so the emitter writes none; these came from the one channel that can state one. Since #701 the seat search honours them, not only the grade.",
+  "mechanical": {
+   "anchored": [
+    "BOX1",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+   ],
+   "fixed_poses": [
+    "BOX1",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6"
+   ],
+   "fixed_skipped": {},
+   "path": "/tmp/pcb-trials/timiq-retest/run/mechanical.json",
+   "sha256": "e7f6ac754d64542301501e87bf4a5e47d8e494d0a46e5c846e635abf2217167c",
+   "skipped": {}
+  },
+  "note": "read-only, describing the board as it is. The outline is not editable by this toolchain: size, cutouts and slots are mechanical decisions the user owns",
+  "pose_claims_withheld": {
+   "kept": "KiCad-locked parts; a brief / mechanical.json merged after this",
+   "reason": "the board is a pile (footprints span 10.0% of the board diagonal; 100% of footprints lie outside the board outline): staging poses are not claims",
+   "refs_off_board": [
+    "BOX1",
+    "C1",
+    "C10",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C11",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C12",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C13",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C14",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C15",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C16",
+    "C160",
+    "C161",
+    "C162",
+    "C163",
+    "C164",
+    "C165",
+    "C166",
+    "C167",
+    "C168",
+    "C169",
+    "C17",
+    "C170",
+    "C171",
+    "C172",
+    "C173",
+    "C174",
+    "C175",
+    "C176",
+    "C177",
+    "C178",
+    "C179",
+    "C18",
+    "C180",
+    "C181",
+    "C182",
+    "C183",
+    "C184",
+    "C185",
+    "C186",
+    "C187",
+    "C188",
+    "C189",
+    "C19",
+    "C190",
+    "C191",
+    "C192",
+    "C193",
+    "C194",
+    "C195",
+    "C196",
+    "C197",
+    "C198",
+    "C199",
+    "C2",
+    "C20",
+    "C200",
+    "C201",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C3",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C4",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C5",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C6",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C7",
+    "C70",
+    "C71",
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C8",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C9",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "C98",
+    "C99",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "FIX1",
+    "FIX2",
+    "FIX3",
+    "FIX4",
+    "FIX5",
+    "FIX6",
+    "FIX7",
+    "FIX8",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "L1",
+    "L10",
+    "L11",
+    "L12",
+    "L13",
+    "L14",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "Q1",
+    "R1",
+    "R10",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R109",
+    "R11",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R12",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "R128",
+    "R129",
+    "R13",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "R139",
+    "R14",
+    "R140",
+    "R141",
+    "R142",
+    "R143",
+    "R144",
+    "R145",
+    "R146",
+    "R147",
+    "R148",
+    "R149",
+    "R15",
+    "R150",
+    "R151",
+    "R152",
+    "R153",
+    "R154",
+    "R155",
+    "R156",
+    "R157",
+    "R158",
+    "R159",
+    "R16",
+    "R160",
+    "R161",
+    "R162",
+    "R163",
+    "R164",
+    "R165",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R3",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R4",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "R5",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R6",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "R7",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R8",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R9",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "U1",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "U16",
+    "U17",
+    "U18",
+    "U19",
+    "U2",
+    "U20",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U28",
+    "U29",
+    "U3",
+    "U30",
+    "U31",
+    "U32",
+    "U33",
+    "U34",
+    "U35",
+    "U36",
+    "U37",
+    "U38",
+    "U39",
+    "U4",
+    "U40",
+    "U41",
+    "U42",
+    "U43",
+    "U44",
+    "U45",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+   ],
+   "withheld": [
+    "edge_connectors[].edge read off a pose",
+    "blocks[].zone",
+    "blocks[].side read off a face",
+    "legality_budget.oob_count"
+   ]
+  },
+  "reconciliation": [
+   {
+    "field": "pile",
+    "id": "board:pile",
+    "kind": "report",
+    "ref": null,
+    "values": {},
+    "why": "the board is a pile (footprints span 10.0% of the board diagonal; 100% of footprints lie outside the board outline): staging poses are not claims -- the board's edge/pose value withheld for BOX1, FIX1, FIX2, FIX3, FIX4, FIX5, FIX6, FIX7, FIX8, J1, J2, J3, J4, J5, J6 (unlocked; a KiCad-locked part keeps its own)",
+    "winner": null,
+    "withheld": [
+     "BOX1",
+     "FIX1",
+     "FIX2",
+     "FIX3",
+     "FIX4",
+     "FIX5",
+     "FIX6",
+     "FIX7",
+     "FIX8",
+     "J1",
+     "J2",
+     "J3",
+     "J4",
+     "J5",
+     "J6"
+    ]
+   }
+  ]
+ },
+ "decaps": {},
+ "defaults": {
+  "zone_tolerance_mm": 0.5
+ },
+ "edge_connectors": [],
+ "envelope": {
+  "rect": [
+   109.216,
+   63.44,
+   259.216,
+   223.44
+  ],
+  "tolerance_mm": 0.5
+ },
+ "fixed_poses": [
+  {
+   "basis": "mechanical",
+   "ref": "BOX1",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 124.2124,
+   "y": 214.9478
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX1",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 256.216,
+   "y": 220.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX2",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 184.216,
+   "y": 220.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX3",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 112.216,
+   "y": 220.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX4",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 112.216,
+   "y": 148.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX5",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 112.216,
+   "y": 66.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX6",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 184.216,
+   "y": 66.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX7",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 256.216,
+   "y": 66.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "FIX8",
+   "rot": 0.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 256.216,
+   "y": 148.44
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J1",
+   "rot": 90.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 146.2857,
+   "y": 223.247
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J2",
+   "rot": 90.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 157.8147,
+   "y": 223.2495
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J3",
+   "rot": 90.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 210.045,
+   "y": 223.26
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J4",
+   "rot": 90.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 222.065,
+   "y": 223.24
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J5",
+   "rot": 90.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 221.9318,
+   "y": 136.3324
+  },
+  {
+   "basis": "mechanical",
+   "ref": "J6",
+   "rot": 180.0,
+   "why": "mechanical.json: v6 physical fact: mounting hardware / connector at its fixed pose",
+   "x": 206.4348,
+   "y": 73.4428
+  }
+ ],
+ "heights": [
+  {
+   "context": {
+    "brief_row": 0,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C10",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 1,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C100",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 2,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C104",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 3,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C108",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 4,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C109",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 5,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C110",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 6,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C111",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 7,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C112",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 8,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C113",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 9,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C114",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 10,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C116",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 11,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C117",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 12,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C119",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 13,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C12",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 14,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C14",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 15,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C16",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 16,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C17",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 17,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C18",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 18,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C19",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 19,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C20",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 20,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C22",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 21,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C23",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 22,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C24",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 23,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C25",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 24,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C27",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 25,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C28",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 26,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C3",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 27,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C33",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 28,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C34",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 29,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C37",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 30,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C38",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 31,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C42",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 32,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C43",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 33,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C45",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 34,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C46",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 35,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C47",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 36,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C48",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 37,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C57",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 38,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C58",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 39,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C6",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 40,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C63",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 41,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C64",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 42,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C70",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 43,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C72",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 44,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C73",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 45,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C74",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 46,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C8",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 47,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C80",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 48,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C81",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 49,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C82",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 50,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C84",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 51,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C86",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 52,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C88",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 53,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C89",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 54,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C96",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 55,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C97",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 56,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C98",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 57,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "C99",
+   "source": "0603 MLCC envelope: Murata GRM188 0.9 mm max; 1.0 bounds the 0.8+0.2 thickness codes"
+  },
+  {
+   "context": {
+    "brief_row": 58,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "L10",
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "context": {
+    "brief_row": 59,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "L11",
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "context": {
+    "brief_row": 60,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "L8",
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "context": {
+    "brief_row": 61,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "L9",
+   "source": "0603 RF inductor envelope: Coilcraft 0603HP 0.94 mm, 1.09 with solder"
+  },
+  {
+   "context": {
+    "brief_row": 62,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R10",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 63,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R100",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 64,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R101",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 65,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R102",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 66,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R103",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 67,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R104",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 68,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R105",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 69,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R106",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 70,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R107",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 71,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R108",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 72,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R109",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 73,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R11",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 74,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R110",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 75,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R113",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 76,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R114",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 77,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R115",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 78,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R116",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 79,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R117",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 80,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R118",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 81,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R119",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 82,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R12",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 83,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R120",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 84,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R121",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 85,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R122",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 86,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R123",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 87,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R124",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 88,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R125",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 89,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R13",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 90,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R14",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 91,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R15",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 92,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R16",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 93,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R165",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 94,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R17",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 95,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R18",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 96,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R19",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 97,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R20",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 98,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R21",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 99,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R22",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 100,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R23",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 101,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R38",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 102,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R39",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 103,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R40",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 104,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R41",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 105,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R42",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 106,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R43",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 107,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R44",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 108,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R45",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 109,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R46",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 110,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R47",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 111,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R48",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 112,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R49",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 113,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R50",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 114,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R51",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 115,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R52",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 116,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R53",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 117,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R54",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 118,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R55",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 119,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R56",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 120,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R57",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 121,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R58",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 122,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R59",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 123,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R60",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 124,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R61",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 125,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R62",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 126,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R63",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 127,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R64",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 128,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R65",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 129,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R66",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 130,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R67",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 131,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R68",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 132,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R69",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 133,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R70",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 134,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R71",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 135,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R72",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 136,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R73",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 137,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R74",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 138,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R77",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 139,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R8",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 140,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R82",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 141,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R85",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 142,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R92",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 143,
+    "from": "brief"
+   },
+   "height_mm": 0.55,
+   "ref": "R95",
+   "source": "RC0603/CRCW0603 0603 thick-film envelope, 0.55 mm max"
+  },
+  {
+   "context": {
+    "brief_row": 144,
+    "from": "brief"
+   },
+   "height_mm": 0.8,
+   "ref": "U1",
+   "source": "LMX2541SQ2690E WQFN-36 NJK0036A (SQA36A) datasheet p69: A max 0.8 mm"
+  },
+  {
+   "context": {
+    "brief_row": 145,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U10",
+   "source": "LT1360CS8 SO-8 (S8) datasheet p15: A max 1.752 mm"
+  },
+  {
+   "context": {
+    "brief_row": 146,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U11",
+   "source": "LT1360CS8 SO-8 (S8) datasheet p15: A max 1.752 mm"
+  },
+  {
+   "context": {
+    "brief_row": 147,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "U12",
+   "source": "LTC6655BHMS8 MSOP-8 (MS8) datasheet p23: A max 1.1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 148,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "U13",
+   "source": "LTC6655BHMS8 MSOP-8 (MS8) datasheet p23: A max 1.1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 149,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U14",
+   "source": "LT6600CS8-2.5 SO-8 (S8) datasheet p14: A max 1.752 mm"
+  },
+  {
+   "context": {
+    "brief_row": 150,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U15",
+   "source": "LT6600CS8-2.5 SO-8 (S8) datasheet p14: A max 1.752 mm"
+  },
+  {
+   "context": {
+    "brief_row": 151,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U16",
+   "source": "HMC1097LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 152,
+    "from": "brief"
+   },
+   "height_mm": 0.99,
+   "ref": "U17",
+   "source": "GP2Y+ Mini-Circuits DQ1225 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "context": {
+    "brief_row": 153,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U18",
+   "source": "HMC705LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 154,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U19",
+   "source": "HMC705LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 155,
+    "from": "brief"
+   },
+   "height_mm": 5.33,
+   "ref": "U2",
+   "source": "CVHD-950M-108.3681 9x14 mm SMD datasheet p3: A max 5.33 mm"
+  },
+  {
+   "context": {
+    "brief_row": 156,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U20",
+   "source": "HMC705LP4E LP4 (24-lead 4x4 QFN) datasheet p6: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 157,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U21",
+   "source": "PMA2-43LN+ Mini-Circuits MC1631-1 (2x2 mm MCLP) datasheet p1: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 158,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U22",
+   "source": "PMA2-43LN+ Mini-Circuits MC1631-1 (2x2 mm MCLP) datasheet p1: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 159,
+    "from": "brief"
+   },
+   "height_mm": 0.99,
+   "ref": "U23",
+   "source": "GAT-5+ Mini-Circuits FG873 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "context": {
+    "brief_row": 160,
+    "from": "brief"
+   },
+   "height_mm": 1.07,
+   "ref": "U24",
+   "source": "QCN-34+ Mini-Circuits FV1206 datasheet p2: A max 1.07 mm"
+  },
+  {
+   "context": {
+    "brief_row": 161,
+    "from": "brief"
+   },
+   "height_mm": 0.99,
+   "ref": "U25",
+   "source": "GP2Y+ Mini-Circuits DQ1225 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "context": {
+    "brief_row": 162,
+    "from": "brief"
+   },
+   "height_mm": 2.21,
+   "ref": "U26",
+   "source": "SIM-73L+ Mini-Circuits HV1195 datasheet p1: A max 2.21 mm"
+  },
+  {
+   "context": {
+    "brief_row": 163,
+    "from": "brief"
+   },
+   "height_mm": 2.21,
+   "ref": "U27",
+   "source": "SIM-73L+ Mini-Circuits HV1195 datasheet p1: A max 2.21 mm"
+  },
+  {
+   "context": {
+    "brief_row": 164,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "U28",
+   "source": "OPA2209AIDGKR VSSOP-8 (DGK0008A) datasheet p33: A max 1.1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 165,
+    "from": "brief"
+   },
+   "height_mm": 1.2,
+   "ref": "U29",
+   "source": "ADS8694IDBT TSSOP-38 (DBT0038A) datasheet p76: A max 1.2 mm"
+  },
+  {
+   "context": {
+    "brief_row": 166,
+    "from": "brief"
+   },
+   "height_mm": 0.99,
+   "ref": "U3",
+   "source": "GP2Y+ Mini-Circuits DQ1225 datasheet p1: A max 0.89 mm (nominal, +tol)"
+  },
+  {
+   "context": {
+    "brief_row": 167,
+    "from": "brief"
+   },
+   "height_mm": 1.1,
+   "ref": "U30",
+   "source": "LTC6655BHMS8 MSOP-8 (MS8) datasheet p23: A max 1.1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 168,
+    "from": "brief"
+   },
+   "height_mm": 1.6,
+   "ref": "U4",
+   "source": "LTC2758ACLX LQFP-48 (LX48, 7x7) datasheet p22: A max 1.6 mm"
+  },
+  {
+   "context": {
+    "brief_row": 169,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U5",
+   "source": "LT1012ACS8 SO-8 (S8) datasheet p19: A max 1.752 mm"
+  },
+  {
+   "context": {
+    "brief_row": 170,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U6",
+   "source": "LT1012ACS8 SO-8 (S8) datasheet p19: A max 1.752 mm"
+  },
+  {
+   "context": {
+    "brief_row": 171,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U7",
+   "source": "LTC2054HVCS5 TSOT-23-5 (S5) datasheet p15: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 172,
+    "from": "brief"
+   },
+   "height_mm": 1.0,
+   "ref": "U8",
+   "source": "LTC2054HVCS5 TSOT-23-5 (S5) datasheet p15: A max 1 mm"
+  },
+  {
+   "context": {
+    "brief_row": 173,
+    "from": "brief"
+   },
+   "height_mm": 1.752,
+   "ref": "U9",
+   "source": "LTC6241HVCS8 SO-8 (S8) datasheet p27: A max 1.752 mm"
+  }
+ ],
+ "keep_away": [
+  {
+   "context": {
+    "brief_row": 0,
+    "why": "designer intent 2: LO/PLL nets stay at least 3 mm from digital nets (digital = the digital-interface sheet nets; LO/PLL = PLL can signal nets and the LO path into the splitter, IQ modulator and mixer amps)"
+   },
+   "rule": "/TOP/ADC//ADC_CS,/TOP/ADC//ADC_RST,/TOP/ADC/ADC_ALARM,/TOP/ADC/ADC_MISO,/TOP/ADC/ADC_MOSI,/TOP/ADC/ADC_SCK,/TOP/DAC//DAC_CS,/TOP/DAC/DAC_MISO,/TOP/DAC/DAC_MOSI,/TOP/DAC/DAC_SCK,/TOP/Frequency?dividers/FD0_BYP,/TOP/Frequency?dividers/FD0_N0,/TOP/Frequency?dividers/FD0_N1,/TOP/Frequency?dividers/FD1_BYP,/TOP/Frequency?dividers/FD1_N0,/TOP/Frequency?dividers/FD1_N1,/TOP/Frequency?dividers/FD2_BYP,/TOP/Frequency?dividers/FD2_DIV1,/TOP/PLL/PLL_CE,/TOP/PLL/PLL_CLK,/TOP/PLL/PLL_DATA,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_LE,/TOP/PLL/PLL_LOCKED,/TOP/digital?interface//ADC_CS-N,/TOP/digital?interface//ADC_CS-P,/TOP/digital?interface//ADC_RST-N,/TOP/digital?interface//ADC_RST-P,/TOP/digital?interface//DAC_CS-N,/TOP/digital?interface//DAC_CS-P,/TOP/digital?interface/ADC_ALARM-N,/TOP/digital?interface/ADC_ALARM-P,/TOP/digital?interface/ADC_MISO-N,/TOP/digital?interface/ADC_MISO-P,/TOP/digital?interface/ADC_MOSI-N,/TOP/digital?interface/ADC_MOSI-P,/TOP/digital?interface/ADC_SCK-N,/TOP/digital?interface/ADC_SCK-P,/TOP/digital?interface/DAC_ENA,/TOP/digital?interface/DAC_ENB,/TOP/digital?interface/DAC_ENC,/TOP/digital?interface/DAC_END,/TOP/digital?interface/DAC_MISO-N,/TOP/digital?interface/DAC_MISO-P,/TOP/digital?interface/DAC_MOSI-N,/TOP/digital?interface/DAC_MOSI-P,/TOP/digital?interface/DAC_SCK-N,/TOP/digital?interface/DAC_SCK-P,/TOP/digital?interface/D_ENA,/TOP/digital?interface/D_ENB,/TOP/digital?interface/FD0_BYP-N,/TOP/digital?interface/FD0_BYP-P,/TOP/digital?interface/FD0_N0-N,/TOP/digital?interface/FD0_N0-P,/TOP/digital?interface/FD0_N1-N,/TOP/digital?interface/FD0_N1-P,/TOP/digital?interface/FD1_BYP-N,/TOP/digital?interface/FD1_BYP-P,/TOP/digital?interface/FD1_N0-N,/TOP/digital?interface/FD1_N0-P,/TOP/digital?interface/FD1_N1-N,/TOP/digital?interface/FD1_N1-P,/TOP/digital?interface/FD2_BYP-N,/TOP/digital?interface/FD2_BYP-P,/TOP/digital?interface/FD2_DIV1-N,/TOP/digital?interface/FD2_DIV1-P,/TOP/digital?interface/FD_ENA,/TOP/digital?interface/FD_ENB,/TOP/digital?interface/FD_ENC,/TOP/digital?interface/FD_END,/TOP/digital?interface/PLL_CE-N,/TOP/digital?interface/PLL_CE-P,/TOP/digital?interface/PLL_CLK-N,/TOP/digital?interface/PLL_CLK-P,/TOP/digital?interface/PLL_DATA-N,/TOP/digital?interface/PLL_DATA-P,/TOP/digital?interface/PLL_ENA,/TOP/digital?interface/PLL_ENB,/TOP/digital?interface/PLL_ENC,/TOP/digital?interface/PLL_END,/TOP/digital?interface/PLL_ENout-N,/TOP/digital?interface/PLL_ENout-P,/TOP/digital?interface/PLL_LE-N,/TOP/digital?interface/PLL_LE-P,/TOP/digital?interface/PLL_LOCKED-N,/TOP/digital?interface/PLL_LOCKED-P,/TOP/digital?interface/SPARE0-N,/TOP/digital?interface/SPARE0-P,/TOP/digital?interface/SPARE1-N,/TOP/digital?interface/SPARE1-P,/TOP/digital?interface/SPARE2-N,/TOP/digital?interface/SPARE2-P,/TOP/digital?interface/SPARE3-N,/TOP/digital?interface/SPARE3-P,/TOP/digital?interface/SPARE4-N,/TOP/digital?interface/SPARE4-P,/TOP/digital?interface/SPARE5-N,/TOP/digital?interface/SPARE5-P,/TOP/digital?interface/SPARE6-N,/TOP/digital?interface/SPARE6-P,/TOP/digital?interface/SPARE7-N,/TOP/digital?interface/SPARE7-P,Net-(J5-Pad78),Net-(J5-Pad80),Net-(R128-Pad2),Net-(R129-Pad1),Net-(R130-Pad1),Net-(R131-Pad1),Net-(R132-Pad2),Net-(R134-Pad2),Net-(R136-Pad2),Net-(R138-Pad2),Net-(R140-Pad2),Net-(R142-Pad2),Net-(R144-Pad2),Net-(R146-Pad2),Net-(R147-Pad2),Net-(R148-Pad2),Net-(R149-Pad2),Net-(R152-Pad2),Net-(R153-Pad2),Net-(U31-Pad23),Net-(U31-Pad24),Net-(U31-Pad26),Net-(U33-Pad11),Net-(U35-Pad11),Net-(U35-Pad3),Net-(U35-Pad6),Net-(U35-Pad8),Net-(U38-Pad28),Net-(U38-Pad29),Net-(U38-Pad30):/TOP/DAC?Interface/I_N,/TOP/DAC?Interface/I_P,/TOP/DAC?Interface/Q_N,/TOP/DAC?Interface/Q_P,/TOP/Frequency?dividers/IQout1,/TOP/Frequency?mixers/IQout0,/TOP/Frequency?mixers/PLLout0,/TOP/IQ?modulator/PLLout1,/TOP/PLL/PLL_ENout,/TOP/PLL/PLL_IN,/TOP/PLL/PLL_OUT,Net-(C10-Pad1),Net-(C101-Pad1),Net-(C105-Pad1),Net-(C108-Pad1),Net-(C108-Pad2),Net-(C11-Pad1),Net-(C12-Pad1),Net-(C13-Pad1),Net-(C14-Pad1),Net-(C15-Pad1),Net-(C16-Pad2),Net-(C17-Pad1),Net-(C18-Pad1),Net-(C19-Pad1),Net-(C2-Pad1),Net-(C20-Pad1),Net-(C20-Pad2),Net-(C22-Pad2),Net-(C23-Pad1),Net-(C23-Pad2),Net-(C24-Pad1),Net-(C24-Pad2),Net-(C3-Pad2),Net-(C5-Pad1),Net-(C63-Pad2),Net-(C64-Pad1),Net-(C64-Pad2),Net-(C7-Pad2),Net-(C70-Pad1),Net-(C70-Pad2),Net-(C9-Pad1),Net-(C98-Pad2),Net-(L2-Pad2),Net-(L3-Pad2),Net-(R10-Pad1),Net-(R108-Pad1),Net-(R11-Pad1),Net-(R12-Pad1),Net-(R20-Pad2),Net-(R22-Pad1),Net-(R72-Pad1),Net-(R9-Pad2),Net-(U1-Pad35),Net-(U1-Pad4),Net-(U1-Pad5),Net-(U1-Pad6),Net-(U16-Pad1),Net-(U16-Pad13),Net-(U16-Pad15),Net-(U16-Pad6),Net-(U23-Pad3),Net-(U24-Pad4),Net-(U24-Pad6):3",
+   "source": "brief"
+  }
+ ],
+ "keepouts": [
+  {
+   "allow": [
+    "BOX1"
+   ],
+   "circle": [
+    128.9624,
+    210.1978,
+    4.5
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+   },
+   "name": "box-post-1",
+   "sides": [
+    "F",
+    "B"
+   ]
+  },
+  {
+   "allow": [
+    "BOX1"
+   ],
+   "circle": [
+    239.4624,
+    210.1978,
+    4.5
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+   },
+   "name": "box-post-2",
+   "sides": [
+    "F",
+    "B"
+   ]
+  },
+  {
+   "allow": [
+    "BOX1"
+   ],
+   "circle": [
+    239.4624,
+    99.6978,
+    4.5
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+   },
+   "name": "box-post-3",
+   "sides": [
+    "F",
+    "B"
+   ]
+  },
+  {
+   "allow": [
+    "BOX1"
+   ],
+   "circle": [
+    128.9624,
+    99.6978,
+    4.5
+   ],
+   "context": {
+    "kind": "mounting_hole",
+    "source": "brief",
+    "why": "Hammond 1590Q enclosure post (BOX1 pad, drill 4 mm): normal hole clearance, no part within 2.5 mm of the hole edge. Round 1 found check_assembly gates parts on these pads while place_simple did not avoid them."
+   },
+   "name": "box-post-4",
+   "sides": [
+    "F",
+    "B"
+   ]
+  },
+  {
+   "allow": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "U1",
+    "U2",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 0,
+    "derived_from": "cans[J7]",
+    "from": "brief"
+   },
+   "name": "can:J7:B",
+   "rect": [
+    131.01,
+    159.66,
+    161.81,
+    190.46
+   ],
+   "sides": [
+    "B"
+   ],
+   "why": "inside can 'J7': its own parts only"
+  },
+  {
+   "allow": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C2",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15",
+    "R18",
+    "R19",
+    "R2",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "U1",
+    "U2",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 0,
+    "derived_from": "cans[J7]",
+    "from": "brief"
+   },
+   "name": "can:J7:F",
+   "rect": [
+    131.01,
+    159.66,
+    161.81,
+    190.46
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "inside can 'J7': its own parts only"
+  },
+  {
+   "context": {
+    "brief_row": 0,
+    "derived_from": "cans[J7]",
+    "from": "brief"
+   },
+   "max_height_mm": 5.5,
+   "name": "can:J7:height",
+   "rect": [
+    131.01,
+    159.66,
+    161.81,
+    190.46
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "under can 'J7': 6 mm of room, less the 0.5 mm cover margin",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "allow": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C20",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R14",
+    "R16",
+    "R165",
+    "R17",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U3",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 1,
+    "derived_from": "cans[J8]",
+    "from": "brief"
+   },
+   "name": "can:J8:B",
+   "rect": [
+    168.8306,
+    176.3605,
+    199.6306,
+    207.1605
+   ],
+   "sides": [
+    "B"
+   ],
+   "why": "inside can 'J8': its own parts only"
+  },
+  {
+   "allow": [
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C20",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71",
+    "C98",
+    "C99",
+    "L10",
+    "L11",
+    "L8",
+    "L9",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R106",
+    "R107",
+    "R108",
+    "R14",
+    "R16",
+    "R165",
+    "R17",
+    "R70",
+    "R71",
+    "R72",
+    "R73",
+    "U16",
+    "U17",
+    "U21",
+    "U22",
+    "U23",
+    "U24",
+    "U25",
+    "U26",
+    "U27",
+    "U3",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 1,
+    "derived_from": "cans[J8]",
+    "from": "brief"
+   },
+   "name": "can:J8:F",
+   "rect": [
+    168.8306,
+    176.3605,
+    199.6306,
+    207.1605
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "inside can 'J8': its own parts only"
+  },
+  {
+   "context": {
+    "brief_row": 1,
+    "derived_from": "cans[J8]",
+    "from": "brief"
+   },
+   "max_height_mm": 5.5,
+   "name": "can:J8:height",
+   "rect": [
+    168.8306,
+    176.3605,
+    199.6306,
+    207.1605
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "under can 'J8': 6 mm of room, less the 0.5 mm cover margin",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "allow": [
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 2,
+    "derived_from": "cans[J9]",
+    "from": "brief"
+   },
+   "name": "can:J9:B",
+   "rect": [
+    168.8306,
+    138.5424,
+    199.6306,
+    169.3424
+   ],
+   "sides": [
+    "B"
+   ],
+   "why": "inside can 'J9': its own parts only"
+  },
+  {
+   "allow": [
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "C55",
+    "C56",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "R50",
+    "R51",
+    "R52",
+    "R53",
+    "R54",
+    "R55",
+    "R56",
+    "R57",
+    "R58",
+    "R59",
+    "R60",
+    "R61",
+    "R62",
+    "R63",
+    "R64",
+    "R65",
+    "R66",
+    "R67",
+    "R68",
+    "R69",
+    "U10",
+    "U11",
+    "U12",
+    "U13",
+    "U14",
+    "U15",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 2,
+    "derived_from": "cans[J9]",
+    "from": "brief"
+   },
+   "name": "can:J9:F",
+   "rect": [
+    168.8306,
+    138.5424,
+    199.6306,
+    169.3424
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "inside can 'J9': its own parts only"
+  },
+  {
+   "context": {
+    "brief_row": 2,
+    "derived_from": "cans[J9]",
+    "from": "brief"
+   },
+   "max_height_mm": 5.5,
+   "name": "can:J9:height",
+   "rect": [
+    168.8306,
+    138.5424,
+    199.6306,
+    169.3424
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "under can 'J9': 6 mm of room, less the 0.5 mm cover margin",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "allow": [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 3,
+    "derived_from": "cans[J10]",
+    "from": "brief"
+   },
+   "name": "can:J10:B",
+   "rect": [
+    206.641,
+    164.0745,
+    237.441,
+    194.8745
+   ],
+   "sides": [
+    "B"
+   ],
+   "why": "inside can 'J10': its own parts only"
+  },
+  {
+   "allow": [
+    "C72",
+    "C73",
+    "C74",
+    "C75",
+    "C76",
+    "C77",
+    "C78",
+    "C79",
+    "C80",
+    "C81",
+    "C82",
+    "C83",
+    "C84",
+    "C85",
+    "C86",
+    "C87",
+    "C88",
+    "C89",
+    "C90",
+    "C91",
+    "C92",
+    "C93",
+    "C94",
+    "C95",
+    "C96",
+    "C97",
+    "R74",
+    "R75",
+    "R76",
+    "R77",
+    "R78",
+    "R79",
+    "R80",
+    "R81",
+    "R82",
+    "R83",
+    "R84",
+    "R85",
+    "R86",
+    "R87",
+    "R88",
+    "R89",
+    "R90",
+    "R91",
+    "R92",
+    "R93",
+    "R94",
+    "R95",
+    "R96",
+    "R97",
+    "R98",
+    "R99",
+    "U18",
+    "U19",
+    "U20",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 3,
+    "derived_from": "cans[J10]",
+    "from": "brief"
+   },
+   "name": "can:J10:F",
+   "rect": [
+    206.641,
+    164.0745,
+    237.441,
+    194.8745
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "inside can 'J10': its own parts only"
+  },
+  {
+   "context": {
+    "brief_row": 3,
+    "derived_from": "cans[J10]",
+    "from": "brief"
+   },
+   "max_height_mm": 5.5,
+   "name": "can:J10:height",
+   "rect": [
+    206.641,
+    164.0745,
+    237.441,
+    194.8745
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "under can 'J10': 6 mm of room, less the 0.5 mm cover margin",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "allow": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 4,
+    "derived_from": "cans[J11]",
+    "from": "brief"
+   },
+   "name": "can:J11:B",
+   "rect": [
+    131.01,
+    121.8546,
+    161.81,
+    152.6546
+   ],
+   "sides": [
+    "B"
+   ],
+   "why": "inside can 'J11': its own parts only"
+  },
+  {
+   "allow": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "R109",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R123",
+    "R124",
+    "R125",
+    "R126",
+    "R127",
+    "U28",
+    "U29",
+    "U30",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 4,
+    "derived_from": "cans[J11]",
+    "from": "brief"
+   },
+   "name": "can:J11:F",
+   "rect": [
+    131.01,
+    121.8546,
+    161.81,
+    152.6546
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "inside can 'J11': its own parts only"
+  },
+  {
+   "context": {
+    "brief_row": 4,
+    "derived_from": "cans[J11]",
+    "from": "brief"
+   },
+   "max_height_mm": 5.5,
+   "name": "can:J11:height",
+   "rect": [
+    131.01,
+    121.8546,
+    161.81,
+    152.6546
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "under can 'J11': 6 mm of room, less the 0.5 mm cover margin",
+   "allow": [
+    "BOX1"
+   ]
+  },
+  {
+   "allow": [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 5,
+    "derived_from": "cans[J12]",
+    "from": "brief"
+   },
+   "name": "can:J12:B",
+   "rect": [
+    168.8306,
+    100.7168,
+    199.6306,
+    131.5168
+   ],
+   "sides": [
+    "B"
+   ],
+   "why": "inside can 'J12': its own parts only"
+  },
+  {
+   "allow": [
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C31",
+    "C32",
+    "C33",
+    "C34",
+    "C35",
+    "C36",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R41",
+    "R42",
+    "R43",
+    "R44",
+    "R45",
+    "R46",
+    "R47",
+    "R48",
+    "R49",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9",
+    "BOX1"
+   ],
+   "context": {
+    "brief_row": 5,
+    "derived_from": "cans[J12]",
+    "from": "brief"
+   },
+   "name": "can:J12:F",
+   "rect": [
+    168.8306,
+    100.7168,
+    199.6306,
+    131.5168
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "inside can 'J12': its own parts only"
+  },
+  {
+   "context": {
+    "brief_row": 5,
+    "derived_from": "cans[J12]",
+    "from": "brief"
+   },
+   "max_height_mm": 5.5,
+   "name": "can:J12:height",
+   "rect": [
+    168.8306,
+    100.7168,
+    199.6306,
+    131.5168
+   ],
+   "sides": [
+    "F"
+   ],
+   "why": "under can 'J12': 6 mm of room, less the 0.5 mm cover margin",
+   "allow": [
+    "BOX1"
+   ]
+  }
+ ],
+ "kind": "floorplan-intent",
+ "legality_budget": {
+  "overlap_area": 0.0,
+  "oob_count": 0
+ },
+ "min_reader": 19,
+ "must_lock": [],
+ "schema": 1,
+ "units": "mm",
+ "chains": [
+  {
+   "name": "power_reg_5v1",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L12",
+     "C143",
+     "C148",
+     "C155",
+     "C162",
+     "TP1"
+    ],
+    [
+     "U39",
+     "C139",
+     "C141",
+     "C146",
+     "C151",
+     "C153",
+     "C158",
+     "C160",
+     "D2",
+     "R154"
+    ],
+    [
+     "U18",
+     "U19",
+     "U20",
+     "U36",
+     "U37"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "power_reg_5v2",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L12",
+     "C143",
+     "C148",
+     "C155",
+     "C162",
+     "TP1"
+    ],
+    [
+     "U40",
+     "C140",
+     "C142",
+     "C147",
+     "C152",
+     "C154",
+     "C159",
+     "C161",
+     "D3",
+     "R155"
+    ],
+    [
+     "U4",
+     "U9",
+     "U12",
+     "U13",
+     "U14",
+     "U15",
+     "U16",
+     "U28",
+     "U29",
+     "U30",
+     "U33"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "power_reg_3v3_1",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L12",
+     "C143",
+     "C148",
+     "C155",
+     "C162",
+     "TP1"
+    ],
+    [
+     "U41",
+     "C165",
+     "C170",
+     "C175",
+     "C180",
+     "C183",
+     "C188",
+     "C193",
+     "D4",
+     "R160"
+    ],
+    [
+     "U1",
+     "U2"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "power_reg_3v3_2",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L12",
+     "C143",
+     "C148",
+     "C155",
+     "C162",
+     "TP1"
+    ],
+    [
+     "U42",
+     "C166",
+     "C171",
+     "C176",
+     "C181",
+     "C184",
+     "C189",
+     "C194",
+     "D5",
+     "R161"
+    ],
+    [
+     "U29",
+     "U31",
+     "U32",
+     "U34",
+     "U35",
+     "U38"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "power_reg_15v",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L13",
+     "C144",
+     "C149",
+     "C156",
+     "C163",
+     "TP2"
+    ],
+    [
+     "U43",
+     "C167",
+     "C172",
+     "C177",
+     "C182",
+     "C185",
+     "C190",
+     "C195",
+     "D6",
+     "R162"
+    ],
+    [
+     "U5",
+     "U6",
+     "U10",
+     "U11"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "power_reg_n5v",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L14",
+     "C145",
+     "C150",
+     "C157",
+     "C164",
+     "TP3"
+    ],
+    [
+     "U44",
+     "C168",
+     "C173",
+     "C178",
+     "R156",
+     "R157",
+     "C186",
+     "C191",
+     "C196",
+     "C198",
+     "C200",
+     "D7",
+     "R163"
+    ],
+    [
+     "U7",
+     "U8",
+     "U9",
+     "U14",
+     "U15",
+     "U28"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "power_reg_n15v",
+   "stages": [
+    [
+     "J6"
+    ],
+    [
+     "L14",
+     "C145",
+     "C150",
+     "C157",
+     "C164",
+     "TP3"
+    ],
+    [
+     "U45",
+     "C169",
+     "C174",
+     "C179",
+     "R158",
+     "R159",
+     "C187",
+     "C192",
+     "C197",
+     "C199",
+     "C201",
+     "D8",
+     "R164"
+    ],
+    [
+     "U5",
+     "U6",
+     "U10",
+     "U11"
+    ]
+   ],
+   "max_mm": [
+    10,
+    25,
+    45
+   ],
+   "why": "designer intent 4: input -> filter -> regulator -> loads in that order; no distances were stated, so the limits (10, 25, 45 mm courtyard gap) are this run's derived defaults sized to the fixed cans",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "rf_pll_ref",
+   "stages": [
+    [
+     "J1"
+    ],
+    [
+     "C3",
+     "R8",
+     "R10"
+    ],
+    [
+     "U1"
+    ],
+    [
+     "C16"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "rf_lo_to_mixer_lo",
+   "stages": [
+    [
+     "U3"
+    ],
+    [
+     "C98",
+     "R100"
+    ],
+    [
+     "L8",
+     "U21"
+    ],
+    [
+     "C108"
+    ],
+    [
+     "U23"
+    ],
+    [
+     "U24"
+    ],
+    [
+     "U26",
+     "U27"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "rf_lo_to_iq",
+   "stages": [
+    [
+     "U3"
+    ],
+    [
+     "C63",
+     "R70"
+    ],
+    [
+     "U16"
+    ],
+    [
+     "C70"
+    ],
+    [
+     "U17"
+    ],
+    [
+     "C99",
+     "R101"
+    ],
+    [
+     "U22"
+    ],
+    [
+     "C109"
+    ],
+    [
+     "U25"
+    ],
+    [
+     "U26",
+     "U27"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "rf_dividers",
+   "stages": [
+    [
+     "C72",
+     "R74"
+    ],
+    [
+     "U18"
+    ],
+    [
+     "C80",
+     "C81"
+    ],
+    [
+     "U19"
+    ],
+    [
+     "C88",
+     "C89"
+    ],
+    [
+     "U20"
+    ],
+    [
+     "C96",
+     "C97"
+    ],
+    [
+     "J3",
+     "J4"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "analog_dac_out_i",
+   "stages": [
+    [
+     "U10"
+    ],
+    [
+     "R62"
+    ],
+    [
+     "U14"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "analog_dac_out_q",
+   "stages": [
+    [
+     "U11"
+    ],
+    [
+     "R64"
+    ],
+    [
+     "U15"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "analog_dac",
+   "stages": [
+    [
+     "U4"
+    ],
+    [
+     "U9"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "analog_adc",
+   "stages": [
+    [
+     "R115",
+     "R116",
+     "R117",
+     "R118"
+    ],
+    [
+     "U28"
+    ],
+    [
+     "C110",
+     "C111",
+     "R123",
+     "R124"
+    ],
+    [
+     "U29"
+    ]
+   ],
+   "max_mm": 3.0,
+   "why": "designer intent 2: RF/analog path in signal order; 3 mm stage-to-stage courtyard gap is this run's derived default (no distance stated)",
+   "context": {
+    "basis": "derived_default"
+   }
+  }
+ ],
+ "links": [
+  {
+   "name": "digital_at_J5_dig_spi",
+   "a": [
+    "U32",
+    "U33",
+    "U38"
+   ],
+   "b": [
+    "J5"
+   ],
+   "max_mm": 10,
+   "why": "designer intent 7: digital circuitry next to J5; 10 mm is this run's derived default",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "digital_at_J5_dig_pll_ctl",
+   "a": [
+    "U31",
+    "U35"
+   ],
+   "b": [
+    "J5"
+   ],
+   "max_mm": 10,
+   "why": "designer intent 7: digital circuitry next to J5; 10 mm is this run's derived default",
+   "context": {
+    "basis": "derived_default"
+   }
+  },
+  {
+   "name": "digital_at_J5_dig_div_ctl",
+   "a": [
+    "U34",
+    "U36",
+    "U37"
+   ],
+   "b": [
+    "J5"
+   ],
+   "max_mm": 10,
+   "why": "designer intent 7: digital circuitry next to J5; 10 mm is this run's derived default",
+   "context": {
+    "basis": "derived_default"
+   }
+  }
+ ],
+ "rails": [
+  {
+   "nets": [
+    "GND",
+    "5V_1",
+    "5V_2",
+    "3V3_1",
+    "3V3_2",
+    "15V",
+    "-15V",
+    "-5V",
+    "7V5",
+    "24V",
+    "-24V"
+   ],
+   "why": "supplies: -5V, 3V3_1, 5V_2 and GND are poured on the board's own zones, the rest are routed wide"
+  }
+ ],
+ "replicate": [
+  {
+   "channels": [
+    [
+     "U14",
+     "C55",
+     "C57",
+     "R68",
+     "R66",
+     "R60",
+     "R58"
+    ],
+    [
+     "U15",
+     "C56",
+     "C58",
+     "R69",
+     "R67",
+     "R61",
+     "R59"
+    ]
+   ],
+   "why": "designer intent 3: I/Q reconstruction filters laid out as matched copies (a translated copy: a mirror cannot be expressed)"
+  },
+  {
+   "channels": [
+    [
+     "U10",
+     "R54",
+     "C47",
+     "C42",
+     "R52",
+     "R50",
+     "R48",
+     "R56",
+     "R62"
+    ],
+    [
+     "U11",
+     "R55",
+     "C48",
+     "C43",
+     "R53",
+     "R51",
+     "R49",
+     "R57",
+     "R64"
+    ]
+   ],
+   "why": "designer intent 3: I/Q DAC output amplifiers laid out as matched copies (a translated copy: a mirror cannot be expressed)"
+  }
+ ],
+ "proximity": [
+  {
+   "ref": "L8",
+   "near": "U21",
+   "max_mm": 2.0,
+   "pads": {
+    "L8": [
+     "1",
+     "2"
+    ],
+    "U21": [
+     "1",
+     "2"
+    ]
+   },
+   "why": "bias choke of gain block U21 at its pins (skill default 2.0 mm; nobody to ask)"
+  },
+  {
+   "ref": "L10",
+   "near": "U21",
+   "max_mm": 2.0,
+   "pads": {
+    "L10": [
+     "1",
+     "2"
+    ],
+    "U21": [
+     "7"
+    ]
+   },
+   "why": "output choke of U21 at pin 7 (skill default)"
+  },
+  {
+   "ref": "L9",
+   "near": "U22",
+   "max_mm": 2.0,
+   "pads": {
+    "L9": [
+     "1",
+     "2"
+    ],
+    "U22": [
+     "1",
+     "2"
+    ]
+   },
+   "why": "bias choke of gain block U22 at its pins (skill default)"
+  },
+  {
+   "ref": "L11",
+   "near": "U22",
+   "max_mm": 2.0,
+   "pads": {
+    "L11": [
+     "1",
+     "2"
+    ],
+    "U22": [
+     "7"
+    ]
+   },
+   "why": "output choke of U22 at pin 7 (skill default)"
+  },
+  {
+   "ref": "C18",
+   "near": "U1",
+   "max_mm": 2.0,
+   "why": "PLL loop filter at the LMX2541 CPout/Vtune pins (skill default)"
+  },
+  {
+   "ref": "R15",
+   "near": "U1",
+   "max_mm": 2.0,
+   "why": "PLL loop filter at the LMX2541 (skill default)"
+  },
+  {
+   "ref": "C19",
+   "near": "U1",
+   "max_mm": 2.0,
+   "why": "PLL loop filter at the LMX2541 (skill default)"
+  }
+ ],
+ "severity": {
+  "proximity": "warn"
+ },
+ "dispositions": {
+  "rules": {
+   "decap_distance": "designer intent 5 asks decaps at their own pin, smallest value nearest, as a SOFT wish with no distance; place_simple's decap term pulls each cap to its pin, and no limit is invented",
+   "zone_exclusive": "the cans' blocks come from the brief's cans[]; the brief does not make them exclusive, and the wall fence keeps strangers out of the wall band"
+  }
+ }
+}
